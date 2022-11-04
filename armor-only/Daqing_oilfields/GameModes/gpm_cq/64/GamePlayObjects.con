@@ -7,6 +7,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 ats_tow
 ObjectTemplate.setObjectTemplate 2 ats_tow
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_ustown_AT0]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_ustown_AT0
@@ -16,6 +17,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 ats_tow
 ObjectTemplate.setObjectTemplate 2 ats_tow
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_ustown_HT0]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_ustown_HT0
@@ -25,6 +27,9 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 TNK_TYPE98
 ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+ObjectTemplate.maxNrOfObjectSpawned 32
+ObjectTemplate.minSpawnDelay 1
+ObjectTemplate.maxSpawnDelay 2
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_ustown_LJ]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_ustown_LJ
@@ -34,6 +39,9 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
 ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 5
+ObjectTemplate.minSpawnDelay 50
+ObjectTemplate.maxSpawnDelay 70
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_chinesebase_HT3]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_chinesebase_HT3
@@ -43,6 +51,9 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 TNK_TYPE98
 ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+ObjectTemplate.maxNrOfObjectSpawned 32
+ObjectTemplate.minSpawnDelay 1
+ObjectTemplate.maxSpawnDelay 2
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_chinesebase_LJ]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_chinesebase_LJ
@@ -52,6 +63,9 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
 ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 5
+ObjectTemplate.minSpawnDelay 50
+ObjectTemplate.maxSpawnDelay 70
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_chinesebase_HJ1]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_chinesebase_HJ1
@@ -61,6 +75,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 jep_nanjing
 ObjectTemplate.setObjectTemplate 2 usjep_hmmwv
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_chinesebase_HJ2]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_chinesebase_HJ2
@@ -70,6 +85,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 jep_nanjing
 ObjectTemplate.setObjectTemplate 2 USJEP_HMMWV
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_chinesebase_AT]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_chinesebase_AT
@@ -78,6 +94,7 @@ ObjectTemplate.modifiedByUser esj
 ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 ats_hj8
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_eastoilfield_HT]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_eastoilfield_HT
@@ -87,6 +104,9 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 TNK_TYPE98
 ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.minSpawnDelay 1
+ObjectTemplate.maxSpawnDelay 2
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_eastoilfield_LJ1]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_eastoilfield_LJ1
@@ -96,6 +116,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
 ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_eastoilfield_Lj]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_eastoilfield_Lj
@@ -105,6 +126,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
 ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_refinery_HT0]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_refinery_HT0
@@ -114,6 +136,9 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 TNK_TYPE98
 ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+ObjectTemplate.maxNrOfObjectSpawned 6
+ObjectTemplate.minSpawnDelay 1
+ObjectTemplate.maxSpawnDelay 2
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_refinery_LJ]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_refinery_LJ
@@ -123,6 +148,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
 ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_refinery_LJ2]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_refinery_LJ2
@@ -132,6 +158,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
 ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_oldcity_HT]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_oldcity_HT
@@ -141,6 +168,9 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 TNK_TYPE98
 ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+ObjectTemplate.maxNrOfObjectSpawned 6
+ObjectTemplate.minSpawnDelay 1
+ObjectTemplate.maxSpawnDelay 2
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_oldcity_HJ]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_oldcity_HJ
@@ -150,6 +180,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
 ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_chinesebase_ART1]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_chinesebase_ART1
@@ -203,6 +234,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
 ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_ustown_TransHeli]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_ustown_TransHeli
@@ -212,6 +244,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 CHTHE_Z8
 ObjectTemplate.setObjectTemplate 2 USTHE_UH60
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_ustown_ART1]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_ustown_ART1
@@ -254,6 +287,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
 ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_gasstation_LightJeep2]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_gasstation_LightJeep2
@@ -263,6 +297,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
 ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_westoilfield_LJ]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_westoilfield_LJ
@@ -272,6 +307,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
 ObjectTemplate.setObjectTemplate 2 usjep_hmmwv
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_ustown_AAS]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_ustown_AAS
@@ -281,6 +317,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
 ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_ustown_AttakHeli]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_ustown_AttakHeli
@@ -290,6 +327,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 AHE_Z10
 ObjectTemplate.setObjectTemplate 2 AHE_AH1Z
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_ustown_HeavyJeep2]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_ustown_HeavyJeep2
@@ -299,6 +337,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 JEP_NANJING
 ObjectTemplate.setObjectTemplate 2 USJEP_HMMWV
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_ustown_ATS]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_ustown_ATS
@@ -308,6 +347,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 ATS_HJ8
 ObjectTemplate.setObjectTemplate 2 ATS_TOW
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_ustown_0]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_ustown_0
@@ -317,6 +357,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
 ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_chinesebase_TransHeli]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_chinesebase_TransHeli
@@ -326,6 +367,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 CHTHE_Z8
 ObjectTemplate.setObjectTemplate 2 USTHE_UH60
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_chinesebase_LightJeep]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_chinesebase_LightJeep
@@ -335,6 +377,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
 ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_chinesebase_bomb]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_chinesebase_bomb
@@ -346,6 +389,7 @@ ObjectTemplate.setObjectTemplate 1 air_su30mkk
 ObjectTemplate.setObjectTemplate 2 USAIR_F15
 ObjectTemplate.minSpawnDelay 50
 ObjectTemplate.maxSpawnDelay 70
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_chinesebase_AAS]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_chinesebase_AAS
@@ -355,6 +399,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
 ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_chinesebase_0]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_chinesebase_0
@@ -364,6 +409,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
 ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_chinesebase_ATS]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_chinesebase_ATS
@@ -373,6 +419,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 ATS_HJ8
 ObjectTemplate.setObjectTemplate 2 ATS_TOW
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_westoilfield_HeavyJeep]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_westoilfield_HeavyJeep
@@ -382,6 +429,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 JEP_NANJING
 ObjectTemplate.setObjectTemplate 2 USJEP_HMMWV
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_powerstation_HeavyJeep]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_powerstation_HeavyJeep
@@ -391,6 +439,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 JEP_NANJING
 ObjectTemplate.setObjectTemplate 2 USJEP_HMMWV
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_oilcisterns_HeavyJeep]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_oilcisterns_HeavyJeep
@@ -400,6 +449,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 JEP_NANJING
 ObjectTemplate.setObjectTemplate 2 USJEP_HMMWV
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_oilcisterns_0_0]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_oilcisterns_0_0
@@ -409,6 +459,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 JEP_NANJING
 ObjectTemplate.setObjectTemplate 2 USJEP_HMMWV
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_oilcisterns_LightJeep]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_oilcisterns_LightJeep
@@ -418,6 +469,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
 ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_chinesebase_0_0]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_chinesebase_0_0
@@ -427,6 +479,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
 ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_eastoilfield_AAS]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_eastoilfield_AAS
@@ -436,6 +489,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
 ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_ustown_UAV]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_ustown_UAV
@@ -491,6 +545,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 JEP_NANJING
 ObjectTemplate.setObjectTemplate 2 USJEP_HMMWV
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_refinery_CH_US_HeavyJeep_0]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_refinery_CH_US_HeavyJeep_0
@@ -500,6 +555,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 JEP_NANJING
 ObjectTemplate.setObjectTemplate 2 USJEP_HMMWV
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_ustown_CH_US_HeavyJeep]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_ustown_CH_US_HeavyJeep
@@ -509,6 +565,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 JEP_NANJING
 ObjectTemplate.setObjectTemplate 2 USJEP_HMMWV
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_oilcisterns_AAS]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_oilcisterns_AAS
@@ -519,6 +576,7 @@ ObjectTemplate.treeCollisionDiameter 0.1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
 ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_ustown_CH_US_SMG]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_ustown_CH_US_SMG
@@ -528,6 +586,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 CH_BIPOD
 ObjectTemplate.setObjectTemplate 2 US_BIPOD
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_ustown_SMG2]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_ustown_SMG2
@@ -538,6 +597,7 @@ ObjectTemplate.treeCollisionDiameter 0.1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 CH_BIPOD
 ObjectTemplate.setObjectTemplate 2 US_BIPOD
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_ustown_SMG4]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_ustown_SMG4
@@ -548,6 +608,7 @@ ObjectTemplate.treeCollisionDiameter 0.1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 CH_BIPOD
 ObjectTemplate.setObjectTemplate 2 US_BIPOD
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_refinery_smg2]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_refinery_smg2
@@ -558,6 +619,7 @@ ObjectTemplate.treeCollisionDiameter 0.1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 CH_BIPOD
 ObjectTemplate.setObjectTemplate 2 US_BIPOD
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_oilcisterns_SMG1]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_oilcisterns_SMG1
@@ -568,6 +630,7 @@ ObjectTemplate.treeCollisionDiameter 0.1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 CH_BIPOD
 ObjectTemplate.setObjectTemplate 2 US_BIPOD
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_oilcisterns_SMG2]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_oilcisterns_SMG2
@@ -578,6 +641,7 @@ ObjectTemplate.treeCollisionDiameter 0.1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 CH_BIPOD
 ObjectTemplate.setObjectTemplate 2 US_BIPOD
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_oilcisterns_SMG3]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_oilcisterns_SMG3
@@ -588,6 +652,7 @@ ObjectTemplate.treeCollisionDiameter 0.1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 CH_BIPOD
 ObjectTemplate.setObjectTemplate 2 US_BIPOD
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_oilcisterns_SMG4]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_oilcisterns_SMG4
@@ -598,6 +663,7 @@ ObjectTemplate.treeCollisionDiameter 0.1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 CH_BIPOD
 ObjectTemplate.setObjectTemplate 2 US_BIPOD
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_oldcity_SMG1]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_oldcity_SMG1
@@ -608,6 +674,7 @@ ObjectTemplate.treeCollisionDiameter 0.1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 CH_BIPOD
 ObjectTemplate.setObjectTemplate 2 US_BIPOD
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_oldcity_SMG2]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_oldcity_SMG2
@@ -618,6 +685,7 @@ ObjectTemplate.treeCollisionDiameter 0.1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 CH_BIPOD
 ObjectTemplate.setObjectTemplate 2 US_BIPOD
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_chinesebase_SMG1]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_chinesebase_SMG1
@@ -628,6 +696,7 @@ ObjectTemplate.treeCollisionDiameter 0.1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 CH_BIPOD
 ObjectTemplate.setObjectTemplate 2 US_BIPOD
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_chinesebase_SMG2]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_chinesebase_SMG2
@@ -638,6 +707,7 @@ ObjectTemplate.treeCollisionDiameter 0.1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 CH_BIPOD
 ObjectTemplate.setObjectTemplate 2 US_BIPOD
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_chinesebase_SMG5]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_chinesebase_SMG5
@@ -648,6 +718,7 @@ ObjectTemplate.treeCollisionDiameter 0.1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 CH_BIPOD
 ObjectTemplate.setObjectTemplate 2 US_BIPOD
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_powerstation_SMG1]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_powerstation_SMG1
@@ -658,6 +729,7 @@ ObjectTemplate.treeCollisionDiameter 0.1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 CH_BIPOD
 ObjectTemplate.setObjectTemplate 2 US_BIPOD
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_chinesebase_CH_US_Fighter]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_chinesebase_CH_US_Fighter
@@ -669,6 +741,7 @@ ObjectTemplate.setObjectTemplate 1 AIR_J10
 ObjectTemplate.setObjectTemplate 2 USAIR_F18
 ObjectTemplate.minSpawnDelay 50
 ObjectTemplate.maxSpawnDelay 70
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_chinesebase_AH]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_chinesebase_AH
@@ -679,6 +752,7 @@ ObjectTemplate.treeCollisionDiameter 0.1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 AHE_Z10
 ObjectTemplate.setObjectTemplate 2 AHE_AH1Z
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_gasstation_CH_US_HeavyTank]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_gasstation_CH_US_HeavyTank
@@ -688,6 +762,9 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 TNK_TYPE98
 ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+ObjectTemplate.maxNrOfObjectSpawned 6
+ObjectTemplate.minSpawnDelay 1
+ObjectTemplate.maxSpawnDelay 2
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_oilcisterns_CH_US_HeavyJeep]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_oilcisterns_CH_US_HeavyJeep
@@ -697,6 +774,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 JEP_NANJING
 ObjectTemplate.setObjectTemplate 2 USJEP_HMMWV
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_powerstation_CH_US_HeavyTank]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_powerstation_CH_US_HeavyTank
@@ -706,6 +784,9 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 TNK_TYPE98
 ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+ObjectTemplate.maxNrOfObjectSpawned 6
+ObjectTemplate.minSpawnDelay 1
+ObjectTemplate.maxSpawnDelay 2
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_powerstation_CH_US_HeavyJeep]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_powerstation_CH_US_HeavyJeep
@@ -715,6 +796,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 JEP_NANJING
 ObjectTemplate.setObjectTemplate 2 USJEP_HMMWV
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_ustown_CH_US_LightJeep]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_ustown_CH_US_LightJeep
@@ -724,6 +806,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
 ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_ustown_CH_US_Fighter]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_ustown_CH_US_Fighter
@@ -735,6 +818,7 @@ ObjectTemplate.setObjectTemplate 1 AIR_J10
 ObjectTemplate.setObjectTemplate 2 USAIR_F18
 ObjectTemplate.minSpawnDelay 50
 ObjectTemplate.maxSpawnDelay 70
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_ustown_CH_US_Fi_bomb_0]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_ustown_CH_US_Fi_bomb_0
@@ -746,6 +830,7 @@ ObjectTemplate.setObjectTemplate 1 air_su30mkk
 ObjectTemplate.setObjectTemplate 2 USAIR_F15
 ObjectTemplate.minSpawnDelay 50
 ObjectTemplate.maxSpawnDelay 70
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_gasstation_CH_US_ATS]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_gasstation_CH_US_ATS
@@ -755,6 +840,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 ATS_HJ8
 ObjectTemplate.setObjectTemplate 2 ATS_TOW
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_ustown_CH_US_SMG_0]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_ustown_CH_US_SMG_0
@@ -764,6 +850,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 CH_BIPOD
 ObjectTemplate.setObjectTemplate 2 US_BIPOD
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_westoilfield_CH_US_LightJeep]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_westoilfield_CH_US_LightJeep
@@ -773,6 +860,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
 ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_westoilfield_ME_US_AAV]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_westoilfield_ME_US_AAV
@@ -782,6 +870,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 aav_type95
 ObjectTemplate.setObjectTemplate 2 USAAV_M6
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_refinery_CH_US_AAV]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_refinery_CH_US_AAV
@@ -791,6 +880,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 AAV_TYPE95
 ObjectTemplate.setObjectTemplate 2 USAAV_M6
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_ustown_CH_US_AAV]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_ustown_CH_US_AAV
@@ -800,6 +890,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 AAV_TYPE95
 ObjectTemplate.setObjectTemplate 2 USAAV_M6
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_oldcity_CH_US_AAV]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_oldcity_CH_US_AAV
@@ -809,6 +900,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 AAV_TYPE95
 ObjectTemplate.setObjectTemplate 2 USAAV_M6
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_chinesebase_CH_US_AAV]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_chinesebase_CH_US_AAV
@@ -818,6 +910,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 AAV_TYPE95
 ObjectTemplate.setObjectTemplate 2 USAAV_M6
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_eastoilfield_CH_US_AttakHeli]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_eastoilfield_CH_US_AttakHeli
@@ -827,6 +920,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 AHE_Z10
 ObjectTemplate.setObjectTemplate 2 AHE_AH1Z
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CPNAME_DO_64_ustown_ART]
 ObjectTemplate.create ObjectSpawner CPNAME_DO_64_ustown_ART

@@ -62,6 +62,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
 ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_LightJeep]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_LightJeep
@@ -72,7 +73,9 @@ ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
 ObjectTemplate.minSpawnDelay 10
 ObjectTemplate.maxSpawnDelay 30
-ObjectTemplate.maxNrOfObjectSpawned 2
+ObjectTemplate.maxNrOfObjectSpawned 5
+ObjectTemplate.minSpawnDelay 50
+ObjectTemplate.maxSpawnDelay 70
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_0]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_0
@@ -83,7 +86,7 @@ ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
 ObjectTemplate.minSpawnDelay 10
 ObjectTemplate.maxSpawnDelay 30
-ObjectTemplate.maxNrOfObjectSpawned 2
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_HeavyTank]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_HeavyTank
@@ -92,6 +95,9 @@ ObjectTemplate.modifiedByUser "robertha"
 ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 rutnk_t90
+ObjectTemplate.maxNrOfObjectSpawned 8
+ObjectTemplate.minSpawnDelay 1
+ObjectTemplate.maxSpawnDelay 2
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_0_0]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_0_0
@@ -100,6 +106,9 @@ ObjectTemplate.modifiedByUser "robertha"
 ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 rutnk_t90
+ObjectTemplate.maxNrOfObjectSpawned 8
+ObjectTemplate.minSpawnDelay 1
+ObjectTemplate.maxSpawnDelay 2
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_1_1]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_1_1
@@ -108,6 +117,9 @@ ObjectTemplate.modifiedByUser "robertha"
 ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 rutnk_t90
+ObjectTemplate.maxNrOfObjectSpawned 8
+ObjectTemplate.minSpawnDelay 1
+ObjectTemplate.maxSpawnDelay 2
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_0_1]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_0_1
@@ -118,6 +130,7 @@ ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 ahe_havoc
 ObjectTemplate.minSpawnDelay 45
 ObjectTemplate.spawnDelayAtStart 1
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_Fighter]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_Fighter
@@ -128,6 +141,7 @@ ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 ruair_mig29
 ObjectTemplate.minSpawnDelay 45
 ObjectTemplate.spawnDelayAtStart 1
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_1_2]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_1_2
@@ -138,7 +152,7 @@ ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
 ObjectTemplate.minSpawnDelay 20
 ObjectTemplate.maxSpawnDelay 30
-ObjectTemplate.maxNrOfObjectSpawned 2
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_Village_LightJeep]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_Village_LightJeep
@@ -150,7 +164,7 @@ ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
 ObjectTemplate.setObjectTemplate 2 xpak2_faav
 ObjectTemplate.minSpawnDelay 10
 ObjectTemplate.maxSpawnDelay 30
-ObjectTemplate.maxNrOfObjectSpawned 2
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_Garage_LightJeep]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_Garage_LightJeep
@@ -162,7 +176,7 @@ ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
 ObjectTemplate.setObjectTemplate 2 xpak2_faav
 ObjectTemplate.minSpawnDelay 10
 ObjectTemplate.maxSpawnDelay 30
-ObjectTemplate.maxNrOfObjectSpawned 2
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_TurbineHill_LightJeep]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_TurbineHill_LightJeep
@@ -174,7 +188,7 @@ ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
 ObjectTemplate.setObjectTemplate 2 xpak2_faav
 ObjectTemplate.minSpawnDelay 10
 ObjectTemplate.maxSpawnDelay 30
-ObjectTemplate.maxNrOfObjectSpawned 2
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_OilPlant_HeavyTank]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_OilPlant_HeavyTank
@@ -184,6 +198,9 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 rutnk_t90
 ObjectTemplate.setObjectTemplate 2 xpak2_tnkc2
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.minSpawnDelay 1
+ObjectTemplate.maxSpawnDelay 2
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_OilPlant_0_4]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_OilPlant_0_4
@@ -193,6 +210,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 rutnk_t90
 ObjectTemplate.setObjectTemplate 2 xpak2_tnkc2
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_OilPlant_LightJeep]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_OilPlant_LightJeep
@@ -204,7 +222,7 @@ ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
 ObjectTemplate.setObjectTemplate 2 xpak2_faav
 ObjectTemplate.minSpawnDelay 10
 ObjectTemplate.maxSpawnDelay 30
-ObjectTemplate.maxNrOfObjectSpawned 2
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_OilPlant_0_5]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_OilPlant_0_5
@@ -216,7 +234,7 @@ ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
 ObjectTemplate.setObjectTemplate 2 xpak2_faav
 ObjectTemplate.minSpawnDelay 10
 ObjectTemplate.maxSpawnDelay 30
-ObjectTemplate.maxNrOfObjectSpawned 2
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_TurbineHill_AAV]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_TurbineHill_AAV
@@ -226,6 +244,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 aav_tunguska
 ObjectTemplate.setObjectTemplate 2 USAAV_M6
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_TurbineHill_0]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_TurbineHill_0
@@ -235,6 +254,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 aav_tunguska
 ObjectTemplate.setObjectTemplate 2 USAAV_M6
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_0_8]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_0_8
@@ -243,7 +263,7 @@ ObjectTemplate.modifiedByUser "robertha"
 ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 2 xpak2_faav
-ObjectTemplate.maxNrOfObjectSpawned 2
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_2_2]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_2_2
@@ -254,7 +274,9 @@ ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 2 xpak2_faav
 ObjectTemplate.minSpawnDelay 15
 ObjectTemplate.maxSpawnDelay 30
-ObjectTemplate.maxNrOfObjectSpawned 2
+ObjectTemplate.maxNrOfObjectSpawned 5
+ObjectTemplate.minSpawnDelay 50
+ObjectTemplate.maxSpawnDelay 70
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_HeavyTank]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_HeavyTank
@@ -263,6 +285,9 @@ ObjectTemplate.modifiedByUser "robertha"
 ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 2 xpak2_tnkc2
+ObjectTemplate.maxNrOfObjectSpawned 8
+ObjectTemplate.minSpawnDelay 1
+ObjectTemplate.maxSpawnDelay 2
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_0_9]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_0_9
@@ -271,6 +296,9 @@ ObjectTemplate.modifiedByUser "robertha"
 ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 2 xpak2_tnkc2
+ObjectTemplate.maxNrOfObjectSpawned 8
+ObjectTemplate.minSpawnDelay 1
+ObjectTemplate.maxSpawnDelay 2
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_3_0]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_3_0
@@ -279,6 +307,9 @@ ObjectTemplate.modifiedByUser "robertha"
 ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 2 xpak2_tnkc2
+ObjectTemplate.maxNrOfObjectSpawned 8
+ObjectTemplate.minSpawnDelay 1
+ObjectTemplate.maxSpawnDelay 2
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_VTOL]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_VTOL
@@ -289,6 +320,7 @@ ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 2 xpak2_eurofighter
 ObjectTemplate.minSpawnDelay 45
 ObjectTemplate.spawnDelayAtStart 1
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_bomb]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_bomb
@@ -300,6 +332,7 @@ ObjectTemplate.setObjectTemplate 1 AFB_SU30
 ObjectTemplate.setObjectTemplate 2 xpak2_eurofighter
 ObjectTemplate.minSpawnDelay 45
 ObjectTemplate.spawnDelayAtStart 1
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_ART]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_ART
@@ -344,6 +377,7 @@ ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 ruair_mig29
 ObjectTemplate.minSpawnDelay 45
 ObjectTemplate.spawnDelayAtStart 1
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_AttakHeli]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_AttakHeli
@@ -355,6 +389,7 @@ ObjectTemplate.setObjectTemplate 1 ahe_havoc
 ObjectTemplate.setObjectTemplate 2 xpak2_tiger
 ObjectTemplate.minSpawnDelay 45
 ObjectTemplate.spawnDelayAtStart 1
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_3_1]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_3_1
@@ -366,6 +401,7 @@ ObjectTemplate.setObjectTemplate 1 ahe_havoc
 ObjectTemplate.setObjectTemplate 2 xpak2_tiger
 ObjectTemplate.minSpawnDelay 45
 ObjectTemplate.spawnDelayAtStart 1
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_AttakHeli]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_AttakHeli
@@ -376,6 +412,7 @@ ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 ahe_havoc
 ObjectTemplate.minSpawnDelay 45
 ObjectTemplate.spawnDelayAtStart 1
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_TurbineHill_ATS]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_TurbineHill_ATS
@@ -385,6 +422,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 ATS_HJ8
 ObjectTemplate.setObjectTemplate 2 ATS_TOW
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_TurbineHill_0_0]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_TurbineHill_0_0
@@ -396,7 +434,7 @@ ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
 ObjectTemplate.setObjectTemplate 2 xpak2_faav
 ObjectTemplate.minSpawnDelay 10
 ObjectTemplate.maxSpawnDelay 30
-ObjectTemplate.maxNrOfObjectSpawned 2
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_Garage_HeavyTank]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_Garage_HeavyTank
@@ -406,6 +444,9 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 rutnk_t90
 ObjectTemplate.setObjectTemplate 2 xpak2_tnkc2
+ObjectTemplate.maxNrOfObjectSpawned 6
+ObjectTemplate.minSpawnDelay 1
+ObjectTemplate.maxSpawnDelay 2
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_Village_HeavyTank]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_Village_HeavyTank
@@ -415,6 +456,9 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 rutnk_t90
 ObjectTemplate.setObjectTemplate 2 xpak2_tnkc2
+ObjectTemplate.maxNrOfObjectSpawned 6
+ObjectTemplate.minSpawnDelay 1
+ObjectTemplate.maxSpawnDelay 2
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_Garage_ATS]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_Garage_ATS
@@ -424,6 +468,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 ATS_HJ8
 ObjectTemplate.setObjectTemplate 2 ATS_TOW
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_Village_ATS]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_Village_ATS
@@ -433,6 +478,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 ATS_HJ8
 ObjectTemplate.setObjectTemplate 2 ATS_TOW
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_OilPlant_AAS]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_OilPlant_AAS
@@ -442,6 +488,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
 ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_OilPlant_0_6]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_OilPlant_0_6
@@ -451,6 +498,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
 ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_AAS]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_AAS
@@ -459,6 +507,7 @@ ObjectTemplate.modifiedByUser "robertha"
 ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_ATS]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_ATS
@@ -467,6 +516,7 @@ ObjectTemplate.modifiedByUser "robertha"
 ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 ATS_HJ8
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_AAS]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_AAS
@@ -475,6 +525,7 @@ ObjectTemplate.modifiedByUser "robertha"
 ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_1_3]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_1_3
@@ -505,6 +556,9 @@ ObjectTemplate.modifiedByUser "robertha"
 ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 rutnk_t90
+ObjectTemplate.maxNrOfObjectSpawned 8
+ObjectTemplate.minSpawnDelay 1
+ObjectTemplate.maxSpawnDelay 2
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_4_0]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_4_0
@@ -513,6 +567,9 @@ ObjectTemplate.modifiedByUser "robertha"
 ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 2 xpak2_tnkc2
+ObjectTemplate.maxNrOfObjectSpawned 8
+ObjectTemplate.minSpawnDelay 1
+ObjectTemplate.maxSpawnDelay 2
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_5_1]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_5_1
@@ -521,6 +578,7 @@ ObjectTemplate.modifiedByUser "robertha"
 ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 ATS_HJ8
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_0_5]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_0_5
@@ -529,6 +587,7 @@ ObjectTemplate.modifiedByUser "robertha"
 ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 mec_bipod
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_0_6]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_0_6
@@ -537,6 +596,7 @@ ObjectTemplate.modifiedByUser "robertha"
 ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 mec_bipod
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_0_9]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_0_9
@@ -545,6 +605,7 @@ ObjectTemplate.modifiedByUser "robertha"
 ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 mec_bipod
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_0_11]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_0_11
@@ -553,6 +614,7 @@ ObjectTemplate.modifiedByUser "robertha"
 ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 mec_bipod
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_Village_SMG]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_Village_SMG
@@ -562,6 +624,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 mec_bipod
 ObjectTemplate.setObjectTemplate 2 US_BIPOD
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_Village_0]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_Village_0
@@ -571,6 +634,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 mec_bipod
 ObjectTemplate.setObjectTemplate 2 US_BIPOD
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_Garage_SMG]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_Garage_SMG
@@ -580,6 +644,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 mec_bipod
 ObjectTemplate.setObjectTemplate 2 US_BIPOD
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_Garage_0_1]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_Garage_0_1
@@ -589,6 +654,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 mec_bipod
 ObjectTemplate.setObjectTemplate 2 US_BIPOD
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_OilPlant_SMG]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_OilPlant_SMG
@@ -598,6 +664,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 mec_bipod
 ObjectTemplate.setObjectTemplate 2 US_BIPOD
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_OilPlant_0_7]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_OilPlant_0_7
@@ -607,6 +674,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 mec_bipod
 ObjectTemplate.setObjectTemplate 2 US_BIPOD
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_LightJeep]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_LightJeep
@@ -617,6 +685,7 @@ ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 2 xpak2_faav
 ObjectTemplate.minSpawnDelay 15
 ObjectTemplate.maxSpawnDelay 30
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_5_0]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_5_0
@@ -625,6 +694,7 @@ ObjectTemplate.modifiedByUser "robertha"
 ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_SMG]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_SMG
@@ -633,6 +703,7 @@ ObjectTemplate.modifiedByUser "robertha"
 ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 2 US_BIPOD
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_1_4]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_1_4
@@ -641,6 +712,7 @@ ObjectTemplate.modifiedByUser "robertha"
 ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 2 US_BIPOD
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_1_5]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_1_5
@@ -649,6 +721,7 @@ ObjectTemplate.modifiedByUser "robertha"
 ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 2 US_BIPOD
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_1_6]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_1_6
@@ -657,6 +730,7 @@ ObjectTemplate.modifiedByUser "robertha"
 ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_ATS]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_ATS
@@ -665,6 +739,7 @@ ObjectTemplate.modifiedByUser "robertha"
 ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 2 ATS_TOW
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_2_3]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_2_3
@@ -673,6 +748,7 @@ ObjectTemplate.modifiedByUser "robertha"
 ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 2 US_BIPOD
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_HillShed_ATS]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_HillShed_ATS
@@ -682,6 +758,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 ATS_HJ8
 ObjectTemplate.setObjectTemplate 2 ATS_TOW
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_HillShed_HeavyTank]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_HillShed_HeavyTank
@@ -691,6 +768,9 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 rutnk_t90
 ObjectTemplate.setObjectTemplate 2 xpak2_tnkc2
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.minSpawnDelay 1
+ObjectTemplate.maxSpawnDelay 2
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_HillShed_LightJeep]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_HillShed_LightJeep
@@ -702,7 +782,7 @@ ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
 ObjectTemplate.setObjectTemplate 2 xpak2_faav
 ObjectTemplate.minSpawnDelay 10
 ObjectTemplate.maxSpawnDelay 30
-ObjectTemplate.maxNrOfObjectSpawned 2
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_TurbineHill_HeavyTank]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_TurbineHill_HeavyTank
@@ -712,6 +792,9 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 rutnk_t90
 ObjectTemplate.setObjectTemplate 2 xpak2_tnkc2
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.minSpawnDelay 1
+ObjectTemplate.maxSpawnDelay 2
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_2_3]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_2_3
@@ -723,6 +806,7 @@ ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
 ObjectTemplate.setObjectTemplate 2 xpak2_faav
 ObjectTemplate.minSpawnDelay 10
 ObjectTemplate.maxSpawnDelay 30
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 rem [ObjectSpawnerTemplate: CP_32p_OSS_Village_CH_US_LightJeep]
 ObjectTemplate.create ObjectSpawner CP_32p_OSS_Village_CH_US_LightJeep
@@ -732,6 +816,7 @@ ObjectTemplate.isNotSaveable 1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
 ObjectTemplate.setObjectTemplate 2 xpak2_faav
+ObjectTemplate.maxNrOfObjectSpawned 0
 
 if v_arg1 == host
 

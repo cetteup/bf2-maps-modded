@@ -104,7 +104,7 @@ renderer.globalStaticMeshLodDistanceScale 1
 renderer.globalBundleMeshLodDistanceScale 1
 renderer.globalSkinnedMeshLodDistanceScale 1
 
-gameLogic.setTeamDropVehicle 1 "jep_mec_paratrooper"
-gameLogic.setTeamDropVehicle 2 "Jeep_faav"
+gameLogic.setTeamDropVehicle 1 "RUTNK_T90"
+gameLogic.setTeamDropVehicle 2 "USTNK_M1A2"
 
 objectdrawer.collectplanesdistance 100

@@ -103,8 +103,8 @@ renderer.globalStaticMeshLodDistanceScale 1
 renderer.globalBundleMeshLodDistanceScale 1
 renderer.globalSkinnedMeshLodDistanceScale 1
 
-gameLogic.setTeamDropVehicle 1 "jep_mec_paratrooper"
-gameLogic.setTeamDropVehicle 2 "xpak2_faav"
+gameLogic.setTeamDropVehicle 1 "rutnk_t90"
+gameLogic.setTeamDropVehicle 2 "xpak2_tnkc2"
 
 rem Effects
 run Objects\Effects\vehicles\explosionsxp2\e_vexp_xpak_eurofighter\e_vexp_xpak_eurofighter.con
