@@ -103,8 +103,8 @@ renderer.globalStaticMeshLodDistanceScale 1
 renderer.globalBundleMeshLodDistanceScale 1
 renderer.globalSkinnedMeshLodDistanceScale 1
 
-gameLogic.setTeamDropVehicle 1 "jep_mec_paratrooper"
-gameLogic.setTeamDropVehicle 2 "JEEP_FAAV"
+gameLogic.setTeamDropVehicle 1 "RUTNK_T90"
+gameLogic.setTeamDropVehicle 2 "USTNK_M1A2"
 
 rem StaticObjects
 run objects/staticobjects/custom/billboard_highway_ad_01/billboard_highway_ad_01.con
