@@ -1,0 +1,796 @@
+rem ********** Object Spawner **********
+rem [ObjectSpawnerTemplate: CPNAME_GP_16_wmineentrance_ATS]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_16_wmineentrance_ATS
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_16_wmineentrance_ATS
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ats_hj8
+ObjectTemplate.setObjectTemplate 2 ats_tow
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_16_emineentrance_ATS]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_16_emineentrance_ATS
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_16_emineentrance_ATS
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ats_hj8
+ObjectTemplate.setObjectTemplate 2 ats_tow
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_16_emineentrance_APC]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_16_emineentrance_APC
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_16_emineentrance_APC
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 APC_WZ551
+ObjectTemplate.setObjectTemplate 2 USAPC_LAV25
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_16_emineentrance_LightJeep]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_16_emineentrance_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_16_emineentrance_LightJeep
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_16_wmineentrance_LightJeep]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_16_wmineentrance_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_16_wmineentrance_LightJeep
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_16_wmineentrance_APC]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_16_wmineentrance_APC
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_16_wmineentrance_APC
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 apc_wz551
+ObjectTemplate.setObjectTemplate 2 usapc_lav25
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_16_emineentrance_LightJeep_0]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_16_emineentrance_LightJeep_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_16_emineentrance_LightJeep_0
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_16_wmineentrance_LightJeep_0]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_16_wmineentrance_LightJeep_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_16_wmineentrance_LightJeep_0
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_16_wmineentrance_UAV]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_16_wmineentrance_UAV
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_16_wmineentrance_UAV
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 aircontroltower_chi
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_16_wmineentrance_Radar]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_16_wmineentrance_Radar
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_16_wmineentrance_Radar
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 mobileradar_ch_dest
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_16_emineentrance_UAV]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_16_emineentrance_UAV
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_16_emineentrance_UAV
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 aircontroltower
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_16_emineentrance_Radar]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_16_emineentrance_Radar
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_16_emineentrance_Radar
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 mobileradar_us_dest
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_16_wmineentrance_ART]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_16_wmineentrance_ART
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_16_wmineentrance_ART
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ARS_D30
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_16_emineentrance_ART]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_16_emineentrance_ART
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_16_emineentrance_ART
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 USART_LW155
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_16_island_CH_US_SMG]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_16_island_CH_US_SMG
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_16_island_CH_US_SMG
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 CH_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_16_island_CH_US_SMG_0]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_16_island_CH_US_SMG_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_16_island_CH_US_SMG_0
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 CH_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_16_emineentrance_CH_US_ART]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_16_emineentrance_CH_US_ART
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_16_emineentrance_CH_US_ART
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 USART_LW155
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_16_emineentrance_CH_US_HeavyTank]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_16_emineentrance_CH_US_HeavyTank
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_16_emineentrance_CH_US_HeavyTank
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 TNK_TYPE98
+ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_16_emineentrance_CH_US_SMG]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_16_emineentrance_CH_US_SMG
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_16_emineentrance_CH_US_SMG
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 CH_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_16_emineentrance_CH_US_SMG_0]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_16_emineentrance_CH_US_SMG_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_16_emineentrance_CH_US_SMG_0
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 CH_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_16_emineentrance_CH_US_SMG_2]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_16_emineentrance_CH_US_SMG_2
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_16_emineentrance_CH_US_SMG_2
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 CH_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_16_wmineentrance_CH_US_HeavyTank_1]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_16_wmineentrance_CH_US_HeavyTank_1
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_16_wmineentrance_CH_US_HeavyTank_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 TNK_TYPE98
+ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_16_wmineentrance_CH_US_ART]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_16_wmineentrance_CH_US_ART
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_16_wmineentrance_CH_US_ART
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ARS_D30
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_16_wmineentrance_CH_US_SMG]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_16_wmineentrance_CH_US_SMG
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_16_wmineentrance_CH_US_SMG
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 CH_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_16_wmineentrance_CH_US_SMG_0]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_16_wmineentrance_CH_US_SMG_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_16_wmineentrance_CH_US_SMG_0
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 CH_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_16_wmineentrance_CH_US_SMG_1]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_16_wmineentrance_CH_US_SMG_1
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_16_wmineentrance_CH_US_SMG_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 CH_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+if v_arg1 == host
+
+   rem [ObjectSpawner: CPNAME_GP_16_wmineentrance_ATS]
+   Object.create CPNAME_GP_16_wmineentrance_ATS
+   Object.absolutePosition -184.617/79.297/-14.109
+   Object.rotation 98.362/0.000/0.000
+   Object.setControlPointId 25
+   Object.layer 6
+
+   rem [ObjectSpawner: CPNAME_GP_16_emineentrance_ATS]
+   Object.create CPNAME_GP_16_emineentrance_ATS
+   Object.absolutePosition 108.891/77.496/167.030
+   Object.rotation 171.947/0.000/0.000
+   Object.setControlPointId 26
+   Object.layer 6
+
+   rem [ObjectSpawner: CPNAME_GP_16_emineentrance_APC]
+   Object.create CPNAME_GP_16_emineentrance_APC
+   Object.absolutePosition 141.854/77.496/180.014
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 26
+   Object.layer 6
+
+   rem [ObjectSpawner: CPNAME_GP_16_emineentrance_LightJeep]
+   Object.create CPNAME_GP_16_emineentrance_LightJeep
+   Object.absolutePosition 132.062/77.496/164.042
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 26
+   Object.layer 6
+
+   rem [ObjectSpawner: CPNAME_GP_16_wmineentrance_LightJeep]
+   Object.create CPNAME_GP_16_wmineentrance_LightJeep
+   Object.absolutePosition -125.230/79.297/38.476
+   Object.rotation 180.000/0.000/0.000
+   Object.setControlPointId 25
+   Object.layer 6
+
+   rem [ObjectSpawner: CPNAME_GP_16_wmineentrance_APC]
+   Object.create CPNAME_GP_16_wmineentrance_APC
+   Object.absolutePosition -196.888/79.297/20.695
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 25
+   Object.layer 6
+
+   rem [ObjectSpawner: CPNAME_GP_16_emineentrance_LightJeep_0]
+   Object.create CPNAME_GP_16_emineentrance_LightJeep_0
+   Object.absolutePosition 132.234/77.496/168.169
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 26
+   Object.layer 6
+
+   rem [ObjectSpawner: CPNAME_GP_16_wmineentrance_LightJeep_0]
+   Object.create CPNAME_GP_16_wmineentrance_LightJeep_0
+   Object.absolutePosition -167.459/79.297/-31.853
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 25
+   Object.layer 6
+
+   rem [ObjectSpawner: CPNAME_GP_16_wmineentrance_UAV]
+   Object.create CPNAME_GP_16_wmineentrance_UAV
+   Object.absolutePosition -194.424/79.297/31.417
+   Object.rotation 179.076/0.000/0.000
+   Object.setControlPointId 25
+   Object.layer 6
+
+   rem [ObjectSpawner: CPNAME_GP_16_wmineentrance_Radar]
+   Object.create CPNAME_GP_16_wmineentrance_Radar
+   Object.absolutePosition -102.879/80.207/-4.981
+   Object.rotation 180.000/0.000/0.000
+   Object.setControlPointId 25
+   Object.layer 6
+
+   rem [ObjectSpawner: CPNAME_GP_16_emineentrance_UAV]
+   Object.create CPNAME_GP_16_emineentrance_UAV
+   Object.absolutePosition 126.254/77.496/152.957
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 26
+   Object.layer 6
+
+   rem [ObjectSpawner: CPNAME_GP_16_emineentrance_Radar]
+   Object.create CPNAME_GP_16_emineentrance_Radar
+   Object.absolutePosition 152.949/78.398/120.997
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 26
+   Object.layer 6
+
+   rem [ObjectSpawner: CPNAME_GP_16_wmineentrance_ART]
+   Object.create CPNAME_GP_16_wmineentrance_ART
+   Object.absolutePosition -69.152/79.303/29.953
+   Object.rotation 40.900/0.000/0.000
+   Object.setControlPointId 25
+   Object.layer 6
+
+   rem [ObjectSpawner: CPNAME_GP_16_emineentrance_ART]
+   Object.create CPNAME_GP_16_emineentrance_ART
+   Object.absolutePosition 67.329/77.495/116.130
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 26
+   Object.layer 6
+
+   rem [ObjectSpawner: CPNAME_GP_16_island_CH_US_SMG]
+   Object.create CPNAME_GP_16_island_CH_US_SMG
+   Object.absolutePosition 115.671/70.067/-4.291
+   Object.rotation 49.821/0.000/0.000
+   Object.setControlPointId 311
+   Object.layer 6
+
+   rem [ObjectSpawner: CPNAME_GP_16_island_CH_US_SMG_0]
+   Object.create CPNAME_GP_16_island_CH_US_SMG_0
+   Object.absolutePosition 62.054/68.861/-45.051
+   Object.rotation -157.016/0.000/0.000
+   Object.setControlPointId 311
+   Object.layer 6
+
+   rem [ObjectSpawner: CPNAME_GP_16_emineentrance_CH_US_ART]
+   Object.create CPNAME_GP_16_emineentrance_CH_US_ART
+   Object.absolutePosition 0.174/73.602/153.620
+   Object.rotation -180.000/0.000/0.000
+   Object.setControlPointId 26
+   Object.layer 6
+
+   rem [ObjectSpawner: CPNAME_GP_16_emineentrance_CH_US_HeavyTank]
+   Object.create CPNAME_GP_16_emineentrance_CH_US_HeavyTank
+   Object.absolutePosition 133.081/77.496/85.266
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 26
+   Object.layer 6
+
+   rem [ObjectSpawner: CPNAME_GP_16_emineentrance_CH_US_SMG]
+   Object.create CPNAME_GP_16_emineentrance_CH_US_SMG
+   Object.absolutePosition 101.270/78.605/172.737
+   Object.rotation -75.188/0.000/0.000
+   Object.setControlPointId 26
+   Object.layer 6
+
+   rem [ObjectSpawner: CPNAME_GP_16_emineentrance_CH_US_SMG_0]
+   Object.create CPNAME_GP_16_emineentrance_CH_US_SMG_0
+   Object.absolutePosition 135.088/78.605/124.744
+   Object.rotation -115.100/0.000/0.000
+   Object.setControlPointId 26
+   Object.layer 6
+
+   rem [ObjectSpawner: CPNAME_GP_16_emineentrance_CH_US_SMG_2]
+   Object.create CPNAME_GP_16_emineentrance_CH_US_SMG_2
+   Object.absolutePosition 78.191/81.659/87.271
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 26
+   Object.layer 6
+
+   rem [ObjectSpawner: CPNAME_GP_16_wmineentrance_CH_US_HeavyTank_1]
+   Object.create CPNAME_GP_16_wmineentrance_CH_US_HeavyTank_1
+   Object.absolutePosition -189.754/79.297/-23.507
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 25
+   Object.layer 6
+
+   rem [ObjectSpawner: CPNAME_GP_16_wmineentrance_CH_US_ART]
+   Object.create CPNAME_GP_16_wmineentrance_CH_US_ART
+   Object.absolutePosition -80.721/79.297/-44.091
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 25
+   Object.layer 6
+
+   rem [ObjectSpawner: CPNAME_GP_16_wmineentrance_CH_US_SMG]
+   Object.create CPNAME_GP_16_wmineentrance_CH_US_SMG
+   Object.absolutePosition -145.349/80.406/-23.016
+   Object.rotation 44.216/0.000/0.000
+   Object.setControlPointId 25
+   Object.layer 6
+
+   rem [ObjectSpawner: CPNAME_GP_16_wmineentrance_CH_US_SMG_0]
+   Object.create CPNAME_GP_16_wmineentrance_CH_US_SMG_0
+   Object.absolutePosition -91.768/83.460/34.965
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 25
+   Object.layer 6
+
+   rem [ObjectSpawner: CPNAME_GP_16_wmineentrance_CH_US_SMG_1]
+   Object.create CPNAME_GP_16_wmineentrance_CH_US_SMG_1
+   Object.absolutePosition -90.128/83.464/-34.111
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 25
+   Object.layer 6
+
+endIf
+
+rem ********** Spawn Points **********
+rem [SpawnPointTemplate: CPNAME_GP_16_wmineentrance_2]
+ObjectTemplate.create SpawnPoint CPNAME_GP_16_wmineentrance_2
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_16_wmineentrance_2
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 25
+
+rem [SpawnPoint: CPNAME_GP_16_wmineentrance_2]
+Object.create CPNAME_GP_16_wmineentrance_2
+Object.absolutePosition -119.388/79.297/34.720
+Object.rotation -147.303/0.000/0.000
+Object.layer 6
+
+rem [SpawnPointTemplate: CPNAME_GP_16_wmineentrance_20]
+ObjectTemplate.create SpawnPoint CPNAME_GP_16_wmineentrance_20
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_16_wmineentrance_20
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 25
+
+rem [SpawnPoint: CPNAME_GP_16_wmineentrance_20]
+Object.create CPNAME_GP_16_wmineentrance_20
+Object.absolutePosition -98.926/79.297/6.777
+Object.rotation -20.853/0.000/0.000
+Object.layer 6
+
+rem [SpawnPointTemplate: CPNAME_GP_16_wmineentrance_3]
+ObjectTemplate.create SpawnPoint CPNAME_GP_16_wmineentrance_3
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_16_wmineentrance_3
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 25
+
+rem [SpawnPoint: CPNAME_GP_16_wmineentrance_3]
+Object.create CPNAME_GP_16_wmineentrance_3
+Object.absolutePosition -182.285/81.229/6.868
+Object.rotation -89.903/0.000/0.000
+Object.layer 6
+
+rem [SpawnPointTemplate: CPNAME_GP_16_wmineentrance_4]
+ObjectTemplate.create SpawnPoint CPNAME_GP_16_wmineentrance_4
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_16_wmineentrance_4
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 25
+
+rem [SpawnPoint: CPNAME_GP_16_wmineentrance_4]
+Object.create CPNAME_GP_16_wmineentrance_4
+Object.absolutePosition -160.681/83.226/-0.360
+Object.rotation 143.963/0.000/0.000
+Object.layer 6
+
+rem [SpawnPointTemplate: CPNAME_GP_16_wmineentrance_5]
+ObjectTemplate.create SpawnPoint CPNAME_GP_16_wmineentrance_5
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_16_wmineentrance_5
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 25
+
+rem [SpawnPoint: CPNAME_GP_16_wmineentrance_5]
+Object.create CPNAME_GP_16_wmineentrance_5
+Object.absolutePosition -163.011/79.297/-35.081
+Object.rotation 0.000/0.000/0.000
+Object.layer 6
+
+rem [SpawnPointTemplate: CPNAME_GP_16_wmineentrance_6]
+ObjectTemplate.create SpawnPoint CPNAME_GP_16_wmineentrance_6
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_16_wmineentrance_6
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 25
+
+rem [SpawnPoint: CPNAME_GP_16_wmineentrance_6]
+Object.create CPNAME_GP_16_wmineentrance_6
+Object.absolutePosition -192.591/81.228/-11.328
+Object.rotation 90.000/0.000/0.000
+Object.layer 6
+
+rem [SpawnPointTemplate: CPNAME_GP_16_emineentrance_1]
+ObjectTemplate.create SpawnPoint CPNAME_GP_16_emineentrance_1
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_16_emineentrance_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 26
+
+rem [SpawnPoint: CPNAME_GP_16_emineentrance_1]
+Object.create CPNAME_GP_16_emineentrance_1
+Object.absolutePosition 148.720/77.496/163.499
+Object.rotation -90.000/0.000/0.000
+Object.layer 6
+
+rem [SpawnPointTemplate: CPNAME_GP_16_emineentrance_10]
+ObjectTemplate.create SpawnPoint CPNAME_GP_16_emineentrance_10
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_16_emineentrance_10
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 26
+
+rem [SpawnPoint: CPNAME_GP_16_emineentrance_10]
+Object.create CPNAME_GP_16_emineentrance_10
+Object.absolutePosition 147.088/77.496/143.832
+Object.rotation -157.249/0.000/0.000
+Object.layer 6
+
+rem [SpawnPointTemplate: CPNAME_GP_16_emineentrance_2]
+ObjectTemplate.create SpawnPoint CPNAME_GP_16_emineentrance_2
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_16_emineentrance_2
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 26
+
+rem [SpawnPoint: CPNAME_GP_16_emineentrance_2]
+Object.create CPNAME_GP_16_emineentrance_2
+Object.absolutePosition 96.819/77.496/64.855
+Object.rotation 0.000/0.000/0.000
+Object.layer 6
+
+rem [SpawnPointTemplate: CPNAME_GP_16_emineentrance_7]
+ObjectTemplate.create SpawnPoint CPNAME_GP_16_emineentrance_7
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_16_emineentrance_7
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 26
+
+rem [SpawnPoint: CPNAME_GP_16_emineentrance_7]
+Object.create CPNAME_GP_16_emineentrance_7
+Object.absolutePosition 140.957/77.496/74.609
+Object.rotation -89.889/0.000/0.000
+Object.layer 6
+
+rem [SpawnPointTemplate: CPNAME_GP_16_island_1]
+ObjectTemplate.create SpawnPoint CPNAME_GP_16_island_1
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_16_island_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 311
+
+rem [SpawnPoint: CPNAME_GP_16_island_1]
+Object.create CPNAME_GP_16_island_1
+Object.absolutePosition 87.592/67.752/-4.373
+Object.rotation 141.667/0.000/0.000
+Object.layer 6
+
+rem [SpawnPointTemplate: CPNAME_GP_16_island_2]
+ObjectTemplate.create SpawnPoint CPNAME_GP_16_island_2
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_16_island_2
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 311
+
+rem [SpawnPoint: CPNAME_GP_16_island_2]
+Object.create CPNAME_GP_16_island_2
+Object.absolutePosition 104.448/67.753/2.728
+Object.rotation 138.378/0.000/0.000
+Object.layer 6
+
+rem [SpawnPointTemplate: CPNAME_GP_16_island_3]
+ObjectTemplate.create SpawnPoint CPNAME_GP_16_island_3
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_16_island_3
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 311
+
+rem [SpawnPoint: CPNAME_GP_16_island_3]
+Object.create CPNAME_GP_16_island_3
+Object.absolutePosition 101.941/68.958/-21.807
+Object.rotation -133.305/0.000/0.000
+Object.layer 6
+
+rem [SpawnPointTemplate: CPNAME_GP_16_island_4]
+ObjectTemplate.create SpawnPoint CPNAME_GP_16_island_4
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_16_island_4
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 311
+
+rem [SpawnPoint: CPNAME_GP_16_island_4]
+Object.create CPNAME_GP_16_island_4
+Object.absolutePosition 118.547/68.958/-11.888
+Object.rotation -36.482/0.000/0.000
+Object.layer 6
+
+rem [SpawnPointTemplate: CPNAME_GP_16_island_5]
+ObjectTemplate.create SpawnPoint CPNAME_GP_16_island_5
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_16_island_5
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 311
+
+rem [SpawnPoint: CPNAME_GP_16_island_5]
+Object.create CPNAME_GP_16_island_5
+Object.absolutePosition 83.030/68.958/-54.024
+Object.rotation -23.316/0.000/0.000
+Object.layer 6
+
+rem [SpawnPointTemplate: CPNAME_GP_16_island_6]
+ObjectTemplate.create SpawnPoint CPNAME_GP_16_island_6
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_16_island_6
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 311
+
+rem [SpawnPoint: CPNAME_GP_16_island_6]
+Object.create CPNAME_GP_16_island_6
+Object.absolutePosition 65.937/67.753/-37.756
+Object.rotation 23.800/0.000/0.000
+Object.layer 6
+
+rem ********** Control Points **********
+rem [ControlPointTemplate: CPNAME_GP_16_wmineentrance]
+ObjectTemplate.create ControlPoint CPNAME_GP_16_wmineentrance
+ObjectTemplate.activeSafe ControlPoint CPNAME_GP_16_wmineentrance
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CPNAME_GP_16_wmineentrance
+ObjectTemplate.radius 12
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 25
+ObjectTemplate.areaValueTeam1 50
+ObjectTemplate.areaValueTeam2 50
+ObjectTemplate.timeToGetControl 40
+ObjectTemplate.timeToLoseControl 40
+
+rem [ControlPointTemplate: CPNAME_GP_16_emineentrance]
+ObjectTemplate.create ControlPoint CPNAME_GP_16_emineentrance
+ObjectTemplate.activeSafe ControlPoint CPNAME_GP_16_emineentrance
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CPNAME_GP_16_emineentrance
+ObjectTemplate.radius 10
+ObjectTemplate.team 2
+ObjectTemplate.controlPointId 26
+ObjectTemplate.areaValueTeam1 50
+ObjectTemplate.areaValueTeam2 50
+ObjectTemplate.timeToGetControl 40
+ObjectTemplate.timeToLoseControl 40
+
+rem [ControlPointTemplate: CPNAME_GP_16_island]
+ObjectTemplate.create ControlPoint CPNAME_GP_16_island
+ObjectTemplate.activeSafe ControlPoint CPNAME_GP_16_island
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CPNAME_GP_16_island
+ObjectTemplate.radius 5
+ObjectTemplate.controlPointId 311
+ObjectTemplate.areaValueTeam1 50
+ObjectTemplate.areaValueTeam2 50
+ObjectTemplate.timeToGetControl 20
+ObjectTemplate.timeToLoseControl 20
+
+if v_arg1 == host
+
+   rem [ControlPoint: CPNAME_GP_16_wmineentrance]
+   Object.create CPNAME_GP_16_wmineentrance
+   Object.absolutePosition -150.338/79.287/-24.404
+   Object.layer 6
+
+   rem [ControlPoint: CPNAME_GP_16_emineentrance]
+   Object.create CPNAME_GP_16_emineentrance
+   Object.absolutePosition 139.154/77.486/128.012
+   Object.layer 6
+
+   rem [ControlPoint: CPNAME_GP_16_island]
+   Object.create CPNAME_GP_16_island
+   Object.absolutePosition 94.403/68.947/-36.973
+   Object.layer 6
+
+endIf
+
+CombatAreaManager.use 1
+CombatAreaManager.timeAllowedOutside 10.000000
+CombatArea.create CombatArea_33_16
+CombatArea.min 0.000000/0.000000
+CombatArea.max 0.000000/0.000000
+CombatArea.addAreaPoint 192.251343/-67.734375
+CombatArea.addAreaPoint 191.505859/-114.603516
+CombatArea.addAreaPoint 191.600830/-129.033630
+CombatArea.addAreaPoint 184.570068/-145.799927
+CombatArea.addAreaPoint 172.590820/-161.226257
+CombatArea.addAreaPoint 162.434082/-166.224121
+CombatArea.addAreaPoint 153.211304/-166.758301
+CombatArea.addAreaPoint 133.150513/-160.033997
+CombatArea.addAreaPoint 97.085449/-143.582520
+CombatArea.addAreaPoint 65.522339/-131.338745
+CombatArea.addAreaPoint 36.243408/-130.382935
+CombatArea.addAreaPoint 20.270386/-134.038452
+CombatArea.addAreaPoint -5.395264/-139.190125
+CombatArea.addAreaPoint -22.196594/-143.417969
+CombatArea.addAreaPoint -43.000977/-147.910645
+CombatArea.addAreaPoint -54.231873/-147.140198
+CombatArea.addAreaPoint -74.357056/-141.551208
+CombatArea.addAreaPoint -101.588623/-129.279419
+CombatArea.addAreaPoint -120.570557/-119.758850
+CombatArea.addAreaPoint -138.156128/-111.265869
+CombatArea.addAreaPoint -159.770691/-105.626648
+CombatArea.addAreaPoint -176.998474/-102.356873
+CombatArea.addAreaPoint -204.839050/-100.796814
+CombatArea.addAreaPoint -244.279785/-94.973267
+CombatArea.addAreaPoint -267.825439/-86.830383
+CombatArea.addAreaPoint -281.271729/-76.869995
+CombatArea.addAreaPoint -293.772095/-62.618408
+CombatArea.addAreaPoint -306.428467/-44.508362
+CombatArea.addAreaPoint -314.296448/-10.067139
+CombatArea.addAreaPoint -310.687439/10.306396
+CombatArea.addAreaPoint -296.465393/45.487061
+CombatArea.addAreaPoint -263.494202/108.513306
+CombatArea.addAreaPoint -250.599426/132.389282
+CombatArea.addAreaPoint -222.890991/185.473022
+CombatArea.addAreaPoint -212.101807/201.302979
+CombatArea.addAreaPoint -188.795837/221.938721
+CombatArea.addAreaPoint -169.668640/240.980835
+CombatArea.addAreaPoint -161.914734/261.643066
+CombatArea.addAreaPoint -155.438660/272.982788
+CombatArea.addAreaPoint -143.178345/278.414673
+CombatArea.addAreaPoint -122.559021/279.801636
+CombatArea.addAreaPoint -91.510315/277.817017
+CombatArea.addAreaPoint -44.787781/273.846680
+CombatArea.addAreaPoint 15.031494/268.583130
+CombatArea.addAreaPoint 55.340454/263.331421
+CombatArea.addAreaPoint 114.849243/250.875977
+CombatArea.addAreaPoint 141.940918/241.292603
+CombatArea.addAreaPoint 166.854370/229.587402
+CombatArea.addAreaPoint 177.850220/213.636108
+CombatArea.addAreaPoint 187.161255/190.557007
+CombatArea.addAreaPoint 193.314209/131.192749
+CombatArea.addAreaPoint 194.480225/63.050415
+CombatArea.addAreaPoint 192.562134/-7.801514
+CombatArea.team 0
+CombatArea.vehicles 4
+CombatArea.layer 6
+

@@ -1,0 +1,136 @@
+GeometryTemplate.create BundledMesh xpak2_faav
+CollisionManager.createTemplate xpak2_faav
+
+ObjectTemplate.create PlayerControlObject xpak2_faav
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator JEREMY:jeremypr
+ObjectTemplate.collisionMesh xpak2_faav
+ObjectTemplate.mapMaterial 0 Armor_1_metal_plating1 0
+ObjectTemplate.mapMaterial 1 light_armored_vehicle 0
+ObjectTemplate.mapMaterial 2 Plast1 0
+ObjectTemplate.mapMaterial 3 wreck 0
+ObjectTemplate.mapMaterial 4 Rubber 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometry xpak2_faav
+ObjectTemplate.addTemplate xpak2_FAAV_SteeringWheel
+ObjectTemplate.setPosition -0.2682/0.2180/0.3322
+ObjectTemplate.setRotation -0.1400/21.1034/0.3546
+ObjectTemplate.addTemplate xpak2_FAAV_rear_passenger
+ObjectTemplate.setPosition 0/0.9440/-0.4552
+ObjectTemplate.addTemplate xpak2_FAAV_Front_gun
+ObjectTemplate.setPosition 0.2782/0.2623/0.3593
+ObjectTemplate.addTemplate xpak2_FAAV_Engine
+ObjectTemplate.setPosition 0/-0.2498/0
+
+ObjectTemplate.create RotationalBundle xpak2_FAAV_SteeringWheel
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 1
+
+ObjectTemplate.create PlayerControlObject xpak2_FAAV_rear_passenger
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 2
+ObjectTemplate.addTemplate xpak2_FAAV_cupola
+
+ObjectTemplate.create RotationalBundle xpak2_FAAV_cupola
+ObjectTemplate.collisionPart 3
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 3
+ObjectTemplate.addTemplate xpak2_FAAV_gunmount
+ObjectTemplate.setPosition 0/0.0669/-0.0051
+
+ObjectTemplate.create RotationalBundle xpak2_FAAV_gunmount
+ObjectTemplate.collisionPart 4
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 4
+
+ObjectTemplate.create PlayerControlObject xpak2_FAAV_Front_gun
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 5
+ObjectTemplate.addTemplate xpak2_FAAV_Front_gunpos
+ObjectTemplate.setPosition -0.0032/0.0639/-0.0339
+
+ObjectTemplate.create RotationalBundle xpak2_FAAV_Front_gunpos
+ObjectTemplate.collisionPart 6
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 6
+ObjectTemplate.addTemplate xpak2_FAAV_Front_gunbase
+ObjectTemplate.setPosition 0.0028/0.1015/0.1115
+
+ObjectTemplate.create RotationalBundle xpak2_FAAV_Front_gunbase
+ObjectTemplate.collisionPart 7
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 7
+ObjectTemplate.addTemplate xpak2_FAAV_Front_gunmount
+ObjectTemplate.setPosition 0/0.0332/-0.0017
+ObjectTemplate.setRotation 0/-22.0000/0
+
+ObjectTemplate.create RotationalBundle xpak2_FAAV_Front_gunmount
+ObjectTemplate.collisionPart 8
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 8
+
+ObjectTemplate.create Engine xpak2_FAAV_Engine
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 9
+ObjectTemplate.addTemplate xpak2_FAAV_Wheel_RB
+ObjectTemplate.setPosition 0.9013/-0.2072/-1.4567
+ObjectTemplate.addTemplate xpak2_FAAV_Wheel_LB
+ObjectTemplate.setPosition -0.8804/-0.2072/-1.4567
+ObjectTemplate.addTemplate xpak2_FAAV_nav_RF
+ObjectTemplate.setPosition 0.7306/-0.1596/1.4142
+ObjectTemplate.addTemplate xpak2_FAAV_nav_LF
+ObjectTemplate.setPosition -0.7234/-0.1596/1.4142
+
+ObjectTemplate.create Spring xpak2_FAAV_Wheel_RB
+ObjectTemplate.collisionPart 10
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 10
+
+ObjectTemplate.create Spring xpak2_FAAV_Wheel_LB
+ObjectTemplate.collisionPart 11
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 11
+
+ObjectTemplate.create RotationalBundle xpak2_FAAV_nav_RF
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 12
+ObjectTemplate.addTemplate xpak2_FAAV_Wheel_RF
+ObjectTemplate.setPosition 0/-0.0193/-0.0108
+
+ObjectTemplate.create Spring xpak2_FAAV_Wheel_RF
+ObjectTemplate.collisionPart 13
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 13
+
+ObjectTemplate.create RotationalBundle xpak2_FAAV_nav_LF
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 14
+ObjectTemplate.addTemplate xpak2_FAAV_Wheel_LF
+ObjectTemplate.setPosition -0.0076/-0.0193/0.0027
+
+ObjectTemplate.create Spring xpak2_FAAV_Wheel_LF
+ObjectTemplate.collisionPart 15
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 15
+
+include xpak2_faav.tweak

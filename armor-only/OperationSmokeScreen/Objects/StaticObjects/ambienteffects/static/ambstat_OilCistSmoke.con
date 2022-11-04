@@ -1,0 +1,4 @@
+ObjectTemplate.create Bundle ambstat_OilCistSmoke
+ObjectTemplate.createdInEditor 1
+
+include ambstat_OilCistSmoke.tweak

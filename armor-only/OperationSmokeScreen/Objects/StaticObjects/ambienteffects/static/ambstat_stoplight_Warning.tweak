@@ -1,0 +1,9 @@
+rem *** Generated with Bf2Editor.exe [created: 2005/11/24 6:2]
+ObjectTemplate.activeSafe Bundle ambstat_stoplight_Warning
+ObjectTemplate.modifiedByUser "danri"
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate e_stoplight_Warning
+rem -------------------------------------

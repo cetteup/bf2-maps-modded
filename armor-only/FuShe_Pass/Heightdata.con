@@ -1,0 +1,67 @@
+heightmapcluster.create HeighmapCluster
+heightmapcluster.setClusterSize 3
+heightmapcluster.setHeightmapSize 2048
+
+rem --- primary ---
+heightmapcluster.addHeightmap Heightmap 0 0
+heightmap.setSize 1025 1025
+heightmap.setScale 2/0.00610352/2
+heightmap.setBitResolution 16
+heightmap.setModified 1
+heightmap.loadHeightData Levels/FuShe_Pass/HeightmapPrimary.raw
+heightmap.setMaterialScale 1
+heightmap.loadMaterialData Levels/FuShe_Pass/HeightmapPrimary.mat
+
+rem --- secondary ---
+heightmapcluster.addHeightmap Heightmap -1 -1
+heightmap.setSize 257 257
+heightmap.setScale 8/1.5625/8
+heightmap.setBitResolution 8
+heightmap.setModified 1
+heightmap.loadHeightData Levels/FuShe_Pass/HeightmapSecondary_L1U1.raw
+heightmapcluster.addHeightmap Heightmap 0 -1
+heightmap.setSize 257 257
+heightmap.setScale 8/1.5625/8
+heightmap.setBitResolution 8
+heightmap.setModified 1
+heightmap.loadHeightData Levels/FuShe_Pass/HeightmapSecondary_U1.raw
+heightmapcluster.addHeightmap Heightmap 1 -1
+heightmap.setSize 257 257
+heightmap.setScale 8/1.5625/8
+heightmap.setBitResolution 8
+heightmap.setModified 1
+heightmap.loadHeightData Levels/FuShe_Pass/HeightmapSecondary_R1U1.raw
+
+heightmapcluster.addHeightmap Heightmap -1 0
+heightmap.setSize 257 257
+heightmap.setScale 8/1.5625/8
+heightmap.setBitResolution 8
+heightmap.setModified 1
+heightmap.loadHeightData Levels/FuShe_Pass/HeightmapSecondary_L1.raw
+heightmapcluster.addHeightmap Heightmap 1 0
+heightmap.setSize 257 257
+heightmap.setScale 8/1.5625/8
+heightmap.setBitResolution 8
+heightmap.setModified 1
+heightmap.loadHeightData Levels/FuShe_Pass/HeightmapSecondary_R1.raw
+
+heightmapcluster.addHeightmap Heightmap -1 1
+heightmap.setSize 257 257
+heightmap.setScale 8/1.5625/8
+heightmap.setBitResolution 8
+heightmap.setModified 1
+heightmap.loadHeightData Levels/FuShe_Pass/HeightmapSecondary_L1D1.raw
+heightmapcluster.addHeightmap Heightmap 0 1
+heightmap.setSize 257 257
+heightmap.setScale 8/1.5625/8
+heightmap.setBitResolution 8
+heightmap.setModified 1
+heightmap.loadHeightData Levels/FuShe_Pass/HeightmapSecondary_D1.raw
+heightmapcluster.addHeightmap Heightmap 1 1
+heightmap.setSize 257 257
+heightmap.setScale 8/1.5625/8
+heightmap.setBitResolution 8
+heightmap.setModified 1
+heightmap.loadHeightData Levels/FuShe_Pass/HeightmapSecondary_R1D1.raw
+
+heightmapcluster.setSeaWaterLevel 61.6

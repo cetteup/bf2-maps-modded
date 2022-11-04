@@ -1,0 +1,59 @@
+GeometryTemplate.create BundledMesh e_vexp_xpak_tnkc2
+
+ObjectTemplate.create EffectBundle e_vexp_xpak_tnkc2
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator JEFFO:jeffev
+ObjectTemplate.addTemplate xp1_tnkC2_wreck_1
+ObjectTemplate.addTemplate xp1_tnkC2_wreck_2
+ObjectTemplate.addTemplate xp1_tnkC2_wreck_3
+ObjectTemplate.addTemplate xp1_tnkC2_wreck_4
+
+ObjectTemplate.create Emitter xp1_tnkC2_wreck_1
+ObjectTemplate.template p_xp1_tnkC2_wreck_1
+
+ObjectTemplate.create Particle p_xp1_tnkC2_wreck_1
+ObjectTemplate.collisionMesh e_vexp_xpak_tnkc2
+ObjectTemplate.mapMaterial 0 col_wreck 0
+ObjectTemplate.collisionPart 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry e_vexp_xpak_tnkc2
+ObjectTemplate.geometryPart 0
+
+ObjectTemplate.create Emitter xp1_tnkC2_wreck_2
+ObjectTemplate.template p_xp1_tnkC2_wreck_2
+
+ObjectTemplate.create Particle p_xp1_tnkC2_wreck_2
+ObjectTemplate.collisionMesh e_vexp_xpak_tnkc2
+ObjectTemplate.mapMaterial 0 col_wreck 0
+ObjectTemplate.collisionPart 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry e_vexp_xpak_tnkc2
+ObjectTemplate.geometryPart 1
+
+ObjectTemplate.create Emitter xp1_tnkC2_wreck_3
+ObjectTemplate.template p_xp1_tnkC2_wreck_3
+
+ObjectTemplate.create Particle p_xp1_tnkC2_wreck_3
+ObjectTemplate.collisionMesh e_vexp_xpak_tnkc2
+ObjectTemplate.mapMaterial 0 col_wreck 0
+ObjectTemplate.collisionPart 2
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry e_vexp_xpak_tnkc2
+ObjectTemplate.geometryPart 2
+
+ObjectTemplate.create Emitter xp1_tnkC2_wreck_4
+ObjectTemplate.template p_xp1_tnkC2_wreck_4
+
+ObjectTemplate.create Particle p_xp1_tnkC2_wreck_4
+ObjectTemplate.collisionMesh e_vexp_xpak_tnkc2
+ObjectTemplate.mapMaterial 0 col_wreck 0
+ObjectTemplate.collisionPart 3
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry e_vexp_xpak_tnkc2
+ObjectTemplate.geometryPart 3
+
+include e_vexp_xpak_tnkc2.tweak

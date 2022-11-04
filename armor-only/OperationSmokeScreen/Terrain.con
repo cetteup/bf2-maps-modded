@@ -1,0 +1,24 @@
+if v_arg1 == BF2Editor
+terrain.create TerrainEditable
+terrain.patchSize 128
+terrain.subdividePatches 1
+terrain.primaryWorldScale 2/0.0025/2
+terrain.secondaryWorldScale 8/0.64/8
+terrain.patchColormapSize 512
+terrain.lowDetailmapSize 512
+terrain.detailmapBaseName "Levels/OperationSmokeScreen/Detailmaps/tx"
+terrain.lowDetailmapBaseName "Levels/OperationSmokeScreen/LowDetailmaps/tx"
+terrain.colormapBaseName "Levels/OperationSmokeScreen/Colormaps/tx"
+terrain.lightmapBaseName "Levels/OperationSmokeScreen/Lightmaps/tx"
+terrain.farSideTiling 6/6
+terrain.farTopTilingHi 18
+terrain.farTopTilingLow 18
+terrain.farYOffset 0
+terrain.terrainWaterColor 0/0/0
+terrain.init
+
+else
+terrain.create Terrain
+terrain.load Levels/OperationSmokeScreen/terraindata.raw
+endIf
+

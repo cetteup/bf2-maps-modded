@@ -1,0 +1,63 @@
+rem *** Create strategic areas ***
+aiStrategicArea.createFromControlPoint CPNAME_GP_SP16_emineentrance 102 50
+aiStrategicArea.layer 2
+
+aiStrategicArea.createFromControlPoint CPNAME_GP_SP16_island 103 50
+aiStrategicArea.layer 2
+
+aiStrategicArea.createFromControlPoint CPNAME_GP_SP16_wmineentrance 101 50
+aiStrategicArea.layer 2
+
+aiStrategicArea.setActive CPNAME_GP_SP16_emineentrance
+AIStrategicArea.addNeighbour CPNAME_GP_SP16_island
+AIStrategicArea.addNeighbour CPNAME_GP_SP16_wmineentrance
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 140.241/77.4964/130.519
+AIStrategicArea.setOrderPosition Vehicle 120.667/77.4964/118.814
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 14.1421
+
+aiStrategicArea.setActive CPNAME_GP_SP16_island
+AIStrategicArea.addNeighbour CPNAME_GP_SP16_emineentrance
+AIStrategicArea.addNeighbour CPNAME_GP_SP16_wmineentrance
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 95.3397/69.3787/-36.6506
+AIStrategicArea.setOrderPosition Vehicle 75.739/66.6993/-8.84204
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 7.07107
+
+aiStrategicArea.setActive CPNAME_GP_SP16_wmineentrance
+AIStrategicArea.addNeighbour CPNAME_GP_SP16_island
+AIStrategicArea.addNeighbour CPNAME_GP_SP16_emineentrance
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry -151.19/79.2969/-23.5956
+AIStrategicArea.setOrderPosition Vehicle -148.289/79.2969/-10.8113
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 16.9706
+
+aiStrategicArea.addWayPoint 160.101/77.4964/110.896 Infantry CPNAME_GP_SP16_emineentrance CPNAME_GP_SP16_island
+aiStrategicArea.addWayPoint 112.203/77.4957/49.8833 Infantry CPNAME_GP_SP16_emineentrance CPNAME_GP_SP16_island
+aiStrategicArea.addWayPoint 117.102/67.9692/8.55957 Infantry CPNAME_GP_SP16_emineentrance CPNAME_GP_SP16_island
+aiStrategicArea.addWayPoint 71.4644/66.6993/-19.4612 Infantry CPNAME_GP_SP16_emineentrance CPNAME_GP_SP16_island
+aiStrategicArea.addWayPoint 91.6638/77.4964/106.675 Infantry CPNAME_GP_SP16_emineentrance CPNAME_GP_SP16_wmineentrance
+aiStrategicArea.addWayPoint 91.8442/77.5025/174.751 Infantry CPNAME_GP_SP16_emineentrance CPNAME_GP_SP16_wmineentrance
+aiStrategicArea.addWayPoint 33.0204/73.5962/139.276 Infantry CPNAME_GP_SP16_emineentrance CPNAME_GP_SP16_wmineentrance
+aiStrategicArea.addWayPoint 29.3545/73.4803/164.188 Infantry CPNAME_GP_SP16_emineentrance CPNAME_GP_SP16_wmineentrance
+aiStrategicArea.addWayPoint 88.9667/77.5025/183.194 Vehicle CPNAME_GP_SP16_emineentrance CPNAME_GP_SP16_wmineentrance
+aiStrategicArea.addWayPoint 90.5436/77.4964/101.193 Vehicle CPNAME_GP_SP16_emineentrance CPNAME_GP_SP16_wmineentrance
+aiStrategicArea.addWayPoint 20.7268/73.5924/167.143 Vehicle CPNAME_GP_SP16_emineentrance CPNAME_GP_SP16_wmineentrance
+aiStrategicArea.addWayPoint 18.5676/71.1364/111.177 Vehicle CPNAME_GP_SP16_emineentrance CPNAME_GP_SP16_wmineentrance
+aiStrategicArea.addWayPoint -81.6417/79.303/20.2118 Vehicle CPNAME_GP_SP16_emineentrance CPNAME_GP_SP16_wmineentrance
+aiStrategicArea.addWayPoint -85.8941/79.303/-21.156 Vehicle CPNAME_GP_SP16_emineentrance CPNAME_GP_SP16_wmineentrance
+aiStrategicArea.addWayPoint -135.495/79.2969/23.7954 Vehicle CPNAME_GP_SP16_emineentrance CPNAME_GP_SP16_wmineentrance
+aiStrategicArea.addWayPoint -122.1/79.2969/-10.2385 Vehicle CPNAME_GP_SP16_emineentrance CPNAME_GP_SP16_wmineentrance
+aiStrategicArea.addWayPoint -54.0021/79.2969/-101.468 Infantry CPNAME_GP_SP16_island CPNAME_GP_SP16_wmineentrance
+aiStrategicArea.addWayPoint 18.3484/77.594/-43.4895 Infantry CPNAME_GP_SP16_island CPNAME_GP_SP16_wmineentrance
+aiStrategicArea.addWayPoint -41.2086/77.1991/-0.194885 Infantry CPNAME_GP_SP16_island CPNAME_GP_SP16_wmineentrance
+aiStrategicArea.addWayPoint -132.546/79.2969/8.8103 Infantry CPNAME_GP_SP16_island CPNAME_GP_SP16_wmineentrance
+aiStrategicArea.addWayPoint 77.1783/66.6993/-20.3514 Infantry CPNAME_GP_SP16_island CPNAME_GP_SP16_wmineentrance
+aiStrategicArea.addWayPoint 76.8328/66.6993/-27.5258 Infantry CPNAME_GP_SP16_island CPNAME_GP_SP16_wmineentrance
+aiStrategicArea.addWayPoint -67.9016/79.2985/-55.7729 Infantry CPNAME_GP_SP16_island CPNAME_GP_SP16_wmineentrance
+aiStrategicArea.addWayPoint -103.527/79.2969/-60.3332 Infantry CPNAME_GP_SP16_island CPNAME_GP_SP16_wmineentrance
+aiStrategicArea.addWayPoint -43.3368/79.1228/-22.163 Vehicle CPNAME_GP_SP16_island CPNAME_GP_SP16_wmineentrance
+aiStrategicArea.addWayPoint -53.7612/73.9879/14.6394 Vehicle CPNAME_GP_SP16_island CPNAME_GP_SP16_wmineentrance

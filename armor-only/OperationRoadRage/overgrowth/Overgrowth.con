@@ -1,0 +1,25 @@
+Overgrowth.viewDistance 500
+Overgrowth.viewDistanceScale 1
+Overgrowth.closeDistPercentage 0.15
+
+Overgrowth.addMaterial forest_01 1
+Overgrowth.setActiveMaterial forest_01
+Overgrowth.addType leaf_02
+Overgrowth.setActiveType leaf_02
+OvergrowthType.geometry xp2_oaktree_01
+OvergrowthType.density 1
+OvergrowthType.normalScale 0.2
+OvergrowthType.rotationScale 0
+OvergrowthType.minRadiusToSame 1.5
+OvergrowthType.minRadiusToOthers 1
+Overgrowth.addType leaf_04
+Overgrowth.setActiveType leaf_04
+OvergrowthType.geometry xp2_oaktree_02
+OvergrowthType.density 1
+OvergrowthType.normalScale 0.2
+OvergrowthType.rotationScale 0
+OvergrowthType.minRadiusToSame 2
+OvergrowthType.minRadiusToOthers 0.5
+
+Overgrowth.path levels\operationroadrage\overgrowth\
+Overgrowth.preLoad

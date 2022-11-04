@@ -1,0 +1,4 @@
+ObjectTemplate.create EffectBundle e_sAmb_oiltower_fire2
+ObjectTemplate.createdInEditor 1
+
+include e_sAmb_oiltower_fire2.tweak

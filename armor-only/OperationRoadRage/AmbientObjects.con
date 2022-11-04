@@ -1,0 +1,209 @@
+rem *********** TriggerTrigger ***********
+
+rem ********** AmbientEffectArea **********
+
+rem ************ AmbientSounds ************
+
+rem [SoundObjectTemplate: S_Ambientmain]
+ObjectTemplate.create Sound S_Ambientmain
+ObjectTemplate.activeSafe Sound S_Ambientmain
+ObjectTemplate.modifiedByUser "daveke"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "levels/operationroadrage/common/sound/levelambients/road_rage_main.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.74
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 234/50.319/42
+ObjectTemplate.minDistance 300000
+
+Sound.addTrigger S_Ambientmain
+
+rem [SoundObjectTemplate: S_Ambientmusic_1]
+ObjectTemplate.create Sound S_Ambientmusic_1
+ObjectTemplate.activeSafe Sound S_Ambientmusic_1
+ObjectTemplate.modifiedByUser "daveke"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "levels/operationroadrage/common/sound/levelambients/road_rage_music.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.74
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position -21.368/49.869/33.781
+ObjectTemplate.minDistance 40
+
+Sound.addTrigger S_Ambientmusic_1
+
+rem [SoundObjectTemplate: S_Ambientmusic_2]
+ObjectTemplate.create Sound S_Ambientmusic_2
+ObjectTemplate.activeSafe Sound S_Ambientmusic_2
+ObjectTemplate.modifiedByUser "daveke"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "levels/operationroadrage/common/sound/levelambients/road_rage_music.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.74
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position -176.3/47.928/-181.169
+ObjectTemplate.minDistance 40
+
+Sound.addTrigger S_Ambientmusic_2
+
+rem [SoundObjectTemplate: S_Ambientmusic_3]
+ObjectTemplate.create Sound S_Ambientmusic_3
+ObjectTemplate.activeSafe Sound S_Ambientmusic_3
+ObjectTemplate.modifiedByUser "daveke"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "levels/operationroadrage/common/sound/levelambients/road_rage_music.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.74
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 32.33/48.782/-369.052
+ObjectTemplate.minDistance 40
+
+Sound.addTrigger S_Ambientmusic_3
+
+rem [SoundObjectTemplate: S_Ambientmusic_4]
+ObjectTemplate.create Sound S_Ambientmusic_4
+ObjectTemplate.activeSafe Sound S_Ambientmusic_4
+ObjectTemplate.modifiedByUser "daveke"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "levels/operationroadrage/common/sound/levelambients/road_rage_music.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.74
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 89.834/48.782/230.294
+ObjectTemplate.minDistance 40
+
+Sound.addTrigger S_Ambientmusic_4
+
+rem [SoundObjectTemplate: S_Ambientmusic_5]
+ObjectTemplate.create Sound S_Ambientmusic_5
+ObjectTemplate.activeSafe Sound S_Ambientmusic_5
+ObjectTemplate.modifiedByUser "daveke"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "levels/operationroadrage/common/sound/levelambients/road_rage_music.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.74
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position -94.408/50.999/394.649
+ObjectTemplate.minDistance 40
+
+Sound.addTrigger S_Ambientmusic_5
+
+rem [SoundObjectTemplate: S_Ambientmusic_6]
+ObjectTemplate.create Sound S_Ambientmusic_6
+ObjectTemplate.activeSafe Sound S_Ambientmusic_6
+ObjectTemplate.modifiedByUser "daveke"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "levels/operationroadrage/common/sound/levelambients/road_rage_music.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.74
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position -131.535/57.109/802.489
+ObjectTemplate.minDistance 40
+
+Sound.addTrigger S_Ambientmusic_6
+
+rem [SoundObjectTemplate: S_Ambient_wind]
+ObjectTemplate.create Sound S_Ambient_wind
+ObjectTemplate.activeSafe Sound S_Ambient_wind
+ObjectTemplate.modifiedByUser "daveke"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "levels/operationroadrage/common/sound/levelambients/road_rage_wind.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.74
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position -101.65/88.2976/229.46
+ObjectTemplate.minDistance 30
+
+Sound.addTrigger S_Ambient_wind
+
+if v_arg1 == BF2Editor
+
+Object.create S_Ambientmain
+Object.absolutePosition 234.000/50.319/42.000
+Object.rotation -90.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Ambientmusic_1
+Object.absolutePosition -21.368/49.869/33.781
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Ambientmusic_2
+Object.absolutePosition -176.300/47.928/-181.169
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Ambientmusic_3
+Object.absolutePosition 32.330/48.782/-369.052
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Ambientmusic_4
+Object.absolutePosition 89.834/48.782/230.294
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Ambientmusic_5
+Object.absolutePosition -94.408/50.999/394.649
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Ambientmusic_6
+Object.absolutePosition -131.535/57.109/802.489
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Ambient_wind
+Object.absolutePosition -101.650/88.298/229.460
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+endIf

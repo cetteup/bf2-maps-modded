@@ -1,0 +1,152 @@
+GeometryTemplate.create BundledMesh xpak2_eurofighter
+CollisionManager.createTemplate xpak2_eurofighter
+
+ObjectTemplate.create PlayerControlObject xpak2_eurofighter
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator JEREMY:jeremypr
+ObjectTemplate.collisionMesh xpak2_eurofighter
+ObjectTemplate.mapMaterial 0 col_hull 0
+ObjectTemplate.mapMaterial 1 col_glass 0
+ObjectTemplate.mapMaterial 2 col_engines 0
+ObjectTemplate.mapMaterial 3 coL_wreck 0
+ObjectTemplate.mapMaterial 4 col_rubber 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometry xpak2_eurofighter
+ObjectTemplate.addTemplate Eurofighter_LGear
+ObjectTemplate.setPosition -2.0800/-0.3800/-1.2591
+ObjectTemplate.addTemplate Eurofighter_RGear
+ObjectTemplate.setPosition 2.0800/-0.3800/-1.2591
+ObjectTemplate.addTemplate Eurofighter_LGearHatch
+ObjectTemplate.setPosition -0.2518/-0.7357/-1.2578
+ObjectTemplate.setRotation 0.4321/-2.1074/-12.0082
+ObjectTemplate.addTemplate Eurofighter_RGearHatch
+ObjectTemplate.setPosition 0.2485/-0.7384/-1.2576
+ObjectTemplate.setRotation -0.2000/-2.6952/12.0132
+ObjectTemplate.addTemplate Eurofighter_FGearHatch
+ObjectTemplate.setPosition -0.1438/-0.7514/1.5487
+ObjectTemplate.setRotation -0.1938/3.3819/0
+ObjectTemplate.addTemplate Eurofighter_FGear
+ObjectTemplate.setPosition 0/-0.7100/2.0990
+ObjectTemplate.addTemplate Eurofighter_ElevatorL
+ObjectTemplate.setPosition -0.6720/0.0760/4.4140
+ObjectTemplate.setRotation 8.7209/-5.2662/15.1826
+ObjectTemplate.addTemplate Eurofighter_ElevatorR
+ObjectTemplate.setPosition 0.6720/0.0810/4.4140
+ObjectTemplate.setRotation -8.6748/-5.3506/-16.7810
+ObjectTemplate.addTemplate Eurofighter_FlapL
+ObjectTemplate.setPosition -4.3790/-0.2680/-4.0970
+ObjectTemplate.addTemplate Eurofighter_FlapR
+ObjectTemplate.setPosition 4.3790/-0.2680/-4.0940
+ObjectTemplate.addTemplate Eurofighter_Rudder
+ObjectTemplate.setPosition 0/1.8311/-6.0824
+ObjectTemplate.setRotation 0.73/-35.3511/-90.0000
+
+ObjectTemplate.create LandingGear Eurofighter_LGear
+ObjectTemplate.collisionPart 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 1
+ObjectTemplate.addTemplate Eurofighter_LWheel
+ObjectTemplate.setPosition 0.0600/-1.4/0
+
+ObjectTemplate.create Spring Eurofighter_LWheel
+ObjectTemplate.collisionPart 2
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 2
+
+ObjectTemplate.create LandingGear Eurofighter_RGear
+ObjectTemplate.collisionPart 3
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 3
+ObjectTemplate.addTemplate Eurofighter_RWheel
+ObjectTemplate.setPosition -0.0650/-1.4/0
+
+ObjectTemplate.create Spring Eurofighter_RWheel
+ObjectTemplate.collisionPart 4
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 4
+
+ObjectTemplate.create LandingGear Eurofighter_LGearHatch
+ObjectTemplate.collisionPart 5
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 5
+
+ObjectTemplate.create LandingGear Eurofighter_RGearHatch
+ObjectTemplate.collisionPart 6
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 6
+
+ObjectTemplate.create LandingGear Eurofighter_FGearHatch
+ObjectTemplate.collisionPart 7
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 7
+
+ObjectTemplate.create LandingGear Eurofighter_FGear
+ObjectTemplate.collisionPart 8
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 8
+
+ObjectTemplate.addTemplate eurofighter_frontgear_taxi_RotationalBundle
+ObjectTemplate.setPosition 0/-1.2/0.2280
+ObjectTemplate.create RotationalBundle eurofighter_frontgear_taxi_RotationalBundle
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.addTemplate Eurofighter_FWheel
+ObjectTemplate.setPosition 0/0/0
+
+ObjectTemplate.create Spring Eurofighter_FWheel
+ObjectTemplate.collisionPart 9
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 9
+
+ObjectTemplate.create RotationalBundle Eurofighter_ElevatorL
+ObjectTemplate.collisionPart 10
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 10
+
+ObjectTemplate.create RotationalBundle Eurofighter_ElevatorR
+ObjectTemplate.collisionPart 11
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 11
+
+ObjectTemplate.create Wing Eurofighter_FlapL
+ObjectTemplate.collisionPart 12
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 12
+
+ObjectTemplate.create Wing Eurofighter_FlapR
+ObjectTemplate.collisionPart 13
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 13
+
+ObjectTemplate.create Wing Eurofighter_Rudder
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 14
+
+include xpak2_eurofighter.tweak

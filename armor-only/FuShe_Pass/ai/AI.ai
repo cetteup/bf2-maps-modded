@@ -1,0 +1,19 @@
+
+rem ************** LEVEL SPECIFIC AI SETTINGS ***************************
+
+rem aiSettings.setViewDistance 300
+
+rem *** Init AI using current settings ****
+ai.init 2
+
+rem *** Set slope angles for the navmesh ***
+aiPathfinding.setActiveMap Infantry
+aiPathfinding.map.maxSlope 37
+aiPathfinding.map.addVehicleForClusterCost Infantery
+
+aiPathfinding.setActiveMap Vehicle
+aiPathfinding.map.maxSlope 32
+aiPathfinding.map.addVehicleForClusterCost Tank
+aiPathfinding.map.addVehicleForClusterCost ArmedCar
+
+rem ----------------------------------------------------------------------------

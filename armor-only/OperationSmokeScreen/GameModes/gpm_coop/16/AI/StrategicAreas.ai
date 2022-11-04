@@ -1,0 +1,62 @@
+rem *** Create strategic areas ***
+aiStrategicArea.createFromControlPoint SinglePlayer_16p_OSS_Garage 304 30
+aiStrategicArea.layer 4
+
+aiStrategicArea.createFromControlPoint SinglePlayer_16p_OSS_Oasis 301 30
+aiStrategicArea.layer 4
+
+aiStrategicArea.createFromControlPoint SinglePlayer_16p_OSS_OilPlant 303 80
+aiStrategicArea.layer 4
+
+aiStrategicArea.createFromControlPoint SinglePlayer_16p_OSS_Village 302 50
+aiStrategicArea.layer 4
+
+aiStrategicArea.setActive SinglePlayer_16p_OSS_Garage
+AIStrategicArea.addNeighbour SinglePlayer_16p_OSS_OilPlant
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry -202.951/89.6699/202.288
+AIStrategicArea.setOrderPosition Vehicle -196.104/89.4551/200.881
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 42.4264
+
+aiStrategicArea.setActive SinglePlayer_16p_OSS_Oasis
+AIStrategicArea.addNeighbour SinglePlayer_16p_OSS_OilPlant
+AIStrategicArea.addNeighbour SinglePlayer_16p_OSS_Village
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 70.8203/98.5/-516.429
+AIStrategicArea.setOrderPosition Vehicle 65.1812/98.5/-493.443
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 31.1127
+
+aiStrategicArea.setActive SinglePlayer_16p_OSS_OilPlant
+AIStrategicArea.addNeighbour SinglePlayer_16p_OSS_Garage
+AIStrategicArea.addNeighbour SinglePlayer_16p_OSS_Village
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry -263.087/105.987/-85.4268
+AIStrategicArea.setOrderPosition Vehicle -248.739/106.031/-80.8248
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 62.2254
+
+aiStrategicArea.setActive SinglePlayer_16p_OSS_Village
+AIStrategicArea.addNeighbour SinglePlayer_16p_OSS_OilPlant
+AIStrategicArea.addNeighbour SinglePlayer_16p_OSS_Oasis
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry -118.91/106.603/-269.086
+AIStrategicArea.setOrderPosition Vehicle -118.174/106.603/-276.134
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 28.2843
+
+aiStrategicArea.addWayPoint -103.538/111.275/-85.262 Vehicle SinglePlayer_16p_OSS_Garage SinglePlayer_16p_OSS_Oasis
+aiStrategicArea.addWayPoint -186.04/104.157/-158.07 Vehicle SinglePlayer_16p_OSS_Garage SinglePlayer_16p_OSS_OilPlant
+aiStrategicArea.addWayPoint -115.962/106.603/-281.763 Vehicle SinglePlayer_16p_OSS_Garage SinglePlayer_16p_OSS_OilPlant
+aiStrategicArea.addWayPoint -99.3588/106.603/-333.616 Infantry SinglePlayer_16p_OSS_Garage SinglePlayer_16p_OSS_Village
+aiStrategicArea.addWayPoint -87.9742/106.603/-311.623 Infantry SinglePlayer_16p_OSS_Garage SinglePlayer_16p_OSS_Village
+aiStrategicArea.addWayPoint -67.3173/106.603/-332.57 Vehicle SinglePlayer_16p_OSS_Garage SinglePlayer_16p_OSS_Village
+aiStrategicArea.addWayPoint 79.9474/101.293/-342.452 Vehicle SinglePlayer_16p_OSS_Garage SinglePlayer_16p_OSS_Village
+aiStrategicArea.addWayPoint -117.112/106.603/-280.835 Vehicle SinglePlayer_16p_OSS_Garage SinglePlayer_16p_OSS_Village
+aiStrategicArea.addWayPoint -104.892/107.28/85.0203 Vehicle SinglePlayer_16p_OSS_Oasis SinglePlayer_16p_OSS_OilPlant
+aiStrategicArea.addWayPoint -224.068/98.005/106.684 Vehicle SinglePlayer_16p_OSS_Oasis SinglePlayer_16p_OSS_OilPlant
+aiStrategicArea.addWayPoint -302.326/103.544/8.91187 Vehicle SinglePlayer_16p_OSS_Oasis SinglePlayer_16p_OSS_OilPlant
+aiStrategicArea.addWayPoint -48.3552/105.657/-344.334 Vehicle SinglePlayer_16p_OSS_Oasis SinglePlayer_16p_OSS_Village
+aiStrategicArea.addWayPoint -71.8096/101.228/-219.986 Vehicle SinglePlayer_16p_OSS_OilPlant SinglePlayer_16p_OSS_Village
+aiStrategicArea.addWayPoint -71.2304/101.228/-222.87 Vehicle SinglePlayer_16p_OSS_OilPlant SinglePlayer_16p_OSS_Village

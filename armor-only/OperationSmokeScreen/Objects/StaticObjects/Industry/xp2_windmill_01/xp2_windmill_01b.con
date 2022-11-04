@@ -1,0 +1,13 @@
+GeometryTemplate.create StaticMesh xp2_windmill_01b
+CollisionManager.createTemplate xp2_windmill_01b
+
+ObjectTemplate.create Bundle xp2_windmill_01b
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator TAYLOR:taylorki
+ObjectTemplate.collisionMesh xp2_windmill_01
+ObjectTemplate.mapMaterial 0 metal_solid 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry xp2_windmill_01
+
+include xp2_windmill_01b.tweak

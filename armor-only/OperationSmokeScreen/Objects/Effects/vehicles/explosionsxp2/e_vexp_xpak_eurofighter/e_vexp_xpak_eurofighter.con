@@ -1,0 +1,46 @@
+GeometryTemplate.create BundledMesh e_vexp_xpak_eurofighter
+
+ObjectTemplate.create EffectBundle e_vexp_xpak_eurofighter
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator JEFFO:jeffev
+ObjectTemplate.addTemplate Eurofighter_wreck_wheel
+ObjectTemplate.addTemplate Eurofighter_wreck_wing
+ObjectTemplate.addTemplate Eurofighter_wreck_tail
+
+ObjectTemplate.create Emitter Eurofighter_wreck_wheel
+ObjectTemplate.template p_Eurofighter_wreck_wheel
+
+ObjectTemplate.create Particle p_Eurofighter_wreck_wheel
+ObjectTemplate.collisionMesh e_vexp_xpak_eurofighter
+ObjectTemplate.mapMaterial 0 wreck1 0
+ObjectTemplate.collisionPart 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry e_vexp_xpak_eurofighter
+ObjectTemplate.geometryPart 0
+
+ObjectTemplate.create Emitter Eurofighter_wreck_wing
+ObjectTemplate.template p_Eurofighter_wreck_wing
+
+ObjectTemplate.create Particle p_Eurofighter_wreck_wing
+ObjectTemplate.collisionMesh e_vexp_xpak_eurofighter
+ObjectTemplate.mapMaterial 0 wreck1 0
+ObjectTemplate.collisionPart 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry e_vexp_xpak_eurofighter
+ObjectTemplate.geometryPart 1
+
+ObjectTemplate.create Emitter Eurofighter_wreck_tail
+ObjectTemplate.template p_Eurofighter_wreck_tail
+
+ObjectTemplate.create Particle p_Eurofighter_wreck_tail
+ObjectTemplate.collisionMesh e_vexp_xpak_eurofighter
+ObjectTemplate.mapMaterial 0 wreck1 0
+ObjectTemplate.collisionPart 2
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry e_vexp_xpak_eurofighter
+ObjectTemplate.geometryPart 2
+
+include e_vexp_xpak_eurofighter.tweak

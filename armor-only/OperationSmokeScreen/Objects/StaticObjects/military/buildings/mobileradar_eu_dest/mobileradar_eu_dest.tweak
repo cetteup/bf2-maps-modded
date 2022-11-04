@@ -1,0 +1,101 @@
+rem *** Generated with Bf2Editor.exe [created: 2006/4/12 7:10]
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+ObjectTemplate.activeSafe PlayerControlObject mobileradar_eu_dest
+ObjectTemplate.creator DFR-1:dfr
+ObjectTemplate.modifiedByUser "daveke"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.isDestructable 1
+ObjectTemplate.castsDynamicShadow 1
+rem ---BeginComp:Armor ---
+ObjectTemplate.createComponent Armor
+ObjectTemplate.armor.maxHitPoints 1000
+ObjectTemplate.armor.hitPoints 1000
+ObjectTemplate.armor.defaultMaterial 98
+ObjectTemplate.armor.waterLevel -0.3
+ObjectTemplate.armor.explosionForce 7
+ObjectTemplate.armor.explosionDamage 200
+ObjectTemplate.armor.explosionRadius 4
+ObjectTemplate.armor.explosionMaterial 56
+ObjectTemplate.armor.wreckExplosionForce 7
+ObjectTemplate.armor.wreckExplosionDamage 50
+ObjectTemplate.armor.wreckExplosionRadius 10
+ObjectTemplate.armor.wreckExplosionMaterial 70
+ObjectTemplate.armor.wreckHitPoints 1000
+ObjectTemplate.armor.timeToStayAsWreck 500
+ObjectTemplate.armor.canBeRepairedWhenWreck 1
+ObjectTemplate.armor.canBeDestroyed 0
+ObjectTemplate.armor.addArmorEffect 50 e_dstate_land_lightsmoke -0.50325/0.35173/0.99068 0/0/0
+ObjectTemplate.armor.addArmorEffect 25 e_dstate_land_mediumSmoke -0.50325/0.35173/0.99068 0/0/0
+ObjectTemplate.armor.addArmorEffect 5 e_dstate_land_heavysmoke -0.293144/0.634664/0 0/0/0
+ObjectTemplate.armor.addArmorEffect 0 e_vexp_mobileradar_mec 0/0/0 0/0/0
+ObjectTemplate.armor.addArmorEffect 0 e_vexp_armoredCar_spec 0/0/0 0/0/0
+rem ---EndComp ---
+rem ---BeginComp:Radio ---
+ObjectTemplate.createComponent Radio
+ObjectTemplate.Radio.destroyedMessage satellite_destroyed
+ObjectTemplate.Radio.repairedMessage satellite_repaired
+rem ---EndComp ---
+rem ---BeginComp:HelpHud ---
+ObjectTemplate.createComponent HelpHud
+ObjectTemplate.HelpHud.closeToHelpStringKeyFriendly "HUD_HELP_WORLD_PLAYER_RADAR_friendly"
+ObjectTemplate.HelpHud.closeToHelpSoundKeyFriendly "HUD_HELP_WORLD_PLAYER_RADAR_friendly"
+ObjectTemplate.HelpHud.closeToHelpStringKeyEnemy "HUD_HELP_WORLD_PLAYER_RADAR_enemy"
+ObjectTemplate.HelpHud.closeToHelpSoundKeyEnemy "HUD_HELP_WORLD_PLAYER_RADAR_enemy"
+ObjectTemplate.HelpHud.closeToDistance 20
+rem ---EndComp ---
+rem ---BeginComp:StrategicObject ---
+ObjectTemplate.createComponent StrategicObject
+ObjectTemplate.StrategicObject.strategicObjectName RADAR_EU
+ObjectTemplate.StrategicObject.destroyedIcon Ingame\Minimap\Icons\Radar_broken.tga
+ObjectTemplate.StrategicObject.intactIcon Ingame\Minimap\Icons\Radar.tga
+ObjectTemplate.StrategicObject.3dMapIcon 2
+rem ---EndComp ---
+ObjectTemplate.geometry mobileradar_eu_dest
+ObjectTemplate.setCollisionMesh mobileradar_eu_dest
+ObjectTemplate.mapMaterial 0 metal_solid 51
+ObjectTemplate.mapMaterial 1 rubber 51
+ObjectTemplate.mapMaterial 2 metal_thin 51
+ObjectTemplate.mass 6000
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate S_mobileradar_eu_dest_Ambient
+ObjectTemplate.addTemplate S_mobileradar_eu_dest_AmbientDamaged
+ObjectTemplate.addTemplate SatelliteControlObject
+rem -------------------------------------
+
+ObjectTemplate.activeSafe Sound S_mobileradar_eu_dest_Ambient
+ObjectTemplate.modifiedByUser "daveke"
+
+ObjectTemplate.activeSafe Sound S_mobileradar_eu_dest_AmbientDamaged
+ObjectTemplate.modifiedByUser "daveke"
+
+ObjectTemplate.activeSafe RotationalBundle mobileRadar_eu_Dest_disc
+ObjectTemplate.modifiedByUser "daveke"
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate S_mobileRadar_eu_Dest_disc_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setMaxSpeed 150/0/0
+ObjectTemplate.setContinousRotationSpeed 150/0/0
+
+ObjectTemplate.activeSafe Sound S_mobileRadar_eu_Dest_disc_RotationRpm
+ObjectTemplate.modifiedByUser "daveke"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/effects/sounds/mobileradar.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 0.8
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.minDistance 3.5
+ObjectTemplate.halfVolumeDistance 5
+

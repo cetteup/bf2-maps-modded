@@ -1,0 +1,9 @@
+GeometryTemplate.create StaticMesh xp2_militarytent_large_01
+
+ObjectTemplate.create SimpleObject xp2_militarytent_large_01
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator MIKECA:mikeca
+ObjectTemplate.geometry xp2_militarytent_large_01
+ObjectTemplate.anchor 2.9426/-10.6047/4.0204
+
+include xp2_militarytent_large_01.tweak

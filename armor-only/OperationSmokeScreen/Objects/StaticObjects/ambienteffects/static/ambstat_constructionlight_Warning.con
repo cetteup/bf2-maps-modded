@@ -1,0 +1,4 @@
+ObjectTemplate.create Bundle ambstat_constructionlight_Warning
+ObjectTemplate.createdInEditor 1
+
+include ambstat_constructionlight_Warning.tweak

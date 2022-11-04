@@ -1,0 +1,3897 @@
+if v_arg1 == BF2Editor
+console.allowMultipleFileLoad 0
+run /objects/staticobjects/ambienteffects/static/ambstat_oiltower_fire2.con
+run /objects/effects/ambient/staticfx/e_samb_oiltower_fire2.con
+run /objects/weapons/common/targetobjects/heatobject.con
+run /objects/staticobjects/ambienteffects/static/ambstat_oiltower_fire2.tweak
+run /objects/staticobjects/ambienteffects/static/ambstat_oilcistsmoke.con
+run /objects/effects/ambient/staticfx/e_samb_oilcisternsmoke.con
+run /objects/staticobjects/ambienteffects/static/ambstat_OilCistFire.tweak
+run /objects/staticobjects/industry/ind_objects/gaspumptow/gaspumptow.con
+run /objects/staticobjects/industry/ind_objects/gaspumptow/gaspumptow_ladder_4m.con
+run /objects/staticobjects/industry/ind_objects/gaspumptow/gaspumptow_ladder_8m.con
+run /objects/staticobjects/industry/ind_objects/gaspumptow/gaspumptow_ladder_4_5m.con
+run /objects/staticobjects/industry/ind_buildings/office_building/office_building.con
+run /objects/staticobjects/industry/ind_buildings/gatehouse/gatehouse.con
+run /objects/staticobjects/industry/ind_buildings/lrgfactorybuilding/lrgfactorybuilding.con
+run /objects/staticobjects/common/com_objects/rockpile_large/rockpile_large.con
+run /objects/staticobjects/common/com_objects/rock20m/rock20m.con
+run /objects/staticobjects/common/com_objects/rockpile_1/rockpile_1.con
+run /objects/staticobjects/common/com_objects/rockpile_medium/rockpile_medium.con
+run /objects/staticobjects/industry/ind_buildings/lrgstrgbuilding_02/lrgstrgbuilding_02.con
+run /objects/staticobjects/industry/ind_buildings/lrgstrgbuilding_04/lrgstrgbuilding_04.con
+run /objects/staticobjects/industry/ind_objects/barracksngl_01/barracksngl_01.con
+run /objects/staticobjects/military/objects/air_repairstation/air_repairstation.con
+run /objects/staticobjects/military/objects/air_repairstation/air_repairstation.tweak
+run /objects/staticobjects/military/objects/air_repairstation/air_repairstation.tweak
+run /objects/staticobjects/military/objects/air_repairstation/air_repairstation_cone.con
+run /objects/staticobjects/common/com_objects/wirefence_l/wirefence_l.con
+run /objects/staticobjects/common/com_objects/wirefence_24m/wirefence_24m.con
+run /objects/staticobjects/common/com_objects/wirefence_24m_hole/wirefence_24m_hole.con
+run /objects/staticobjects/industry/xp2_windmill_01/xp2_windmill_01.con
+run /objects/staticobjects/industry/xp2_windmill_01/xp2_windmill_blades_01.con
+run /objects/staticobjects/industry/xp2_oilsilo_01/xp2_oilsilo_01.con
+run /objects/staticobjects/industry/ind_buildings/silo_02/silo_02.con
+run /objects/staticobjects/_middle-east/city/city_architecture/house_medium_01/house_medium_01.con
+run /objects/staticobjects/common/com_objects/ladder_20m/ladder_20m.con
+run /objects/staticobjects/_middle-east/city/city_architecture/house_low_02_v2/house_low_02_v2.con
+run /objects/staticobjects/_middle-east/city/city_architecture/house_detached_01/house_detached_01.con
+run /objects/staticobjects/_middle-east/city/village_buildings/house_small_ruin/house_small_ruin.con
+run /objects/staticobjects/_middle-east/city/village_buildings/house_small/house_small.con
+run /objects/staticobjects/_middle-east/city/village_buildings/house_small_v2/house_small_v2.con
+run /objects/common/oil_pump/oil_pump_foundation.con
+run /objects/common/oil_pump/oil_pump_anim.con
+run /objects/common/oil_pump/oil_pump_foundation.tweak
+run /objects/staticobjects/industry/ind_buildings/powerstation/powerstation.con
+run /objects/staticobjects/industry/ind_objects/ind_powerstation/ind_powerstation_01.con
+run /objects/staticobjects/military/objects/sandbags/mi_sandbags_circle_half/mi_sandbags_circle_half.con
+run /objects/staticobjects/_middle-east/city/city_architecture/house_detached_03/house_detached_03.con
+run /objects/staticobjects/industry/ind_buildings/midfactorybuilding/midfactorybuilding.con
+run /objects/staticobjects/industry/ind_buildings/midfactorybuilding/midfactorybuilding_fence.con
+run /objects/vegitation/middle-east/palmtree/me_palmtree03.con
+run /objects/vegitation/middle-east/palmtree/me_palmtree03_lod.con
+run /objects/vegitation/middle-east/palmtree/me_palm_cluster01.con
+run /objects/vegitation/middle-east/palmtree/me_palm_cluster01_lod.con
+run /objects/vegitation/middle-east/shortpalm/me_shortpalm01.con
+run /objects/vegitation/middle-east/shortpalm/me_shortpalm01_lod.con
+run /objects/vegitation/middle-east/palmtree/me_palmtree02.con
+run /objects/vegitation/middle-east/palmtree/me_palmtree02_lod.con
+run /objects/vegitation/middle-east/palmtree/me_palmtree01.con
+run /objects/vegitation/middle-east/palmtree/me_palmtree01_lod.con
+run /objects/staticobjects/common/com_objects/stonefence_5m/stonefence_5m.con
+run /objects/staticobjects/_middle-east/city/city_objects/city_concretewall_mid_50m/city_concretewall_mid_50m.con
+run /objects/staticobjects/_middle-east/city/city_objects/stnwalls_corner_10m/stnwalls_corner_10m.con
+run /objects/staticobjects/_middle-east/city/city_objects/city_concretewall_mid_20m/city_concretewall_mid_20m.con
+run /objects/staticobjects/military/objects/barrier_blocks_high_64m/barrier_blocks_high_64m.con
+run /objects/staticobjects/military/objects/barrier_blocks_high_32m/barrier_blocks_high_32m.con
+run /objects/staticobjects/military/objects/mi_guard_tower_mech/mi_guard_tower_mech.con
+run /objects/staticobjects/common/com_objects/ladder_4m_office/ladder_4m_office.con
+run /objects/staticobjects/military/objects/mi_guard_tower_us/mi_guard_tower_us.con
+run /objects/staticobjects/common/com_objects/ladder_3m/ladder_3m.con
+run /objects/staticobjects/military/objects/mi_antenna/mi_antenna.con
+run /objects/staticobjects/military/objects/sandbags/mi_sandbags_end/mi_sandbags_end.con
+run /objects/staticobjects/military/objects/sandbags/mi_sandbags_12m/mi_sandbags_12m.con
+run /objects/staticobjects/military/objects/sandbags/mi_sandbags_4m/mi_sandbags_4m.con
+run /objects/staticobjects/common/com_objects/ladder_6_3m/ladder_6_3m.con
+run /objects/staticobjects/common/com_objects/wirefence_72m/wirefence_72m.con
+run /objects/staticobjects/common/com_objects/wirefence_12m/wirefence_12m.con
+run /objects/staticobjects/common/com_objects/ladder_2m/ladder_2m.con
+run /objects/staticobjects/military/buildings/mi_hangar_us_v2/mi_hangar_us_v2.con
+run /objects/roads/staticsnoblend/concreteblock_helipad/concreteblock_helipad.con
+run /objects/roads/staticsnoblend/concreteblock_helipad/concreteblock_helipad.tweak
+run /objects/vegitation/middle-east/mangrove/mangrove_big1.con
+run /objects/vegitation/middle-east/mangrove/mangrove_big1_lod.con
+run /objects/staticobjects/common/com_objects/rockpile_medium_02/rockpile_medium_02.con
+run /objects/staticobjects/_middle-east/city/village_buildings/house_small2/house_small2.con
+run /objects/staticobjects/ambienteffects/static/ambstat_oiltowerburning.con
+run /objects/effects/ambient/staticfx/e_samb_burningoilfire.con
+run /objects/staticobjects/ambienteffects/static/ambstat_Oiltowerburning.tweak
+run /objects/staticobjects/common/com_objects/wirefence_l2/wirefence_l2.con
+run /objects/staticobjects/common/com_objects/wirefence_end/wirefence_end.con
+run /objects/staticobjects/industry/ind_objects/container_cargo_red/container_cargo_red.con
+run /objects/staticobjects/common/com_objects/fences/fence_corrugated_3x12m_corner_01/fence_corrugated_3x12m_corner_01.con
+run /objects/staticobjects/common/com_objects/fences/fence_corrugated_3x24m_corner_01/fence_corrugated_3x24m_corner_01.con
+run /objects/staticobjects/common/com_objects/fences/fence_corrugated_3x48m/fence_corrugated_3x48m.con
+run /objects/staticobjects/common/com_objects/fences/fence_corrugated_3x12m_end/fence_corrugated_3x12m_end.con
+run /objects/staticobjects/common/com_objects/fences/fence_corrugated_3x24m/fence_corrugated_3x24m.con
+run /objects/staticobjects/common/com_objects/fences/fence_corrugated_pole_3m/fence_corrugated_pole_3m.con
+run /objects/staticobjects/common/com_objects/wirefence_6m/wirefence_6m.con
+run /objects/staticobjects/_middle-east/city/city_objects/wallhigh01/wallhigh01.con
+run /objects/staticobjects/_middle-east/city/city_objects/wallhigh01_32m/wallhigh01_32m.con
+run /objects/staticobjects/_middle-east/city/city_objects/wallend/wallend.con
+run /objects/staticobjects/common/com_objects/construct_metal_plate_ramp/construct_metal_plate_ramp.con
+run /objects/roads/staticsnoblend/concreteblock_airstrip_long_endstr/concreteblock_airstrip_long_endstr.con
+run /objects/roads/staticsnoblend/concreteblock_airstrip_long_endstr/concreteblock_airstrip_long_endstr.tweak
+run /objects/roads/staticsnoblend/concreteblock_airstrip_long_endstr/concreteblock_airstrip_long_endstr.tweak
+run /objects/roads/staticsnoblend/concreteblock_airstrip_long_endstr/concreteblock_airstrip_long_endstr.tweak
+run /objects/roads/staticsnoblend/concreteblock_airstrip_long_endstr/concreteblock_airstrip_long_endstr.tweak
+run /objects/staticobjects/common/com_objects/stonefence_slope_5m/stonefence_slope_5m.con
+run /objects/staticobjects/common/com_objects/stonefence_10m/stonefence_10m.con
+run /objects/staticobjects/common/com_objects/stonefence_l/stonefence_l.con
+run /objects/staticobjects/common/com_objects/stonefence_20m/stonefence_20m.con
+run /objects/staticobjects/_middle-east/city/city_architecture/roundabout/roundabout.con
+run /objects/staticobjects/industry/xp2_oilsilowreaked_01/xp2_oilsilowreaked_01.con
+run /objects/staticobjects/_middle-east/city/city_objects/wallhigh02/wallhigh02.con
+run /objects/staticobjects/military/xp2_militarytent_large_01/xp2_militarytent_large_01.con
+run /objects/staticobjects/industry/xp2_windmill_01/xp2_windmill_01c.con
+run /objects/staticobjects/industry/xp2_windmill_01/xp2_windmill_blades_01c.con
+run /objects/staticobjects/industry/xp2_windmill_01/xp2_windmill_01a.con
+run /objects/staticobjects/industry/xp2_windmill_01/xp2_windmill_blades_01a.con
+run /objects/staticobjects/industry/xp2_windmill_01/xp2_windmill_01b.con
+run /objects/staticobjects/industry/xp2_windmill_01/xp2_windmill_blades_01b.con
+run /objects/staticobjects/ambienteffects/static/ambstat_oilcistfire.con
+run /objects/effects/ambient/staticfx/e_samb_oilfire.con
+run /objects/staticobjects/common/com_objects/concretebarrier/concretebarrier_5.con
+run /objects/staticobjects/military/buildings/aircontroltower_mec/aircontroltower_mec.con
+run /objects/staticobjects/military/buildings/mobileradar_mech_dest/mobileradar_mech_dest.con
+run /objects/weapons/stationary/usart_lw155/usart_lw155.con
+run /objects/staticobjects/military/buildings/aircontroltower_eu/aircontroltower_eu.con
+run /objects/staticobjects/military/buildings/mobileradar_eu_dest/mobileradar_eu_dest.con
+run /objects/weapons/stationary/igla_djigit/igla_djigit.con
+run /objects/weapons/stationary/usaas_stinger/usaas_stinger.con
+run /objects/vehicles/land/jep_mec_paratrooper/jep_mec_paratrooper.con
+run /objects/vehicles/land/rutnk_t90/rutnk_t90.con
+run /objects/vehicles/air/ahe_havoc/ahe_havoc.con
+run /objects/vehicles/air/ruair_mig29/ruair_mig29.con
+run /objects/vehicles/xpak2_vehicles/xpak2_faav/xpak2_faav.con
+run /objects/vehicles/xpak2_vehicles/xpak2_tnkc2/xpak2_tnkc2.con
+run /objects/vehicles/land/aav_tunguska/aav_tunguska.con
+run /objects/vehicles/land/usaav_m6/usaav_m6.con
+run /objects/vehicles/xpak2_vehicles/xpak2_eurofighter/xpak2_eurofighter.con
+run /objects/weapons/stationary/ars_d30/ars_d30.con
+run /objects/vehicles/xpak2_vehicles/xpak2_tiger/xpak2_tiger.con
+run /objects/weapons/stationary/ats_hj8/ats_hj8.con
+run /objects/weapons/stationary/ats_tow/ats_tow.con
+run /objects/weapons/stationary/mec_bipod/mec_bipod.con
+run /objects/weapons/stationary/us_bipod/us_bipod.con
+run /objects/weapons/stationary/ats_hj8/ats_hj8.con
+console.allowMultipleFileLoad 1
+endIf
+
+rem *** ambstat_oiltower_fire2 ***
+Object.create ambstat_oiltower_fire2
+Object.absolutePosition -326.156/129.023/19.604
+Object.layer 1
+
+rem *** ambstat_oiltower_fire2 ***
+Object.create ambstat_oiltower_fire2
+Object.absolutePosition -255.358/126.919/-279.989
+Object.layer 1
+
+rem *** ambstat_OilCistSmoke ***
+Object.create ambstat_OilCistSmoke
+Object.absolutePosition -321.031/105.600/-90.854
+Object.layer 1
+
+rem *** ambstat_OilCistSmoke ***
+Object.create ambstat_OilCistSmoke
+Object.absolutePosition -268.248/106.658/-8.568
+Object.layer 1
+
+rem *** ambstat_OilCistSmoke ***
+Object.create ambstat_OilCistSmoke
+Object.absolutePosition -217.070/106.499/-156.792
+Object.layer 1
+
+rem *** ambstat_OilCistSmoke ***
+Object.create ambstat_OilCistSmoke
+Object.absolutePosition -511.615/102.281/-239.075
+Object.layer 1
+
+rem *** ambstat_OilCistSmoke ***
+Object.create ambstat_OilCistSmoke
+Object.absolutePosition -520.447/99.605/226.778
+Object.layer 1
+
+rem *** gaspumptow ***
+Object.create gaspumptow
+Object.absolutePosition -171.363/114.911/105.669
+Object.layer 1
+
+rem *** office_building ***
+Object.create office_building
+Object.absolutePosition -183.585/92.637/176.931
+Object.rotation -62.5/0.0/0.0
+Object.layer 1
+
+rem *** gatehouse ***
+Object.create gatehouse
+Object.absolutePosition -1.654/99.993/540.126
+Object.rotation 97.2/0.0/0.0
+Object.layer 1
+
+rem *** lrgfactorybuilding ***
+Object.create lrgfactorybuilding
+Object.absolutePosition 59.241/121.336/461.967
+Object.rotation -82.8/0.0/0.0
+Object.layer 1
+
+rem *** gatehouse ***
+Object.create gatehouse
+Object.absolutePosition -306.765/105.193/21.377
+Object.rotation -149.3/0.0/0.0
+Object.layer 1
+
+rem *** gatehouse ***
+Object.create gatehouse
+Object.absolutePosition 291.029/137.267/-28.695
+Object.rotation 93.8/0.0/0.0
+Object.layer 1
+
+rem *** rockpile_large ***
+Object.create rockpile_large
+Object.absolutePosition -163.650/90.772/135.286
+Object.layer 1
+
+rem *** rock20m ***
+Object.create rock20m
+Object.absolutePosition -177.674/88.293/197.079
+Object.rotation 80.4/0.0/90.0
+Object.layer 1
+
+rem *** rockpile_1 ***
+Object.create rockpile_1
+Object.absolutePosition -232.997/87.420/167.746
+Object.rotation 0.0/0.0/180.0
+Object.layer 1
+
+rem *** rockpile_1 ***
+Object.create rockpile_1
+Object.absolutePosition -59.279/111.615/-134.981
+Object.rotation 0.0/0.0/180.0
+Object.layer 1
+
+rem *** rockpile_large ***
+Object.create rockpile_large
+Object.absolutePosition -163.349/95.294/309.019
+Object.rotation -127.5/0.0/0.0
+Object.layer 1
+
+rem *** rockpile_medium ***
+Object.create rockpile_medium
+Object.absolutePosition -125.840/89.654/223.054
+Object.rotation 165.4/0.0/0.0
+Object.layer 1
+
+rem *** rockpile_large ***
+Object.create rockpile_large
+Object.absolutePosition -24.875/100.524/-366.545
+Object.layer 1
+
+rem *** rockpile_1 ***
+Object.create rockpile_1
+Object.absolutePosition 168.521/91.833/-531.429
+Object.layer 1
+
+rem *** rockpile_large ***
+Object.create rockpile_large
+Object.absolutePosition 50.463/100.969/-325.257
+Object.layer 1
+
+rem *** rockpile_large ***
+Object.create rockpile_large
+Object.absolutePosition -84.340/108.439/-155.371
+Object.rotation 0.0/0.0/19.0
+Object.layer 1
+
+rem *** lrgstrgbuilding_02 ***
+Object.create lrgstrgbuilding_02
+Object.absolutePosition 268.372/140.292/-76.799
+Object.rotation -70.3/0.0/0.0
+Object.layer 1
+
+rem *** lrgstrgbuilding_04 ***
+Object.create lrgstrgbuilding_04
+Object.absolutePosition 228.673/140.592/-41.819
+Object.layer 1
+
+rem *** office_building ***
+Object.create office_building
+Object.absolutePosition 222.068/137.798/-150.807
+Object.rotation -43.7/0.0/0.0
+Object.layer 1
+
+rem *** gatehouse ***
+Object.create gatehouse
+Object.absolutePosition -290.030/105.193/10.157
+Object.rotation 30.7/0.0/0.0
+Object.layer 1
+
+rem *** office_building ***
+Object.create office_building
+Object.absolutePosition -325.286/105.580/-6.892
+Object.rotation -150.3/0.0/0.0
+Object.layer 1
+
+rem *** office_building ***
+Object.create office_building
+Object.absolutePosition -262.313/107.507/-172.443
+Object.rotation 1.2/0.0/0.0
+Object.layer 1
+
+rem *** barracksngl_01 ***
+Object.create barracksngl_01
+Object.absolutePosition -304.621/107.560/-30.729
+Object.rotation -58.9/0.0/0.0
+Object.layer 1
+
+rem *** barracksngl_01 ***
+Object.create barracksngl_01
+Object.absolutePosition -253.051/106.983/-149.117
+Object.rotation 93.1/0.0/0.0
+Object.layer 1
+
+rem *** air_repairstation ***
+Object.create air_repairstation
+Object.absolutePosition 120.404/94.675/-593.779
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_l ***
+Object.create wirefence_l
+Object.absolutePosition 179.184/136.792/-133.126
+Object.rotation -134.8/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_24m ***
+Object.create wirefence_24m
+Object.absolutePosition 188.076/136.792/-120.388
+Object.rotation -44.8/0.0/0.0
+Object.layer 1
+
+rem *** gatehouse ***
+Object.create gatehouse
+Object.absolutePosition 190.032/137.233/-100.189
+Object.rotation 134.5/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_24m ***
+Object.create wirefence_24m
+Object.absolutePosition 126.461/136.792/-58.381
+Object.rotation -42.5/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_24m_hole ***
+Object.create wirefence_24m_hole
+Object.absolutePosition 108.742/136.792/-74.652
+Object.rotation -42.5/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_l ***
+Object.create wirefence_l
+Object.absolutePosition 22.118/99.552/536.823
+Object.rotation -82.8/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_l ***
+Object.create wirefence_l
+Object.absolutePosition 156.226/136.792/-110.425
+Object.rotation 135.2/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_24m ***
+Object.create wirefence_24m
+Object.absolutePosition 152.218/136.792/-59.168
+Object.rotation 45.2/0.0/0.0
+Object.layer 1
+
+rem *** office_building ***
+Object.create office_building
+Object.absolutePosition 12.710/100.570/435.649
+Object.rotation -82.0/0.0/0.0
+Object.layer 1
+
+rem *** office_building ***
+Object.create office_building
+Object.absolutePosition -24.262/100.557/438.422
+Object.rotation 98.0/0.0/0.0
+Object.layer 1
+
+rem *** air_repairstation ***
+Object.create air_repairstation
+Object.absolutePosition 129.840/101.843/482.977
+Object.rotation 8.2/0.0/0.0
+Object.layer 1
+
+rem *** xp2_windmill_01 ***
+Object.create xp2_windmill_01
+Object.absolutePosition -43.373/149.426/-33.738
+Object.rotation 160.1/0.0/0.0
+Object.layer 1
+
+rem *** xp2_windmill_01 ***
+Object.create xp2_windmill_01
+Object.absolutePosition 179.520/171.452/31.664
+Object.rotation 153.4/0.0/0.0
+Object.layer 1
+
+rem *** xp2_windmill_01 ***
+Object.create xp2_windmill_01
+Object.absolutePosition 327.810/171.279/-95.848
+Object.rotation 170.9/0.0/0.0
+Object.layer 1
+
+rem *** xp2_windmill_01 ***
+Object.create xp2_windmill_01
+Object.absolutePosition 198.505/167.337/-198.207
+Object.rotation -175.2/0.0/0.0
+Object.layer 1
+
+rem *** xp2_windmill_01 ***
+Object.create xp2_windmill_01
+Object.absolutePosition 389.089/171.029/-172.323
+Object.rotation 158.5/0.0/0.0
+Object.layer 1
+
+rem *** xp2_oilsilo_01 ***
+Object.create xp2_oilsilo_01
+Object.absolutePosition -173.607/113.238/-48.761
+Object.rotation 145.5/0.0/0.0
+Object.layer 1
+
+rem *** gatehouse ***
+Object.create gatehouse
+Object.absolutePosition 13.472/99.993/538.382
+Object.rotation 97.2/0.0/0.0
+Object.layer 1
+
+rem *** rockpile_1 ***
+Object.create rockpile_1
+Object.absolutePosition -47.495/98.669/366.274
+Object.rotation -143.4/0.0/0.0
+Object.layer 1
+
+rem *** silo_02 ***
+Object.create silo_02
+Object.absolutePosition -72.885/106.550/453.714
+Object.rotation 98.0/0.0/0.0
+Object.layer 1
+
+rem *** silo_02 ***
+Object.create silo_02
+Object.absolutePosition -64.888/106.550/510.615
+Object.rotation 98.0/0.0/0.0
+Object.layer 1
+
+rem *** house_medium_01 ***
+Object.create house_medium_01
+Object.absolutePosition -143.732/112.647/-286.150
+Object.rotation 117.8/0.0/0.0
+Object.layer 1
+
+rem *** house_low_02_v2 ***
+Object.create house_low_02_v2
+Object.absolutePosition -133.217/110.469/-321.339
+Object.rotation 117.8/0.0/0.0
+Object.layer 1
+
+rem *** house_detached_01 ***
+Object.create house_detached_01
+Object.absolutePosition -112.465/110.349/-335.456
+Object.rotation -62.2/0.0/0.0
+Object.layer 1
+
+rem *** house_detached_01 ***
+Object.create house_detached_01
+Object.absolutePosition -154.399/110.349/-303.492
+Object.rotation -152.2/0.0/0.0
+Object.layer 1
+
+rem *** house_small_ruin ***
+Object.create house_small_ruin
+Object.absolutePosition -51.722/108.576/-327.106
+Object.rotation 137.2/0.0/0.0
+Object.layer 1
+
+rem *** house_small_ruin ***
+Object.create house_small_ruin
+Object.absolutePosition -164.811/108.576/-255.404
+Object.rotation 137.2/0.0/0.0
+Object.layer 1
+
+rem *** house_small ***
+Object.create house_small
+Object.absolutePosition -164.240/108.559/-292.121
+Object.rotation -151.3/0.0/0.0
+Object.layer 1
+
+rem *** house_small_v2 ***
+Object.create house_small_v2
+Object.absolutePosition -86.986/108.559/-308.277
+Object.rotation 117.8/0.0/0.0
+Object.layer 1
+
+rem *** house_small_ruin ***
+Object.create house_small_ruin
+Object.absolutePosition -88.650/108.576/-333.575
+Object.rotation 2.9/0.0/0.0
+Object.layer 1
+
+rem *** house_medium_01 ***
+Object.create house_medium_01
+Object.absolutePosition -100.465/112.647/-318.259
+Object.rotation -62.2/0.0/0.0
+Object.layer 1
+
+rem *** gaspumptow ***
+Object.create gaspumptow
+Object.absolutePosition 62.881/110.998/647.174
+Object.rotation -172.8/0.0/0.0
+Object.layer 1
+
+rem *** oil_pump_foundation ***
+Object.create oil_pump_foundation
+Object.absolutePosition 50.238/101.430/395.137
+Object.rotation 98.0/0.0/0.0
+Object.layer 1
+
+rem *** oil_pump_foundation ***
+Object.create oil_pump_foundation
+Object.absolutePosition -72.750/101.430/416.388
+Object.rotation 98.0/0.0/0.0
+Object.layer 1
+
+rem *** xp2_windmill_01 ***
+Object.create xp2_windmill_01
+Object.absolutePosition 515.926/171.001/18.936
+Object.rotation 160.4/0.0/0.0
+Object.layer 1
+
+rem *** xp2_windmill_01 ***
+Object.create xp2_windmill_01
+Object.absolutePosition 409.337/171.258/59.763
+Object.rotation 170.9/0.0/0.0
+Object.layer 1
+
+rem *** xp2_windmill_01 ***
+Object.create xp2_windmill_01
+Object.absolutePosition 474.701/171.050/426.790
+Object.rotation 170.9/0.0/0.0
+Object.layer 1
+
+rem *** xp2_windmill_01 ***
+Object.create xp2_windmill_01
+Object.absolutePosition 676.362/176.968/278.316
+Object.rotation 170.9/0.0/0.0
+Object.layer 1
+
+rem *** xp2_windmill_01 ***
+Object.create xp2_windmill_01
+Object.absolutePosition 445.430/173.441/-277.036
+Object.rotation 154.0/0.0/0.0
+Object.layer 1
+
+rem *** xp2_windmill_01 ***
+Object.create xp2_windmill_01
+Object.absolutePosition 565.098/171.179/651.890
+Object.rotation 170.9/0.0/0.0
+Object.layer 1
+
+rem *** xp2_windmill_01 ***
+Object.create xp2_windmill_01
+Object.absolutePosition 783.644/171.001/649.437
+Object.rotation 170.9/0.0/0.0
+Object.layer 1
+
+rem *** xp2_windmill_01 ***
+Object.create xp2_windmill_01
+Object.absolutePosition 888.866/171.001/410.858
+Object.rotation 170.9/0.0/0.0
+Object.layer 1
+
+rem *** silo_02 ***
+Object.create silo_02
+Object.absolutePosition -68.901/106.550/482.061
+Object.rotation 98.0/0.0/0.0
+Object.layer 1
+
+rem *** air_repairstation ***
+Object.create air_repairstation
+Object.absolutePosition 25.993/101.843/575.238
+Object.rotation -169.6/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_l ***
+Object.create wirefence_l
+Object.absolutePosition 139.621/136.792/-50.180
+Object.rotation -42.5/0.0/0.0
+Object.layer 1
+
+rem *** powerstation ***
+Object.create powerstation
+Object.absolutePosition 131.177/145.556/-124.369
+Object.rotation -134.8/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_24m ***
+Object.create wirefence_24m
+Object.absolutePosition 169.171/136.792/-76.240
+Object.rotation 45.2/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_24m ***
+Object.create wirefence_24m
+Object.absolutePosition 213.590/136.792/-120.449
+Object.rotation 45.2/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_24m ***
+Object.create wirefence_24m
+Object.absolutePosition 230.543/136.792/-137.521
+Object.rotation 45.2/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_l ***
+Object.create wirefence_l
+Object.absolutePosition 239.235/136.792/-150.295
+Object.rotation 45.2/0.0/0.0
+Object.layer 1
+
+rem *** office_building ***
+Object.create office_building
+Object.absolutePosition 139.877/137.798/-68.818
+Object.rotation -133.7/0.0/0.0
+Object.layer 1
+
+rem *** powerstation ***
+Object.create powerstation
+Object.absolutePosition 166.464/145.556/-159.903
+Object.rotation -134.8/0.0/0.0
+Object.layer 1
+
+rem *** ind_powerstation_01 ***
+Object.create ind_powerstation_01
+Object.absolutePosition 155.607/138.670/-88.690
+Object.rotation 45.0/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_24m ***
+Object.create wirefence_24m
+Object.absolutePosition 168.998/136.792/-101.770
+Object.rotation 135.2/0.0/0.0
+Object.layer 1
+
+rem *** ind_powerstation_01 ***
+Object.create ind_powerstation_01
+Object.absolutePosition 200.912/138.670/-133.996
+Object.rotation 45.0/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_l ***
+Object.create wirefence_l
+Object.absolutePosition 177.904/136.792/-89.040
+Object.rotation 45.2/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_l ***
+Object.create wirefence_l
+Object.absolutePosition 200.844/136.792/-111.691
+Object.rotation -44.8/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_24m ***
+Object.create wirefence_24m
+Object.absolutePosition 230.350/136.792/-163.044
+Object.rotation 135.2/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_circle_half ***
+Object.create mi_sandbags_circle_half
+Object.absolutePosition 93.609/138.553/-37.157
+Object.rotation -82.5/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_circle_half ***
+Object.create mi_sandbags_circle_half
+Object.absolutePosition 163.916/136.100/-126.652
+Object.rotation 44.7/0.0/0.0
+Object.layer 1
+
+rem *** gaspumptow ***
+Object.create gaspumptow
+Object.absolutePosition -326.154/116.076/20.763
+Object.layer 1
+
+rem *** gaspumptow ***
+Object.create gaspumptow
+Object.absolutePosition -255.357/113.981/-278.931
+Object.layer 1
+
+rem *** gaspumptow ***
+Object.create gaspumptow
+Object.absolutePosition -153.936/115.671/-168.197
+Object.layer 1
+
+rem *** gaspumptow ***
+Object.create gaspumptow
+Object.absolutePosition -572.312/111.056/-110.842
+Object.layer 1
+
+rem *** gaspumptow ***
+Object.create gaspumptow
+Object.absolutePosition -527.751/111.056/473.447
+Object.layer 1
+
+rem *** gaspumptow ***
+Object.create gaspumptow
+Object.absolutePosition -627.591/111.056/509.622
+Object.layer 1
+
+rem *** oil_pump_foundation ***
+Object.create oil_pump_foundation
+Object.absolutePosition -188.183/105.285/101.898
+Object.rotation 169.2/0.0/0.0
+Object.layer 1
+
+rem *** house_low_02_v2 ***
+Object.create house_low_02_v2
+Object.absolutePosition -215.767/94.490/168.457
+Object.rotation -153.4/0.0/0.0
+Object.layer 1
+
+rem *** house_detached_01 ***
+Object.create house_detached_01
+Object.absolutePosition -141.950/94.416/206.730
+Object.rotation 43.5/0.0/0.0
+Object.layer 1
+
+rem *** house_small_v2 ***
+Object.create house_small_v2
+Object.absolutePosition -183.566/91.432/242.573
+Object.rotation -45.9/0.0/0.0
+Object.layer 1
+
+rem *** house_detached_03 ***
+Object.create house_detached_03
+Object.absolutePosition -210.934/96.161/269.443
+Object.rotation 44.9/0.0/0.0
+Object.layer 1
+
+rem *** house_detached_01 ***
+Object.create house_detached_01
+Object.absolutePosition -156.030/93.636/239.340
+Object.rotation 121.3/0.0/0.0
+Object.layer 1
+
+rem *** house_small_v2 ***
+Object.create house_small_v2
+Object.absolutePosition -192.711/92.306/162.744
+Object.rotation 116.6/0.0/0.0
+Object.layer 1
+
+rem *** lrgstrgbuilding_02 ***
+Object.create lrgstrgbuilding_02
+Object.absolutePosition -41.912/125.119/64.850
+Object.rotation 89.6/0.0/0.0
+Object.layer 1
+
+rem *** midfactorybuilding ***
+Object.create midfactorybuilding
+Object.absolutePosition -281.218/116.198/-62.933
+Object.rotation 134.7/0.0/0.0
+Object.layer 1
+
+rem *** me_palmtree03 ***
+Object.create me_palmtree03
+Object.absolutePosition -153.338/114.606/-281.625
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palm_cluster01 ***
+Object.create me_palm_cluster01
+Object.absolutePosition -107.756/110.615/-211.786
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree03 ***
+Object.create me_palmtree03
+Object.absolutePosition -39.952/112.634/-337.839
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree03 ***
+Object.create me_palmtree03
+Object.absolutePosition -75.867/114.606/-333.508
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_shortpalm01 ***
+Object.create me_shortpalm01
+Object.absolutePosition -86.482/107.832/-313.392
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** oil_pump_foundation ***
+Object.create oil_pump_foundation
+Object.absolutePosition -132.952/106.045/-169.741
+Object.rotation -179.3/0.0/0.0
+Object.layer 1
+
+rem *** rockpile_1 ***
+Object.create rockpile_1
+Object.absolutePosition -127.250/100.873/120.177
+Object.rotation -180.0/13.8/-180.0
+Object.layer 1
+
+rem *** air_repairstation ***
+Object.create air_repairstation
+Object.absolutePosition 61.170/94.541/-657.992
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+
+rem *** me_palm_cluster01 ***
+Object.create me_palm_cluster01
+Object.absolutePosition 1.849/121.610/-414.236
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree03 ***
+Object.create me_palmtree03
+Object.absolutePosition 24.669/118.972/-393.502
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** rockpile_large ***
+Object.create rockpile_large
+Object.absolutePosition 9.038/112.234/-409.276
+Object.layer 1
+
+rem *** me_palmtree02 ***
+Object.create me_palmtree02
+Object.absolutePosition -78.749/109.256/-488.918
+Object.rotation 113.8/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree03 ***
+Object.create me_palmtree03
+Object.absolutePosition -76.232/113.949/-479.828
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palm_cluster01 ***
+Object.create me_palm_cluster01
+Object.absolutePosition -41.122/118.514/-443.280
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree02 ***
+Object.create me_palmtree02
+Object.absolutePosition 39.883/114.428/-379.575
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree03 ***
+Object.create me_palmtree03
+Object.absolutePosition 87.240/99.018/-630.056
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree03 ***
+Object.create me_palmtree03
+Object.absolutePosition 46.233/106.409/-505.773
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree03 ***
+Object.create me_palmtree03
+Object.absolutePosition 71.647/106.724/-455.464
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree02 ***
+Object.create me_palmtree02
+Object.absolutePosition 69.785/102.787/-456.898
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree02 ***
+Object.create me_palmtree02
+Object.absolutePosition 83.019/102.700/-451.251
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palm_cluster01 ***
+Object.create me_palm_cluster01
+Object.absolutePosition 11.435/107.962/-500.820
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree03 ***
+Object.create me_palmtree03
+Object.absolutePosition 87.711/99.594/-561.844
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree02 ***
+Object.create me_palmtree02
+Object.absolutePosition 77.597/92.789/-595.655
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree02 ***
+Object.create me_palmtree02
+Object.absolutePosition 80.967/94.419/-585.082
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree03 ***
+Object.create me_palmtree03
+Object.absolutePosition 75.386/97.938/-577.637
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_shortpalm01 ***
+Object.create me_shortpalm01
+Object.absolutePosition 79.734/91.006/-587.362
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_shortpalm01 ***
+Object.create me_shortpalm01
+Object.absolutePosition 105.467/92.444/-559.360
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_shortpalm01 ***
+Object.create me_shortpalm01
+Object.absolutePosition 88.699/92.279/-564.438
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_shortpalm01 ***
+Object.create me_shortpalm01
+Object.absolutePosition 91.313/92.245/-629.291
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** house_small ***
+Object.create house_small
+Object.absolutePosition -34.459/92.806/-620.506
+Object.rotation -90.8/0.0/0.0
+Object.layer 1
+
+rem *** me_palmtree03 ***
+Object.create me_palmtree03
+Object.absolutePosition 48.275/97.771/-558.235
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree03 ***
+Object.create me_palmtree03
+Object.absolutePosition -17.734/97.963/-548.877
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree03 ***
+Object.create me_palmtree03
+Object.absolutePosition -94.674/96.484/-615.430
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree03 ***
+Object.create me_palmtree03
+Object.absolutePosition 26.069/98.011/-622.843
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree02 ***
+Object.create me_palmtree02
+Object.absolutePosition 27.689/92.554/-617.291
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree02 ***
+Object.create me_palmtree02
+Object.absolutePosition -141.393/94.313/-573.455
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree01 ***
+Object.create me_palmtree01
+Object.absolutePosition -4.421/93.835/-551.519
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_shortpalm01 ***
+Object.create me_shortpalm01
+Object.absolutePosition -5.395/91.182/-552.242
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree01 ***
+Object.create me_palmtree01
+Object.absolutePosition -154.866/93.605/-618.925
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree01 ***
+Object.create me_palmtree01
+Object.absolutePosition -126.938/93.897/-568.307
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_shortpalm01 ***
+Object.create me_shortpalm01
+Object.absolutePosition -127.655/90.539/-567.824
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** gaspumptow ***
+Object.create gaspumptow
+Object.absolutePosition -120.366/124.519/-39.640
+Object.layer 1
+
+rem *** gaspumptow ***
+Object.create gaspumptow
+Object.absolutePosition -445.368/111.227/-357.018
+Object.layer 1
+
+rem *** gaspumptow ***
+Object.create gaspumptow
+Object.absolutePosition -777.616/119.444/31.563
+Object.layer 1
+
+rem *** gaspumptow ***
+Object.create gaspumptow
+Object.absolutePosition -719.014/111.067/-386.190
+Object.layer 1
+
+rem *** gaspumptow ***
+Object.create gaspumptow
+Object.absolutePosition -281.774/112.429/-727.538
+Object.layer 1
+
+rem *** gaspumptow ***
+Object.create gaspumptow
+Object.absolutePosition -796.444/113.083/-699.276
+Object.layer 1
+
+rem *** gaspumptow ***
+Object.create gaspumptow
+Object.absolutePosition -412.140/111.090/198.639
+Object.layer 1
+
+rem *** me_palm_cluster01 ***
+Object.create me_palm_cluster01
+Object.absolutePosition -145.946/116.330/-334.168
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** stonefence_5m ***
+Object.create stonefence_5m
+Object.absolutePosition -158.166/107.105/-337.518
+Object.rotation 120.1/0.0/0.0
+Object.layer 1
+
+rem *** me_palmtree01 ***
+Object.create me_palmtree01
+Object.absolutePosition -108.946/111.737/-366.007
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree01 ***
+Object.create me_palmtree01
+Object.absolutePosition -186.330/111.738/-307.805
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree03 ***
+Object.create me_palmtree03
+Object.absolutePosition -115.250/114.606/-349.583
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree03 ***
+Object.create me_palmtree03
+Object.absolutePosition -177.422/97.697/205.745
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree03 ***
+Object.create me_palmtree03
+Object.absolutePosition -199.824/98.731/153.786
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree01 ***
+Object.create me_palmtree01
+Object.absolutePosition -167.569/111.744/-286.738
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree01 ***
+Object.create me_palmtree01
+Object.absolutePosition -36.759/106.422/-255.364
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree03 ***
+Object.create me_palmtree03
+Object.absolutePosition -235.556/109.247/-204.389
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palm_cluster01 ***
+Object.create me_palm_cluster01
+Object.absolutePosition -176.691/98.862/250.581
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree01 ***
+Object.create me_palmtree01
+Object.absolutePosition -222.237/95.137/175.675
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree01 ***
+Object.create me_palmtree01
+Object.absolutePosition -203.771/96.187/149.093
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_shortpalm01 ***
+Object.create me_shortpalm01
+Object.absolutePosition -158.418/107.832/-324.854
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_shortpalm01 ***
+Object.create me_shortpalm01
+Object.absolutePosition -104.240/107.832/-348.891
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree02 ***
+Object.create me_palmtree02
+Object.absolutePosition -199.846/107.956/-264.711
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree02 ***
+Object.create me_palmtree02
+Object.absolutePosition -33.099/105.310/-262.679
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree03 ***
+Object.create me_palmtree03
+Object.absolutePosition 1.375/114.176/-321.465
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree03 ***
+Object.create me_palmtree03
+Object.absolutePosition 105.893/99.020/-692.431
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree03 ***
+Object.create me_palmtree03
+Object.absolutePosition -275.454/114.079/90.454
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree03 ***
+Object.create me_palmtree03
+Object.absolutePosition -111.903/117.746/30.565
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree02 ***
+Object.create me_palmtree02
+Object.absolutePosition -117.556/113.619/23.604
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree02 ***
+Object.create me_palmtree02
+Object.absolutePosition -126.676/112.404/34.564
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** rockpile_large ***
+Object.create rockpile_large
+Object.absolutePosition -112.556/108.885/21.386
+Object.layer 1
+
+rem *** barracksngl_01 ***
+Object.create barracksngl_01
+Object.absolutePosition -28.052/122.052/124.354
+Object.rotation -176.9/0.0/0.0
+Object.layer 1
+
+rem *** barracksngl_01 ***
+Object.create barracksngl_01
+Object.absolutePosition -44.571/122.052/109.949
+Object.rotation 93.1/0.0/0.0
+Object.layer 1
+
+rem *** barracksngl_01 ***
+Object.create barracksngl_01
+Object.absolutePosition -38.725/122.052/33.490
+Object.rotation 93.1/0.0/0.0
+Object.layer 1
+
+rem *** office_building ***
+Object.create office_building
+Object.absolutePosition -373.876/105.357/-99.751
+Object.rotation 103.9/0.0/0.0
+Object.layer 1
+
+rem *** city_concretewall_mid_50m ***
+Object.create city_concretewall_mid_50m
+Object.absolutePosition 79.334/133.171/-102.111
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+
+rem *** stnwalls_corner_10m ***
+Object.create stnwalls_corner_10m
+Object.absolutePosition -27.193/117.916/20.381
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+
+rem *** city_concretewall_mid_50m ***
+Object.create city_concretewall_mid_50m
+Object.absolutePosition 110.850/133.171/-20.617
+Object.layer 1
+
+rem *** stnwalls_corner_10m ***
+Object.create stnwalls_corner_10m
+Object.absolutePosition 80.803/133.123/-22.070
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+
+rem *** city_concretewall_mid_50m ***
+Object.create city_concretewall_mid_50m
+Object.absolutePosition 79.335/133.166/-52.111
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+
+rem *** city_concretewall_mid_50m ***
+Object.create city_concretewall_mid_50m
+Object.absolutePosition -27.233/117.963/131.945
+Object.layer 1
+
+rem *** stnwalls_corner_10m ***
+Object.create stnwalls_corner_10m
+Object.absolutePosition -57.280/117.916/130.491
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+
+rem *** city_concretewall_mid_50m ***
+Object.create city_concretewall_mid_50m
+Object.absolutePosition -58.748/117.958/100.451
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+
+rem *** city_concretewall_mid_50m ***
+Object.create city_concretewall_mid_50m
+Object.absolutePosition -58.749/117.963/50.451
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+
+rem *** stnwalls_corner_10m ***
+Object.create stnwalls_corner_10m
+Object.absolutePosition -57.295/117.916/20.404
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+
+rem *** city_concretewall_mid_20m ***
+Object.create city_concretewall_mid_20m
+Object.absolutePosition -42.241/117.961/18.937
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+
+rem *** stnwalls_corner_10m ***
+Object.create stnwalls_corner_10m
+Object.absolutePosition 80.787/133.123/-132.158
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+
+rem *** me_shortpalm01 ***
+Object.create me_shortpalm01
+Object.absolutePosition -105.753/107.832/-304.161
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_shortpalm01 ***
+Object.create me_shortpalm01
+Object.absolutePosition -135.701/107.832/-289.668
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** mi_sandbags_circle_half ***
+Object.create mi_sandbags_circle_half
+Object.absolutePosition -259.599/106.562/-85.198
+Object.rotation 68.1/0.0/0.0
+Object.layer 1
+
+rem *** barracksngl_01 ***
+Object.create barracksngl_01
+Object.absolutePosition -293.535/107.560/-146.757
+Object.rotation -86.9/0.0/0.0
+Object.layer 1
+
+rem *** barracksngl_01 ***
+Object.create barracksngl_01
+Object.absolutePosition -305.884/107.560/-140.508
+Object.rotation -176.0/0.0/0.0
+Object.layer 1
+
+rem *** barracksngl_01 ***
+Object.create barracksngl_01
+Object.absolutePosition -456.482/100.862/257.118
+Object.rotation 29.3/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_circle_half ***
+Object.create mi_sandbags_circle_half
+Object.absolutePosition 88.263/99.175/-456.639
+Object.rotation -3.4/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_circle_half ***
+Object.create mi_sandbags_circle_half
+Object.absolutePosition 138.335/91.726/-632.462
+Object.rotation -21.3/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_circle_half ***
+Object.create mi_sandbags_circle_half
+Object.absolutePosition 95.291/98.860/580.054
+Object.rotation -123.8/0.0/0.0
+Object.layer 1
+
+rem *** barracksngl_01 ***
+Object.create barracksngl_01
+Object.absolutePosition 11.472/99.997/495.047
+Object.rotation -172.9/0.0/0.0
+Object.layer 1
+
+rem *** barracksngl_01 ***
+Object.create barracksngl_01
+Object.absolutePosition -27.694/99.997/484.853
+Object.rotation 97.1/0.0/0.0
+Object.layer 1
+
+rem *** barracksngl_01 ***
+Object.create barracksngl_01
+Object.absolutePosition 31.448/99.997/527.608
+Object.rotation 97.1/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_circle_half ***
+Object.create mi_sandbags_circle_half
+Object.absolutePosition -266.286/106.528/-87.863
+Object.rotation -111.9/0.0/0.0
+Object.layer 1
+
+rem *** me_palmtree03 ***
+Object.create me_palmtree03
+Object.absolutePosition 172.408/101.325/-612.040
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree03 ***
+Object.create me_palmtree03
+Object.absolutePosition 186.246/104.158/-625.701
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_shortpalm01 ***
+Object.create me_shortpalm01
+Object.absolutePosition 187.455/96.958/-621.046
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palm_cluster01 ***
+Object.create me_palm_cluster01
+Object.absolutePosition 128.997/100.563/-589.170
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** barrier_blocks_high_64m ***
+Object.create barrier_blocks_high_64m
+Object.absolutePosition 140.623/99.543/481.564
+Object.rotation -82.0/0.0/0.0
+Object.layer 1
+
+rem *** barrier_blocks_high_32m ***
+Object.create barrier_blocks_high_32m
+Object.absolutePosition 119.733/99.686/451.983
+Object.rotation 8.0/0.0/0.0
+Object.layer 1
+
+rem *** mi_guard_tower_mech ***
+Object.create mi_guard_tower_mech
+Object.absolutePosition 91.574/101.294/-463.330
+Object.rotation 73.5/0.0/0.0
+Object.layer 1
+
+rem *** mi_guard_tower_us ***
+Object.create mi_guard_tower_us
+Object.absolutePosition 100.627/100.864/453.784
+Object.rotation -172.0/0.0/0.0
+Object.layer 1
+
+rem *** mi_antenna ***
+Object.create mi_antenna
+Object.absolutePosition 152.186/107.802/-636.802
+Object.layer 1
+
+rem *** mi_guard_tower_mech ***
+Object.create mi_guard_tower_mech
+Object.absolutePosition 95.588/101.410/-532.907
+Object.rotation 120.0/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_end ***
+Object.create mi_sandbags_end
+Object.absolutePosition 89.744/99.188/-468.253
+Object.rotation -16.5/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_12m ***
+Object.create mi_sandbags_12m
+Object.absolutePosition -0.346/99.311/-500.015
+Object.rotation 88.9/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_12m ***
+Object.create mi_sandbags_12m
+Object.absolutePosition 14.097/99.309/-534.179
+Object.rotation -178.7/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_12m ***
+Object.create mi_sandbags_12m
+Object.absolutePosition 79.743/99.204/-458.933
+Object.rotation -11.4/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_12m ***
+Object.create mi_sandbags_12m
+Object.absolutePosition -0.116/99.311/-512.010
+Object.rotation 88.9/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_12m ***
+Object.create mi_sandbags_12m
+Object.absolutePosition 0.115/99.311/-524.007
+Object.rotation 88.9/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_12m ***
+Object.create mi_sandbags_12m
+Object.absolutePosition -0.576/99.311/-488.018
+Object.rotation 88.9/0.0/0.0
+Object.layer 1
+
+rem *** mi_guard_tower_mech ***
+Object.create mi_guard_tower_mech
+Object.absolutePosition 3.424/101.399/-533.242
+Object.rotation -150.0/0.0/0.0
+Object.layer 1
+
+rem *** mi_guard_tower_mech ***
+Object.create mi_guard_tower_mech
+Object.absolutePosition 0.004/101.402/-477.427
+Object.rotation -60.0/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_12m ***
+Object.create mi_sandbags_12m
+Object.absolutePosition 99.792/99.086/-498.345
+Object.rotation 96.5/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_12m ***
+Object.create mi_sandbags_12m
+Object.absolutePosition 97.075/99.086/-522.191
+Object.rotation 96.5/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_12m ***
+Object.create mi_sandbags_12m
+Object.absolutePosition 50.088/99.309/-534.995
+Object.rotation -178.7/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_12m ***
+Object.create mi_sandbags_12m
+Object.absolutePosition 26.094/99.309/-534.451
+Object.rotation -178.7/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_12m ***
+Object.create mi_sandbags_12m
+Object.absolutePosition 38.091/99.309/-534.723
+Object.rotation -178.7/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_12m ***
+Object.create mi_sandbags_12m
+Object.absolutePosition 9.164/99.204/-473.164
+Object.rotation -11.4/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_12m ***
+Object.create mi_sandbags_12m
+Object.absolutePosition 20.927/99.204/-470.793
+Object.rotation -11.4/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_12m ***
+Object.create mi_sandbags_12m
+Object.absolutePosition 32.690/99.204/-468.421
+Object.rotation -11.4/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_12m ***
+Object.create mi_sandbags_12m
+Object.absolutePosition 44.453/99.204/-466.049
+Object.rotation -11.4/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_12m ***
+Object.create mi_sandbags_12m
+Object.absolutePosition 56.217/99.204/-463.677
+Object.rotation -11.4/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_12m ***
+Object.create mi_sandbags_12m
+Object.absolutePosition 67.980/99.204/-461.305
+Object.rotation -11.4/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_12m ***
+Object.create mi_sandbags_12m
+Object.absolutePosition 98.433/99.086/-510.268
+Object.rotation 96.5/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_12m ***
+Object.create mi_sandbags_12m
+Object.absolutePosition 86.078/99.309/-535.812
+Object.rotation -178.7/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_12m ***
+Object.create mi_sandbags_12m
+Object.absolutePosition 74.081/99.309/-535.540
+Object.rotation -178.7/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_12m ***
+Object.create mi_sandbags_12m
+Object.absolutePosition 62.084/99.309/-535.268
+Object.rotation -178.7/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_circle_half ***
+Object.create mi_sandbags_circle_half
+Object.absolutePosition 78.471/99.058/-486.073
+Object.rotation 63.3/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_end ***
+Object.create mi_sandbags_end
+Object.absolutePosition 47.828/99.070/-500.855
+Object.rotation -88.7/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_4m ***
+Object.create mi_sandbags_4m
+Object.absolutePosition 47.861/99.077/-497.809
+Object.rotation 91.3/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_end ***
+Object.create mi_sandbags_end
+Object.absolutePosition 47.965/99.070/-494.761
+Object.rotation 91.3/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_end ***
+Object.create mi_sandbags_end
+Object.absolutePosition 98.104/91.410/-592.181
+Object.rotation -0.2/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_4m ***
+Object.create mi_sandbags_4m
+Object.absolutePosition 101.150/91.417/-592.138
+Object.rotation 179.8/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_end ***
+Object.create mi_sandbags_end
+Object.absolutePosition 104.199/91.410/-592.164
+Object.rotation 179.8/0.0/0.0
+Object.layer 1
+
+rem *** me_palmtree02 ***
+Object.create me_palmtree02
+Object.absolutePosition -2.340/102.807/-513.493
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** rockpile_large ***
+Object.create rockpile_large
+Object.absolutePosition -5.157/97.376/-498.711
+Object.layer 1
+
+rem *** rockpile_large ***
+Object.create rockpile_large
+Object.absolutePosition 72.605/97.454/-444.574
+Object.layer 1
+
+rem *** rockpile_large ***
+Object.create rockpile_large
+Object.absolutePosition 104.086/96.729/-510.120
+Object.rotation 0.0/0.0/-16.4
+Object.layer 1
+
+rem *** me_palmtree02 ***
+Object.create me_palmtree02
+Object.absolutePosition 128.651/95.257/-599.825
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** rockpile_large ***
+Object.create rockpile_large
+Object.absolutePosition 126.171/90.666/-569.403
+Object.layer 1
+
+rem *** me_shortpalm01 ***
+Object.create me_shortpalm01
+Object.absolutePosition 121.098/92.411/-562.922
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree03 ***
+Object.create me_palmtree03
+Object.absolutePosition -242.896/97.569/210.970
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree01 ***
+Object.create me_palmtree01
+Object.absolutePosition -238.970/94.716/215.825
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** ladder_6_3m ***
+Object.create ladder_6_3m
+Object.absolutePosition -277.454/110.176/-112.036
+Object.rotation 89.9/0.0/0.0
+Object.layer 1
+
+rem *** ladder_6_3m ***
+Object.create ladder_6_3m
+Object.absolutePosition -135.488/95.061/203.086
+Object.rotation -45.8/0.0/0.0
+Object.layer 1
+
+rem *** ladder_6_3m ***
+Object.create ladder_6_3m
+Object.absolutePosition -220.913/94.931/170.619
+Object.rotation 25.9/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_circle_half ***
+Object.create mi_sandbags_circle_half
+Object.absolutePosition -51.575/127.356/-30.091
+Object.rotation -105.7/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_72m ***
+Object.create wirefence_72m
+Object.absolutePosition 115.953/136.792/-124.892
+Object.rotation -134.8/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_l ***
+Object.create wirefence_l
+Object.absolutePosition 90.549/136.792/-95.084
+Object.rotation -132.5/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_12m ***
+Object.create wirefence_12m
+Object.absolutePosition 95.501/136.792/-86.810
+Object.rotation -42.5/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_l ***
+Object.create wirefence_l
+Object.absolutePosition -88.476/99.552/551.145
+Object.rotation -82.8/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_72m ***
+Object.create wirefence_72m
+Object.absolutePosition -105.628/99.552/441.232
+Object.rotation -82.6/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_l ***
+Object.create wirefence_l
+Object.absolutePosition -107.948/99.552/401.927
+Object.rotation -172.6/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_72m ***
+Object.create wirefence_72m
+Object.absolutePosition -69.477/99.559/394.067
+Object.rotation -172.6/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_l ***
+Object.create wirefence_l
+Object.absolutePosition -30.205/99.552/391.767
+Object.rotation 97.4/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_l ***
+Object.create wirefence_l
+Object.absolutePosition 64.187/99.552/531.451
+Object.rotation 7.2/0.0/0.0
+Object.layer 1
+
+rem *** gatehouse ***
+Object.create gatehouse
+Object.absolutePosition -21.822/99.993/396.407
+Object.rotation -82.6/0.0/0.0
+Object.layer 1
+
+rem *** gatehouse ***
+Object.create gatehouse
+Object.absolutePosition -3.190/99.993/393.897
+Object.rotation -82.6/0.0/0.0
+Object.layer 1
+
+rem *** mi_guard_tower_us ***
+Object.create mi_guard_tower_us
+Object.absolutePosition 2.862/100.737/578.331
+Object.rotation 100.4/0.0/0.0
+Object.layer 1
+
+rem *** barrier_blocks_high_64m ***
+Object.create barrier_blocks_high_64m
+Object.absolutePosition 75.643/99.591/598.314
+Object.rotation 10.4/0.0/0.0
+Object.layer 1
+
+rem *** barrier_blocks_high_64m ***
+Object.create barrier_blocks_high_64m
+Object.absolutePosition 110.823/99.686/555.991
+Object.rotation 89.9/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_72m ***
+Object.create wirefence_72m
+Object.absolutePosition 41.793/99.552/380.023
+Object.rotation -172.6/0.0/0.0
+Object.layer 1
+
+rem *** barrier_blocks_high_32m ***
+Object.create barrier_blocks_high_32m
+Object.absolutePosition 99.998/99.647/472.787
+Object.rotation 97.2/0.0/0.0
+Object.layer 1
+
+rem *** mi_guard_tower_us ***
+Object.create mi_guard_tower_us
+Object.absolutePosition 109.446/100.864/590.013
+Object.rotation 57.3/0.0/0.0
+Object.layer 1
+
+rem *** ladder_2m ***
+Object.create ladder_2m
+Object.absolutePosition 0.948/101.591/578.799
+Object.rotation 98.8/0.0/0.0
+Object.layer 1
+
+rem *** mi_guard_tower_us ***
+Object.create mi_guard_tower_us
+Object.absolutePosition -29.350/100.737/379.177
+Object.rotation -168.8/0.0/0.0
+Object.layer 1
+
+rem *** gaspumptow ***
+Object.create gaspumptow
+Object.absolutePosition 12.324/111.056/402.069
+Object.rotation 8.0/0.0/0.0
+Object.layer 1
+
+rem *** gaspumptow ***
+Object.create gaspumptow
+Object.absolutePosition -32.845/111.056/409.457
+Object.rotation 8.0/0.0/0.0
+Object.layer 1
+
+rem *** oil_pump_foundation ***
+Object.create oil_pump_foundation
+Object.absolutePosition -54.392/101.430/542.287
+Object.rotation 98.0/0.0/0.0
+Object.layer 1
+
+rem *** me_palm_cluster01 ***
+Object.create me_palm_cluster01
+Object.absolutePosition 146.399/107.676/491.092
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree03 ***
+Object.create me_palmtree03
+Object.absolutePosition 99.873/106.465/600.474
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree02 ***
+Object.create me_palmtree02
+Object.absolutePosition 119.540/102.421/664.910
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** rockpile_large ***
+Object.create rockpile_large
+Object.absolutePosition 30.346/97.470/620.270
+Object.layer 1
+
+rem *** me_palmtree03 ***
+Object.create me_palmtree03
+Object.absolutePosition 142.282/106.830/546.191
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree03 ***
+Object.create me_palmtree03
+Object.absolutePosition 23.817/106.306/625.122
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree03 ***
+Object.create me_palmtree03
+Object.absolutePosition 172.118/106.428/680.950
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palm_cluster01 ***
+Object.create me_palm_cluster01
+Object.absolutePosition 116.608/107.818/568.681
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree03 ***
+Object.create me_palmtree03
+Object.absolutePosition 132.287/107.088/566.382
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** rockpile_large ***
+Object.create rockpile_large
+Object.absolutePosition 127.135/98.203/560.759
+Object.layer 1
+
+rem *** me_palmtree02 ***
+Object.create me_palmtree02
+Object.absolutePosition 131.490/102.582/555.552
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree02 ***
+Object.create me_palmtree02
+Object.absolutePosition 55.599/102.581/608.539
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** wirefence_72m ***
+Object.create wirefence_72m
+Object.absolutePosition -49.221/99.552/548.837
+Object.rotation 7.4/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_72m ***
+Object.create wirefence_72m
+Object.absolutePosition -96.315/99.552/512.660
+Object.rotation -82.6/0.0/0.0
+Object.layer 1
+
+rem *** me_palmtree03 ***
+Object.create me_palmtree03
+Object.absolutePosition -81.101/112.467/375.973
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palm_cluster01 ***
+Object.create me_palm_cluster01
+Object.absolutePosition -91.390/114.319/375.015
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree03 ***
+Object.create me_palmtree03
+Object.absolutePosition -89.600/112.796/311.886
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** rockpile_large ***
+Object.create rockpile_large
+Object.absolutePosition -107.497/104.296/299.567
+Object.layer 1
+
+rem *** me_palmtree02 ***
+Object.create me_palmtree02
+Object.absolutePosition -119.942/106.500/378.616
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree02 ***
+Object.create me_palmtree02
+Object.absolutePosition -92.664/109.232/308.371
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palm_cluster01 ***
+Object.create me_palm_cluster01
+Object.absolutePosition -28.670/118.589/300.248
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree03 ***
+Object.create me_palmtree03
+Object.absolutePosition -13.643/120.161/290.245
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree03 ***
+Object.create me_palmtree03
+Object.absolutePosition -22.503/121.659/245.334
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree02 ***
+Object.create me_palmtree02
+Object.absolutePosition -36.437/113.135/299.586
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree02 ***
+Object.create me_palmtree02
+Object.absolutePosition -74.152/111.909/305.498
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** mi_hangar_us_v2 ***
+Object.create mi_hangar_us_v2
+Object.absolutePosition 109.401/95.783/-640.603
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+
+rem *** concreteblock_helipad ***
+Object.create concreteblock_helipad
+Object.absolutePosition 100.789/90.840/-578.906
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+
+rem *** concreteblock_helipad ***
+Object.create concreteblock_helipad
+Object.absolutePosition 100.576/90.840/-605.578
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+
+rem *** mi_hangar_us_v2 ***
+Object.create mi_hangar_us_v2
+Object.absolutePosition 61.913/103.292/583.432
+Object.rotation -79.6/0.0/0.0
+Object.layer 1
+
+rem *** concreteblock_helipad ***
+Object.create concreteblock_helipad
+Object.absolutePosition 125.055/98.302/501.167
+Object.rotation -82.0/0.0/0.0
+Object.layer 1
+
+rem *** concreteblock_helipad ***
+Object.create concreteblock_helipad
+Object.absolutePosition 120.390/98.302/467.842
+Object.rotation -82.0/0.0/0.0
+Object.layer 1
+
+rem *** mi_hangar_us_v2 ***
+Object.create mi_hangar_us_v2
+Object.absolutePosition 109.373/95.901/-674.823
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+
+rem *** midfactorybuilding ***
+Object.create midfactorybuilding
+Object.absolutePosition -265.489/116.202/-115.278
+Object.rotation -0.7/0.0/0.0
+Object.layer 1
+
+rem *** lrgstrgbuilding_04 ***
+Object.create lrgstrgbuilding_04
+Object.absolutePosition -222.246/111.262/-76.732
+Object.rotation -108.3/0.0/0.0
+Object.layer 1
+
+rem *** office_building ***
+Object.create office_building
+Object.absolutePosition -314.994/108.120/-57.157
+Object.rotation 121.4/0.0/0.0
+Object.layer 1
+
+rem *** gaspumptow ***
+Object.create gaspumptow
+Object.absolutePosition -342.503/118.619/-119.802
+Object.layer 1
+
+rem *** oil_pump_foundation ***
+Object.create oil_pump_foundation
+Object.absolutePosition -328.351/108.992/-122.631
+Object.rotation -88.8/0.0/0.0
+Object.layer 1
+
+rem *** barracksngl_01 ***
+Object.create barracksngl_01
+Object.absolutePosition -317.817/107.560/-143.769
+Object.rotation 93.1/0.0/0.0
+Object.layer 1
+
+rem *** mangrove_big1 ***
+Object.create mangrove_big1
+Object.absolutePosition 4.578/117.226/-420.652
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** mangrove_big1 ***
+Object.create mangrove_big1
+Object.absolutePosition -21.364/116.905/-430.376
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** mangrove_big1 ***
+Object.create mangrove_big1
+Object.absolutePosition -83.188/111.395/-488.860
+Object.rotation 113.8/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** mangrove_big1 ***
+Object.create mangrove_big1
+Object.absolutePosition 84.543/104.576/-537.631
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** mangrove_big1 ***
+Object.create mangrove_big1
+Object.absolutePosition -271.994/111.158/-178.477
+Object.rotation 2.2/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** mangrove_big1 ***
+Object.create mangrove_big1
+Object.absolutePosition -69.356/109.474/373.829
+Object.rotation 107.6/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** mangrove_big1 ***
+Object.create mangrove_big1
+Object.absolutePosition -21.535/116.510/295.717
+Object.rotation 107.6/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** mangrove_big1 ***
+Object.create mangrove_big1
+Object.absolutePosition -152.911/95.705/253.428
+Object.rotation 107.6/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** mangrove_big1 ***
+Object.create mangrove_big1
+Object.absolutePosition 83.101/104.406/-505.929
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palm_cluster01 ***
+Object.create me_palm_cluster01
+Object.absolutePosition -265.891/99.395/221.126
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** mangrove_big1 ***
+Object.create mangrove_big1
+Object.absolutePosition -287.426/94.631/195.589
+Object.rotation -162.4/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** mangrove_big1 ***
+Object.create mangrove_big1
+Object.absolutePosition -269.361/94.886/261.483
+Object.rotation 107.6/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** rockpile_1 ***
+Object.create rockpile_1
+Object.absolutePosition -278.901/88.790/287.733
+Object.layer 1
+
+rem *** rockpile_medium_02 ***
+Object.create rockpile_medium_02
+Object.absolutePosition -235.833/89.347/287.549
+Object.layer 1
+
+rem *** me_shortpalm01 ***
+Object.create me_shortpalm01
+Object.absolutePosition -222.886/91.384/173.368
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_shortpalm01 ***
+Object.create me_shortpalm01
+Object.absolutePosition -287.364/89.813/198.045
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** rockpile_medium_02 ***
+Object.create rockpile_medium_02
+Object.absolutePosition -296.572/89.555/210.967
+Object.layer 1
+
+rem *** ladder_6_3m ***
+Object.create ladder_6_3m
+Object.absolutePosition -188.200/94.275/256.359
+Object.rotation -141.8/0.0/0.0
+Object.layer 1
+
+rem *** ladder_6_3m ***
+Object.create ladder_6_3m
+Object.absolutePosition -270.437/110.172/-56.871
+Object.rotation -132.8/0.0/0.0
+Object.layer 1
+
+rem *** house_small2 ***
+Object.create house_small2
+Object.absolutePosition -101.293/103.223/-224.025
+Object.rotation -36.7/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_end ***
+Object.create mi_sandbags_end
+Object.absolutePosition -136.244/119.100/-284.003
+Object.rotation 116.5/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_end ***
+Object.create mi_sandbags_end
+Object.absolutePosition -137.180/119.100/-285.881
+Object.rotation -63.5/0.0/0.0
+Object.layer 1
+
+rem *** rockpile_1 ***
+Object.create rockpile_1
+Object.absolutePosition -352.737/96.564/-160.219
+Object.rotation -90.0/0.0/-166.6
+Object.layer 1
+
+rem *** rockpile_large ***
+Object.create rockpile_large
+Object.absolutePosition -199.119/101.523/-226.752
+Object.rotation 0.0/0.0/-180.0
+Object.layer 1
+
+rem *** me_palmtree01 ***
+Object.create me_palmtree01
+Object.absolutePosition -227.266/106.369/-209.085
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_shortpalm01 ***
+Object.create me_shortpalm01
+Object.absolutePosition -93.444/102.477/-224.166
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** rockpile_1 ***
+Object.create rockpile_1
+Object.absolutePosition -227.122/100.940/57.919
+Object.rotation -180.0/13.8/-180.0
+Object.layer 1
+
+rem *** rockpile_medium_02 ***
+Object.create rockpile_medium_02
+Object.absolutePosition -201.534/91.168/142.335
+Object.layer 1
+
+rem *** rockpile_medium_02 ***
+Object.create rockpile_medium_02
+Object.absolutePosition -129.344/100.820/134.036
+Object.layer 1
+
+rem *** rockpile_large ***
+Object.create rockpile_large
+Object.absolutePosition -35.512/108.511/-439.966
+Object.layer 1
+
+rem *** rockpile_large ***
+Object.create rockpile_large
+Object.absolutePosition -8.612/101.250/-273.031
+Object.rotation 0.0/0.0/-180.0
+Object.layer 1
+
+rem *** rockpile_1 ***
+Object.create rockpile_1
+Object.absolutePosition -23.223/101.528/-254.949
+Object.layer 1
+
+rem *** me_shortpalm01 ***
+Object.create me_shortpalm01
+Object.absolutePosition -123.760/102.444/133.916
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_shortpalm01 ***
+Object.create me_shortpalm01
+Object.absolutePosition -136.000/105.407/114.982
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** rockpile_1 ***
+Object.create rockpile_1
+Object.absolutePosition 140.103/131.123/-21.421
+Object.rotation 0.0/23.9/180.0
+Object.layer 1
+
+rem *** rockpile_1 ***
+Object.create rockpile_1
+Object.absolutePosition 25.821/120.541/19.177
+Object.rotation -180.0/13.8/-180.0
+Object.layer 1
+
+rem *** ambstat_Oiltowerburning ***
+Object.create ambstat_Oiltowerburning
+Object.absolutePosition -445.585/95.663/-357.517
+Object.layer 1
+
+rem *** ambstat_Oiltowerburning ***
+Object.create ambstat_Oiltowerburning
+Object.absolutePosition -719.212/96.031/-386.891
+Object.layer 1
+
+rem *** ambstat_Oiltowerburning ***
+Object.create ambstat_Oiltowerburning
+Object.absolutePosition -777.938/104.401/30.249
+Object.layer 1
+
+rem *** ambstat_Oiltowerburning ***
+Object.create ambstat_Oiltowerburning
+Object.absolutePosition -527.706/95.024/471.582
+Object.layer 1
+
+rem *** mi_guard_tower_us ***
+Object.create mi_guard_tower_us
+Object.absolutePosition 114.568/100.864/522.711
+Object.rotation 57.3/0.0/0.0
+Object.layer 1
+
+rem *** barrier_blocks_high_32m ***
+Object.create barrier_blocks_high_32m
+Object.absolutePosition 130.415/99.686/516.197
+Object.rotation 8.0/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_l ***
+Object.create wirefence_l
+Object.absolutePosition 3.375/99.552/387.873
+Object.rotation -172.6/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_24m_hole ***
+Object.create wirefence_24m_hole
+Object.absolutePosition 82.223/99.552/507.836
+Object.rotation 7.2/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_72m ***
+Object.create wirefence_72m
+Object.absolutePosition 88.775/99.552/416.225
+Object.rotation 97.2/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_24m_hole ***
+Object.create wirefence_24m_hole
+Object.absolutePosition 94.786/99.552/463.828
+Object.rotation 97.2/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_l ***
+Object.create wirefence_l
+Object.absolutePosition 81.036/99.552/377.725
+Object.rotation 97.2/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_24m ***
+Object.create wirefence_24m
+Object.absolutePosition 49.471/99.552/536.168
+Object.rotation 7.2/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_l ***
+Object.create wirefence_l
+Object.absolutePosition 96.943/99.552/503.114
+Object.rotation 7.2/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_24m ***
+Object.create wirefence_24m
+Object.absolutePosition 97.771/99.552/487.641
+Object.rotation 97.2/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_12m ***
+Object.create wirefence_12m
+Object.absolutePosition 65.768/99.552/521.938
+Object.rotation 97.2/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_l2 ***
+Object.create wirefence_l2
+Object.absolutePosition 67.433/99.552/512.469
+Object.rotation 97.2/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_12m ***
+Object.create wirefence_12m
+Object.absolutePosition 31.621/99.552/538.415
+Object.rotation 7.2/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_l ***
+Object.create wirefence_l
+Object.absolutePosition -10.665/99.552/541.005
+Object.rotation 7.2/0.0/0.0
+Object.layer 1
+
+rem *** oil_pump_foundation ***
+Object.create oil_pump_foundation
+Object.absolutePosition -54.285/101.430/413.793
+Object.rotation 98.0/0.0/0.0
+Object.layer 1
+
+rem *** oil_pump_foundation ***
+Object.create oil_pump_foundation
+Object.absolutePosition 31.254/101.430/397.805
+Object.rotation 98.0/0.0/0.0
+Object.layer 1
+
+rem *** oil_pump_foundation ***
+Object.create oil_pump_foundation
+Object.absolutePosition -35.704/101.430/539.660
+Object.rotation 98.0/0.0/0.0
+Object.layer 1
+
+rem *** barracksngl_01 ***
+Object.create barracksngl_01
+Object.absolutePosition 56.669/99.997/524.687
+Object.rotation 97.1/0.0/0.0
+Object.layer 1
+
+rem *** barracksngl_01 ***
+Object.create barracksngl_01
+Object.absolutePosition -14.865/99.997/469.585
+Object.rotation 7.1/0.0/0.0
+Object.layer 1
+
+rem *** barracksngl_01 ***
+Object.create barracksngl_01
+Object.absolutePosition -11.373/99.997/497.647
+Object.rotation -172.9/0.0/0.0
+Object.layer 1
+
+rem *** ambstat_oiltower_fire2 ***
+Object.create ambstat_oiltower_fire2
+Object.absolutePosition 63.030/123.948/648.226
+Object.layer 1
+
+rem *** ambstat_oiltower_fire2 ***
+Object.create ambstat_oiltower_fire2
+Object.absolutePosition 118.894/124.465/-749.338
+Object.layer 1
+
+rem *** gaspumptow ***
+Object.create gaspumptow
+Object.absolutePosition 118.874/111.486/-748.172
+Object.layer 1
+
+rem *** oil_pump_foundation ***
+Object.create oil_pump_foundation
+Object.absolutePosition 135.611/101.888/-749.721
+Object.rotation -178.8/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_end ***
+Object.create wirefence_end
+Object.absolutePosition -26.974/99.552/394.638
+Object.rotation 97.4/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_end ***
+Object.create wirefence_end
+Object.absolutePosition 18.924/99.552/533.912
+Object.rotation 97.4/0.0/0.0
+Object.layer 1
+
+rem *** house_low_02_v2 ***
+Object.create house_low_02_v2
+Object.absolutePosition -158.221/94.230/216.903
+Object.rotation -50.6/0.0/0.0
+Object.layer 1
+
+rem *** house_detached_01 ***
+Object.create house_detached_01
+Object.absolutePosition -227.119/93.353/249.893
+Object.rotation -134.6/0.0/0.0
+Object.layer 1
+
+rem *** house_detached_03 ***
+Object.create house_detached_03
+Object.absolutePosition -192.657/96.082/251.610
+Object.rotation -137.5/0.0/0.0
+Object.layer 1
+
+rem *** house_small_v2 ***
+Object.create house_small_v2
+Object.absolutePosition -147.084/91.412/259.128
+Object.rotation 116.6/0.0/0.0
+Object.layer 1
+
+rem *** rockpile_1 ***
+Object.create rockpile_1
+Object.absolutePosition -213.730/101.309/-208.670
+Object.layer 1
+
+rem *** rockpile_1 ***
+Object.create rockpile_1
+Object.absolutePosition -371.728/96.840/-147.542
+Object.rotation 0.0/0.0/180.0
+Object.layer 1
+
+rem *** rockpile_large ***
+Object.create rockpile_large
+Object.absolutePosition -196.801/101.539/-185.149
+Object.rotation 0.0/0.0/-180.0
+Object.layer 1
+
+rem *** rockpile_large ***
+Object.create rockpile_large
+Object.absolutePosition 164.188/132.253/-15.170
+Object.layer 1
+
+rem *** rockpile_1 ***
+Object.create rockpile_1
+Object.absolutePosition 65.598/123.146/-18.054
+Object.rotation -0.5/22.6/20.5
+Object.layer 1
+
+rem *** rockpile_1 ***
+Object.create rockpile_1
+Object.absolutePosition 90.334/132.013/-135.065
+Object.rotation 48.1/-3.3/176.3
+Object.layer 1
+
+rem *** xp2_windmill_01 ***
+Object.create xp2_windmill_01
+Object.absolutePosition 101.795/160.699/-42.769
+Object.rotation 170.9/0.0/0.0
+Object.layer 1
+
+rem *** xp2_windmill_01 ***
+Object.create xp2_windmill_01
+Object.absolutePosition 26.502/157.647/139.368
+Object.rotation 144.5/0.0/0.0
+Object.layer 1
+
+rem *** rockpile_medium_02 ***
+Object.create rockpile_medium_02
+Object.absolutePosition -38.125/127.367/-38.313
+Object.rotation -31.6/9.6/0.0
+Object.layer 1
+
+rem *** rock20m ***
+Object.create rock20m
+Object.absolutePosition -44.313/124.941/-42.959
+Object.rotation 80.4/0.0/90.0
+Object.layer 1
+
+rem *** rock20m ***
+Object.create rock20m
+Object.absolutePosition -69.165/116.967/26.723
+Object.rotation 80.4/0.0/90.0
+Object.layer 1
+
+rem *** rock20m ***
+Object.create rock20m
+Object.absolutePosition -282.072/102.186/-200.528
+Object.rotation -4.1/21.1/80.4
+Object.layer 1
+
+rem *** rockpile_large ***
+Object.create rockpile_large
+Object.absolutePosition -274.859/100.677/-210.736
+Object.layer 1
+
+rem *** rockpile_large ***
+Object.create rockpile_large
+Object.absolutePosition 107.047/128.941/10.811
+Object.rotation -147.5/41.6/6.7
+Object.layer 1
+
+rem *** rockpile_1 ***
+Object.create rockpile_1
+Object.absolutePosition 245.766/133.528/8.775
+Object.rotation 0.0/-37.6/180.0
+Object.layer 1
+
+rem *** rockpile_large ***
+Object.create rockpile_large
+Object.absolutePosition 241.648/135.675/6.163
+Object.layer 1
+
+rem *** rockpile_large ***
+Object.create rockpile_large
+Object.absolutePosition 233.129/133.695/2.885
+Object.layer 1
+
+rem *** rockpile_large ***
+Object.create rockpile_large
+Object.absolutePosition -277.090/103.081/111.986
+Object.rotation 0.0/19.1/0.0
+Object.layer 1
+
+rem *** rockpile_medium_02 ***
+Object.create rockpile_medium_02
+Object.absolutePosition -273.217/106.238/90.545
+Object.layer 1
+
+rem *** me_shortpalm01 ***
+Object.create me_shortpalm01
+Object.absolutePosition -199.030/91.903/155.272
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_shortpalm01 ***
+Object.create me_shortpalm01
+Object.absolutePosition -277.232/107.444/93.729
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** rockpile_medium_02 ***
+Object.create rockpile_medium_02
+Object.absolutePosition -176.863/88.906/207.389
+Object.layer 1
+
+rem *** rock20m ***
+Object.create rock20m
+Object.absolutePosition 31.934/122.314/-77.787
+Object.rotation 133.8/-29.6/90.0
+Object.layer 1
+
+rem *** rockpile_1 ***
+Object.create rockpile_1
+Object.absolutePosition 56.223/121.276/-63.022
+Object.rotation -180.0/5.7/177.4
+Object.layer 1
+
+rem *** rockpile_1 ***
+Object.create rockpile_1
+Object.absolutePosition 34.335/131.665/174.066
+Object.rotation -180.0/13.8/-180.0
+Object.layer 1
+
+rem *** rockpile_medium ***
+Object.create rockpile_medium
+Object.absolutePosition -172.745/88.827/256.592
+Object.rotation 126.2/0.0/0.0
+Object.layer 1
+
+rem *** rockpile_1 ***
+Object.create rockpile_1
+Object.absolutePosition -97.105/102.211/120.237
+Object.rotation -91.7/0.4/-166.2
+Object.layer 1
+
+rem *** rockpile_1 ***
+Object.create rockpile_1
+Object.absolutePosition -83.316/110.916/21.114
+Object.rotation -91.7/0.4/-166.2
+Object.layer 1
+
+rem *** rockpile_large ***
+Object.create rockpile_large
+Object.absolutePosition -83.974/112.194/-12.932
+Object.layer 1
+
+rem *** ladder_6_3m ***
+Object.create ladder_6_3m
+Object.absolutePosition -148.867/94.282/243.892
+Object.rotation -146.4/0.0/0.0
+Object.layer 1
+
+rem *** container_cargo_red ***
+Object.create container_cargo_red
+Object.absolutePosition -361.485/104.622/-65.817
+Object.rotation 29.0/0.0/0.0
+Object.layer 1
+
+rem *** container_cargo_red ***
+Object.create container_cargo_red
+Object.absolutePosition -342.526/104.622/-30.517
+Object.rotation 29.0/0.0/0.0
+Object.layer 1
+
+rem *** container_cargo_red ***
+Object.create container_cargo_red
+Object.absolutePosition -348.500/104.622/-44.959
+Object.rotation 43.9/0.0/0.0
+Object.layer 1
+
+rem *** fence_corrugated_3x12m_corner_01 ***
+Object.create fence_corrugated_3x12m_corner_01
+Object.absolutePosition -299.768/107.269/-23.878
+Object.rotation 31.4/0.0/0.0
+Object.layer 1
+
+rem *** fence_corrugated_3x24m_corner_01 ***
+Object.create fence_corrugated_3x24m_corner_01
+Object.absolutePosition -256.041/106.549/-123.389
+Object.rotation 179.3/0.0/0.0
+Object.layer 1
+
+rem *** fence_corrugated_3x48m ***
+Object.create fence_corrugated_3x48m
+Object.absolutePosition -359.936/104.728/-44.716
+Object.rotation -62.2/0.0/0.0
+Object.layer 1
+
+rem *** fence_corrugated_3x12m_end ***
+Object.create fence_corrugated_3x12m_end
+Object.absolutePosition -283.563/107.267/-142.813
+Object.rotation 95.5/0.0/0.0
+Object.layer 1
+
+rem *** fence_corrugated_3x12m_corner_01 ***
+Object.create fence_corrugated_3x12m_corner_01
+Object.absolutePosition -327.410/107.270/-58.241
+Object.rotation -58.6/0.0/0.0
+Object.layer 1
+
+rem *** fence_corrugated_3x12m_end ***
+Object.create fence_corrugated_3x12m_end
+Object.absolutePosition -318.877/107.268/-70.106
+Object.rotation -148.6/0.0/0.0
+Object.layer 1
+
+rem *** fence_corrugated_3x12m_end ***
+Object.create fence_corrugated_3x12m_end
+Object.absolutePosition -250.994/106.632/-174.480
+Object.rotation 91.7/0.0/0.0
+Object.layer 1
+
+rem *** fence_corrugated_3x24m ***
+Object.create fence_corrugated_3x24m
+Object.absolutePosition -302.522/107.270/-154.517
+Object.rotation -174.5/0.0/0.0
+Object.layer 1
+
+rem *** fence_corrugated_pole_3m ***
+Object.create fence_corrugated_pole_3m
+Object.absolutePosition -332.938/104.769/-18.535
+Object.rotation 27.7/0.0/0.0
+Object.layer 1
+
+rem *** fence_corrugated_pole_3m ***
+Object.create fence_corrugated_pole_3m
+Object.absolutePosition -314.363/107.284/-153.324
+Object.rotation -174.5/0.0/0.0
+Object.layer 1
+
+rem *** fence_corrugated_3x12m_corner_01 ***
+Object.create fence_corrugated_3x12m_corner_01
+Object.absolutePosition -323.213/107.270/-146.842
+Object.rotation -84.5/0.0/0.0
+Object.layer 1
+
+rem *** fence_corrugated_3x12m_end ***
+Object.create fence_corrugated_3x12m_end
+Object.absolutePosition -322.632/107.270/-140.797
+Object.rotation -84.5/0.0/0.0
+Object.layer 1
+
+rem *** fence_corrugated_3x12m_end ***
+Object.create fence_corrugated_3x12m_end
+Object.absolutePosition -273.940/106.658/-169.855
+Object.rotation -88.3/0.0/0.0
+Object.layer 1
+
+rem *** fence_corrugated_3x12m_corner_01 ***
+Object.create fence_corrugated_3x12m_corner_01
+Object.absolutePosition -274.129/106.658/-175.925
+Object.rotation -88.3/0.0/0.0
+Object.layer 1
+
+rem *** fence_corrugated_3x12m_end ***
+Object.create fence_corrugated_3x12m_end
+Object.absolutePosition -295.495/107.269/-28.166
+Object.rotation 44.9/0.0/0.0
+Object.layer 1
+
+rem *** fence_corrugated_3x48m ***
+Object.create fence_corrugated_3x48m
+Object.absolutePosition -207.543/107.482/-72.364
+Object.rotation 71.7/0.0/0.0
+Object.layer 1
+
+rem *** fence_corrugated_3x12m_corner_01 ***
+Object.create fence_corrugated_3x12m_corner_01
+Object.absolutePosition -203.643/107.479/-102.483
+Object.rotation 161.7/0.0/0.0
+Object.layer 1
+
+rem *** fence_corrugated_3x12m_corner_01 ***
+Object.create fence_corrugated_3x12m_corner_01
+Object.absolutePosition -215.097/107.482/-49.523
+Object.rotation 71.7/0.0/0.0
+Object.layer 1
+
+rem *** fence_corrugated_pole_3m ***
+Object.create fence_corrugated_pole_3m
+Object.absolutePosition -203.646/107.493/-102.417
+Object.rotation 161.7/0.0/0.0
+Object.layer 1
+
+rem *** fence_corrugated_3x12m_corner_01 ***
+Object.create fence_corrugated_3x12m_corner_01
+Object.absolutePosition -290.505/107.270/-155.674
+Object.rotation -174.5/0.0/0.0
+Object.layer 1
+
+rem *** fence_corrugated_3x12m_corner_01 ***
+Object.create fence_corrugated_3x12m_corner_01
+Object.absolutePosition -276.823/107.270/-47.482
+Object.rotation 44.7/0.0/0.0
+Object.layer 1
+
+rem *** fence_corrugated_3x12m_end ***
+Object.create fence_corrugated_3x12m_end
+Object.absolutePosition -290.063/107.210/-52.807
+Object.rotation -45.3/0.0/0.0
+Object.layer 1
+
+rem *** fence_corrugated_pole_3m ***
+Object.create fence_corrugated_pole_3m
+Object.absolutePosition -276.922/107.284/-47.477
+Object.rotation 44.7/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_24m_hole ***
+Object.create wirefence_24m_hole
+Object.absolutePosition 149.794/136.792/-158.959
+Object.rotation -134.8/0.0/0.0
+Object.layer 1
+
+rem *** fence_corrugated_pole_3m ***
+Object.create fence_corrugated_pole_3m
+Object.absolutePosition -262.422/107.309/-128.767
+Object.rotation 179.3/0.0/0.0
+Object.layer 1
+
+rem *** fence_corrugated_3x24m_corner_01 ***
+Object.create fence_corrugated_3x24m_corner_01
+Object.absolutePosition -369.412/104.238/-74.171
+Object.rotation -62.3/0.0/0.0
+Object.layer 1
+
+rem *** fence_corrugated_3x24m_corner_01 ***
+Object.create fence_corrugated_3x24m_corner_01
+Object.absolutePosition -340.934/104.239/-20.240
+Object.rotation 27.7/0.0/0.0
+Object.layer 1
+
+rem *** fence_corrugated_3x12m_end ***
+Object.create fence_corrugated_3x12m_end
+Object.absolutePosition -324.246/107.270/-53.058
+Object.rotation -58.6/0.0/0.0
+Object.layer 1
+
+rem *** fence_corrugated_3x24m ***
+Object.create fence_corrugated_3x24m
+Object.absolutePosition -313.968/107.267/-36.111
+Object.rotation -58.6/0.0/0.0
+Object.layer 1
+
+rem *** barracksngl_01 ***
+Object.create barracksngl_01
+Object.absolutePosition 45.427/137.631/134.071
+Object.rotation -176.9/0.0/0.0
+Object.layer 1
+
+rem *** rockpile_medium_02 ***
+Object.create rockpile_medium_02
+Object.absolutePosition 61.460/127.698/39.615
+Object.rotation 148.4/-9.6/0.0
+Object.layer 1
+
+rem *** rockpile_large ***
+Object.create rockpile_large
+Object.absolutePosition 61.617/126.567/30.691
+Object.rotation -147.5/41.6/-2.3
+Object.layer 1
+
+rem *** wirefence_24m ***
+Object.create wirefence_24m
+Object.absolutePosition 166.694/136.792/-175.985
+Object.rotation -134.8/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_l ***
+Object.create wirefence_l
+Object.absolutePosition 179.407/136.792/-184.817
+Object.rotation 134.8/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_l ***
+Object.create wirefence_l
+Object.absolutePosition 217.559/136.792/-171.787
+Object.rotation 134.8/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_l2 ***
+Object.create wirefence_l2
+Object.absolutePosition 204.865/136.792/-167.084
+Object.rotation -135.2/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_6m ***
+Object.create wirefence_6m
+Object.absolutePosition 211.170/136.792/-169.336
+Object.rotation -135.2/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_24m_hole ***
+Object.create wirefence_24m_hole
+Object.absolutePosition 192.169/136.792/-176.020
+Object.rotation 134.8/0.0/0.0
+Object.layer 1
+
+rem *** fence_corrugated_3x48m ***
+Object.create fence_corrugated_3x48m
+Object.absolutePosition 231.847/136.948/-57.394
+Object.rotation 179.3/0.0/0.0
+Object.layer 1
+
+rem *** fence_corrugated_3x24m_corner_01 ***
+Object.create fence_corrugated_3x24m_corner_01
+Object.absolutePosition 195.144/136.418/-29.195
+Object.rotation -0.8/0.0/0.0
+Object.layer 1
+
+rem *** fence_corrugated_3x48m ***
+Object.create fence_corrugated_3x48m
+Object.absolutePosition 225.549/136.894/-23.479
+Object.rotation -0.7/0.0/0.0
+Object.layer 1
+
+rem *** fence_corrugated_3x24m_corner_01 ***
+Object.create fence_corrugated_3x24m_corner_01
+Object.absolutePosition 256.129/136.429/-28.479
+Object.rotation 89.2/0.0/0.0
+Object.layer 1
+
+rem *** fence_corrugated_3x12m_corner_01 ***
+Object.create fence_corrugated_3x12m_corner_01
+Object.absolutePosition 255.912/136.948/-57.100
+Object.rotation 179.2/0.0/0.0
+Object.layer 1
+
+rem *** wallhigh01 ***
+Object.create wallhigh01
+Object.absolutePosition 204.377/133.429/-85.999
+Object.rotation 135.9/0.0/19.1
+Object.layer 1
+
+rem *** wallhigh01_32m ***
+Object.create wallhigh01_32m
+Object.absolutePosition 236.583/134.966/-99.954
+Object.rotation 40.5/0.0/0.0
+Object.layer 1
+
+rem *** wallend ***
+Object.create wallend
+Object.absolutePosition 224.346/134.903/-89.509
+Object.rotation 41.0/0.0/0.0
+Object.layer 1
+
+rem *** wallend ***
+Object.create wallend
+Object.absolutePosition 196.728/134.894/-59.728
+Object.rotation -123.8/0.0/0.0
+Object.layer 1
+
+rem *** wallend ***
+Object.create wallend
+Object.absolutePosition 248.947/134.894/-110.434
+Object.rotation 36.1/0.0/0.0
+Object.layer 1
+
+rem *** wallend ***
+Object.create wallend
+Object.absolutePosition 257.242/134.894/-112.920
+Object.rotation 4.7/0.0/0.0
+Object.layer 1
+
+rem *** wallend ***
+Object.create wallend
+Object.absolutePosition 265.468/134.894/-110.786
+Object.rotation -28.1/0.0/0.0
+Object.layer 1
+
+rem *** wallend ***
+Object.create wallend
+Object.absolutePosition 200.501/135.399/-89.758
+Object.rotation 134.6/0.0/0.0
+Object.layer 1
+
+rem *** wallend ***
+Object.create wallend
+Object.absolutePosition 271.812/134.894/-105.470
+Object.rotation -38.3/0.0/0.0
+Object.layer 1
+
+rem *** wallhigh01_32m ***
+Object.create wallhigh01_32m
+Object.absolutePosition 212.935/134.966/-77.999
+Object.rotation 45.5/0.0/0.0
+Object.layer 1
+
+rem *** wallend ***
+Object.create wallend
+Object.absolutePosition 201.584/134.941/-66.374
+Object.rotation 54.0/0.0/0.0
+Object.layer 1
+
+rem *** wallhigh01 ***
+Object.create wallhigh01
+Object.absolutePosition 196.058/135.413/-94.089
+Object.rotation -44.1/0.0/0.0
+Object.layer 1
+
+rem *** fence_corrugated_pole_3m ***
+Object.create fence_corrugated_pole_3m
+Object.absolutePosition 207.988/136.962/-57.618
+Object.rotation 179.3/0.0/0.0
+Object.layer 1
+
+rem *** rockpile_1 ***
+Object.create rockpile_1
+Object.absolutePosition 281.616/137.691/-168.749
+Object.rotation 20.9/0.0/0.0
+Object.layer 1
+
+rem *** rockpile_1 ***
+Object.create rockpile_1
+Object.absolutePosition 251.654/128.936/-155.774
+Object.rotation 0.0/-37.6/180.0
+Object.layer 1
+
+rem *** rockpile_large ***
+Object.create rockpile_large
+Object.absolutePosition 112.025/133.924/-65.627
+Object.layer 1
+
+rem *** rockpile_1 ***
+Object.create rockpile_1
+Object.absolutePosition -141.269/95.950/393.369
+Object.rotation 36.6/0.0/-180.0
+Object.layer 1
+
+rem *** rockpile_large ***
+Object.create rockpile_large
+Object.absolutePosition 62.582/124.827/-30.118
+Object.layer 1
+
+rem *** mi_sandbags_circle_half ***
+Object.create mi_sandbags_circle_half
+Object.absolutePosition -18.757/98.860/424.358
+Object.rotation -179.7/0.0/0.0
+Object.layer 1
+
+rem *** barracksngl_01 ***
+Object.create barracksngl_01
+Object.absolutePosition 80.947/134.450/-192.017
+Object.rotation -52.4/0.0/0.0
+Object.layer 1
+
+rem *** rockpile_medium ***
+Object.create rockpile_medium
+Object.absolutePosition -69.535/106.729/-297.186
+Object.rotation -51.5/0.0/0.0
+Object.layer 1
+
+rem *** barracksngl_01 ***
+Object.create barracksngl_01
+Object.absolutePosition 3.965/122.121/-9.610
+Object.rotation -34.7/0.0/0.0
+Object.layer 1
+
+rem *** rockpile_large ***
+Object.create rockpile_large
+Object.absolutePosition 7.129/119.329/-51.497
+Object.layer 1
+
+rem *** barracksngl_01 ***
+Object.create barracksngl_01
+Object.absolutePosition 105.842/137.237/-93.809
+Object.rotation 47.7/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_circle_half ***
+Object.create mi_sandbags_circle_half
+Object.absolutePosition 4.065/98.860/420.955
+Object.rotation -159.9/0.0/0.0
+Object.layer 1
+
+rem *** rock20m ***
+Object.create rock20m
+Object.absolutePosition 38.231/131.654/87.226
+Object.rotation 153.1/0.0/90.0
+Object.layer 1
+
+rem *** construct_metal_plate_ramp ***
+Object.create construct_metal_plate_ramp
+Object.absolutePosition 29.191/121.741/-23.535
+Object.rotation 67.1/13.1/-1.8
+Object.layer 1
+
+rem *** me_palmtree01 ***
+Object.create me_palmtree01
+Object.absolutePosition -235.349/95.206/286.197
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** rockpile_medium_02 ***
+Object.create rockpile_medium_02
+Object.absolutePosition -259.113/88.843/194.921
+Object.layer 1
+
+rem *** rockpile_medium ***
+Object.create rockpile_medium
+Object.absolutePosition -130.400/90.224/284.733
+Object.rotation 126.2/0.0/0.0
+Object.layer 1
+
+rem *** rock20m ***
+Object.create rock20m
+Object.absolutePosition -60.945/111.691/224.706
+Object.rotation -140.9/0.0/90.0
+Object.layer 1
+
+rem *** me_palmtree03 ***
+Object.create me_palmtree03
+Object.absolutePosition 109.428/106.621/-435.890
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree02 ***
+Object.create me_palmtree02
+Object.absolutePosition 110.678/102.700/-438.637
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** rock20m ***
+Object.create rock20m
+Object.absolutePosition -79.066/116.619/11.466
+Object.rotation 9.6/44.8/-86.5
+Object.layer 1
+
+rem *** rockpile_large ***
+Object.create rockpile_large
+Object.absolutePosition 85.451/147.344/48.037
+Object.rotation -147.5/41.6/6.7
+Object.layer 1
+
+rem *** rock20m ***
+Object.create rock20m
+Object.absolutePosition 152.101/147.850/92.566
+Object.rotation 153.1/0.0/90.0
+Object.layer 1
+
+rem *** mi_sandbags_end ***
+Object.create mi_sandbags_end
+Object.absolutePosition -107.985/119.094/-321.052
+Object.rotation -63.5/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_end ***
+Object.create mi_sandbags_end
+Object.absolutePosition -107.049/119.094/-319.175
+Object.rotation 116.5/0.0/0.0
+Object.layer 1
+
+rem *** ladder_6_3m ***
+Object.create ladder_6_3m
+Object.absolutePosition -140.725/110.910/-324.939
+Object.rotation 28.9/0.0/0.0
+Object.layer 1
+
+rem *** concreteblock_airstrip_long_endstr ***
+Object.create concreteblock_airstrip_long_endstr
+Object.absolutePosition 23.766/91.015/-640.487
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+
+rem *** concreteblock_airstrip_long_endstr ***
+Object.create concreteblock_airstrip_long_endstr
+Object.absolutePosition 23.766/91.015/-674.443
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+
+rem *** concreteblock_airstrip_long_endstr ***
+Object.create concreteblock_airstrip_long_endstr
+Object.absolutePosition -20.707/98.302/598.947
+Object.rotation -79.6/0.0/0.0
+Object.layer 1
+
+rem *** rockpile_large ***
+Object.create rockpile_large
+Object.absolutePosition 121.949/97.533/-468.788
+Object.layer 1
+
+rem *** rockpile_medium_02 ***
+Object.create rockpile_medium_02
+Object.absolutePosition -184.825/89.736/250.213
+Object.rotation 0.0/-17.2/0.0
+Object.layer 1
+
+rem *** rockpile_medium_02 ***
+Object.create rockpile_medium_02
+Object.absolutePosition -143.127/90.679/219.091
+Object.rotation -141.9/0.0/0.0
+Object.layer 1
+
+rem *** stonefence_slope_5m ***
+Object.create stonefence_slope_5m
+Object.absolutePosition -101.966/107.060/-337.234
+Object.rotation 30.1/0.0/0.0
+Object.layer 1
+
+rem *** stonefence_10m ***
+Object.create stonefence_10m
+Object.absolutePosition -105.693/107.105/-343.680
+Object.rotation -149.9/0.0/0.0
+Object.layer 1
+
+rem *** stonefence_l ***
+Object.create stonefence_l
+Object.absolutePosition -109.567/107.105/-348.369
+Object.rotation -59.9/0.0/0.0
+Object.layer 1
+
+rem *** stonefence_20m ***
+Object.create stonefence_20m
+Object.absolutePosition -119.584/107.105/-343.718
+Object.rotation 120.1/0.0/0.0
+Object.layer 1
+
+rem *** stonefence_l ***
+Object.create stonefence_l
+Object.absolutePosition -129.599/107.105/-339.065
+Object.rotation 120.1/0.0/0.0
+Object.layer 1
+
+rem *** stonefence_10m ***
+Object.create stonefence_10m
+Object.absolutePosition -133.465/107.105/-343.743
+Object.rotation -149.9/0.0/0.0
+Object.layer 1
+
+rem *** stonefence_l ***
+Object.create stonefence_l
+Object.absolutePosition -137.340/107.105/-348.432
+Object.rotation -59.9/0.0/0.0
+Object.layer 1
+
+rem *** stonefence_20m ***
+Object.create stonefence_20m
+Object.absolutePosition -147.358/107.105/-343.783
+Object.rotation 120.1/0.0/0.0
+Object.layer 1
+
+rem *** stonefence_l ***
+Object.create stonefence_l
+Object.absolutePosition -160.698/107.105/-334.892
+Object.rotation 30.1/0.0/0.0
+Object.layer 1
+
+rem *** stonefence_10m ***
+Object.create stonefence_10m
+Object.absolutePosition -158.554/107.105/-329.201
+Object.rotation -149.9/0.0/0.0
+Object.layer 1
+
+rem *** stonefence_l ***
+Object.create stonefence_l
+Object.absolutePosition -156.410/107.105/-323.508
+Object.rotation -149.9/0.0/0.0
+Object.layer 1
+
+rem *** stonefence_20m ***
+Object.create stonefence_20m
+Object.absolutePosition -165.426/107.105/-317.128
+Object.rotation 120.1/0.0/0.0
+Object.layer 1
+
+rem *** stonefence_l ***
+Object.create stonefence_l
+Object.absolutePosition -174.439/107.105/-310.745
+Object.rotation 30.1/0.0/0.0
+Object.layer 1
+
+rem *** stonefence_10m ***
+Object.create stonefence_10m
+Object.absolutePosition -172.295/107.104/-305.053
+Object.rotation -149.9/0.0/0.0
+Object.layer 1
+
+rem *** stonefence_slope_5m ***
+Object.create stonefence_slope_5m
+Object.absolutePosition -168.567/107.060/-298.608
+Object.rotation 30.1/0.0/0.0
+Object.layer 1
+
+rem *** house_detached_03 ***
+Object.create house_detached_03
+Object.absolutePosition -98.791/113.180/-294.832
+Object.rotation 27.8/0.0/0.0
+Object.layer 1
+
+rem *** roundabout ***
+Object.create roundabout
+Object.absolutePosition -110.772/108.195/-268.694
+Object.rotation 156.8/0.0/0.0
+Object.layer 1
+
+rem *** house_small_v2 ***
+Object.create house_small_v2
+Object.absolutePosition -151.325/108.559/-267.424
+Object.rotation -62.2/0.0/0.0
+Object.layer 1
+
+rem *** house_small ***
+Object.create house_small
+Object.absolutePosition -136.126/108.559/-269.774
+Object.rotation -151.3/0.0/0.0
+Object.layer 1
+
+rem *** me_palmtree01 ***
+Object.create me_palmtree01
+Object.absolutePosition -85.712/111.744/-274.730
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_shortpalm01 ***
+Object.create me_shortpalm01
+Object.absolutePosition -129.274/107.832/-273.296
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_shortpalm01 ***
+Object.create me_shortpalm01
+Object.absolutePosition -81.937/107.832/-298.717
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_shortpalm01 ***
+Object.create me_shortpalm01
+Object.absolutePosition -123.892/107.832/-257.603
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** stonefence_5m ***
+Object.create stonefence_5m
+Object.absolutePosition -95.178/107.105/-261.618
+Object.rotation -59.9/0.0/0.0
+Object.layer 1
+
+rem *** me_palmtree01 ***
+Object.create me_palmtree01
+Object.absolutePosition -129.272/111.737/-240.052
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_shortpalm01 ***
+Object.create me_shortpalm01
+Object.absolutePosition -120.949/107.832/-261.456
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_shortpalm01 ***
+Object.create me_shortpalm01
+Object.absolutePosition -99.629/107.832/-272.232
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** mangrove_big1 ***
+Object.create mangrove_big1
+Object.absolutePosition -80.246/112.508/-287.987
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** mangrove_big1 ***
+Object.create mangrove_big1
+Object.absolutePosition -93.415/112.505/-263.432
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** mangrove_big1 ***
+Object.create mangrove_big1
+Object.absolutePosition -103.790/112.508/-259.552
+Object.rotation 107.6/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** mangrove_big1 ***
+Object.create mangrove_big1
+Object.absolutePosition -116.057/112.508/-253.358
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** mangrove_big1 ***
+Object.create mangrove_big1
+Object.absolutePosition -142.856/112.508/-251.472
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** rock20m ***
+Object.create rock20m
+Object.absolutePosition -77.117/105.955/-281.306
+Object.rotation -14.8/25.1/68.7
+Object.layer 1
+
+rem *** stonefence_slope_5m ***
+Object.create stonefence_slope_5m
+Object.absolutePosition -151.377/107.060/-261.902
+Object.rotation -149.9/0.0/0.0
+Object.layer 1
+
+rem *** stonefence_10m ***
+Object.create stonefence_10m
+Object.absolutePosition -147.650/107.105/-255.456
+Object.rotation 30.1/0.0/0.0
+Object.layer 1
+
+rem *** stonefence_l ***
+Object.create stonefence_l
+Object.absolutePosition -143.776/107.105/-250.767
+Object.rotation 120.1/0.0/0.0
+Object.layer 1
+
+rem *** stonefence_20m ***
+Object.create stonefence_20m
+Object.absolutePosition -133.759/107.105/-255.418
+Object.rotation -59.9/0.0/0.0
+Object.layer 1
+
+rem *** stonefence_l ***
+Object.create stonefence_l
+Object.absolutePosition -123.744/107.105/-260.071
+Object.rotation -59.9/0.0/0.0
+Object.layer 1
+
+rem *** stonefence_10m ***
+Object.create stonefence_10m
+Object.absolutePosition -119.878/107.105/-255.393
+Object.rotation 30.1/0.0/0.0
+Object.layer 1
+
+rem *** stonefence_l ***
+Object.create stonefence_l
+Object.absolutePosition -116.004/107.105/-250.704
+Object.rotation 120.1/0.0/0.0
+Object.layer 1
+
+rem *** stonefence_20m ***
+Object.create stonefence_20m
+Object.absolutePosition -105.985/107.105/-255.353
+Object.rotation -59.9/0.0/0.0
+Object.layer 1
+
+rem *** stonefence_l ***
+Object.create stonefence_l
+Object.absolutePosition -92.646/107.105/-264.244
+Object.rotation -149.9/0.0/0.0
+Object.layer 1
+
+rem *** stonefence_10m ***
+Object.create stonefence_10m
+Object.absolutePosition -94.790/107.105/-269.936
+Object.rotation 30.1/0.0/0.0
+Object.layer 1
+
+rem *** stonefence_l ***
+Object.create stonefence_l
+Object.absolutePosition -96.934/107.105/-275.628
+Object.rotation 30.1/0.0/0.0
+Object.layer 1
+
+rem *** stonefence_20m ***
+Object.create stonefence_20m
+Object.absolutePosition -87.917/107.105/-282.008
+Object.rotation -59.9/0.0/0.0
+Object.layer 1
+
+rem *** stonefence_l ***
+Object.create stonefence_l
+Object.absolutePosition -78.905/107.105/-288.391
+Object.rotation -149.9/0.0/0.0
+Object.layer 1
+
+rem *** stonefence_10m ***
+Object.create stonefence_10m
+Object.absolutePosition -81.049/107.104/-294.083
+Object.rotation 30.1/0.0/0.0
+Object.layer 1
+
+rem *** stonefence_slope_5m ***
+Object.create stonefence_slope_5m
+Object.absolutePosition -84.776/107.060/-300.528
+Object.rotation -149.9/0.0/0.0
+Object.layer 1
+
+rem *** concreteblock_airstrip_long_endstr ***
+Object.create concreteblock_airstrip_long_endstr
+Object.absolutePosition -26.122/98.302/567.200
+Object.rotation -79.6/0.0/0.0
+Object.layer 1
+
+rem *** mi_hangar_us_v2 ***
+Object.create mi_hangar_us_v2
+Object.absolutePosition 55.973/103.292/551.829
+Object.rotation -79.6/0.0/0.0
+Object.layer 1
+
+rem *** xp2_oilsilowreaked_01 ***
+Object.create xp2_oilsilowreaked_01
+Object.absolutePosition -272.885/113.334/-7.641
+Object.rotation 101.5/0.0/0.0
+Object.layer 1
+
+rem *** xp2_oilsilowreaked_01 ***
+Object.create xp2_oilsilowreaked_01
+Object.absolutePosition -325.817/112.452/-92.977
+Object.rotation 139.5/0.0/0.0
+Object.layer 1
+
+rem *** xp2_oilsilowreaked_01 ***
+Object.create xp2_oilsilowreaked_01
+Object.absolutePosition -220.312/112.282/-157.689
+Object.rotation 143.6/0.0/0.0
+Object.layer 1
+
+rem *** wallhigh02 ***
+Object.create wallhigh02
+Object.absolutePosition 199.085/134.895/-62.980
+Object.rotation 53.5/0.0/0.0
+Object.layer 1
+
+rem *** wallhigh02 ***
+Object.create wallhigh02
+Object.absolutePosition 194.556/133.935/-56.849
+Object.rotation 53.5/0.0/15.3
+Object.layer 1
+
+rem *** wallhigh02 ***
+Object.create wallhigh02
+Object.absolutePosition 253.003/134.895/-111.743
+Object.rotation -163.6/0.0/0.0
+Object.layer 1
+
+rem *** wallhigh02 ***
+Object.create wallhigh02
+Object.absolutePosition 261.385/134.895/-111.926
+Object.rotation 165.1/0.0/0.0
+Object.layer 1
+
+rem *** wallhigh02 ***
+Object.create wallhigh02
+Object.absolutePosition 274.266/133.825/-102.786
+Object.rotation 132.3/1.8/14.9
+Object.layer 1
+
+rem *** wallhigh02 ***
+Object.create wallhigh02
+Object.absolutePosition 268.755/134.895/-108.075
+Object.rotation 139.0/0.0/0.0
+Object.layer 1
+
+rem *** xp2_militarytent_large_01 ***
+Object.create xp2_militarytent_large_01
+Object.absolutePosition 25.822/100.054/-506.099
+Object.rotation 89.9/0.0/0.0
+Object.layer 1
+
+rem *** xp2_militarytent_large_01 ***
+Object.create xp2_militarytent_large_01
+Object.absolutePosition 26.312/100.054/-490.296
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+
+rem *** barracksngl_01 ***
+Object.create barracksngl_01
+Object.absolutePosition 59.668/100.195/-513.747
+Object.rotation 91.7/0.0/0.0
+Object.layer 1
+
+rem *** barracksngl_01 ***
+Object.create barracksngl_01
+Object.absolutePosition 56.481/100.253/-471.543
+Object.rotation 165.4/0.0/0.0
+Object.layer 1
+
+rem *** mi_guard_tower_mech ***
+Object.create mi_guard_tower_mech
+Object.absolutePosition 100.753/101.177/-487.629
+Object.rotation 73.5/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_end ***
+Object.create mi_sandbags_end
+Object.absolutePosition 96.302/99.070/-484.580
+Object.rotation -16.5/0.0/0.0
+Object.layer 1
+
+rem *** barracksngl_01 ***
+Object.create barracksngl_01
+Object.absolutePosition 84.721/100.195/-514.296
+Object.rotation -88.0/0.0/0.0
+Object.layer 1
+
+rem *** me_palm_cluster01 ***
+Object.create me_palm_cluster01
+Object.absolutePosition 34.186/108.418/-442.210
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** mangrove_big1 ***
+Object.create mangrove_big1
+Object.absolutePosition 33.163/104.628/-458.911
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** mangrove_big1 ***
+Object.create mangrove_big1
+Object.absolutePosition 60.669/104.406/-500.996
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree03 ***
+Object.create me_palmtree03
+Object.absolutePosition 51.156/106.728/-452.603
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree02 ***
+Object.create me_palmtree02
+Object.absolutePosition 26.650/102.795/-460.872
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** house_small_ruin ***
+Object.create house_small_ruin
+Object.absolutePosition -209.323/91.445/203.745
+Object.rotation 120.0/0.0/0.0
+Object.layer 1
+
+rem *** house_small ***
+Object.create house_small
+Object.absolutePosition -232.609/91.458/203.000
+Object.rotation -65.8/0.0/0.0
+Object.layer 1
+
+rem *** house_small_v2 ***
+Object.create house_small_v2
+Object.absolutePosition -208.845/91.497/235.852
+Object.rotation 45.2/0.0/0.0
+Object.layer 1
+
+rem *** house_small2 ***
+Object.create house_small2
+Object.absolutePosition -160.980/92.429/188.501
+Object.rotation -140.2/0.0/0.0
+Object.layer 1
+
+rem *** me_palmtree01 ***
+Object.create me_palmtree01
+Object.absolutePosition -212.448/94.618/211.554
+Object.rotation 82.0/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** stonefence_slope_5m ***
+Object.create stonefence_slope_5m
+Object.absolutePosition -198.083/89.938/207.227
+Object.rotation -150.3/0.0/0.0
+Object.layer 1
+
+rem *** stonefence_slope_5m ***
+Object.create stonefence_slope_5m
+Object.absolutePosition -199.756/89.938/213.288
+Object.rotation -60.3/0.0/0.0
+Object.layer 1
+
+rem *** stonefence_l ***
+Object.create stonefence_l
+Object.absolutePosition -197.253/89.983/210.721
+Object.rotation -150.3/0.0/0.0
+Object.layer 1
+
+rem *** stonefence_slope_5m ***
+Object.create stonefence_slope_5m
+Object.absolutePosition -211.101/89.938/193.194
+Object.rotation -60.3/0.0/0.0
+Object.layer 1
+
+rem *** stonefence_l ***
+Object.create stonefence_l
+Object.absolutePosition -207.608/89.983/192.363
+Object.rotation -60.3/0.0/0.0
+Object.layer 1
+
+rem *** stonefence_slope_5m ***
+Object.create stonefence_slope_5m
+Object.absolutePosition -205.040/89.938/194.867
+Object.rotation 29.7/0.0/0.0
+Object.layer 1
+
+rem *** me_palm_cluster01 ***
+Object.create me_palm_cluster01
+Object.absolutePosition 109.234/105.854/-496.572
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** me_palmtree03 ***
+Object.create me_palmtree03
+Object.absolutePosition 110.720/103.728/-520.465
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** construct_metal_plate_ramp ***
+Object.create construct_metal_plate_ramp
+Object.absolutePosition 81.804/136.147/-23.917
+Object.rotation 99.4/6.0/0.0
+Object.layer 1
+
+rem *** fence_corrugated_3x24m_corner_01 ***
+Object.create fence_corrugated_3x24m_corner_01
+Object.absolutePosition 20.540/121.229/-35.729
+Object.rotation 179.3/0.0/0.0
+Object.layer 1
+
+rem *** fence_corrugated_3x24m_corner_01 ***
+Object.create fence_corrugated_3x24m_corner_01
+Object.absolutePosition 20.381/121.229/-22.737
+Object.rotation 89.3/0.0/0.0
+Object.layer 1
+
+rem *** barracksngl_01 ***
+Object.create barracksngl_01
+Object.absolutePosition 71.762/100.223/-502.205
+Object.rotation 179.5/0.0/0.0
+Object.layer 1
+
+rem *** barracksngl_01 ***
+Object.create barracksngl_01
+Object.absolutePosition 74.269/100.253/-466.918
+Object.rotation 165.4/0.0/0.0
+Object.layer 1
+
+rem *** rockpile_1 ***
+Object.create rockpile_1
+Object.absolutePosition 33.226/119.692/-10.843
+Object.rotation -17.2/-13.2/4.0
+Object.layer 1
+
+rem *** fence_corrugated_pole_3m ***
+Object.create fence_corrugated_pole_3m
+Object.absolutePosition 14.221/121.718/-41.088
+Object.rotation -174.5/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_end ***
+Object.create wirefence_end
+Object.absolutePosition 179.469/136.792/-137.435
+Object.rotation -134.8/0.0/0.0
+Object.layer 1
+
+rem *** xp2_windmill_01c ***
+Object.create xp2_windmill_01c
+Object.absolutePosition 154.407/173.003/108.138
+Object.rotation -176.6/0.0/0.0
+Object.layer 1
+
+rem *** xp2_windmill_01a ***
+Object.create xp2_windmill_01a
+Object.absolutePosition 11.754/152.319/48.724
+Object.rotation -173.4/0.0/0.0
+Object.layer 1
+
+rem *** xp2_windmill_01a ***
+Object.create xp2_windmill_01a
+Object.absolutePosition 57.245/154.577/-200.331
+Object.rotation 157.3/0.0/0.0
+Object.layer 1
+
+rem *** xp2_windmill_01c ***
+Object.create xp2_windmill_01c
+Object.absolutePosition 281.849/173.928/-234.366
+Object.rotation -176.6/0.0/0.0
+Object.layer 1
+
+rem *** xp2_windmill_01a ***
+Object.create xp2_windmill_01a
+Object.absolutePosition 271.818/172.599/20.698
+Object.rotation 179.4/0.0/0.0
+Object.layer 1
+
+rem *** xp2_windmill_01b ***
+Object.create xp2_windmill_01b
+Object.absolutePosition 87.905/170.929/33.786
+Object.rotation -160.9/0.0/0.0
+Object.layer 1
+
+rem *** xp2_windmill_01b ***
+Object.create xp2_windmill_01b
+Object.absolutePosition 471.265/170.996/-102.561
+Object.rotation -174.0/0.0/0.0
+Object.layer 1
+
+rem *** xp2_windmill_01a ***
+Object.create xp2_windmill_01a
+Object.absolutePosition 300.521/171.138/228.471
+Object.rotation -166.7/0.0/0.0
+Object.layer 1
+
+rem *** xp2_windmill_01c ***
+Object.create xp2_windmill_01c
+Object.absolutePosition 632.571/173.178/-93.127
+Object.rotation -176.6/0.0/0.0
+Object.layer 1
+
+rem *** xp2_windmill_01a ***
+Object.create xp2_windmill_01a
+Object.absolutePosition 483.986/171.488/-194.227
+Object.rotation -173.4/0.0/0.0
+Object.layer 1
+
+rem *** ambstat_OilCistFire ***
+Object.create ambstat_OilCistFire
+Object.absolutePosition -218.598/107.168/-159.208
+Object.rotation 0.0/0.0/-1.3
+Object.layer 1
+
+rem *** ambstat_OilCistFire ***
+Object.create ambstat_OilCistFire
+Object.absolutePosition -324.170/107.204/-94.851
+Object.layer 1
+
+rem *** ambstat_OilCistFire ***
+Object.create ambstat_OilCistFire
+Object.absolutePosition -51.069/101.375/221.030
+Object.layer 1
+
+rem *** ambstat_OilCistFire ***
+Object.create ambstat_OilCistFire
+Object.absolutePosition -505.448/104.531/-243.009
+Object.layer 1
+
+rem *** ambstat_OilCistFire ***
+Object.create ambstat_OilCistFire
+Object.absolutePosition -273.387/108.472/-9.512
+Object.layer 1
+
+rem *** ambstat_OilCistFire ***
+Object.create ambstat_OilCistFire
+Object.absolutePosition -445.722/100.322/-346.708
+Object.rotation 20.0/-7.0/0.0
+Object.layer 1
+
+rem *** ambstat_OilCistFire ***
+Object.create ambstat_OilCistFire
+Object.absolutePosition -514.342/101.048/222.911
+Object.layer 1
+
+rem *** xp2_oilsilowreaked_01 ***
+Object.create xp2_oilsilowreaked_01
+Object.absolutePosition -517.516/109.124/-242.703
+Object.rotation 132.3/0.0/0.0
+Object.layer 1
+
+rem *** xp2_oilsilowreaked_01 ***
+Object.create xp2_oilsilowreaked_01
+Object.absolutePosition -526.483/106.486/224.651
+Object.rotation 143.8/0.0/0.0
+Object.layer 1
+
+rem *** rockpile_medium ***
+Object.create rockpile_medium
+Object.absolutePosition -79.957/98.043/241.782
+Object.rotation 165.4/0.0/0.0
+Object.layer 1
+
+rem *** xp2_windmill_01c ***
+Object.create xp2_windmill_01c
+Object.absolutePosition 33.945/147.881/-99.655
+Object.rotation 163.7/0.0/0.0
+Object.layer 1
+
+rem *** concretebarrier_5 ***
+Object.create concretebarrier_5
+Object.absolutePosition 224.129/91.638/-575.274
+Object.layer 1
+
+rem *** concretebarrier_5 ***
+Object.create concretebarrier_5
+Object.absolutePosition -336.092/102.160/-199.556
+Object.rotation 121.5/-0.5/-3.4
+Object.layer 1
+
+rem *** concretebarrier_5 ***
+Object.create concretebarrier_5
+Object.absolutePosition -272.704/93.942/314.583
+Object.rotation -129.3/0.0/7.9
+Object.layer 1
+
+rem *** concretebarrier_5 ***
+Object.create concretebarrier_5
+Object.absolutePosition 410.283/148.904/3.369
+Object.rotation -20.4/0.0/2.5
+Object.layer 1
+

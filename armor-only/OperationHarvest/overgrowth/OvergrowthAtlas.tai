@@ -1,0 +1,32 @@
+# mods/Xpack2/levels\operationharvest\overgrowth\OvergrowthAtlas.tai
+# 
+# 
+# <filename>		<atlas filename>, <atlas idx>, <woffset>, <hoffset>, <width>, <height>
+# 
+# Texture <filename> can be found in texture atlas <atlas filename>, i.e.,
+# <group><idx>.dds with texture coordinates boundary given by:
+#   A = ( <woffset>, <hoffset> )
+#   B = ( <woffset> + <width>, <hoffset> + <height> )
+# 
+# where coordinates (0,0) and (1,1) of the original texture map correspond
+# to coordinates A and B, respectively, in the texture atlas.
+
+
+objects/vegitation/america/textures/leaf_xp2_appleleaf.dds		levels\operationharvest\overgrowth\OvergrowthAtlas0.dds, 0, 0, 0, 0.125, 0.25
+objects/vegitation/america/textures/xp2_apple01lod.dds		levels\operationharvest\overgrowth\OvergrowthAtlas0.dds, 0, 0.125, 0, 0.125, 0.25
+objects/vegitation/america/textures/xp2_apple02lod.dds		levels\operationharvest\overgrowth\OvergrowthAtlas0.dds, 0, 0.25, 0, 0.125, 0.25
+objects/vegitation/america/textures/xp2_oaktree_01_lod.dds		levels\operationharvest\overgrowth\OvergrowthAtlas0.dds, 0, 0.375, 0, 0.125, 0.25
+objects/vegitation/america/textures/xp2_oaktree_02_lod.dds		levels\operationharvest\overgrowth\OvergrowthAtlas0.dds, 0, 0.5, 0, 0.125, 0.25
+objects/vegitation/america/textures/xp2_oaktree_03_lod.dds		levels\operationharvest\overgrowth\OvergrowthAtlas0.dds, 0, 0.625, 0, 0.125, 0.25
+objects/vegitation/asia/textures/leaf_nc_birch01de_lod.dds		levels\operationharvest\overgrowth\OvergrowthAtlas0.dds, 0, 0.75, 0, 0.125, 0.25
+objects/vegitation/asia/textures/leaf_nc_leafybush01_lod.dds		levels\operationharvest\overgrowth\OvergrowthAtlas0.dds, 0, 0.875, 0, 0.125, 0.25
+objects/vegitation/asia/textures/leaf_nc_oakde_lod.dds		levels\operationharvest\overgrowth\OvergrowthAtlas0.dds, 0, 0, 0.25, 0.125, 0.25
+objects/vegitation/asia/textures/leaf_ncbirch_cluster01_lod.dds		levels\operationharvest\overgrowth\OvergrowthAtlas0.dds, 0, 0.125, 0.25, 0.125, 0.25
+objects/vegitation/asia/textures/leaf_ncfern01de_lod.dds		levels\operationharvest\overgrowth\OvergrowthAtlas0.dds, 0, 0.25, 0.25, 0.125, 0.25
+objects/vegitation/asia/textures/leaf_ncmedbush01de_lod.dds		levels\operationharvest\overgrowth\OvergrowthAtlas0.dds, 0, 0.375, 0.25, 0.125, 0.25
+objects/vegitation/asia/textures/leaf_ncoak02_lod.dds		levels\operationharvest\overgrowth\OvergrowthAtlas0.dds, 0, 0.5, 0.25, 0.125, 0.25
+objects/vegitation/asia/textures/leaf_ncpine_cluster01_lod.dds		levels\operationharvest\overgrowth\OvergrowthAtlas0.dds, 0, 0.625, 0.25, 0.125, 0.25
+objects/vegitation/asia/textures/leaf_ncweeping02de_lod.dds		levels\operationharvest\overgrowth\OvergrowthAtlas0.dds, 0, 0.75, 0.25, 0.125, 0.25
+objects/vegitation/asia/textures/ncpineleaf01lodde.dds		levels\operationharvest\overgrowth\OvergrowthAtlas0.dds, 0, 0.875, 0.25, 0.125, 0.25
+objects/vegitation/asia/textures/ncpineleaf02lodde.dds		levels\operationharvest\overgrowth\OvergrowthAtlas0.dds, 0, 0, 0.5, 0.125, 0.25
+objects/vegitation/asia/textures/tile_ncbark01de_lod.dds		levels\operationharvest\overgrowth\OvergrowthAtlas0.dds, 0, 0, 0.75, 0.125, 0.125

@@ -1,0 +1,17 @@
+GeometryTemplate.create StaticMesh xp2_oilsilowreaked_01
+CollisionManager.createTemplate xp2_oilsilowreaked_01
+
+ObjectTemplate.create SimpleObject xp2_oilsilowreaked_01
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator TAYLOR:taylorki
+ObjectTemplate.collisionMesh xp2_oilsilowreaked_01
+ObjectTemplate.mapMaterial 0 thickMetal_Col 0
+ObjectTemplate.mapMaterial 1 concrete_Col 0
+ObjectTemplate.mapMaterial 2 thinMetal_Col 0
+ObjectTemplate.mapMaterial 3 stair_Col 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry xp2_oilsilowreaked_01
+ObjectTemplate.anchor -11.1150/-6.5630/0.7290
+
+include xp2_oilsilowreaked_01.tweak

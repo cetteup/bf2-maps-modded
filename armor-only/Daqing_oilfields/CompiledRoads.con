@@ -1,0 +1,196 @@
+object.create dirtroad_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\CHbase2cist_compiled.mesh
+object.absoluteposition -181.024/149.435/-61.7377
+
+object.create tarmac_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\mainTarmacRoadEast2_compiled.mesh
+object.absoluteposition 282.57/139.798/130.748
+
+object.create tarmac_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\mainTarmacRoadEast3_compiled.mesh
+object.absoluteposition -39.4076/143.838/-30.2562
+
+object.create tarmac_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\mainTarmacRoadEast1_compiled.mesh
+object.absoluteposition 574.001/138.661/18.4268
+
+object.create dirtroad_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\CHbase2cist2_compiled.mesh
+object.absoluteposition -147.806/152.443/-8.70263
+
+object.create dirtroad_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\CHbase2cist3_compiled.mesh
+object.absoluteposition -41.8935/143.531/34.1125
+
+object.create dirtroad_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\DirtRoad1_compiled.mesh
+object.absoluteposition 203.106/146.162/-27.9748
+
+object.create dirtroad_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\CHvillage1_compiled.mesh
+object.absoluteposition 162.847/153.604/227.552
+
+object.create tarmac_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\tarman_Main_road_compiled.mesh
+object.absoluteposition -555.044/154.949/-171.888
+
+object.create dirtroad_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\DirtRoad3_compiled.mesh
+object.absoluteposition 180.861/136.029/-298.496
+
+object.create tarmac_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\USbase2Highway_compiled.mesh
+object.absoluteposition 278.656/135.193/-348.837
+
+object.create dirtroad_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\CHvillage2_compiled.mesh
+object.absoluteposition 71.007/146.965/173.381
+
+object.create tarmac_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\USbase2nowhere_compiled.mesh
+object.absoluteposition 600.652/148.698/-738.226
+
+object.create dirtroad_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\CHbase2Bridge_compiled.mesh
+object.absoluteposition -184.2/168.46/209.626
+
+object.create dirtroad_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\CHbase2Bridge2_compiled.mesh
+object.absoluteposition -118.697/159.143/268.245
+
+object.create dirtroad_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\CHvillage2bridge_compiled.mesh
+object.absoluteposition 59.2392/152.632/266.323
+
+object.create dirtroad_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\CHbrisge2village_compiled.mesh
+object.absoluteposition -225.075/161.091/97.6704
+
+object.create dirtroad_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\bridge12east_compiled.mesh
+object.absoluteposition -286.542/149.12/-43.5505
+
+object.create dirtroad_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\CHbase2Flyfield_compiled.mesh
+object.absoluteposition -217.842/162.353/460.875
+
+object.create dirtroad_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\DirtRoad2_compiled.mesh
+object.absoluteposition 417.524/138.892/18.4508
+
+object.create dirtroad_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\roady1_compiled.mesh
+object.absoluteposition -144.79/163.903/291.507
+
+object.create tarmac_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\Littlelitteroad_compiled.mesh
+object.absoluteposition -66.62/144.424/-149.347
+
+object.create tarmac_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\mainTarmacRoad2_compiled.mesh
+object.absoluteposition 92.7194/142.878/-157.753
+
+object.create tarmac_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\mainTarmacRoad3_compiled.mesh
+object.absoluteposition 422.922/140.159/-115.669
+
+object.create tarmac_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\mainTarmacRoad4_compiled.mesh
+object.absoluteposition 781.174/133.059/-33.6982
+
+object.create forestPath_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\forest36_compiled.mesh
+object.absoluteposition -333.28/159.518/50.6127
+
+object.create forestPath_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\forest37_compiled.mesh
+object.absoluteposition -312.041/155.935/36.8078
+
+object.create forestPath_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\forest35_compiled.mesh
+object.absoluteposition -299.262/170.24/116.453
+
+object.create forestPath_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\forest31_compiled.mesh
+object.absoluteposition -108.674/149.871/110.835
+
+object.create forestPath_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\forest30_compiled.mesh
+object.absoluteposition 94.4949/150.289/46.1299
+
+object.create forestPath_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\forest27_compiled.mesh
+object.absoluteposition 165.116/155.805/71.0157
+
+object.create forestPath_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\forest26_compiled.mesh
+object.absoluteposition 174.883/156.788/36.856
+
+object.create forestPath_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\forest28_compiled.mesh
+object.absoluteposition 141.455/152.8/8.96721
+
+object.create forestPath_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\forest29_compiled.mesh
+object.absoluteposition 177.303/146.605/105.941
+
+object.create forestPath_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\forest34_compiled.mesh
+object.absoluteposition -189.599/161.09/93.5656
+
+object.create forestPath_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\forest33_compiled.mesh
+object.absoluteposition -89.4664/153.493/229.527
+
+object.create forestPath_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\forest32_compiled.mesh
+object.absoluteposition -136.234/158.728/139.285
+
+object.create forestPath_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\forest22_compiled.mesh
+object.absoluteposition 298.046/155.08/49.759
+
+object.create forestPath_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\forest24_compiled.mesh
+object.absoluteposition 269.414/148.338/-0.915858
+
+object.create forestPath_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\forest25_compiled.mesh
+object.absoluteposition 310.576/144.716/-27.8643
+
+object.create forestPath_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\forest23_compiled.mesh
+object.absoluteposition 334.935/152.042/3.87159
+
+object.create dirtroad_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\Littleroad5_compiled.mesh
+object.absoluteposition 37.3696/143.893/35.1345
+
+object.create dirtroad_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\Fromcity_compiled.mesh
+object.absoluteposition 247.642/134.985/-375.602
+
+object.create dirtroad_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\Puny_road_compiled.mesh
+object.absoluteposition 159.869/143.384/136.72
+
+object.create dirtroad_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\Sneakypath_compiled.mesh
+object.absoluteposition 549.145/136.619/175.775
+
+object.create dirtroad_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\Oldcity2Westoilfield_compiled.mesh
+object.absoluteposition 358.77/151.51/231.417
+
+object.create dirtroad_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\littleroad_compiled.mesh
+object.absoluteposition 31.8011/144.39/-134.51
+
+object.create dirtroad_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\littleroad2_compiled.mesh
+object.absoluteposition 47.8157/144.387/-118.08
+
+object.create dirtroad_Daqing
+object.geometry.loadMesh Levels\Daqing_Oilfields\Roads\Littleroad4_compiled.mesh
+object.absoluteposition 170.06/156.183/254.387
+

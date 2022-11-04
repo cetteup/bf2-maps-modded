@@ -1,0 +1,24 @@
+if v_arg1 == BF2Editor
+terrain.create TerrainEditable
+terrain.patchSize 128
+terrain.subdividePatches 1
+terrain.primaryWorldScale 2/0.00152588/2
+terrain.secondaryWorldScale 8/0.390625/8
+terrain.patchColormapSize 512
+terrain.lowDetailmapSize 512
+terrain.detailmapBaseName "Levels/OperationRoadRage/Detailmaps/tx"
+terrain.lowDetailmapBaseName "Levels/OperationRoadRage/LowDetailmaps/tx"
+terrain.colormapBaseName "Levels/OperationRoadRage/Colormaps/tx"
+terrain.lightmapBaseName "Levels/OperationRoadRage/Lightmaps/tx"
+terrain.farSideTiling 10/12
+terrain.farTopTilingHi 12
+terrain.farTopTilingLow 12
+terrain.farYOffset 0
+terrain.terrainWaterColor 0/0/0
+terrain.init
+
+else
+terrain.create Terrain
+terrain.load Levels/OperationRoadRage/terraindata.raw
+endIf
+

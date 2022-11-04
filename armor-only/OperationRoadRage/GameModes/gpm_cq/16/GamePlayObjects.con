@@ -1,0 +1,1103 @@
+rem ********** Object Spawner **********
+rem [ObjectSpawnerTemplate: CP_16p_RR_Mall_LightJeep]
+ObjectTemplate.create ObjectSpawner CP_16p_RR_Mall_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CP_16p_RR_Mall_LightJeep
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CP_16p_RR_Overpass_LightJeep]
+ObjectTemplate.create ObjectSpawner CP_16p_RR_Overpass_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CP_16p_RR_Overpass_LightJeep
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+
+rem [ObjectSpawnerTemplate: CP_16p_RR_OceanFront_LightJeep]
+ObjectTemplate.create ObjectSpawner CP_16p_RR_OceanFront_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CP_16p_RR_OceanFront_LightJeep
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CP_16p_RR_HillCrest_LightJeep]
+ObjectTemplate.create ObjectSpawner CP_16p_RR_HillCrest_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CP_16p_RR_HillCrest_LightJeep
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+
+rem [ObjectSpawnerTemplate: CP_16p_RR_JunctionPark_LightJeep]
+ObjectTemplate.create ObjectSpawner CP_16p_RR_JunctionPark_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CP_16p_RR_JunctionPark_LightJeep
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+
+rem [ObjectSpawnerTemplate: CP_16p_RR_OceanFront_ART]
+ObjectTemplate.create ObjectSpawner CP_16p_RR_OceanFront_ART
+ObjectTemplate.activeSafe ObjectSpawner CP_16p_RR_OceanFront_ART
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 USART_LW155
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CP_16p_RR_OceanFront_Radar]
+ObjectTemplate.create ObjectSpawner CP_16p_RR_OceanFront_Radar
+ObjectTemplate.activeSafe ObjectSpawner CP_16p_RR_OceanFront_Radar
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 mobileradar_us_dest
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CP_16p_RR_OceanFront_UAVTrailer]
+ObjectTemplate.create ObjectSpawner CP_16p_RR_OceanFront_UAVTrailer
+ObjectTemplate.activeSafe ObjectSpawner CP_16p_RR_OceanFront_UAVTrailer
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 aircontroltower
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CP_16p_RR_Mall_ART]
+ObjectTemplate.create ObjectSpawner CP_16p_RR_Mall_ART
+ObjectTemplate.activeSafe ObjectSpawner CP_16p_RR_Mall_ART
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ARS_D30
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CP_16p_RR_Mall_RadarScanner]
+ObjectTemplate.create ObjectSpawner CP_16p_RR_Mall_RadarScanner
+ObjectTemplate.activeSafe ObjectSpawner CP_16p_RR_Mall_RadarScanner
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 mobileradar_mech_dest
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CP_16p_RR_Mall_UAVTrailer]
+ObjectTemplate.create ObjectSpawner CP_16p_RR_Mall_UAVTrailer
+ObjectTemplate.activeSafe ObjectSpawner CP_16p_RR_Mall_UAVTrailer
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 aircontroltower_mec
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CP_16p_RR_Mall_HeavyTank]
+ObjectTemplate.create ObjectSpawner CP_16p_RR_Mall_HeavyTank
+ObjectTemplate.activeSafe ObjectSpawner CP_16p_RR_Mall_HeavyTank
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 RUTNK_T90
+ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+
+rem [ObjectSpawnerTemplate: CP_16p_RR_Mall_HeavyTank02]
+ObjectTemplate.create ObjectSpawner CP_16p_RR_Mall_HeavyTank02
+ObjectTemplate.activeSafe ObjectSpawner CP_16p_RR_Mall_HeavyTank02
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 RUTNK_T90
+ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+
+rem [ObjectSpawnerTemplate: CP_16p_RR_Overpass_HeavyJeep]
+ObjectTemplate.create ObjectSpawner CP_16p_RR_Overpass_HeavyJeep
+ObjectTemplate.activeSafe ObjectSpawner CP_16p_RR_Overpass_HeavyJeep
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_VODNIK
+ObjectTemplate.setObjectTemplate 2 USJEP_HMMWV
+
+rem [ObjectSpawnerTemplate: CP_16p_RR_Overpass_LightJeep_0]
+ObjectTemplate.create ObjectSpawner CP_16p_RR_Overpass_LightJeep_0
+ObjectTemplate.activeSafe ObjectSpawner CP_16p_RR_Overpass_LightJeep_0
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+
+rem [ObjectSpawnerTemplate: CP_16p_RR_HillCrest_HeavyTank]
+ObjectTemplate.create ObjectSpawner CP_16p_RR_HillCrest_HeavyTank
+ObjectTemplate.activeSafe ObjectSpawner CP_16p_RR_HillCrest_HeavyTank
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 RUTNK_T90
+ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+
+rem [ObjectSpawnerTemplate: CP_16p_RR_OceanFront_HeavyTank]
+ObjectTemplate.create ObjectSpawner CP_16p_RR_OceanFront_HeavyTank
+ObjectTemplate.activeSafe ObjectSpawner CP_16p_RR_OceanFront_HeavyTank
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 RUTNK_T90
+ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+
+rem [ObjectSpawnerTemplate: CP_16p_RR_OceanFront_HeavyTank02]
+ObjectTemplate.create ObjectSpawner CP_16p_RR_OceanFront_HeavyTank02
+ObjectTemplate.activeSafe ObjectSpawner CP_16p_RR_OceanFront_HeavyTank02
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 RUTNK_T90
+ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+
+rem [ObjectSpawnerTemplate: CP_16p_RR_Overpass_HeavyTank]
+ObjectTemplate.create ObjectSpawner CP_16p_RR_Overpass_HeavyTank
+ObjectTemplate.activeSafe ObjectSpawner CP_16p_RR_Overpass_HeavyTank
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 RUTNK_T90
+ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+
+rem [ObjectSpawnerTemplate: CP_16p_RR_JunctionPark_LightJeep_0]
+ObjectTemplate.create ObjectSpawner CP_16p_RR_JunctionPark_LightJeep_0
+ObjectTemplate.activeSafe ObjectSpawner CP_16p_RR_JunctionPark_LightJeep_0
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+
+rem [ObjectSpawnerTemplate: CP_16p_RR_HillCrest_SMG]
+ObjectTemplate.create ObjectSpawner CP_16p_RR_HillCrest_SMG
+ObjectTemplate.activeSafe ObjectSpawner CP_16p_RR_HillCrest_SMG
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 MEC_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CP_16p_RR_JunctionPark_SMG]
+ObjectTemplate.create ObjectSpawner CP_16p_RR_JunctionPark_SMG
+ObjectTemplate.activeSafe ObjectSpawner CP_16p_RR_JunctionPark_SMG
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 MEC_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CP_16p_RR_HillCrest_ATS]
+ObjectTemplate.create ObjectSpawner CP_16p_RR_HillCrest_ATS
+ObjectTemplate.activeSafe ObjectSpawner CP_16p_RR_HillCrest_ATS
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ATS_HJ8
+ObjectTemplate.setObjectTemplate 2 ATS_TOW
+
+rem [ObjectSpawnerTemplate: CP_16p_RR_JunctionPark_ATS]
+ObjectTemplate.create ObjectSpawner CP_16p_RR_JunctionPark_ATS
+ObjectTemplate.activeSafe ObjectSpawner CP_16p_RR_JunctionPark_ATS
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ATS_HJ8
+ObjectTemplate.setObjectTemplate 2 ATS_TOW
+
+rem [ObjectSpawnerTemplate: CP_16p_RR_Mall_ME_US_HeavyJeep]
+ObjectTemplate.create ObjectSpawner CP_16p_RR_Mall_ME_US_HeavyJeep
+ObjectTemplate.activeSafe ObjectSpawner CP_16p_RR_Mall_ME_US_HeavyJeep
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_VODNIK
+ObjectTemplate.setObjectTemplate 2 USJEP_HMMWV
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CP_16p_RR_Mall_ME_US_LightJeep]
+ObjectTemplate.create ObjectSpawner CP_16p_RR_Mall_ME_US_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CP_16p_RR_Mall_ME_US_LightJeep
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_MEC_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CP_16p_RR_OceanFront_HeavyJeep]
+ObjectTemplate.create ObjectSpawner CP_16p_RR_OceanFront_HeavyJeep
+ObjectTemplate.activeSafe ObjectSpawner CP_16p_RR_OceanFront_HeavyJeep
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_VODNIK
+ObjectTemplate.setObjectTemplate 2 USJEP_HMMWV
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CP_16p_RR_OceanFront_LightJeep_0]
+ObjectTemplate.create ObjectSpawner CP_16p_RR_OceanFront_LightJeep_0
+ObjectTemplate.activeSafe ObjectSpawner CP_16p_RR_OceanFront_LightJeep_0
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_MEC_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CP_16p_RR_HillCrest_HeavyJeep]
+ObjectTemplate.create ObjectSpawner CP_16p_RR_HillCrest_HeavyJeep
+ObjectTemplate.activeSafe ObjectSpawner CP_16p_RR_HillCrest_HeavyJeep
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_VODNIK
+ObjectTemplate.setObjectTemplate 2 USJEP_HMMWV
+
+rem [ObjectSpawnerTemplate: CP_16p_RR_Overpass_ME_US_SMG]
+ObjectTemplate.create ObjectSpawner CP_16p_RR_Overpass_ME_US_SMG
+ObjectTemplate.activeSafe ObjectSpawner CP_16p_RR_Overpass_ME_US_SMG
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 MEC_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CP_16p_RR_Overpass_ME_US_SMG_0]
+ObjectTemplate.create ObjectSpawner CP_16p_RR_Overpass_ME_US_SMG_0
+ObjectTemplate.activeSafe ObjectSpawner CP_16p_RR_Overpass_ME_US_SMG_0
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 MEC_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CP_16p_RR_Mall_Civilian_MuscleCar]
+ObjectTemplate.create ObjectSpawner CP_16p_RR_Mall_Civilian_MuscleCar
+ObjectTemplate.activeSafe ObjectSpawner CP_16p_RR_Mall_Civilian_MuscleCar
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 xp2_musclecar_01
+ObjectTemplate.setObjectTemplate 2 xp2_musclecar_01
+
+rem [ObjectSpawnerTemplate: CP_16p_RR_OceanFront_Civilian_MuscleCar]
+ObjectTemplate.create ObjectSpawner CP_16p_RR_OceanFront_Civilian_MuscleCar
+ObjectTemplate.activeSafe ObjectSpawner CP_16p_RR_OceanFront_Civilian_MuscleCar
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 xp2_musclecar_01
+ObjectTemplate.setObjectTemplate 2 xp2_musclecar_01
+
+if v_arg1 == host
+
+   rem [ObjectSpawner: CP_16p_RR_Mall_LightJeep]
+   Object.create CP_16p_RR_Mall_LightJeep
+   Object.absolutePosition -165.511/47.928/-203.083
+   Object.rotation -90.305/0.000/0.000
+   Object.setControlPointId 105
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_16p_RR_Overpass_LightJeep]
+   Object.create CP_16p_RR_Overpass_LightJeep
+   Object.absolutePosition -47.465/60.769/32.906
+   Object.rotation 111.530/0.000/0.000
+   Object.setControlPointId 104
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_16p_RR_OceanFront_LightJeep]
+   Object.create CP_16p_RR_OceanFront_LightJeep
+   Object.absolutePosition 327.142/52.488/99.941
+   Object.rotation -95.741/0.000/0.000
+   Object.setControlPointId 103
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_16p_RR_HillCrest_LightJeep]
+   Object.create CP_16p_RR_HillCrest_LightJeep
+   Object.absolutePosition 190.159/55.023/-233.411
+   Object.rotation -1.326/0.000/0.000
+   Object.setControlPointId 102
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_16p_RR_JunctionPark_LightJeep]
+   Object.create CP_16p_RR_JunctionPark_LightJeep
+   Object.absolutePosition 51.359/53.868/-140.018
+   Object.rotation 39.795/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_16p_RR_OceanFront_ART]
+   Object.create CP_16p_RR_OceanFront_ART
+   Object.absolutePosition 374.095/52.535/143.123
+   Object.rotation -138.459/0.000/0.000
+   Object.setControlPointId 103
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_16p_RR_OceanFront_Radar]
+   Object.create CP_16p_RR_OceanFront_Radar
+   Object.absolutePosition 355.998/53.451/96.794
+   Object.rotation 29.891/0.000/0.000
+   Object.setControlPointId 103
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_16p_RR_OceanFront_UAVTrailer]
+   Object.create CP_16p_RR_OceanFront_UAVTrailer
+   Object.absolutePosition 359.852/52.535/197.673
+   Object.rotation -156.235/0.000/0.000
+   Object.setControlPointId 103
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_16p_RR_Mall_ART]
+   Object.create CP_16p_RR_Mall_ART
+   Object.absolutePosition -172.167/47.928/-233.464
+   Object.rotation 51.206/0.000/0.000
+   Object.setControlPointId 105
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_16p_RR_Mall_RadarScanner]
+   Object.create CP_16p_RR_Mall_RadarScanner
+   Object.absolutePosition -210.965/48.835/-164.965
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 105
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_16p_RR_Mall_UAVTrailer]
+   Object.create CP_16p_RR_Mall_UAVTrailer
+   Object.absolutePosition -208.469/48.261/-223.892
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 105
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_16p_RR_Mall_HeavyTank]
+   Object.create CP_16p_RR_Mall_HeavyTank
+   Object.absolutePosition -190.509/47.928/-214.098
+   Object.rotation 91.460/0.000/0.000
+   Object.setControlPointId 105
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_16p_RR_Mall_HeavyTank02]
+   Object.create CP_16p_RR_Mall_HeavyTank02
+   Object.absolutePosition -194.997/47.928/-165.316
+   Object.rotation 89.445/0.000/0.000
+   Object.setControlPointId 105
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_16p_RR_Overpass_HeavyJeep]
+   Object.create CP_16p_RR_Overpass_HeavyJeep
+   Object.absolutePosition -19.080/51.423/18.103
+   Object.rotation 177.307/0.000/0.000
+   Object.setControlPointId 104
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_16p_RR_Overpass_LightJeep_0]
+   Object.create CP_16p_RR_Overpass_LightJeep_0
+   Object.absolutePosition -44.229/51.427/41.608
+   Object.rotation 180.000/0.000/0.000
+   Object.setControlPointId 104
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_16p_RR_HillCrest_HeavyTank]
+   Object.create CP_16p_RR_HillCrest_HeavyTank
+   Object.absolutePosition 215.227/54.859/-226.713
+   Object.rotation -39.841/0.000/0.000
+   Object.setControlPointId 102
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_16p_RR_OceanFront_HeavyTank]
+   Object.create CP_16p_RR_OceanFront_HeavyTank
+   Object.absolutePosition 330.211/52.268/159.608
+   Object.rotation -66.742/0.000/0.000
+   Object.setControlPointId 103
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_16p_RR_OceanFront_HeavyTank02]
+   Object.create CP_16p_RR_OceanFront_HeavyTank02
+   Object.absolutePosition 339.755/51.729/126.241
+   Object.rotation -90.969/0.000/0.000
+   Object.setControlPointId 103
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_16p_RR_Overpass_HeavyTank]
+   Object.create CP_16p_RR_Overpass_HeavyTank
+   Object.absolutePosition -34.642/50.999/57.705
+   Object.rotation -166.902/0.000/0.000
+   Object.setControlPointId 104
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_16p_RR_JunctionPark_LightJeep_0]
+   Object.create CP_16p_RR_JunctionPark_LightJeep_0
+   Object.absolutePosition 85.563/53.051/-82.146
+   Object.rotation -148.896/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_16p_RR_HillCrest_SMG]
+   Object.create CP_16p_RR_HillCrest_SMG
+   Object.absolutePosition 218.020/60.173/-233.664
+   Object.rotation -40.000/0.000/0.000
+   Object.setControlPointId 102
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_16p_RR_JunctionPark_SMG]
+   Object.create CP_16p_RR_JunctionPark_SMG
+   Object.absolutePosition 73.703/54.173/-109.641
+   Object.rotation 107.524/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_16p_RR_HillCrest_ATS]
+   Object.create CP_16p_RR_HillCrest_ATS
+   Object.absolutePosition 214.207/55.212/-251.771
+   Object.rotation -10.266/0.000/0.000
+   Object.setControlPointId 102
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_16p_RR_JunctionPark_ATS]
+   Object.create CP_16p_RR_JunctionPark_ATS
+   Object.absolutePosition 80.963/53.070/-79.238
+   Object.rotation -171.325/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_16p_RR_Mall_ME_US_HeavyJeep]
+   Object.create CP_16p_RR_Mall_ME_US_HeavyJeep
+   Object.absolutePosition -165.234/47.928/-187.856
+   Object.rotation -91.003/0.000/0.000
+   Object.setControlPointId 105
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_16p_RR_Mall_ME_US_LightJeep]
+   Object.create CP_16p_RR_Mall_ME_US_LightJeep
+   Object.absolutePosition -164.763/47.928/-173.069
+   Object.rotation -89.631/0.000/0.000
+   Object.setControlPointId 105
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_16p_RR_OceanFront_HeavyJeep]
+   Object.create CP_16p_RR_OceanFront_HeavyJeep
+   Object.absolutePosition 295.640/52.445/125.004
+   Object.rotation 88.772/0.000/0.000
+   Object.setControlPointId 103
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_16p_RR_OceanFront_LightJeep_0]
+   Object.create CP_16p_RR_OceanFront_LightJeep_0
+   Object.absolutePosition 298.158/52.480/142.033
+   Object.rotation 103.803/0.000/0.000
+   Object.setControlPointId 103
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_16p_RR_HillCrest_HeavyJeep]
+   Object.create CP_16p_RR_HillCrest_HeavyJeep
+   Object.absolutePosition 241.400/55.031/-188.952
+   Object.rotation -79.092/0.000/0.000
+   Object.setControlPointId 102
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_16p_RR_Overpass_ME_US_SMG]
+   Object.create CP_16p_RR_Overpass_ME_US_SMG
+   Object.absolutePosition -28.980/61.942/24.100
+   Object.rotation 180.000/0.000/0.000
+   Object.setControlPointId 104
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_16p_RR_Overpass_ME_US_SMG_0]
+   Object.create CP_16p_RR_Overpass_ME_US_SMG_0
+   Object.absolutePosition -33.151/61.921/39.819
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 104
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_16p_RR_Mall_Civilian_MuscleCar]
+   Object.create CP_16p_RR_Mall_Civilian_MuscleCar
+   Object.absolutePosition -154.249/47.928/-237.071
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 105
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_16p_RR_OceanFront_Civilian_MuscleCar]
+   Object.create CP_16p_RR_OceanFront_Civilian_MuscleCar
+   Object.absolutePosition 381.169/52.499/121.535
+   Object.rotation -78.153/0.000/0.000
+   Object.setControlPointId 103
+   Object.layer 2
+
+endIf
+
+rem ********** Spawn Points **********
+rem [SpawnPointTemplate: CP_16p_RR_JunctionPark_1_0]
+ObjectTemplate.create SpawnPoint CP_16p_RR_JunctionPark_1_0
+ObjectTemplate.activeSafe SpawnPoint CP_16p_RR_JunctionPark_1_0
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 101
+
+rem [SpawnPoint: CP_16p_RR_JunctionPark_1_0]
+Object.create CP_16p_RR_JunctionPark_1_0
+Object.absolutePosition 84.268/53.390/-77.122
+Object.rotation -166.412/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_16p_RR_HillCrest_1_0]
+ObjectTemplate.create SpawnPoint CP_16p_RR_HillCrest_1_0
+ObjectTemplate.activeSafe SpawnPoint CP_16p_RR_HillCrest_1_0
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 102
+
+rem [SpawnPoint: CP_16p_RR_HillCrest_1_0]
+Object.create CP_16p_RR_HillCrest_1_0
+Object.absolutePosition 233.277/55.150/-229.129
+Object.rotation -23.168/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_16p_RR_OceanFront_1_0]
+ObjectTemplate.create SpawnPoint CP_16p_RR_OceanFront_1_0
+ObjectTemplate.activeSafe SpawnPoint CP_16p_RR_OceanFront_1_0
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 103
+
+rem [SpawnPoint: CP_16p_RR_OceanFront_1_0]
+Object.create CP_16p_RR_OceanFront_1_0
+Object.absolutePosition 340.829/52.535/104.960
+Object.rotation -60.184/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_16p_RR_Mall_1]
+ObjectTemplate.create SpawnPoint CP_16p_RR_Mall_1
+ObjectTemplate.activeSafe SpawnPoint CP_16p_RR_Mall_1
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 105
+
+rem [SpawnPoint: CP_16p_RR_Mall_1]
+Object.create CP_16p_RR_Mall_1
+Object.absolutePosition -195.169/47.928/-209.730
+Object.rotation 46.719/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_16p_RR_Overpass_1]
+ObjectTemplate.create SpawnPoint CP_16p_RR_Overpass_1
+ObjectTemplate.activeSafe SpawnPoint CP_16p_RR_Overpass_1
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 104
+
+rem [SpawnPoint: CP_16p_RR_Overpass_1]
+Object.create CP_16p_RR_Overpass_1
+Object.absolutePosition -30.859/51.449/20.657
+Object.rotation -13.864/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_16p_RR_Overpass_2]
+ObjectTemplate.create SpawnPoint CP_16p_RR_Overpass_2
+ObjectTemplate.activeSafe SpawnPoint CP_16p_RR_Overpass_2
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 104
+
+rem [SpawnPoint: CP_16p_RR_Overpass_2]
+Object.create CP_16p_RR_Overpass_2
+Object.absolutePosition -29.318/51.421/63.475
+Object.rotation 176.906/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_16p_RR_Overpass_3]
+ObjectTemplate.create SpawnPoint CP_16p_RR_Overpass_3
+ObjectTemplate.activeSafe SpawnPoint CP_16p_RR_Overpass_3
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 104
+
+rem [SpawnPoint: CP_16p_RR_Overpass_3]
+Object.create CP_16p_RR_Overpass_3
+Object.absolutePosition -49.925/51.071/41.021
+Object.rotation 132.577/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_16p_RR_Overpass_4]
+ObjectTemplate.create SpawnPoint CP_16p_RR_Overpass_4
+ObjectTemplate.activeSafe SpawnPoint CP_16p_RR_Overpass_4
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 104
+
+rem [SpawnPoint: CP_16p_RR_Overpass_4]
+Object.create CP_16p_RR_Overpass_4
+Object.absolutePosition -11.582/51.036/32.896
+Object.rotation -76.954/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_16p_RR_OceanFront_2_0]
+ObjectTemplate.create SpawnPoint CP_16p_RR_OceanFront_2_0
+ObjectTemplate.activeSafe SpawnPoint CP_16p_RR_OceanFront_2_0
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 103
+
+rem [SpawnPoint: CP_16p_RR_OceanFront_2_0]
+Object.create CP_16p_RR_OceanFront_2_0
+Object.absolutePosition 295.956/52.581/149.361
+Object.rotation 143.259/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_16p_RR_OceanFront_3_0]
+ObjectTemplate.create SpawnPoint CP_16p_RR_OceanFront_3_0
+ObjectTemplate.activeSafe SpawnPoint CP_16p_RR_OceanFront_3_0
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 103
+
+rem [SpawnPoint: CP_16p_RR_OceanFront_3_0]
+Object.create CP_16p_RR_OceanFront_3_0
+Object.absolutePosition 292.104/52.972/119.394
+Object.rotation 37.127/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_16p_RR_OceanFront_4_0]
+ObjectTemplate.create SpawnPoint CP_16p_RR_OceanFront_4_0
+ObjectTemplate.activeSafe SpawnPoint CP_16p_RR_OceanFront_4_0
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 103
+
+rem [SpawnPoint: CP_16p_RR_OceanFront_4_0]
+Object.create CP_16p_RR_OceanFront_4_0
+Object.absolutePosition 343.032/52.535/145.506
+Object.rotation -160.184/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_16p_RR_HillCrest_2_0]
+ObjectTemplate.create SpawnPoint CP_16p_RR_HillCrest_2_0
+ObjectTemplate.activeSafe SpawnPoint CP_16p_RR_HillCrest_2_0
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 102
+
+rem [SpawnPoint: CP_16p_RR_HillCrest_2_0]
+Object.create CP_16p_RR_HillCrest_2_0
+Object.absolutePosition 221.852/55.059/-241.442
+Object.rotation -84.552/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_16p_RR_HillCrest_3_0]
+ObjectTemplate.create SpawnPoint CP_16p_RR_HillCrest_3_0
+ObjectTemplate.activeSafe SpawnPoint CP_16p_RR_HillCrest_3_0
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 102
+
+rem [SpawnPoint: CP_16p_RR_HillCrest_3_0]
+Object.create CP_16p_RR_HillCrest_3_0
+Object.absolutePosition 187.682/55.161/-248.427
+Object.rotation -39.210/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_16p_RR_HillCrest_4_0]
+ObjectTemplate.create SpawnPoint CP_16p_RR_HillCrest_4_0
+ObjectTemplate.activeSafe SpawnPoint CP_16p_RR_HillCrest_4_0
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 102
+
+rem [SpawnPoint: CP_16p_RR_HillCrest_4_0]
+Object.create CP_16p_RR_HillCrest_4_0
+Object.absolutePosition 207.934/55.029/-256.031
+Object.rotation 11.756/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_16p_RR_HillCrest_5_0]
+ObjectTemplate.create SpawnPoint CP_16p_RR_HillCrest_5_0
+ObjectTemplate.activeSafe SpawnPoint CP_16p_RR_HillCrest_5_0
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 102
+
+rem [SpawnPoint: CP_16p_RR_HillCrest_5_0]
+Object.create CP_16p_RR_HillCrest_5_0
+Object.absolutePosition 248.309/55.029/-205.522
+Object.rotation -49.182/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_16p_RR_JunctionPark_2_0]
+ObjectTemplate.create SpawnPoint CP_16p_RR_JunctionPark_2_0
+ObjectTemplate.activeSafe SpawnPoint CP_16p_RR_JunctionPark_2_0
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 101
+
+rem [SpawnPoint: CP_16p_RR_JunctionPark_2_0]
+Object.create CP_16p_RR_JunctionPark_2_0
+Object.absolutePosition 53.951/53.868/-140.678
+Object.rotation 40.063/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_16p_RR_JunctionPark_3_0]
+ObjectTemplate.create SpawnPoint CP_16p_RR_JunctionPark_3_0
+ObjectTemplate.activeSafe SpawnPoint CP_16p_RR_JunctionPark_3_0
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 101
+
+rem [SpawnPoint: CP_16p_RR_JunctionPark_3_0]
+Object.create CP_16p_RR_JunctionPark_3_0
+Object.absolutePosition 62.309/52.922/-117.373
+Object.rotation 81.045/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_16p_RR_JunctionPark_4_0]
+ObjectTemplate.create SpawnPoint CP_16p_RR_JunctionPark_4_0
+ObjectTemplate.activeSafe SpawnPoint CP_16p_RR_JunctionPark_4_0
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 101
+
+rem [SpawnPoint: CP_16p_RR_JunctionPark_4_0]
+Object.create CP_16p_RR_JunctionPark_4_0
+Object.absolutePosition 72.614/53.104/-111.266
+Object.rotation 174.435/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_16p_RR_Mall_2]
+ObjectTemplate.create SpawnPoint CP_16p_RR_Mall_2
+ObjectTemplate.activeSafe SpawnPoint CP_16p_RR_Mall_2
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 105
+
+rem [SpawnPoint: CP_16p_RR_Mall_2]
+Object.create CP_16p_RR_Mall_2
+Object.absolutePosition -197.837/48.326/-177.956
+Object.rotation 66.951/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_16p_RR_Mall_3]
+ObjectTemplate.create SpawnPoint CP_16p_RR_Mall_3
+ObjectTemplate.activeSafe SpawnPoint CP_16p_RR_Mall_3
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 105
+
+rem [SpawnPoint: CP_16p_RR_Mall_3]
+Object.create CP_16p_RR_Mall_3
+Object.absolutePosition -190.722/48.318/-195.973
+Object.rotation 80.309/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_16p_RR_Mall_4]
+ObjectTemplate.create SpawnPoint CP_16p_RR_Mall_4
+ObjectTemplate.activeSafe SpawnPoint CP_16p_RR_Mall_4
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 105
+
+rem [SpawnPoint: CP_16p_RR_Mall_4]
+Object.create CP_16p_RR_Mall_4
+Object.absolutePosition -162.627/47.928/-178.952
+Object.rotation -110.906/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_16p_RR_Mall_5]
+ObjectTemplate.create SpawnPoint CP_16p_RR_Mall_5
+ObjectTemplate.activeSafe SpawnPoint CP_16p_RR_Mall_5
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 105
+
+rem [SpawnPoint: CP_16p_RR_Mall_5]
+Object.create CP_16p_RR_Mall_5
+Object.absolutePosition -159.463/47.928/-211.351
+Object.rotation -56.299/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_16p_RR_Overpass_5]
+ObjectTemplate.create SpawnPoint CP_16p_RR_Overpass_5
+ObjectTemplate.activeSafe SpawnPoint CP_16p_RR_Overpass_5
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 104
+
+rem [SpawnPoint: CP_16p_RR_Overpass_5]
+Object.create CP_16p_RR_Overpass_5
+Object.absolutePosition -50.465/51.066/32.070
+Object.rotation 100.414/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_16p_RR_JunctionPark_5_0]
+ObjectTemplate.create SpawnPoint CP_16p_RR_JunctionPark_5_0
+ObjectTemplate.activeSafe SpawnPoint CP_16p_RR_JunctionPark_5_0
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 101
+
+rem [SpawnPoint: CP_16p_RR_JunctionPark_5_0]
+Object.create CP_16p_RR_JunctionPark_5_0
+Object.absolutePosition 59.768/54.203/-162.481
+Object.rotation 60.574/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_16p_RR_OceanFront_5_0]
+ObjectTemplate.create SpawnPoint CP_16p_RR_OceanFront_5_0
+ObjectTemplate.activeSafe SpawnPoint CP_16p_RR_OceanFront_5_0
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 103
+
+rem [SpawnPoint: CP_16p_RR_OceanFront_5_0]
+Object.create CP_16p_RR_OceanFront_5_0
+Object.absolutePosition 337.941/52.538/160.711
+Object.rotation -121.440/0.000/0.000
+Object.layer 2
+
+rem ********** Control Points **********
+rem [ControlPointTemplate: CP_16p_RR_JunctionPark]
+ObjectTemplate.create ControlPoint CP_16p_RR_JunctionPark
+ObjectTemplate.activeSafe ControlPoint CP_16p_RR_JunctionPark
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CP_16p_RR_JunctionPark
+ObjectTemplate.radius 15
+ObjectTemplate.controlPointId 101
+ObjectTemplate.areaValueTeam1 50
+ObjectTemplate.areaValueTeam2 50
+ObjectTemplate.timeToGetControl 20
+ObjectTemplate.timeToLoseControl 20
+ObjectTemplate.loseControlWhenEnemyClose 0
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: CP_16p_RR_HillCrest]
+ObjectTemplate.create ControlPoint CP_16p_RR_HillCrest
+ObjectTemplate.activeSafe ControlPoint CP_16p_RR_HillCrest
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CP_16p_RR_HillCrest
+ObjectTemplate.radius 15
+ObjectTemplate.controlPointId 102
+ObjectTemplate.areaValueTeam1 50
+ObjectTemplate.areaValueTeam2 50
+ObjectTemplate.timeToGetControl 20
+ObjectTemplate.timeToLoseControl 20
+ObjectTemplate.loseControlWhenEnemyClose 0
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: CP_16p_RR_OceanFront]
+ObjectTemplate.create ControlPoint CP_16p_RR_OceanFront
+ObjectTemplate.activeSafe ControlPoint CP_16p_RR_OceanFront
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CP_16p_RR_OceanFront
+ObjectTemplate.radius 15
+ObjectTemplate.team 2
+ObjectTemplate.controlPointId 103
+ObjectTemplate.timeToGetControl 20
+ObjectTemplate.timeToLoseControl 20
+ObjectTemplate.loseControlWhenEnemyClose 0
+ObjectTemplate.unableToChangeTeam 1
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: CP_16p_RR_Overpass]
+ObjectTemplate.create ControlPoint CP_16p_RR_Overpass
+ObjectTemplate.activeSafe ControlPoint CP_16p_RR_Overpass
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CP_16p_RR_Overpass
+ObjectTemplate.radius 22
+ObjectTemplate.radiusOffset 0/-10/0
+ObjectTemplate.controlPointId 104
+ObjectTemplate.areaValueTeam1 50
+ObjectTemplate.areaValueTeam2 50
+ObjectTemplate.timeToGetControl 20
+ObjectTemplate.timeToLoseControl 20
+ObjectTemplate.loseControlWhenEnemyClose 0
+ObjectTemplate.isHemisphere 1
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: CP_16p_RR_Mall]
+ObjectTemplate.create ControlPoint CP_16p_RR_Mall
+ObjectTemplate.activeSafe ControlPoint CP_16p_RR_Mall
+ObjectTemplate.modifiedByUser "marcbr"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CP_16p_RR_Mall
+ObjectTemplate.radius 0
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 105
+ObjectTemplate.loseControlWhenEnemyClose 0
+ObjectTemplate.unableToChangeTeam 1
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+if v_arg1 == host
+
+   rem [ControlPoint: CP_16p_RR_JunctionPark]
+   Object.create CP_16p_RR_JunctionPark
+   Object.absolutePosition 64.587/53.868/-148.309
+   Object.layer 2
+
+   rem [ControlPoint: CP_16p_RR_HillCrest]
+   Object.create CP_16p_RR_HillCrest
+   Object.absolutePosition 217.237/58.972/-235.241
+   Object.layer 2
+
+   rem [ControlPoint: CP_16p_RR_OceanFront]
+   Object.create CP_16p_RR_OceanFront
+   Object.absolutePosition 315.504/51.522/129.667
+   Object.layer 2
+
+   rem [ControlPoint: CP_16p_RR_Overpass]
+   Object.create CP_16p_RR_Overpass
+   Object.absolutePosition -31.055/51.319/54.650
+   Object.layer 2
+
+   rem [ControlPoint: CP_16p_RR_Mall]
+   Object.create CP_16p_RR_Mall
+   Object.absolutePosition -187.202/47.928/-188.318
+   Object.layer 2
+
+endIf
+
+CombatAreaManager.use 1
+CombatAreaManager.timeAllowedOutside 10.000000
+CombatArea.create CombatArea_0_16_players
+CombatArea.min 0.000000/0.000000
+CombatArea.max 0.000000/0.000000
+CombatArea.addAreaPoint -325.263794/-11.587463
+CombatArea.addAreaPoint -323.700500/-88.171936
+CombatArea.addAreaPoint -322.065857/-159.345337
+CombatArea.addAreaPoint -312.936279/-226.783508
+CombatArea.addAreaPoint -302.471191/-275.891785
+CombatArea.addAreaPoint -285.358948/-319.438477
+CombatArea.addAreaPoint -269.584412/-341.220642
+CombatArea.addAreaPoint -249.149841/-362.343445
+CombatArea.addAreaPoint -222.662354/-373.945862
+CombatArea.addAreaPoint -188.104248/-379.985840
+CombatArea.addAreaPoint -141.911499/-386.736938
+CombatArea.addAreaPoint -95.349670/-388.901123
+CombatArea.addAreaPoint -42.596252/-389.434143
+CombatArea.addAreaPoint -3.777649/-383.369873
+CombatArea.addAreaPoint 37.408325/-371.118408
+CombatArea.addAreaPoint 88.989746/-353.623169
+CombatArea.addAreaPoint 158.633789/-328.518188
+CombatArea.addAreaPoint 210.287109/-307.897461
+CombatArea.addAreaPoint 253.362305/-299.224487
+CombatArea.addAreaPoint 287.649170/-286.689209
+CombatArea.addAreaPoint 319.780273/-264.864258
+CombatArea.addAreaPoint 347.569824/-234.196960
+CombatArea.addAreaPoint 369.751709/-191.528625
+CombatArea.addAreaPoint 379.750977/-138.309753
+CombatArea.addAreaPoint 387.603271/-81.613831
+CombatArea.addAreaPoint 395.384521/-28.804443
+CombatArea.addAreaPoint 413.595825/13.130859
+CombatArea.addAreaPoint 423.605957/54.152710
+CombatArea.addAreaPoint 430.787354/114.201416
+CombatArea.addAreaPoint 428.836304/174.667236
+CombatArea.addAreaPoint 420.494507/209.437500
+CombatArea.addAreaPoint 403.147339/240.130859
+CombatArea.addAreaPoint 374.505127/281.660767
+CombatArea.addAreaPoint 342.733521/310.475830
+CombatArea.addAreaPoint 311.794312/328.572144
+CombatArea.addAreaPoint 278.511230/328.888794
+CombatArea.addAreaPoint 241.445679/323.275757
+CombatArea.addAreaPoint 192.742554/302.147705
+CombatArea.addAreaPoint 127.491455/265.471680
+CombatArea.addAreaPoint 75.743774/249.377808
+CombatArea.addAreaPoint 31.955322/239.623413
+CombatArea.addAreaPoint -16.603943/233.684570
+CombatArea.addAreaPoint -46.089966/229.378540
+CombatArea.addAreaPoint -76.526428/217.715942
+CombatArea.addAreaPoint -117.848145/195.650879
+CombatArea.addAreaPoint -191.559387/146.941650
+CombatArea.addAreaPoint -243.751709/103.705200
+CombatArea.addAreaPoint -269.841614/87.156616
+CombatArea.addAreaPoint -295.341553/76.985962
+CombatArea.addAreaPoint -313.642273/64.628418
+CombatArea.addAreaPoint -326.850220/50.188477
+CombatArea.addAreaPoint -331.886780/20.356201
+CombatArea.team 0
+CombatArea.vehicles 4
+CombatArea.layer 2
+

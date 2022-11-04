@@ -1,0 +1,51 @@
+rem *** Create strategic areas ***
+aiStrategicArea.createFromControlPoint CPNAME_MC_SP16_hotel 602 50
+aiStrategicArea.layer 7
+
+aiStrategicArea.createFromControlPoint CPNAME_MC_SP16_northbridge 604 50
+aiStrategicArea.layer 7
+
+aiStrategicArea.createFromControlPoint CPNAME_MC_SP16_roadconstruct 603 50
+aiStrategicArea.layer 7
+
+aiStrategicArea.createFromControlPoint CPNAME_MC_SP16_southblock 601 50
+aiStrategicArea.layer 7
+
+aiStrategicArea.setActive CPNAME_MC_SP16_hotel
+AIStrategicArea.addNeighbour CPNAME_MC_SP16_northbridge
+AIStrategicArea.addNeighbour CPNAME_MC_SP16_roadconstruct
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry -261/43.99/-21
+AIStrategicArea.setOrderPosition Vehicle -261/43.99/-21
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 14.1421
+
+aiStrategicArea.setActive CPNAME_MC_SP16_northbridge
+AIStrategicArea.addNeighbour CPNAME_MC_SP16_southblock
+AIStrategicArea.addNeighbour CPNAME_MC_SP16_hotel
+AIStrategicArea.addNeighbour CPNAME_MC_SP16_roadconstruct
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry -172/43.9896/-89
+AIStrategicArea.setOrderPosition Vehicle -172/43.9896/-89
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 7.07107
+
+aiStrategicArea.setActive CPNAME_MC_SP16_roadconstruct
+AIStrategicArea.addNeighbour CPNAME_MC_SP16_hotel
+AIStrategicArea.addNeighbour CPNAME_MC_SP16_southblock
+AIStrategicArea.addNeighbour CPNAME_MC_SP16_northbridge
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry -240.156/38.091/-161.404
+AIStrategicArea.setOrderPosition Vehicle -240.156/38.091/-161.404
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 5.65685
+
+aiStrategicArea.setActive CPNAME_MC_SP16_southblock
+AIStrategicArea.addNeighbour CPNAME_MC_SP16_northbridge
+AIStrategicArea.addNeighbour CPNAME_MC_SP16_roadconstruct
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry -150.28/44/-220.964
+AIStrategicArea.setOrderPosition Vehicle -150.28/44/-220.964
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 9.8995
+

@@ -1,0 +1,75 @@
+GeometryTemplate.create BundledMesh xpak2_tiger
+CollisionManager.createTemplate xpak2_tiger
+
+ObjectTemplate.create PlayerControlObject xpak2_tiger
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator JEFFO:jeffev
+ObjectTemplate.collisionMesh xpak2_tiger
+ObjectTemplate.mapMaterial 0 col_chopper 0
+ObjectTemplate.mapMaterial 1 col_glass 0
+ObjectTemplate.mapMaterial 2 col_chopperWeak 0
+ObjectTemplate.mapMaterial 3 col_wreck 0
+ObjectTemplate.mapMaterial 4 col_rubber 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometry xpak2_tiger
+ObjectTemplate.addTemplate xpak2_tiger_wheelFR
+ObjectTemplate.setPosition 1.2000/-2.1254/1.4230
+ObjectTemplate.addTemplate xpak2_tiger_wheelFL
+ObjectTemplate.setPosition -1.1893/-2.1174/1.4238
+ObjectTemplate.addTemplate xpak2_tiger_wheelRR
+ObjectTemplate.setPosition 0/-2.2400/-6.1800
+ObjectTemplate.addTemplate xpak2_tiger_joystick
+ObjectTemplate.setPosition 0/-3.2797/0.7243
+ObjectTemplate.addTemplate xpak2_tiger_gunner
+ObjectTemplate.setPosition 0/-1.0446/2.7774
+
+ObjectTemplate.create Spring xpak2_tiger_wheelFR
+ObjectTemplate.collisionPart 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 1
+
+ObjectTemplate.create Spring xpak2_tiger_wheelFL
+ObjectTemplate.collisionPart 2
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 2
+
+ObjectTemplate.create Spring xpak2_tiger_wheelRR
+ObjectTemplate.collisionPart 3
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 3
+
+ObjectTemplate.create RotationalBundle xpak2_tiger_joystick
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 4
+
+ObjectTemplate.create PlayerControlObject xpak2_tiger_gunner
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 5
+ObjectTemplate.addTemplate xpak2_tiger_GunSensor
+ObjectTemplate.setPosition 0/1.8860/-1.7400
+ObjectTemplate.addTemplate xpak2_tiger_gunmount
+ObjectTemplate.setPosition 0/-0.5300/1.7000
+
+ObjectTemplate.create RotationalBundle xpak2_tiger_GunSensor
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 6
+
+ObjectTemplate.create RotationalBundle xpak2_tiger_gunmount
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 7
+ObjectTemplate.addTemplate xpak2_tiger_frontgunpivot
+ObjectTemplate.setPosition 0/-0.1600/0.0500
+
+ObjectTemplate.create RotationalBundle xpak2_tiger_frontgunpivot
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 8
+
+include xpak2_tiger.tweak

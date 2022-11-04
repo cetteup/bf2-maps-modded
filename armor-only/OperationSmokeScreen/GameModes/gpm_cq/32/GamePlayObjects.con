@@ -1,0 +1,2338 @@
+rem ********** Object Spawner **********
+rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_AirConTower]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_AirConTower
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_Oasis_AirConTower
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 aircontroltower_mec
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_Radar]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_Radar
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_Oasis_Radar
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 mobileradar_mech_dest
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_1_2]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_1_2
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_RefineryOutpost_1_2
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 USART_LW155
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_AirConTower]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_AirConTower
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_RefineryOutpost_AirConTower
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 aircontroltower_eu
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_Radar]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_Radar
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_RefineryOutpost_Radar
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 mobileradar_eu_dest
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_TurbineHill_AAS]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_TurbineHill_AAS
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_TurbineHill_AAS
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
+ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_LightJeep]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_Oasis_LightJeep
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.minSpawnDelay 10
+ObjectTemplate.maxSpawnDelay 30
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_0]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_0
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_Oasis_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.minSpawnDelay 10
+ObjectTemplate.maxSpawnDelay 30
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_HeavyTank]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_HeavyTank
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_Oasis_HeavyTank
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 rutnk_t90
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_0_0]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_0_0
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_Oasis_0_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 rutnk_t90
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_1_1]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_1_1
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_Oasis_1_1
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 rutnk_t90
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_0_1]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_0_1
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_Oasis_0_1
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ahe_havoc
+ObjectTemplate.minSpawnDelay 45
+ObjectTemplate.spawnDelayAtStart 1
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_Fighter]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_Fighter
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_Oasis_Fighter
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ruair_mig29
+ObjectTemplate.minSpawnDelay 45
+ObjectTemplate.spawnDelayAtStart 1
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_1_2]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_1_2
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_Oasis_1_2
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.minSpawnDelay 20
+ObjectTemplate.maxSpawnDelay 30
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_Village_LightJeep]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_Village_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_Village_LightJeep
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.setObjectTemplate 2 xpak2_faav
+ObjectTemplate.minSpawnDelay 10
+ObjectTemplate.maxSpawnDelay 30
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_Garage_LightJeep]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_Garage_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_Garage_LightJeep
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.setObjectTemplate 2 xpak2_faav
+ObjectTemplate.minSpawnDelay 10
+ObjectTemplate.maxSpawnDelay 30
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_TurbineHill_LightJeep]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_TurbineHill_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_TurbineHill_LightJeep
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.setObjectTemplate 2 xpak2_faav
+ObjectTemplate.minSpawnDelay 10
+ObjectTemplate.maxSpawnDelay 30
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_OilPlant_HeavyTank]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_OilPlant_HeavyTank
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_OilPlant_HeavyTank
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 rutnk_t90
+ObjectTemplate.setObjectTemplate 2 xpak2_tnkc2
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_OilPlant_0_4]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_OilPlant_0_4
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_OilPlant_0_4
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 rutnk_t90
+ObjectTemplate.setObjectTemplate 2 xpak2_tnkc2
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_OilPlant_LightJeep]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_OilPlant_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_OilPlant_LightJeep
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.setObjectTemplate 2 xpak2_faav
+ObjectTemplate.minSpawnDelay 10
+ObjectTemplate.maxSpawnDelay 30
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_OilPlant_0_5]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_OilPlant_0_5
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_OilPlant_0_5
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.setObjectTemplate 2 xpak2_faav
+ObjectTemplate.minSpawnDelay 10
+ObjectTemplate.maxSpawnDelay 30
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_TurbineHill_AAV]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_TurbineHill_AAV
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_TurbineHill_AAV
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 aav_tunguska
+ObjectTemplate.setObjectTemplate 2 USAAV_M6
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_TurbineHill_0]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_TurbineHill_0
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_TurbineHill_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 aav_tunguska
+ObjectTemplate.setObjectTemplate 2 USAAV_M6
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_0_8]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_0_8
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_RefineryOutpost_0_8
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 xpak2_faav
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_2_2]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_2_2
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_RefineryOutpost_2_2
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 xpak2_faav
+ObjectTemplate.minSpawnDelay 15
+ObjectTemplate.maxSpawnDelay 30
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_HeavyTank]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_HeavyTank
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_RefineryOutpost_HeavyTank
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 xpak2_tnkc2
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_0_9]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_0_9
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_RefineryOutpost_0_9
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 xpak2_tnkc2
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_3_0]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_3_0
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_RefineryOutpost_3_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 xpak2_tnkc2
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_VTOL]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_VTOL
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_RefineryOutpost_VTOL
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 xpak2_eurofighter
+ObjectTemplate.minSpawnDelay 45
+ObjectTemplate.spawnDelayAtStart 1
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_bomb]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_bomb
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_RefineryOutpost_bomb
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 AFB_SU30
+ObjectTemplate.setObjectTemplate 2 xpak2_eurofighter
+ObjectTemplate.minSpawnDelay 45
+ObjectTemplate.spawnDelayAtStart 1
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_ART]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_ART
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_RefineryOutpost_ART
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 USART_LW155
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_ART]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_ART
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_Oasis_ART
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ARS_D30
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_2_1]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_2_1
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_Oasis_2_1
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ARS_D30
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_3_1]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_3_1
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_Oasis_3_1
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ruair_mig29
+ObjectTemplate.minSpawnDelay 45
+ObjectTemplate.spawnDelayAtStart 1
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_AttakHeli]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_AttakHeli
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_RefineryOutpost_AttakHeli
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ahe_havoc
+ObjectTemplate.setObjectTemplate 2 xpak2_tiger
+ObjectTemplate.minSpawnDelay 45
+ObjectTemplate.spawnDelayAtStart 1
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_3_1]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_3_1
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_RefineryOutpost_3_1
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ahe_havoc
+ObjectTemplate.setObjectTemplate 2 xpak2_tiger
+ObjectTemplate.minSpawnDelay 45
+ObjectTemplate.spawnDelayAtStart 1
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_AttakHeli]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_AttakHeli
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_Oasis_AttakHeli
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ahe_havoc
+ObjectTemplate.minSpawnDelay 45
+ObjectTemplate.spawnDelayAtStart 1
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_TurbineHill_ATS]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_TurbineHill_ATS
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_TurbineHill_ATS
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ATS_HJ8
+ObjectTemplate.setObjectTemplate 2 ATS_TOW
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_TurbineHill_0_0]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_TurbineHill_0_0
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_TurbineHill_0_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.setObjectTemplate 2 xpak2_faav
+ObjectTemplate.minSpawnDelay 10
+ObjectTemplate.maxSpawnDelay 30
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_Garage_HeavyTank]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_Garage_HeavyTank
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_Garage_HeavyTank
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 rutnk_t90
+ObjectTemplate.setObjectTemplate 2 xpak2_tnkc2
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_Village_HeavyTank]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_Village_HeavyTank
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_Village_HeavyTank
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 rutnk_t90
+ObjectTemplate.setObjectTemplate 2 xpak2_tnkc2
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_Garage_ATS]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_Garage_ATS
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_Garage_ATS
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ATS_HJ8
+ObjectTemplate.setObjectTemplate 2 ATS_TOW
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_Village_ATS]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_Village_ATS
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_Village_ATS
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ATS_HJ8
+ObjectTemplate.setObjectTemplate 2 ATS_TOW
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_OilPlant_AAS]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_OilPlant_AAS
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_OilPlant_AAS
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
+ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_OilPlant_0_6]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_OilPlant_0_6
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_OilPlant_0_6
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
+ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_AAS]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_AAS
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_Oasis_AAS
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_ATS]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_ATS
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_Oasis_ATS
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ATS_HJ8
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_AAS]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_AAS
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_RefineryOutpost_AAS
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_1_3]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_1_3
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_RefineryOutpost_1_3
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 USART_LW155
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_2_2]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_2_2
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_Oasis_2_2
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ARS_D30
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_0_2]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_0_2
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_Oasis_0_2
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 rutnk_t90
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_4_0]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_4_0
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_RefineryOutpost_4_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 xpak2_tnkc2
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_5_1]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_5_1
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_Oasis_5_1
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ATS_HJ8
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_0_5]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_0_5
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_Oasis_0_5
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 mec_bipod
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_0_6]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_0_6
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_Oasis_0_6
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 mec_bipod
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_0_9]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_0_9
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_Oasis_0_9
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 mec_bipod
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_0_11]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_0_11
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_Oasis_0_11
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 mec_bipod
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_Village_SMG]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_Village_SMG
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_Village_SMG
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 mec_bipod
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_Village_0]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_Village_0
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_Village_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 mec_bipod
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_Garage_SMG]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_Garage_SMG
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_Garage_SMG
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 mec_bipod
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_Garage_0_1]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_Garage_0_1
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_Garage_0_1
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 mec_bipod
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_OilPlant_SMG]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_OilPlant_SMG
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_OilPlant_SMG
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 mec_bipod
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_OilPlant_0_7]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_OilPlant_0_7
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_OilPlant_0_7
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 mec_bipod
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_LightJeep]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_RefineryOutpost_LightJeep
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 xpak2_faav
+ObjectTemplate.minSpawnDelay 15
+ObjectTemplate.maxSpawnDelay 30
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_5_0]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_5_0
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_RefineryOutpost_5_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_SMG]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_SMG
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_RefineryOutpost_SMG
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_1_4]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_1_4
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_RefineryOutpost_1_4
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_1_5]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_1_5
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_RefineryOutpost_1_5
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_1_6]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_1_6
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_RefineryOutpost_1_6
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_ATS]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_ATS
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_RefineryOutpost_ATS
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 ATS_TOW
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_RefineryOutpost_2_3]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_RefineryOutpost_2_3
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_RefineryOutpost_2_3
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_HillShed_ATS]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_HillShed_ATS
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_HillShed_ATS
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ATS_HJ8
+ObjectTemplate.setObjectTemplate 2 ATS_TOW
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_HillShed_HeavyTank]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_HillShed_HeavyTank
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_HillShed_HeavyTank
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 rutnk_t90
+ObjectTemplate.setObjectTemplate 2 xpak2_tnkc2
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_HillShed_LightJeep]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_HillShed_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_HillShed_LightJeep
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.setObjectTemplate 2 xpak2_faav
+ObjectTemplate.minSpawnDelay 10
+ObjectTemplate.maxSpawnDelay 30
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_TurbineHill_HeavyTank]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_TurbineHill_HeavyTank
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_TurbineHill_HeavyTank
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 rutnk_t90
+ObjectTemplate.setObjectTemplate 2 xpak2_tnkc2
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_Oasis_2_3]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_Oasis_2_3
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_Oasis_2_3
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.setObjectTemplate 2 xpak2_faav
+ObjectTemplate.minSpawnDelay 10
+ObjectTemplate.maxSpawnDelay 30
+
+rem [ObjectSpawnerTemplate: CP_32p_OSS_Village_CH_US_LightJeep]
+ObjectTemplate.create ObjectSpawner CP_32p_OSS_Village_CH_US_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CP_32p_OSS_Village_CH_US_LightJeep
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.setObjectTemplate 2 xpak2_faav
+
+if v_arg1 == host
+
+   rem [ObjectSpawner: CP_32p_OSS_Oasis_AirConTower]
+   Object.create CP_32p_OSS_Oasis_AirConTower
+   Object.absolutePosition 38.808/98.500/-526.185
+   Object.rotation 2.575/0.000/0.000
+   Object.setControlPointId 7
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_Oasis_Radar]
+   Object.create CP_32p_OSS_Oasis_Radar
+   Object.absolutePosition -47.559/91.892/-625.082
+   Object.rotation -0.001/0.348/0.058
+   Object.setControlPointId 7
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_RefineryOutpost_1_2]
+   Object.create CP_32p_OSS_RefineryOutpost_1_2
+   Object.absolutePosition 80.597/98.302/523.489
+   Object.rotation -180.000/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_RefineryOutpost_AirConTower]
+   Object.create CP_32p_OSS_RefineryOutpost_AirConTower
+   Object.absolutePosition -13.240/98.302/483.227
+   Object.rotation 97.100/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_RefineryOutpost_Radar]
+   Object.create CP_32p_OSS_RefineryOutpost_Radar
+   Object.absolutePosition 74.202/99.240/386.695
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_TurbineHill_AAS]
+   Object.create CP_32p_OSS_TurbineHill_AAS
+   Object.absolutePosition 93.793/137.990/-37.354
+   Object.rotation -79.981/0.000/0.000
+   Object.setControlPointId 8
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_Oasis_LightJeep]
+   Object.create CP_32p_OSS_Oasis_LightJeep
+   Object.absolutePosition 79.035/98.500/-511.695
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 7
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_Oasis_0]
+   Object.create CP_32p_OSS_Oasis_0
+   Object.absolutePosition 52.153/98.500/-496.150
+   Object.rotation 92.159/0.000/0.000
+   Object.setControlPointId 7
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_Oasis_HeavyTank]
+   Object.create CP_32p_OSS_Oasis_HeavyTank
+   Object.absolutePosition 75.742/98.501/-473.071
+   Object.rotation 76.189/0.000/0.000
+   Object.setControlPointId 7
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_Oasis_0_0]
+   Object.create CP_32p_OSS_Oasis_0_0
+   Object.absolutePosition 27.974/98.500/-498.141
+   Object.rotation 87.492/0.000/0.000
+   Object.setControlPointId 7
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_Oasis_1_1]
+   Object.create CP_32p_OSS_Oasis_1_1
+   Object.absolutePosition 90.533/98.500/-518.933
+   Object.rotation 1.335/0.000/0.000
+   Object.setControlPointId 7
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_Oasis_0_1]
+   Object.create CP_32p_OSS_Oasis_0_1
+   Object.absolutePosition 99.082/91.167/-605.106
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 7
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_Oasis_Fighter]
+   Object.create CP_32p_OSS_Oasis_Fighter
+   Object.absolutePosition 112.162/91.015/-640.489
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 7
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_Oasis_1_2]
+   Object.create CP_32p_OSS_Oasis_1_2
+   Object.absolutePosition 67.332/91.015/-658.314
+   Object.rotation 0.268/0.000/0.000
+   Object.setControlPointId 7
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_Village_LightJeep]
+   Object.create CP_32p_OSS_Village_LightJeep
+   Object.absolutePosition -130.606/106.603/-265.132
+   Object.rotation 117.800/0.000/0.000
+   Object.setControlPointId 5
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_Garage_LightJeep]
+   Object.create CP_32p_OSS_Garage_LightJeep
+   Object.absolutePosition -226.591/89.490/206.548
+   Object.rotation 114.888/0.000/0.000
+   Object.setControlPointId 3
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_TurbineHill_LightJeep]
+   Object.create CP_32p_OSS_TurbineHill_LightJeep
+   Object.absolutePosition 158.141/135.542/-105.370
+   Object.rotation -44.354/0.000/0.000
+   Object.setControlPointId 8
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_OilPlant_HeavyTank]
+   Object.create CP_32p_OSS_OilPlant_HeavyTank
+   Object.absolutePosition -259.673/105.730/-131.714
+   Object.rotation 88.715/0.000/0.000
+   Object.setControlPointId 4
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_OilPlant_0_4]
+   Object.create CP_32p_OSS_OilPlant_0_4
+   Object.absolutePosition -293.450/105.865/-50.757
+   Object.rotation 45.487/0.000/0.000
+   Object.setControlPointId 4
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_OilPlant_LightJeep]
+   Object.create CP_32p_OSS_OilPlant_LightJeep
+   Object.absolutePosition -316.913/105.865/-67.152
+   Object.rotation 120.611/0.000/0.000
+   Object.setControlPointId 4
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_OilPlant_0_5]
+   Object.create CP_32p_OSS_OilPlant_0_5
+   Object.absolutePosition -287.338/105.865/-139.276
+   Object.rotation 4.078/0.000/0.000
+   Object.setControlPointId 4
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_TurbineHill_AAV]
+   Object.create CP_32p_OSS_TurbineHill_AAV
+   Object.absolutePosition 213.090/135.542/-151.184
+   Object.rotation -135.075/0.000/0.000
+   Object.setControlPointId 8
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_TurbineHill_0]
+   Object.create CP_32p_OSS_TurbineHill_0
+   Object.absolutePosition 137.264/135.542/-77.912
+   Object.rotation -133.946/0.000/0.000
+   Object.setControlPointId 8
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_RefineryOutpost_0_8]
+   Object.create CP_32p_OSS_RefineryOutpost_0_8
+   Object.absolutePosition 17.534/98.302/575.801
+   Object.rotation -167.138/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_RefineryOutpost_2_2]
+   Object.create CP_32p_OSS_RefineryOutpost_2_2
+   Object.absolutePosition -17.582/98.302/442.549
+   Object.rotation 102.286/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_RefineryOutpost_HeavyTank]
+   Object.create CP_32p_OSS_RefineryOutpost_HeavyTank
+   Object.absolutePosition -14.970/98.302/463.517
+   Object.rotation 97.485/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_RefineryOutpost_0_9]
+   Object.create CP_32p_OSS_RefineryOutpost_0_9
+   Object.absolutePosition -36.960/98.302/438.415
+   Object.rotation -171.853/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_RefineryOutpost_3_0]
+   Object.create CP_32p_OSS_RefineryOutpost_3_0
+   Object.absolutePosition 27.544/98.502/484.357
+   Object.rotation -172.000/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_RefineryOutpost_VTOL]
+   Object.create CP_32p_OSS_RefineryOutpost_VTOL
+   Object.absolutePosition 55.765/98.302/584.964
+   Object.rotation -79.624/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_RefineryOutpost_bomb]
+   Object.create CP_32p_OSS_RefineryOutpost_bomb
+   Object.absolutePosition 49.803/98.302/553.219
+   Object.rotation -79.600/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_RefineryOutpost_ART]
+   Object.create CP_32p_OSS_RefineryOutpost_ART
+   Object.absolutePosition -36.578/98.302/513.890
+   Object.rotation -180.000/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_Oasis_ART]
+   Object.create CP_32p_OSS_Oasis_ART
+   Object.absolutePosition 9.886/98.725/-515.809
+   Object.rotation -19.779/0.000/0.000
+   Object.setControlPointId 7
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_Oasis_2_1]
+   Object.create CP_32p_OSS_Oasis_2_1
+   Object.absolutePosition 146.675/91.015/-650.321
+   Object.rotation -19.800/0.000/0.000
+   Object.setControlPointId 7
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_Oasis_3_1]
+   Object.create CP_32p_OSS_Oasis_3_1
+   Object.absolutePosition 113.133/91.015/-674.743
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 7
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_RefineryOutpost_AttakHeli]
+   Object.create CP_32p_OSS_RefineryOutpost_AttakHeli
+   Object.absolutePosition 125.714/98.430/501.253
+   Object.rotation 98.000/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_RefineryOutpost_3_1]
+   Object.create CP_32p_OSS_RefineryOutpost_3_1
+   Object.absolutePosition 121.805/98.430/467.214
+   Object.rotation 98.000/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_Oasis_AttakHeli]
+   Object.create CP_32p_OSS_Oasis_AttakHeli
+   Object.absolutePosition 101.024/91.170/-578.532
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 7
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_TurbineHill_ATS]
+   Object.create CP_32p_OSS_TurbineHill_ATS
+   Object.absolutePosition 164.251/135.542/-126.204
+   Object.rotation 44.214/0.000/0.000
+   Object.setControlPointId 8
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_TurbineHill_0_0]
+   Object.create CP_32p_OSS_TurbineHill_0_0
+   Object.absolutePosition 185.010/135.542/-130.290
+   Object.rotation 137.569/0.000/0.000
+   Object.setControlPointId 8
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_Garage_HeavyTank]
+   Object.create CP_32p_OSS_Garage_HeavyTank
+   Object.absolutePosition -201.600/89.481/228.553
+   Object.rotation 134.401/0.000/0.000
+   Object.setControlPointId 3
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_Village_HeavyTank]
+   Object.create CP_32p_OSS_Village_HeavyTank
+   Object.absolutePosition -108.248/106.603/-289.456
+   Object.rotation -152.200/0.000/0.000
+   Object.setControlPointId 5
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_Garage_ATS]
+   Object.create CP_32p_OSS_Garage_ATS
+   Object.absolutePosition -170.528/90.195/222.053
+   Object.rotation -125.302/0.000/0.000
+   Object.setControlPointId 3
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_Village_ATS]
+   Object.create CP_32p_OSS_Village_ATS
+   Object.absolutePosition -100.689/105.102/-222.398
+   Object.rotation -4.207/0.000/0.000
+   Object.setControlPointId 5
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_OilPlant_AAS]
+   Object.create CP_32p_OSS_OilPlant_AAS
+   Object.absolutePosition -275.263/112.700/-115.243
+   Object.rotation 147.885/0.000/0.000
+   Object.setControlPointId 4
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_OilPlant_0_6]
+   Object.create CP_32p_OSS_OilPlant_0_6
+   Object.absolutePosition -274.583/112.696/-55.517
+   Object.rotation -11.564/0.000/0.000
+   Object.setControlPointId 4
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_Oasis_AAS]
+   Object.create CP_32p_OSS_Oasis_AAS
+   Object.absolutePosition 137.991/91.170/-632.040
+   Object.rotation -18.086/0.000/0.000
+   Object.setControlPointId 7
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_Oasis_ATS]
+   Object.create CP_32p_OSS_Oasis_ATS
+   Object.absolutePosition 88.126/98.618/-455.767
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 7
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_RefineryOutpost_AAS]
+   Object.create CP_32p_OSS_RefineryOutpost_AAS
+   Object.absolutePosition 94.763/98.302/579.706
+   Object.rotation -121.345/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_RefineryOutpost_1_3]
+   Object.create CP_32p_OSS_RefineryOutpost_1_3
+   Object.absolutePosition -93.471/98.302/432.231
+   Object.rotation -180.000/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_Oasis_2_2]
+   Object.create CP_32p_OSS_Oasis_2_2
+   Object.absolutePosition -15.023/90.850/-623.501
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 7
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_Oasis_0_2]
+   Object.create CP_32p_OSS_Oasis_0_2
+   Object.absolutePosition 53.946/98.500/-519.254
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 7
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_RefineryOutpost_4_0]
+   Object.create CP_32p_OSS_RefineryOutpost_4_0
+   Object.absolutePosition 25.170/98.302/433.901
+   Object.rotation -173.169/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_Oasis_5_1]
+   Object.create CP_32p_OSS_Oasis_5_1
+   Object.absolutePosition 79.446/98.500/-485.642
+   Object.rotation 63.579/0.000/0.000
+   Object.setControlPointId 7
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_Oasis_0_5]
+   Object.create CP_32p_OSS_Oasis_0_5
+   Object.absolutePosition 97.899/102.922/-532.235
+   Object.rotation 31.482/0.000/0.000
+   Object.setControlPointId 7
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_Oasis_0_6]
+   Object.create CP_32p_OSS_Oasis_0_6
+   Object.absolutePosition 101.772/102.670/-485.525
+   Object.rotation -15.734/0.000/0.000
+   Object.setControlPointId 7
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_Oasis_0_9]
+   Object.create CP_32p_OSS_Oasis_0_9
+   Object.absolutePosition 1.120/102.892/-533.796
+   Object.rotation -58.233/0.000/0.000
+   Object.setControlPointId 7
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_Oasis_0_11]
+   Object.create CP_32p_OSS_Oasis_0_11
+   Object.absolutePosition -0.839/102.882/-474.966
+   Object.rotation 34.481/-0.096/0.000
+   Object.setControlPointId 7
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_Village_SMG]
+   Object.create CP_32p_OSS_Village_SMG
+   Object.absolutePosition -107.537/119.626/-320.130
+   Object.rotation -60.847/0.000/0.000
+   Object.setControlPointId 5
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_Village_0]
+   Object.create CP_32p_OSS_Village_0
+   Object.absolutePosition -136.739/119.637/-284.941
+   Object.rotation 116.083/0.000/-0.029
+   Object.setControlPointId 5
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_Garage_SMG]
+   Object.create CP_32p_OSS_Garage_SMG
+   Object.absolutePosition -197.404/90.516/211.950
+   Object.rotation 31.600/0.000/0.000
+   Object.setControlPointId 3
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_Garage_0_1]
+   Object.create CP_32p_OSS_Garage_0_1
+   Object.absolutePosition -206.373/90.499/192.548
+   Object.rotation 119.432/0.000/0.000
+   Object.setControlPointId 3
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_OilPlant_SMG]
+   Object.create CP_32p_OSS_OilPlant_SMG
+   Object.absolutePosition -260.678/107.038/-82.735
+   Object.rotation -9.269/0.000/0.000
+   Object.setControlPointId 4
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_OilPlant_0_7]
+   Object.create CP_32p_OSS_OilPlant_0_7
+   Object.absolutePosition -258.537/107.094/-87.644
+   Object.rotation 149.720/0.000/0.000
+   Object.setControlPointId 4
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_RefineryOutpost_LightJeep]
+   Object.create CP_32p_OSS_RefineryOutpost_LightJeep
+   Object.absolutePosition 13.364/98.624/447.182
+   Object.rotation -78.260/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_RefineryOutpost_5_0]
+   Object.create CP_32p_OSS_RefineryOutpost_5_0
+   Object.absolutePosition 3.131/103.444/578.096
+   Object.rotation 101.451/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_RefineryOutpost_SMG]
+   Object.create CP_32p_OSS_RefineryOutpost_SMG
+   Object.absolutePosition 4.820/102.418/577.689
+   Object.rotation 99.660/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_RefineryOutpost_1_4]
+   Object.create CP_32p_OSS_RefineryOutpost_1_4
+   Object.absolutePosition 111.284/102.523/590.890
+   Object.rotation 53.737/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_RefineryOutpost_1_5]
+   Object.create CP_32p_OSS_RefineryOutpost_1_5
+   Object.absolutePosition 116.380/102.522/523.567
+   Object.rotation 55.742/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_RefineryOutpost_1_6]
+   Object.create CP_32p_OSS_RefineryOutpost_1_6
+   Object.absolutePosition -18.728/98.302/424.281
+   Object.rotation -177.753/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_RefineryOutpost_ATS]
+   Object.create CP_32p_OSS_RefineryOutpost_ATS
+   Object.absolutePosition 3.773/98.302/420.611
+   Object.rotation -158.089/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_RefineryOutpost_2_3]
+   Object.create CP_32p_OSS_RefineryOutpost_2_3
+   Object.absolutePosition -30.009/102.394/377.255
+   Object.rotation -169.798/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_HillShed_ATS]
+   Object.create CP_32p_OSS_HillShed_ATS
+   Object.absolutePosition -51.679/127.405/-30.100
+   Object.rotation -101.955/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_HillShed_HeavyTank]
+   Object.create CP_32p_OSS_HillShed_HeavyTank
+   Object.absolutePosition 17.042/120.357/-23.721
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_HillShed_LightJeep]
+   Object.create CP_32p_OSS_HillShed_LightJeep
+   Object.absolutePosition 17.722/120.354/-35.575
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_TurbineHill_HeavyTank]
+   Object.create CP_32p_OSS_TurbineHill_HeavyTank
+   Object.absolutePosition 113.413/135.542/-104.762
+   Object.rotation 46.518/0.000/0.000
+   Object.setControlPointId 8
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_Oasis_2_3]
+   Object.create CP_32p_OSS_Oasis_2_3
+   Object.absolutePosition 117.524/90.968/-592.535
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 7
+   Object.layer 2
+
+   rem [ObjectSpawner: CP_32p_OSS_Village_CH_US_LightJeep]
+   Object.create CP_32p_OSS_Village_CH_US_LightJeep
+   Object.absolutePosition -88.503/106.583/-270.575
+   Object.rotation 29.340/0.000/0.000
+   Object.setControlPointId 5
+   Object.layer 2
+
+endIf
+
+rem ********** Spawn Points **********
+rem [SpawnPointTemplate: CP_32p_OSS_Garage_1_0]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_Garage_1_0
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_Garage_1_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 3
+
+rem [SpawnPoint: CP_32p_OSS_Garage_1_0]
+Object.create CP_32p_OSS_Garage_1_0
+Object.absolutePosition -185.312/91.109/180.363
+Object.rotation -56.011/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_Garage_2_0]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_Garage_2_0
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_Garage_2_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 3
+
+rem [SpawnPoint: CP_32p_OSS_Garage_2_0]
+Object.create CP_32p_OSS_Garage_2_0
+Object.absolutePosition -214.283/89.518/233.705
+Object.rotation 141.920/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_Garage_4_0]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_Garage_4_0
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_Garage_4_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 3
+
+rem [SpawnPoint: CP_32p_OSS_Garage_4_0]
+Object.create CP_32p_OSS_Garage_4_0
+Object.absolutePosition -234.218/89.503/195.062
+Object.rotation 103.820/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_OilPlant_6_0]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_OilPlant_6_0
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_OilPlant_6_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 4
+
+rem [SpawnPoint: CP_32p_OSS_OilPlant_6_0]
+Object.create CP_32p_OSS_OilPlant_6_0
+Object.absolutePosition -233.307/106.332/-52.677
+Object.rotation -71.683/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_Village_3_0]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_Village_3_0
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_Village_3_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 5
+
+rem [SpawnPoint: CP_32p_OSS_Village_3_0]
+Object.create CP_32p_OSS_Village_3_0
+Object.absolutePosition -135.642/106.603/-276.786
+Object.rotation 123.847/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_Village_4_0]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_Village_4_0
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_Village_4_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 5
+
+rem [SpawnPoint: CP_32p_OSS_Village_4_0]
+Object.create CP_32p_OSS_Village_4_0
+Object.absolutePosition -148.322/106.603/-302.139
+Object.rotation 79.369/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_OilPlant_9_0]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_OilPlant_9_0
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_OilPlant_9_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 4
+
+rem [SpawnPoint: CP_32p_OSS_OilPlant_9_0]
+Object.create CP_32p_OSS_OilPlant_9_0
+Object.absolutePosition -227.235/106.638/-79.046
+Object.rotation -114.295/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_RefineryOutpost_0_6]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_RefineryOutpost_0_6
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_RefineryOutpost_0_6
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 1
+ObjectTemplate.setControlPointId 1
+
+rem [SpawnPoint: CP_32p_OSS_RefineryOutpost_0_6]
+Object.create CP_32p_OSS_RefineryOutpost_0_6
+Object.absolutePosition 100.498/98.302/459.836
+Object.rotation 23.549/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_RefineryOutpost_0_7]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_RefineryOutpost_0_7
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_RefineryOutpost_0_7
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 1
+ObjectTemplate.setControlPointId 1
+
+rem [SpawnPoint: CP_32p_OSS_RefineryOutpost_0_7]
+Object.create CP_32p_OSS_RefineryOutpost_0_7
+Object.absolutePosition 32.761/98.302/573.565
+Object.rotation 145.712/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_RefineryOutpost_1_0]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_RefineryOutpost_1_0
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_RefineryOutpost_1_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 1
+ObjectTemplate.setControlPointId 1
+
+rem [SpawnPoint: CP_32p_OSS_RefineryOutpost_1_0]
+Object.create CP_32p_OSS_RefineryOutpost_1_0
+Object.absolutePosition 99.676/98.430/582.883
+Object.rotation 178.451/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_RefineryOutpost_2_0]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_RefineryOutpost_2_0
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_RefineryOutpost_2_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 1
+
+rem [SpawnPoint: CP_32p_OSS_RefineryOutpost_2_0]
+Object.create CP_32p_OSS_RefineryOutpost_2_0
+Object.absolutePosition -19.889/98.302/446.960
+Object.rotation 115.618/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_RefineryOutpost_3]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_RefineryOutpost_3
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_RefineryOutpost_3
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 1
+
+rem [SpawnPoint: CP_32p_OSS_RefineryOutpost_3]
+Object.create CP_32p_OSS_RefineryOutpost_3
+Object.absolutePosition 4.872/98.302/437.445
+Object.rotation -93.297/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_RefineryOutpost_1_1]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_RefineryOutpost_1_1
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_RefineryOutpost_1_1
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 1
+
+rem [SpawnPoint: CP_32p_OSS_RefineryOutpost_1_1]
+Object.create CP_32p_OSS_RefineryOutpost_1_1
+Object.absolutePosition 33.682/98.400/475.166
+Object.rotation -167.298/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_RefineryOutpost_4]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_RefineryOutpost_4
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_RefineryOutpost_4
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 1
+
+rem [SpawnPoint: CP_32p_OSS_RefineryOutpost_4]
+Object.create CP_32p_OSS_RefineryOutpost_4
+Object.absolutePosition -5.571/98.302/473.919
+Object.rotation 143.294/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_Oasis_1_0]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_Oasis_1_0
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_Oasis_1_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 7
+
+rem [SpawnPoint: CP_32p_OSS_Oasis_1_0]
+Object.create CP_32p_OSS_Oasis_1_0
+Object.absolutePosition 49.501/98.500/-499.564
+Object.rotation 79.382/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_Oasis_2_0]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_Oasis_2_0
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_Oasis_2_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 7
+
+rem [SpawnPoint: CP_32p_OSS_Oasis_2_0]
+Object.create CP_32p_OSS_Oasis_2_0
+Object.absolutePosition 90.990/98.618/-466.397
+Object.rotation -126.249/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_Oasis_3_0]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_Oasis_3_0
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_Oasis_3_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 7
+
+rem [SpawnPoint: CP_32p_OSS_Oasis_3_0]
+Object.create CP_32p_OSS_Oasis_3_0
+Object.absolutePosition 84.847/98.500/-521.659
+Object.rotation -113.097/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_Oasis_4_0]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_Oasis_4_0
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_Oasis_4_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 7
+
+rem [SpawnPoint: CP_32p_OSS_Oasis_4_0]
+Object.create CP_32p_OSS_Oasis_4_0
+Object.absolutePosition 41.334/98.722/-529.999
+Object.rotation 71.033/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_Oasis_5_0]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_Oasis_5_0
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_Oasis_5_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 7
+
+rem [SpawnPoint: CP_32p_OSS_Oasis_5_0]
+Object.create CP_32p_OSS_Oasis_5_0
+Object.absolutePosition 93.111/98.722/-534.656
+Object.rotation -47.197/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_Oasis_6_0]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_Oasis_6_0
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_Oasis_6_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 7
+
+rem [SpawnPoint: CP_32p_OSS_Oasis_6_0]
+Object.create CP_32p_OSS_Oasis_6_0
+Object.absolutePosition 60.335/98.500/-521.851
+Object.rotation 44.433/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_Oasis_7_0]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_Oasis_7_0
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_Oasis_7_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 1
+ObjectTemplate.setControlPointId 7
+
+rem [SpawnPoint: CP_32p_OSS_Oasis_7_0]
+Object.create CP_32p_OSS_Oasis_7_0
+Object.absolutePosition 124.870/91.015/-650.630
+Object.rotation -25.749/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_Oasis_8_0]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_Oasis_8_0
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_Oasis_8_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 1
+ObjectTemplate.setControlPointId 7
+
+rem [SpawnPoint: CP_32p_OSS_Oasis_8_0]
+Object.create CP_32p_OSS_Oasis_8_0
+Object.absolutePosition 125.834/91.015/-680.738
+Object.rotation -24.686/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_Oasis_9_0]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_Oasis_9_0
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_Oasis_9_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 1
+ObjectTemplate.setControlPointId 7
+
+rem [SpawnPoint: CP_32p_OSS_Oasis_9_0]
+Object.create CP_32p_OSS_Oasis_9_0
+Object.absolutePosition 122.950/91.140/-587.140
+Object.rotation -38.829/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_RefineryOutpost_2_1]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_RefineryOutpost_2_1
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_RefineryOutpost_2_1
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 1
+
+rem [SpawnPoint: CP_32p_OSS_RefineryOutpost_2_1]
+Object.create CP_32p_OSS_RefineryOutpost_2_1
+Object.absolutePosition -2.511/98.302/399.543
+Object.rotation 22.181/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_TurbineHill_1_0]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_TurbineHill_1_0
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_TurbineHill_1_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 8
+
+rem [SpawnPoint: CP_32p_OSS_TurbineHill_1_0]
+Object.create CP_32p_OSS_TurbineHill_1_0
+Object.absolutePosition 216.087/135.542/-159.738
+Object.rotation -74.019/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_TurbineHill_2_0]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_TurbineHill_2_0
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_TurbineHill_2_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 8
+
+rem [SpawnPoint: CP_32p_OSS_TurbineHill_2_0]
+Object.create CP_32p_OSS_TurbineHill_2_0
+Object.absolutePosition 130.708/135.542/-74.177
+Object.rotation 168.361/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_TurbineHill_3_0]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_TurbineHill_3_0
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_TurbineHill_3_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 8
+
+rem [SpawnPoint: CP_32p_OSS_TurbineHill_3_0]
+Object.create CP_32p_OSS_TurbineHill_3_0
+Object.absolutePosition 161.023/135.542/-99.589
+Object.rotation -163.810/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_TurbineHill_4_0]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_TurbineHill_4_0
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_TurbineHill_4_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 8
+
+rem [SpawnPoint: CP_32p_OSS_TurbineHill_4_0]
+Object.create CP_32p_OSS_TurbineHill_4_0
+Object.absolutePosition 190.980/135.542/-126.943
+Object.rotation -106.179/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_TurbineHill_5_0]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_TurbineHill_5_0
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_TurbineHill_5_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 8
+
+rem [SpawnPoint: CP_32p_OSS_TurbineHill_5_0]
+Object.create CP_32p_OSS_TurbineHill_5_0
+Object.absolutePosition 140.042/135.542/-141.839
+Object.rotation 94.776/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_TurbineHill_6_0]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_TurbineHill_6_0
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_TurbineHill_6_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 8
+
+rem [SpawnPoint: CP_32p_OSS_TurbineHill_6_0]
+Object.create CP_32p_OSS_TurbineHill_6_0
+Object.absolutePosition 148.971/135.542/-150.572
+Object.rotation -3.849/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_Garage_0_0]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_Garage_0_0
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_Garage_0_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 3
+
+rem [SpawnPoint: CP_32p_OSS_Garage_0_0]
+Object.create CP_32p_OSS_Garage_0_0
+Object.absolutePosition -196.273/90.340/160.341
+Object.rotation -29.741/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_Garage_5_0]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_Garage_5_0
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_Garage_5_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 3
+
+rem [SpawnPoint: CP_32p_OSS_Garage_5_0]
+Object.create CP_32p_OSS_Garage_5_0
+Object.absolutePosition -181.421/89.541/236.769
+Object.rotation -135.840/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_OilPlant_0_2]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_OilPlant_0_2
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_OilPlant_0_2
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 4
+
+rem [SpawnPoint: CP_32p_OSS_OilPlant_0_2]
+Object.create CP_32p_OSS_OilPlant_0_2
+Object.absolutePosition -273.366/106.284/-60.813
+Object.rotation 138.030/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_OilPlant_0_3]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_OilPlant_0_3
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_OilPlant_0_3
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 4
+
+rem [SpawnPoint: CP_32p_OSS_OilPlant_0_3]
+Object.create CP_32p_OSS_OilPlant_0_3
+Object.absolutePosition -257.456/106.333/-110.445
+Object.rotation 11.058/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_OilPlant_1]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_OilPlant_1
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_OilPlant_1
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 4
+
+rem [SpawnPoint: CP_32p_OSS_OilPlant_1]
+Object.create CP_32p_OSS_OilPlant_1
+Object.absolutePosition -282.154/106.332/-71.249
+Object.rotation 120.293/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_OilPlant_12_0]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_OilPlant_12_0
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_OilPlant_12_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 4
+
+rem [SpawnPoint: CP_32p_OSS_OilPlant_12_0]
+Object.create CP_32p_OSS_OilPlant_12_0
+Object.absolutePosition -272.495/106.297/-111.446
+Object.rotation -1.988/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_Oasis_10_0]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_Oasis_10_0
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_Oasis_10_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 7
+
+rem [SpawnPoint: CP_32p_OSS_Oasis_10_0]
+Object.create CP_32p_OSS_Oasis_10_0
+Object.absolutePosition 25.880/98.500/-494.654
+Object.rotation 133.247/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_Garage_6_0]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_Garage_6_0
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_Garage_6_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 3
+
+rem [SpawnPoint: CP_32p_OSS_Garage_6_0]
+Object.create CP_32p_OSS_Garage_6_0
+Object.absolutePosition -225.038/90.617/174.094
+Object.rotation 36.016/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_Garage_7_0]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_Garage_7_0
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_Garage_7_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 3
+
+rem [SpawnPoint: CP_32p_OSS_Garage_7_0]
+Object.create CP_32p_OSS_Garage_7_0
+Object.absolutePosition -198.654/89.518/250.269
+Object.rotation -159.337/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_RefineryOutpost_5]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_RefineryOutpost_5
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_RefineryOutpost_5
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 1
+ObjectTemplate.setControlPointId 1
+
+rem [SpawnPoint: CP_32p_OSS_RefineryOutpost_5]
+Object.create CP_32p_OSS_RefineryOutpost_5
+Object.absolutePosition 103.598/98.302/485.355
+Object.rotation 56.532/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_HillShed_1_0]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_HillShed_1_0
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_HillShed_1_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 101
+
+rem [SpawnPoint: CP_32p_OSS_HillShed_1_0]
+Object.create CP_32p_OSS_HillShed_1_0
+Object.absolutePosition 13.643/120.342/-42.677
+Object.rotation -34.710/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_HillShed_2_0]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_HillShed_2_0
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_HillShed_2_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 101
+
+rem [SpawnPoint: CP_32p_OSS_HillShed_2_0]
+Object.create CP_32p_OSS_HillShed_2_0
+Object.absolutePosition 1.498/120.350/-47.350
+Object.rotation 9.052/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_HillShed_3_0]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_HillShed_3_0
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_HillShed_3_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 101
+
+rem [SpawnPoint: CP_32p_OSS_HillShed_3_0]
+Object.create CP_32p_OSS_HillShed_3_0
+Object.absolutePosition -1.617/120.337/-13.263
+Object.rotation 159.511/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_HillShed_4_0]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_HillShed_4_0
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_HillShed_4_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 101
+
+rem [SpawnPoint: CP_32p_OSS_HillShed_4_0]
+Object.create CP_32p_OSS_HillShed_4_0
+Object.absolutePosition 13.223/120.375/-15.028
+Object.rotation -148.193/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_HillShed_5_0]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_HillShed_5_0
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_HillShed_5_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 101
+
+rem [SpawnPoint: CP_32p_OSS_HillShed_5_0]
+Object.create CP_32p_OSS_HillShed_5_0
+Object.absolutePosition -36.270/126.282/-32.591
+Object.rotation 85.366/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_OilPlant_7]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_OilPlant_7
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_OilPlant_7
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 4
+
+rem [SpawnPoint: CP_32p_OSS_OilPlant_7]
+Object.create CP_32p_OSS_OilPlant_7
+Object.absolutePosition -215.022/106.294/-101.803
+Object.rotation -112.282/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_Village_4]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_Village_4
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_Village_4
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 5
+
+rem [SpawnPoint: CP_32p_OSS_Village_4]
+Object.create CP_32p_OSS_Village_4
+Object.absolutePosition -92.454/106.603/-290.466
+Object.rotation -40.092/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_Village_4_1]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_Village_4_1
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_Village_4_1
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 5
+
+rem [SpawnPoint: CP_32p_OSS_Village_4_1]
+Object.create CP_32p_OSS_Village_4_1
+Object.absolutePosition -139.107/106.603/-264.451
+Object.rotation 97.589/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_Village_5]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_Village_5
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_Village_5
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 5
+
+rem [SpawnPoint: CP_32p_OSS_Village_5]
+Object.create CP_32p_OSS_Village_5
+Object.absolutePosition -101.840/106.603/-305.527
+Object.rotation -13.633/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_Oasis_12]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_Oasis_12
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_Oasis_12
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 7
+
+rem [SpawnPoint: CP_32p_OSS_Oasis_12]
+Object.create CP_32p_OSS_Oasis_12
+Object.absolutePosition 99.771/98.500/-490.871
+Object.rotation -138.716/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_Garage_8]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_Garage_8
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_Garage_8
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 3
+
+rem [SpawnPoint: CP_32p_OSS_Garage_8]
+Object.create CP_32p_OSS_Garage_8
+Object.absolutePosition -232.314/89.507/207.018
+Object.rotation 91.617/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_Oasis_13]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_Oasis_13
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_Oasis_13
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 7
+
+rem [SpawnPoint: CP_32p_OSS_Oasis_13]
+Object.create CP_32p_OSS_Oasis_13
+Object.absolutePosition 74.123/98.512/-505.559
+Object.rotation -174.405/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_Oasis_14]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_Oasis_14
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_Oasis_14
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 7
+
+rem [SpawnPoint: CP_32p_OSS_Oasis_14]
+Object.create CP_32p_OSS_Oasis_14
+Object.absolutePosition 71.273/98.530/-470.825
+Object.rotation 178.599/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_Oasis_15]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_Oasis_15
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_Oasis_15
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 7
+
+rem [SpawnPoint: CP_32p_OSS_Oasis_15]
+Object.create CP_32p_OSS_Oasis_15
+Object.absolutePosition 57.621/98.549/-476.561
+Object.rotation 161.808/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CP_32p_OSS_HillShed_6]
+ObjectTemplate.create SpawnPoint CP_32p_OSS_HillShed_6
+ObjectTemplate.activeSafe SpawnPoint CP_32p_OSS_HillShed_6
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 101
+
+rem [SpawnPoint: CP_32p_OSS_HillShed_6]
+Object.create CP_32p_OSS_HillShed_6
+Object.absolutePosition 24.221/120.521/-29.271
+Object.rotation -90.073/0.000/0.000
+Object.layer 2
+
+rem ********** Control Points **********
+rem [ControlPointTemplate: CP_32p_OSS_RefineryOutpost]
+ObjectTemplate.create ControlPoint CP_32p_OSS_RefineryOutpost
+ObjectTemplate.activeSafe ControlPoint CP_32p_OSS_RefineryOutpost
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CP_32p_OSS_RefineryOutpost
+ObjectTemplate.radius 0
+ObjectTemplate.team 2
+ObjectTemplate.controlPointId 1
+ObjectTemplate.timeToGetControl 20
+ObjectTemplate.timeToLoseControl 20
+ObjectTemplate.loseControlWhenEnemyClose 0
+ObjectTemplate.unableToChangeTeam 1
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: CP_32p_OSS_Garage]
+ObjectTemplate.create ControlPoint CP_32p_OSS_Garage
+ObjectTemplate.activeSafe ControlPoint CP_32p_OSS_Garage
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CP_32p_OSS_Garage
+ObjectTemplate.radius 15
+ObjectTemplate.radiusOffset -1/0/-3
+ObjectTemplate.controlPointId 3
+ObjectTemplate.areaValueTeam1 34
+ObjectTemplate.areaValueTeam2 34
+ObjectTemplate.timeToGetControl 20
+ObjectTemplate.timeToLoseControl 20
+ObjectTemplate.loseControlWhenEnemyClose 0
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: CP_32p_OSS_OilPlant]
+ObjectTemplate.create ControlPoint CP_32p_OSS_OilPlant
+ObjectTemplate.activeSafe ControlPoint CP_32p_OSS_OilPlant
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CP_32p_OSS_OilPlant
+ObjectTemplate.radius 22
+ObjectTemplate.controlPointId 4
+ObjectTemplate.areaValueTeam1 34
+ObjectTemplate.areaValueTeam2 34
+ObjectTemplate.timeToGetControl 20
+ObjectTemplate.timeToLoseControl 20
+ObjectTemplate.loseControlWhenEnemyClose 0
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: CP_32p_OSS_Village]
+ObjectTemplate.create ControlPoint CP_32p_OSS_Village
+ObjectTemplate.activeSafe ControlPoint CP_32p_OSS_Village
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CP_32p_OSS_Village
+ObjectTemplate.radius 10
+ObjectTemplate.controlPointId 5
+ObjectTemplate.areaValueTeam1 34
+ObjectTemplate.areaValueTeam2 34
+ObjectTemplate.timeToGetControl 20
+ObjectTemplate.timeToLoseControl 20
+ObjectTemplate.loseControlWhenEnemyClose 0
+ObjectTemplate.hoistMinMax 0.35/0.9
+
+rem [ControlPointTemplate: CP_32p_OSS_Oasis]
+ObjectTemplate.create ControlPoint CP_32p_OSS_Oasis
+ObjectTemplate.activeSafe ControlPoint CP_32p_OSS_Oasis
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CP_32p_OSS_Oasis
+ObjectTemplate.radius 0
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 7
+ObjectTemplate.loseControlWhenEnemyClose 0
+ObjectTemplate.unableToChangeTeam 1
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: CP_32p_OSS_TurbineHill]
+ObjectTemplate.create ControlPoint CP_32p_OSS_TurbineHill
+ObjectTemplate.activeSafe ControlPoint CP_32p_OSS_TurbineHill
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CP_32p_OSS_TurbineHill
+ObjectTemplate.radius 9
+ObjectTemplate.radiusOffset -3/0/-3
+ObjectTemplate.controlPointId 8
+ObjectTemplate.areaValueTeam1 34
+ObjectTemplate.areaValueTeam2 34
+ObjectTemplate.timeToGetControl 20
+ObjectTemplate.timeToLoseControl 20
+ObjectTemplate.loseControlWhenEnemyClose 0
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: CP_32p_OSS_HillShed]
+ObjectTemplate.create ControlPoint CP_32p_OSS_HillShed
+ObjectTemplate.activeSafe ControlPoint CP_32p_OSS_HillShed
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CP_32p_OSS_HillShed
+ObjectTemplate.radius 15
+ObjectTemplate.controlPointId 101
+ObjectTemplate.areaValueTeam1 34
+ObjectTemplate.areaValueTeam2 34
+ObjectTemplate.timeToGetControl 20
+ObjectTemplate.timeToLoseControl 20
+ObjectTemplate.loseControlWhenEnemyClose 0
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+if v_arg1 == host
+
+   rem [ControlPoint: CP_32p_OSS_RefineryOutpost]
+   Object.create CP_32p_OSS_RefineryOutpost
+   Object.absolutePosition 7.315/98.302/430.424
+   Object.layer 2
+
+   rem [ControlPoint: CP_32p_OSS_Garage]
+   Object.create CP_32p_OSS_Garage
+   Object.absolutePosition -208.321/89.478/208.314
+   Object.layer 2
+
+   rem [ControlPoint: CP_32p_OSS_OilPlant]
+   Object.create CP_32p_OSS_OilPlant
+   Object.absolutePosition -265.435/105.974/-87.594
+   Object.layer 2
+
+   rem [ControlPoint: CP_32p_OSS_Village]
+   Object.create CP_32p_OSS_Village
+   Object.absolutePosition -110.770/109.083/-268.709
+   Object.layer 2
+
+   rem [ControlPoint: CP_32p_OSS_Oasis]
+   Object.create CP_32p_OSS_Oasis
+   Object.absolutePosition 72.522/98.500/-521.905
+   Object.layer 2
+
+   rem [ControlPoint: CP_32p_OSS_TurbineHill]
+   Object.create CP_32p_OSS_TurbineHill
+   Object.absolutePosition 152.699/135.542/-138.011
+   Object.layer 2
+
+   rem [ControlPoint: CP_32p_OSS_HillShed]
+   Object.create CP_32p_OSS_HillShed
+   Object.absolutePosition 4.374/120.415/-29.296
+   Object.layer 2
+
+endIf
+
+CombatAreaManager.use 1
+CombatAreaManager.timeAllowedOutside 10.000000
+CombatArea.create CombatArea_0_32Player
+CombatArea.min 0.000000/0.000000
+CombatArea.max 0.000000/0.000000
+CombatArea.addAreaPoint 93.116455/661.461670
+CombatArea.addAreaPoint 23.279053/666.671875
+CombatArea.addAreaPoint -36.591919/654.692261
+CombatArea.addAreaPoint -95.201538/607.552612
+CombatArea.addAreaPoint -144.457947/548.750610
+CombatArea.addAreaPoint -199.718933/413.775024
+CombatArea.addAreaPoint -263.114014/380.828003
+CombatArea.addAreaPoint -361.879395/258.597168
+CombatArea.addAreaPoint -426.406616/-79.450317
+CombatArea.addAreaPoint -316.437500/-397.988708
+CombatArea.addAreaPoint -253.246765/-653.651245
+CombatArea.addAreaPoint -201.884155/-713.088379
+CombatArea.addAreaPoint -111.057556/-782.977417
+CombatArea.addAreaPoint 36.390381/-802.883362
+CombatArea.addAreaPoint 128.589844/-801.099548
+CombatArea.addAreaPoint 255.907593/-703.264526
+CombatArea.addAreaPoint 349.499512/-552.932068
+CombatArea.addAreaPoint 324.373779/-417.663757
+CombatArea.addAreaPoint 385.940918/-369.354797
+CombatArea.addAreaPoint 484.263672/-214.728027
+CombatArea.addAreaPoint 477.465454/1.965454
+CombatArea.addAreaPoint 255.160034/258.759155
+CombatArea.addAreaPoint 254.787231/416.151367
+CombatArea.addAreaPoint 266.911499/599.534180
+CombatArea.addAreaPoint 214.280273/639.999146
+CombatArea.addAreaPoint 95.040283/662.168701
+CombatArea.team 0
+CombatArea.vehicles 0
+CombatArea.layer 2
+
+CombatArea.create CombatArea_26_32Player
+CombatArea.min 0.000000/0.000000
+CombatArea.max 0.000000/0.000000
+CombatArea.addAreaPoint 183.238892/823.671753
+CombatArea.addAreaPoint -121.602051/811.369385
+CombatArea.addAreaPoint -302.160583/721.786011
+CombatArea.addAreaPoint -509.688660/479.558838
+CombatArea.addAreaPoint -572.843079/219.322144
+CombatArea.addAreaPoint -560.207275/-4.937134
+CombatArea.addAreaPoint -544.154907/-276.909668
+CombatArea.addAreaPoint -495.619995/-560.780334
+CombatArea.addAreaPoint -337.966736/-845.593079
+CombatArea.addAreaPoint -117.205627/-940.230103
+CombatArea.addAreaPoint 107.856079/-927.375427
+CombatArea.addAreaPoint 323.163452/-856.560181
+CombatArea.addAreaPoint 500.742554/-661.311401
+CombatArea.addAreaPoint 590.010254/-430.461426
+CombatArea.addAreaPoint 541.195313/-102.974854
+CombatArea.addAreaPoint 450.833740/385.383789
+CombatArea.addAreaPoint 364.758301/668.030518
+CombatArea.addAreaPoint 280.886963/781.374146
+CombatArea.team 0
+CombatArea.vehicles 3
+CombatArea.layer 2
+
+CombatArea.create CombatArea_44_32Player
+CombatArea.min 0.000000/0.000000
+CombatArea.max 0.000000/0.000000
+CombatArea.addAreaPoint 220.924683/916.838501
+CombatArea.addAreaPoint -84.295349/904.906128
+CombatArea.addAreaPoint -319.664429/869.236572
+CombatArea.addAreaPoint -492.366943/733.456787
+CombatArea.addAreaPoint -595.302185/482.406982
+CombatArea.addAreaPoint -681.437256/227.421021
+CombatArea.addAreaPoint -715.734863/-52.768127
+CombatArea.addAreaPoint -654.942627/-358.371338
+CombatArea.addAreaPoint -574.136108/-589.586304
+CombatArea.addAreaPoint -406.406433/-868.362671
+CombatArea.addAreaPoint -204.089233/-964.820129
+CombatArea.addAreaPoint 20.599854/-965.228210
+CombatArea.addAreaPoint 276.937012/-959.452576
+CombatArea.addAreaPoint 448.060547/-876.022217
+CombatArea.addAreaPoint 605.327026/-707.008606
+CombatArea.addAreaPoint 685.579468/-525.371765
+CombatArea.addAreaPoint 692.196411/-149.171570
+CombatArea.addAreaPoint 614.674194/256.302002
+CombatArea.addAreaPoint 544.380615/606.922607
+CombatArea.addAreaPoint 434.716309/755.391724
+CombatArea.addAreaPoint 321.502441/873.075806
+CombatArea.team 0
+CombatArea.vehicles 2
+CombatArea.layer 2
+

@@ -1,0 +1,24 @@
+if v_arg1 == BF2Editor
+terrain.create TerrainEditable
+terrain.patchSize 128
+terrain.subdividePatches 1
+terrain.primaryWorldScale 2/0.00610352/2
+terrain.secondaryWorldScale 8/1.5625/8
+terrain.patchColormapSize 512
+terrain.lowDetailmapSize 512
+terrain.detailmapBaseName "Levels/FuShe_Pass/Detailmaps/tx"
+terrain.lowDetailmapBaseName "Levels/FuShe_Pass/LowDetailmaps/tx"
+terrain.colormapBaseName "Levels/FuShe_Pass/Colormaps/tx"
+terrain.lightmapBaseName "Levels/FuShe_Pass/Lightmaps/tx"
+terrain.farSideTiling 5/3
+terrain.farTopTilingHi 3
+terrain.farTopTilingLow 16
+terrain.farYOffset 0
+terrain.terrainWaterColor 0/0/0
+terrain.init
+
+else
+terrain.create Terrain
+terrain.load Levels/FuShe_Pass/terraindata.raw
+endIf
+

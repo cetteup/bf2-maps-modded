@@ -1,0 +1,115 @@
+Overgrowth.viewDistance 510
+Overgrowth.viewDistanceScale 1
+Overgrowth.closeDistPercentage 0.12
+
+Overgrowth.addMaterial Pine_forest 1
+Overgrowth.setActiveMaterial Pine_forest
+Overgrowth.addType Pine_large
+Overgrowth.setActiveType Pine_large
+OvergrowthType.geometry nc_pinebig01
+OvergrowthType.density 5
+OvergrowthType.normalScale 0
+OvergrowthType.rotationScale 0
+OvergrowthType.minRadiusToSame 0.15
+OvergrowthType.minRadiusToOthers 0.15
+
+Overgrowth.addMaterial GreenBushes 2
+Overgrowth.setActiveMaterial GreenBushes
+Overgrowth.addType bush02
+Overgrowth.setActiveType bush02
+OvergrowthType.geometry nc_leafybush01
+OvergrowthType.density 4
+OvergrowthType.normalScale 1
+OvergrowthType.rotationScale 0
+OvergrowthType.minRadiusToSame 0
+OvergrowthType.minRadiusToOthers 0
+Overgrowth.addType greenBush1
+Overgrowth.setActiveType greenBush1
+OvergrowthType.geometry nc_fern01
+OvergrowthType.density 4
+OvergrowthType.normalScale 1
+OvergrowthType.rotationScale 0
+OvergrowthType.minRadiusToSame 0
+OvergrowthType.minRadiusToOthers 0
+
+Overgrowth.addMaterial DryBushes 3
+Overgrowth.setActiveMaterial DryBushes
+Overgrowth.addType dryBush01
+Overgrowth.setActiveType dryBush01
+OvergrowthType.geometry nc_medbush01
+OvergrowthType.density 4
+OvergrowthType.normalScale 1
+OvergrowthType.rotationScale 0
+OvergrowthType.minRadiusToSame 0
+OvergrowthType.minRadiusToOthers 0
+Overgrowth.addType dryBush02
+Overgrowth.setActiveType dryBush02
+OvergrowthType.geometry nc_slybush01
+OvergrowthType.density 4
+OvergrowthType.normalScale 1
+OvergrowthType.rotationScale 0
+OvergrowthType.minRadiusToSame 0
+OvergrowthType.minRadiusToOthers 0
+
+Overgrowth.addMaterial Birches 5
+Overgrowth.setActiveMaterial Birches
+Overgrowth.addType birch1
+Overgrowth.setActiveType birch1
+OvergrowthType.geometry nc_birch01
+OvergrowthType.density 2
+OvergrowthType.normalScale 0.1
+OvergrowthType.rotationScale 0
+OvergrowthType.minRadiusToSame 0
+OvergrowthType.minRadiusToOthers 0
+
+Overgrowth.addMaterial pineCluster 6
+Overgrowth.setActiveMaterial pineCluster
+Overgrowth.addType pineCluster01
+Overgrowth.setActiveType pineCluster01
+OvergrowthType.geometry nc_pine_cluster01
+OvergrowthType.density 7
+OvergrowthType.normalScale 0.05
+OvergrowthType.rotationScale 0
+OvergrowthType.minRadiusToSame 0.3
+OvergrowthType.minRadiusToOthers 0.2
+
+Overgrowth.addMaterial pineStubbs 7
+Overgrowth.setActiveMaterial pineStubbs
+Overgrowth.addType stubb01
+Overgrowth.setActiveType stubb01
+OvergrowthType.geometry nc_stump01
+OvergrowthType.density 2
+OvergrowthType.normalScale 0.3
+OvergrowthType.rotationScale 0
+OvergrowthType.minRadiusToSame 0
+OvergrowthType.minRadiusToOthers 0
+Overgrowth.addType stubb02
+Overgrowth.setActiveType stubb02
+OvergrowthType.geometry nc_stump02
+OvergrowthType.density 2
+OvergrowthType.normalScale 0.3
+OvergrowthType.rotationScale 0
+OvergrowthType.minRadiusToSame 0
+OvergrowthType.minRadiusToOthers 0
+Overgrowth.addType stubb03
+Overgrowth.setActiveType stubb03
+OvergrowthType.geometry nc_stump03
+OvergrowthType.density 2
+OvergrowthType.normalScale 0.3
+OvergrowthType.rotationScale 0
+OvergrowthType.minRadiusToSame 0
+OvergrowthType.minRadiusToOthers 0
+
+Overgrowth.addMaterial pineClusterMedium 8
+Overgrowth.setActiveMaterial pineClusterMedium
+Overgrowth.addType pineClusterMed01
+Overgrowth.setActiveType pineClusterMed01
+OvergrowthType.geometry nc_pine_cluster02
+OvergrowthType.density 8
+OvergrowthType.normalScale 0.2
+OvergrowthType.rotationScale 0
+OvergrowthType.minRadiusToSame 0.25
+OvergrowthType.minRadiusToOthers 0.2
+
+Overgrowth.path levels\daqing_oilfields\overgrowth\
+Overgrowth.preLoad

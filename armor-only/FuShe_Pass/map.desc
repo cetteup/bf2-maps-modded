@@ -1,0 +1,15 @@
+<map>
+	<name> Glowing Pass </name>
+	<briefing locid="LOADINGSCREEN_MAPDESCRIPTION_glowingpass">map description for modders maps not localized (english only)</briefing>
+	<modes>
+		<mode type="conquest">
+			<maptype players="16" type="doubleassault" locid="GAMEMODE_DESCRIPTION_doubleassault">Unlocalized test for this mode on this map</maptype>
+			<maptype players="32" type="headon" locid="GAMEMODE_DESCRIPTION_headon">Unlocalized test for this mode on this map</maptype>
+			<maptype players="64" type="headon" locid="GAMEMODE_DESCRIPTION_headon">Unlocalized test for this mode on this map</maptype>
+		</mode>
+		<mode type="co-op">
+			<maptype players="16" type="doubleassault" locid="GAMEMODE_DESCRIPTION_doubleassault">Unlocalized test for this mode on this map</maptype>
+			
+		</mode>
+	</modes>
+</map>

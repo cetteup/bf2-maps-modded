@@ -1,0 +1,4 @@
+ObjectTemplate.create Bundle ambstat_Bp2OnlySmoke2
+ObjectTemplate.createdInEditor 1
+
+include ambstat_Bp2OnlySmoke2.tweak

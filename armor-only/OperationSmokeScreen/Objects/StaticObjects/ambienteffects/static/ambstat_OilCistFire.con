@@ -1,0 +1,4 @@
+ObjectTemplate.create Bundle ambstat_OilCistFire
+ObjectTemplate.createdInEditor 1
+
+include ambstat_OilCistFire.tweak

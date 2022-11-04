@@ -1,0 +1,4 @@
+ObjectTemplate.create EffectBundle e_sAmb_Bp2OnlySmoke
+ObjectTemplate.createdInEditor 1
+
+include e_sAmb_Bp2OnlySmoke.tweak

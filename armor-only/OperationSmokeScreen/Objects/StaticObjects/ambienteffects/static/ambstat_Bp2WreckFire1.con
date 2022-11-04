@@ -1,0 +1,4 @@
+ObjectTemplate.create Bundle ambstat_Bp2WreckFire1
+ObjectTemplate.createdInEditor 1
+
+include ambstat_Bp2WreckFire1.tweak

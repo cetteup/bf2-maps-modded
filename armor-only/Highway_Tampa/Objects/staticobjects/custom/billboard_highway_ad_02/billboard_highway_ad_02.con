@@ -1,0 +1,17 @@
+GeometryTemplate.create StaticMesh billboard_highway_ad_02
+CollisionManager.createTemplate billboard_highway_ad_02
+
+ObjectTemplate.create SimpleObject billboard_highway_ad_02
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator DICE-SVUKANOVI1:svukanovic
+ObjectTemplate.collisionMesh billboard_highway_ad_02
+ObjectTemplate.mapMaterial 0 metal_solid 0
+ObjectTemplate.mapMaterial 1 concrete 0
+ObjectTemplate.mapMaterial 2 plastic 0
+ObjectTemplate.mapMaterial 3 glass 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry billboard_highway_ad_02
+ObjectTemplate.anchor 0/-4.0050/0
+
+include billboard_highway_ad_02.tweak

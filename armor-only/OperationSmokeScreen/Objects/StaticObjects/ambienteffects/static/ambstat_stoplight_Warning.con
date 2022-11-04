@@ -1,0 +1,4 @@
+ObjectTemplate.create Bundle ambstat_stoplight_Warning
+ObjectTemplate.createdInEditor 1
+
+include ambstat_stoplight_Warning.tweak

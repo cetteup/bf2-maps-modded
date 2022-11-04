@@ -1,0 +1,13 @@
+GeometryTemplate.create BundledMesh xp2_windmill_blades_01a
+CollisionManager.createTemplate xp2_windmill_blades_01a
+
+ObjectTemplate.create RotationalBundle xp2_windmill_blades_01a
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator JEREMY:jeremypr
+ObjectTemplate.collisionMesh xp2_windmill_blades_01
+ObjectTemplate.mapMaterial 0 metal_thin 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry xp2_windmill_blades_01
+
+include xp2_windmill_blades_01a.tweak

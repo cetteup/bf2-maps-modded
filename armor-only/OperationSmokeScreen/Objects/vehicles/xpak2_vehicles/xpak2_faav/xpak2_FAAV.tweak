@@ -1,0 +1,722 @@
+rem *** Generated with Bf2Editor.exe [created: 2005/10/3 6:41]
+GeometryTemplate.setSubGeometryLodDistance 1 0 20
+GeometryTemplate.setSubGeometryLodDistance 1 1 70
+GeometryTemplate.setSubGeometryLodDistance 1 2 140
+GeometryTemplate.setMaterialReflectionScale 1 0 0 0.3
+GeometryTemplate.setMaterialReflectionScale 1 0 1 1
+GeometryTemplate.setSpecularStaticGloss 1 0 0 0
+GeometryTemplate.setSpecularStaticGloss 1 0 1 1
+GeometryTemplate.setSpecularStaticGloss 1 0 2 1
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 8
+ObjectTemplate.activeSafe PlayerControlObject xpak2_faav
+ObjectTemplate.creator LMA-1:lma
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.castsDynamicShadow 1
+rem ---BeginComp:Armor ---
+ObjectTemplate.createComponent Armor
+ObjectTemplate.armor.maxHitPoints 750
+ObjectTemplate.armor.hitPoints 750
+ObjectTemplate.armor.defaultMaterial 110
+ObjectTemplate.armor.hpLostWhileUpSideDown 90
+ObjectTemplate.armor.hpLostWhileInWater 75
+ObjectTemplate.armor.hpLostWhileInDeepWater 250
+ObjectTemplate.armor.hpLostWhileCriticalDamage 12
+ObjectTemplate.armor.waterDamageDelay 1
+ObjectTemplate.armor.deepWaterDamageDelay 0
+ObjectTemplate.armor.waterLevel 0.1
+ObjectTemplate.armor.deepWaterLevel 0.3
+ObjectTemplate.armor.explosionForce 10
+ObjectTemplate.armor.explosionForceMod 15
+ObjectTemplate.armor.explosionForceMax 5000
+ObjectTemplate.armor.explosionDamage 300
+ObjectTemplate.armor.explosionRadius 6
+ObjectTemplate.armor.explosionMaterial 101
+ObjectTemplate.armor.wreckExplosionForce 50
+ObjectTemplate.armor.wreckExplosionForceMax 60
+ObjectTemplate.armor.wreckExplosionDamage 50
+ObjectTemplate.armor.wreckExplosionRadius 2
+ObjectTemplate.armor.wreckExplosionMaterial 70
+ObjectTemplate.armor.wreckHitPoints 750
+ObjectTemplate.armor.timeToStayAsWreck 10
+ObjectTemplate.armor.criticalDamage 76
+ObjectTemplate.armor.addArmorEffect 50 e_dstate_land_lightsmoke 0/0.037/-1.78 0/0/0
+ObjectTemplate.armor.addArmorEffect 25 e_dstate_land_mediumsmoke 0/0.037/-1.78 0/0/0
+ObjectTemplate.armor.addArmorEffect 10 e_dstate_land_heavysmoke 0/0.037/-1.78 0/0/0
+ObjectTemplate.armor.addArmorEffect 0 e_vexp_armoredcar_small 0/0/0 0/0/0
+ObjectTemplate.armor.addArmorEffectSpectacular 0 e_vexp_faav 0/0/0 0/0/0
+ObjectTemplate.armor.addArmorEffectSpectacular 0 e_vexp_armoredcar_spec 0/0/0 0/0/0
+ObjectTemplate.armor.addArmorEffect 0 e_dstate_static_fire 0.324/0.618/-0.968 0/0/0
+ObjectTemplate.armor.addArmorEffect 0 e_sAmb_wreckfire -0.257/0.663/-1.721 0/0/0
+ObjectTemplate.armor.addArmorEffect -100 e_vexp_armoredcar_2nd 0/0/0 0/0/0
+rem ---EndComp ---
+rem ---BeginComp:Radio ---
+ObjectTemplate.createComponent Radio
+ObjectTemplate.Radio.spottedMessage vehicle_spotted
+rem ---EndComp ---
+rem ---BeginComp:VehicleHud ---
+ObjectTemplate.createComponent VehicleHud
+ObjectTemplate.vehicleHud.hudName "KILLMESSAGE_VEHICLE_faav"
+ObjectTemplate.vehicleHud.typeIcon Ingame\Vehicles\Icons\Hud\MenuIcons\menuIcon_jeep.tga
+ObjectTemplate.vehicleHud.miniMapIcon Ingame\Vehicles\Icons\Minimap\mini_jeep.tga
+ObjectTemplate.vehicleHud.miniMapIconLeaderSize Medium
+ObjectTemplate.vehicleHud.vehicleIconPos 34/9
+ObjectTemplate.vehicleHud.vehicleType 3
+ObjectTemplate.vehicleHud.useSelectionIcons 0
+ObjectTemplate.vehicleHud.vehicleIcon Ingame\Vehicles\Icons\Hud\VehicleIcons\faav.tga
+rem ---EndComp ---
+ObjectTemplate.geometry xpak2_faav
+ObjectTemplate.setCollisionMesh xpak2_faav
+ObjectTemplate.mapMaterial 0 Armor_1_metal_plating1 111
+ObjectTemplate.mapMaterial 1 light_armored_vehicle 26
+ObjectTemplate.mapMaterial 2 Plast1 26
+ObjectTemplate.mapMaterial 3 wreck 60
+ObjectTemplate.mapMaterial 4 Rubber 22
+ObjectTemplate.mapMaterial 5 Rubber 22
+ObjectTemplate.drag 1
+ObjectTemplate.mass 1000
+ObjectTemplate.gravityModifier 1.5
+ObjectTemplate.floaterMod 0.5
+ObjectTemplate.centerOfCollisionOffset 0/0.6/0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.aiTemplate FAAV
+rem -------------------------------------
+ObjectTemplate.addTemplate S_jeep_faav_Ambient
+ObjectTemplate.setPosition -0.289222/0.838259/-0.324456
+ObjectTemplate.addTemplate S_jeep_faav_AmbientDamaged
+ObjectTemplate.addTemplate xpak2_faav_EntryPoint
+ObjectTemplate.setPosition 0.0667405/-0.363235/-0.0816141
+ObjectTemplate.addTemplate antenna
+ObjectTemplate.setPosition 0.787328/-0.210045/-0.63636
+ObjectTemplate.addTemplate e_amphib_wake
+ObjectTemplate.setPosition 0.000121993/-0.540627/1.7419
+ObjectTemplate.addTemplate e_amphib_wake
+ObjectTemplate.setPosition 0.000121298/-0.602794/-1.87533
+ObjectTemplate.setRotation -180/0/0
+ObjectTemplate.addTemplate e_amphib_wake_sound
+ObjectTemplate.setPosition 0.000121993/-0.540627/0
+ObjectTemplate.addTemplate xpak2_faav_Cameramount
+ObjectTemplate.setPosition -0.308487/0.537277/-0.396103
+ObjectTemplate.addTemplate Car_horn
+ObjectTemplate.setPosition 0/0.0937172/1.72664
+ObjectTemplate.addTemplate LaserTarget_vehicle
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation -2.2/0.2/-1 0/0/0
+ObjectTemplate.altSoldierExitPosition 0/0.2/-3.2
+ObjectTemplate.exitSpeedMod 0.5
+ObjectTemplate.regulatePitchInput PIMouseLookY
+ObjectTemplate.regulatePitch -0.02/0.05
+ObjectTemplate.regulateRollInput PIYaw
+ObjectTemplate.regulateRoll -0.02/0.2
+ObjectTemplate.seatInformation xpak2_faav -0.275759/0.548476/-0.223104 0/0/0
+ObjectTemplate.seatAnimationSystem Objects/Vehicles/Land/JEEP_FAAV/3p_faav_driver_animSys.inc
+ObjectTemplate.cockpitSubGeom 1
+ObjectTemplate.sprintFactor 1
+ObjectTemplate.groundContactVolume 1
+ObjectTemplate.autoUseAbility 1
+ObjectTemplate.hasRestrictedExit 1
+ObjectTemplate.altSoldierExitPosition 0/0.2/-3.2
+ObjectTemplate.isOpenVehicle 1
+
+ObjectTemplate.activeSafe Sound S_jeep_faav_Ambient
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_jeep_faav_AmbientDamaged
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe RotationalBundle xpak2_faav_SteeringWheel
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.setNetworkableInfo BasicInfo
+rem ---BeginComp:Ik ---
+ObjectTemplate.createComponent Ik
+ObjectTemplate.ik.positionLeft -0.165017/-0.0401431/-0.416714
+ObjectTemplate.ik.rotationLeft -94.775/-2.18003/-58.2225
+ObjectTemplate.ik.poleVectorLeft -0.294253/-0.339534/-3.01003e-006
+ObjectTemplate.ik.positionRight 0.210801/-0.0352104/-0.410162
+ObjectTemplate.ik.rotationRight -114.531/21.6388/120.12
+ObjectTemplate.ik.poleVectorRight 0.148879/-0.231249/0.143271
+rem ---EndComp ---
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_faav_SteeringWheel_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/0/-60
+ObjectTemplate.setMaxRotation 0/0/60
+ObjectTemplate.setMaxSpeed 0/0/-100
+ObjectTemplate.setAcceleration 0/0/-200
+ObjectTemplate.setInputToRoll PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.regulateRoll -0.05/0.1
+
+ObjectTemplate.activeSafe Sound S_xpak2_faav_SteeringWheel_RotationRpm
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe PlayerControlObject xpak2_faav_rear_passenger
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.setNetworkableInfo BasicInfo
+rem ---BeginComp:VehicleHud ---
+ObjectTemplate.createComponent VehicleHud
+ObjectTemplate.vehicleHud.hudName "KILLMESSAGE_VEHICLE_faav"
+ObjectTemplate.vehicleHud.miniMapIconLeaderSize Medium
+ObjectTemplate.vehicleHud.vehicleIconPos 23/14
+ObjectTemplate.vehicleHud.useSelectionIcons 0
+ObjectTemplate.vehicleHud.vehicleIcon Ingame\Vehicles\Icons\Hud\VehicleIcons\faav.tga
+rem ---EndComp ---
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.aiTemplate FAAVGunner
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_faav_rear_passenger_Ambient
+ObjectTemplate.addTemplate S_xpak2_faav_rear_passenger_AmbientDamaged
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation 2/-1/-0.5 0/0/0
+ObjectTemplate.exitSpeedMod 0.5
+ObjectTemplate.seatInformation xpak2_faav_rear_passenger 0/0.27632/-0.615529 0/0/0
+ObjectTemplate.seatAnimationSystem Objects/Vehicles/Land/JEEP_FAAV/3p_faav_rear_animSys.inc
+ObjectTemplate.cockpitSubGeom 1
+ObjectTemplate.groundContactVolume 1
+ObjectTemplate.autoUseAbility 1
+ObjectTemplate.hasRestrictedExit 1
+ObjectTemplate.isOpenVehicle 1
+
+ObjectTemplate.activeSafe Sound S_JEEP_FAAV_rear_passenger_Ambient
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_JEEP_FAAV_rear_passenger_AmbientDamaged
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe RotationalBundle xpak2_faav_cupola
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_faav_cupola_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setMinRotation -40/0/0
+ObjectTemplate.setMaxRotation 40/0/0
+ObjectTemplate.setMaxSpeed 90/0/0
+ObjectTemplate.setAcceleration 5000/0/0
+ObjectTemplate.setInputToYaw PIMouseLookX
+ObjectTemplate.regulateYaw 0.15/-0.1
+
+ObjectTemplate.activeSafe Sound S_xpak2_faav_cupola_RotationRpm
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe RotationalBundle xpak2_faav_gunmount
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_faav_gunmount_RotationRpm
+ObjectTemplate.addTemplate xpak2_faav_Rearpassenger_Camera
+ObjectTemplate.setPosition 0/0.3/-0.45
+ObjectTemplate.addTemplate HMG_M2HB
+ObjectTemplate.setPosition -0.00172539/0.0461507/0.38679
+ObjectTemplate.addTemplate hmg_m2hb_ammobox
+ObjectTemplate.setPosition -0.225242/0.0236998/0.302575
+ObjectTemplate.setRotation 180/0/0
+ObjectTemplate.addTemplate hmg_m2hb_ammo
+ObjectTemplate.setPosition -0.0583101/0.114521/0.299702
+ObjectTemplate.setRotation 90/0/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/-35/0
+ObjectTemplate.setMaxRotation 0/10/0
+ObjectTemplate.setMaxSpeed 0/90/0
+ObjectTemplate.setAcceleration 0/5000/0
+ObjectTemplate.setInputToPitch PIMouseLookY
+ObjectTemplate.regulatePitch 0.15/-0.1
+
+ObjectTemplate.activeSafe Sound S_xpak2_faav_gunmount_RotationRpm
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.create Camera xpak2_faav_Rearpassenger_Camera
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_faav_Rearpassenger_Camera_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setMinRotation -1/-0.5/0
+ObjectTemplate.setMaxRotation 1/0.5/0
+ObjectTemplate.setPivotPosition 0/0/-2
+ObjectTemplate.setMaxSpeed 5/5/0
+ObjectTemplate.setAcceleration 2/1/0
+ObjectTemplate.setInputToYaw PIMouseLookX
+ObjectTemplate.setInputToPitch PIMouseLookY
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.followStiffness 6
+ObjectTemplate.chaseDistance 15
+ObjectTemplate.chaseAngle 0.15
+ObjectTemplate.chaseOffset 0/1/7
+ObjectTemplate.worldFOV 1.1
+ObjectTemplate.insideFOV 1.1
+ObjectTemplate.worldFOV 1.1
+ObjectTemplate.insideFOV 1.1
+ObjectTemplate.allowInsideDynamicLights 1
+ObjectTemplate.allowInsideStaticSun 0
+ObjectTemplate.insideStaticSunDirection 0/-1/0
+ObjectTemplate.insideStaticSunColor 1/1/1
+ObjectTemplate.insideStaticSunDamageColor 1/1/1
+ObjectTemplate.insideDamageFrequency 3
+ObjectTemplate.insideDamageThreshold 0.1
+ObjectTemplate.insideStaticSunAmbientColor 0.7/0.7/0.7
+
+ObjectTemplate.activeSafe Sound S_xpak2_faav_Rearpassenger_Camera_RotationRpm
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe PlayerControlObject xpak2_faav_Front_gun
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.setNetworkableInfo BasicInfo
+rem ---BeginComp:VehicleHud ---
+ObjectTemplate.createComponent VehicleHud
+ObjectTemplate.vehicleHud.hudName "KILLMESSAGE_VEHICLE_faav"
+ObjectTemplate.vehicleHud.miniMapIconLeaderSize Medium
+ObjectTemplate.vehicleHud.vehicleIconPos 34/18
+ObjectTemplate.vehicleHud.useSelectionIcons 0
+ObjectTemplate.vehicleHud.vehicleIcon Ingame\Vehicles\Icons\Hud\VehicleIcons\faav.tga
+rem ---EndComp ---
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.aiTemplate FAAVFrontGun
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_faav_Front_gun_Ambient
+ObjectTemplate.addTemplate S_xpak2_faav_Front_gun_AmbientDamaged
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation 2.2/0.2/-1 0/0/0
+ObjectTemplate.exitSpeedMod 0.5
+ObjectTemplate.seatInformation xpak2_faav_Front_gun -0.013305/0.393572/-0.604471 0/0/0
+ObjectTemplate.seatAnimationSystem Objects/Vehicles/Land/JEEP_FAAV/3p_faav_codriver_gunner_animSys.inc
+ObjectTemplate.cockpitSubGeom 1
+ObjectTemplate.groundContactVolume 1
+ObjectTemplate.hasRestrictedExit 1
+ObjectTemplate.isOpenVehicle 1
+
+ObjectTemplate.activeSafe Sound S_xpak2_faav_Front_gun_Ambient
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_xpak2_faav_Front_gun_AmbientDamaged
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe RotationalBundle xpak2_faav_Front_gunpos
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_faav_Front_gunpos_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setMinRotation -30/0/0
+ObjectTemplate.setMaxRotation 30/0/0
+ObjectTemplate.setMaxSpeed 90/0/0
+ObjectTemplate.setAcceleration 5000/0/0
+ObjectTemplate.setInputToYaw PIMouseLookX
+ObjectTemplate.regulateYaw 0.15/-0.1
+
+ObjectTemplate.activeSafe Sound S_xpak2_faav_Front_gunpos_RotationRpm
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe RotationalBundle xpak2_faav_Front_gunbase
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_faav_Front_gunbase_RotationRpm
+rem -------------------------------------
+
+ObjectTemplate.activeSafe Sound S_xpak2_faav_Front_gunbase_RotationRpm
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe RotationalBundle xpak2_faav_Front_gunmount
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.hasRelativeOffset 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_faav_Front_gunmount_RotationRpm
+ObjectTemplate.addTemplate uslmg_m249saw_stationary
+ObjectTemplate.addTemplate xpak2_faav_front_gun_Camera
+ObjectTemplate.setPosition 0/0.18/-0.55
+ObjectTemplate.addTemplate m249saw_ammo
+ObjectTemplate.setPosition 0.0430148/0.0158373/-0.2003
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/-12/0
+ObjectTemplate.setMaxRotation 0/27/0
+ObjectTemplate.setMaxSpeed 0/90/0
+ObjectTemplate.setAcceleration 0/5000/0
+ObjectTemplate.setInputToPitch PIMouseLookY
+ObjectTemplate.regulatePitch 0.15/-0.1
+ObjectTemplate.restoreRotationOnExit 1
+
+ObjectTemplate.activeSafe Sound S_xpak2_faav_Front_gunmount_RotationRpm
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.create Camera xpak2_faav_front_gun_Camera
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_faav_front_gun_Camera_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setMinRotation -1/-0.5/0
+ObjectTemplate.setMaxRotation 1/0.5/0
+ObjectTemplate.setPivotPosition 0/0/-0.5
+ObjectTemplate.setMaxSpeed 5/5/0
+ObjectTemplate.setAcceleration 2/1/0
+ObjectTemplate.setInputToYaw PIMouseLookX
+ObjectTemplate.setInputToPitch PIMouseLookY
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.followStiffness 6
+ObjectTemplate.chaseDistance 15
+ObjectTemplate.chaseAngle 0.15
+ObjectTemplate.chaseOffset 0/1/7
+ObjectTemplate.worldFOV 1.1
+ObjectTemplate.insideFOV 1.1
+ObjectTemplate.worldFOV 1.1
+ObjectTemplate.insideFOV 1.1
+ObjectTemplate.allowInsideDynamicLights 1
+ObjectTemplate.allowInsideStaticSun 0
+ObjectTemplate.insideStaticSunDirection -0.25/-0.5/0.75
+ObjectTemplate.insideStaticSunColor 1/1/1
+ObjectTemplate.insideStaticSunDamageColor 1/0/0
+ObjectTemplate.insideDamageFrequency 3
+ObjectTemplate.insideDamageThreshold 0.1
+ObjectTemplate.insideStaticSunAmbientColor 0.7/0.7/0.7
+
+ObjectTemplate.activeSafe Sound S_xpak2_faav_front_gun_Camera_RotationRpm
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Engine xpak2_faav_Engine
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_faav_Engine_RotationRpm
+ObjectTemplate.addTemplate S_xpak2_faav_Engine_Idle
+ObjectTemplate.setPosition 0/0/0.339842
+ObjectTemplate.addTemplate S_xpak2_faav_Engine_Rpm1
+ObjectTemplate.setPosition 0/0/0.329149
+ObjectTemplate.addTemplate S_xpak2_faav_Engine_Rpm2
+ObjectTemplate.setPosition 0/0/0.296669
+ObjectTemplate.addTemplate S_xpak2_faav_Engine_Load
+ObjectTemplate.setPosition 0/0/0.296761
+ObjectTemplate.addTemplate e_exhaust_small
+ObjectTemplate.setPosition -0.403987/0.675184/-2.05054
+ObjectTemplate.addTemplate e_exhaust_small_startup
+ObjectTemplate.setPosition -0.404/0.675/-2.051
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/0/-1
+ObjectTemplate.setMaxRotation 0/0/1
+ObjectTemplate.setMaxSpeed 0/0/10000
+ObjectTemplate.setAcceleration 0/0/10
+ObjectTemplate.setInputToRoll PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETNewCar2
+ObjectTemplate.setTorque 300
+ObjectTemplate.setDifferential 2
+ObjectTemplate.setNumberOfGears 5
+ObjectTemplate.setGearUp 0.85
+ObjectTemplate.setGearDown 0.5
+ObjectTemplate.setGearChangeTime 0.7
+ObjectTemplate.setGearRatios 2.66 1.78 1.3 1 0.74 
+ObjectTemplate.spinWhenNoEngineInAir 1
+ObjectTemplate.newCar2.minRpm 1000
+ObjectTemplate.newCar2.maxRpm 4000
+ObjectTemplate.newCar2.useClutchedTorque 0
+ObjectTemplate.newCar2.wheelInertia 25
+ObjectTemplate.newCar2.engineFeedbackMod 0.4
+ObjectTemplate.newCar2.brakeTorque 2000
+ObjectTemplate.newCar2.engineBrakeTorque 750
+ObjectTemplate.newCar2.frictionTorque 100
+ObjectTemplate.newCar2.frictionMod 1.5
+ObjectTemplate.newCar2.slopeTorqueMod 0.75
+ObjectTemplate.newCar2.wheelLongFrictionMod 1
+ObjectTemplate.newCar2.wheelLongDriveFrictionMod 1.6
+ObjectTemplate.newCar2.wheelLongPeakAt 0.1
+ObjectTemplate.newCar2.wheelLongMinDynamicFriction 0.7
+ObjectTemplate.newCar2.wheelLongScale 0.05
+ObjectTemplate.newCar2.wheelLatFrictionMod 1.3
+ObjectTemplate.newCar2.wheelLatDriveFrictionMod 0.4
+ObjectTemplate.newCar2.wheelLatPeakAt 0.1
+ObjectTemplate.newCar2.wheelLatMinDynamicFriction 0.7
+ObjectTemplate.newCar2.wheelLatScale 0.05
+ObjectTemplate.audio.newStyleAudio 1
+
+ObjectTemplate.activeSafe Sound S_xpak2_faav_Engine_RotationRpm
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_xpak2_faav_Engine_Idle
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/vehicles/land/jeep_faav/sounds/start_idle_stop.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 2
+ObjectTemplate.volume 0.65
+ObjectTemplate.pitch 1.4
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.pitchEnvelope 0/1/0/1.5/0/2/0.003861/0.718147/0/0.861004/1.5/0/
+ObjectTemplate.volumeEnvelope 0/1/0/1/0/3/0.003861/0.637066/0/0.281853/0.583012/0/0.996139/0/0/
+ObjectTemplate.position 0/0/0.339842
+ObjectTemplate.minDistance 3
+ObjectTemplate.halfVolumeDistance 6
+ObjectTemplate.soundRadius 1.5
+
+ObjectTemplate.activeSafe Sound S_xpak2_faav_Engine_Rpm1
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/vehicles/land/jeep_faav/sounds/rpm_unload.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.64
+ObjectTemplate.pitch 0.35
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.pitchEnvelope 0/1/0/1.5/0/2/0.003861/0.608108/0/0.988417/1.5/0/
+ObjectTemplate.volumeEnvelope 0/1/0/1/0/3/0/0/0/0.162162/0.722008/0/0.996139/0.895753/0/
+ObjectTemplate.position 0/0/0.329149
+ObjectTemplate.minDistance 3
+ObjectTemplate.halfVolumeDistance 6
+ObjectTemplate.soundRadius 1.5
+
+ObjectTemplate.activeSafe Sound S_xpak2_faav_Engine_Rpm2
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/vehicles/land/jeep_faav/sounds/rpm_load.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.72
+ObjectTemplate.pitch 1.4
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.pitchEnvelope 0/1/0/1.5/0/2/0.003861/0.608108/0/0.988417/1.5/0/
+ObjectTemplate.volumeEnvelope 0/1/0/1/0/3/0.003861/0/0/0.328185/0.694981/0/0.988417/1/0/
+ObjectTemplate.position 0/0/0.296669
+ObjectTemplate.minDistance 3
+ObjectTemplate.halfVolumeDistance 6
+ObjectTemplate.soundRadius 1.5
+
+ObjectTemplate.activeSafe Sound S_xpak2_faav_Engine_Load
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/vehicles/common/sound/gear_shift_01.wav,objects/vehicles/common/sound/gear_shift_01.wav,objects/vehicles/common/sound/gear_shift_02.wav,objects/vehicles/common/sound/gear_shift_03.wav,objects/vehicles/common/sound/gear_shift_04.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.4
+ObjectTemplate.pitch 1.5
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.position 0/0/0.296761
+ObjectTemplate.minDistance 2
+ObjectTemplate.halfVolumeDistance 2.5
+ObjectTemplate.soundRadius 1.5
+
+ObjectTemplate.activeSafe Spring xpak2_faav_Wheel_RB
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.grip 8
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_faav_Wheel_RB_Rotation
+ObjectTemplate.addTemplate web_wheelBig
+ObjectTemplate.addTemplate web_wheelBigSmoke
+rem -------------------------------------
+ObjectTemplate.setStrength 30
+ObjectTemplate.setDamping 5
+
+ObjectTemplate.activeSafe Sound S_xpak2_faav_Wheel_RB_Rotation
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Spring xpak2_faav_Wheel_LB
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.grip 8
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_faav_Wheel_LB_Rotation
+ObjectTemplate.addTemplate web_wheelBig
+rem -------------------------------------
+ObjectTemplate.setStrength 30
+ObjectTemplate.setDamping 5
+
+ObjectTemplate.activeSafe Sound S_xpak2_faav_Wheel_LB_Rotation
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe RotationalBundle xpak2_faav_nav_RF
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_faav_nav_RF_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setMinRotation -30/0/0
+ObjectTemplate.setMaxRotation 30/0/0
+ObjectTemplate.setMaxSpeed 1/0/0
+ObjectTemplate.setAcceleration 100/0/0
+ObjectTemplate.setInputToYaw PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.snapToZeroOnNoInput 1
+
+ObjectTemplate.activeSafe Sound S_xpak2_faav_nav_RF_RotationRpm
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Spring xpak2_faav_Wheel_RF
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.grip 4
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_faav_Wheel_RF_Rotation
+ObjectTemplate.addTemplate web_wheelBig
+rem -------------------------------------
+ObjectTemplate.setStrength 25
+ObjectTemplate.setDamping 5
+
+ObjectTemplate.activeSafe Sound S_xpak2_faav_Wheel_RF_Rotation
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe RotationalBundle xpak2_faav_nav_LF
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_faav_nav_LF_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setMinRotation -30/0/0
+ObjectTemplate.setMaxRotation 30/0/0
+ObjectTemplate.setMaxSpeed 1/0/0
+ObjectTemplate.setAcceleration 100/0/0
+ObjectTemplate.setInputToYaw PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.snapToZeroOnNoInput 1
+
+ObjectTemplate.activeSafe Sound S_xpak2_faav_nav_LF_RotationRpm
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Spring xpak2_faav_Wheel_LF
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.grip 4
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_faav_Wheel_LF_Rotation
+ObjectTemplate.addTemplate web_wheelBig
+rem -------------------------------------
+ObjectTemplate.setStrength 25
+ObjectTemplate.setDamping 5
+
+ObjectTemplate.activeSafe Sound S_xpak2_faav_Wheel_LF_Rotation
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.create EntryPoint xpak2_faav_EntryPoint
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setEntryRadius 3.25
+
+ObjectTemplate.create RotationalBundle xpak2_faav_Cameramount
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_faav_Cameramount_RotationRpm
+ObjectTemplate.addTemplate xpak2_faav_PilotCamera
+ObjectTemplate.setPosition 0/0.1/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/0/-15
+ObjectTemplate.setMaxRotation 0/0/15
+ObjectTemplate.setMaxSpeed 0/0/500
+ObjectTemplate.setAcceleration 0/0/500
+ObjectTemplate.setInputToRoll PIRoll
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.regulateRoll 0.1/-0.1
+
+ObjectTemplate.activeSafe Sound S_xpak2_faav_Cameramount_RotationRpm
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.create Camera xpak2_faav_PilotCamera
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_faav_PilotCamera_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setMinRotation -120/-20/0
+ObjectTemplate.setMaxRotation 120/20/0
+ObjectTemplate.setMaxSpeed 90/90/0
+ObjectTemplate.setAcceleration 5000/5000/0
+ObjectTemplate.setInputToYaw PIMouseLookX
+ObjectTemplate.setInputToPitch PIMouseLookY
+ObjectTemplate.regulatePitch 0.1/-0.1
+ObjectTemplate.restoreRotationOnExit 1
+ObjectTemplate.cameraShakeStartSpeed 20
+ObjectTemplate.cameraShakeMaxSpeed 30
+ObjectTemplate.bounceLength 0.1
+ObjectTemplate.bounceStrength 15
+ObjectTemplate.bounceDamping 15
+ObjectTemplate.followStiffness 6
+ObjectTemplate.chaseDistance 15
+ObjectTemplate.chaseAngle 0.15
+ObjectTemplate.chaseOffset 0/1/7
+ObjectTemplate.worldFOV 1.1
+ObjectTemplate.insideFOV 1.1
+ObjectTemplate.worldFOV 1.1
+ObjectTemplate.insideFOV 1.1
+ObjectTemplate.allowInsideDynamicLights 1
+ObjectTemplate.allowInsideStaticSun 0
+ObjectTemplate.insideStaticSunDirection 0/-1/0
+ObjectTemplate.insideStaticSunColor 1/1/1
+ObjectTemplate.insideStaticSunDamageColor 1/1/1
+ObjectTemplate.insideDamageFrequency 3
+ObjectTemplate.insideDamageThreshold 0.1
+ObjectTemplate.insideStaticSunAmbientColor 0.7/0.7/0.7
+
+ObjectTemplate.activeSafe Sound S_xpak2_faav_PilotCamera_RotationRpm
+ObjectTemplate.modifiedByUser "armandoma"
+

@@ -1,0 +1,1562 @@
+rem *** Generated with Bf2Editor.exe [created: 2006/3/8 6:53]
+GeometryTemplate.setSubGeometryLodDistance 1 0 15
+GeometryTemplate.setSubGeometryLodDistance 1 1 30
+GeometryTemplate.setSubGeometryLodDistance 1 2 95
+GeometryTemplate.setMaterialReflectionScale 1 0 0 0.4
+GeometryTemplate.setMaterialReflectionScale 1 0 1 0
+GeometryTemplate.setMaterialReflectionScale 1 0 2 1.2
+GeometryTemplate.setMaterialReflectionScale 1 0 3 1
+GeometryTemplate.setMaterialReflectionScale 1 1 2 1
+GeometryTemplate.setMaterialReflectionScale 1 2 0 0
+GeometryTemplate.setMaterialReflectionScale 1 2 1 0
+GeometryTemplate.setSpecularStaticGloss 1 0 0 0
+GeometryTemplate.setSpecularStaticGloss 1 0 1 0
+GeometryTemplate.setSpecularStaticGloss 1 0 2 0
+GeometryTemplate.setSpecularStaticGloss 1 0 3 2.5
+GeometryTemplate.setSpecularStaticGloss 1 1 1 1.2
+GeometryTemplate.setSpecularStaticGloss 1 1 2 2.5
+GeometryTemplate.setSpecularStaticGloss 1 2 0 2
+GeometryTemplate.setSpecularStaticGloss 1 2 1 2.5
+GeometryTemplate.setSpecularStaticGloss 1 2 2 2.5
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+ObjectTemplate.activeSafe PlayerControlObject xpak2_tiger
+ObjectTemplate.creator JEFFO:jeffev
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.castsDynamicShadow 1
+rem ---BeginComp:Armor ---
+ObjectTemplate.createComponent Armor
+ObjectTemplate.armor.maxHitPoints 875
+ObjectTemplate.armor.hitPoints 875
+ObjectTemplate.armor.defaultMaterial 31
+ObjectTemplate.armor.hpLostWhileUpSideDown 350
+ObjectTemplate.armor.hpLostWhileInWater 500
+ObjectTemplate.armor.hpLostWhileInDeepWater 500
+ObjectTemplate.armor.hpLostWhileCriticalDamage 18
+ObjectTemplate.armor.waterDamageDelay 0.01
+ObjectTemplate.armor.deepWaterDamageDelay 0.01
+ObjectTemplate.armor.waterLevel -0.5
+ObjectTemplate.armor.explosionForce 15
+ObjectTemplate.armor.explosionForceMod 8
+ObjectTemplate.armor.explosionForceMax 5000
+ObjectTemplate.armor.explosionDamage 400
+ObjectTemplate.armor.explosionRadius 15
+ObjectTemplate.armor.explosionMaterial 100
+ObjectTemplate.armor.wreckExplosionForce 7
+ObjectTemplate.armor.wreckExplosionDamage 200
+ObjectTemplate.armor.wreckExplosionRadius 5
+ObjectTemplate.armor.wreckExplosionMaterial 70
+ObjectTemplate.armor.wreckHitPoints 1000
+ObjectTemplate.armor.timeToStayAsWreck 10
+ObjectTemplate.armor.criticalDamage 101
+ObjectTemplate.armor.destroyOnSpectacularDeath 1
+ObjectTemplate.armor.addArmorEffect 0 e_vexp_heli_Generic 0/0/0 0/0/0
+ObjectTemplate.armor.addArmorEffectSpectacular 0 e_vexp_cobra 0/0/0 0/0/0
+ObjectTemplate.armor.addArmorEffectSpectacular 0 e_vexp_heli_Generic_spec 0/0/0 0/0/0
+ObjectTemplate.armor.addArmorEffect 60 e_dstate_heli_lightsmoke 0.25/0.83164/-2.95 0/0/0
+ObjectTemplate.armor.addArmorEffect 35 e_dstate_heli_heavysmoke 0.25/0.805788/-2.95 0/0/0
+ObjectTemplate.armor.addArmorEffect 10 e_dstate_heli_firesmoke 0.25/0.871236/-2.95 0/0/0
+ObjectTemplate.armor.addArmorEffect -20 e_dstate_heli_wrecksmoke 0/0/0 0/0/0
+ObjectTemplate.armor.addArmorEffect -100 e_vexp_heli_generic_2nd 0/0/0 0/0/0
+rem ---EndComp ---
+rem ---BeginComp:Radio ---
+ObjectTemplate.createComponent Radio
+ObjectTemplate.Radio.spottedMessage heli_spotted
+rem ---EndComp ---
+rem ---BeginComp:VehicleHud ---
+ObjectTemplate.createComponent VehicleHud
+ObjectTemplate.vehicleHud.hudName "KILLMESSAGE_VEHICLE_tiger"
+ObjectTemplate.vehicleHud.typeIcon Ingame\Vehicles\Icons\Hud\MenuIcons\menuIcon_chopper.tga
+ObjectTemplate.vehicleHud.miniMapIcon Ingame\Vehicles\Icons\Minimap\mini_attack_Heli.tga
+ObjectTemplate.vehicleHud.miniMapIconLeaderSize Medium
+ObjectTemplate.vehicleHud.vehicleIconPos 56/14
+ObjectTemplate.vehicleHud.vehicleType 2
+ObjectTemplate.vehicleHud.useSelectionIcons 0
+ObjectTemplate.vehicleHud.vehicleIcon Ingame\Vehicles\Icons\Hud\VehicleIcons\xpak2_tiger.tga
+rem ---EndComp ---
+rem ---BeginComp:WarningHud ---
+ObjectTemplate.createComponent WarningHud
+ObjectTemplate.WarningHud.warningType 2
+ObjectTemplate.WarningHud.firstWarningSound HUD_Heatseeker_Track_Warning
+ObjectTemplate.WarningHud.secondWarningSound HUD_Heatseeker_Lock_Warning
+ObjectTemplate.WarningHud.warningIcon Ingame\GeneralIcons\Action_Icons\large_laserLockIcon.tga
+rem ---EndComp ---
+rem ---BeginComp:HelpHud ---
+ObjectTemplate.createComponent HelpHud
+ObjectTemplate.HelpHud.helpStringKey "HUD_HELP_VEHICLE_HELO_PILOT_CONTROLS_deployFlares"
+ObjectTemplate.HelpHud.helpSoundKey "HUD_HELP_VEHICLE_HELO_PILOT_CONTROLS_deployFlares"
+ObjectTemplate.HelpHud.lowArmorHelpSoundKey "HUD_HELP_VEHICLE_HELO_LOWHEALTH_useFriendlyRepairStation"
+ObjectTemplate.HelpHud.lowArmorHelpStringKey "HUD_HELP_VEHICLE_HELO_LOWHEALTH_useFriendlyRepairStation"
+rem ---EndComp ---
+ObjectTemplate.geometry xpak2_tiger
+ObjectTemplate.setCollisionMesh xpak2_tiger
+ObjectTemplate.mapMaterial 0 col_chopper 31
+ObjectTemplate.mapMaterial 1 col_glass 1006
+ObjectTemplate.mapMaterial 2 col_chopperWeak 31
+ObjectTemplate.mapMaterial 3 col_wreck 60
+ObjectTemplate.mapMaterial 4 col_rubber 102
+ObjectTemplate.drag 2
+ObjectTemplate.dragModifier 1/1/0.75
+ObjectTemplate.mass 6500
+ObjectTemplate.floaterMod 0.8
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.aiTemplate Ahe_Ah1z
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_tiger_Ambient
+ObjectTemplate.addTemplate S_xpak2_tiger_AmbientDamaged
+ObjectTemplate.addTemplate xpak2_tiger_mainrotor
+ObjectTemplate.setPosition 0/1.22988/-0.0302862
+ObjectTemplate.addTemplate xpak2_tiger_rearrotor
+ObjectTemplate.setPosition 0.38945/0.49518/-8.00131
+ObjectTemplate.setRotation 0/90/0
+ObjectTemplate.addTemplate xpak2_tiger_EngPivot1
+ObjectTemplate.setPosition 0/-20/0
+ObjectTemplate.addTemplate HeatObject
+ObjectTemplate.setPosition -1.05327e-005/-0.655773/-0.561557
+ObjectTemplate.addTemplate xpak2_tiger_EngineRear
+ObjectTemplate.setPosition 0/0/-8
+ObjectTemplate.setRotation -90/0/0
+ObjectTemplate.addTemplate xpak2_tiger_Camera
+ObjectTemplate.setPosition 2.67174e-010/0.246415/1.26423
+ObjectTemplate.addTemplate xpak2_tiger_EP
+ObjectTemplate.setPosition 0/-0.716865/2.00189
+ObjectTemplate.addTemplate xpak2_tiger_WingL
+ObjectTemplate.setPosition -1/0/1
+ObjectTemplate.setRotation 0/0/-10
+ObjectTemplate.addTemplate xpak2_tiger_WingR
+ObjectTemplate.setPosition 1/0/1
+ObjectTemplate.setRotation 0/0/10
+ObjectTemplate.addTemplate xpak2_tiger_Missiles
+ObjectTemplate.addTemplate xpak2_tiger_BodyWingVertical
+ObjectTemplate.setRotation 0/0/-90
+ObjectTemplate.addTemplate xpak2_tiger_Rudder
+ObjectTemplate.setPosition 0/0/-8
+ObjectTemplate.setRotation 0/0/-90
+ObjectTemplate.addTemplate xpak2_tiger_FlareLauncher
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation -4/1/2 0/0/0
+ObjectTemplate.regulateYawInput PIYaw
+ObjectTemplate.regulateYaw -0.2/0.2
+ObjectTemplate.regulateVerticalPosInput PIThrottle
+ObjectTemplate.regulateVerticalPos -0.5/2
+ObjectTemplate.maxVertRegAngle 35
+ObjectTemplate.noVertRegAngle 55
+ObjectTemplate.seatInformation xpak2_tiger -0.0500473/0.0458405/1.52726 0/0/0
+ObjectTemplate.seatAnimationSystem Objects/Vehicles/Common/Animations/3p_aircraftPilot_A_animSys.inc
+ObjectTemplate.soundFilter heli
+ObjectTemplate.sprintFactor 0
+ObjectTemplate.vehicleCategory VCHelicopter
+ObjectTemplate.listenerObstruction 0.5
+ObjectTemplate.damagedAmbientSoundLimit 0.15
+ObjectTemplate.crewKitIndex 9
+ObjectTemplate.autoUseAbility 1
+ObjectTemplate.hasRestrictedExit 1
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_Ambient
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/vehicles/air/ahe_ah1z/sounds/helicopter_ambloop.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.72
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_AmbientDamaged
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/effects/sounds/damagestates/fire_alarm.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.55
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+
+ObjectTemplate.activeSafe Spring xpak2_tiger_wheelFR
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_tiger_wheelFR_Rotation
+rem -------------------------------------
+ObjectTemplate.setStrength 80
+ObjectTemplate.setDamping 5
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_wheelFR_Rotation
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Spring xpak2_tiger_wheelFL
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_tiger_wheelFL_Rotation
+rem -------------------------------------
+ObjectTemplate.setStrength 80
+ObjectTemplate.setDamping 5
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_wheelFL_Rotation
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Spring xpak2_tiger_wheelRR
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_tiger_wheelRR_Rotation
+rem -------------------------------------
+ObjectTemplate.setStrength 17
+ObjectTemplate.setDamping 5
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_wheelRR_Rotation
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe RotationalBundle xpak2_tiger_joystick
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_tiger_joystick_RotationRpm
+ObjectTemplate.addTemplate xpak2_tiger_Pilot_IK
+rem -------------------------------------
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_joystick_RotationRpm
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.create RotationalBundle xpak2_tiger_Pilot_IK
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.createdInEditor 1
+rem ---BeginComp:Ik ---
+ObjectTemplate.createComponent Ik
+ObjectTemplate.ik.positionLeft -0.0782072/2.83283/0.746133
+ObjectTemplate.ik.rotationLeft -64.9784/-4.05597/-84.2402
+ObjectTemplate.ik.poleVectorLeft -0.284388/0/0
+ObjectTemplate.ik.positionRight 0.0231135/2.815/0.735758
+ObjectTemplate.ik.rotationRight -99.4952/16.7702/105.721
+rem ---EndComp ---
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_tiger_Pilot_IK_RotationRpm
+rem -------------------------------------
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_Pilot_IK_RotationRpm
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe PlayerControlObject xpak2_tiger_gunner
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.setNetworkableInfo BasicInfo
+rem ---BeginComp:VehicleHud ---
+ObjectTemplate.createComponent VehicleHud
+ObjectTemplate.vehicleHud.hudName "KILLMESSAGE_VEHICLE_tiger"
+ObjectTemplate.vehicleHud.miniMapIconLeaderSize Medium
+ObjectTemplate.vehicleHud.showOnCamMode 2
+ObjectTemplate.vehicleHud.vehicleIconPos 64/14
+ObjectTemplate.vehicleHud.useSelectionIcons 0
+rem ---EndComp ---
+rem ---BeginComp:WarningHud ---
+ObjectTemplate.createComponent WarningHud
+ObjectTemplate.WarningHud.warningType 2
+ObjectTemplate.WarningHud.firstWarningSound HUD_Heatseeker_Track_Warning
+ObjectTemplate.WarningHud.secondWarningSound HUD_Heatseeker_Lock_Warning
+ObjectTemplate.WarningHud.warningIcon Ingame\GeneralIcons\Action_Icons\large_laserLockIcon.tga
+rem ---EndComp ---
+rem ---BeginComp:HelpHud ---
+ObjectTemplate.createComponent HelpHud
+ObjectTemplate.HelpHud.helpStringKey "HUD_HELP_VEHICLE_HELO_PASSENGER_CONTROLS_switchToGuidedMissiles"
+ObjectTemplate.HelpHud.helpSoundKey "switchToGuidedMissiles"
+rem ---EndComp ---
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.aiTemplate Ahe_Ah1z_Gunner
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_tiger_gunner_Ambient
+ObjectTemplate.addTemplate S_xpak2_tiger_gunner_AmbientDamaged
+ObjectTemplate.addTemplate xpak2_Tiger_Hellfire_TV
+ObjectTemplate.setPosition 1.5659/-0.150873/-1.53705
+ObjectTemplate.setRotation 0/3.5/0
+ObjectTemplate.addTemplate xpak2_tiger_CameraHellfireCam
+ObjectTemplate.setPosition 1.58178/-0.175712/-1.69516
+ObjectTemplate.setRotation 0/6/0
+ObjectTemplate.addTemplate xpak2_tiger_gunner_EP
+ObjectTemplate.addTemplate xpak2_tiger_CameraMount
+ObjectTemplate.setPosition 0.00640724/0.738935/-0.189792
+ObjectTemplate.setRotation -2.42999/0/0
+ObjectTemplate.addTemplate xpak2_tiger_CoPilot_IK
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation 4/1/2 0/0/0
+ObjectTemplate.seatInformation xpak2_tiger_gunner 0/0.599874/0.211483 0/0/0
+ObjectTemplate.seatAnimationSystem Objects/Vehicles/Common/Animations/3p_aircraftCoPilot_B_animSys.inc
+ObjectTemplate.soundFilter heli
+ObjectTemplate.specialToggleWeaponInput PIAltFire
+ObjectTemplate.vehicleCategory VCHelicopter
+ObjectTemplate.controlsCategory VCLand
+ObjectTemplate.listenerObstruction 0.5
+ObjectTemplate.damagedAmbientSoundLimit 0.15
+ObjectTemplate.crewKitIndex 9
+ObjectTemplate.autoUseAbility 1
+ObjectTemplate.hasRestrictedExit 1
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_gunner_Ambient
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/vehicles/air/ahe_ah1z/sounds/helicopter_ambloop.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.65
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_gunner_AmbientDamaged
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/effects/sounds/damagestates/fire_alarm.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.55
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+
+ObjectTemplate.activeSafe RotationalBundle xpak2_tiger_GunSensor
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_tiger_GunSensor_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setMinRotation -75/0/0
+ObjectTemplate.setMaxRotation 75/0/0
+ObjectTemplate.setMaxSpeed 90/0/0
+ObjectTemplate.setAcceleration 5000/0/0
+ObjectTemplate.setInputToYaw PIMouseLookX
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_GunSensor_RotationRpm
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe RotationalBundle xpak2_tiger_gunmount
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_tiger_gunmount_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setMinRotation -75/0/0
+ObjectTemplate.setMaxRotation 75/0/0
+ObjectTemplate.setMaxSpeed 90/0/0
+ObjectTemplate.setAcceleration 5000/0/0
+ObjectTemplate.setInputToYaw PIMouseLookX
+ObjectTemplate.regulatePitch 0.15/-0.1
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_gunmount_RotationRpm
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe RotationalBundle xpak2_tiger_frontgunpivot
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_tiger_frontgunpivot_RotationRpm
+ObjectTemplate.addTemplate xpak2_tiger_Gun
+ObjectTemplate.setPosition 0/0/1.34183
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/-15/0
+ObjectTemplate.setMaxRotation 0/55/0
+ObjectTemplate.setMaxSpeed 0/90/0
+ObjectTemplate.setAcceleration 0/5000/0
+ObjectTemplate.setInputToPitch PIMouseLookY
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_frontgunpivot_RotationRpm
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.create GenericFireArm xpak2_tiger_Gun
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.castsDynamicShadow 1
+rem ---BeginComp:WeaponHud ---
+ObjectTemplate.createComponent WeaponHud
+ObjectTemplate.weaponHud.weaponIcon Ingame\Weapons\Icons\Hud\bomb.tga
+ObjectTemplate.weaponHud.selectIcon Ingame\Weapons\Icons\Hud\Selection\Cobra_gun.tga
+ObjectTemplate.weaponHud.hudName "20MM GUN"
+ObjectTemplate.weaponHud.guiIndex 26
+ObjectTemplate.weaponHud.hasFireRate 0
+ObjectTemplate.weaponHud.addShowOnCamMode 2
+ObjectTemplate.weaponHud.showClips 0
+ObjectTemplate.weaponHud.displaySelectOnActivation 1
+ObjectTemplate.weaponHud.overheatSound S_Weapon_Vehicle_Overheat
+rem ---EndComp ---
+rem ---BeginComp:SingleFireComp ---
+ObjectTemplate.createComponent SingleFireComp
+ObjectTemplate.fire.roundsPerMinute 300
+ObjectTemplate.fire.fireInCameraDof 1
+rem ---EndComp ---
+rem ---BeginComp:DefaultAmmoComp ---
+ObjectTemplate.createComponent DefaultAmmoComp
+ObjectTemplate.ammo.nrOfMags -1
+ObjectTemplate.ammo.magSize 450
+ObjectTemplate.ammo.reloadTime 8
+ObjectTemplate.ammo.autoReload 1
+ObjectTemplate.ammo.reloadWithoutPlayer 1
+rem ---EndComp ---
+rem ---BeginComp:WeaponBasedRecoilComp ---
+ObjectTemplate.createComponent WeaponBasedRecoilComp
+ObjectTemplate.recoil.cameraRecoilSpeed 8
+ObjectTemplate.recoil.cameraRecoilSize 0.3
+rem ---EndComp ---
+rem ---BeginComp:SimpleDeviationComp ---
+ObjectTemplate.createComponent SimpleDeviationComp
+ObjectTemplate.deviation.minDev 0.25
+rem ---EndComp ---
+rem ---BeginComp:DefaultSoundComp ---
+ObjectTemplate.createComponent DefaultSoundComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultAnimationComp ---
+ObjectTemplate.createComponent DefaultAnimationComp
+rem ---EndComp ---
+rem ---BeginComp:ToggleCameraComp ---
+ObjectTemplate.createComponent ToggleCameraComp
+ObjectTemplate.zoom.startCameraId 0
+ObjectTemplate.zoom.startCameraViewMode 1
+rem ---EndComp ---
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.aiTemplate Ahe_Havoc_Gun
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_tiger_Gun_Fire1P
+ObjectTemplate.addTemplate S_xpak2_tiger_Gun_Fire1P_Outdoor
+ObjectTemplate.addTemplate S_xpak2_tiger_Gun_Fire3P
+ObjectTemplate.addTemplate S_xpak2_tiger_Gun_BoltClick
+ObjectTemplate.addTemplate S_xpak2_tiger_Gun_TriggerClick
+ObjectTemplate.addTemplate S_xpak2_tiger_Gun_SwitchFireRate
+ObjectTemplate.addTemplate S_xpak2_tiger_Gun_Reload1P
+ObjectTemplate.addTemplate S_xpak2_tiger_Gun_Reload3P
+ObjectTemplate.addTemplate S_xpak2_tiger_Gun_Deploy1P
+ObjectTemplate.addTemplate S_xpak2_tiger_Gun_Deploy3P
+ObjectTemplate.addTemplate S_xpak2_tiger_Gun_Zoom
+ObjectTemplate.addTemplate e_muzz_25mm
+rem -------------------------------------
+ObjectTemplate.projectileTemplate xpak2_tiger_Gun_Projectile
+ObjectTemplate.keepProjectiles 5
+ObjectTemplate.velocity 400
+ObjectTemplate.itemIndex 1
+ ObjectTemplate.isSelectable 0
+ObjectTemplate.heatAddWhenFire 0.015
+ObjectTemplate.coolDownPerSec 0.2
+ObjectTemplate.overheatPenalty 1.25
+
+ObjectTemplate.create GenericProjectile xpak2_tiger_Gun_Projectile
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.createNotInGrid 1
+ObjectTemplate.createdInEditor 1
+rem ---BeginComp:DefaultCollisionComp ---
+ObjectTemplate.createComponent DefaultCollisionComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultDetonationComp ---
+ObjectTemplate.createComponent DefaultDetonationComp
+ObjectTemplate.detonation.explosionMaterial 87
+ObjectTemplate.detonation.explosionRadius 5
+ObjectTemplate.detonation.explosionForce 3.5
+ObjectTemplate.detonation.explosionDamage 200
+ObjectTemplate.detonation.endEffectTemplate e_exp_grenade
+ObjectTemplate.detonation.detectionRadius 1.5
+ObjectTemplate.detonation.maxDepthForExplosion 2
+rem ---EndComp ---
+rem ---BeginComp:DefaultProjSoundComp ---
+ObjectTemplate.createComponent DefaultProjSoundComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultRicochetComp ---
+ObjectTemplate.createComponent DefaultRicochetComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultPenetrateComp ---
+ObjectTemplate.createComponent DefaultPenetrateComp
+ObjectTemplate.penetrate.allowSolidPenetration 0
+ObjectTemplate.penetrate.allowLiquidPenetration 0
+rem ---EndComp ---
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Point
+ObjectTemplate.collisionGroups 8
+ObjectTemplate.material 87
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_tiger_Gun_Projectile_Looping
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/2.5/0/0
+ObjectTemplate.material 87
+ObjectTemplate.hasOnTimeEffect 1
+ObjectTemplate.tracerScaler 10
+ObjectTemplate.maxTracerScaler 50
+ObjectTemplate.minTracerScaler 1
+ObjectTemplate.tracerSizeModifier 3
+ObjectTemplate.tracerTemplate p_tracer_g
+ObjectTemplate.minDamage 1
+ObjectTemplate.damage 100
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_Gun_Fire1P
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/vehicles/air/ahe_havoc/sounds/havoc_cannon_1p.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.pitchEnvelope 0/1/0.9/1.1/1/1/0/0.97/1.03/
+ObjectTemplate.volumeEnvelope 0/1/0/1/1/1/0/0.9/1/
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_Gun_Fire1P_Outdoor
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_Gun_Fire3P
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/vehicles/air/ahe_havoc/sounds/havoc_cannon_3p.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.pitchEnvelope 0/1/0.9/1.1/1/1/0/0.97/1.03/
+ObjectTemplate.volumeEnvelope 0/1/0/1/1/1/0/0.9/1/
+ObjectTemplate.minDistance 5
+ObjectTemplate.halfVolumeDistance 10
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_Gun_BoltClick
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_Gun_TriggerClick
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_Gun_SwitchFireRate
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_Gun_Reload1P
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_Gun_Reload3P
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_Gun_Deploy1P
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_Gun_Deploy3P
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_Gun_Zoom
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_Gun_Projectile_Looping
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.createdInEditor 1
+
+ObjectTemplate.create GenericFireArm xpak2_Tiger_Hellfire_TV
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.createdInEditor 1
+rem ---BeginComp:WeaponHud ---
+ObjectTemplate.createComponent WeaponHud
+ObjectTemplate.weaponHud.weaponIcon Ingame\Weapons\Icons\Hud\bomb.tga
+ObjectTemplate.weaponHud.selectIcon Ingame\Weapons\Icons\Hud\Selection\Hellfire_Missile.tga
+ObjectTemplate.weaponHud.crosshairIcon Ingame/Vehicles/Icons/Hud/Air/Attack/Su34/TVGuided/tvGuided_Crosshair.tga
+ObjectTemplate.weaponHud.crosshairIconSize 128
+ObjectTemplate.weaponHud.altCrosshairIcon Ingame/Vehicles/Icons/Hud/Air/Attack/Su34/TVGuided/tvGuided_Crosshair.tga
+ObjectTemplate.weaponHud.hudName "HELLFIRE TV"
+ObjectTemplate.weaponHud.guiIndex 25
+ObjectTemplate.weaponHud.hasFireRate 0
+ObjectTemplate.weaponHud.enableMouse 1
+ObjectTemplate.weaponHud.displaySelectOnActivation 1
+ObjectTemplate.weaponHud.enablePostProcessingOnGuiIndex 25
+rem ---EndComp ---
+rem ---BeginComp:SingleFireComp ---
+ObjectTemplate.createComponent SingleFireComp
+ObjectTemplate.fire.roundsPerMinute 60
+rem ---EndComp ---
+rem ---BeginComp:DefaultAmmoComp ---
+ObjectTemplate.createComponent DefaultAmmoComp
+ObjectTemplate.ammo.ammoType 15
+ObjectTemplate.ammo.nrOfMags 8
+ObjectTemplate.ammo.magSize 1
+ObjectTemplate.ammo.reloadTime 8
+ObjectTemplate.ammo.autoReload 1
+ObjectTemplate.ammo.reloadWithoutPlayer 1
+rem ---EndComp ---
+rem ---BeginComp:WeaponBasedRecoilComp ---
+ObjectTemplate.createComponent WeaponBasedRecoilComp
+ObjectTemplate.recoil.recoilSize 1.01
+ObjectTemplate.recoil.cameraRecoilSpeed 13
+ObjectTemplate.recoil.cameraRecoilSize 1
+rem ---EndComp ---
+rem ---BeginComp:HelpHud ---
+ObjectTemplate.createComponent HelpHud
+ObjectTemplate.HelpHud.helpStringKey "HUD_HELP_VEHICLE_HELO_PASSENGER_CONTROLS_TVGUIDED_clickToGuide"
+ObjectTemplate.HelpHud.helpSoundKey "HUD_HELP_VEHICLE_HELO_PASSENGER_CONTROLS_TVGUIDED_clickToGuide"
+rem ---EndComp ---
+rem ---BeginComp:SimpleDeviationComp ---
+ObjectTemplate.createComponent SimpleDeviationComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultSoundComp ---
+ObjectTemplate.createComponent DefaultSoundComp
+rem ---EndComp ---
+rem ---BeginComp:PostProcess ---
+ObjectTemplate.createComponent PostProcess
+rem ---EndComp ---
+rem ---BeginComp:DefaultAnimationComp ---
+ObjectTemplate.createComponent DefaultAnimationComp
+rem ---EndComp ---
+rem ---BeginComp:ToggleCameraComp ---
+ObjectTemplate.createComponent ToggleCameraComp
+ObjectTemplate.zoom.startCameraId 11
+ObjectTemplate.zoom.startCameraViewMode 1
+ObjectTemplate.zoom.useProjectileCamera 1
+ObjectTemplate.zoom.allowUntoggledFire 0
+rem ---EndComp ---
+rem ---BeginComp:LPTargetComp ---
+ObjectTemplate.createComponent LPTargetComp
+ObjectTemplate.target.maxDistance 9999
+ObjectTemplate.target.setTargetAtMaxDistance 1
+ObjectTemplate.target.targetSystem TSTVGuided
+ObjectTemplate.target.useCameraDirectionToTarget 1
+ObjectTemplate.target.targetObjectTemplate UniqueTarget
+ObjectTemplate.target.disableFireWhenActiveMissile 1
+ObjectTemplate.target.disableGuidanceOnReload 0
+ObjectTemplate.target.disableGuidanceOnReload 0
+rem ---EndComp ---
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.material 56
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_Tiger_Hellfire_TV_Fire1P
+ObjectTemplate.addTemplate S_xpak2_Tiger_Hellfire_TV_Fire1P_Outdoor
+ObjectTemplate.addTemplate S_xpak2_Tiger_Hellfire_TV_Fire3P
+ObjectTemplate.addTemplate S_xpak2_Tiger_Hellfire_TV_BoltClick
+ObjectTemplate.addTemplate S_xpak2_Tiger_Hellfire_TV_TriggerClick
+ObjectTemplate.addTemplate S_xpak2_Tiger_Hellfire_TV_SwitchFireRate
+ObjectTemplate.addTemplate S_xpak2_Tiger_Hellfire_TV_Reload1P
+ObjectTemplate.addTemplate S_xpak2_Tiger_Hellfire_TV_Reload3P
+ObjectTemplate.addTemplate S_xpak2_Tiger_Hellfire_TV_Deploy1P
+ObjectTemplate.addTemplate S_xpak2_Tiger_Hellfire_TV_Deploy3P
+ObjectTemplate.addTemplate S_xpak2_Tiger_Hellfire_TV_Zoom
+rem -------------------------------------
+ObjectTemplate.projectileTemplate agm114_hellfire_tv
+ObjectTemplate.keepProjectiles 5
+ObjectTemplate.velocity 45
+ObjectTemplate.itemIndex 2
+ ObjectTemplate.isSelectable 0
+ObjectTemplate.blockInputOnRotBundle xpak2_Tiger_Gun
+
+ObjectTemplate.activeSafe Sound S_xpak2_Tiger_Hellfire_TV_Fire1P
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/vehicles/land/aav_tunguska/sounds/mono/missile_fire.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.pitchEnvelope 0/1/0.9/1.1/1/1/0/0.97/1.03/
+ObjectTemplate.volumeEnvelope 0/1/0/1/1/1/0/0.9/1/
+
+ObjectTemplate.activeSafe Sound S_xpak2_Tiger_Hellfire_TV_Fire1P_Outdoor
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_xpak2_Tiger_Hellfire_TV_Fire3P
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/vehicles/land/aav_tunguska/sounds/mono/missile_fire.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.pitchEnvelope 0/1/0.9/1.1/1/1/0/0.97/1.03/
+ObjectTemplate.volumeEnvelope 0/1/0/1/1/1/0/0.9/1/
+ObjectTemplate.minDistance 3
+ObjectTemplate.halfVolumeDistance 6.5
+
+ObjectTemplate.activeSafe Sound S_xpak2_Tiger_Hellfire_TV_BoltClick
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_xpak2_Tiger_Hellfire_TV_TriggerClick
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_xpak2_Tiger_Hellfire_TV_SwitchFireRate
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_xpak2_Tiger_Hellfire_TV_Reload1P
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/armament/missiles/sounds/mono/bomb_reload.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+
+ObjectTemplate.activeSafe Sound S_xpak2_Tiger_Hellfire_TV_Reload3P
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_xpak2_Tiger_Hellfire_TV_Deploy1P
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_xpak2_Tiger_Hellfire_TV_Deploy3P
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_xpak2_Tiger_Hellfire_TV_Zoom
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.create Camera xpak2_tiger_CameraHellfireCam
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_tiger_CameraHellfireCam_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setMinRotation -100/-10/0
+ObjectTemplate.setMaxRotation 100/60/0
+ObjectTemplate.setPivotPosition 0/0/-0.3
+ObjectTemplate.setAcceleration 5000/5000/0
+ObjectTemplate.setInputToYaw PIMouseLookX
+ObjectTemplate.setInputToPitch PIMouseLookY
+ObjectTemplate.CameraId 11
+ObjectTemplate.CVMChase 0
+ObjectTemplate.CVMFrontChase 0
+ObjectTemplate.CVMFlyBy 0
+ObjectTemplate.cameraShakeStartSpeed 85
+ObjectTemplate.cameraShakeMaxSpeed 100
+ObjectTemplate.worldFOV 1.1
+ObjectTemplate.insideFOV 0.6
+ObjectTemplate.worldFOV 1.1
+ObjectTemplate.insideFOV 0.6
+ObjectTemplate.allowInsideDynamicLights 1
+ObjectTemplate.allowInsideStaticSun 0
+ObjectTemplate.insideStaticSunDirection 0/-1/0
+ObjectTemplate.insideStaticSunColor 1/1/1
+ObjectTemplate.insideStaticSunDamageColor 1/1/1
+ObjectTemplate.insideDamageFrequency 3
+ObjectTemplate.insideDamageThreshold 0.1
+ObjectTemplate.insideStaticSunAmbientColor 0.7/0.7/0.7
+ObjectTemplate.cockpitSubGeom 1
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_CameraHellfireCam_RotationRpm
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.create EntryPoint xpak2_tiger_gunner_EP
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setEntryRadius 3
+
+ObjectTemplate.create RotationalBundle xpak2_tiger_CameraMount
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_tiger_CameraMount_RotationRpm
+ObjectTemplate.addTemplate xpak2_tiger_Gunner_Camera
+ObjectTemplate.setPosition 0/0.00734/0.04394
+rem -------------------------------------
+ObjectTemplate.setMinRotation -75/0/0
+ObjectTemplate.setMaxRotation 75/0/0
+ObjectTemplate.setMaxSpeed 90/0/0
+ObjectTemplate.setAcceleration 5000/0/0
+ObjectTemplate.setInputToYaw PIMouseLookX
+ObjectTemplate.regulatePitch 0.15/-0.1
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_CameraMount_RotationRpm
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.create Camera xpak2_tiger_Gunner_Camera
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_tiger_Gunner_Camera_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/-10/0
+ObjectTemplate.setMaxRotation 0/19/0
+ObjectTemplate.setPivotPosition 0/0/-0.35
+ObjectTemplate.setMaxSpeed 0/90/0
+ObjectTemplate.setAcceleration 0/5000/0
+ObjectTemplate.setInputToPitch PIMouseLookY
+ObjectTemplate.regulatePitch 0.15/-0.1
+ObjectTemplate.CVMNose 1
+ObjectTemplate.cameraShakeStartSpeed 85
+ObjectTemplate.cameraShakeMaxSpeed 100
+ObjectTemplate.nosePos 0/0/3
+ObjectTemplate.followStiffness 2
+ObjectTemplate.chaseDistance 23
+ObjectTemplate.chaseAngle 0.25
+ObjectTemplate.chaseOffset 0/2.5/6
+ObjectTemplate.worldFOV 1.1
+ObjectTemplate.insideFOV 1.1
+ObjectTemplate.worldFOV 1.1
+ObjectTemplate.insideFOV 1.1
+ObjectTemplate.allowInsideDynamicLights 1
+ObjectTemplate.allowInsideStaticSun 1
+ObjectTemplate.insideStaticSunDirection 2/1/1
+ObjectTemplate.insideStaticSunColor 0.905882/0.960784/0.94902
+ObjectTemplate.insideStaticSunDamageColor 0.886275/0.027451/0.027451
+ObjectTemplate.insideDamageFrequency 6
+ObjectTemplate.insideDamageThreshold 0.1
+ObjectTemplate.insideStaticSunAmbientColor 0.301961/0.423529/0.423529
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_Gunner_Camera_RotationRpm
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.create RotationalBundle xpak2_tiger_CoPilot_IK
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.createdInEditor 1
+rem ---BeginComp:Ik ---
+ObjectTemplate.createComponent Ik
+ObjectTemplate.ik.positionLeft -0.141823/0.368235/0.119566
+ObjectTemplate.ik.rotationLeft -91.5287/0/-65.7845
+ObjectTemplate.ik.positionRight 0.122688/0.399701/0.0862277
+ObjectTemplate.ik.rotationRight -77.5039/22.5419/94.8474
+rem ---EndComp ---
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_tiger_CoPilot_IK_RotationRpm
+rem -------------------------------------
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_CoPilot_IK_RotationRpm
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.create RotationalBundle xpak2_tiger_EngPivot1
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_tiger_EngPivot1_RotationRpm
+ObjectTemplate.addTemplate xpak2_tiger_EngPivot2
+ObjectTemplate.setPosition 0/20/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/-8/-0.9
+ObjectTemplate.setMaxRotation 0/8/0.9
+ObjectTemplate.setMaxSpeed 0/50/50
+ObjectTemplate.setAcceleration 0/-1000/1000
+ObjectTemplate.setInputToPitch PIPitch
+ObjectTemplate.setInputToRoll PIRoll
+ObjectTemplate.setAutomaticReset 1
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_EngPivot1_RotationRpm
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.create RotationalBundle xpak2_tiger_EngPivot2
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_tiger_EngPivot2_RotationRpm
+ObjectTemplate.addTemplate xpak2_tiger_EngineMain
+ObjectTemplate.setRotation 0/-87/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/-8/-0.9
+ObjectTemplate.setMaxRotation 0/8/0.9
+ObjectTemplate.setMaxSpeed 0/50/50
+ObjectTemplate.setAcceleration 0/1000/-1000
+ObjectTemplate.setInputToPitch PIPitch
+ObjectTemplate.setInputToRoll PIRoll
+ObjectTemplate.setAutomaticReset 1
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_EngPivot2_RotationRpm
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.create Engine xpak2_tiger_EngineMain
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.createdInEditor 1
+rem ---BeginComp:WindAffector ---
+ObjectTemplate.createComponent WindAffector
+ObjectTemplate.windType RadialDir
+ObjectTemplate.windIsDynamic 1
+ObjectTemplate.windDirection 0/0/0
+ObjectTemplate.windSpeed 20
+ObjectTemplate.windBlowTime -1
+ObjectTemplate.windFalloff 30
+ObjectTemplate.windRadialFalloff 20
+rem ---EndComp ---
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_tiger_EngineMain_RotationRpm
+ObjectTemplate.addTemplate S_xpak2_tiger_EngineMain_Idle
+ObjectTemplate.addTemplate S_xpak2_tiger_EngineMain_Rpm1
+ObjectTemplate.addTemplate S_xpak2_tiger_EngineMain_Rpm2
+ObjectTemplate.addTemplate S_xpak2_tiger_EngineMain_Load
+rem -------------------------------------
+ObjectTemplate.setMaxRotation 0/0/150
+ObjectTemplate.setMaxSpeed 0/0/1
+ObjectTemplate.setAcceleration 0/0/10
+ObjectTemplate.setInputToRoll PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETHelicopter
+ObjectTemplate.setTorque 250
+ObjectTemplate.setDifferential 400
+ObjectTemplate.setGearUp 0.99
+ObjectTemplate.setGearDown 0.01
+ObjectTemplate.setGearChangeTime 0.1
+ObjectTemplate.noPropellerEffectAtSpeed 1
+ObjectTemplate.noPropellerEffectAtSpeed 1
+ObjectTemplate.horizontalSpeedMagnifier 2
+ObjectTemplate.horizontalDampAngle 0.1
+ObjectTemplate.horizontalDampAngleFactor 0.001
+ObjectTemplate.defaultAngleOfAttack 3
+ObjectTemplate.maxAngleOfAttack 13
+ObjectTemplate.attackSpeed 10
+ObjectTemplate.decreaseAngleToZeroVerticalVel 0.5
+ObjectTemplate.dampHorizontalVel 5
+ObjectTemplate.dampHorizontalVelFactor -0.7
+ObjectTemplate.canReverse 0
+ObjectTemplate.audio.transformationRelativeRoot 1
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_EngineMain_RotationRpm
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/vehicles/air/ahe_havoc/sounds/havoc_start_idle_stop.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 2
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.pitchEnvelope 0/1/0/1.5/0/4/0.320463/0.996139/0/0.494208/0.851351/0/0.559846/0.874517/0/0.996139/0.65444/0/
+ObjectTemplate.volumeEnvelope 0/1/0/1/0/4/0.003861/0.857143/0/0.34749/0.857143/0/0.509652/1/0/0.996139/1/0/
+ObjectTemplate.minDistance 10
+ObjectTemplate.halfVolumeDistance 25
+ObjectTemplate.soundRadius 3
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_EngineMain_Idle
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_EngineMain_Rpm1
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_EngineMain_Rpm2
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_EngineMain_Load
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.create Engine xpak2_tiger_EngineRear
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_tiger_EngineRear_RotationRpm
+ObjectTemplate.addTemplate S_xpak2_tiger_EngineRear_Idle
+ObjectTemplate.addTemplate S_xpak2_tiger_EngineRear_Rpm1
+ObjectTemplate.addTemplate S_xpak2_tiger_EngineRear_Rpm2
+ObjectTemplate.addTemplate S_xpak2_tiger_EngineRear_Load
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/0/-100
+ObjectTemplate.setMaxRotation 0/0/100
+ObjectTemplate.setMaxSpeed 0/0/500
+ObjectTemplate.setAcceleration 0/0/2000
+ObjectTemplate.setInputToRoll PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETHelicopter
+ObjectTemplate.setTorque 80
+ObjectTemplate.setDifferential 45
+ObjectTemplate.setGearUp 0.7
+ObjectTemplate.setGearDown 0.3
+ObjectTemplate.noPropellerEffectAtSpeed 2.5
+ObjectTemplate.noPropellerEffectAtSpeed 2.5
+ObjectTemplate.decreaseAngleToZero 1
+ObjectTemplate.pureRotational 1
+ObjectTemplate.spinWhenNoEngineInAir 0.4
+ObjectTemplate.noEffectAtPerpSpeed 60
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_EngineRear_RotationRpm
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/vehicles/air/usthe_uh60/sounds/uh60_tail_start_idle_stop.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 2
+ObjectTemplate.volume 0.7
+ObjectTemplate.pitch 1
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.pitchEnvelope 0/1/0/1.5/0/2/0.00772201/0.781853/0/0.996139/0.793436/0/
+ObjectTemplate.volumeEnvelope 0/1/0/1/0/2/0.003861/0.895753/0/0.996139/0.895753/0/
+ObjectTemplate.minDistance 5
+ObjectTemplate.halfVolumeDistance 9
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_EngineRear_Idle
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_EngineRear_Rpm1
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_EngineRear_Rpm2
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_EngineRear_Load
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.create Camera xpak2_tiger_Camera
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_tiger_Camera_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setMinRotation -80/-20/0
+ObjectTemplate.setMaxRotation 80/15/0
+ObjectTemplate.setPivotPosition 0/0/-0.2
+ObjectTemplate.setMaxSpeed 90/90/0
+ObjectTemplate.setAcceleration 5000/5000/0
+ObjectTemplate.setInputToYaw PIMouseLookX
+ObjectTemplate.setInputToPitch PIMouseLookY
+ObjectTemplate.toggleMouseLook 1
+ObjectTemplate.CVMNose 1
+ObjectTemplate.cameraShakeStartSpeed 85
+ObjectTemplate.cameraShakeMaxSpeed 100
+ObjectTemplate.nosePos 0/0/2.25
+ObjectTemplate.followStiffness 2
+ObjectTemplate.chaseDistance 23
+ObjectTemplate.chaseAngle 0.25
+ObjectTemplate.chaseOffset 0/2.5/6
+ObjectTemplate.worldFOV 1.1
+ObjectTemplate.insideFOV 1.1
+ObjectTemplate.worldFOV 1.1
+ObjectTemplate.insideFOV 1.1
+ObjectTemplate.allowInsideDynamicLights 1
+ObjectTemplate.allowInsideStaticSun 1
+ObjectTemplate.insideStaticSunDirection 1/-0.2/1
+ObjectTemplate.insideStaticSunColor 0.886275/0.886275/0.886275
+ObjectTemplate.insideStaticSunDamageColor 0.74902/0.058824/0.07451
+ObjectTemplate.insideDamageFrequency 6
+ObjectTemplate.insideDamageThreshold 0.1
+ObjectTemplate.insideStaticSunAmbientColor 0.168627/0.305882/0.333333
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_Camera_RotationRpm
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.create EntryPoint xpak2_tiger_EP
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setEntryRadius 4
+
+ObjectTemplate.create Wing xpak2_tiger_WingL
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_tiger_WingL_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setPositionOffset 0/0/0
+ObjectTemplate.setWingLift 2
+ObjectTemplate.setFlapLift 0
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_WingL_RotationRpm
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.create Wing xpak2_tiger_WingR
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_tiger_WingR_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setPositionOffset 0/0/0
+ObjectTemplate.setWingLift 2
+ObjectTemplate.setFlapLift 0
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_WingR_RotationRpm
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.create GenericFireArm xpak2_tiger_Missiles
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.createdInEditor 1
+rem ---BeginComp:WeaponHud ---
+ObjectTemplate.createComponent WeaponHud
+ObjectTemplate.weaponHud.weaponIcon Ingame\Weapons\Icons\Hud\bomb.tga
+ObjectTemplate.weaponHud.hudName "HYDRA 70"
+ObjectTemplate.weaponHud.guiIndex 24
+ObjectTemplate.weaponHud.hasFireRate 0
+ObjectTemplate.weaponHud.addShowOnCamMode 2
+rem ---EndComp ---
+rem ---BeginComp:MultiFireComp ---
+ObjectTemplate.createComponent MultiFireComp
+ObjectTemplate.fire.addFireRate 0
+ObjectTemplate.fire.addBarrelName xpak2_tiger_Bundle
+ObjectTemplate.fire.addBarrelName xpak2_tiger_Bundle2
+rem ---EndComp ---
+rem ---BeginComp:DefaultAmmoComp ---
+ObjectTemplate.createComponent DefaultAmmoComp
+ObjectTemplate.ammo.magSize 8
+ObjectTemplate.ammo.reloadTime 8
+ObjectTemplate.ammo.autoReload 1
+ObjectTemplate.ammo.reloadWithoutPlayer 1
+rem ---EndComp ---
+rem ---BeginComp:WeaponBasedRecoilComp ---
+ObjectTemplate.createComponent WeaponBasedRecoilComp
+ObjectTemplate.recoil.cameraRecoilSpeed 13
+ObjectTemplate.recoil.cameraRecoilSize 1
+rem ---EndComp ---
+rem ---BeginComp:SimpleDeviationComp ---
+ObjectTemplate.createComponent SimpleDeviationComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultSoundComp ---
+ObjectTemplate.createComponent DefaultSoundComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultAnimationComp ---
+ObjectTemplate.createComponent DefaultAnimationComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultZoomComp ---
+ObjectTemplate.createComponent DefaultZoomComp
+ObjectTemplate.zoom.addZoomFactor 0
+rem ---EndComp ---
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.aiTemplate AHE_AH1Z_Rockets
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_tiger_Missiles_Fire1P
+ObjectTemplate.addTemplate S_xpak2_tiger_Missiles_Fire1P_Outdoor
+ObjectTemplate.addTemplate S_xpak2_tiger_Missiles_Fire3P
+ObjectTemplate.addTemplate S_xpak2_tiger_Missiles_BoltClick
+ObjectTemplate.addTemplate S_xpak2_tiger_Missiles_TriggerClick
+ObjectTemplate.addTemplate S_xpak2_tiger_Missiles_SwitchFireRate
+ObjectTemplate.addTemplate S_xpak2_tiger_Missiles_Reload1P
+ObjectTemplate.addTemplate S_xpak2_tiger_Missiles_Reload3P
+ObjectTemplate.addTemplate S_xpak2_tiger_Missiles_Deploy1P
+ObjectTemplate.addTemplate S_xpak2_tiger_Missiles_Deploy3P
+ObjectTemplate.addTemplate S_xpak2_tiger_Missiles_Zoom
+ObjectTemplate.addTemplate xpak2_tiger_Bundle
+ObjectTemplate.setPosition -2.17817/-1.36339/0.84297
+ObjectTemplate.setRotation 1/0/0
+ObjectTemplate.addTemplate xpak2_tiger_Bundle2
+ObjectTemplate.setPosition 2.13199/-1.39098/0.87167
+ObjectTemplate.setRotation -1/0/0
+rem -------------------------------------
+ObjectTemplate.projectileTemplate xpak2_tiger_Missiles_Projectile
+ObjectTemplate.keepProjectiles 5
+ObjectTemplate.velocity 100
+ObjectTemplate.itemIndex 1
+
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+ObjectTemplate.create GenericProjectile xpak2_tiger_Missiles_Projectile
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.createNotInGrid 1
+ObjectTemplate.createdInEditor 1
+rem ---BeginComp:DefaultCollisionComp ---
+ObjectTemplate.createComponent DefaultCollisionComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultDetonationComp ---
+ObjectTemplate.createComponent DefaultDetonationComp
+ObjectTemplate.detonation.explosionMaterial 55
+ObjectTemplate.detonation.explosionRadius 3
+ObjectTemplate.detonation.explosionForce 10
+ObjectTemplate.detonation.explosionDamage 200
+ObjectTemplate.detonation.endEffectTemplate e_exp_medium
+ObjectTemplate.detonation.useMMOnEndEffect 1
+ObjectTemplate.detonation.detectionRadius 1.5
+ObjectTemplate.detonation.maxDepthForExplosion 2
+rem ---EndComp ---
+rem ---BeginComp:DefaultProjSoundComp ---
+ObjectTemplate.createComponent DefaultProjSoundComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultPenetrateComp ---
+ObjectTemplate.createComponent DefaultPenetrateComp
+ObjectTemplate.penetrate.allowSolidPenetration 0
+ObjectTemplate.penetrate.allowLiquidPenetration 0
+rem ---EndComp ---
+ObjectTemplate.geometry hydra_70
+ObjectTemplate.gravityModifier 0.05
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Point
+ObjectTemplate.collisionGroups 8
+ObjectTemplate.material 55
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_tiger_Missiles_Projectile_Looping
+ObjectTemplate.addTemplate e_dumbrocket_trail
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/10/0/0
+ObjectTemplate.material 55
+ObjectTemplate.hasOnTimeEffect 1
+ObjectTemplate.tracerSizeModifier 0
+ObjectTemplate.minDamage 0.2
+ObjectTemplate.damage 333
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_Missiles_Fire1P
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/vehicles/land/aav_tunguska/sounds/mono/missile_fire.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.pitchEnvelope 0/1/0.9/1.1/1/1/0/0.97/1.03/
+ObjectTemplate.volumeEnvelope 0/1/0/1/1/1/0/0.9/1/
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_Missiles_Fire1P_Outdoor
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_Missiles_Fire3P
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/vehicles/land/aav_tunguska/sounds/mono/missile_fire.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.pitchEnvelope 0/1/0.9/1.1/1/1/0/0.97/1.03/
+ObjectTemplate.volumeEnvelope 0/1/0/1/1/1/0/0.9/1/
+ObjectTemplate.minDistance 3
+ObjectTemplate.halfVolumeDistance 7
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_Missiles_BoltClick
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_Missiles_TriggerClick
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_Missiles_SwitchFireRate
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_Missiles_Reload1P
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_Missiles_Reload3P
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_Missiles_Deploy1P
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_Missiles_Deploy3P
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_Missiles_Zoom
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.create Bundle xpak2_tiger_Bundle
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate e_muzz_rocketpod
+ObjectTemplate.addTemplate e_sam_backblast
+ObjectTemplate.setPosition 2.92369e-005/3.30258e-007/-1.91592
+rem -------------------------------------
+
+ObjectTemplate.create Bundle xpak2_tiger_Bundle2
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate e_muzz_rocketpod
+ObjectTemplate.addTemplate e_sam_backblast
+ObjectTemplate.setPosition 1.96704e-008/7.86153e-007/-1.77272
+rem -------------------------------------
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_Missiles_Projectile_Looping
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.createdInEditor 1
+
+ObjectTemplate.create Wing xpak2_tiger_BodyWingVertical
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_tiger_BodyWingVertical_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setPositionOffset 0/0/0
+ObjectTemplate.setWingLift 5
+ObjectTemplate.setFlapLift 0
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_BodyWingVertical_RotationRpm
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.create Wing xpak2_tiger_Rudder
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_tiger_Rudder_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setPositionOffset 0/0/0
+ObjectTemplate.setWingLift 5
+ObjectTemplate.setFlapLift 0
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_Rudder_RotationRpm
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.create GenericFireArm xpak2_tiger_FlareLauncher
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.createdInEditor 1
+rem ---BeginComp:MultiFireComp ---
+ObjectTemplate.createComponent MultiFireComp
+ObjectTemplate.fire.roundsPerMinute 1800
+ObjectTemplate.fire.fireInput PIFlareFire
+ObjectTemplate.fire.addFireRate 1
+ObjectTemplate.fire.burstSize 6
+ObjectTemplate.fire.addBarrelName xpak2_tiger_Flare_barrel
+rem ---EndComp ---
+rem ---BeginComp:DefaultAmmoComp ---
+ObjectTemplate.createComponent DefaultAmmoComp
+ObjectTemplate.ammo.nrOfMags -1
+ObjectTemplate.ammo.magSize 6
+ObjectTemplate.ammo.minimumTimeUntilReload 5
+ObjectTemplate.ammo.autoReload 1
+ObjectTemplate.ammo.reloadWithoutPlayer 1
+rem ---EndComp ---
+rem ---BeginComp:WeaponBasedRecoilComp ---
+ObjectTemplate.createComponent WeaponBasedRecoilComp
+rem ---EndComp ---
+rem ---BeginComp:SimpleDeviationComp ---
+ObjectTemplate.createComponent SimpleDeviationComp
+ObjectTemplate.deviation.minDev 6
+rem ---EndComp ---
+rem ---BeginComp:DefaultSoundComp ---
+ObjectTemplate.createComponent DefaultSoundComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultAnimationComp ---
+ObjectTemplate.createComponent DefaultAnimationComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultZoomComp ---
+ObjectTemplate.createComponent DefaultZoomComp
+ObjectTemplate.zoom.addZoomFactor 0
+rem ---EndComp ---
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_tiger_FlareLauncher_Fire1P
+ObjectTemplate.addTemplate S_xpak2_tiger_FlareLauncher_Fire1P_Outdoor
+ObjectTemplate.addTemplate S_xpak2_tiger_FlareLauncher_Fire3P
+ObjectTemplate.addTemplate S_xpak2_tiger_FlareLauncher_BoltClick
+ObjectTemplate.addTemplate S_xpak2_tiger_FlareLauncher_TriggerClick
+ObjectTemplate.addTemplate S_xpak2_tiger_FlareLauncher_SwitchFireRate
+ObjectTemplate.addTemplate S_xpak2_tiger_FlareLauncher_Reload1P
+ObjectTemplate.addTemplate S_xpak2_tiger_FlareLauncher_Reload3P
+ObjectTemplate.addTemplate S_xpak2_tiger_FlareLauncher_Deploy1P
+ObjectTemplate.addTemplate S_xpak2_tiger_FlareLauncher_Deploy3P
+ObjectTemplate.addTemplate S_xpak2_tiger_FlareLauncher_Zoom
+ObjectTemplate.addTemplate xpak2_tiger_Flare_barrel
+ObjectTemplate.setPosition 1.4/0.351/0.197
+ObjectTemplate.setRotation 30/0/0
+ObjectTemplate.addTemplate xpak2_tiger_Flare_barrel
+ObjectTemplate.setPosition 1.376/0.357/0.119
+ObjectTemplate.setRotation 90/0/0
+ObjectTemplate.addTemplate xpak2_tiger_Flare_barrel
+ObjectTemplate.setPosition 1.39462/0.326352/0.00334335
+ObjectTemplate.setRotation 150/0/0
+ObjectTemplate.addTemplate xpak2_tiger_Flare_barrel
+ObjectTemplate.setPosition -1.41755/0.345282/0.166174
+ObjectTemplate.setRotation -30/0/0
+ObjectTemplate.addTemplate xpak2_tiger_Flare_barrel
+ObjectTemplate.setPosition -1.342/0.35/0.137
+ObjectTemplate.setRotation -90/0/0
+ObjectTemplate.addTemplate xpak2_tiger_Flare_barrel
+ObjectTemplate.setPosition -1.266/0.301/0
+ObjectTemplate.setRotation -150/0/0
+rem -------------------------------------
+ObjectTemplate.projectileTemplate xpak2_tiger_flareLauncher_Projectile
+ObjectTemplate.keepProjectiles 5
+ObjectTemplate.velocity 10
+
+ObjectTemplate.create GenericProjectile xpak2_tiger_flareLauncher_Projectile
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.createNotInGrid 1
+ObjectTemplate.createdInEditor 1
+rem ---BeginComp:DefaultCollisionComp ---
+ObjectTemplate.createComponent DefaultCollisionComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultDetonationComp ---
+ObjectTemplate.createComponent DefaultDetonationComp
+ObjectTemplate.detonation.detectionRadius 1.5
+ObjectTemplate.detonation.maxDepthForExplosion 2
+rem ---EndComp ---
+rem ---BeginComp:DefaultProjSoundComp ---
+ObjectTemplate.createComponent DefaultProjSoundComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultRicochetComp ---
+ObjectTemplate.createComponent DefaultRicochetComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultPenetrateComp ---
+ObjectTemplate.createComponent DefaultPenetrateComp
+rem ---EndComp ---
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Point
+ObjectTemplate.collisionGroups 8
+ObjectTemplate.material 38
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_tiger_flareLauncher_Projectile_Looping
+ObjectTemplate.addTemplate e_flare_decoy
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/3/0/0
+ObjectTemplate.material 38
+ObjectTemplate.hasOnTimeEffect 1
+ObjectTemplate.tracerScaler 10
+ObjectTemplate.maxTracerScaler 50
+ObjectTemplate.minTracerScaler 1
+ObjectTemplate.tracerSizeModifier 5
+ObjectTemplate.minDamage 0.2
+ObjectTemplate.damage 0
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_FlareLauncher_Fire1P
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/armament/decoy_flare_launcher/sounds/flare_launcher_1p.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.65
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_FlareLauncher_Fire1P_Outdoor
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_FlareLauncher_Fire3P
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_FlareLauncher_BoltClick
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_FlareLauncher_TriggerClick
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/armament/decoy_flare_launcher/sounds/out_of_flares.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.7
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_FlareLauncher_SwitchFireRate
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_FlareLauncher_Reload1P
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/armament/decoy_flare_launcher/sounds/flare_reload.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_FlareLauncher_Reload3P
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_FlareLauncher_Deploy1P
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_FlareLauncher_Deploy3P
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_FlareLauncher_Zoom
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.create RotationalBundle xpak2_tiger_Flare_barrel
+ObjectTemplate.modifiedByUser "armandoma"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate S_xpak2_tiger_Flare_barrel_RotationRpm
+rem -------------------------------------
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_Flare_barrel_RotationRpm
+ObjectTemplate.modifiedByUser "armandoma"
+
+ObjectTemplate.activeSafe Sound S_xpak2_tiger_flareLauncher_Projectile_Looping
+ObjectTemplate.modifiedByUser "armandoma"
+

@@ -1,0 +1,22 @@
+rem *** Generated with Bf2Editor.exe [created: 2004/12/8 0:16]
+ObjectTemplate.activeSafe Bundle ambstat_oiltower_fire2
+ObjectTemplate.modifiedByUser psh
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate e_sAmb_oiltower_fire2
+ObjectTemplate.addTemplate HeatObject
+ObjectTemplate.addTemplate ambstat_oiltower_fire2_SupplyObject_burning
+ObjectTemplate.setPosition 0/0.7/0.4
+ObjectTemplate.killHeatSeekingMissile 1
+rem -------------------------------------
+
+ObjectTemplate.create SupplyObject ambstat_oiltower_fire2_SupplyObject_burning
+ObjectTemplate.modifiedByUser psh
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.radius 1.5
+ObjectTemplate.damageSpeed 10
+

@@ -1,0 +1,61 @@
+rem *** Create strategic areas ***
+aiStrategicArea.createFromControlPoint CPNAME_DO_SP16_oilcisterns 1703 50
+aiStrategicArea.layer 18
+
+aiStrategicArea.createFromControlPoint CPNAME_DO_SP16_oldcity 1702 50
+aiStrategicArea.layer 18
+
+aiStrategicArea.createFromControlPoint CPNAME_DO_SP16_refinery 1701 50
+aiStrategicArea.layer 18
+
+aiStrategicArea.setActive CPNAME_DO_SP16_oilcisterns
+AIStrategicArea.addNeighbour CPNAME_DO_SP16_refinery
+AIStrategicArea.addNeighbour CPNAME_DO_SP16_oldcity
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 68.84/145.119/-43.91
+AIStrategicArea.setOrderPosition Vehicle 52.3502/144.394/-48.8887
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 11.3137
+
+aiStrategicArea.setActive CPNAME_DO_SP16_oldcity
+AIStrategicArea.addNeighbour CPNAME_DO_SP16_oilcisterns
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 130/152.486/255
+AIStrategicArea.setOrderPosition Vehicle 129.37/152.496/249.059
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 14.1421
+
+aiStrategicArea.setActive CPNAME_DO_SP16_refinery
+AIStrategicArea.addNeighbour CPNAME_DO_SP16_oilcisterns
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry -52.518/144.485/-243.046
+AIStrategicArea.setOrderPosition Vehicle -48.5987/144.485/-237.996
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 14.1421
+
+aiStrategicArea.addWayPoint 104.953/155.795/34.0999 Infantry CPNAME_DO_SP16_oilcisterns CPNAME_DO_SP16_oldcity
+aiStrategicArea.addWayPoint 133.874/160.666/44.5276 Infantry CPNAME_DO_SP16_oilcisterns CPNAME_DO_SP16_oldcity
+aiStrategicArea.addWayPoint 157.118/158.661/33.2643 Infantry CPNAME_DO_SP16_oilcisterns CPNAME_DO_SP16_oldcity
+aiStrategicArea.addWayPoint 109.972/144.394/-15.8698 Infantry CPNAME_DO_SP16_oilcisterns CPNAME_DO_SP16_oldcity
+aiStrategicArea.addWayPoint 29.0493/144.394/-17.4387 Infantry CPNAME_DO_SP16_oilcisterns CPNAME_DO_SP16_oldcity
+aiStrategicArea.addWayPoint 93.8812/145.798/168.909 Infantry CPNAME_DO_SP16_oilcisterns CPNAME_DO_SP16_oldcity
+aiStrategicArea.addWayPoint 132.916/153.076/197.401 Infantry CPNAME_DO_SP16_oilcisterns CPNAME_DO_SP16_oldcity
+aiStrategicArea.addWayPoint 176.034/152.508/205.356 Infantry CPNAME_DO_SP16_oilcisterns CPNAME_DO_SP16_oldcity
+aiStrategicArea.addWayPoint 100.009/151.638/203.778 Infantry CPNAME_DO_SP16_oilcisterns CPNAME_DO_SP16_oldcity
+aiStrategicArea.addWayPoint 88.5302/152.496/242.912 Infantry CPNAME_DO_SP16_oilcisterns CPNAME_DO_SP16_oldcity
+aiStrategicArea.addWayPoint 159.734/142.85/126.849 Vehicle CPNAME_DO_SP16_oilcisterns CPNAME_DO_SP16_oldcity
+aiStrategicArea.addWayPoint 46.6953/142.647/93.0785 Vehicle CPNAME_DO_SP16_oilcisterns CPNAME_DO_SP16_oldcity
+aiStrategicArea.addWayPoint 43.663/144.394/0.002808 Vehicle CPNAME_DO_SP16_oilcisterns CPNAME_DO_SP16_oldcity
+aiStrategicArea.addWayPoint 41.7633/144.394/-0.141235 Vehicle CPNAME_DO_SP16_oilcisterns CPNAME_DO_SP16_oldcity
+aiStrategicArea.addWayPoint 102.462/144.394/-76.7239 Infantry CPNAME_DO_SP16_oilcisterns CPNAME_DO_SP16_refinery
+aiStrategicArea.addWayPoint -4.70978/144.394/-75.0139 Infantry CPNAME_DO_SP16_oilcisterns CPNAME_DO_SP16_refinery
+aiStrategicArea.addWayPoint 29.4244/144.493/-184.886 Infantry CPNAME_DO_SP16_oilcisterns CPNAME_DO_SP16_refinery
+aiStrategicArea.addWayPoint 55.5398/144.485/-229.532 Infantry CPNAME_DO_SP16_oilcisterns CPNAME_DO_SP16_refinery
+aiStrategicArea.addWayPoint -19.7013/144.488/-203.445 Infantry CPNAME_DO_SP16_oilcisterns CPNAME_DO_SP16_refinery
+aiStrategicArea.addWayPoint 27.7694/144.485/-241.45 Infantry CPNAME_DO_SP16_oilcisterns CPNAME_DO_SP16_refinery
+aiStrategicArea.addWayPoint -41.7736/144.081/-100.965 Infantry CPNAME_DO_SP16_oilcisterns CPNAME_DO_SP16_refinery
+aiStrategicArea.addWayPoint 133.606/143.621/-136.559 Infantry CPNAME_DO_SP16_oilcisterns CPNAME_DO_SP16_refinery
+aiStrategicArea.addWayPoint 40.2091/144.394/-146.19 Vehicle CPNAME_DO_SP16_oilcisterns CPNAME_DO_SP16_refinery
+aiStrategicArea.addWayPoint 42.5963/144.394/-106.447 Vehicle CPNAME_DO_SP16_oilcisterns CPNAME_DO_SP16_refinery
+aiStrategicArea.addWayPoint -44.1114/144.076/-108.659 Vehicle CPNAME_DO_SP16_oilcisterns CPNAME_DO_SP16_refinery
+aiStrategicArea.addWayPoint 130.932/144.394/-97.0349 Vehicle CPNAME_DO_SP16_oilcisterns CPNAME_DO_SP16_refinery

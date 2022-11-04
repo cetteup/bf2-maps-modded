@@ -1,0 +1,1678 @@
+rem ********** Object Spawner **********
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_emineentrance_ATS]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_emineentrance_ATS
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_emineentrance_ATS
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ats_hj8
+ObjectTemplate.setObjectTemplate 2 ats_tow
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_wmineentrance_AAS]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_wmineentrance_AAS
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_wmineentrance_AAS
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
+ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_wmineentrance_ATS]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_wmineentrance_ATS
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_wmineentrance_ATS
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ats_hj8
+ObjectTemplate.setObjectTemplate 2 ats_tow
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_uppercamp_Spdboat]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_uppercamp_Spdboat
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_uppercamp_Spdboat
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 BOAT_RIB
+ObjectTemplate.setObjectTemplate 2 BOAT_RIB
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_uppercamp_Spdboat_0]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_uppercamp_Spdboat_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_uppercamp_Spdboat_0
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 BOAT_RIB
+ObjectTemplate.setObjectTemplate 2 BOAT_RIB
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_uppercamp_AAS]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_uppercamp_AAS
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_uppercamp_AAS
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
+ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_emineentrance_LightJeep]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_emineentrance_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_emineentrance_LightJeep
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_securityhq_APC]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_securityhq_APC
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_securityhq_APC
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 APC_WZ551
+ObjectTemplate.setObjectTemplate 2 USAPC_LAV25
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_bridgecamp_APC]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_bridgecamp_APC
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_bridgecamp_APC
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 APC_WZ551
+ObjectTemplate.setObjectTemplate 2 USAPC_LAV25
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_bridgecamp_LightJeep]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_bridgecamp_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_bridgecamp_LightJeep
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_bridgecamp_APC_0]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_bridgecamp_APC_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_bridgecamp_APC_0
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 apc_wz551
+ObjectTemplate.setObjectTemplate 2 usapc_lav25
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_powerplant_APC]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_powerplant_APC
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_powerplant_APC
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 APC_WZ551
+ObjectTemplate.setObjectTemplate 2 USAPC_LAV25
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_powerplant_LightJeep]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_powerplant_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_powerplant_LightJeep
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_emineentrance_AAS]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_emineentrance_AAS
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_emineentrance_AAS
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
+ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_emineentrance_LightJeep_0]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_emineentrance_LightJeep_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_emineentrance_LightJeep_0
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_emineentrance_LightJeep_1]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_emineentrance_LightJeep_1
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_emineentrance_LightJeep_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_wmineentrance_LightJeep_0]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_wmineentrance_LightJeep_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_wmineentrance_LightJeep_0
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_wmineentrance_LightJeep]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_wmineentrance_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_wmineentrance_LightJeep
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_securityhq_LightJeep_0]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_securityhq_LightJeep_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_securityhq_LightJeep_0
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_wmineentrance_LightJeep_1]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_wmineentrance_LightJeep_1
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_wmineentrance_LightJeep_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_powerplant_HeavyTank]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_powerplant_HeavyTank
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_powerplant_HeavyTank
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 TNK_TYPE98
+ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_bridgecamp_LightJeep_0]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_bridgecamp_LightJeep_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_bridgecamp_LightJeep_0
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_bridgecamp_LightJeep_1]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_bridgecamp_LightJeep_1
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_bridgecamp_LightJeep_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_uppercamp_LightJeep]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_uppercamp_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_uppercamp_LightJeep
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_uppercamp_APC]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_uppercamp_APC
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_uppercamp_APC
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 APC_WZ551
+ObjectTemplate.setObjectTemplate 2 USAPC_LAV25
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_uppercamp_LightJeep_0]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_uppercamp_LightJeep_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_uppercamp_LightJeep_0
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_powerplant_UAV]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_powerplant_UAV
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_powerplant_UAV
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 aircontroltower
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_powerplant_Radar]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_powerplant_Radar
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_powerplant_Radar
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 mobileradar_us_dest
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_uppercamp_UAV]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_uppercamp_UAV
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_uppercamp_UAV
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 aircontroltower_chi
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_uppercamp_Radar]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_uppercamp_Radar
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_uppercamp_Radar
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 mobileradar_ch_dest
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_powerplant_ART]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_powerplant_ART
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_powerplant_ART
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 USART_LW155
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_powerplant_ART_0]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_powerplant_ART_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_powerplant_ART_0
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 USART_LW155
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_uppercamp_ART]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_uppercamp_ART
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_uppercamp_ART
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ARS_D30
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_uppercamp_ART_0]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_uppercamp_ART_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_uppercamp_ART_0
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ARS_D30
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_securityhq_LightJeep]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_securityhq_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_securityhq_LightJeep
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_uppercamp_CH_US_HeavyTank]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_uppercamp_CH_US_HeavyTank
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_uppercamp_CH_US_HeavyTank
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 TNK_TYPE98
+ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_powerplant_CH_US_SMG]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_powerplant_CH_US_SMG
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_powerplant_CH_US_SMG
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 CH_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_uppercamp_CH_US_SMG]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_uppercamp_CH_US_SMG
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_uppercamp_CH_US_SMG
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 CH_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_uppercamp_CH_US_AttakHeli]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_uppercamp_CH_US_AttakHeli
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_uppercamp_CH_US_AttakHeli
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 AHE_Z10
+ObjectTemplate.setObjectTemplate 2 AHE_AH1Z
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_bridgecamp_CH_US_SMG]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_bridgecamp_CH_US_SMG
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_bridgecamp_CH_US_SMG
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 CH_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_wmineentrance_CH_US_SMG]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_wmineentrance_CH_US_SMG
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_wmineentrance_CH_US_SMG
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 CH_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_wmineentrance_CH_US_SMG_0]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_wmineentrance_CH_US_SMG_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_wmineentrance_CH_US_SMG_0
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 CH_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_wmineentrance_CH_US_SMG_1]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_wmineentrance_CH_US_SMG_1
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_wmineentrance_CH_US_SMG_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 CH_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_emineentrance_5_1]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_emineentrance_5_1
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_emineentrance_5_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 CH_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_emineentrance_6]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_emineentrance_6
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_emineentrance_6
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 CH_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_emineentrance_7]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_emineentrance_7
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_emineentrance_7
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 CH_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_securityhq_CH_US_SMG_0]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_securityhq_CH_US_SMG_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_securityhq_CH_US_SMG_0
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 CH_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_securityhq_CH_US_LightJeep_0]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_securityhq_CH_US_LightJeep_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_securityhq_CH_US_LightJeep_0
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_powerplant_CH_US_AttakHeli]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_powerplant_CH_US_AttakHeli
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_powerplant_CH_US_AttakHeli
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 AHE_Z10
+ObjectTemplate.setObjectTemplate 2 AHE_AH1Z
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_powerplant_LightJeep_0]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_powerplant_LightJeep_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_powerplant_LightJeep_0
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_powerplant_CH_US_SMG_0]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_powerplant_CH_US_SMG_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_powerplant_CH_US_SMG_0
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 CH_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_powerplant_CH_US_SMG_1]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_powerplant_CH_US_SMG_1
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_powerplant_CH_US_SMG_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 CH_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_securityhq_APC_0]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_securityhq_APC_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_securityhq_APC_0
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 APC_WZ551
+ObjectTemplate.setObjectTemplate 2 USAPC_LAV25
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_uppercamp_CH_US_SMG_0]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_uppercamp_CH_US_SMG_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_uppercamp_CH_US_SMG_0
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 CH_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_uppercamp_CH_US_SMG_1]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_uppercamp_CH_US_SMG_1
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_uppercamp_CH_US_SMG_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 CH_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_powerplant_CH_US_AAS]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_powerplant_CH_US_AAS
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_powerplant_CH_US_AAS
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
+ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_powerplant_CH_US_LightJeep]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_powerplant_CH_US_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_powerplant_CH_US_LightJeep
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_uppercamp_AAV]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_uppercamp_AAV
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_uppercamp_AAV
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 AAV_TYPE95
+ObjectTemplate.setObjectTemplate 2 USAAV_M6
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_powerplant_AAV]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_powerplant_AAV
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_powerplant_AAV
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 AAV_TYPE95
+ObjectTemplate.setObjectTemplate 2 USAAV_M6
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_uppercamp_CH_US_ATS]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_uppercamp_CH_US_ATS
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_uppercamp_CH_US_ATS
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ATS_HJ8
+ObjectTemplate.setObjectTemplate 2 ATS_TOW
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_powerplant_CH_US_ATS]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_powerplant_CH_US_ATS
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_powerplant_CH_US_ATS
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ATS_HJ8
+ObjectTemplate.setObjectTemplate 2 ATS_TOW
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_uppercamp_CH_US_LightJeep]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_uppercamp_CH_US_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_uppercamp_CH_US_LightJeep
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+
+rem [ObjectSpawnerTemplate: CPNAME_GP_32_powerplant_CH_US_LightJeep_0]
+ObjectTemplate.create ObjectSpawner CPNAME_GP_32_powerplant_CH_US_LightJeep_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_GP_32_powerplant_CH_US_LightJeep_0
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+
+if v_arg1 == host
+
+   rem [ObjectSpawner: CPNAME_GP_32_emineentrance_ATS]
+   Object.create CPNAME_GP_32_emineentrance_ATS
+   Object.absolutePosition 108.889/77.496/167.010
+   Object.rotation 171.947/0.000/0.000
+   Object.setControlPointId 22
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_wmineentrance_AAS]
+   Object.create CPNAME_GP_32_wmineentrance_AAS
+   Object.absolutePosition -161.198/83.226/-1.835
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 23
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_wmineentrance_ATS]
+   Object.create CPNAME_GP_32_wmineentrance_ATS
+   Object.absolutePosition -184.638/79.297/-14.151
+   Object.rotation 101.100/0.000/0.000
+   Object.setControlPointId 23
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_uppercamp_Spdboat]
+   Object.create CPNAME_GP_32_uppercamp_Spdboat
+   Object.absolutePosition -541.684/88.978/155.330
+   Object.rotation 133.600/0.000/0.000
+   Object.setControlPointId 31
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_uppercamp_Spdboat_0]
+   Object.create CPNAME_GP_32_uppercamp_Spdboat_0
+   Object.absolutePosition -544.599/88.978/152.130
+   Object.rotation 133.600/0.000/0.000
+   Object.setControlPointId 31
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_uppercamp_AAS]
+   Object.create CPNAME_GP_32_uppercamp_AAS
+   Object.absolutePosition -533.040/93.695/254.985
+   Object.rotation 180.000/0.000/0.000
+   Object.setControlPointId 31
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_emineentrance_LightJeep]
+   Object.create CPNAME_GP_32_emineentrance_LightJeep
+   Object.absolutePosition 97.240/77.496/63.102
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 22
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_securityhq_APC]
+   Object.create CPNAME_GP_32_securityhq_APC
+   Object.absolutePosition 110.710/93.500/-229.166
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 24
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_bridgecamp_APC]
+   Object.create CPNAME_GP_32_bridgecamp_APC
+   Object.absolutePosition -267.086/130.597/311.279
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 21
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_bridgecamp_LightJeep]
+   Object.create CPNAME_GP_32_bridgecamp_LightJeep
+   Object.absolutePosition -228.771/130.597/300.964
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 21
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_bridgecamp_APC_0]
+   Object.create CPNAME_GP_32_bridgecamp_APC_0
+   Object.absolutePosition -250.340/130.597/270.367
+   Object.rotation -9.237/0.000/0.000
+   Object.setControlPointId 21
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_powerplant_APC]
+   Object.create CPNAME_GP_32_powerplant_APC
+   Object.absolutePosition 274.690/83.688/-236.904
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 32
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_powerplant_LightJeep]
+   Object.create CPNAME_GP_32_powerplant_LightJeep
+   Object.absolutePosition 359.131/92.395/-234.232
+   Object.rotation 180.000/0.000/0.000
+   Object.setControlPointId 32
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_emineentrance_AAS]
+   Object.create CPNAME_GP_32_emineentrance_AAS
+   Object.absolutePosition 62.930/76.300/76.548
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 22
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_emineentrance_LightJeep_0]
+   Object.create CPNAME_GP_32_emineentrance_LightJeep_0
+   Object.absolutePosition 132.198/77.496/167.828
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 22
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_emineentrance_LightJeep_1]
+   Object.create CPNAME_GP_32_emineentrance_LightJeep_1
+   Object.absolutePosition 132.205/77.496/163.227
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 22
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_wmineentrance_LightJeep_0]
+   Object.create CPNAME_GP_32_wmineentrance_LightJeep_0
+   Object.absolutePosition -168.591/79.297/-31.810
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 23
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_wmineentrance_LightJeep]
+   Object.create CPNAME_GP_32_wmineentrance_LightJeep
+   Object.absolutePosition -196.107/79.297/20.012
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 23
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_securityhq_LightJeep_0]
+   Object.create CPNAME_GP_32_securityhq_LightJeep_0
+   Object.absolutePosition 106.938/93.500/-175.060
+   Object.rotation 180.000/0.000/0.000
+   Object.setControlPointId 24
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_wmineentrance_LightJeep_1]
+   Object.create CPNAME_GP_32_wmineentrance_LightJeep_1
+   Object.absolutePosition -125.241/79.297/38.412
+   Object.rotation 180.000/0.000/0.000
+   Object.setControlPointId 23
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_powerplant_HeavyTank]
+   Object.create CPNAME_GP_32_powerplant_HeavyTank
+   Object.absolutePosition 328.393/92.395/-240.312
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 32
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_bridgecamp_LightJeep_0]
+   Object.create CPNAME_GP_32_bridgecamp_LightJeep_0
+   Object.absolutePosition -268.008/130.597/288.984
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 21
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_bridgecamp_LightJeep_1]
+   Object.create CPNAME_GP_32_bridgecamp_LightJeep_1
+   Object.absolutePosition -266.255/130.597/316.862
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 21
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_uppercamp_LightJeep]
+   Object.create CPNAME_GP_32_uppercamp_LightJeep
+   Object.absolutePosition -496.822/99.994/281.250
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 31
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_uppercamp_APC]
+   Object.create CPNAME_GP_32_uppercamp_APC
+   Object.absolutePosition -549.090/93.695/193.825
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 31
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_uppercamp_LightJeep_0]
+   Object.create CPNAME_GP_32_uppercamp_LightJeep_0
+   Object.absolutePosition -561.760/93.720/227.346
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 31
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_powerplant_UAV]
+   Object.create CPNAME_GP_32_powerplant_UAV
+   Object.absolutePosition 257.419/84.497/-200.991
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 32
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_powerplant_Radar]
+   Object.create CPNAME_GP_32_powerplant_Radar
+   Object.absolutePosition 252.000/85.428/-231.000
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 32
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_uppercamp_UAV]
+   Object.create CPNAME_GP_32_uppercamp_UAV
+   Object.absolutePosition -518.270/93.695/204.516
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 31
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_uppercamp_Radar]
+   Object.create CPNAME_GP_32_uppercamp_Radar
+   Object.absolutePosition -498.597/94.613/257.315
+   Object.rotation 180.000/0.000/0.000
+   Object.setControlPointId 31
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_powerplant_ART]
+   Object.create CPNAME_GP_32_powerplant_ART
+   Object.absolutePosition 315.333/92.401/-317.458
+   Object.rotation -93.271/0.000/0.000
+   Object.setControlPointId 32
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_powerplant_ART_0]
+   Object.create CPNAME_GP_32_powerplant_ART_0
+   Object.absolutePosition 299.384/92.401/-276.027
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 32
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_uppercamp_ART]
+   Object.create CPNAME_GP_32_uppercamp_ART
+   Object.absolutePosition -459.199/101.502/298.056
+   Object.rotation 119.282/0.000/0.000
+   Object.setControlPointId 31
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_uppercamp_ART_0]
+   Object.create CPNAME_GP_32_uppercamp_ART_0
+   Object.absolutePosition -488.186/93.701/226.885
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 31
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_securityhq_LightJeep]
+   Object.create CPNAME_GP_32_securityhq_LightJeep
+   Object.absolutePosition 118.089/93.500/-187.018
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 24
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_uppercamp_CH_US_HeavyTank]
+   Object.create CPNAME_GP_32_uppercamp_CH_US_HeavyTank
+   Object.absolutePosition -525.670/93.695/194.132
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 31
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_powerplant_CH_US_SMG]
+   Object.create CPNAME_GP_32_powerplant_CH_US_SMG
+   Object.absolutePosition 326.971/96.556/-267.727
+   Object.rotation 180.000/0.000/0.000
+   Object.setControlPointId 32
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_uppercamp_CH_US_SMG]
+   Object.create CPNAME_GP_32_uppercamp_CH_US_SMG
+   Object.absolutePosition -495.042/94.804/236.121
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 31
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_uppercamp_CH_US_AttakHeli]
+   Object.create CPNAME_GP_32_uppercamp_CH_US_AttakHeli
+   Object.absolutePosition -585.000/96.002/194.000
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 31
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_bridgecamp_CH_US_SMG]
+   Object.create CPNAME_GP_32_bridgecamp_CH_US_SMG
+   Object.absolutePosition -245.257/131.706/286.570
+   Object.rotation -117.186/0.000/0.000
+   Object.setControlPointId 21
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_wmineentrance_CH_US_SMG]
+   Object.create CPNAME_GP_32_wmineentrance_CH_US_SMG
+   Object.absolutePosition -173.562/80.406/-27.064
+   Object.rotation -71.638/0.000/0.000
+   Object.setControlPointId 23
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_wmineentrance_CH_US_SMG_0]
+   Object.create CPNAME_GP_32_wmineentrance_CH_US_SMG_0
+   Object.absolutePosition -145.286/80.406/-23.052
+   Object.rotation 43.242/0.000/0.000
+   Object.setControlPointId 23
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_wmineentrance_CH_US_SMG_1]
+   Object.create CPNAME_GP_32_wmineentrance_CH_US_SMG_1
+   Object.absolutePosition -91.768/83.460/34.965
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 23
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_emineentrance_5_1]
+   Object.create CPNAME_GP_32_emineentrance_5_1
+   Object.absolutePosition 101.299/78.605/172.844
+   Object.rotation -76.274/0.000/0.000
+   Object.setControlPointId 22
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_emineentrance_6]
+   Object.create CPNAME_GP_32_emineentrance_6
+   Object.absolutePosition 78.191/81.659/87.271
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 22
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_emineentrance_7]
+   Object.create CPNAME_GP_32_emineentrance_7
+   Object.absolutePosition 135.081/78.605/124.747
+   Object.rotation -115.100/0.000/0.000
+   Object.setControlPointId 22
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_securityhq_CH_US_SMG_0]
+   Object.create CPNAME_GP_32_securityhq_CH_US_SMG_0
+   Object.absolutePosition 87.932/94.609/-200.700
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 24
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_securityhq_CH_US_LightJeep_0]
+   Object.create CPNAME_GP_32_securityhq_CH_US_LightJeep_0
+   Object.absolutePosition 117.965/93.543/-192.714
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 24
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_powerplant_CH_US_AttakHeli]
+   Object.create CPNAME_GP_32_powerplant_CH_US_AttakHeli
+   Object.absolutePosition 257.095/84.497/-189.152
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 32
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_powerplant_LightJeep_0]
+   Object.create CPNAME_GP_32_powerplant_LightJeep_0
+   Object.absolutePosition 255.070/84.497/-216.993
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 32
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_powerplant_CH_US_SMG_0]
+   Object.create CPNAME_GP_32_powerplant_CH_US_SMG_0
+   Object.absolutePosition 353.090/96.551/-267.732
+   Object.rotation 180.000/0.000/0.000
+   Object.setControlPointId 32
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_powerplant_CH_US_SMG_1]
+   Object.create CPNAME_GP_32_powerplant_CH_US_SMG_1
+   Object.absolutePosition 293.654/85.606/-192.042
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 32
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_securityhq_APC_0]
+   Object.create CPNAME_GP_32_securityhq_APC_0
+   Object.absolutePosition 117.000/93.500/-229.000
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 24
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_uppercamp_CH_US_SMG_0]
+   Object.create CPNAME_GP_32_uppercamp_CH_US_SMG_0
+   Object.absolutePosition -491.013/101.103/288.923
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 31
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_uppercamp_CH_US_SMG_1]
+   Object.create CPNAME_GP_32_uppercamp_CH_US_SMG_1
+   Object.absolutePosition -560.324/95.305/212.186
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 31
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_powerplant_CH_US_AAS]
+   Object.create CPNAME_GP_32_powerplant_CH_US_AAS
+   Object.absolutePosition 293.766/84.497/-201.660
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 32
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_powerplant_CH_US_LightJeep]
+   Object.create CPNAME_GP_32_powerplant_CH_US_LightJeep
+   Object.absolutePosition 255.092/84.497/-211.502
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 32
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_uppercamp_AAV]
+   Object.create CPNAME_GP_32_uppercamp_AAV
+   Object.absolutePosition -485.070/99.994/296.969
+   Object.rotation 106.616/0.000/0.000
+   Object.setControlPointId 31
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_powerplant_AAV]
+   Object.create CPNAME_GP_32_powerplant_AAV
+   Object.absolutePosition 342.000/92.395/-224.000
+   Object.rotation -180.000/0.000/0.000
+   Object.setControlPointId 32
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_uppercamp_CH_US_ATS]
+   Object.create CPNAME_GP_32_uppercamp_CH_US_ATS
+   Object.absolutePosition -555.011/93.720/252.063
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 31
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_powerplant_CH_US_ATS]
+   Object.create CPNAME_GP_32_powerplant_CH_US_ATS
+   Object.absolutePosition 352.195/92.401/-306.423
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 32
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_uppercamp_CH_US_LightJeep]
+   Object.create CPNAME_GP_32_uppercamp_CH_US_LightJeep
+   Object.absolutePosition -560.555/93.720/247.996
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 31
+   Object.layer 5
+
+   rem [ObjectSpawner: CPNAME_GP_32_powerplant_CH_US_LightJeep_0]
+   Object.create CPNAME_GP_32_powerplant_CH_US_LightJeep_0
+   Object.absolutePosition 280.932/84.497/-237.366
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 32
+   Object.layer 5
+
+endIf
+
+rem ********** Spawn Points **********
+rem [SpawnPointTemplate: CPNAME_GP_32_bridgecamp_1]
+ObjectTemplate.create SpawnPoint CPNAME_GP_32_bridgecamp_1
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_32_bridgecamp_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 21
+
+rem [SpawnPoint: CPNAME_GP_32_bridgecamp_1]
+Object.create CPNAME_GP_32_bridgecamp_1
+Object.absolutePosition -264.108/130.597/324.162
+Object.rotation -180.000/0.000/0.000
+Object.layer 5
+
+rem [SpawnPointTemplate: CPNAME_GP_32_bridgecamp_2]
+ObjectTemplate.create SpawnPoint CPNAME_GP_32_bridgecamp_2
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_32_bridgecamp_2
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 21
+
+rem [SpawnPoint: CPNAME_GP_32_bridgecamp_2]
+Object.create CPNAME_GP_32_bridgecamp_2
+Object.absolutePosition -273.414/130.597/285.047
+Object.rotation 70.814/0.000/0.000
+Object.layer 5
+
+rem [SpawnPointTemplate: CPNAME_GP_32_bridgecamp_5]
+ObjectTemplate.create SpawnPoint CPNAME_GP_32_bridgecamp_5
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_32_bridgecamp_5
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 21
+
+rem [SpawnPoint: CPNAME_GP_32_bridgecamp_5]
+Object.create CPNAME_GP_32_bridgecamp_5
+Object.absolutePosition -271.248/130.597/300.214
+Object.rotation 90.000/0.000/0.000
+Object.layer 5
+
+rem [SpawnPointTemplate: CPNAME_GP_32_bridgecamp_7]
+ObjectTemplate.create SpawnPoint CPNAME_GP_32_bridgecamp_7
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_32_bridgecamp_7
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 21
+
+rem [SpawnPoint: CPNAME_GP_32_bridgecamp_7]
+Object.create CPNAME_GP_32_bridgecamp_7
+Object.absolutePosition -236.520/130.597/281.348
+Object.rotation -43.499/0.000/0.000
+Object.layer 5
+
+rem [SpawnPointTemplate: CPNAME_GP_32_emineentrance_1_0]
+ObjectTemplate.create SpawnPoint CPNAME_GP_32_emineentrance_1_0
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_32_emineentrance_1_0
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 22
+
+rem [SpawnPoint: CPNAME_GP_32_emineentrance_1_0]
+Object.create CPNAME_GP_32_emineentrance_1_0
+Object.absolutePosition 127.733/77.496/153.063
+Object.rotation -90.000/0.000/0.000
+Object.layer 5
+
+rem [SpawnPointTemplate: CPNAME_GP_32_emineentrance_10_0]
+ObjectTemplate.create SpawnPoint CPNAME_GP_32_emineentrance_10_0
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_32_emineentrance_10_0
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 22
+
+rem [SpawnPoint: CPNAME_GP_32_emineentrance_10_0]
+Object.create CPNAME_GP_32_emineentrance_10_0
+Object.absolutePosition 147.142/77.496/143.939
+Object.rotation -159.800/0.000/0.000
+Object.layer 5
+
+rem [SpawnPointTemplate: CPNAME_GP_32_emineentrance_2_0]
+ObjectTemplate.create SpawnPoint CPNAME_GP_32_emineentrance_2_0
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_32_emineentrance_2_0
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 22
+
+rem [SpawnPoint: CPNAME_GP_32_emineentrance_2_0]
+Object.create CPNAME_GP_32_emineentrance_2_0
+Object.absolutePosition 127.199/77.496/84.083
+Object.rotation -43.400/0.000/0.000
+Object.layer 5
+
+rem [SpawnPointTemplate: CPNAME_GP_32_emineentrance_3_0]
+ObjectTemplate.create SpawnPoint CPNAME_GP_32_emineentrance_3_0
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_32_emineentrance_3_0
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 22
+
+rem [SpawnPoint: CPNAME_GP_32_emineentrance_3_0]
+Object.create CPNAME_GP_32_emineentrance_3_0
+Object.absolutePosition 148.772/77.496/163.513
+Object.rotation -90.000/0.000/0.000
+Object.layer 5
+
+rem [SpawnPointTemplate: CPNAME_GP_32_emineentrance_4_0]
+ObjectTemplate.create SpawnPoint CPNAME_GP_32_emineentrance_4_0
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_32_emineentrance_4_0
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 22
+
+rem [SpawnPoint: CPNAME_GP_32_emineentrance_4_0]
+Object.create CPNAME_GP_32_emineentrance_4_0
+Object.absolutePosition 102.947/77.496/88.005
+Object.rotation -180.000/0.000/0.000
+Object.layer 5
+
+rem [SpawnPointTemplate: CPNAME_GP_32_emineentrance_5_0]
+ObjectTemplate.create SpawnPoint CPNAME_GP_32_emineentrance_5_0
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_32_emineentrance_5_0
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 22
+
+rem [SpawnPoint: CPNAME_GP_32_emineentrance_5_0]
+Object.create CPNAME_GP_32_emineentrance_5_0
+Object.absolutePosition 105.665/77.502/172.924
+Object.rotation 144.183/0.000/0.000
+Object.layer 5
+
+rem [SpawnPointTemplate: CPNAME_GP_32_wmineentrance_2]
+ObjectTemplate.create SpawnPoint CPNAME_GP_32_wmineentrance_2
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_32_wmineentrance_2
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 23
+
+rem [SpawnPoint: CPNAME_GP_32_wmineentrance_2]
+Object.create CPNAME_GP_32_wmineentrance_2
+Object.absolutePosition -137.642/79.297/35.092
+Object.rotation 180.000/0.000/0.000
+Object.layer 5
+
+rem [SpawnPointTemplate: CPNAME_GP_32_wmineentrance_1]
+ObjectTemplate.create SpawnPoint CPNAME_GP_32_wmineentrance_1
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_32_wmineentrance_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 23
+
+rem [SpawnPoint: CPNAME_GP_32_wmineentrance_1]
+Object.create CPNAME_GP_32_wmineentrance_1
+Object.absolutePosition -98.902/79.297/6.830
+Object.rotation -20.853/0.000/0.000
+Object.layer 5
+
+rem [SpawnPointTemplate: CPNAME_GP_32_wmineentrance_20]
+ObjectTemplate.create SpawnPoint CPNAME_GP_32_wmineentrance_20
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_32_wmineentrance_20
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 23
+
+rem [SpawnPoint: CPNAME_GP_32_wmineentrance_20]
+Object.create CPNAME_GP_32_wmineentrance_20
+Object.absolutePosition -162.964/79.297/-35.068
+Object.rotation 0.000/0.000/0.000
+Object.layer 5
+
+rem [SpawnPointTemplate: CPNAME_GP_32_wmineentrance_5]
+ObjectTemplate.create SpawnPoint CPNAME_GP_32_wmineentrance_5
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_32_wmineentrance_5
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 23
+
+rem [SpawnPoint: CPNAME_GP_32_wmineentrance_5]
+Object.create CPNAME_GP_32_wmineentrance_5
+Object.absolutePosition -182.285/81.229/6.868
+Object.rotation -89.903/0.000/0.000
+Object.layer 5
+
+rem [SpawnPointTemplate: CPNAME_GP_32_wmineentrance_6]
+ObjectTemplate.create SpawnPoint CPNAME_GP_32_wmineentrance_6
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_32_wmineentrance_6
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 23
+
+rem [SpawnPoint: CPNAME_GP_32_wmineentrance_6]
+Object.create CPNAME_GP_32_wmineentrance_6
+Object.absolutePosition -183.878/81.228/-6.561
+Object.rotation 149.161/0.000/0.000
+Object.layer 5
+
+rem [SpawnPointTemplate: CPNAME_GP_32_securityhq_1]
+ObjectTemplate.create SpawnPoint CPNAME_GP_32_securityhq_1
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_32_securityhq_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 24
+
+rem [SpawnPoint: CPNAME_GP_32_securityhq_1]
+Object.create CPNAME_GP_32_securityhq_1
+Object.absolutePosition 103.304/93.500/-229.937
+Object.rotation 0.000/0.000/0.000
+Object.layer 5
+
+rem [SpawnPointTemplate: CPNAME_GP_32_securityhq_4]
+ObjectTemplate.create SpawnPoint CPNAME_GP_32_securityhq_4
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_32_securityhq_4
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 24
+
+rem [SpawnPoint: CPNAME_GP_32_securityhq_4]
+Object.create CPNAME_GP_32_securityhq_4
+Object.absolutePosition 112.952/93.500/-175.645
+Object.rotation -136.700/0.000/0.000
+Object.layer 5
+
+rem [SpawnPointTemplate: CPNAME_GP_32_securityhq_7]
+ObjectTemplate.create SpawnPoint CPNAME_GP_32_securityhq_7
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_32_securityhq_7
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 24
+
+rem [SpawnPoint: CPNAME_GP_32_securityhq_7]
+Object.create CPNAME_GP_32_securityhq_7
+Object.absolutePosition 72.161/93.500/-217.891
+Object.rotation 59.921/0.000/0.000
+Object.layer 5
+
+rem [SpawnPointTemplate: CPNAME_GP_32_uppercamp_1]
+ObjectTemplate.create SpawnPoint CPNAME_GP_32_uppercamp_1
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_32_uppercamp_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 31
+
+rem [SpawnPoint: CPNAME_GP_32_uppercamp_1]
+Object.create CPNAME_GP_32_uppercamp_1
+Object.absolutePosition -518.377/93.695/194.775
+Object.rotation -90.000/0.000/0.000
+Object.layer 5
+
+rem [SpawnPointTemplate: CPNAME_GP_32_uppercamp_2]
+ObjectTemplate.create SpawnPoint CPNAME_GP_32_uppercamp_2
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_32_uppercamp_2
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 31
+
+rem [SpawnPoint: CPNAME_GP_32_uppercamp_2]
+Object.create CPNAME_GP_32_uppercamp_2
+Object.absolutePosition -496.071/99.995/298.521
+Object.rotation 151.356/0.000/0.000
+Object.layer 5
+
+rem [SpawnPointTemplate: CPNAME_GP_32_uppercamp_3]
+ObjectTemplate.create SpawnPoint CPNAME_GP_32_uppercamp_3
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_32_uppercamp_3
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 31
+
+rem [SpawnPoint: CPNAME_GP_32_uppercamp_3]
+Object.create CPNAME_GP_32_uppercamp_3
+Object.absolutePosition -544.999/93.695/188.914
+Object.rotation 0.000/0.000/0.000
+Object.layer 5
+
+rem [SpawnPointTemplate: CPNAME_GP_32_uppercamp_4]
+ObjectTemplate.create SpawnPoint CPNAME_GP_32_uppercamp_4
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_32_uppercamp_4
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 31
+
+rem [SpawnPoint: CPNAME_GP_32_uppercamp_4]
+Object.create CPNAME_GP_32_uppercamp_4
+Object.absolutePosition -534.061/93.695/261.987
+Object.rotation -180.000/0.000/0.000
+Object.layer 5
+
+rem [SpawnPointTemplate: CPNAME_GP_32_uppercamp_6]
+ObjectTemplate.create SpawnPoint CPNAME_GP_32_uppercamp_6
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_32_uppercamp_6
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 31
+
+rem [SpawnPoint: CPNAME_GP_32_uppercamp_6]
+Object.create CPNAME_GP_32_uppercamp_6
+Object.absolutePosition -585.132/96.005/208.757
+Object.rotation 162.783/0.000/0.000
+Object.layer 5
+
+rem [SpawnPointTemplate: CPNAME_GP_32_uppercamp_7]
+ObjectTemplate.create SpawnPoint CPNAME_GP_32_uppercamp_7
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_32_uppercamp_7
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 31
+
+rem [SpawnPoint: CPNAME_GP_32_uppercamp_7]
+Object.create CPNAME_GP_32_uppercamp_7
+Object.absolutePosition -469.398/99.994/276.811
+Object.rotation -5.664/0.000/0.000
+Object.layer 5
+
+rem [SpawnPointTemplate: CPNAME_GP_32_powerplant_5]
+ObjectTemplate.create SpawnPoint CPNAME_GP_32_powerplant_5
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_32_powerplant_5
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 32
+
+rem [SpawnPoint: CPNAME_GP_32_powerplant_5]
+Object.create CPNAME_GP_32_powerplant_5
+Object.absolutePosition 313.397/84.497/-214.860
+Object.rotation -45.524/0.000/0.000
+Object.layer 5
+
+rem [SpawnPointTemplate: CPNAME_GP_32_powerplant_6]
+ObjectTemplate.create SpawnPoint CPNAME_GP_32_powerplant_6
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_32_powerplant_6
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 32
+
+rem [SpawnPoint: CPNAME_GP_32_powerplant_6]
+Object.create CPNAME_GP_32_powerplant_6
+Object.absolutePosition 262.724/84.497/-229.703
+Object.rotation 37.100/0.000/0.000
+Object.layer 5
+
+rem [SpawnPointTemplate: CPNAME_GP_32_powerplant_7]
+ObjectTemplate.create SpawnPoint CPNAME_GP_32_powerplant_7
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_32_powerplant_7
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 32
+
+rem [SpawnPoint: CPNAME_GP_32_powerplant_7]
+Object.create CPNAME_GP_32_powerplant_7
+Object.absolutePosition 271.525/84.497/-180.183
+Object.rotation -179.913/0.000/0.000
+Object.layer 5
+
+rem [SpawnPointTemplate: CPNAME_GP_32_powerplant_4]
+ObjectTemplate.create SpawnPoint CPNAME_GP_32_powerplant_4
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_32_powerplant_4
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 32
+
+rem [SpawnPoint: CPNAME_GP_32_powerplant_4]
+Object.create CPNAME_GP_32_powerplant_4
+Object.absolutePosition 372.612/92.395/-228.534
+Object.rotation -91.090/0.000/0.000
+Object.layer 5
+
+rem [SpawnPointTemplate: CPNAME_GP_32_powerplant_5_0]
+ObjectTemplate.create SpawnPoint CPNAME_GP_32_powerplant_5_0
+ObjectTemplate.activeSafe SpawnPoint CPNAME_GP_32_powerplant_5_0
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 32
+
+rem [SpawnPoint: CPNAME_GP_32_powerplant_5_0]
+Object.create CPNAME_GP_32_powerplant_5_0
+Object.absolutePosition 327.696/92.395/-257.377
+Object.rotation 34.300/0.000/0.000
+Object.layer 5
+
+rem ********** Control Points **********
+rem [ControlPointTemplate: CPNAME_GP_32_bridgecamp]
+ObjectTemplate.create ControlPoint CPNAME_GP_32_bridgecamp
+ObjectTemplate.activeSafe ControlPoint CPNAME_GP_32_bridgecamp
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CPNAME_GP_32_bridgecamp
+ObjectTemplate.radius 10
+ObjectTemplate.controlPointId 21
+ObjectTemplate.areaValueTeam1 34
+ObjectTemplate.areaValueTeam2 34
+ObjectTemplate.timeToGetControl 20
+ObjectTemplate.timeToLoseControl 20
+
+rem [ControlPointTemplate: CPNAME_GP_32_emineentrance]
+ObjectTemplate.create ControlPoint CPNAME_GP_32_emineentrance
+ObjectTemplate.activeSafe ControlPoint CPNAME_GP_32_emineentrance
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CPNAME_GP_32_emineentrance
+ObjectTemplate.radius 10
+ObjectTemplate.controlPointId 22
+ObjectTemplate.areaValueTeam1 34
+ObjectTemplate.areaValueTeam2 34
+ObjectTemplate.timeToGetControl 20
+ObjectTemplate.timeToLoseControl 20
+
+rem [ControlPointTemplate: CPNAME_GP_32_wmineentrance]
+ObjectTemplate.create ControlPoint CPNAME_GP_32_wmineentrance
+ObjectTemplate.activeSafe ControlPoint CPNAME_GP_32_wmineentrance
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CPNAME_GP_32_wmineentrance
+ObjectTemplate.radius 12
+ObjectTemplate.controlPointId 23
+ObjectTemplate.areaValueTeam1 34
+ObjectTemplate.areaValueTeam2 34
+ObjectTemplate.timeToGetControl 20
+ObjectTemplate.timeToLoseControl 20
+
+rem [ControlPointTemplate: CPNAME_GP_32_securityhq]
+ObjectTemplate.create ControlPoint CPNAME_GP_32_securityhq
+ObjectTemplate.activeSafe ControlPoint CPNAME_GP_32_securityhq
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CPNAME_GP_32_securityhq
+ObjectTemplate.radius 8
+ObjectTemplate.controlPointId 24
+ObjectTemplate.areaValueTeam1 34
+ObjectTemplate.areaValueTeam2 34
+ObjectTemplate.timeToGetControl 20
+ObjectTemplate.timeToLoseControl 20
+
+rem [ControlPointTemplate: CPNAME_GP_32_uppercamp]
+ObjectTemplate.create ControlPoint CPNAME_GP_32_uppercamp
+ObjectTemplate.activeSafe ControlPoint CPNAME_GP_32_uppercamp
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CPNAME_GP_32_uppercamp
+ObjectTemplate.radius 8
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 31
+ObjectTemplate.timeToGetControl 0
+ObjectTemplate.timeToLoseControl 0
+ObjectTemplate.unableToChangeTeam 1
+
+rem [ControlPointTemplate: CPNAME_GP_32_powerplant]
+ObjectTemplate.create ControlPoint CPNAME_GP_32_powerplant
+ObjectTemplate.activeSafe ControlPoint CPNAME_GP_32_powerplant
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CPNAME_GP_32_powerplant
+ObjectTemplate.radius 9
+ObjectTemplate.team 2
+ObjectTemplate.controlPointId 32
+ObjectTemplate.timeToGetControl 0
+ObjectTemplate.timeToLoseControl 0
+ObjectTemplate.unableToChangeTeam 1
+
+if v_arg1 == host
+
+   rem [ControlPoint: CPNAME_GP_32_bridgecamp]
+   Object.create CPNAME_GP_32_bridgecamp
+   Object.absolutePosition -248.876/130.587/287.531
+   Object.layer 5
+
+   rem [ControlPoint: CPNAME_GP_32_emineentrance]
+   Object.create CPNAME_GP_32_emineentrance
+   Object.absolutePosition 139.157/77.486/128.073
+   Object.layer 5
+
+   rem [ControlPoint: CPNAME_GP_32_wmineentrance]
+   Object.create CPNAME_GP_32_wmineentrance
+   Object.absolutePosition -150.338/79.287/-24.404
+   Object.layer 5
+
+   rem [ControlPoint: CPNAME_GP_32_securityhq]
+   Object.create CPNAME_GP_32_securityhq
+   Object.absolutePosition 82.984/93.489/-199.083
+   Object.layer 5
+
+   rem [ControlPoint: CPNAME_GP_32_uppercamp]
+   Object.create CPNAME_GP_32_uppercamp
+   Object.absolutePosition -531.518/94.939/231.722
+   Object.layer 5
+
+   rem [ControlPoint: CPNAME_GP_32_powerplant]
+   Object.create CPNAME_GP_32_powerplant
+   Object.absolutePosition 302.000/84.487/-203.000
+   Object.layer 5
+
+endIf
+
+CombatAreaManager.use 1
+CombatAreaManager.timeAllowedOutside 10.000000
+CombatArea.create CombatArea_162_32
+CombatArea.min 0.000000/0.000000
+CombatArea.max 0.000000/0.000000
+CombatArea.addAreaPoint -755.209961/135.166626
+CombatArea.addAreaPoint -768.078735/152.694458
+CombatArea.addAreaPoint -781.515625/181.144165
+CombatArea.addAreaPoint -789.775757/201.159668
+CombatArea.addAreaPoint -799.050110/228.224976
+CombatArea.addAreaPoint -809.298767/274.420898
+CombatArea.addAreaPoint -809.985229/293.854370
+CombatArea.addAreaPoint -806.403809/310.728271
+CombatArea.addAreaPoint -805.054932/332.142456
+CombatArea.addAreaPoint -795.681946/369.200684
+CombatArea.addAreaPoint -780.112793/413.157593
+CombatArea.addAreaPoint -763.492188/455.329834
+CombatArea.addAreaPoint -749.189819/482.944702
+CombatArea.addAreaPoint -731.242126/510.339966
+CombatArea.addAreaPoint -707.251770/538.775024
+CombatArea.addAreaPoint -671.200989/573.188721
+CombatArea.addAreaPoint -638.305176/597.520142
+CombatArea.addAreaPoint -615.395264/609.802490
+CombatArea.addAreaPoint -586.547119/618.898560
+CombatArea.addAreaPoint -552.671814/626.962280
+CombatArea.addAreaPoint -528.598694/630.329346
+CombatArea.addAreaPoint -492.750671/634.731445
+CombatArea.addAreaPoint -467.162476/634.062378
+CombatArea.addAreaPoint -421.016968/624.129395
+CombatArea.addAreaPoint -389.018494/614.360107
+CombatArea.addAreaPoint -356.274536/603.251831
+CombatArea.addAreaPoint -338.282898/596.127808
+CombatArea.addAreaPoint -318.046509/589.898926
+CombatArea.addAreaPoint -286.655029/584.424683
+CombatArea.addAreaPoint -258.186218/576.723999
+CombatArea.addAreaPoint -210.068176/563.543335
+CombatArea.addAreaPoint -176.230774/554.885498
+CombatArea.addAreaPoint -146.296265/547.960205
+CombatArea.addAreaPoint -112.411682/542.547485
+CombatArea.addAreaPoint -64.858948/541.609741
+CombatArea.addAreaPoint -19.060486/546.446777
+CombatArea.addAreaPoint 21.754517/556.524536
+CombatArea.addAreaPoint 60.999023/560.612305
+CombatArea.addAreaPoint 101.912842/565.425415
+CombatArea.addAreaPoint 137.345459/561.621338
+CombatArea.addAreaPoint 159.148560/555.744629
+CombatArea.addAreaPoint 186.836060/543.728394
+CombatArea.addAreaPoint 217.987915/529.287964
+CombatArea.addAreaPoint 248.456177/510.876709
+CombatArea.addAreaPoint 285.035767/488.451172
+CombatArea.addAreaPoint 298.411865/478.588501
+CombatArea.addAreaPoint 316.551758/462.768433
+CombatArea.addAreaPoint 338.555176/443.437744
+CombatArea.addAreaPoint 362.003174/423.580322
+CombatArea.addAreaPoint 386.234741/403.160278
+CombatArea.addAreaPoint 413.960449/380.424561
+CombatArea.addAreaPoint 479.028809/326.666870
+CombatArea.addAreaPoint 500.135864/306.363281
+CombatArea.addAreaPoint 521.510742/283.314575
+CombatArea.addAreaPoint 553.920166/249.236206
+CombatArea.addAreaPoint 594.280029/207.917114
+CombatArea.addAreaPoint 620.353638/176.486572
+CombatArea.addAreaPoint 643.022827/148.845825
+CombatArea.addAreaPoint 655.574097/127.957886
+CombatArea.addAreaPoint 661.833252/103.755859
+CombatArea.addAreaPoint 673.100342/63.273804
+CombatArea.addAreaPoint 678.354126/35.526611
+CombatArea.addAreaPoint 681.412109/9.556030
+CombatArea.addAreaPoint 682.784546/-18.983704
+CombatArea.addAreaPoint 681.979126/-42.629639
+CombatArea.addAreaPoint 679.239746/-75.191833
+CombatArea.addAreaPoint 674.025757/-110.439941
+CombatArea.addAreaPoint 663.389038/-154.376404
+CombatArea.addAreaPoint 652.167236/-198.907898
+CombatArea.addAreaPoint 639.773804/-234.320862
+CombatArea.addAreaPoint 623.623413/-270.102478
+CombatArea.addAreaPoint 609.451172/-295.868042
+CombatArea.addAreaPoint 589.663940/-327.038635
+CombatArea.addAreaPoint 566.369263/-357.362244
+CombatArea.addAreaPoint 536.191406/-389.128235
+CombatArea.addAreaPoint 515.243164/-410.599426
+CombatArea.addAreaPoint 483.008179/-439.263428
+CombatArea.addAreaPoint 438.980591/-468.447266
+CombatArea.addAreaPoint 419.504639/-477.794250
+CombatArea.addAreaPoint 391.648071/-484.691772
+CombatArea.addAreaPoint 354.655151/-488.884888
+CombatArea.addAreaPoint 266.756836/-494.045654
+CombatArea.addAreaPoint 202.423462/-494.734009
+CombatArea.addAreaPoint 158.843872/-492.448059
+CombatArea.addAreaPoint 96.780884/-485.328491
+CombatArea.addAreaPoint 20.280640/-467.796021
+CombatArea.addAreaPoint -28.480042/-458.790466
+CombatArea.addAreaPoint -72.169250/-448.655457
+CombatArea.addAreaPoint -100.788452/-439.930054
+CombatArea.addAreaPoint -137.308044/-428.129944
+CombatArea.addAreaPoint -166.605286/-417.131348
+CombatArea.addAreaPoint -185.702393/-410.533813
+CombatArea.addAreaPoint -216.564880/-400.908997
+CombatArea.addAreaPoint -250.951599/-389.868164
+CombatArea.addAreaPoint -298.600891/-374.665833
+CombatArea.addAreaPoint -333.962341/-360.281311
+CombatArea.addAreaPoint -376.684387/-335.760132
+CombatArea.addAreaPoint -418.865051/-299.602173
+CombatArea.addAreaPoint -442.057617/-270.789429
+CombatArea.addAreaPoint -501.061890/-183.961365
+CombatArea.addAreaPoint -532.631348/-136.872131
+CombatArea.addAreaPoint -581.661438/-66.757202
+CombatArea.addAreaPoint -634.695618/0.402222
+CombatArea.addAreaPoint -674.213501/46.044922
+CombatArea.addAreaPoint -708.337830/81.533936
+CombatArea.team 0
+CombatArea.vehicles 4
+CombatArea.layer 5
+

@@ -1,0 +1,21 @@
+# mods/xpack2\Levels\OperationSmokeScreen/UndergrowthAtlas.tai
+# 
+# 
+# <filename>		<atlas filename>, <atlas idx>, <woffset>, <hoffset>, <width>, <height>
+# 
+# Texture <filename> can be found in texture atlas <atlas filename>, i.e.,
+# <group><idx>.dds with texture coordinates boundary given by:
+#   A = ( <woffset>, <hoffset> )
+#   B = ( <woffset> + <width>, <hoffset> + <height> )
+# 
+# where coordinates (0,0) and (1,1) of the original texture map correspond
+# to coordinates A and B, respectively, in the texture atlas.
+
+
+Content/Terrain/Undergrowth/fieldgrasslighter2.dds		Levels\OperationSmokeScreen/UndergrowthAtlas0.dds, 0, 0, 0, 0.25, 1
+Content/Terrain/Undergrowth/XP_bush.dds		Levels\OperationSmokeScreen/UndergrowthAtlas0.dds, 0, 0.25, 0, 0.25, 1
+Content/Terrain/Undergrowth/ME_deadstick01.dds		Levels\OperationSmokeScreen/UndergrowthAtlas0.dds, 0, 0.5, 0, 0.125, 1
+Content/Terrain/Undergrowth/thinhighgrass.dds		Levels\OperationSmokeScreen/UndergrowthAtlas0.dds, 0, 0.625, 0, 0.125, 1
+Content/Terrain/Undergrowth/trash.dds		Levels\OperationSmokeScreen/UndergrowthAtlas0.dds, 0, 0.75, 0, 0.125, 1
+Content/Terrain/Undergrowth/ME_genrock01.dds		Levels\OperationSmokeScreen/UndergrowthAtlas0.dds, 0, 0.875, 0, 0.0625, 0.5
+Content/Terrain/Undergrowth/ME_genrock02.dds		Levels\OperationSmokeScreen/UndergrowthAtlas0.dds, 0, 0.9375, 0, 0.0625, 0.5

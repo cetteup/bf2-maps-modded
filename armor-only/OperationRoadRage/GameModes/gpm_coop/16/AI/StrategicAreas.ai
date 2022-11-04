@@ -1,0 +1,63 @@
+rem *** Create strategic areas ***
+aiStrategicArea.createFromControlPoint CP_SinglePlayer_RR_HillCrest 404 50
+aiStrategicArea.layer 5
+
+aiStrategicArea.createFromControlPoint CP_SinglePlayer_RR_JunctionPark 403 50
+aiStrategicArea.layer 5
+
+aiStrategicArea.createFromControlPoint CP_SinglePlayer_RR_Mall 402 50
+aiStrategicArea.layer 5
+
+aiStrategicArea.createFromControlPoint CP_SinglePlayer_RR_Overpass 401 50
+aiStrategicArea.layer 5
+
+aiStrategicArea.setActive CP_SinglePlayer_RR_HillCrest
+AIStrategicArea.addNeighbour CP_SinglePlayer_RR_JunctionPark
+AIStrategicArea.addNeighbour CP_SinglePlayer_RR_Overpass
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 196.526/56.8519/-173.741
+AIStrategicArea.setOrderPosition Vehicle 188.407/56.6219/-170.021
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 42.4264
+
+aiStrategicArea.setActive CP_SinglePlayer_RR_JunctionPark
+AIStrategicArea.addNeighbour CP_SinglePlayer_RR_Overpass
+AIStrategicArea.addNeighbour CP_SinglePlayer_RR_HillCrest
+AIStrategicArea.addNeighbour CP_SinglePlayer_RR_Mall
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 75.3672/53.7603/-107.137
+AIStrategicArea.setOrderPosition Vehicle 66.9466/53.2363/-105.205
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 42.4264
+
+aiStrategicArea.setActive CP_SinglePlayer_RR_Mall
+AIStrategicArea.addNeighbour CP_SinglePlayer_RR_Overpass
+AIStrategicArea.addNeighbour CP_SinglePlayer_RR_JunctionPark
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry -181.862/47.9279/-188.294
+AIStrategicArea.setOrderPosition Vehicle -179.128/47.9279/-188.277
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 28.2843
+
+aiStrategicArea.setActive CP_SinglePlayer_RR_Overpass
+AIStrategicArea.addNeighbour CP_SinglePlayer_RR_Mall
+AIStrategicArea.addNeighbour CP_SinglePlayer_RR_JunctionPark
+AIStrategicArea.addNeighbour CP_SinglePlayer_RR_HillCrest
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry -28.7155/51.2535/-232.207
+AIStrategicArea.setOrderPosition Vehicle -24.1132/51.2657/-230.668
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 28.2843
+
+aiStrategicArea.addWayPoint -122.711/48.1397/-88.9725 Infantry CP_SinglePlayer_RR_HillCrest CP_SinglePlayer_RR_Mall
+aiStrategicArea.addWayPoint -25.3945/51.2864/-71.7707 Infantry CP_SinglePlayer_RR_HillCrest CP_SinglePlayer_RR_Mall
+aiStrategicArea.addWayPoint -35.4335/51.2864/-70.5146 Infantry CP_SinglePlayer_RR_HillCrest CP_SinglePlayer_RR_Mall
+aiStrategicArea.addWayPoint -126.209/48.3819/-86.3955 Vehicle CP_SinglePlayer_RR_HillCrest CP_SinglePlayer_RR_Mall
+aiStrategicArea.addWayPoint -24.6856/51.2864/-74.3688 Vehicle CP_SinglePlayer_RR_HillCrest CP_SinglePlayer_RR_Mall
+aiStrategicArea.addWayPoint -35.0858/51.2864/-69.1959 Vehicle CP_SinglePlayer_RR_HillCrest CP_SinglePlayer_RR_Mall
+aiStrategicArea.addWayPoint -34.9493/51.2864/-73.3531 Infantry CP_SinglePlayer_RR_JunctionPark CP_SinglePlayer_RR_Mall
+aiStrategicArea.addWayPoint -26.1832/51.2864/-75.2048 Infantry CP_SinglePlayer_RR_JunctionPark CP_SinglePlayer_RR_Mall
+aiStrategicArea.addWayPoint -124.988/48.3053/-86.9991 Infantry CP_SinglePlayer_RR_JunctionPark CP_SinglePlayer_RR_Mall
+aiStrategicArea.addWayPoint -26.3089/51.2864/-72.0502 Vehicle CP_SinglePlayer_RR_JunctionPark CP_SinglePlayer_RR_Mall
+aiStrategicArea.addWayPoint -34.3934/51.2864/-72.177 Vehicle CP_SinglePlayer_RR_JunctionPark CP_SinglePlayer_RR_Mall
+aiStrategicArea.addWayPoint -127.559/48.3901/-87.8129 Vehicle CP_SinglePlayer_RR_JunctionPark CP_SinglePlayer_RR_Mall

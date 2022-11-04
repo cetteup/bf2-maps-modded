@@ -1,0 +1,11 @@
+rem ********** Object Spawner **********
+if v_arg1 == host
+
+endIf
+
+rem ********** Spawn Points **********
+rem ********** Control Points **********
+if v_arg1 == host
+
+endIf
+

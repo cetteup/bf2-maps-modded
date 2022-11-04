@@ -1,0 +1,24 @@
+if v_arg1 == BF2Editor
+terrain.create TerrainEditable
+terrain.patchSize 128
+terrain.subdividePatches 1
+terrain.primaryWorldScale 2/0.00762939/2
+terrain.secondaryWorldScale 8/1.95312/8
+terrain.patchColormapSize 512
+terrain.lowDetailmapSize 512
+terrain.detailmapBaseName "Levels/Daqing_oilfields/Detailmaps/tx"
+terrain.lowDetailmapBaseName "Levels/Daqing_oilfields/LowDetailmaps/tx"
+terrain.colormapBaseName "Levels/Daqing_oilfields/Colormaps/tx"
+terrain.lightmapBaseName "Levels/Daqing_oilfields/Lightmaps/tx"
+terrain.farSideTiling 6/4
+terrain.farTopTilingHi 6
+terrain.farTopTilingLow 18
+terrain.farYOffset 0
+terrain.terrainWaterColor 0.086275/0.086275/0.094118
+terrain.init
+
+else
+terrain.create Terrain
+terrain.load Levels/Daqing_oilfields/terraindata.raw
+endIf
+

@@ -1,0 +1,1032 @@
+rem ********** Object Spawner **********
+rem [ObjectSpawnerTemplate: CPNAME_HT_16_ShahrUrmia_LightJeep]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_16_ShahrUrmia_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_16_ShahrUrmia_LightJeep
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_MEC_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_16_ShahrUrmia_HeavyTank_US]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_16_ShahrUrmia_HeavyTank_US
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_16_ShahrUrmia_HeavyTank_US
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 ustnk_m1a2
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_16_ShahrUrmia_HeavyJeep]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_16_ShahrUrmia_HeavyJeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_16_ShahrUrmia_HeavyJeep
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_vodnik
+ObjectTemplate.setObjectTemplate 2 usjep_hmmwv
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_16_ShahrUrmia_APC_US]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_16_ShahrUrmia_APC_US
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_16_ShahrUrmia_APC_US
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 usapc_lav25
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_16_Refinery_HeavyTank]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_16_Refinery_HeavyTank
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_16_Refinery_HeavyTank
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 rutnk_t90
+ObjectTemplate.setObjectTemplate 2 ustnk_m1a2
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_16_Refinery_LightJeep_0]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_16_Refinery_LightJeep_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_16_Refinery_LightJeep_0
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_MEC_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_16_VillageOfKuhlaz_LightJeep]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_16_VillageOfKuhlaz_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_16_VillageOfKuhlaz_LightJeep
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_MEC_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_16_CheckpointSouth_APC_MEC]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_16_CheckpointSouth_APC_MEC
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_16_CheckpointSouth_APC_MEC
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 apc_btr90
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_16_CheckpointSouth_LightJeep_0]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_16_CheckpointSouth_LightJeep_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_16_CheckpointSouth_LightJeep_0
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_MEC_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_16_CheckpointSouth_HeavyJeep]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_16_CheckpointSouth_HeavyJeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_16_CheckpointSouth_HeavyJeep
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_vodnik
+ObjectTemplate.setObjectTemplate 2 usjep_hmmwv
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_16_ShahrUrmia_UAV_US]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_16_ShahrUrmia_UAV_US
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_16_ShahrUrmia_UAV_US
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 aircontroltower
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_16_ShahrUrmia_RADAR_US]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_16_ShahrUrmia_RADAR_US
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_16_ShahrUrmia_RADAR_US
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 mobileradar_us_dest
+ObjectTemplate.TimeToLive 360
+ObjectTemplate.Distance 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_16_CheckpointSouth_UAV_MEC]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_16_CheckpointSouth_UAV_MEC
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_16_CheckpointSouth_UAV_MEC
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 aircontroltower_mec
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_16_CheckpointSouth_RADAR_MEC]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_16_CheckpointSouth_RADAR_MEC
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_16_CheckpointSouth_RADAR_MEC
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 mobileradar_mech_dest
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_16_ShahrUrmia_ART_US]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_16_ShahrUrmia_ART_US
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_16_ShahrUrmia_ART_US
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 USART_LW155
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_16_CheckpointSouth_ART_MEC]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_16_CheckpointSouth_ART_MEC
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_16_CheckpointSouth_ART_MEC
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ARS_D30
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_16_CheckpointSouth_HeavyTank_MEC]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_16_CheckpointSouth_HeavyTank_MEC
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_16_CheckpointSouth_HeavyTank_MEC
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 RUTNK_T90
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_16_ShahrUrmia_AT]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_16_ShahrUrmia_AT
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_16_ShahrUrmia_AT
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ATS_HJ8
+ObjectTemplate.setObjectTemplate 2 ATS_TOW
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_16_ShahrUrmia_AT_0]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_16_ShahrUrmia_AT_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_16_ShahrUrmia_AT_0
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ATS_HJ8
+ObjectTemplate.setObjectTemplate 2 ATS_TOW
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_16_CheckpointSouth_AT]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_16_CheckpointSouth_AT
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_16_CheckpointSouth_AT
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ATS_HJ8
+ObjectTemplate.setObjectTemplate 2 ATS_TOW
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_16_CheckpointSouth_HeavyTank_MEC_0]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_16_CheckpointSouth_HeavyTank_MEC_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_16_CheckpointSouth_HeavyTank_MEC_0
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 RUTNK_T90
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_16_Refinery_APC]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_16_Refinery_APC
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_16_Refinery_APC
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 APC_BTR90
+ObjectTemplate.setObjectTemplate 2 USAPC_LAV25
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_16_VillageOfKuhlaz_HeavyTank]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_16_VillageOfKuhlaz_HeavyTank
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_16_VillageOfKuhlaz_HeavyTank
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 RUTNK_T90
+ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_16_ShahrUrmia_HeavyTank_US_0]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_16_ShahrUrmia_HeavyTank_US_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_16_ShahrUrmia_HeavyTank_US_0
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_16_Refinery_SpeedBoat]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_16_Refinery_SpeedBoat
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_16_Refinery_SpeedBoat
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 BOAT_RIB
+ObjectTemplate.setObjectTemplate 2 BOAT_RIB
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_16_VillageOfKuhlaz_SpeedBoat]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_16_VillageOfKuhlaz_SpeedBoat
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_16_VillageOfKuhlaz_SpeedBoat
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 BOAT_RIB
+ObjectTemplate.setObjectTemplate 2 BOAT_RIB
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_16_VillageOfKuhlaz_APC]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_16_VillageOfKuhlaz_APC
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_16_VillageOfKuhlaz_APC
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 APC_BTR90
+ObjectTemplate.setObjectTemplate 2 USAPC_LAV25
+
+if v_arg1 == host
+
+   rem [ObjectSpawner: CPNAME_HT_16_ShahrUrmia_LightJeep]
+   Object.create CPNAME_HT_16_ShahrUrmia_LightJeep
+   Object.absolutePosition 603.107/27.000/-457.972
+   Object.rotation 0.016/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 2
+
+   rem [ObjectSpawner: CPNAME_HT_16_ShahrUrmia_HeavyTank_US]
+   Object.create CPNAME_HT_16_ShahrUrmia_HeavyTank_US
+   Object.absolutePosition 643.531/27.000/-504.670
+   Object.rotation -77.222/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 2
+
+   rem [ObjectSpawner: CPNAME_HT_16_ShahrUrmia_HeavyJeep]
+   Object.create CPNAME_HT_16_ShahrUrmia_HeavyJeep
+   Object.absolutePosition 629.225/27.000/-553.301
+   Object.rotation -110.690/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 2
+
+   rem [ObjectSpawner: CPNAME_HT_16_ShahrUrmia_APC_US]
+   Object.create CPNAME_HT_16_ShahrUrmia_APC_US
+   Object.absolutePosition 591.306/27.000/-524.764
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 2
+
+   rem [ObjectSpawner: CPNAME_HT_16_Refinery_HeavyTank]
+   Object.create CPNAME_HT_16_Refinery_HeavyTank
+   Object.absolutePosition 118.273/27.000/-322.650
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 103
+   Object.layer 2
+
+   rem [ObjectSpawner: CPNAME_HT_16_Refinery_LightJeep_0]
+   Object.create CPNAME_HT_16_Refinery_LightJeep_0
+   Object.absolutePosition 111.130/27.000/-343.135
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 103
+   Object.layer 2
+
+   rem [ObjectSpawner: CPNAME_HT_16_VillageOfKuhlaz_LightJeep]
+   Object.create CPNAME_HT_16_VillageOfKuhlaz_LightJeep
+   Object.absolutePosition 173.112/27.000/-624.177
+   Object.rotation -17.127/0.000/0.000
+   Object.setControlPointId 104
+   Object.layer 2
+
+   rem [ObjectSpawner: CPNAME_HT_16_CheckpointSouth_APC_MEC]
+   Object.create CPNAME_HT_16_CheckpointSouth_APC_MEC
+   Object.absolutePosition -309.787/27.000/-771.574
+   Object.rotation 2.694/0.000/0.000
+   Object.setControlPointId 109
+   Object.layer 2
+
+   rem [ObjectSpawner: CPNAME_HT_16_CheckpointSouth_LightJeep_0]
+   Object.create CPNAME_HT_16_CheckpointSouth_LightJeep_0
+   Object.absolutePosition -279.780/27.000/-756.844
+   Object.rotation -99.324/0.000/0.000
+   Object.setControlPointId 109
+   Object.layer 2
+
+   rem [ObjectSpawner: CPNAME_HT_16_CheckpointSouth_HeavyJeep]
+   Object.create CPNAME_HT_16_CheckpointSouth_HeavyJeep
+   Object.absolutePosition -279.464/27.000/-766.527
+   Object.rotation -89.643/0.000/0.000
+   Object.setControlPointId 109
+   Object.layer 2
+
+   rem [ObjectSpawner: CPNAME_HT_16_ShahrUrmia_UAV_US]
+   Object.create CPNAME_HT_16_ShahrUrmia_UAV_US
+   Object.absolutePosition 650.740/27.000/-546.606
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 2
+
+   rem [ObjectSpawner: CPNAME_HT_16_ShahrUrmia_RADAR_US]
+   Object.create CPNAME_HT_16_ShahrUrmia_RADAR_US
+   Object.absolutePosition 550.886/29.305/-541.615
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 2
+
+   rem [ObjectSpawner: CPNAME_HT_16_CheckpointSouth_UAV_MEC]
+   Object.create CPNAME_HT_16_CheckpointSouth_UAV_MEC
+   Object.absolutePosition -305.515/26.974/-749.392
+   Object.rotation -180.000/0.000/0.000
+   Object.setControlPointId 109
+   Object.layer 2
+
+   rem [ObjectSpawner: CPNAME_HT_16_CheckpointSouth_RADAR_MEC]
+   Object.create CPNAME_HT_16_CheckpointSouth_RADAR_MEC
+   Object.absolutePosition -254.832/29.358/-775.539
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 109
+   Object.layer 2
+
+   rem [ObjectSpawner: CPNAME_HT_16_ShahrUrmia_ART_US]
+   Object.create CPNAME_HT_16_ShahrUrmia_ART_US
+   Object.absolutePosition 642.488/27.000/-469.861
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 2
+
+   rem [ObjectSpawner: CPNAME_HT_16_CheckpointSouth_ART_MEC]
+   Object.create CPNAME_HT_16_CheckpointSouth_ART_MEC
+   Object.absolutePosition -322.891/26.996/-787.993
+   Object.rotation -0.195/0.000/0.000
+   Object.setControlPointId 109
+   Object.layer 2
+
+   rem [ObjectSpawner: CPNAME_HT_16_CheckpointSouth_HeavyTank_MEC]
+   Object.create CPNAME_HT_16_CheckpointSouth_HeavyTank_MEC
+   Object.absolutePosition -302.632/27.000/-771.696
+   Object.rotation -0.475/0.000/0.000
+   Object.setControlPointId 109
+   Object.layer 2
+
+   rem [ObjectSpawner: CPNAME_HT_16_ShahrUrmia_AT]
+   Object.create CPNAME_HT_16_ShahrUrmia_AT
+   Object.absolutePosition 579.300/26.990/-487.984
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 2
+
+   rem [ObjectSpawner: CPNAME_HT_16_ShahrUrmia_AT_0]
+   Object.create CPNAME_HT_16_ShahrUrmia_AT_0
+   Object.absolutePosition 598.019/26.983/-440.361
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 2
+
+   rem [ObjectSpawner: CPNAME_HT_16_CheckpointSouth_AT]
+   Object.create CPNAME_HT_16_CheckpointSouth_AT
+   Object.absolutePosition -287.844/27.000/-780.740
+   Object.rotation -8.555/0.000/0.000
+   Object.setControlPointId 109
+   Object.layer 2
+
+   rem [ObjectSpawner: CPNAME_HT_16_CheckpointSouth_HeavyTank_MEC_0]
+   Object.create CPNAME_HT_16_CheckpointSouth_HeavyTank_MEC_0
+   Object.absolutePosition -316.150/27.000/-754.601
+   Object.rotation 107.831/0.000/0.000
+   Object.setControlPointId 109
+   Object.layer 2
+
+   rem [ObjectSpawner: CPNAME_HT_16_Refinery_APC]
+   Object.create CPNAME_HT_16_Refinery_APC
+   Object.absolutePosition 79.911/27.000/-327.851
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 103
+   Object.layer 2
+
+   rem [ObjectSpawner: CPNAME_HT_16_VillageOfKuhlaz_HeavyTank]
+   Object.create CPNAME_HT_16_VillageOfKuhlaz_HeavyTank
+   Object.absolutePosition 222.948/29.000/-608.041
+   Object.rotation -28.501/0.000/0.000
+   Object.setControlPointId 104
+   Object.layer 2
+
+   rem [ObjectSpawner: CPNAME_HT_16_ShahrUrmia_HeavyTank_US_0]
+   Object.create CPNAME_HT_16_ShahrUrmia_HeavyTank_US_0
+   Object.absolutePosition 601.761/27.000/-551.622
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 2
+
+   rem [ObjectSpawner: CPNAME_HT_16_Refinery_SpeedBoat]
+   Object.create CPNAME_HT_16_Refinery_SpeedBoat
+   Object.absolutePosition 167.493/25.000/-266.525
+   Object.rotation -180.000/0.000/0.000
+   Object.setControlPointId 103
+   Object.layer 2
+
+   rem [ObjectSpawner: CPNAME_HT_16_VillageOfKuhlaz_SpeedBoat]
+   Object.create CPNAME_HT_16_VillageOfKuhlaz_SpeedBoat
+   Object.absolutePosition 182.322/25.000/-562.469
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 104
+   Object.layer 2
+
+   rem [ObjectSpawner: CPNAME_HT_16_VillageOfKuhlaz_APC]
+   Object.create CPNAME_HT_16_VillageOfKuhlaz_APC
+   Object.absolutePosition 164.155/27.000/-629.985
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 104
+   Object.layer 2
+
+endIf
+
+rem ********** Spawn Points **********
+rem [SpawnPointTemplate: CPNAME_HT_16_ShahrUrmia_4]
+ObjectTemplate.create SpawnPoint CPNAME_HT_16_ShahrUrmia_4
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_16_ShahrUrmia_4
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 101
+
+rem [SpawnPoint: CPNAME_HT_16_ShahrUrmia_4]
+Object.create CPNAME_HT_16_ShahrUrmia_4
+Object.absolutePosition 636.528/27.000/-550.106
+Object.rotation -85.606/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CPNAME_HT_16_ShahrUrmia_5]
+ObjectTemplate.create SpawnPoint CPNAME_HT_16_ShahrUrmia_5
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_16_ShahrUrmia_5
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 101
+
+rem [SpawnPoint: CPNAME_HT_16_ShahrUrmia_5]
+Object.create CPNAME_HT_16_ShahrUrmia_5
+Object.absolutePosition 592.140/27.000/-555.330
+Object.rotation 87.535/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CPNAME_HT_16_ShahrUrmia_6]
+ObjectTemplate.create SpawnPoint CPNAME_HT_16_ShahrUrmia_6
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_16_ShahrUrmia_6
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 101
+
+rem [SpawnPoint: CPNAME_HT_16_ShahrUrmia_6]
+Object.create CPNAME_HT_16_ShahrUrmia_6
+Object.absolutePosition 587.715/27.000/-535.887
+Object.rotation 100.785/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CPNAME_HT_16_ShahrUrmia_7]
+ObjectTemplate.create SpawnPoint CPNAME_HT_16_ShahrUrmia_7
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_16_ShahrUrmia_7
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 101
+
+rem [SpawnPoint: CPNAME_HT_16_ShahrUrmia_7]
+Object.create CPNAME_HT_16_ShahrUrmia_7
+Object.absolutePosition 648.739/27.000/-518.233
+Object.rotation -6.106/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CPNAME_HT_16_ShahrUrmia_8]
+ObjectTemplate.create SpawnPoint CPNAME_HT_16_ShahrUrmia_8
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_16_ShahrUrmia_8
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 101
+
+rem [SpawnPoint: CPNAME_HT_16_ShahrUrmia_8]
+Object.create CPNAME_HT_16_ShahrUrmia_8
+Object.absolutePosition 599.020/27.000/-454.968
+Object.rotation 61.626/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CPNAME_HT_16_ShahrUrmia_9]
+ObjectTemplate.create SpawnPoint CPNAME_HT_16_ShahrUrmia_9
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_16_ShahrUrmia_9
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 101
+
+rem [SpawnPoint: CPNAME_HT_16_ShahrUrmia_9]
+Object.create CPNAME_HT_16_ShahrUrmia_9
+Object.absolutePosition 645.099/27.000/-483.009
+Object.rotation 179.959/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CPNAME_HT_16_Refinery_1_0]
+ObjectTemplate.create SpawnPoint CPNAME_HT_16_Refinery_1_0
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_16_Refinery_1_0
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 103
+
+rem [SpawnPoint: CPNAME_HT_16_Refinery_1_0]
+Object.create CPNAME_HT_16_Refinery_1_0
+Object.absolutePosition 123.811/26.972/-315.266
+Object.rotation -152.848/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CPNAME_HT_16_Refinery_2_0]
+ObjectTemplate.create SpawnPoint CPNAME_HT_16_Refinery_2_0
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_16_Refinery_2_0
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 103
+
+rem [SpawnPoint: CPNAME_HT_16_Refinery_2_0]
+Object.create CPNAME_HT_16_Refinery_2_0
+Object.absolutePosition 109.176/27.068/-277.911
+Object.rotation -179.018/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CPNAME_HT_16_Refinery_3_0]
+ObjectTemplate.create SpawnPoint CPNAME_HT_16_Refinery_3_0
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_16_Refinery_3_0
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 103
+
+rem [SpawnPoint: CPNAME_HT_16_Refinery_3_0]
+Object.create CPNAME_HT_16_Refinery_3_0
+Object.absolutePosition 73.290/27.000/-346.268
+Object.rotation 38.522/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CPNAME_HT_16_VillageOfKuhlaz_1]
+ObjectTemplate.create SpawnPoint CPNAME_HT_16_VillageOfKuhlaz_1
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_16_VillageOfKuhlaz_1
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 104
+
+rem [SpawnPoint: CPNAME_HT_16_VillageOfKuhlaz_1]
+Object.create CPNAME_HT_16_VillageOfKuhlaz_1
+Object.absolutePosition 171.129/27.490/-634.260
+Object.rotation -31.372/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CPNAME_HT_16_VillageOfKuhlaz_2]
+ObjectTemplate.create SpawnPoint CPNAME_HT_16_VillageOfKuhlaz_2
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_16_VillageOfKuhlaz_2
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 104
+
+rem [SpawnPoint: CPNAME_HT_16_VillageOfKuhlaz_2]
+Object.create CPNAME_HT_16_VillageOfKuhlaz_2
+Object.absolutePosition 234.545/29.000/-612.191
+Object.rotation -74.811/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CPNAME_HT_16_VillageOfKuhlaz_3]
+ObjectTemplate.create SpawnPoint CPNAME_HT_16_VillageOfKuhlaz_3
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_16_VillageOfKuhlaz_3
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 104
+
+rem [SpawnPoint: CPNAME_HT_16_VillageOfKuhlaz_3]
+Object.create CPNAME_HT_16_VillageOfKuhlaz_3
+Object.absolutePosition 146.747/27.000/-621.944
+Object.rotation 88.686/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CPNAME_HT_16_VillageOfKuhlaz_4]
+ObjectTemplate.create SpawnPoint CPNAME_HT_16_VillageOfKuhlaz_4
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_16_VillageOfKuhlaz_4
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 104
+
+rem [SpawnPoint: CPNAME_HT_16_VillageOfKuhlaz_4]
+Object.create CPNAME_HT_16_VillageOfKuhlaz_4
+Object.absolutePosition 191.003/27.000/-626.527
+Object.rotation 0.477/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CPNAME_HT_16_CheckpointSouth_1_0]
+ObjectTemplate.create SpawnPoint CPNAME_HT_16_CheckpointSouth_1_0
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_16_CheckpointSouth_1_0
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 109
+
+rem [SpawnPoint: CPNAME_HT_16_CheckpointSouth_1_0]
+Object.create CPNAME_HT_16_CheckpointSouth_1_0
+Object.absolutePosition -318.428/27.000/-786.920
+Object.rotation 8.708/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CPNAME_HT_16_CheckpointSouth_2_0]
+ObjectTemplate.create SpawnPoint CPNAME_HT_16_CheckpointSouth_2_0
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_16_CheckpointSouth_2_0
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 109
+
+rem [SpawnPoint: CPNAME_HT_16_CheckpointSouth_2_0]
+Object.create CPNAME_HT_16_CheckpointSouth_2_0
+Object.absolutePosition -307.385/27.000/-746.914
+Object.rotation -112.414/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CPNAME_HT_16_CheckpointSouth_3_0]
+ObjectTemplate.create SpawnPoint CPNAME_HT_16_CheckpointSouth_3_0
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_16_CheckpointSouth_3_0
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 109
+
+rem [SpawnPoint: CPNAME_HT_16_CheckpointSouth_3_0]
+Object.create CPNAME_HT_16_CheckpointSouth_3_0
+Object.absolutePosition -306.807/27.000/-792.193
+Object.rotation 69.046/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CPNAME_HT_16_CheckpointSouth_4_0]
+ObjectTemplate.create SpawnPoint CPNAME_HT_16_CheckpointSouth_4_0
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_16_CheckpointSouth_4_0
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 109
+
+rem [SpawnPoint: CPNAME_HT_16_CheckpointSouth_4_0]
+Object.create CPNAME_HT_16_CheckpointSouth_4_0
+Object.absolutePosition -319.975/27.000/-768.536
+Object.rotation 13.284/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CPNAME_HT_16_CheckpointSouth_5_0]
+ObjectTemplate.create SpawnPoint CPNAME_HT_16_CheckpointSouth_5_0
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_16_CheckpointSouth_5_0
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 109
+
+rem [SpawnPoint: CPNAME_HT_16_CheckpointSouth_5_0]
+Object.create CPNAME_HT_16_CheckpointSouth_5_0
+Object.absolutePosition -280.452/27.469/-750.297
+Object.rotation -179.346/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CPNAME_HT_16_Refinery_4_0]
+ObjectTemplate.create SpawnPoint CPNAME_HT_16_Refinery_4_0
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_16_Refinery_4_0
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 103
+
+rem [SpawnPoint: CPNAME_HT_16_Refinery_4_0]
+Object.create CPNAME_HT_16_Refinery_4_0
+Object.absolutePosition 77.159/27.000/-322.839
+Object.rotation 148.628/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CPNAME_HT_16_VillageOfKuhlaz_5]
+ObjectTemplate.create SpawnPoint CPNAME_HT_16_VillageOfKuhlaz_5
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_16_VillageOfKuhlaz_5
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 104
+
+rem [SpawnPoint: CPNAME_HT_16_VillageOfKuhlaz_5]
+Object.create CPNAME_HT_16_VillageOfKuhlaz_5
+Object.absolutePosition 183.175/27.000/-603.157
+Object.rotation -101.128/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CPNAME_HT_16_VillageOfKuhlaz_6]
+ObjectTemplate.create SpawnPoint CPNAME_HT_16_VillageOfKuhlaz_6
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_16_VillageOfKuhlaz_6
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 104
+
+rem [SpawnPoint: CPNAME_HT_16_VillageOfKuhlaz_6]
+Object.create CPNAME_HT_16_VillageOfKuhlaz_6
+Object.absolutePosition 166.967/27.000/-637.682
+Object.rotation -73.705/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CPNAME_HT_16_Refinery_5_0]
+ObjectTemplate.create SpawnPoint CPNAME_HT_16_Refinery_5_0
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_16_Refinery_5_0
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 103
+
+rem [SpawnPoint: CPNAME_HT_16_Refinery_5_0]
+Object.create CPNAME_HT_16_Refinery_5_0
+Object.absolutePosition 119.002/27.000/-304.376
+Object.rotation -134.341/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CPNAME_HT_16_Refinery_6]
+ObjectTemplate.create SpawnPoint CPNAME_HT_16_Refinery_6
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_16_Refinery_6
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 1
+ObjectTemplate.setControlPointId 103
+
+rem [SpawnPoint: CPNAME_HT_16_Refinery_6]
+Object.create CPNAME_HT_16_Refinery_6
+Object.absolutePosition 171.272/25.700/-244.812
+Object.rotation -122.922/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CPNAME_HT_16_Refinery_7]
+ObjectTemplate.create SpawnPoint CPNAME_HT_16_Refinery_7
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_16_Refinery_7
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 103
+
+rem [SpawnPoint: CPNAME_HT_16_Refinery_7]
+Object.create CPNAME_HT_16_Refinery_7
+Object.absolutePosition 156.862/26.215/-250.605
+Object.rotation 59.644/0.000/0.000
+Object.layer 2
+
+rem [SpawnPointTemplate: CPNAME_HT_16_VillageOfKuhlaz_7]
+ObjectTemplate.create SpawnPoint CPNAME_HT_16_VillageOfKuhlaz_7
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_16_VillageOfKuhlaz_7
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 104
+
+rem [SpawnPoint: CPNAME_HT_16_VillageOfKuhlaz_7]
+Object.create CPNAME_HT_16_VillageOfKuhlaz_7
+Object.absolutePosition 177.299/25.000/-566.585
+Object.rotation 94.250/0.000/0.000
+Object.layer 2
+
+rem ********** Control Points **********
+rem [ControlPointTemplate: CPNAME_HT_16_ShahrUrmia]
+ObjectTemplate.create ControlPoint CPNAME_HT_16_ShahrUrmia
+ObjectTemplate.activeSafe ControlPoint CPNAME_HT_16_ShahrUrmia
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CPNAME_HT_16_ShahrUrmia
+ObjectTemplate.radius 10
+ObjectTemplate.team 2
+ObjectTemplate.controlPointId 101
+ObjectTemplate.areaValueTeam1 34
+ObjectTemplate.areaValueTeam2 34
+ObjectTemplate.timeToGetControl 40
+ObjectTemplate.timeToLoseControl 40
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: CPNAME_HT_16_Refinery]
+ObjectTemplate.create ControlPoint CPNAME_HT_16_Refinery
+ObjectTemplate.activeSafe ControlPoint CPNAME_HT_16_Refinery
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CPNAME_HT_16_Refinery
+ObjectTemplate.radius 13
+ObjectTemplate.controlPointId 103
+ObjectTemplate.areaValueTeam1 34
+ObjectTemplate.areaValueTeam2 34
+ObjectTemplate.timeToGetControl 20
+ObjectTemplate.timeToLoseControl 20
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: CPNAME_HT_16_VillageOfKuhlaz]
+ObjectTemplate.create ControlPoint CPNAME_HT_16_VillageOfKuhlaz
+ObjectTemplate.activeSafe ControlPoint CPNAME_HT_16_VillageOfKuhlaz
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CPNAME_HT_16_VillageOfKuhlaz
+ObjectTemplate.radius 13
+ObjectTemplate.controlPointId 104
+ObjectTemplate.areaValueTeam1 34
+ObjectTemplate.areaValueTeam2 34
+ObjectTemplate.timeToGetControl 20
+ObjectTemplate.timeToLoseControl 20
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: CPNAME_HT_16_CheckpointSouth]
+ObjectTemplate.create ControlPoint CPNAME_HT_16_CheckpointSouth
+ObjectTemplate.activeSafe ControlPoint CPNAME_HT_16_CheckpointSouth
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CPNAME_HT_16_CheckpointSouth
+ObjectTemplate.radius 10
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 109
+ObjectTemplate.areaValueTeam1 34
+ObjectTemplate.areaValueTeam2 34
+ObjectTemplate.timeToGetControl 40
+ObjectTemplate.timeToLoseControl 40
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+if v_arg1 == host
+
+   rem [ControlPoint: CPNAME_HT_16_ShahrUrmia]
+   Object.create CPNAME_HT_16_ShahrUrmia
+   Object.absolutePosition 608.000/27.216/-526.000
+   Object.layer 2
+
+   rem [ControlPoint: CPNAME_HT_16_Refinery]
+   Object.create CPNAME_HT_16_Refinery
+   Object.absolutePosition 105.983/27.000/-333.974
+   Object.layer 2
+
+   rem [ControlPoint: CPNAME_HT_16_VillageOfKuhlaz]
+   Object.create CPNAME_HT_16_VillageOfKuhlaz
+   Object.absolutePosition 176.813/27.000/-614.194
+   Object.layer 2
+
+   rem [ControlPoint: CPNAME_HT_16_CheckpointSouth]
+   Object.create CPNAME_HT_16_CheckpointSouth
+   Object.absolutePosition -284.603/27.000/-781.110
+   Object.layer 2
+
+endIf
+
+CombatAreaManager.use 1
+CombatAreaManager.damage 5.000000
+CombatAreaManager.timeAllowedOutside 10.000000
+CombatArea.create CombatArea_64_16
+CombatArea.min 0.000000/0.000000
+CombatArea.max 0.000000/0.000000
+CombatArea.addAreaPoint 1009.390747/-1012.152161
+CombatArea.addAreaPoint 1003.086914/1015.855713
+CombatArea.addAreaPoint -1007.255859/1011.789185
+CombatArea.addAreaPoint -1011.971985/-1007.712524
+CombatArea.team 0
+CombatArea.vehicles 2
+CombatArea.layer 2
+
+CombatArea.create CombatArea_4_16
+CombatArea.min 0.000000/0.000000
+CombatArea.max 0.000000/0.000000
+CombatArea.addAreaPoint 807.708984/-542.261353
+CombatArea.addAreaPoint 815.745239/-518.742249
+CombatArea.addAreaPoint 807.906616/-496.910095
+CombatArea.addAreaPoint 792.059937/-460.035583
+CombatArea.addAreaPoint 791.109009/-420.182800
+CombatArea.addAreaPoint 797.366943/-399.955505
+CombatArea.addAreaPoint 809.114502/-379.829712
+CombatArea.addAreaPoint 821.927002/-342.017517
+CombatArea.addAreaPoint 822.700073/-305.548706
+CombatArea.addAreaPoint 822.881104/-289.574341
+CombatArea.addAreaPoint 155.310547/-99.065369
+CombatArea.addAreaPoint 122.265137/-108.255127
+CombatArea.addAreaPoint -299.682495/-244.396362
+CombatArea.addAreaPoint -578.303528/-511.153931
+CombatArea.addAreaPoint -607.609741/-555.024109
+CombatArea.addAreaPoint -587.477051/-587.975281
+CombatArea.addAreaPoint -577.018250/-609.921875
+CombatArea.addAreaPoint -555.051514/-629.803467
+CombatArea.addAreaPoint -523.280090/-665.345642
+CombatArea.addAreaPoint -519.862427/-675.465454
+CombatArea.addAreaPoint -516.394165/-689.409241
+CombatArea.addAreaPoint -504.215820/-702.990479
+CombatArea.addAreaPoint -490.503784/-710.588318
+CombatArea.addAreaPoint -444.524414/-716.780518
+CombatArea.addAreaPoint -416.369873/-730.674866
+CombatArea.addAreaPoint -401.810059/-747.278687
+CombatArea.addAreaPoint -384.858093/-767.139282
+CombatArea.addAreaPoint -378.411804/-777.298584
+CombatArea.addAreaPoint -367.519592/-783.252075
+CombatArea.addAreaPoint -358.676208/-797.886169
+CombatArea.addAreaPoint -334.898621/-809.721191
+CombatArea.addAreaPoint -322.391235/-815.340393
+CombatArea.addAreaPoint -311.759583/-829.022156
+CombatArea.addAreaPoint -306.445740/-835.989258
+CombatArea.addAreaPoint -290.264832/-839.559937
+CombatArea.addAreaPoint -270.916748/-830.234985
+CombatArea.addAreaPoint -241.657837/-829.188354
+CombatArea.addAreaPoint -204.174500/-833.095154
+CombatArea.addAreaPoint -188.599731/-833.446960
+CombatArea.addAreaPoint -162.592224/-842.408203
+CombatArea.addAreaPoint -120.074280/-836.353760
+CombatArea.addAreaPoint -92.115479/-828.457703
+CombatArea.addAreaPoint -81.909790/-825.374634
+CombatArea.addAreaPoint -68.469971/-823.855652
+CombatArea.addAreaPoint -49.736816/-825.073425
+CombatArea.addAreaPoint -34.574402/-827.471558
+CombatArea.addAreaPoint -21.535583/-829.687988
+CombatArea.addAreaPoint 2.935059/-825.993408
+CombatArea.addAreaPoint 15.299316/-817.159424
+CombatArea.addAreaPoint 36.386230/-810.497314
+CombatArea.addAreaPoint 55.725098/-809.706116
+CombatArea.addAreaPoint 72.224976/-812.371460
+CombatArea.addAreaPoint 91.904541/-820.841187
+CombatArea.addAreaPoint 104.096558/-826.238586
+CombatArea.addAreaPoint 120.886597/-835.154114
+CombatArea.addAreaPoint 143.581543/-841.472778
+CombatArea.addAreaPoint 171.701660/-840.551514
+CombatArea.addAreaPoint 204.944214/-851.124695
+CombatArea.addAreaPoint 215.703979/-851.504395
+CombatArea.addAreaPoint 229.780640/-850.811096
+CombatArea.addAreaPoint 241.920410/-853.489014
+CombatArea.addAreaPoint 254.837891/-856.108521
+CombatArea.addAreaPoint 275.821533/-858.363403
+CombatArea.addAreaPoint 298.511230/-861.500977
+CombatArea.addAreaPoint 321.202393/-861.979858
+CombatArea.addAreaPoint 332.821045/-860.869080
+CombatArea.addAreaPoint 347.890015/-856.585938
+CombatArea.addAreaPoint 366.476196/-848.011658
+CombatArea.addAreaPoint 393.608887/-837.634521
+CombatArea.addAreaPoint 411.692505/-829.541992
+CombatArea.addAreaPoint 433.099243/-824.701538
+CombatArea.addAreaPoint 467.318481/-824.293701
+CombatArea.addAreaPoint 483.684937/-828.959106
+CombatArea.addAreaPoint 496.318726/-833.705811
+CombatArea.addAreaPoint 511.813110/-840.627930
+CombatArea.addAreaPoint 518.156982/-843.272095
+CombatArea.addAreaPoint 530.186157/-845.350220
+CombatArea.addAreaPoint 558.664795/-861.294556
+CombatArea.addAreaPoint 572.689331/-861.250671
+CombatArea.addAreaPoint 584.934448/-859.034729
+CombatArea.addAreaPoint 594.940552/-856.432068
+CombatArea.addAreaPoint 609.104492/-849.094971
+CombatArea.addAreaPoint 630.286011/-839.838989
+CombatArea.addAreaPoint 642.049561/-834.711060
+CombatArea.addAreaPoint 672.572021/-822.364136
+CombatArea.addAreaPoint 688.314575/-812.313843
+CombatArea.addAreaPoint 697.724365/-800.063477
+CombatArea.addAreaPoint 711.855469/-779.904724
+CombatArea.addAreaPoint 724.343384/-763.664063
+CombatArea.addAreaPoint 735.533936/-743.097168
+CombatArea.addAreaPoint 743.787354/-735.444824
+CombatArea.addAreaPoint 754.917114/-721.150024
+CombatArea.addAreaPoint 761.149902/-711.009277
+CombatArea.addAreaPoint 765.518799/-696.326538
+CombatArea.addAreaPoint 764.132813/-682.138184
+CombatArea.addAreaPoint 764.084595/-669.006714
+CombatArea.addAreaPoint 767.631470/-651.966919
+CombatArea.addAreaPoint 769.688232/-637.898682
+CombatArea.addAreaPoint 778.174316/-614.805054
+CombatArea.addAreaPoint 784.204834/-599.910400
+CombatArea.addAreaPoint 792.309937/-582.978149
+CombatArea.team 0
+CombatArea.vehicles 4
+CombatArea.layer 2
+

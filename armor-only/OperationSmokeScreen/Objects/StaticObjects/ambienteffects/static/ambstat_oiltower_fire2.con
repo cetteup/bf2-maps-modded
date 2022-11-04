@@ -1,0 +1,4 @@
+ObjectTemplate.create Bundle ambstat_oiltower_fire2
+ObjectTemplate.createdInEditor 1
+
+include ambstat_oiltower_fire2.tweak

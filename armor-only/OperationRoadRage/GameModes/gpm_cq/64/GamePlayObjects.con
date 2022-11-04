@@ -1,0 +1,1925 @@
+rem ********** Object Spawner **********
+rem [ObjectSpawnerTemplate: CP_64p_RR_truckstop_LightJeep]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_truckstop_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_truckstop_LightJeep
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_truckstop_5]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_truckstop_5
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_truckstop_5
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 xpak2_semi
+ObjectTemplate.setObjectTemplate 2 xpak2_semi
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_truckstop_AAV]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_truckstop_AAV
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_truckstop_AAV
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 AAV_TUNGUSKA
+ObjectTemplate.setObjectTemplate 2 USAAV_M6
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_truckstop_AAS]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_truckstop_AAS
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_truckstop_AAS
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
+ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_truckstop_HeavyTank]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_truckstop_HeavyTank
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_truckstop_HeavyTank
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 RUTNK_T90
+ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_truckstop_0]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_truckstop_0
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_truckstop_0
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 RUTNK_T90
+ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_truckstop_ATS]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_truckstop_ATS
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_truckstop_ATS
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ATS_HJ8
+ObjectTemplate.setObjectTemplate 2 ATS_TOW
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_Mall_5]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_Mall_5
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_Mall_5
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_Mall_AAS]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_Mall_AAS
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_Mall_AAS
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
+ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_Mall_ATS]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_Mall_ATS
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_Mall_ATS
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ATS_HJ8
+ObjectTemplate.setObjectTemplate 2 ATS_TOW
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_Mall_HeavyTank_0]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_Mall_HeavyTank_0
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_Mall_HeavyTank_0
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 RUTNK_T90
+ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_Overpass_LightJeep]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_Overpass_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_Overpass_LightJeep
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_Overpass_5]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_Overpass_5
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_Overpass_5
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_Overpass_AAS]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_Overpass_AAS
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_Overpass_AAS
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
+ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_Overpass_6]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_Overpass_6
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_Overpass_6
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
+ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_Overpass_SMG]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_Overpass_SMG
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_Overpass_SMG
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 MEC_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_Overpass_1_1]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_Overpass_1_1
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_Overpass_1_1
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 MEC_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_Overpass_0_12]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_Overpass_0_12
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_Overpass_0_12
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_Junkyard_3]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_Junkyard_3
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_Junkyard_3
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_Junkyard_HeavyTank]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_Junkyard_HeavyTank
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_Junkyard_HeavyTank
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 RUTNK_T90
+ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_Junkyard_AAS]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_Junkyard_AAS
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_Junkyard_AAS
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
+ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_Junkyard_ATS]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_Junkyard_ATS
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_Junkyard_ATS
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ATS_HJ8
+ObjectTemplate.setObjectTemplate 2 ATS_TOW
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_GasStation_LightJeep]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_GasStation_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_GasStation_LightJeep
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_GasStation_5]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_GasStation_5
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_GasStation_5
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 xpak2_semi
+ObjectTemplate.setObjectTemplate 2 xpak2_semi
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_GasStation_AAV]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_GasStation_AAV
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_GasStation_AAV
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 AAV_TUNGUSKA
+ObjectTemplate.setObjectTemplate 2 USAAV_M6
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_GasStation_AAS]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_GasStation_AAS
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_GasStation_AAS
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
+ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_GasStation_ATS]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_GasStation_ATS
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_GasStation_ATS
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ATS_HJ8
+ObjectTemplate.setObjectTemplate 2 ATS_TOW
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_GasStation_HeavyTank]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_GasStation_HeavyTank
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_GasStation_HeavyTank
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 RUTNK_T90
+ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_GasStation_0_1]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_GasStation_0_1
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_GasStation_0_1
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 RUTNK_T90
+ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_FarmHouse_AttakHeli]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_FarmHouse_AttakHeli
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_FarmHouse_AttakHeli
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 she_littlebird
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_FarmHouse_LightJeep]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_FarmHouse_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_FarmHouse_LightJeep
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 aircontroltower
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_FarmHouse_0_2]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_FarmHouse_0_2
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_FarmHouse_0_2
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_FarmHouse_bomb]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_FarmHouse_bomb
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_FarmHouse_bomb
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 air_a10
+ObjectTemplate.minSpawnDelay 45
+ObjectTemplate.maxSpawnDelay 75
+ObjectTemplate.spawnDelayAtStart 1
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_FarmHouse_2]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_FarmHouse_2
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_FarmHouse_2
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 mobileradar_us_dest
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_FarmHouse_ART]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_FarmHouse_ART
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_FarmHouse_ART
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 USART_LW155
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_FarmHouse_0_3]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_FarmHouse_0_3
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_FarmHouse_0_3
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 USART_LW155
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_FarmHouse_HeavyTank]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_FarmHouse_HeavyTank
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_FarmHouse_HeavyTank
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 RUTNK_T90
+ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_FarmHouse_LightJeep_0]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_FarmHouse_LightJeep_0
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_FarmHouse_LightJeep_0
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 3
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_FarmHouse_AAS]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_FarmHouse_AAS
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_FarmHouse_AAS
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
+ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_SouthernOilDepot_AttakHeli]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_SouthernOilDepot_AttakHeli
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_SouthernOilDepot_AttakHeli
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 she_ec635
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_SouthernOilDepot_LightJeep]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_SouthernOilDepot_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_SouthernOilDepot_LightJeep
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_SouthernOilDepot_1_0]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_SouthernOilDepot_1_0
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_SouthernOilDepot_1_0
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 aircontroltower_mec
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_SouthernOilDepot_ART]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_SouthernOilDepot_ART
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_SouthernOilDepot_ART
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ARS_D30
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_SouthernOilDepot_2]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_SouthernOilDepot_2
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_SouthernOilDepot_2
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ARS_D30
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_SouthernOilDepot_1_1]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_SouthernOilDepot_1_1
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_SouthernOilDepot_1_1
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 mobileradar_mech_dest
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_SouthernOilDepot_bomb]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_SouthernOilDepot_bomb
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_SouthernOilDepot_bomb
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 air_su39
+ObjectTemplate.minSpawnDelay 45
+ObjectTemplate.maxSpawnDelay 75
+ObjectTemplate.spawnDelayAtStart 1
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_SouthernOilDepot_HeavyTank]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_SouthernOilDepot_HeavyTank
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_SouthernOilDepot_HeavyTank
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 RUTNK_T90
+ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_SouthernOilDepot_3]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_SouthernOilDepot_3
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_SouthernOilDepot_3
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 3
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_SouthernOilDepot_AAS]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_SouthernOilDepot_AAS
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_SouthernOilDepot_AAS
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
+ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_SouthernOilDepot_ME_US_GAFighter]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_SouthernOilDepot_ME_US_GAFighter
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_SouthernOilDepot_ME_US_GAFighter
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 air_su39
+ObjectTemplate.minSpawnDelay 45
+ObjectTemplate.maxSpawnDelay 75
+ObjectTemplate.spawnDelayAtStart 1
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_FarmHouse_ME_US_GAFighter]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_FarmHouse_ME_US_GAFighter
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_FarmHouse_ME_US_GAFighter
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 air_a10
+ObjectTemplate.minSpawnDelay 45
+ObjectTemplate.maxSpawnDelay 75
+ObjectTemplate.spawnDelayAtStart 1
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_FarmHouse_ME_US_LightJeep]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_FarmHouse_ME_US_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_FarmHouse_ME_US_LightJeep
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_MEC_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_SouthernOilDepot_ME_US_LightJeep]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_SouthernOilDepot_ME_US_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_SouthernOilDepot_ME_US_LightJeep
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_MEC_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_SouthernOilDepot_ME_US_AAS]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_SouthernOilDepot_ME_US_AAS
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_SouthernOilDepot_ME_US_AAS
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
+ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_FarmHouse_ME_US_AAS]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_FarmHouse_ME_US_AAS
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_FarmHouse_ME_US_AAS
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
+ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_SouthernOilDepot_ME_US_AAV]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_SouthernOilDepot_ME_US_AAV
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_SouthernOilDepot_ME_US_AAV
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 AAV_TUNGUSKA
+ObjectTemplate.setObjectTemplate 2 USAAV_M6
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_FarmHouse_ME_US_AAV]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_FarmHouse_ME_US_AAV
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_FarmHouse_ME_US_AAV
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 AAV_TUNGUSKA
+ObjectTemplate.setObjectTemplate 2 USAAV_M6
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_Junkyard_ME_US_LightJeep]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_Junkyard_ME_US_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_Junkyard_ME_US_LightJeep
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_MEC_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CP_64p_RR_Mall_ME_US_LightJeep]
+ObjectTemplate.create ObjectSpawner CP_64p_RR_Mall_ME_US_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CP_64p_RR_Mall_ME_US_LightJeep
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_MEC_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+if v_arg1 == host
+
+   rem [ObjectSpawner: CP_64p_RR_truckstop_LightJeep]
+   Object.create CP_64p_RR_truckstop_LightJeep
+   Object.absolutePosition 86.890/48.782/-356.289
+   Object.rotation -90.737/0.000/0.000
+   Object.setControlPointId 302
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_truckstop_5]
+   Object.create CP_64p_RR_truckstop_5
+   Object.absolutePosition 41.815/48.782/-318.367
+   Object.rotation -179.392/0.000/0.000
+   Object.setControlPointId 302
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_truckstop_AAV]
+   Object.create CP_64p_RR_truckstop_AAV
+   Object.absolutePosition 60.543/48.782/-370.682
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 302
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_truckstop_AAS]
+   Object.create CP_64p_RR_truckstop_AAS
+   Object.absolutePosition 93.615/53.623/-385.755
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 302
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_truckstop_HeavyTank]
+   Object.create CP_64p_RR_truckstop_HeavyTank
+   Object.absolutePosition 95.077/48.782/-314.027
+   Object.rotation -180.000/0.000/0.000
+   Object.setControlPointId 302
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_truckstop_0]
+   Object.create CP_64p_RR_truckstop_0
+   Object.absolutePosition 86.124/48.782/-389.455
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 302
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_truckstop_ATS]
+   Object.create CP_64p_RR_truckstop_ATS
+   Object.absolutePosition 53.076/48.782/-311.367
+   Object.rotation -180.000/0.000/0.000
+   Object.setControlPointId 302
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_Mall_5]
+   Object.create CP_64p_RR_Mall_5
+   Object.absolutePosition -164.897/47.928/-187.912
+   Object.rotation -87.419/0.000/0.000
+   Object.setControlPointId 303
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_Mall_AAS]
+   Object.create CP_64p_RR_Mall_AAS
+   Object.absolutePosition -181.249/48.271/-220.848
+   Object.rotation 44.725/0.000/0.000
+   Object.setControlPointId 303
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_Mall_ATS]
+   Object.create CP_64p_RR_Mall_ATS
+   Object.absolutePosition -129.417/48.266/-173.262
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 303
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_Mall_HeavyTank_0]
+   Object.create CP_64p_RR_Mall_HeavyTank_0
+   Object.absolutePosition -190.960/47.928/-214.303
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 303
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_Overpass_LightJeep]
+   Object.create CP_64p_RR_Overpass_LightJeep
+   Object.absolutePosition -50.037/60.736/37.526
+   Object.rotation -107.382/0.000/0.000
+   Object.setControlPointId 304
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_Overpass_5]
+   Object.create CP_64p_RR_Overpass_5
+   Object.absolutePosition -11.269/60.738/26.493
+   Object.rotation 81.378/0.000/0.000
+   Object.setControlPointId 304
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_Overpass_AAS]
+   Object.create CP_64p_RR_Overpass_AAS
+   Object.absolutePosition -62.000/50.638/21.999
+   Object.rotation -135.325/0.000/0.000
+   Object.setControlPointId 304
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_Overpass_6]
+   Object.create CP_64p_RR_Overpass_6
+   Object.absolutePosition 0.027/50.637/41.934
+   Object.rotation 40.466/0.000/0.000
+   Object.setControlPointId 304
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_Overpass_SMG]
+   Object.create CP_64p_RR_Overpass_SMG
+   Object.absolutePosition -33.151/61.921/39.819
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 304
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_Overpass_1_1]
+   Object.create CP_64p_RR_Overpass_1_1
+   Object.absolutePosition -28.980/61.942/24.100
+   Object.rotation -180.000/0.000/0.000
+   Object.setControlPointId 304
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_Overpass_0_12]
+   Object.create CP_64p_RR_Overpass_0_12
+   Object.absolutePosition -32.454/51.420/44.296
+   Object.rotation 140.725/0.000/0.000
+   Object.setControlPointId 304
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_Junkyard_3]
+   Object.create CP_64p_RR_Junkyard_3
+   Object.absolutePosition 76.295/48.782/237.219
+   Object.rotation -90.480/0.000/0.000
+   Object.setControlPointId 305
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_Junkyard_HeavyTank]
+   Object.create CP_64p_RR_Junkyard_HeavyTank
+   Object.absolutePosition 107.881/48.782/257.107
+   Object.rotation -180.000/0.000/0.000
+   Object.setControlPointId 305
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_Junkyard_AAS]
+   Object.create CP_64p_RR_Junkyard_AAS
+   Object.absolutePosition 65.908/48.782/243.852
+   Object.rotation -166.844/0.000/0.000
+   Object.setControlPointId 305
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_Junkyard_ATS]
+   Object.create CP_64p_RR_Junkyard_ATS
+   Object.absolutePosition 122.592/48.782/242.811
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 305
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_GasStation_LightJeep]
+   Object.create CP_64p_RR_GasStation_LightJeep
+   Object.absolutePosition -110.268/50.999/405.931
+   Object.rotation 89.145/0.000/0.000
+   Object.setControlPointId 306
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_GasStation_5]
+   Object.create CP_64p_RR_GasStation_5
+   Object.absolutePosition -88.908/50.999/418.624
+   Object.rotation 177.555/0.000/0.000
+   Object.setControlPointId 306
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_GasStation_AAV]
+   Object.create CP_64p_RR_GasStation_AAV
+   Object.absolutePosition -117.786/50.999/419.699
+   Object.rotation 180.000/0.000/0.000
+   Object.setControlPointId 306
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_GasStation_AAS]
+   Object.create CP_64p_RR_GasStation_AAS
+   Object.absolutePosition -132.314/50.999/365.760
+   Object.rotation 90.514/0.000/0.000
+   Object.setControlPointId 306
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_GasStation_ATS]
+   Object.create CP_64p_RR_GasStation_ATS
+   Object.absolutePosition -100.213/50.999/473.489
+   Object.rotation -178.591/0.000/0.000
+   Object.setControlPointId 306
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_GasStation_HeavyTank]
+   Object.create CP_64p_RR_GasStation_HeavyTank
+   Object.absolutePosition -122.974/50.999/376.833
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 306
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_GasStation_0_1]
+   Object.create CP_64p_RR_GasStation_0_1
+   Object.absolutePosition -111.548/50.999/453.826
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 306
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_FarmHouse_AttakHeli]
+   Object.create CP_64p_RR_FarmHouse_AttakHeli
+   Object.absolutePosition -107.055/57.109/843.861
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 307
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_FarmHouse_LightJeep]
+   Object.create CP_64p_RR_FarmHouse_LightJeep
+   Object.absolutePosition -96.899/57.109/801.279
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 307
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_FarmHouse_0_2]
+   Object.create CP_64p_RR_FarmHouse_0_2
+   Object.absolutePosition -128.011/57.109/834.286
+   Object.rotation 161.199/0.000/0.000
+   Object.setControlPointId 307
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_FarmHouse_bomb]
+   Object.create CP_64p_RR_FarmHouse_bomb
+   Object.absolutePosition 33.041/50.000/795.002
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 307
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_FarmHouse_2]
+   Object.create CP_64p_RR_FarmHouse_2
+   Object.absolutePosition 64.495/50.941/812.989
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 307
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_FarmHouse_ART]
+   Object.create CP_64p_RR_FarmHouse_ART
+   Object.absolutePosition -138.072/54.416/761.799
+   Object.rotation -180.000/0.000/0.000
+   Object.setControlPointId 307
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_FarmHouse_0_3]
+   Object.create CP_64p_RR_FarmHouse_0_3
+   Object.absolutePosition -109.077/54.416/761.869
+   Object.rotation -180.000/0.000/0.000
+   Object.setControlPointId 307
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_FarmHouse_HeavyTank]
+   Object.create CP_64p_RR_FarmHouse_HeavyTank
+   Object.absolutePosition -145.000/57.109/809.000
+   Object.rotation 113.206/0.000/0.000
+   Object.setControlPointId 307
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_FarmHouse_LightJeep_0]
+   Object.create CP_64p_RR_FarmHouse_LightJeep_0
+   Object.absolutePosition 46.554/50.000/812.650
+   Object.rotation -180.000/0.000/0.000
+   Object.setControlPointId 307
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_FarmHouse_AAS]
+   Object.create CP_64p_RR_FarmHouse_AAS
+   Object.absolutePosition 76.154/50.000/812.956
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 307
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_SouthernOilDepot_AttakHeli]
+   Object.create CP_64p_RR_SouthernOilDepot_AttakHeli
+   Object.absolutePosition 43.010/48.782/-782.652
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_SouthernOilDepot_LightJeep]
+   Object.create CP_64p_RR_SouthernOilDepot_LightJeep
+   Object.absolutePosition 12.038/48.782/-730.366
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_SouthernOilDepot_1_0]
+   Object.create CP_64p_RR_SouthernOilDepot_1_0
+   Object.absolutePosition 57.015/48.782/-783.047
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_SouthernOilDepot_ART]
+   Object.create CP_64p_RR_SouthernOilDepot_ART
+   Object.absolutePosition 33.351/51.978/-661.427
+   Object.rotation -14.548/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_SouthernOilDepot_2]
+   Object.create CP_64p_RR_SouthernOilDepot_2
+   Object.absolutePosition 7.253/51.978/-663.991
+   Object.rotation -15.224/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_SouthernOilDepot_1_1]
+   Object.create CP_64p_RR_SouthernOilDepot_1_1
+   Object.absolutePosition -164.356/50.931/-731.787
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_SouthernOilDepot_bomb]
+   Object.create CP_64p_RR_SouthernOilDepot_bomb
+   Object.absolutePosition -125.741/50.000/-732.565
+   Object.rotation -61.500/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_SouthernOilDepot_HeavyTank]
+   Object.create CP_64p_RR_SouthernOilDepot_HeavyTank
+   Object.absolutePosition 37.609/48.782/-718.355
+   Object.rotation -180.000/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_SouthernOilDepot_3]
+   Object.create CP_64p_RR_SouthernOilDepot_3
+   Object.absolutePosition -151.129/50.000/-740.048
+   Object.rotation 31.085/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_SouthernOilDepot_AAS]
+   Object.create CP_64p_RR_SouthernOilDepot_AAS
+   Object.absolutePosition -172.372/50.000/-727.361
+   Object.rotation -61.500/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_SouthernOilDepot_ME_US_GAFighter]
+   Object.create CP_64p_RR_SouthernOilDepot_ME_US_GAFighter
+   Object.absolutePosition -142.867/50.000/-764.108
+   Object.rotation -61.500/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_FarmHouse_ME_US_GAFighter]
+   Object.create CP_64p_RR_FarmHouse_ME_US_GAFighter
+   Object.absolutePosition 33.041/50.000/830.858
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 307
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_FarmHouse_ME_US_LightJeep]
+   Object.create CP_64p_RR_FarmHouse_ME_US_LightJeep
+   Object.absolutePosition -119.000/57.109/805.000
+   Object.rotation -149.393/0.000/0.000
+   Object.setControlPointId 307
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_SouthernOilDepot_ME_US_LightJeep]
+   Object.create CP_64p_RR_SouthernOilDepot_ME_US_LightJeep
+   Object.absolutePosition 53.671/49.047/-756.964
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_SouthernOilDepot_ME_US_AAS]
+   Object.create CP_64p_RR_SouthernOilDepot_ME_US_AAS
+   Object.absolutePosition 32.000/48.782/-772.000
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_FarmHouse_ME_US_AAS]
+   Object.create CP_64p_RR_FarmHouse_ME_US_AAS
+   Object.absolutePosition -112.000/57.109/832.000
+   Object.rotation 134.995/0.000/0.000
+   Object.setControlPointId 307
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_SouthernOilDepot_ME_US_AAV]
+   Object.create CP_64p_RR_SouthernOilDepot_ME_US_AAV
+   Object.absolutePosition 12.925/48.782/-742.073
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_FarmHouse_ME_US_AAV]
+   Object.create CP_64p_RR_FarmHouse_ME_US_AAV
+   Object.absolutePosition -114.647/57.131/797.253
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 307
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_Junkyard_ME_US_LightJeep]
+   Object.create CP_64p_RR_Junkyard_ME_US_LightJeep
+   Object.absolutePosition 93.114/48.782/214.568
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 305
+   Object.layer 4
+
+   rem [ObjectSpawner: CP_64p_RR_Mall_ME_US_LightJeep]
+   Object.create CP_64p_RR_Mall_ME_US_LightJeep
+   Object.absolutePosition -174.851/47.931/-148.600
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 303
+   Object.layer 4
+
+endIf
+
+rem ********** Spawn Points **********
+rem [SpawnPointTemplate: CP_64p_RR_truckstop_3]
+ObjectTemplate.create SpawnPoint CP_64p_RR_truckstop_3
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_truckstop_3
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 302
+
+rem [SpawnPoint: CP_64p_RR_truckstop_3]
+Object.create CP_64p_RR_truckstop_3
+Object.absolutePosition 98.756/48.782/-376.235
+Object.rotation -59.814/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_truckstop_4]
+ObjectTemplate.create SpawnPoint CP_64p_RR_truckstop_4
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_truckstop_4
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 302
+
+rem [SpawnPoint: CP_64p_RR_truckstop_4]
+Object.create CP_64p_RR_truckstop_4
+Object.absolutePosition 106.483/48.782/-359.709
+Object.rotation -101.421/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_truckstop_1]
+ObjectTemplate.create SpawnPoint CP_64p_RR_truckstop_1
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_truckstop_1
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 302
+
+rem [SpawnPoint: CP_64p_RR_truckstop_1]
+Object.create CP_64p_RR_truckstop_1
+Object.absolutePosition 96.007/48.782/-393.305
+Object.rotation -122.080/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_truckstop_2]
+ObjectTemplate.create SpawnPoint CP_64p_RR_truckstop_2
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_truckstop_2
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 302
+
+rem [SpawnPoint: CP_64p_RR_truckstop_2]
+Object.create CP_64p_RR_truckstop_2
+Object.absolutePosition 92.552/48.782/-379.658
+Object.rotation -72.446/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_Mall_0]
+ObjectTemplate.create SpawnPoint CP_64p_RR_Mall_0
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_Mall_0
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 303
+
+rem [SpawnPoint: CP_64p_RR_Mall_0]
+Object.create CP_64p_RR_Mall_0
+Object.absolutePosition -182.899/48.332/-132.278
+Object.rotation 114.057/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_Mall_0_0]
+ObjectTemplate.create SpawnPoint CP_64p_RR_Mall_0_0
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_Mall_0_0
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 303
+
+rem [SpawnPoint: CP_64p_RR_Mall_0_0]
+Object.create CP_64p_RR_Mall_0_0
+Object.absolutePosition -183.595/48.288/-229.542
+Object.rotation 56.464/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_Mall_1]
+ObjectTemplate.create SpawnPoint CP_64p_RR_Mall_1
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_Mall_1
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 303
+
+rem [SpawnPoint: CP_64p_RR_Mall_1]
+Object.create CP_64p_RR_Mall_1
+Object.absolutePosition -197.829/48.282/-178.212
+Object.rotation 60.989/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_Mall_2]
+ObjectTemplate.create SpawnPoint CP_64p_RR_Mall_2
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_Mall_2
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 303
+
+rem [SpawnPoint: CP_64p_RR_Mall_2]
+Object.create CP_64p_RR_Mall_2
+Object.absolutePosition -132.024/48.332/-131.028
+Object.rotation -154.956/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_Mall_3]
+ObjectTemplate.create SpawnPoint CP_64p_RR_Mall_3
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_Mall_3
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 303
+
+rem [SpawnPoint: CP_64p_RR_Mall_3]
+Object.create CP_64p_RR_Mall_3
+Object.absolutePosition -127.279/48.311/-180.933
+Object.rotation -79.318/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_Mall_4]
+ObjectTemplate.create SpawnPoint CP_64p_RR_Mall_4
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_Mall_4
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 303
+
+rem [SpawnPoint: CP_64p_RR_Mall_4]
+Object.create CP_64p_RR_Mall_4
+Object.absolutePosition -190.386/48.333/-202.932
+Object.rotation 13.634/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_Overpass_3_0]
+ObjectTemplate.create SpawnPoint CP_64p_RR_Overpass_3_0
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_Overpass_3_0
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 304
+
+rem [SpawnPoint: CP_64p_RR_Overpass_3_0]
+Object.create CP_64p_RR_Overpass_3_0
+Object.absolutePosition -19.624/60.796/24.964
+Object.rotation -42.185/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_Overpass_4_0]
+ObjectTemplate.create SpawnPoint CP_64p_RR_Overpass_4_0
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_Overpass_4_0
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 304
+
+rem [SpawnPoint: CP_64p_RR_Overpass_4_0]
+Object.create CP_64p_RR_Overpass_4_0
+Object.absolutePosition -45.748/60.778/39.019
+Object.rotation 110.212/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_Overpass_1_0]
+ObjectTemplate.create SpawnPoint CP_64p_RR_Overpass_1_0
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_Overpass_1_0
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 304
+
+rem [SpawnPoint: CP_64p_RR_Overpass_1_0]
+Object.create CP_64p_RR_Overpass_1_0
+Object.absolutePosition -43.322/60.772/24.583
+Object.rotation 44.841/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_Overpass_2_0]
+ObjectTemplate.create SpawnPoint CP_64p_RR_Overpass_2_0
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_Overpass_2_0
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 304
+
+rem [SpawnPoint: CP_64p_RR_Overpass_2_0]
+Object.create CP_64p_RR_Overpass_2_0
+Object.absolutePosition 12.268/60.622/39.325
+Object.rotation -130.625/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_Overpass_10]
+ObjectTemplate.create SpawnPoint CP_64p_RR_Overpass_10
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_Overpass_10
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 304
+
+rem [SpawnPoint: CP_64p_RR_Overpass_10]
+Object.create CP_64p_RR_Overpass_10
+Object.absolutePosition -1.864/60.709/25.279
+Object.rotation -81.495/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_Overpass_11]
+ObjectTemplate.create SpawnPoint CP_64p_RR_Overpass_11
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_Overpass_11
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 304
+
+rem [SpawnPoint: CP_64p_RR_Overpass_11]
+Object.create CP_64p_RR_Overpass_11
+Object.absolutePosition -70.316/60.644/24.540
+Object.rotation 73.900/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_Overpass_7_0]
+ObjectTemplate.create SpawnPoint CP_64p_RR_Overpass_7_0
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_Overpass_7_0
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 304
+
+rem [SpawnPoint: CP_64p_RR_Overpass_7_0]
+Object.create CP_64p_RR_Overpass_7_0
+Object.absolutePosition -60.719/60.707/38.414
+Object.rotation 108.996/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_Overpass_8_0]
+ObjectTemplate.create SpawnPoint CP_64p_RR_Overpass_8_0
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_Overpass_8_0
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 304
+
+rem [SpawnPoint: CP_64p_RR_Overpass_8_0]
+Object.create CP_64p_RR_Overpass_8_0
+Object.absolutePosition -11.519/51.441/29.811
+Object.rotation -110.045/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_Overpass_9_0]
+ObjectTemplate.create SpawnPoint CP_64p_RR_Overpass_9_0
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_Overpass_9_0
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 304
+
+rem [SpawnPoint: CP_64p_RR_Overpass_9_0]
+Object.create CP_64p_RR_Overpass_9_0
+Object.absolutePosition -50.392/51.171/31.540
+Object.rotation 48.454/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_Junkyard_0]
+ObjectTemplate.create SpawnPoint CP_64p_RR_Junkyard_0
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_Junkyard_0
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 305
+
+rem [SpawnPoint: CP_64p_RR_Junkyard_0]
+Object.create CP_64p_RR_Junkyard_0
+Object.absolutePosition 69.403/48.782/216.476
+Object.rotation 30.724/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_Junkyard_0_0]
+ObjectTemplate.create SpawnPoint CP_64p_RR_Junkyard_0_0
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_Junkyard_0_0
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 305
+
+rem [SpawnPoint: CP_64p_RR_Junkyard_0_0]
+Object.create CP_64p_RR_Junkyard_0_0
+Object.absolutePosition 128.015/48.782/236.946
+Object.rotation -112.692/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_Junkyard_1]
+ObjectTemplate.create SpawnPoint CP_64p_RR_Junkyard_1
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_Junkyard_1
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 305
+
+rem [SpawnPoint: CP_64p_RR_Junkyard_1]
+Object.create CP_64p_RR_Junkyard_1
+Object.absolutePosition 76.579/49.223/245.332
+Object.rotation 98.860/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_Junkyard_2]
+ObjectTemplate.create SpawnPoint CP_64p_RR_Junkyard_2
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_Junkyard_2
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 305
+
+rem [SpawnPoint: CP_64p_RR_Junkyard_2]
+Object.create CP_64p_RR_Junkyard_2
+Object.absolutePosition 103.273/48.782/261.195
+Object.rotation 153.599/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_GasStation_0]
+ObjectTemplate.create SpawnPoint CP_64p_RR_GasStation_0
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_GasStation_0
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 306
+
+rem [SpawnPoint: CP_64p_RR_GasStation_0]
+Object.create CP_64p_RR_GasStation_0
+Object.absolutePosition -132.986/50.999/379.028
+Object.rotation 33.120/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_GasStation_0_0]
+ObjectTemplate.create SpawnPoint CP_64p_RR_GasStation_0_0
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_GasStation_0_0
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 306
+
+rem [SpawnPoint: CP_64p_RR_GasStation_0_0]
+Object.create CP_64p_RR_GasStation_0_0
+Object.absolutePosition -135.986/50.999/411.028
+Object.rotation 122.314/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_GasStation_1]
+ObjectTemplate.create SpawnPoint CP_64p_RR_GasStation_1
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_GasStation_1
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 306
+
+rem [SpawnPoint: CP_64p_RR_GasStation_1]
+Object.create CP_64p_RR_GasStation_1
+Object.absolutePosition -110.528/50.999/433.281
+Object.rotation 37.947/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_GasStation_2]
+ObjectTemplate.create SpawnPoint CP_64p_RR_GasStation_2
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_GasStation_2
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 306
+
+rem [SpawnPoint: CP_64p_RR_GasStation_2]
+Object.create CP_64p_RR_GasStation_2
+Object.absolutePosition -96.178/50.999/413.984
+Object.rotation 165.155/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_FarmHouse_0]
+ObjectTemplate.create SpawnPoint CP_64p_RR_FarmHouse_0
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_FarmHouse_0
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 3
+ObjectTemplate.setControlPointId 307
+
+rem [SpawnPoint: CP_64p_RR_FarmHouse_0]
+Object.create CP_64p_RR_FarmHouse_0
+Object.absolutePosition 50.631/50.000/809.581
+Object.rotation -159.494/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_FarmHouse_7]
+ObjectTemplate.create SpawnPoint CP_64p_RR_FarmHouse_7
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_FarmHouse_7
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 3
+ObjectTemplate.setControlPointId 307
+
+rem [SpawnPoint: CP_64p_RR_FarmHouse_7]
+Object.create CP_64p_RR_FarmHouse_7
+Object.absolutePosition 60.269/50.000/811.694
+Object.rotation -173.567/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_FarmHouse_8]
+ObjectTemplate.create SpawnPoint CP_64p_RR_FarmHouse_8
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_FarmHouse_8
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 2
+ObjectTemplate.setControlPointId 307
+
+rem [SpawnPoint: CP_64p_RR_FarmHouse_8]
+Object.create CP_64p_RR_FarmHouse_8
+Object.absolutePosition -109.450/57.109/803.072
+Object.rotation -20.013/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_FarmHouse_0_0]
+ObjectTemplate.create SpawnPoint CP_64p_RR_FarmHouse_0_0
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_FarmHouse_0_0
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 2
+ObjectTemplate.setControlPointId 307
+
+rem [SpawnPoint: CP_64p_RR_FarmHouse_0_0]
+Object.create CP_64p_RR_FarmHouse_0_0
+Object.absolutePosition -132.453/57.109/847.696
+Object.rotation 140.318/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_FarmHouse_5]
+ObjectTemplate.create SpawnPoint CP_64p_RR_FarmHouse_5
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_FarmHouse_5
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 2
+ObjectTemplate.setControlPointId 307
+
+rem [SpawnPoint: CP_64p_RR_FarmHouse_5]
+Object.create CP_64p_RR_FarmHouse_5
+Object.absolutePosition -140.915/57.109/832.611
+Object.rotation 166.012/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_FarmHouse_6]
+ObjectTemplate.create SpawnPoint CP_64p_RR_FarmHouse_6
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_FarmHouse_6
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 2
+ObjectTemplate.setControlPointId 307
+
+rem [SpawnPoint: CP_64p_RR_FarmHouse_6]
+Object.create CP_64p_RR_FarmHouse_6
+Object.absolutePosition -136.381/57.109/832.185
+Object.rotation 88.555/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_FarmHouse_7_0]
+ObjectTemplate.create SpawnPoint CP_64p_RR_FarmHouse_7_0
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_FarmHouse_7_0
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 2
+ObjectTemplate.setControlPointId 307
+
+rem [SpawnPoint: CP_64p_RR_FarmHouse_7_0]
+Object.create CP_64p_RR_FarmHouse_7_0
+Object.absolutePosition -153.735/57.959/803.365
+Object.rotation 60.071/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_FarmHouse_8_0]
+ObjectTemplate.create SpawnPoint CP_64p_RR_FarmHouse_8_0
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_FarmHouse_8_0
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 3
+ObjectTemplate.setControlPointId 307
+
+rem [SpawnPoint: CP_64p_RR_FarmHouse_8_0]
+Object.create CP_64p_RR_FarmHouse_8_0
+Object.absolutePosition 41.399/50.000/811.212
+Object.rotation 96.215/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_FarmHouse_9]
+ObjectTemplate.create SpawnPoint CP_64p_RR_FarmHouse_9
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_FarmHouse_9
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 3
+ObjectTemplate.setControlPointId 307
+
+rem [SpawnPoint: CP_64p_RR_FarmHouse_9]
+Object.create CP_64p_RR_FarmHouse_9
+Object.absolutePosition 41.072/50.000/820.827
+Object.rotation 110.301/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_SouthernOilDepot_0_2]
+ObjectTemplate.create SpawnPoint CP_64p_RR_SouthernOilDepot_0_2
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_SouthernOilDepot_0_2
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 2
+ObjectTemplate.setControlPointId 301
+
+rem [SpawnPoint: CP_64p_RR_SouthernOilDepot_0_2]
+Object.create CP_64p_RR_SouthernOilDepot_0_2
+Object.absolutePosition 58.051/48.782/-789.053
+Object.rotation -73.423/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_SouthernOilDepot_6_0]
+ObjectTemplate.create SpawnPoint CP_64p_RR_SouthernOilDepot_6_0
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_SouthernOilDepot_6_0
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 3
+ObjectTemplate.setControlPointId 301
+
+rem [SpawnPoint: CP_64p_RR_SouthernOilDepot_6_0]
+Object.create CP_64p_RR_SouthernOilDepot_6_0
+Object.absolutePosition -154.785/50.000/-733.700
+Object.rotation 68.852/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_SouthernOilDepot_7_0]
+ObjectTemplate.create SpawnPoint CP_64p_RR_SouthernOilDepot_7_0
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_SouthernOilDepot_7_0
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 2
+ObjectTemplate.setControlPointId 301
+
+rem [SpawnPoint: CP_64p_RR_SouthernOilDepot_7_0]
+Object.create CP_64p_RR_SouthernOilDepot_7_0
+Object.absolutePosition 53.585/48.782/-737.631
+Object.rotation -158.758/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_SouthernOilDepot_8_0]
+ObjectTemplate.create SpawnPoint CP_64p_RR_SouthernOilDepot_8_0
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_SouthernOilDepot_8_0
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 3
+ObjectTemplate.setControlPointId 301
+
+rem [SpawnPoint: CP_64p_RR_SouthernOilDepot_8_0]
+Object.create CP_64p_RR_SouthernOilDepot_8_0
+Object.absolutePosition -147.691/50.000/-746.239
+Object.rotation 25.616/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_SouthernOilDepot_5_0]
+ObjectTemplate.create SpawnPoint CP_64p_RR_SouthernOilDepot_5_0
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_SouthernOilDepot_5_0
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 2
+ObjectTemplate.setControlPointId 301
+
+rem [SpawnPoint: CP_64p_RR_SouthernOilDepot_5_0]
+Object.create CP_64p_RR_SouthernOilDepot_5_0
+Object.absolutePosition 5.880/48.782/-790.368
+Object.rotation 67.688/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_SouthernOilDepot_0_3]
+ObjectTemplate.create SpawnPoint CP_64p_RR_SouthernOilDepot_0_3
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_SouthernOilDepot_0_3
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 2
+ObjectTemplate.setControlPointId 301
+
+rem [SpawnPoint: CP_64p_RR_SouthernOilDepot_0_3]
+Object.create CP_64p_RR_SouthernOilDepot_0_3
+Object.absolutePosition 12.402/48.782/-737.737
+Object.rotation 87.828/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_SouthernOilDepot_1]
+ObjectTemplate.create SpawnPoint CP_64p_RR_SouthernOilDepot_1
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_SouthernOilDepot_1
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 2
+ObjectTemplate.setControlPointId 301
+
+rem [SpawnPoint: CP_64p_RR_SouthernOilDepot_1]
+Object.create CP_64p_RR_SouthernOilDepot_1
+Object.absolutePosition 42.030/48.782/-717.681
+Object.rotation -167.799/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_truckstop_5_0]
+ObjectTemplate.create SpawnPoint CP_64p_RR_truckstop_5_0
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_truckstop_5_0
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 302
+
+rem [SpawnPoint: CP_64p_RR_truckstop_5_0]
+Object.create CP_64p_RR_truckstop_5_0
+Object.absolutePosition 108.379/48.782/-316.318
+Object.rotation -162.321/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_Junkyard_5]
+ObjectTemplate.create SpawnPoint CP_64p_RR_Junkyard_5
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_Junkyard_5
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 305
+
+rem [SpawnPoint: CP_64p_RR_Junkyard_5]
+Object.create CP_64p_RR_Junkyard_5
+Object.absolutePosition 119.339/48.782/215.131
+Object.rotation -8.509/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CP_64p_RR_GasStation_5_0]
+ObjectTemplate.create SpawnPoint CP_64p_RR_GasStation_5_0
+ObjectTemplate.activeSafe SpawnPoint CP_64p_RR_GasStation_5_0
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 306
+
+rem [SpawnPoint: CP_64p_RR_GasStation_5_0]
+Object.create CP_64p_RR_GasStation_5_0
+Object.absolutePosition -141.560/50.999/388.995
+Object.rotation 52.982/0.000/0.000
+Object.layer 4
+
+rem ********** Control Points **********
+rem [ControlPointTemplate: CP_64p_RR_truckstop]
+ObjectTemplate.create ControlPoint CP_64p_RR_truckstop
+ObjectTemplate.activeSafe ControlPoint CP_64p_RR_truckstop
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CP_64p_RR_truckstop
+ObjectTemplate.radius 15
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 302
+ObjectTemplate.areaValueTeam1 34
+ObjectTemplate.areaValueTeam2 34
+ObjectTemplate.timeToGetControl 20
+ObjectTemplate.timeToLoseControl 20
+ObjectTemplate.loseControlWhenEnemyClose 0
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: CP_64p_RR_Mall]
+ObjectTemplate.create ControlPoint CP_64p_RR_Mall
+ObjectTemplate.activeSafe ControlPoint CP_64p_RR_Mall
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CP_64p_RR_Mall
+ObjectTemplate.radius 15
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 303
+ObjectTemplate.areaValueTeam1 34
+ObjectTemplate.areaValueTeam2 34
+ObjectTemplate.timeToGetControl 20
+ObjectTemplate.timeToLoseControl 20
+ObjectTemplate.loseControlWhenEnemyClose 0
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: CP_64p_RR_Overpass]
+ObjectTemplate.create ControlPoint CP_64p_RR_Overpass
+ObjectTemplate.activeSafe ControlPoint CP_64p_RR_Overpass
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CP_64p_RR_Overpass
+ObjectTemplate.radius 15
+ObjectTemplate.controlPointId 304
+ObjectTemplate.areaValueTeam1 34
+ObjectTemplate.areaValueTeam2 34
+ObjectTemplate.timeToGetControl 20
+ObjectTemplate.timeToLoseControl 20
+ObjectTemplate.loseControlWhenEnemyClose 0
+ObjectTemplate.isHemisphere 1
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: CP_64p_RR_Junkyard]
+ObjectTemplate.create ControlPoint CP_64p_RR_Junkyard
+ObjectTemplate.activeSafe ControlPoint CP_64p_RR_Junkyard
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CP_64p_RR_Junkyard
+ObjectTemplate.radius 17
+ObjectTemplate.team 2
+ObjectTemplate.controlPointId 305
+ObjectTemplate.areaValueTeam1 34
+ObjectTemplate.areaValueTeam2 34
+ObjectTemplate.timeToGetControl 20
+ObjectTemplate.timeToLoseControl 20
+ObjectTemplate.loseControlWhenEnemyClose 0
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: CP_64p_RR_GasStation]
+ObjectTemplate.create ControlPoint CP_64p_RR_GasStation
+ObjectTemplate.activeSafe ControlPoint CP_64p_RR_GasStation
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CP_64p_RR_GasStation
+ObjectTemplate.radius 15
+ObjectTemplate.team 2
+ObjectTemplate.controlPointId 306
+ObjectTemplate.areaValueTeam1 34
+ObjectTemplate.areaValueTeam2 34
+ObjectTemplate.timeToGetControl 20
+ObjectTemplate.timeToLoseControl 20
+ObjectTemplate.loseControlWhenEnemyClose 0
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: CP_64p_RR_FarmHouse]
+ObjectTemplate.create ControlPoint CP_64p_RR_FarmHouse
+ObjectTemplate.activeSafe ControlPoint CP_64p_RR_FarmHouse
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CP_64p_RR_FarmHouse
+ObjectTemplate.team 2
+ObjectTemplate.controlPointId 307
+ObjectTemplate.loseControlWhenEnemyClose 0
+ObjectTemplate.unableToChangeTeam 1
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: CP_64p_RR_SouthernOilDepot]
+ObjectTemplate.create ControlPoint CP_64p_RR_SouthernOilDepot
+ObjectTemplate.activeSafe ControlPoint CP_64p_RR_SouthernOilDepot
+ObjectTemplate.modifiedByUser "tomga"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CP_64p_RR_SouthernOilDepot
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 301
+ObjectTemplate.loseControlWhenEnemyClose 0
+ObjectTemplate.unableToChangeTeam 1
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+if v_arg1 == host
+
+   rem [ControlPoint: CP_64p_RR_truckstop]
+   Object.create CP_64p_RR_truckstop
+   Object.absolutePosition 91.240/48.782/-370.089
+   Object.layer 4
+
+   rem [ControlPoint: CP_64p_RR_Mall]
+   Object.create CP_64p_RR_Mall
+   Object.absolutePosition -186.127/47.928/-189.753
+   Object.layer 4
+
+   rem [ControlPoint: CP_64p_RR_Overpass]
+   Object.create CP_64p_RR_Overpass
+   Object.absolutePosition -32.107/60.813/31.936
+   Object.layer 4
+
+   rem [ControlPoint: CP_64p_RR_Junkyard]
+   Object.create CP_64p_RR_Junkyard
+   Object.absolutePosition 86.278/48.782/234.605
+   Object.layer 4
+
+   rem [ControlPoint: CP_64p_RR_GasStation]
+   Object.create CP_64p_RR_GasStation
+   Object.absolutePosition -128.986/50.999/399.028
+   Object.layer 4
+
+   rem [ControlPoint: CP_64p_RR_FarmHouse]
+   Object.create CP_64p_RR_FarmHouse
+   Object.absolutePosition -136.152/57.109/823.832
+   Object.layer 4
+
+   rem [ControlPoint: CP_64p_RR_SouthernOilDepot]
+   Object.create CP_64p_RR_SouthernOilDepot
+   Object.absolutePosition 38.051/48.782/-746.053
+   Object.layer 4
+
+endIf
+
+CombatAreaManager.use 1
+CombatAreaManager.timeAllowedOutside 10.000000
+CombatArea.create CombatArea_0_64_players
+CombatArea.min 0.000000/0.000000
+CombatArea.max 0.000000/0.000000
+CombatArea.addAreaPoint -32.063965/909.099121
+CombatArea.addAreaPoint 232.811401/908.908325
+CombatArea.addAreaPoint 364.330566/870.658936
+CombatArea.addAreaPoint 495.301880/786.599854
+CombatArea.addAreaPoint 550.351318/702.035645
+CombatArea.addAreaPoint 565.976440/597.398193
+CombatArea.addAreaPoint 535.802246/475.405640
+CombatArea.addAreaPoint 455.760376/360.570190
+CombatArea.addAreaPoint 407.067993/267.801758
+CombatArea.addAreaPoint 404.373779/185.661255
+CombatArea.addAreaPoint 413.562378/42.619263
+CombatArea.addAreaPoint 397.309082/-9.677551
+CombatArea.addAreaPoint 371.235962/-50.450378
+CombatArea.addAreaPoint 335.993286/-110.808533
+CombatArea.addAreaPoint 319.141724/-171.695435
+CombatArea.addAreaPoint 303.132080/-233.925781
+CombatArea.addAreaPoint 267.492432/-317.544312
+CombatArea.addAreaPoint 235.386108/-425.407043
+CombatArea.addAreaPoint 223.764526/-541.756470
+CombatArea.addAreaPoint 230.851563/-665.332397
+CombatArea.addAreaPoint 247.109497/-746.015625
+CombatArea.addAreaPoint 242.257202/-827.710449
+CombatArea.addAreaPoint 215.387695/-889.200928
+CombatArea.addAreaPoint 168.354126/-932.840454
+CombatArea.addAreaPoint 114.446533/-948.374023
+CombatArea.addAreaPoint 51.526123/-950.765686
+CombatArea.addAreaPoint -38.330872/-943.458679
+CombatArea.addAreaPoint -113.122559/-924.984131
+CombatArea.addAreaPoint -210.066895/-866.932373
+CombatArea.addAreaPoint -395.411682/-733.301758
+CombatArea.addAreaPoint -542.971924/-604.757935
+CombatArea.addAreaPoint -617.106140/-491.409973
+CombatArea.addAreaPoint -638.680115/-323.581360
+CombatArea.addAreaPoint -595.387207/-156.048889
+CombatArea.addAreaPoint -531.282593/-2.716614
+CombatArea.addAreaPoint -418.752991/201.691772
+CombatArea.addAreaPoint -332.346252/317.927734
+CombatArea.addAreaPoint -282.785767/414.024536
+CombatArea.addAreaPoint -264.525574/496.457764
+CombatArea.addAreaPoint -255.525024/610.744751
+CombatArea.addAreaPoint -244.278198/777.009277
+CombatArea.addAreaPoint -224.804321/825.434692
+CombatArea.addAreaPoint -191.645935/854.184570
+CombatArea.addAreaPoint -129.524658/888.262817
+CombatArea.addAreaPoint -81.116943/902.774658
+CombatArea.team 0
+CombatArea.vehicles 4
+CombatArea.layer 4
+
+CombatArea.create CombatArea_45_64_players
+CombatArea.min 0.000000/0.000000
+CombatArea.max 0.000000/0.000000
+CombatArea.addAreaPoint -28.811584/-950.700928
+CombatArea.addAreaPoint -161.138855/-926.652344
+CombatArea.addAreaPoint -297.084839/-865.558228
+CombatArea.addAreaPoint -428.316650/-772.717163
+CombatArea.addAreaPoint -566.645020/-616.296753
+CombatArea.addAreaPoint -645.862061/-455.965454
+CombatArea.addAreaPoint -675.300171/-215.631409
+CombatArea.addAreaPoint -688.339233/26.661377
+CombatArea.addAreaPoint -667.302490/318.648193
+CombatArea.addAreaPoint -610.562195/550.657349
+CombatArea.addAreaPoint -519.095764/729.867920
+CombatArea.addAreaPoint -356.299500/872.539063
+CombatArea.addAreaPoint -226.074768/920.670166
+CombatArea.addAreaPoint -16.883484/922.456543
+CombatArea.addAreaPoint 232.476196/921.144531
+CombatArea.addAreaPoint 417.971802/894.404297
+CombatArea.addAreaPoint 527.119385/829.663696
+CombatArea.addAreaPoint 615.142700/720.085938
+CombatArea.addAreaPoint 646.714844/568.211548
+CombatArea.addAreaPoint 637.788574/380.135864
+CombatArea.addAreaPoint 594.396851/98.526245
+CombatArea.addAreaPoint 486.792969/-278.185181
+CombatArea.addAreaPoint 372.048950/-634.429749
+CombatArea.addAreaPoint 265.902466/-813.360229
+CombatArea.addAreaPoint 169.037476/-922.711914
+CombatArea.addAreaPoint 123.493530/-945.869568
+CombatArea.addAreaPoint 40.366577/-953.535278
+CombatArea.team 0
+CombatArea.vehicles 2
+CombatArea.layer 4
+

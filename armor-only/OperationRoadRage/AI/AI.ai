@@ -1,0 +1,18 @@
+
+rem ************** LEVEL SPECIFIC AI SETTINGS ***************************
+
+rem aiSettings.setViewDistance 300
+
+rem *** Init AI using current settings ****
+ai.init 2
+
+aiPathfinding.setActiveMap Infantry
+aiPathfinding.map.maxSlope 37
+aiPathfinding.map.addVehicleForClusterCost Infantery
+
+aiPathfinding.setActiveMap Vehicle
+aiPathfinding.map.maxSlope 35
+aiPathfinding.map.addVehicleForClusterCost Tank
+aiPathfinding.map.addVehicleForClusterCost ArmedCar
+
+rem ----------------------------------------------------------------------------

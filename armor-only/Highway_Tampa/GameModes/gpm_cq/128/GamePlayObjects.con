@@ -1,0 +1,14 @@
+rem ********** Object Spawner **********
+if v_arg1 == host
+
+endIf
+
+rem ********** Spawn Points **********
+rem ********** Control Points **********
+if v_arg1 == host
+
+endIf
+
+CombatAreaManager.use 1
+CombatAreaManager.damage 5.000000
+CombatAreaManager.timeAllowedOutside 10.000000

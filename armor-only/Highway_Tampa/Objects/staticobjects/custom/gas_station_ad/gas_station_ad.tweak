@@ -1,0 +1,24 @@
+rem *** Generated with Bf2Editor.exe [created: 2007/3/12 16:8]
+GeometryTemplate.setSubGeometryLodDistance 0 0 26
+GeometryTemplate.setSubGeometryLodDistance 0 1 76
+GeometryTemplate.setSubGeometryLodDistance 0 2 101
+GeometryTemplate.doNotGenerateLightmaps 0
+GeometryTemplate.lightmapOverride 0
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+ObjectTemplate.activeSafe SimpleObject gas_station_ad
+ObjectTemplate.creator DICE-SVUKANOVI1:svukanovic
+ObjectTemplate.modifiedByUser "svukanovic"
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.geometry gas_station_ad
+ObjectTemplate.setCollisionMesh gas_station_ad
+ObjectTemplate.mapMaterial 0 rubber 22
+ObjectTemplate.mapMaterial 1 metal_solid 21
+ObjectTemplate.mapMaterial 2 metal_plate_thin 20
+ObjectTemplate.mapMaterial 3 concrete 78
+ObjectTemplate.mapMaterial 4 plastic 11
+ObjectTemplate.mapMaterial 5 glass_common 17
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+

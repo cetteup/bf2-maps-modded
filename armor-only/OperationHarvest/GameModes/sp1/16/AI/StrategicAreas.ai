@@ -1,0 +1,51 @@
+rem *** Create strategic areas ***
+aiStrategicArea.createFromControlPoint CP_SinglePlayer_OH_DairyFarm 405 80
+aiStrategicArea.layer 5
+
+aiStrategicArea.createFromControlPoint CP_SinglePlayer_OH_GrainElevator 403 80
+aiStrategicArea.layer 5
+
+aiStrategicArea.createFromControlPoint CP_SinglePlayer_OH_MECFieldBase 404 50
+aiStrategicArea.layer 5
+
+aiStrategicArea.createFromControlPoint CP_SinglePlayer_OH_USForwardPost 401 50
+aiStrategicArea.layer 5
+
+aiStrategicArea.setActive CP_SinglePlayer_OH_DairyFarm
+AIStrategicArea.addNeighbour CP_SinglePlayer_OH_USForwardPost
+AIStrategicArea.addNeighbour CP_SinglePlayer_OH_MECFieldBase
+AIStrategicArea.addNeighbour CP_SinglePlayer_OH_GrainElevator
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 188.808/26.1416/300.949
+AIStrategicArea.setOrderPosition Vehicle 182.634/26.3026/295.146
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 50.9117
+
+aiStrategicArea.setActive CP_SinglePlayer_OH_GrainElevator
+AIStrategicArea.addNeighbour CP_SinglePlayer_OH_USForwardPost
+AIStrategicArea.addNeighbour CP_SinglePlayer_OH_MECFieldBase
+AIStrategicArea.addNeighbour CP_SinglePlayer_OH_DairyFarm
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 381.064/25.87/198.705
+AIStrategicArea.setOrderPosition Vehicle 375.698/25.87/194.91
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 48.0833
+
+aiStrategicArea.setActive CP_SinglePlayer_OH_MECFieldBase
+AIStrategicArea.addNeighbour CP_SinglePlayer_OH_GrainElevator
+AIStrategicArea.addNeighbour CP_SinglePlayer_OH_DairyFarm
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 458.96/28.8461/436.892
+AIStrategicArea.setOrderPosition Vehicle 465.913/28.877/434.623
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 42.4264
+
+aiStrategicArea.setActive CP_SinglePlayer_OH_USForwardPost
+AIStrategicArea.addNeighbour CP_SinglePlayer_OH_GrainElevator
+AIStrategicArea.addNeighbour CP_SinglePlayer_OH_DairyFarm
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 187.15/29.81/82.2041
+AIStrategicArea.setOrderPosition Vehicle 192.079/29.81/84.1165
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 42.4264
+

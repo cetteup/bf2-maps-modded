@@ -1,0 +1,2 @@
+rem -- Make sure muzzle flashes are visible at least one frame.
+rem renderer.presentAsync 0

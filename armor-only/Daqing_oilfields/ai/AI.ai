@@ -1,0 +1,20 @@
+
+rem ************** LEVEL SPECIFIC AI SETTINGS ***************************
+
+rem aiSettings.setViewDistance 300
+
+rem *** Init AI using current settings ****
+ai.init 2
+
+rem *** Set custom angle to avoid cracks in a road ***
+aiPathfinding.setActiveMap Vehicle
+aiPathfinding.map.maxSlope 28
+aiPathfinding.map.addVehicleForClusterCost Tank
+aiPathfinding.map.addVehicleForClusterCost ArmedCar
+
+aiPathfinding.setActiveMap Infantry
+aiPathfinding.map.maxSlope 37
+aiPathfinding.map.addVehicleForClusterCost Infantery
+
+
+rem ----------------------------------------------------------------------------

@@ -1,0 +1,4 @@
+ObjectTemplate.create EffectBundle e_constructionlight_Warning
+ObjectTemplate.createdInEditor 1
+
+include e_constructionlight_Warning.tweak

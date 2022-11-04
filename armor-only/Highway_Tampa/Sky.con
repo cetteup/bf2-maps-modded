@@ -1,0 +1,53 @@
+Lightmanager.init
+Lightmanager.skycolor 0.25098/0.305882/0.333333
+Lightmanager.ambientcolor 1/1/1
+Lightmanager.sunColor 1.68235/1.30588/0.517647
+Lightmanager.sunSpecColor 0.984314/0.843137/0.407843
+if v_arg1 == BF2Editor
+LightSettings.TerrainSunColor 2.34/1.72/0.56
+LightSettings.TerrainSkyColor 0.22/0.24/0.28
+LightmapSettings.waterSunIntensity 0.8
+else
+terrain.sunColor 2.34/1.72/0.56
+terrain.GIColor 0.22/0.24/0.28
+terrain.waterSunIntensity 0.8
+endIf
+Lightmanager.staticSunColor 1.31/1.02/0.35
+Lightmanager.staticSpecularColor 0.33/0.26/0.06
+Lightmanager.staticSkyColor 0.39/0.42/0.49
+Lightmanager.singlePointColor 0.00/0.00/0.00
+Lightmanager.sunDirection 0.762252/-0.421245/0.491452
+Lightmanager.enableSun 1
+Lightmanager.effectSunColor 0.94/0.90/0.81
+Lightmanager.effectShadowColor 0.62/0.57/0.47
+Lightmanager.defaultEffectLightAffectionFactor 1
+Lightmanager.hemilerpbias 0.3
+hemiMapManager.setBaseHemiMap Levels/Highway_Tampa/groundhemi 0.000000/0.000000/0.000000 2048.000000 500.000000
+Lightmanager.treeAmbientColor 0.18/0.22/0.26
+Lightmanager.treeSunColor 1.58/1.07/0.56
+Lightmanager.treeSkyColor 0.74/0.79/0.91
+
+if v_arg1 == BF2Editor
+else
+run /Common/Sky/SkyDome/skydome.con
+run /Common/Sky/Flare/flaresprite.con
+endIf
+
+Skydome.skyTemplate skydome
+Skydome.cloudTemplate cloudlayer
+Skydome.hasCloudLayer 0
+Skydome.hasCloudLayer2 0
+Skydome.scrolldirection 0.02/0.015
+Skydome.scrolldirection2 0.01/0.005
+Skydome.cloudTexture common\textures\cloud\cloud08
+Skydome.cloudTexture2 common\textures\cloud\cloud11
+Skydome.skyTexture Levels\Highway_Tampa\SkyClear09
+Skydome.domeRotation 120
+Skydome.fadeCloudsDistances 775/800
+Skydome.cloudLerpFactors 0.6/0.6
+Skydome.flareTexture Levels\Highway_Tampa\Sunglow_32bit_v8
+Skydome.flareDirection -0.75/0.33/-0.57
+
+Renderer.fogColor 206.00/174.00/118.00
+Renderer.fogStartEndAndBase 10.00/450.00/5.00/0.30
+

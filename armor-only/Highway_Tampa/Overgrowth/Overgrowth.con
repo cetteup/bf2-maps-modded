@@ -1,0 +1,66 @@
+Overgrowth.viewDistance 500
+Overgrowth.viewDistanceScale 1
+Overgrowth.closeDistPercentage 0.15
+
+Overgrowth.addMaterial Palmtrees_Short 1
+Overgrowth.setActiveMaterial Palmtrees_Short
+Overgrowth.addType PalmShort
+Overgrowth.setActiveType PalmShort
+OvergrowthType.geometry me_shortpalm01
+OvergrowthType.density 100
+OvergrowthType.normalScale 0.1
+OvergrowthType.rotationScale 0
+OvergrowthType.minRadiusToSame 0.2
+OvergrowthType.minRadiusToOthers 0.2
+Overgrowth.addType Palmtree02
+Overgrowth.setActiveType Palmtree02
+OvergrowthType.geometry me_palmtree02
+OvergrowthType.density 100
+OvergrowthType.normalScale 0.1
+OvergrowthType.rotationScale 0
+OvergrowthType.minRadiusToSame 0.2
+OvergrowthType.minRadiusToOthers 0.2
+
+Overgrowth.addMaterial Palmtrees_Tall 2
+Overgrowth.setActiveMaterial Palmtrees_Tall
+Overgrowth.addType Palmtree01
+Overgrowth.setActiveType Palmtree01
+OvergrowthType.geometry me_palmtree01
+OvergrowthType.density 100
+OvergrowthType.normalScale 0.25
+OvergrowthType.rotationScale 0
+OvergrowthType.minRadiusToSame 0.2
+OvergrowthType.minRadiusToOthers 0.2
+Overgrowth.addType Palmtree03
+Overgrowth.setActiveType Palmtree03
+OvergrowthType.geometry me_palmtree03
+OvergrowthType.density 200
+OvergrowthType.normalScale 0.25
+OvergrowthType.rotationScale 0
+OvergrowthType.minRadiusToSame 0.2
+OvergrowthType.minRadiusToOthers 0.2
+
+Overgrowth.addMaterial Palmtree_Cluster_Tall 3
+Overgrowth.setActiveMaterial Palmtree_Cluster_Tall
+Overgrowth.addType Palm
+Overgrowth.setActiveType Palm
+OvergrowthType.geometry me_palm_cluster01
+OvergrowthType.density 30
+OvergrowthType.normalScale 0
+OvergrowthType.rotationScale 0
+OvergrowthType.minRadiusToSame 1
+OvergrowthType.minRadiusToOthers 0
+
+Overgrowth.addMaterial Tropical_Plant 4
+Overgrowth.setActiveMaterial Tropical_Plant
+Overgrowth.addType Tropical_Plant
+Overgrowth.setActiveType Tropical_Plant
+OvergrowthType.geometry me_tropicalplant03
+OvergrowthType.density 60
+OvergrowthType.normalScale 1
+OvergrowthType.rotationScale 0
+OvergrowthType.minRadiusToSame 0.3
+OvergrowthType.minRadiusToOthers 0.3
+
+Overgrowth.path levels\highway_tampa\overgrowth\
+Overgrowth.preLoad

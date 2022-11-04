@@ -1,0 +1,6 @@
+Overgrowth.viewDistance 500
+Overgrowth.viewDistanceScale 1
+Overgrowth.closeDistPercentage 0.15
+
+Overgrowth.path levels\operationharvest\overgrowth\
+Overgrowth.preLoad

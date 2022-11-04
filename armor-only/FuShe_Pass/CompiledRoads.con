@@ -1,0 +1,224 @@
+object.create highway
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\tarmac33_compiled.mesh
+object.absoluteposition 339.709/90.4893/-215.968
+
+object.create highway
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\tarmac40_compiled.mesh
+object.absoluteposition 357.744/136.522/262.55
+
+object.create highway
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\tarmac2_compiled.mesh
+object.absoluteposition -615.015/124.736/320.282
+
+object.create highway
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\tarmac5_compiled.mesh
+object.absoluteposition -409.017/108.237/256.961
+
+object.create highway
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\tarmac1_compiled.mesh
+object.absoluteposition -399.431/112.019/127.907
+
+object.create highway
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\highway2_compiled.mesh
+object.absoluteposition -406.214/112.918/-313.886
+
+object.create highway
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\tarmac20_compiled.mesh
+object.absoluteposition 58.6333/106.33/292.244
+
+object.create highway
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\tarmac18_compiled.mesh
+object.absoluteposition -230.017/159.479/391.089
+
+object.create highway
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\tarmac6_compiled.mesh
+object.absoluteposition -400.182/131.829/332.592
+
+object.create highway
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\tarmac24_compiled.mesh
+object.absoluteposition -72.3675/96.5169/-154.972
+
+object.create highway
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\tarmac25_compiled.mesh
+object.absoluteposition 25.2134/82.2256/-95.0017
+
+object.create highway
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\tarmac23_compiled.mesh
+object.absoluteposition -219.638/80.7824/-87.2498
+
+object.create highway
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\tarmac12_compiled.mesh
+object.absoluteposition -119.925/117.01/316.467
+
+object.create highway
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\tarmac3_compiled.mesh
+object.absoluteposition -604.868/99.5821/209.785
+
+object.create dirtroad
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\dirt7_compiled.mesh
+object.absoluteposition -482.009/99.5747/275.922
+
+object.create highway
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\tarmac7_compiled.mesh
+object.absoluteposition -289.122/128.692/270.626
+
+object.create highway
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\tarmac8_compiled.mesh
+object.absoluteposition -202.83/124.901/289.363
+
+object.create highway
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\tarmac16_compiled.mesh
+object.absoluteposition -159.171/98.0711/222.208
+
+object.create highway
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\tarmac17_compiled.mesh
+object.absoluteposition -62.2544/86.5463/211.517
+
+object.create highway
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\tarmac21_compiled.mesh
+object.absoluteposition -204.794/93.6981/110.127
+
+object.create highway
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\tarmac22_compiled.mesh
+object.absoluteposition -111.643/85.8855/67.9457
+
+object.create dirtroad
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\dirt10_compiled.mesh
+object.absoluteposition -55.3613/74.1961/19.9529
+
+object.create dirtroad
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\dirt11_compiled.mesh
+object.absoluteposition -11.6069/78.3503/-84.2412
+
+object.create dirtroad
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\dirt12_compiled.mesh
+object.absoluteposition -20.0842/78.6526/-81.0533
+
+object.create highway
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\tarmac28_compiled.mesh
+object.absoluteposition 67.3876/75.6763/177.986
+
+object.create dirtroad
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\dirt28_compiled.mesh
+object.absoluteposition -8.26229/72.3088/146.968
+
+object.create dirtroad
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\dirt15_compiled.mesh
+object.absoluteposition 34.0591/72.8198/108.725
+
+object.create dirtroad
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\dirt20_compiled.mesh
+object.absoluteposition 159.461/74.6596/-132.415
+
+object.create highway
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\tarmac34_compiled.mesh
+object.absoluteposition 760.598/100.201/773.534
+
+object.create dirtroad
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\dirt25_compiled.mesh
+object.absoluteposition 688.073/93.15/714.041
+
+object.create dirtroad
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\dirt26_compiled.mesh
+object.absoluteposition 661.885/87.6505/533.622
+
+object.create highway
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\tarmac41_compiled.mesh
+object.absoluteposition 596.598/103.238/29.7977
+
+object.create highway
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\tarmac39_compiled.mesh
+object.absoluteposition 596.869/92.1411/437.608
+
+object.create highway
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\tarmac37_compiled.mesh
+object.absoluteposition -603.816/105.193/151.424
+
+object.create highway
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\tarmac42_compiled.mesh
+object.absoluteposition 222.155/94.4048/-258.627
+
+object.create highway
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\tarmac44_compiled.mesh
+object.absoluteposition 140.177/77.499/180.449
+
+object.create highway
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\tarmac45_compiled.mesh
+object.absoluteposition 116.994/77.4964/140.487
+
+object.create highway
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\tarmac46_compiled.mesh
+object.absoluteposition 94.409/77.4976/102.802
+
+object.create highway
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\tarmac47_compiled.mesh
+object.absoluteposition 117.016/77.4975/83.8518
+
+object.create highway
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\tarmac49_compiled.mesh
+object.absoluteposition -245.303/106.07/101.257
+
+object.create highway
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\tarmac50_compiled.mesh
+object.absoluteposition -680.809/109.987/-219.655
+
+object.create dirtroad
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\dirt27_compiled.mesh
+object.absoluteposition -30.3313/75.0366/-13.1895
+
+object.create dirtroad
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\dirt29_compiled.mesh
+object.absoluteposition -22.7915/70.5021/77.0653
+
+object.create dirtroad
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\dirt23_compiled.mesh
+object.absoluteposition 88.494/69.6533/-85.521
+
+object.create dirtroad
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\dirt35_compiled.mesh
+object.absoluteposition -37.3287/125.001/363.509
+
+object.create dirtroad
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\dirt36_compiled.mesh
+object.absoluteposition 169.85/129.866/265.601
+
+object.create dirtroad
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\dirt41_compiled.mesh
+object.absoluteposition 606.85/121.198/29.9951
+
+object.create dirtroad
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\dirt42_compiled.mesh
+object.absoluteposition 591.612/121.111/17.8513
+
+object.create dirtroad
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\dirt43_compiled.mesh
+object.absoluteposition 497.822/121.483/135.305
+
+object.create dirtroad
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\dirt45_compiled.mesh
+object.absoluteposition 131.943/68.1805/4.94347
+
+object.create dirtroad
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\dirt46_compiled.mesh
+object.absoluteposition 145.507/65.5678/-104.629
+
+object.create dirtroad
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\dirt48_compiled.mesh
+object.absoluteposition 83.5529/67.8119/-5.75366
+
+object.create dirtroad
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\dirt65_compiled.mesh
+object.absoluteposition -593.073/103.71/-31.6509
+
+object.create dirtroad
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\dirt50_compiled.mesh
+object.absoluteposition -174.129/114.988/283.487
+
+object.create dirtroad
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\dirt55_compiled.mesh
+object.absoluteposition -47.7762/78.6475/-45.3034
+
+object.create highway
+object.geometry.loadMesh Levels\FuShe_Pass\Roads\tarmac38_compiled.mesh
+object.absoluteposition -78.0894/79.3019/0.503085
+

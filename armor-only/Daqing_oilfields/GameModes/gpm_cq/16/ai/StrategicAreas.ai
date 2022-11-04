@@ -1,0 +1,35 @@
+rem *** Create strategic areas ***
+aiStrategicArea.create CPNAME_DO_16_oilcisterns 59.84/-51.91 67.84/-43.91 144.394 50
+aiStrategicArea.layer 5
+
+aiStrategicArea.create CPNAME_DO_16_oldcity 114/240 129/255 152.496 50
+aiStrategicArea.layer 5
+
+aiStrategicArea.create CPNAME_DO_16_refinery -63.518/-253.046 -53.518/-243.046 144.485 50
+aiStrategicArea.layer 5
+
+aiStrategicArea.setActive CPNAME_DO_16_oilcisterns
+AIStrategicArea.addNeighbour CPNAME_DO_16_oldcity
+AIStrategicArea.addNeighbour CPNAME_DO_16_refinery
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 67.3641/144.394/-37.157
+AIStrategicArea.setOrderPosition Vehicle 52.6984/144.394/-41.2212
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 0
+
+aiStrategicArea.setActive CPNAME_DO_16_oldcity
+AIStrategicArea.addNeighbour CPNAME_DO_16_oilcisterns
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 122.535/152.496/256.287
+AIStrategicArea.setOrderPosition Vehicle 123.174/152.496/258.086
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 0
+
+aiStrategicArea.setActive CPNAME_DO_16_refinery
+AIStrategicArea.addNeighbour CPNAME_DO_16_oilcisterns
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry -57.951/144.485/-237.583
+AIStrategicArea.setOrderPosition Vehicle -60.9484/144.485/-238.98
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 0
+

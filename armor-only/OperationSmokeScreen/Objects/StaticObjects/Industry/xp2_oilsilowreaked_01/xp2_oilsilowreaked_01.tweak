@@ -1,0 +1,24 @@
+rem *** Generated with Bf2Editor.exe [created: 2006/1/16 10:33]
+GeometryTemplate.setSubGeometryLodDistance 0 0 50
+GeometryTemplate.setSubGeometryLodDistance 0 1 75
+GeometryTemplate.setSubGeometryLodDistance 0 2 180
+GeometryTemplate.doNotGenerateLightmaps 0
+GeometryTemplate.lightmapOverride 0
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+GeometryTemplate.glowing 0
+GeometryTemplate.noLighting 0
+ObjectTemplate.activeSafe SimpleObject xp2_oilsilowreaked_01
+ObjectTemplate.creator TAYLOR:taylorki
+ObjectTemplate.modifiedByUser "taylorki"
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.geometry xp2_oilsilowreaked_01
+ObjectTemplate.setCollisionMesh xp2_oilsilowreaked_01
+ObjectTemplate.mapMaterial 0 thickMetal_Col 21
+ObjectTemplate.mapMaterial 1 concrete_Col 78
+ObjectTemplate.mapMaterial 2 thinMetal_Col 21
+ObjectTemplate.mapMaterial 3 stair_Col 36
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+

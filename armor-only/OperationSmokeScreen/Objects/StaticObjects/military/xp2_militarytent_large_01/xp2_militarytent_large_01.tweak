@@ -1,0 +1,21 @@
+rem *** Generated with Bf2Editor.exe [created: 2006/1/10 6:24]
+GeometryTemplate.doNotGenerateLightmaps 0
+GeometryTemplate.lightmapOverride 0
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+GeometryTemplate.glowing 0
+GeometryTemplate.noLighting 0
+ObjectTemplate.activeSafe SimpleObject xp2_militarytent_large_01
+ObjectTemplate.creator MIKEC:mikeca
+ObjectTemplate.modifiedByUser "mikeca"
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.geometry xp2_militarytent_large_01
+ObjectTemplate.setCollisionMesh xp2_militarytent_large_01
+ObjectTemplate.mapMaterial 0 cloth 10
+ObjectTemplate.mapMaterial 1 glass 17
+ObjectTemplate.mapMaterial 2 metal 35
+ObjectTemplate.mapMaterial 3 xp2_militarytent_large_02_closes 20
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+

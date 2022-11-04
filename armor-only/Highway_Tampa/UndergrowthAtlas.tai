@@ -1,0 +1,24 @@
+# mods/bf2\Levels\Highway_Tampa/UndergrowthAtlas.tai
+# 
+# 
+# <filename>		<atlas filename>, <atlas idx>, <woffset>, <hoffset>, <width>, <height>
+# 
+# Texture <filename> can be found in texture atlas <atlas filename>, i.e.,
+# <group><idx>.dds with texture coordinates boundary given by:
+#   A = ( <woffset>, <hoffset> )
+#   B = ( <woffset> + <width>, <hoffset> + <height> )
+# 
+# where coordinates (0,0) and (1,1) of the original texture map correspond
+# to coordinates A and B, respectively, in the texture atlas.
+
+
+../RawData/Undergrowth/cactusgrass.dds		Levels\Highway_Tampa/UndergrowthAtlas0.dds, 0, 0, 0, 0.25, 0.5
+../RawData/Undergrowth/cattails2.dds		Levels\Highway_Tampa/UndergrowthAtlas0.dds, 0, 0.25, 0, 0.25, 0.5
+../RawData/Undergrowth/fieldgrass.dds		Levels\Highway_Tampa/UndergrowthAtlas0.dds, 0, 0.5, 0, 0.25, 0.5
+../RawData/Undergrowth/fieldgrass_grey.dds		Levels\Highway_Tampa/UndergrowthAtlas0.dds, 0, 0.75, 0, 0.25, 0.5
+../RawData/Undergrowth/fieldgrasslighter2.dds		Levels\Highway_Tampa/UndergrowthAtlas0.dds, 0, 0, 0.5, 0.25, 0.5
+../RawData/Undergrowth/flowertest.dds		Levels\Highway_Tampa/UndergrowthAtlas0.dds, 0, 0.25, 0.5, 0.25, 0.5
+../RawData/Undergrowth/cattails_fat.dds		Levels\Highway_Tampa/UndergrowthAtlas0.dds, 0, 0.5, 0.5, 0.125, 0.5
+../RawData/Undergrowth/trash.dds		Levels\Highway_Tampa/UndergrowthAtlas0.dds, 0, 0.625, 0.5, 0.125, 0.5
+../RawData/Undergrowth/Cardboard.dds		Levels\Highway_Tampa/UndergrowthAtlas0.dds, 0, 0.75, 0.5, 0.125, 0.25
+../RawData/Undergrowth/ME_genrock01.dds		Levels\Highway_Tampa/UndergrowthAtlas0.dds, 0, 0.75, 0.75, 0.0625, 0.25

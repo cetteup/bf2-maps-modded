@@ -1,0 +1,152 @@
+object.create tarmac_oman
+object.geometry.loadMesh Levels\OperationHarvest\Roads\blockade_road_01_compiled.mesh
+object.absoluteposition -156.469/29.5836/-62.3443
+
+object.create Fall_road_dirt_wide
+object.geometry.loadMesh Levels\OperationHarvest\Roads\dirt_road01_compiled.mesh
+object.absoluteposition -47.9739/30.9319/185.785
+
+object.create Fall_road_dirt_wide
+object.geometry.loadMesh Levels\OperationHarvest\Roads\dirtroad07_compiled.mesh
+object.absoluteposition -123.552/27.3302/49.8607
+
+object.create tarmac_oman
+object.geometry.loadMesh Levels\OperationHarvest\Roads\road03_compiled.mesh
+object.absoluteposition -120.079/37.4734/353.134
+
+object.create tarmac_oman
+object.geometry.loadMesh Levels\OperationHarvest\Roads\road06_compiled.mesh
+object.absoluteposition 202.766/26.6824/356.358
+
+object.create tarmac_oman
+object.geometry.loadMesh Levels\OperationHarvest\Roads\road05_compiled.mesh
+object.absoluteposition 315.961/29.4366/567.998
+
+object.create Fall_road_dirt
+object.geometry.loadMesh Levels\OperationHarvest\Roads\dirtroad03_compiled.mesh
+object.absoluteposition 278.137/28.6058/77.7705
+
+object.create Fall_road_dirt
+object.geometry.loadMesh Levels\OperationHarvest\Roads\dirtroad04_compiled.mesh
+object.absoluteposition 213.663/29.8639/69.3911
+
+object.create forestPath_Daqing
+object.geometry.loadMesh Levels\OperationHarvest\Roads\path01_compiled.mesh
+object.absoluteposition 198.361/29.8285/65.7267
+
+object.create tarmac_oman
+object.geometry.loadMesh Levels\OperationHarvest\Roads\road08_compiled.mesh
+object.absoluteposition -9.92393/25.5194/-38.3825
+
+object.create tarmac_oman
+object.geometry.loadMesh Levels\OperationHarvest\Roads\road09_compiled.mesh
+object.absoluteposition -1.44055/25.5804/-59.7086
+
+object.create tarmac_oman
+object.geometry.loadMesh Levels\OperationHarvest\Roads\road10_compiled.mesh
+object.absoluteposition 212.33/37.732/-225.511
+
+object.create tarmac_oman
+object.geometry.loadMesh Levels\OperationHarvest\Roads\road11_compiled.mesh
+object.absoluteposition 171.761/25.5704/150.724
+
+object.create tarmac_oman
+object.geometry.loadMesh Levels\OperationHarvest\Roads\road12_compiled.mesh
+object.absoluteposition 433.503/25.5832/315.562
+
+object.create tarmac_oman
+object.geometry.loadMesh Levels\OperationHarvest\Roads\road13_compiled.mesh
+object.absoluteposition 514.24/25.8539/136.279
+
+object.create tarmac_oman
+object.geometry.loadMesh Levels\OperationHarvest\Roads\road14_compiled.mesh
+object.absoluteposition -326.943/33.6202/-76.8954
+
+object.create tarmac_oman
+object.geometry.loadMesh Levels\OperationHarvest\Roads\road15_compiled.mesh
+object.absoluteposition -314.913/33.36/-302.676
+
+object.create tarmac_oman
+object.geometry.loadMesh Levels\OperationHarvest\Roads\road04_compiled.mesh
+object.absoluteposition -310.487/35.4116/107.174
+
+object.create tarmac_oman
+object.geometry.loadMesh Levels\OperationHarvest\Roads\road21_compiled.mesh
+object.absoluteposition -113.752/43.5042/-658.984
+
+object.create forestPath_Daqing
+object.geometry.loadMesh Levels\OperationHarvest\Roads\path03_compiled.mesh
+object.absoluteposition -154.341/34.7271/-55.9075
+
+object.create Fall_road_dirt_wide
+object.geometry.loadMesh Levels\OperationHarvest\Roads\dirtroad05_compiled.mesh
+object.absoluteposition -595.512/26.327/-424.235
+
+object.create forestPath_Daqing
+object.geometry.loadMesh Levels\OperationHarvest\Roads\path04_compiled.mesh
+object.absoluteposition -178.724/35.0837/-57.3149
+
+object.create Fall_road_dirt_wide
+object.geometry.loadMesh Levels\OperationHarvest\Roads\dirtroad06_compiled.mesh
+object.absoluteposition -134.685/27.7442/45.5054
+
+object.create Fall_road_narrow
+object.geometry.loadMesh Levels\OperationHarvest\Roads\fIELDROAD01_compiled.mesh
+object.absoluteposition -64.677/41.5733/-251.519
+
+object.create tarmac_oman
+object.geometry.loadMesh Levels\OperationHarvest\Roads\road19_compiled.mesh
+object.absoluteposition -198.587/39.5362/-501.371
+
+object.create tarmac_oman
+object.geometry.loadMesh Levels\OperationHarvest\Roads\road20_compiled.mesh
+object.absoluteposition 113.497/53.3505/-493.774
+
+object.create tarmac_oman
+object.geometry.loadMesh Levels\OperationHarvest\Roads\road07_compiled.mesh
+object.absoluteposition -4.26544/41.0096/632.144
+
+object.create tarmac_oman
+object.geometry.loadMesh Levels\OperationHarvest\Roads\road22_compiled.mesh
+object.absoluteposition 558.327/41.3517/-734.241
+
+object.create tarmac_oman
+object.geometry.loadMesh Levels\OperationHarvest\Roads\road23_compiled.mesh
+object.absoluteposition 600.927/25.6867/264.071
+
+object.create Fall_road_dirt_wide
+object.geometry.loadMesh Levels\OperationHarvest\Roads\dirtroad08_compiled.mesh
+object.absoluteposition -225.003/34.0591/-297.523
+
+object.create tarmac_oman
+object.geometry.loadMesh Levels\OperationHarvest\Roads\blockade_road_02_compiled.mesh
+object.absoluteposition -484.113/36.3712/-23.3189
+
+object.create tarmac_oman
+object.geometry.loadMesh Levels\OperationHarvest\Roads\road18_compiled.mesh
+object.absoluteposition 691.329/25.6198/375.03
+
+object.create forestPath_Daqing
+object.geometry.loadMesh Levels\OperationHarvest\Roads\path06_compiled.mesh
+object.absoluteposition 283.859/24.4362/42.675
+
+object.create tarmac_oman
+object.geometry.loadMesh Levels\OperationHarvest\Roads\road26_compiled.mesh
+object.absoluteposition 397.747/25.87/153.105
+
+object.create tarmac_oman
+object.geometry.loadMesh Levels\OperationHarvest\Roads\road24_compiled.mesh
+object.absoluteposition 666.523/30.7139/47.857
+
+object.create Fall_road_dirt
+object.geometry.loadMesh Levels\OperationHarvest\Roads\church_road_compiled.mesh
+object.absoluteposition 279.579/27.6566/481.109
+
+object.create tarmac_oman
+object.geometry.loadMesh Levels\OperationHarvest\Roads\road16_compiled.mesh
+object.absoluteposition -470.559/34.2997/-574.997
+
+object.create Fall_road_narrow
+object.geometry.loadMesh Levels\OperationHarvest\Roads\Old_Barn_Drive_compiled.mesh
+object.absoluteposition -387.447/34.6961/-57.3157
+

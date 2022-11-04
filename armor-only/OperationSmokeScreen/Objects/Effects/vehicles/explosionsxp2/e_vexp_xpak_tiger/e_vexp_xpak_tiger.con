@@ -1,0 +1,33 @@
+GeometryTemplate.create BundledMesh e_vexp_xpak_tiger
+
+ObjectTemplate.create EffectBundle e_vexp_xpak_tiger
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator JEFFO:jeffev
+ObjectTemplate.addTemplate wreck_wing_Tiger
+ObjectTemplate.addTemplate wreck_tail_Tiger
+
+ObjectTemplate.create Emitter wreck_wing_Tiger
+ObjectTemplate.template p_wreck_wing_Tiger
+
+ObjectTemplate.create Particle p_wreck_wing_Tiger
+ObjectTemplate.collisionMesh e_vexp_xpak_tiger
+ObjectTemplate.mapMaterial 0 col_wreck 0
+ObjectTemplate.collisionPart 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry e_vexp_xpak_tiger
+ObjectTemplate.geometryPart 0
+
+ObjectTemplate.create Emitter wreck_tail_Tiger
+ObjectTemplate.template p_wreck_tail_Tiger
+
+ObjectTemplate.create Particle p_wreck_tail_Tiger
+ObjectTemplate.collisionMesh e_vexp_xpak_tiger
+ObjectTemplate.mapMaterial 0 col_wreck 0
+ObjectTemplate.collisionPart 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry e_vexp_xpak_tiger
+ObjectTemplate.geometryPart 1
+
+include e_vexp_xpak_tiger.tweak

@@ -1,0 +1,19 @@
+newmtl ground
+Ka 0.0000 0.1986 0.0000 
+Kd 0.0166 0.5922 0.0000 
+illum 1 
+
+newmtl ladder
+Ka 0.1986 0.1986 0.1986 
+Kd 0.5922 0.5922 0.5922 
+illum 1 
+
+newmtl water
+Ka 0.3200 0.3200 0.0000 
+Kd 0.9400 0.9400 0.1410 
+illum 1 
+
+newmtl deepwater
+Ka 0.0000 0.0000 0.3200 
+Kd 0.0000 0.0000 0.9400 
+illum 1 

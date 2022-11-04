@@ -1,0 +1,21 @@
+rem *** Generated with Bf2Editor.exe [created: 2005/11/24 6:2]
+ObjectTemplate.activeSafe Bundle ambstat_OilCistFire
+ObjectTemplate.modifiedByUser "danri"
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate e_sAmb_OilFire
+ObjectTemplate.addTemplate HeatObject
+ObjectTemplate.addTemplate ambstat_OilCistSmoke_SupplyObject_burning
+ObjectTemplate.killHeatSeekingMissile 1
+rem -------------------------------------
+
+ObjectTemplate.create SupplyObject ambstat_OilCistSmoke_SupplyObject_burning
+ObjectTemplate.modifiedByUser "danri"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.radius 5
+ObjectTemplate.damageSpeed 100
+

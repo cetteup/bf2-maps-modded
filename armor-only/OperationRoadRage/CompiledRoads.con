@@ -1,0 +1,360 @@
+object.create RR_Small_Highway_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Small_Highway_02_compiled.mesh
+object.absoluteposition 321.1/49.3171/30.4331
+
+object.create RR_Small_Highway_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Small_Highway_04_compiled.mesh
+object.absoluteposition 525.998/49.229/739.804
+
+object.create RR_2Way_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Industrial_Road_01_compiled.mesh
+object.absoluteposition 452.557/48.7777/310.365
+
+object.create RR_Small_Highway_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Small_Highway_03_compiled.mesh
+object.absoluteposition -549.998/49.4295/739.943
+
+object.create RR_Suburbs_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Suburb_02_compiled.mesh
+object.absoluteposition 322.017/50.5441/158.091
+
+object.create Small_Highway_Merge_RR_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\4to2_Lane_Merge_04_compiled.mesh
+object.absoluteposition 64.6701/51.7004/738.949
+
+object.create Overpass_Mian_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Hoghway_Mall_03_compiled.mesh
+object.absoluteposition -32.3199/52.0537/-514.857
+
+object.create RR_DoubleLane_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Nuclear_Road_01_compiled.mesh
+object.absoluteposition -27.1763/50.349/-764.339
+
+object.create Overpass_Mian_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Highway_Mall_01_compiled.mesh
+object.absoluteposition -31.3847/50.063/-380.443
+
+object.create RR_2Way_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Mall_Road_01_compiled.mesh
+object.absoluteposition -162.39/47.7504/-148.576
+
+object.create Overpass_merge_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\truckstop_01_compiled.mesh
+object.absoluteposition -11.3056/50.6285/-280.839
+
+object.create Overpass_merge_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Farm_Merge_01b_compiled.mesh
+object.absoluteposition -62.4139/48.8361/702.952
+
+object.create Overpass_merge_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Farm_Merge_02b_compiled.mesh
+object.absoluteposition 1.34725/48.6688/700.914
+
+object.create RR_ParkingSpaces_Single_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Lot_Single_08_compiled.mesh
+object.absoluteposition -161.93/47.9279/-107.693
+
+object.create RR_ParkingSpaces_Single_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Lot_Single_05_compiled.mesh
+object.absoluteposition -147.053/47.9217/-189.073
+
+object.create RR_ParkingSpaces_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Lot_07_compiled.mesh
+object.absoluteposition -234.072/47.8654/-259.471
+
+object.create RR_ParkingSpaces_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Lot_03_compiled.mesh
+object.absoluteposition -234.294/47.8079/-237.132
+
+object.create RR_ParkingSpaces_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Lot_06_compiled.mesh
+object.absoluteposition -236.94/47.8311/-186.82
+
+object.create RR_ParkingSpaces_Single_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Lot_Single_06_compiled.mesh
+object.absoluteposition -163.143/47.9279/-237.442
+
+object.create RR_ParkingSpaces_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Lot_02_compiled.mesh
+object.absoluteposition -233.893/47.8039/-118.776
+
+object.create RR_ParkingSpaces_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Lot_08_compiled.mesh
+object.absoluteposition -233.992/47.8319/-282.766
+
+object.create RR_ParkingSpaces_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Lot_04_compiled.mesh
+object.absoluteposition -234.065/47.8567/-141.257
+
+object.create RR_ParkingSpaces_Single_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Lot_Single_10_compiled.mesh
+object.absoluteposition -193.961/47.9278/-318.96
+
+object.create RR_ParkingSpaces_Single_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Lot_Single_07_compiled.mesh
+object.absoluteposition -162.495/47.9514/-140.615
+
+object.create RR_ParkingSpaces_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Lot_05_compiled.mesh
+object.absoluteposition -236.997/47.8245/-163.865
+
+object.create RR_ParkingSpaces_Single_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Lot_Single_04_compiled.mesh
+object.absoluteposition -165.02/47.9279/-186.921
+
+object.create RR_ParkingSpaces_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Lot_09_compiled.mesh
+object.absoluteposition -234.287/47.7957/-312.674
+
+object.create RR_ParkingSpaces_Single_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Lot_Single_02_compiled.mesh
+object.absoluteposition -155.507/47.928/-85.2164
+
+object.create RR_ParkingSpaces_Single_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Lot_Single_01_compiled.mesh
+object.absoluteposition -258.04/47.9313/-213.436
+
+object.create RR_ParkingSpaces_Single_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Lot_Single_03_compiled.mesh
+object.absoluteposition -235.935/47.9485/-333.462
+
+object.create RR_2Way_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Scrap_Yard_Road_01_compiled.mesh
+object.absoluteposition 75.3047/48.9638/160.77
+
+object.create RR_2Way_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Scrap_Yard_Road_02_compiled.mesh
+object.absoluteposition 71.7908/48.7867/299.533
+
+object.create RR_Merge_3to2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\ScrapYard_Merge_01_compiled.mesh
+object.absoluteposition -24.0553/51.216/282.009
+
+object.create RR_Suburbs_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Suburb_01_compiled.mesh
+object.absoluteposition 204.436/54.0746/-127.122
+
+object.create RR_Small_Highway_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Small_Highway_01b_compiled.mesh
+object.absoluteposition -749.223/48.8152/31.8581
+
+object.create RR_Small_Highway_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Small_Highway_02b_compiled.mesh
+object.absoluteposition 680.163/48.8218/159.272
+
+object.create dirtroad
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\AirField_01_compiled.mesh
+object.absoluteposition 139.347/49.758/772.076
+
+object.create Overpass_merge_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Farm_Merge_03b_compiled.mesh
+object.absoluteposition -57.9354/49.3962/780.899
+
+object.create Overpass_merge_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Farm_Merge_04b_compiled.mesh
+object.absoluteposition 2.8311/49.122/777.11
+
+object.create RR_DoubleLane_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Nuclear_Road_02_compiled.mesh
+object.absoluteposition -37.2053/50.3808/-758.356
+
+object.create Overpass_merge_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\reststop_merge02_compiled.mesh
+object.absoluteposition -53.3172/50.9136/335.641
+
+object.create RR_Suburbs_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Suburb_03_compiled.mesh
+object.absoluteposition 341.317/51.7955/124.089
+
+object.create RR_Merge_3to2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Highway_Mall_Merge_02_compiled.mesh
+object.absoluteposition -37.7895/51.2975/-247.961
+
+object.create RR_6_Lane_Highway
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Highway_Mall_02_compiled.mesh
+object.absoluteposition -30.6062/51.2844/-209.521
+
+object.create Overpass_Mian_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Highway_Reststop_03_compiled.mesh
+object.absoluteposition -33.0066/48.4261/497.428
+
+object.create RR_HighwayMerge01
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Highway_Truckstop_Merge_01_compiled.mesh
+object.absoluteposition -23.5866/51.3353/-248.453
+
+object.create RR_Merge_3to2_Mirror
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Highway_Mall_Merge_03_compiled.mesh
+object.absoluteposition -24.117/50.1475/-488.104
+
+object.create RR_Merge_3to2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Highway_Mall_Merge_04_compiled.mesh
+object.absoluteposition -39.8742/50.3896/-490.269
+
+object.create Overpass_merge_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Motel_OnRamp_compiled.mesh
+object.absoluteposition -46.7021/49.7714/-471.86
+
+object.create Overpass_Mian_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Highway_Reststop_02_compiled.mesh
+object.absoluteposition -31.8095/49.8938/361.705
+
+object.create RR_Merge_3to2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\ScrapYard_Merge_02_compiled.mesh
+object.absoluteposition -25.7873/48.4713/439.442
+
+object.create Overpass_merge_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\ScrapYard_Merge_Road_01_compiled.mesh
+object.absoluteposition -8.29195/48.9067/366.471
+
+object.create RR_HighwayMerge01
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\TruckStop_Merge_01_compiled.mesh
+object.absoluteposition -38.1734/51.1486/283.622
+
+object.create RR_DoubleLane_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Highway_Reststop_Gap_01_compiled.mesh
+object.absoluteposition -37.9972/48.5279/439.008
+
+object.create RR_HighwayMerge01
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\TruckStop_Merge_02_compiled.mesh
+object.absoluteposition -40.196/48.3513/549.096
+
+object.create RR_Merge_3to2_Mirror
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\TruckStop_Merge_03_compiled.mesh
+object.absoluteposition -40.3998/48.3479/561.507
+
+object.create RR_DoubleLane_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\HighwayReststop_Gap_02_compiled.mesh
+object.absoluteposition -28.0005/48.4085/554.641
+
+object.create RR_Merge_3to2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Farm_Merge_01_compiled.mesh
+object.absoluteposition -39.2392/47.6575/650.641
+
+object.create Overpass_Mian_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Highway_Reststop_04_compiled.mesh
+object.absoluteposition -32.6183/48.1994/609.373
+
+object.create RR_Merge_3to2_Mirror
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Farm_Merge_02_compiled.mesh
+object.absoluteposition -24.1726/47.5815/649.669
+
+object.create Overpass_Mian_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Highway_Reststop_05_compiled.mesh
+object.absoluteposition -31.1646/46.4904/742.709
+
+object.create RR_Small_Highway_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Small_Highway_01_compiled.mesh
+object.absoluteposition -370.918/49.4854/32.0229
+
+object.create RR_Merge_3to2_Mirror
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Farm_Merge_03_compiled.mesh
+object.absoluteposition -38.1365/49.6888/837.728
+
+object.create RR_Merge_3to2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Farm_Merge_04_compiled.mesh
+object.absoluteposition -23.7723/49.665/837.148
+
+object.create Overpass_Mian_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Highway_Reststop_06_compiled.mesh
+object.absoluteposition -30.8286/51.5996/925.19
+
+object.create Small_Highway_Merge_RR_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\4to2_Lane_merge_01_compiled.mesh
+object.absoluteposition -275.759/50.8049/32.4455
+
+object.create Small_Highway_Merge_RR_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\4to2_Lane_merge_02_compiled.mesh
+object.absoluteposition 212.74/50.5438/31.436
+
+object.create Small_Highway_Merge_RR_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\4to2_Lane_Merge_03_compiled.mesh
+object.absoluteposition -106.012/51.6506/740.179
+
+object.create RR_Small_Highway_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Small_Highway_03a_compiled.mesh
+object.absoluteposition -83.6719/51.6426/739.996
+
+object.create RR_Small_Highway_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Small_Highway_04a_compiled.mesh
+object.absoluteposition 31.8624/51.7054/739.664
+
+object.create RR_2Way_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Industrial_Road_01b_compiled.mesh
+object.absoluteposition 225.764/50.2449/48.4565
+
+object.create RR_ParkingSpaces_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Lot_01_compiled.mesh
+object.absoluteposition -233.662/47.7389/-96.1654
+
+object.create RR_ParkingSpaces_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Lot_10_compiled.mesh
+object.absoluteposition -239.054/47.9278/-211.712
+
+object.create RR_ParkingSpaces_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Lot_11_compiled.mesh
+object.absoluteposition -159.209/47.9283/-282.985
+
+object.create RR_ParkingSpaces_Single_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Motel_Lot_compiled.mesh
+object.absoluteposition -84.0219/49.6537/-476.315
+
+object.create RR_Suburbs_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Airport_01_compiled.mesh
+object.absoluteposition -74.2186/49.235/-781.431
+
+object.create Overpass_merge_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\truckstop_02_compiled.mesh
+object.absoluteposition -12.1484/49.1565/-459.608
+
+object.create Overpass_merge_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\reststop_merge01_compiled.mesh
+object.absoluteposition -54.7525/49.4271/507.098
+
+object.create RR_ParkingSpaces02_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Truck_parkinglines01_compiled.mesh
+object.absoluteposition 155.293/48.843/-362.299
+
+object.create RR_ParkingSpaces02_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Truck_parkinglines02_compiled.mesh
+object.absoluteposition 110.046/48.7812/-371.223
+
+object.create RR_ParkingSpaces02_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Truck_parkinglines03_compiled.mesh
+object.absoluteposition -200.656/51.0255/403.935
+
+object.create Overpass_merge_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Clover_1_compiled.mesh
+object.absoluteposition -136.89/51.2397/-53.0426
+
+object.create Overpass_Mian_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Clover_Main_1_compiled.mesh
+object.absoluteposition -31.0163/51.2907/-97.6594
+
+object.create Overpass_merge_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Clover_2_compiled.mesh
+object.absoluteposition 70.8278/51.2037/-53.8209
+
+object.create Overpass_Mian_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Clover_Main_2_compiled.mesh
+object.absoluteposition -30.9919/51.2897/174.535
+
+object.create RR_6_Lane_Highway
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Highway_Restop_01_compiled.mesh
+object.absoluteposition -30.9967/51.3129/257.485
+
+object.create Overpass_merge_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Clover_3_compiled.mesh
+object.absoluteposition 70.9876/51.1855/118.901
+
+object.create Overpass_merge_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Clover_4_compiled.mesh
+object.absoluteposition -136.27/51.256/114.493
+
+object.create RR_Small_Highway_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Overpass_2_compiled.mesh
+object.absoluteposition -227.927/51.5976/31.993
+
+object.create RR_Small_Highway_XP2
+object.geometry.loadMesh Levels\OperationRoadRage\Roads\Overpass_1_compiled.mesh
+object.absoluteposition 159.407/51.6232/31.9796
+

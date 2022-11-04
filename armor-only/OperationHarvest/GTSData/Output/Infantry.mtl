@@ -1,0 +1,54 @@
+newmtl deepwater1
+illum 4
+Kd 0.00 0.00 0.94
+Ka 0.00 0.00 0.32
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.30 0.30 0.30
+Ns 0.06
+newmtl deepwater4
+illum 4
+Kd 0.00 0.00 0.94
+Ka 0.00 0.00 0.32
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.30 0.30 0.30
+Ns 0.06
+newmtl ground1
+illum 4
+Kd 0.02 0.59 0.00
+Ka 0.00 0.20 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.30 0.30 0.30
+Ns 0.06
+newmtl ground4
+illum 4
+Kd 0.02 0.59 0.00
+Ka 0.00 0.20 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.30 0.30 0.30
+Ns 0.06
+newmtl initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl water1
+illum 4
+Kd 0.94 0.94 0.14
+Ka 0.32 0.32 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.30 0.30 0.30
+Ns 0.06
+newmtl water4
+illum 4
+Kd 0.94 0.94 0.14
+Ka 0.32 0.32 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.30 0.30 0.30
+Ns 0.06

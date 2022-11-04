@@ -1,0 +1,5904 @@
+if v_arg1 == BF2Editor
+console.allowMultipleFileLoad 0
+run /objects/staticobjects/industry/ind_buildings/gatehouse/gatehouse.con
+run /objects/staticobjects/industry/ind_buildings/lrgfactorybuilding/lrgfactorybuilding.con
+run /objects/staticobjects/industry/ind_objects/pipeline_60m/pipeline_60m.con
+run /objects/staticobjects/industry/ind_objects/pipeline_30m/pipeline_30m.con
+run /objects/staticobjects/industry/ind_objects/pipeline_curve90deg/pipeline_curve90deg.con
+run /objects/staticobjects/industry/ind_objects/wpipe_support/wpipe_support.con
+run /objects/staticobjects/industry/ind_objects/chimney_02/chimney_02.con
+run /objects/staticobjects/industry/ind_objects/chimney_02/chimney_02_ladder.con
+run /objects/staticobjects/industry/ind_objects/pipeline_rig/pipeline_rig.con
+run /objects/staticobjects/industry/ind_buildings/lrgstrgopen01/lrgstrgopen01.con
+run /objects/staticobjects/common/com_objects/ladder_10m_noholders/ladder_10m_noholders.con
+run /objects/staticobjects/industry/ind_buildings/oilscistern_01/oilscistern_01.con
+run /objects/staticobjects/common/com_objects/ladder_30m/ladder_30m.con
+run /objects/staticobjects/common/com_objects/pallet/pallet.con
+run /objects/staticobjects/common/com_objects/boxesonpallet_01/boxesonpallet_01.con
+run /objects/staticobjects/industry/ind_objects/container_cargo_red/container_cargo_red.con
+run /objects/staticobjects/common/com_objects/fences/fence_corrugated_6x12m/fence_corrugated_6x12m.con
+run /objects/staticobjects/_middle-east/city/city_objects/power_station/power_station_pt_3.con
+run /objects/staticobjects/industry/ind_objects/cabledrum_2m/cabledrum_2m.con
+run /objects/staticobjects/common/com_objects/cablepole/cablepole.con
+run /objects/staticobjects/industry/ind_objects/wpipe_bend/wpipe_bend.con
+run /objects/staticobjects/industry/ind_buildings/mine_entrance/mine_entrance.con
+run /objects/staticobjects/common/com_objects/wirefence_l2/wirefence_l2.con
+run /objects/staticobjects/military/objects/air_repairstation/air_repairstation.con
+run /objects/staticobjects/military/objects/air_repairstation/air_repairstation.tweak
+run /objects/staticobjects/military/objects/air_repairstation/air_repairstation.tweak
+run /objects/staticobjects/military/objects/air_repairstation/air_repairstation_cone.con
+run /objects/staticobjects/military/objects/military_container/military_container.con
+run /objects/staticobjects/_asia/village/village_architecture/ch_house_01/ch_house_01.con
+run /objects/staticobjects/common/com_objects/floodlight/floodlight.con
+run /objects/staticobjects/industry/ind_buildings/lrgstrgbuilding_02/lrgstrgbuilding_02.con
+run /objects/staticobjects/industry/ind_buildings/storage_shed/storage_shed.con
+run /objects/staticobjects/military/buildings/mi_barrack_mech/mi_barrack_mech.con
+run /objects/staticobjects/_asia/village/village_architecture/ch_house_modern_02/ch_house_modern_02.con
+run /objects/staticobjects/_asia/village/village_architecture/ch_house_02_v2/ch_house_02_v2.con
+run /objects/staticobjects/_asia/village/village_architecture/ch_house_modern_02_v2/ch_house_modern_02_v2.con
+run /objects/staticobjects/_asia/village/village_objects/ch_wall_high_end/ch_wall_high_end.con
+run /objects/staticobjects/industry/ind_buildings/midfactorybuilding/midfactorybuilding.con
+run /objects/staticobjects/industry/ind_buildings/midfactorybuilding/midfactorybuilding_fence.con
+run /objects/staticobjects/_asia/village/village_architecture/ch_farm_01_v3/ch_farm_01_v3.con
+run /objects/staticobjects/common/com_objects/billboard_highway_02/billboard_highway_02.con
+run /objects/staticobjects/common/com_objects/billboard_highway_01/billboard_highway_01.con
+run /objects/staticobjects/common/com_objects/wirefence_end/wirefence_end.con
+run /objects/staticobjects/common/com_objects/wirefence_6m/wirefence_6m.con
+run /objects/staticobjects/common/com_objects/wirefence_12m/wirefence_12m.con
+run /objects/staticobjects/common/com_objects/wirefence_24m/wirefence_24m.con
+run /objects/vehicles/air/wreck_f15_static/wreck_f15_engine/wreck_f15_engine.con
+run /objects/vehicles/air/wreck_f15_static/wreck_f15_hull/wreck_f15_hull.con
+run /objects/vehicles/air/wreck_f15_static/wreck_f15_tailfin/wreck_f15_tailfin.con
+run /objects/vehicles/air/wreck_f15_static/wreck_f15_wing/wreck_f15_wing.con
+run /objects/vegitation/asia/pine/nc_pinebig01.con
+run /objects/vegitation/asia/pine/nc_pinebig01_lod.con
+run /objects/staticobjects/industry/ind_objects/trail_rail_shift/trail_rail_shift.con
+run /objects/staticobjects/industry/ind_objects/train_rail_bend/train_rail_bend.con
+run /objects/staticobjects/industry/ind_objects/train_rail_48/train_rail_48.con
+run /objects/staticobjects/industry/uniqueobjects/train/train_engine/train_engine.con
+run /objects/staticobjects/industry/uniqueobjects/train/train_cargowag_02/train_cargowag_02.con
+run /objects/staticobjects/industry/uniqueobjects/train/train_cargowag_02/train_cargowag_02_ladder.con
+run /objects/staticobjects/industry/uniqueobjects/train/train_cargowag_01/train_cargowag_01.con
+run /objects/staticobjects/industry/uniqueobjects/train/train_cargowag_01/train_cargowag_01_ladder.con
+run /objects/staticobjects/industry/ind_objects/train_rail_crossing/train_rail_crossing.con
+run /objects/staticobjects/industry/ind_objects/train_rail_24/train_rail_24.con
+run /objects/staticobjects/common/com_objects/fences/fence_corrugated_3x12m_corner_01/fence_corrugated_3x12m_corner_01.con
+run /objects/staticobjects/common/com_objects/fences/fence_corrugated_3x12m_corner_02/fence_corrugated_3x12m_corner_02.con
+run /objects/staticobjects/industry/ind_objects/chimney_01/chimney_01.con
+run /objects/staticobjects/common/com_objects/ladder_chimney_top/ladder_chimney_top.con
+run /objects/staticobjects/common/com_objects/ladder_chimney_long/ladder_chimney_long.con
+run /objects/staticobjects/common/com_objects/ladder_chimney_short/ladder_chimney_short.con
+run /objects/staticobjects/common/destroyableobjects/fence_corrugated_3x12m_broken/fence_corrugated_3x12m_broken.con
+run /objects/staticobjects/common/destroyableobjects/fence_corrugated_3x12m_broken_parts/fence_corrugated_3x12m_broken_parts.con
+run /objects/effects/impacts/destruction/e_destruction_fenceboards.con
+run /objects/staticobjects/common/com_objects/fences/fence_corrugated_3x12m/fence_corrugated_3x12m.con
+run /objects/staticobjects/common/com_objects/fences/fence_corrugated_pole_3m/fence_corrugated_pole_3m.con
+run /objects/staticobjects/industry/ind_buildings/lrgstrgbuilding_03/lrgstrgbuilding_03.con
+run /objects/staticobjects/common/roads/woodsteel_bridge_head/woodsteel_bridge_head.con
+run /objects/staticobjects/common/roads/woodsteel_bridge_segment/woodsteel_bridge_segment.con
+run /objects/effects/damagestates/e_dstate_woodbridge_light.con
+run /objects/effects/damagestates/e_dstate_woodbridge_heavy.con
+run /objects/effects/impacts/destruction/bridges/e_destruction_woodsteel_bridge.con
+run /objects/staticobjects/military/objects/mi_guard_tower_mech/mi_guard_tower_mech.con
+run /objects/staticobjects/common/com_objects/ladder_4m_office/ladder_4m_office.con
+run /objects/staticobjects/military/buildings/mi_vehicle_shelter/mi_vehicle_shelter.con
+run /objects/staticobjects/common/com_objects/wirefence_l/wirefence_l.con
+run /objects/staticobjects/_asia/village/village_objects/ch_wall_high_l/ch_wall_high_l.con
+run /objects/staticobjects/_asia/village/village_objects/ch_wall_high_6m_window/ch_wall_high_6m_window.con
+run /objects/staticobjects/_asia/village/village_objects/ch_wall_high_6m_door/ch_wall_high_6m_door.con
+run /objects/staticobjects/_asia/village/village_architecture/ch_farm_03_v3/ch_farm_03_v3.con
+run /objects/staticobjects/_asia/village/village_objects/ch_wall_high_12m/ch_wall_high_12m.con
+run /objects/staticobjects/_asia/village/village_architecture/ch_farm_02/ch_farm_02.con
+run /objects/staticobjects/_asia/village/village_architecture/ch_farm_01_v2/ch_farm_01_v2.con
+run /objects/staticobjects/_asia/village/village_architecture/ch_farm_01/ch_farm_01.con
+run /objects/staticobjects/_asia/village/village_architecture/ch_house_02/ch_house_02.con
+run /objects/staticobjects/common/com_objects/lrg_stonebridge/lrg_stonebridge.con
+run /objects/effects/impacts/destruction/bridges/e_destruction_stonebridge.con
+run /objects/effects/damagestates/e_dstate_bridge_d1.con
+run /objects/effects/damagestates/e_dstate_bridge_d2.con
+run /objects/staticobjects/common/com_objects/lrg_stonebridge_head/lrg_stonebridge_head.con
+run /objects/staticobjects/_asia/village/village_architecture/ch_house_modern_03/ch_house_modern_03.con
+run /objects/staticobjects/common/com_objects/ladder_7m_rak/ladder_7m_rak.con
+run /objects/staticobjects/_asia/village/village_architecture/ch_house_modern_02_v2/ch_house_modern_02_v2_signs.con
+run /objects/staticobjects/_asia/village/village_objects/ch_wall_low_end/ch_wall_low_end.con
+run /objects/staticobjects/_asia/village/village_objects/ch_wall_low_12m/ch_wall_low_12m.con
+run /objects/staticobjects/_asia/village/village_architecture/ch_farm_03_v2/ch_farm_03_v2.con
+run /objects/staticobjects/_asia/village/village_architecture/ch_farm_03/ch_farm_03.con
+run /objects/staticobjects/_asia/village/village_architecture/ch_farm_03_v4/ch_farm_03_v4.con
+run /objects/staticobjects/_asia/village/village_architecture/ch_house_modern_01_v2/ch_house_modern_01_v2.con
+run /objects/staticobjects/common/com_objects/ladder_5m_rak/ladder_5m_rak.con
+run /objects/vegitation/asia/birch/nc_birch01.con
+run /objects/vegitation/asia/birch/nc_birch01_lod.con
+run /objects/vegitation/asia/oak/nc_oak01.con
+run /objects/vegitation/asia/oak/nc_oak01_lod.con
+run /objects/staticobjects/common/com_objects/bus_stop/bus_stop.con
+run /objects/staticobjects/common/com_objects/brickwall/brickwall.con
+run /objects/staticobjects/common/com_objects/brick_pillar/brick_pillar.con
+run /objects/staticobjects/common/com_objects/lrg_trash_dumpster/lrg_trash_dumpster.con
+run /objects/staticobjects/industry/ind_buildings/office_building/office_building.con
+run /objects/staticobjects/common/com_objects/crates/woodencrate_4m/woodencrate_4m.con
+run /objects/staticobjects/industry/ind_objects/pipestack_01/pipestack_01.con
+run /objects/staticobjects/industry/ind_objects/barracksngl_01/barracksngl_01.con
+run /objects/staticobjects/industry/ind_objects/concretebags_01/concretebags_01.con
+run /objects/staticobjects/common/destroyableobjects/woodencrate_destructible/woodencrate_destructible.con
+run /objects/effects/impacts/destruction/e_destruction_woodencrate1m.con
+run /objects/effects/impacts/destruction/e_woodsplinters_s.con
+run /objects/effects/impacts/destruction/e_crateobjects_teddy.con
+run /objects/staticobjects/military/objects/sandbags/mi_sandbags_end/mi_sandbags_end.con
+run /objects/staticobjects/military/objects/sandbags/mi_sandbags_circle_half/mi_sandbags_circle_half.con
+run /objects/staticobjects/military/objects/mi_antenna/mi_antenna.con
+run /objects/staticobjects/common/com_objects/concretebarrier/concretebarrier.con
+run /objects/staticobjects/industry/ind_objects/convbelt/convbelt.con
+run /objects/staticobjects/military/buildings/mi_hangar_mec/mi_hangar_mec.con
+run /objects/staticobjects/common/com_objects/marketstand_1/marketstand_1.con
+run /objects/staticobjects/industry/ind_objects/oil_pump_static_01/oil_pump_static_01.con
+run /objects/staticobjects/industry/ind_objects/oil_pump_static_02/oil_pump_static_02.con
+run /objects/staticobjects/common/com_objects/wirefence_48m/wirefence_48m.con
+run /objects/staticobjects/common/com_objects/wirefence_24m_hole/wirefence_24m_hole.con
+run /objects/staticobjects/common/com_objects/fences/fence_corrugated_3x24m/fence_corrugated_3x24m.con
+run /objects/staticobjects/common/com_objects/fences/fence_corrugated_3x72m/fence_corrugated_3x72m.con
+run /objects/staticobjects/common/com_objects/billboard_highway_03/billboard_highway_03.con
+run /objects/staticobjects/common/com_objects/parkbench1/parkbench1.con
+run /objects/staticobjects/common/com_objects/parkbench/parkbench.con
+run /objects/staticobjects/common/destroyableobjects/woodencrate_destructible_medical/woodencrate_destructible_medical.con
+run /objects/effects/impacts/destruction/e_crateobjects_medical.con
+run /objects/common/oil_pump/oil_pump_foundation.con
+run /objects/common/oil_pump/oil_pump_anim.con
+run /objects/common/oil_pump/oil_pump_foundation.tweak
+run /objects/staticobjects/common/destroyableobjects/fishingbox/fishingbox.con
+run /objects/effects/impacts/destruction/e_destruction_fishingbox.con
+run /objects/staticobjects/industry/destroyableobjects/train_rail_bar_dest/train_rail_bar_des.con
+run /objects/effects/impacts/destruction/e_destruction_trainbar.con
+run /objects/staticobjects/common/com_objects/ch_phone_booth/ch_phone_booth.con
+run /objects/staticobjects/common/destroyableobjects/chair01_dest/chair01_dest.con
+run /objects/effects/impacts/destruction/e_destruction_chair01.con
+run /objects/staticobjects/common/destroyableobjects/cart_dest/cart_dest.con
+run /objects/effects/impacts/destruction/e_destruction_cart_dest.con
+run /objects/staticobjects/common/destroyableobjects/sign_yieldright_dest/sign_yieldright_dest.con
+run /objects/effects/impacts/destruction/traffic_signs/e_destruction_sign_yieldright.con
+run /objects/staticobjects/common/destroyableobjects/trestle01_dest/trestle01_dest.con
+run /objects/effects/impacts/destruction/e_destruction_trestle01.con
+run /objects/staticobjects/common/destroyableobjects/roadmarker_dest/roadmarker_dest.con
+run /objects/effects/impacts/destruction/traffic_signs/e_destruction_roadmarker.con
+run /objects/staticobjects/common/roads/traffic_oversign_post/traffic_oversign_post.con
+run /objects/staticobjects/common/roads/traffic_oversign_02/traffic_oversign_02.con
+run /objects/staticobjects/common/com_objects/crates/woodencrate_group4/woodencrate_group4.con
+run /objects/staticobjects/common/com_objects/crates/woodencrate_group2/woodencrate_group2.con
+run /objects/staticobjects/common/com_objects/crates/woodencrate_group1/woodencrate_group1.con
+run /objects/staticobjects/common/com_objects/crates/woodencrate_group3/woodencrate_group3.con
+run /objects/staticobjects/common/com_objects/rock10m/rock10m.con
+run /objects/staticobjects/common/com_objects/rock20m/rock20m.con
+run /objects/staticobjects/common/com_objects/rock2m/rock2m.con
+run /objects/staticobjects/common/com_objects/rock5m/rock5m.con
+run /objects/staticobjects/common/com_objects/rockpile_small/rockpile_small.con
+run /objects/staticobjects/common/com_objects/rockpile_medium_02/rockpile_medium_02.con
+run /objects/staticobjects/common/com_objects/rockpile_medium/rockpile_medium.con
+run /objects/staticobjects/industry/ind_objects/pipeline_curvedown_combi/pipeline_curvedown_combi.con
+run /objects/staticobjects/industry/ind_objects/pipeline_60m_combi/pipeline_60m_combi.con
+run /objects/staticobjects/common/com_objects/cables/cable60m/cable60m.con
+run /objects/staticobjects/common/com_objects/cables/cable30m/cable30m.con
+run /objects/staticobjects/common/com_objects/cables/cable12m/cable12m.con
+run /objects/staticobjects/common/com_objects/flower_pot/flower_pot.con
+run /objects/staticobjects/_asia/village/village_architecture/ch_house_01/ch_house_01_signs.con
+run /objects/staticobjects/common/destroyableobjects/cafechair_dest/cafechair_dest.con
+run /objects/effects/impacts/destruction/e_destruction_cafechair.con
+run /objects/staticobjects/common/destroyableobjects/cone_dest/cone_dest.con
+run /objects/effects/impacts/destruction/e_destruction_cone.con
+run /objects/staticobjects/common/destroyableobjects/sign_streetcrossing_dest/sign_streetcrossing_dest.con
+run /objects/effects/impacts/destruction/traffic_signs/e_destruction_sign_streetcrossing.con
+run /objects/staticobjects/industry/ind_objects/plankstack_big_01/plankstack_big_01.con
+run /objects/staticobjects/common/com_objects/crates/woodencrate_1m/woodencrate_1m.con
+run /objects/staticobjects/industry/ind_objects/fueltank_01/fueltank_01.con
+run /objects/staticobjects/_asia/village/village_objects/ch_stnwalls_10m_up/ch_stnwalls_10m_up.con
+run /objects/staticobjects/_asia/village/village_objects/ch_stnwalls_corner_10m_up/ch_stnwalls_corner_10m_up.con
+run /objects/staticobjects/_asia/village/village_objects/ch_stnwalls_invert_corner_10m_up/ch_stnwalls_invert_corner_10m_up.con
+run /objects/staticobjects/_asia/village/village_architecture/ch_gas_station/ch_gas_station.con
+run /objects/staticobjects/common/com_objects/ladder_10m/ladder_10m.con
+run /objects/vehicles/civilian/civiliancar2wreck/civiliancar2wreck.con
+run /objects/staticobjects/_asia/village/village_objects/ch_wall_high_l_12m/ch_wall_high_l_12m.con
+run /objects/staticobjects/_asia/village/village_objects/ch_wall_high_l_6m/ch_wall_high_l_6m.con
+run /objects/staticobjects/common/com_objects/cables/cable40m/cable40m.con
+run /objects/staticobjects/_asia/village/village_objects/ch_stnwalls_10m_stairs/ch_stnwalls_10m_stairs.con
+run /objects/staticobjects/common/com_objects/fences/fence_corrugated_3x48m/fence_corrugated_3x48m.con
+run /objects/staticobjects/_asia/village/village_architecture/ch_house_modern_01_v2/ch_house_modern_01_v2_signs.con
+run /objects/staticobjects/industry/ind_objects/barracksngl_02/barracksngl_02.con
+run /objects/staticobjects/industry/ind_objects/barrackdbl_03/barrackdbl_03.con
+run /objects/staticobjects/industry/ind_objects/barrackdbl_02/barrackdbl_02.con
+run /objects/staticobjects/industry/ind_objects/barrackdbl_01/barrackdbl_01.con
+run /objects/staticobjects/common/com_objects/fences/fence_corrugated_6x12m_corner_01/fence_corrugated_6x12m_corner_01.con
+run /objects/staticobjects/common/com_objects/fences/fence_corrugated_pole_6m/fence_corrugated_pole_6m.con
+run /objects/staticobjects/_asia/village/village_architecture/ch_boathouse_01/ch_boathouse_01.con
+run /objects/staticobjects/_asia/village/village_architecture/ch_gas_pumps/ch_gas_pumps.con
+run /objects/staticobjects/_asia/village/village_objects/ch_wall_high_6m_win_hole/ch_wall_high_6m_win_hole.con
+run /objects/staticobjects/_asia/village/village_objects/ch_wall_high_end_12m/ch_wall_high_end_12m.con
+run /objects/staticobjects/_asia/village/village_architecture/ch_house_05_v3/ch_house_05_v3.con
+run /objects/staticobjects/_asia/village/village_architecture/ch_house_05/ch_house_05.con
+run /objects/roads/staticsnoblend/concreteblock_helipad/concreteblock_helipad.con
+run /objects/roads/staticsnoblend/concreteblock_helipad/concreteblock_helipad.tweak
+run /objects/staticobjects/military/buildings/mi_sandbags_shelter_mirror/mi_sandbags_shelter_mirror.con
+run /objects/staticobjects/military/buildings/mi_hangar_us_v2/mi_hangar_us_v2.con
+run /objects/vehicles/civilian/truck1wreck/truck1wreck.con
+run /objects/staticobjects/ambienteffects/static/ambstat_onlysmoke.con
+run /objects/effects/ambient/staticfx/e_samb_onlysmoke.con
+run /objects/staticobjects/military/objects/sandbags/mi_sandbags_corner_4m/mi_sandbags_corner_4m.con
+run /objects/staticobjects/common/com_objects/lamppost_highway_01/lamppost_highway_01.con
+run /objects/staticobjects/industry/ind_objects/ind_powerstation/ind_powerstation_01.con
+run /objects/staticobjects/industry/ind_objects/ind_powerstation/ind_powerstation_02.con
+run /objects/vegitation/asia/mediumbush/nc_medbush01.con
+run /objects/vegitation/asia/mediumbush/nc_medbush01_lod.con
+run /objects/vegitation/asia/leafybush/nc_leafybush01.con
+run /objects/vegitation/asia/leafybush/nc_leafybush01_lod.con
+run /objects/staticobjects/common/com_objects/container_open/container_op_blue/container_op_blue.con
+run /objects/roads/statics/daqing_t_intersection/daqing_t_intersection.con
+run /objects/staticobjects/industry/ind_buildings/powerstation/chpowerstation.con
+run /objects/staticobjects/_asia/village/village_architecture/pagoda_02/pagoda_02.con
+run /objects/staticobjects/_asia/village/village_architecture/pagoda_04/pagoda_04.con
+run /objects/staticobjects/common/com_objects/brickwall_20m/brickwall_20m.con
+run /objects/staticobjects/common/com_objects/brickwall_40m/brickwall_40m.con
+run /objects/staticobjects/common/com_objects/brickwall_broken_30m/brickwall_broken_30m.con
+run /objects/staticobjects/common/com_objects/construct_metal_plate_ramp/construct_metal_plate_ramp.con
+run /objects/roads/staticsnoblend/concreteblock_generic/concreteblock_generic.con
+run /objects/staticobjects/_asia/village/village_objects/ch_stnwalls_30m_up/ch_stnwalls_30m_up.con
+run /objects/staticobjects/military/objects/sandbags/mi_sandbags_quad/mi_sandbags_quad.con
+run /objects/staticobjects/_asia/village/village_objects/ch_wall_low_24m/ch_wall_low_24m.con
+run /objects/staticobjects/common/com_objects/container_open/container_op_red_cluster/container_op_red_cluster.con
+run /objects/staticobjects/_asia/village/village_objects/ch_wall_high_48m/ch_wall_high_48m.con
+run /objects/staticobjects/common/com_objects/container_open/container_cl_blue_trash/container_cl_blue_trash.con
+run /objects/staticobjects/common/com_objects/palletstack/palletstack.con
+run /objects/staticobjects/_asia/village/temple/temple_01.con
+run /objects/staticobjects/common/com_objects/concretebarrier/concretebarrier_3.con
+run /objects/staticobjects/_asia/village/village_objects/ch_gasstation_cistern/ch_gasstation_cistern.con
+run /objects/staticobjects/_asia/village/village_objects/ch_gasstation_cistern/ch_gasstation_cistern_ladder.con
+run /objects/staticobjects/common/com_objects/ladder_10m_rak/ladder_10m_rak.con
+run /objects/roads/staticsnoblend/concreteblock_airstrip_long_endstr/concreteblock_airstrip_long_endstr.con
+run /objects/roads/staticsnoblend/concreteblock_airstrip_long_endstr/concreteblock_airstrip_long_endstr.tweak
+run /objects/roads/staticsnoblend/concreteblock_airstrip_long_endstr/concreteblock_airstrip_long_endstr.tweak
+run /objects/roads/staticsnoblend/concreteblock_airstrip_long_endstr/concreteblock_airstrip_long_endstr.tweak
+run /objects/roads/staticsnoblend/concreteblock_airstrip_long_endstr/concreteblock_airstrip_long_endstr.tweak
+run /objects/weapons/stationary/ats_tow/ats_tow.con
+run /objects/vehicles/land/tnk_type98/tnk_type98.con
+run /objects/vehicles/land/ustnk_m1a2/ustnk_m1a2.con
+run /objects/vehicles/land/jep_paratrooper/jep_paratrooper.con
+run /objects/vehicles/land/jeep_faav/jeep_faav.con
+run /objects/vehicles/land/jep_nanjing/jep_nanjing.con
+run /objects/vehicles/land/usjep_hmmwv/usjep_hmmwv.con
+run /objects/weapons/stationary/ats_hj8/ats_hj8.con
+run /objects/weapons/stationary/ars_d30/ars_d30.con
+run /objects/vehicles/air/chthe_z8/chthe_z8.con
+run /objects/vehicles/air/usthe_uh60/usthe_uh60.con
+run /objects/weapons/stationary/usart_lw155/usart_lw155.con
+run /objects/weapons/stationary/igla_djigit/igla_djigit.con
+run /objects/weapons/stationary/usaas_stinger/usaas_stinger.con
+run /objects/vehicles/air/ahe_z10/ahe_z10.con
+run /objects/vehicles/air/ahe_ah1z/ahe_ah1z.con
+run /objects/vehicles/land/jep_nanjing/jep_nanjing.con
+run /objects/weapons/stationary/ats_hj8/ats_hj8.con
+run /objects/weapons/stationary/ats_tow/ats_tow.con
+run /objects/vehicles/air/air_su30mkk/air_su30mkk.con
+run /objects/vehicles/air/usair_f15/usair_f15.con
+run /objects/weapons/stationary/usart_lw155/usart_lw155.con
+run /objects/vehicles/air/ahe_ah1z/ahe_ah1z.con
+run /objects/vehicles/air/ahe_z10/ahe_z10.con
+run /objects/weapons/stationary/ch_bipod/ch_bipod.con
+run /objects/weapons/stationary/us_bipod/us_bipod.con
+run /objects/staticobjects/military/buildings/aircontroltower/aircontroltower.con
+run /objects/staticobjects/military/buildings/mobileradar_us_dest/mobileradar_us_dest.con
+run /objects/staticobjects/military/buildings/aircontroltower_chi/aircontroltower_chi.con
+run /objects/staticobjects/military/buildings/mobileradar_ch_dest/mobileradar_ch_dest.con
+run /objects/vehicles/air/air_j10/air_j10.con
+run /objects/vehicles/air/usair_f18/usair_f18.con
+run /objects/vehicles/land/aav_type95/aav_type95.con
+run /objects/vehicles/land/usaav_m6/usaav_m6.con
+run /objects/vehicles/land/aav_type95/aav_type95.con
+run /objects/vegitation/asia/fern/nc_fern01.con
+run /objects/vegitation/asia/fern/nc_fern01_lod.con
+run /objects/vegitation/asia/pine/nc_pine_cluster01.con
+run /objects/vegitation/asia/pine/nc_pine_cluster01_lod.con
+run /objects/vegitation/asia/pine/nc_pine_cluster02.con
+run /objects/vegitation/asia/pine/nc_pine_cluster02_lod.con
+run /objects/vegitation/asia/slybush/nc_slybush01.con
+run /objects/vegitation/asia/slybush/nc_slybush01_lod.con
+run /objects/vegitation/asia/stump/nc_stump01.con
+run /objects/vegitation/asia/stump/nc_stump01_lod.con
+run /objects/vegitation/asia/stump/nc_stump02.con
+run /objects/vegitation/asia/stump/nc_stump02_lod.con
+run /objects/vegitation/asia/stump/nc_stump03.con
+run /objects/vegitation/asia/stump/nc_stump03_lod.con
+console.allowMultipleFileLoad 1
+endIf
+
+rem *** gatehouse ***
+Object.create gatehouse
+Object.absolutePosition -19.985/146.183/-170.854
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** lrgfactorybuilding ***
+Object.create lrgfactorybuilding
+Object.absolutePosition 6.000/167.543/-220.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipeline_60m ***
+Object.create pipeline_60m
+Object.absolutePosition 547.361/145.040/92.349
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+
+rem *** pipeline_60m ***
+Object.create pipeline_60m
+Object.absolutePosition 540.238/147.776/35.689
+Object.rotation 90.0/0.0/5.0
+Object.layer 1
+
+rem *** pipeline_30m ***
+Object.create pipeline_30m
+Object.absolutePosition 581.537/144.996/169.359
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+
+rem *** pipeline_30m ***
+Object.create pipeline_30m
+Object.absolutePosition 547.352/145.032/137.386
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+
+rem *** pipeline_curve90deg ***
+Object.create pipeline_curve90deg
+Object.absolutePosition 556.134/145.049/161.299
+Object.rotation 180.0/0.0/180.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipeline_curve90deg ***
+Object.create pipeline_curve90deg
+Object.absolutePosition 533.134/156.385/-124.374
+Object.rotation -95.0/0.0/-5.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipeline_curve90deg ***
+Object.create pipeline_curve90deg
+Object.absolutePosition 540.290/156.385/-128.142
+Object.rotation -95.0/0.0/-5.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** wpipe_support ***
+Object.create wpipe_support
+Object.absolutePosition -9.380/144.511/-268.009
+Object.layer 1
+Object.setLightSourceMask 4
+
+rem *** chimney_02 ***
+Object.create chimney_02
+Object.absolutePosition -16.000/195.306/-275.000
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipeline_rig ***
+Object.create pipeline_rig
+Object.absolutePosition 593.555/141.397/169.398
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+
+rem *** pipeline_rig ***
+Object.create pipeline_rig
+Object.absolutePosition 534.681/153.604/-130.075
+Object.rotation 51.3/0.0/0.0
+Object.layer 1
+
+rem *** pipeline_rig ***
+Object.create pipeline_rig
+Object.absolutePosition 540.177/146.773/7.110
+Object.layer 1
+
+rem *** pipeline_rig ***
+Object.create pipeline_rig
+Object.absolutePosition 547.304/141.594/67.626
+Object.layer 1
+
+rem *** pipeline_rig ***
+Object.create pipeline_rig
+Object.absolutePosition 547.304/141.397/147.498
+Object.layer 1
+
+rem *** pipeline_rig ***
+Object.create pipeline_rig
+Object.absolutePosition 565.279/141.397/169.398
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+
+rem *** pipeline_rig ***
+Object.create pipeline_rig
+Object.absolutePosition 542.363/153.588/-133.561
+Object.rotation 40.0/0.0/0.0
+Object.layer 1
+
+rem *** pipeline_rig ***
+Object.create pipeline_rig
+Object.absolutePosition 540.177/139.523/126.977
+Object.layer 1
+
+rem *** chimney_02 ***
+Object.create chimney_02
+Object.absolutePosition -82.000/195.374/-259.000
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** lrgstrgopen01 ***
+Object.create lrgstrgopen01
+Object.absolutePosition -79.049/152.152/-54.815
+Object.rotation -101.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** oilscistern_01 ***
+Object.create oilscistern_01
+Object.absolutePosition 145.150/159.438/-55.742
+Object.rotation 32.2/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pallet ***
+Object.create pallet
+Object.absolutePosition -10.065/144.625/-208.471
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pallet ***
+Object.create pallet
+Object.absolutePosition -10.065/144.906/-208.471
+Object.rotation -11.2/0.0/0.0
+Object.layer 1
+
+rem *** pallet ***
+Object.create pallet
+Object.absolutePosition -10.065/145.186/-208.471
+Object.rotation 19.9/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** boxesonpallet_01 ***
+Object.create boxesonpallet_01
+Object.absolutePosition -56.995/145.735/-257.022
+Object.rotation -13.1/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** container_cargo_red ***
+Object.create container_cargo_red
+Object.absolutePosition -161.000/145.793/-191.032
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** container_cargo_red ***
+Object.create container_cargo_red
+Object.absolutePosition -70.482/145.791/-66.561
+Object.rotation 80.1/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 4
+
+rem *** container_cargo_red ***
+Object.create container_cargo_red
+Object.absolutePosition -211.948/156.695/29.052
+Object.rotation 175.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** container_cargo_red ***
+Object.create container_cargo_red
+Object.absolutePosition -310.080/145.297/-89.554
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_6x12m ***
+Object.create fence_corrugated_6x12m
+Object.absolutePosition 317.983/140.363/170.016
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_6x12m ***
+Object.create fence_corrugated_6x12m
+Object.absolutePosition 342.016/140.363/182.017
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** power_station_pt_3 ***
+Object.create power_station_pt_3
+Object.absolutePosition -244.000/175.797/327.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** cabledrum_2m ***
+Object.create cabledrum_2m
+Object.absolutePosition -219.535/156.371/57.107
+Object.rotation 0.0/90.0/117.5
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** cabledrum_2m ***
+Object.create cabledrum_2m
+Object.absolutePosition -223.000/156.086/58.000
+Object.rotation 45.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** cablepole ***
+Object.create cablepole
+Object.absolutePosition 294.188/139.830/-443.418
+Object.rotation -31.9/0.0/0.0
+Object.layer 1
+
+rem *** cablepole ***
+Object.create cablepole
+Object.absolutePosition 92.921/156.549/227.635
+Object.rotation 15.9/0.0/0.0
+Object.layer 1
+
+rem *** cablepole ***
+Object.create cablepole
+Object.absolutePosition 22.599/147.448/66.262
+Object.rotation -133.9/0.0/0.0
+Object.layer 1
+
+rem *** cablepole ***
+Object.create cablepole
+Object.absolutePosition -21.518/147.046/25.155
+Object.rotation -127.8/0.0/0.0
+Object.layer 1
+
+rem *** cablepole ***
+Object.create cablepole
+Object.absolutePosition -40.496/147.900/2.145
+Object.rotation -148.1/0.0/0.0
+Object.layer 1
+
+rem *** cablepole ***
+Object.create cablepole
+Object.absolutePosition -49.116/148.604/-26.336
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+
+rem *** cablepole ***
+Object.create cablepole
+Object.absolutePosition -41.075/149.067/-85.968
+Object.rotation 172.5/0.0/0.0
+Object.layer 1
+
+rem *** wpipe_bend ***
+Object.create wpipe_bend
+Object.absolutePosition -10.111/144.883/-268.040
+Object.layer 1
+Object.setLightSourceMask 4
+
+rem *** pipeline_60m ***
+Object.create pipeline_60m
+Object.absolutePosition -803.405/148.770/-706.112
+Object.rotation 45.0/0.0/0.0
+Object.layer 1
+
+rem *** mine_entrance ***
+Object.create mine_entrance
+Object.absolutePosition -432.852/206.694/582.656
+Object.rotation 170.2/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** mine_entrance ***
+Object.create mine_entrance
+Object.absolutePosition 16.747/149.416/321.446
+Object.rotation -168.1/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** wirefence_l2 ***
+Object.create wirefence_l2
+Object.absolutePosition -231.165/175.048/282.758
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+
+rem *** air_repairstation ***
+Object.create air_repairstation
+Object.absolutePosition -153.140/160.340/540.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** military_container ***
+Object.create military_container
+Object.absolutePosition -259.000/175.098/342.000
+Object.rotation 17.8/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_house_01 ***
+Object.create ch_house_01
+Object.absolutePosition 170.183/160.408/245.747
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** floodlight ***
+Object.create floodlight
+Object.absolutePosition -267.854/179.321/408.569
+Object.rotation 102.8/0.0/0.0
+Object.layer 1
+
+rem *** lrgstrgbuilding_02 ***
+Object.create lrgstrgbuilding_02
+Object.absolutePosition -218.649/178.559/368.290
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** storage_shed ***
+Object.create storage_shed
+Object.absolutePosition 272.119/143.419/-104.102
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** mi_barrack_mech ***
+Object.create mi_barrack_mech
+Object.absolutePosition -260.669/176.013/377.048
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_house_modern_02 ***
+Object.create ch_house_modern_02
+Object.absolutePosition 235.970/140.882/-449.414
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_house_02_v2 ***
+Object.create ch_house_02_v2
+Object.absolutePosition 110.762/156.822/212.797
+Object.rotation 138.2/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_house_modern_02 ***
+Object.create ch_house_modern_02
+Object.absolutePosition 322.328/140.882/-439.383
+Object.rotation -46.8/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_house_modern_02_v2 ***
+Object.create ch_house_modern_02_v2
+Object.absolutePosition 236.285/140.456/-471.331
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_high_end ***
+Object.create ch_wall_high_end
+Object.absolutePosition 249.366/136.494/-415.000
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** midfactorybuilding ***
+Object.create midfactorybuilding
+Object.absolutePosition 70.313/154.840/-41.772
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+if v_arg1 == BF2Editor
+rem *** DefaultEnvMap ***
+Object.create DefaultEnvMap
+Object.absolutePosition 144.894/164.533/-408.100
+Object.layer 1
+endIf
+
+rem *** ch_farm_01_v3 ***
+Object.create ch_farm_01_v3
+Object.absolutePosition 256.129/136.243/-505.119
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** oilscistern_01 ***
+Object.create oilscistern_01
+Object.absolutePosition 0.872/159.438/-111.032
+Object.rotation 135.5/0.0/0.0
+Object.layer 1
+Object.disableChildren 1
+Object.setLightSourceMask 6
+
+rem *** oilscistern_01 ***
+Object.create oilscistern_01
+Object.absolutePosition -9.725/159.438/-25.292
+Object.rotation 126.6/0.0/0.0
+Object.layer 1
+Object.disableChildren 1
+Object.setLightSourceMask 6
+
+rem *** billboard_highway_02 ***
+Object.create billboard_highway_02
+Object.absolutePosition 256.000/143.798/-130.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** billboard_highway_01 ***
+Object.create billboard_highway_01
+Object.absolutePosition -196.678/148.418/-139.310
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** wirefence_l2 ***
+Object.create wirefence_l2
+Object.absolutePosition -265.165/156.645/2.758
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_end ***
+Object.create wirefence_end
+Object.absolutePosition -172.000/156.691/0.016
+Object.layer 1
+
+rem *** wirefence_6m ***
+Object.create wirefence_6m
+Object.absolutePosition -154.000/156.593/51.077
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_l2 ***
+Object.create wirefence_l2
+Object.absolutePosition -156.835/156.623/57.242
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_12m ***
+Object.create wirefence_12m
+Object.absolutePosition -154.000/156.593/42.000
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_24m ***
+Object.create wirefence_24m
+Object.absolutePosition -249.923/156.645/0.000
+Object.layer 1
+
+rem *** wirefence_24m ***
+Object.create wirefence_24m
+Object.absolutePosition -154.000/156.645/24.000
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_12m ***
+Object.create wirefence_12m
+Object.absolutePosition -166.000/156.645/0.000
+Object.layer 1
+
+rem *** wirefence_l2 ***
+Object.create wirefence_l2
+Object.absolutePosition -156.758/156.645/2.835
+Object.layer 1
+
+rem *** wirefence_end ***
+Object.create wirefence_end
+Object.absolutePosition -202.000/156.645/-14.000
+Object.layer 1
+
+rem *** wreck_f15_engine ***
+Object.create wreck_f15_engine
+Object.absolutePosition 215.056/158.269/209.851
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** wreck_f15_hull ***
+Object.create wreck_f15_hull
+Object.absolutePosition 203.517/155.763/231.679
+Object.rotation -22.0/5.3/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** wreck_f15_tailfin ***
+Object.create wreck_f15_tailfin
+Object.absolutePosition 208.924/158.205/204.221
+Object.rotation 0.0/0.0/83.9
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** wreck_f15_wing ***
+Object.create wreck_f15_wing
+Object.absolutePosition 204.195/158.826/214.909
+Object.rotation -24.8/16.3/-99.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** wreck_f15_wing ***
+Object.create wreck_f15_wing
+Object.absolutePosition 220.263/158.074/214.909
+Object.rotation 0.0/0.0/-13.9
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** nc_pinebig01 ***
+Object.create nc_pinebig01
+Object.absolutePosition 135.547/161.186/13.946
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_pinebig01 ***
+Object.create nc_pinebig01
+Object.absolutePosition 215.829/162.927/220.863
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_pinebig01 ***
+Object.create nc_pinebig01
+Object.absolutePosition 201.415/155.815/236.637
+Object.rotation 20.3/51.1/45.3
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_pinebig01 ***
+Object.create nc_pinebig01
+Object.absolutePosition 202.023/160.594/223.393
+Object.rotation 64.9/-11.2/18.9
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_pinebig01 ***
+Object.create nc_pinebig01
+Object.absolutePosition 222.145/161.406/203.855
+Object.rotation -3.8/11.4/-18.3
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_pinebig01 ***
+Object.create nc_pinebig01
+Object.absolutePosition 208.013/161.790/211.276
+Object.rotation 0.0/14.0/23.4
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** trail_rail_shift ***
+Object.create trail_rail_shift
+Object.absolutePosition -94.183/144.751/-4.664
+Object.rotation -11.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** train_rail_bend ***
+Object.create train_rail_bend
+Object.absolutePosition 3.805/144.838/265.067
+Object.rotation 30.3/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** train_rail_bend ***
+Object.create train_rail_bend
+Object.absolutePosition -79.770/144.833/42.484
+Object.rotation 29.5/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** train_rail_48 ***
+Object.create train_rail_48
+Object.absolutePosition -71.587/144.835/77.162
+Object.rotation 10.3/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** train_rail_48 ***
+Object.create train_rail_48
+Object.absolutePosition 12.186/144.838/299.710
+Object.rotation 10.4/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** train_rail_48 ***
+Object.create train_rail_48
+Object.absolutePosition -62.690/144.838/124.306
+Object.rotation 11.1/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** train_rail_48 ***
+Object.create train_rail_48
+Object.absolutePosition -37.121/144.841/191.212
+Object.rotation 30.3/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** train_rail_bend ***
+Object.create train_rail_bend
+Object.absolutePosition -53.926/144.841/158.854
+Object.rotation -149.2/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** train_rail_48 ***
+Object.create train_rail_48
+Object.absolutePosition -12.906/144.841/232.651
+Object.rotation 30.3/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** train_engine ***
+Object.create train_engine
+Object.absolutePosition -73.901/147.336/64.401
+Object.rotation 10.3/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** train_cargowag_02 ***
+Object.create train_cargowag_02
+Object.absolutePosition -72.074/147.413/74.472
+Object.rotation 10.3/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** train_cargowag_01 ***
+Object.create train_cargowag_01
+Object.absolutePosition -68.899/147.416/91.940
+Object.rotation 10.3/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** train_rail_48 ***
+Object.create train_rail_48
+Object.absolutePosition -408.073/200.176/518.411
+Object.rotation 149.0/5.3/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** train_rail_bend ***
+Object.create train_rail_bend
+Object.absolutePosition -77.911/144.751/-98.859
+Object.rotation 9.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** train_rail_crossing ***
+Object.create train_rail_crossing
+Object.absolutePosition -83.582/144.751/-146.982
+Object.rotation -171.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** train_rail_bend ***
+Object.create train_rail_bend
+Object.absolutePosition -89.255/144.751/-169.963
+Object.rotation 29.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** train_rail_bend ***
+Object.create train_rail_bend
+Object.absolutePosition -88.652/144.792/18.959
+Object.rotation -150.5/0.2/-0.1
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** train_rail_48 ***
+Object.create train_rail_48
+Object.absolutePosition -87.305/144.751/-39.989
+Object.rotation 169.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** train_rail_24 ***
+Object.create train_rail_24
+Object.absolutePosition -80.437/144.751/-75.324
+Object.rotation 169.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 4
+
+rem *** train_rail_bend ***
+Object.create train_rail_bend
+Object.absolutePosition -424.613/202.392/549.840
+Object.rotation 169.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** train_rail_bend ***
+Object.create train_rail_bend
+Object.absolutePosition -119.102/144.751/-206.648
+Object.rotation 68.9/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** train_rail_24 ***
+Object.create train_rail_24
+Object.absolutePosition -189.271/144.751/-209.609
+Object.rotation -71.2/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m_corner_01 ***
+Object.create fence_corrugated_3x12m_corner_01
+Object.absolutePosition -44.168/145.898/-172.919
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m_corner_02 ***
+Object.create fence_corrugated_3x12m_corner_02
+Object.absolutePosition -44.000/145.898/-173.000
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** chimney_01 ***
+Object.create chimney_01
+Object.absolutePosition -55.554/179.601/-184.866
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** chimney_02 ***
+Object.create chimney_02
+Object.absolutePosition -46.806/195.338/-303.500
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m_corner_01 ***
+Object.create fence_corrugated_3x12m_corner_01
+Object.absolutePosition -62.081/145.898/-167.168
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m_broken ***
+Object.create fence_corrugated_3x12m_broken
+Object.absolutePosition -67.832/145.898/-179.009
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m_broken_parts ***
+Object.create fence_corrugated_3x12m_broken_parts
+Object.absolutePosition -67.957/145.729/-183.820
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m_corner_01 ***
+Object.create fence_corrugated_3x12m_corner_01
+Object.absolutePosition -98.081/145.898/-215.168
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m ***
+Object.create fence_corrugated_3x12m
+Object.absolutePosition -103.832/145.898/-227.009
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m ***
+Object.create fence_corrugated_3x12m
+Object.absolutePosition -67.832/145.898/-311.009
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m_corner_02 ***
+Object.create fence_corrugated_3x12m_corner_02
+Object.absolutePosition -74.000/145.837/-215.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_pole_3m ***
+Object.create fence_corrugated_pole_3m
+Object.absolutePosition -68.000/145.912/-320.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m_corner_01 ***
+Object.create fence_corrugated_3x12m_corner_01
+Object.absolutePosition -103.832/145.906/-293.081
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m_corner_01 ***
+Object.create fence_corrugated_3x12m_corner_01
+Object.absolutePosition -67.832/145.898/-320.081
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m_corner_02 ***
+Object.create fence_corrugated_3x12m_corner_02
+Object.absolutePosition -68.000/145.898/-305.000
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m ***
+Object.create fence_corrugated_3x12m
+Object.absolutePosition -31.991/145.837/-325.832
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m_corner_01 ***
+Object.create fence_corrugated_3x12m_corner_01
+Object.absolutePosition -25.919/145.837/-325.832
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m_corner_01 ***
+Object.create fence_corrugated_3x12m_corner_01
+Object.absolutePosition 58.081/145.837/-301.832
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m_corner_02 ***
+Object.create fence_corrugated_3x12m_corner_02
+Object.absolutePosition -14.000/145.837/-302.000
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m_broken ***
+Object.create fence_corrugated_3x12m_broken
+Object.absolutePosition -103.832/145.898/-239.009
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m_broken_parts ***
+Object.create fence_corrugated_3x12m_broken_parts
+Object.absolutePosition -104.032/145.640/-243.838
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m ***
+Object.create fence_corrugated_3x12m
+Object.absolutePosition -56.009/145.898/-167.168
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_pole_3m ***
+Object.create fence_corrugated_pole_3m
+Object.absolutePosition -14.000/145.912/-179.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_pole_3m ***
+Object.create fence_corrugated_pole_3m
+Object.absolutePosition 64.000/145.836/-256.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** train_rail_bend ***
+Object.create train_rail_bend
+Object.absolutePosition -100.953/144.751/-190.928
+Object.rotation 48.9/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** train_rail_24 ***
+Object.create train_rail_24
+Object.absolutePosition -431.144/202.392/573.457
+Object.rotation -11.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** storage_shed ***
+Object.create storage_shed
+Object.absolutePosition -322.898/147.623/-142.881
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** train_rail_bend ***
+Object.create train_rail_bend
+Object.absolutePosition -141.525/144.751/-215.234
+Object.rotation 88.8/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** train_rail_bend ***
+Object.create train_rail_bend
+Object.absolutePosition -165.531/144.751/-215.656
+Object.rotation 108.8/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** lrgstrgbuilding_03 ***
+Object.create lrgstrgbuilding_03
+Object.absolutePosition -225.396/152.141/-191.358
+Object.rotation -160.4/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** train_rail_24 ***
+Object.create train_rail_24
+Object.absolutePosition -79.827/144.751/-123.283
+Object.rotation -171.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** lrgstrgbuilding_02 ***
+Object.create lrgstrgbuilding_02
+Object.absolutePosition -253.290/160.157/35.351
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** lrgstrgbuilding_02 ***
+Object.create lrgstrgbuilding_02
+Object.absolutePosition -122.291/149.255/-175.649
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** container_cargo_red ***
+Object.create container_cargo_red
+Object.absolutePosition 61.404/145.759/-231.968
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** container_cargo_red ***
+Object.create container_cargo_red
+Object.absolutePosition -58.220/145.785/-222.092
+Object.rotation 174.8/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** lrgstrgbuilding_02 ***
+Object.create lrgstrgbuilding_02
+Object.absolutePosition -157.351/149.255/-169.290
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** woodsteel_bridge_head ***
+Object.create woodsteel_bridge_head
+Object.absolutePosition 17.000/148.196/278.000
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** woodsteel_bridge_segment ***
+Object.create woodsteel_bridge_segment
+Object.absolutePosition -177.826/167.809/149.887
+Object.rotation 51.3/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** woodsteel_bridge_segment ***
+Object.create woodsteel_bridge_segment
+Object.absolutePosition -193.428/167.809/137.373
+Object.rotation 51.3/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** woodsteel_bridge_head ***
+Object.create woodsteel_bridge_head
+Object.absolutePosition -197.329/162.809/134.245
+Object.rotation -128.7/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** woodsteel_bridge_segment ***
+Object.create woodsteel_bridge_segment
+Object.absolutePosition -185.627/167.809/143.630
+Object.rotation 51.3/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** woodsteel_bridge_head ***
+Object.create woodsteel_bridge_head
+Object.absolutePosition -173.926/162.809/153.016
+Object.rotation 51.3/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_house_01 ***
+Object.create ch_house_01
+Object.absolutePosition 164.334/156.707/205.626
+Object.rotation 165.1/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_house_01 ***
+Object.create ch_house_01
+Object.absolutePosition 97.174/156.707/244.062
+Object.rotation 159.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_house_01 ***
+Object.create ch_house_01
+Object.absolutePosition 108.698/162.704/292.227
+Object.rotation -99.2/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_house_01 ***
+Object.create ch_house_01
+Object.absolutePosition 87.175/160.011/284.506
+Object.rotation -130.1/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_house_01 ***
+Object.create ch_house_01
+Object.absolutePosition 134.615/156.707/205.755
+Object.rotation 110.9/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_house_01 ***
+Object.create ch_house_01
+Object.absolutePosition 51.885/156.707/275.005
+Object.rotation 107.9/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_house_01 ***
+Object.create ch_house_01
+Object.absolutePosition 58.183/153.808/199.747
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_house_01 ***
+Object.create ch_house_01
+Object.absolutePosition 153.472/156.707/219.210
+Object.rotation -46.8/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_house_01 ***
+Object.create ch_house_01
+Object.absolutePosition 167.253/153.511/175.183
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** mi_guard_tower_mech ***
+Object.create mi_guard_tower_mech
+Object.absolutePosition -265.000/176.474/418.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** mi_guard_tower_mech ***
+Object.create mi_guard_tower_mech
+Object.absolutePosition -173.000/176.474/303.000
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** mi_guard_tower_mech ***
+Object.create mi_guard_tower_mech
+Object.absolutePosition -223.695/176.474/274.000
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** lrgstrgbuilding_02 ***
+Object.create lrgstrgbuilding_02
+Object.absolutePosition -218.649/178.559/393.290
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** woodsteel_bridge_segment ***
+Object.create woodsteel_bridge_segment
+Object.absolutePosition 12.000/153.159/278.000
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** woodsteel_bridge_segment ***
+Object.create woodsteel_bridge_segment
+Object.absolutePosition 239.000/153.500/155.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** woodsteel_bridge_segment ***
+Object.create woodsteel_bridge_segment
+Object.absolutePosition 239.000/153.500/135.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** woodsteel_bridge_head ***
+Object.create woodsteel_bridge_head
+Object.absolutePosition 239.000/148.500/130.000
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** woodsteel_bridge_segment ***
+Object.create woodsteel_bridge_segment
+Object.absolutePosition 239.000/153.500/145.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** woodsteel_bridge_head ***
+Object.create woodsteel_bridge_head
+Object.absolutePosition 239.000/148.500/160.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** mi_vehicle_shelter ***
+Object.create mi_vehicle_shelter
+Object.absolutePosition -197.000/177.271/325.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** wirefence_l2 ***
+Object.create wirefence_l2
+Object.absolutePosition -194.835/175.048/409.242
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_12m ***
+Object.create wirefence_12m
+Object.absolutePosition -234.000/175.063/291.923
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_end ***
+Object.create wirefence_end
+Object.absolutePosition -264.000/175.048/412.016
+Object.layer 1
+
+rem *** wirefence_l ***
+Object.create wirefence_l
+Object.absolutePosition -236.745/175.048/301.173
+Object.layer 1
+
+rem *** wirefence_l2 ***
+Object.create wirefence_l2
+Object.absolutePosition -182.758/175.048/282.835
+Object.layer 1
+
+rem *** wirefence_l2 ***
+Object.create wirefence_l2
+Object.absolutePosition -182.835/175.048/349.242
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_l2 ***
+Object.create wirefence_l2
+Object.absolutePosition -267.242/175.048/409.165
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_l ***
+Object.create wirefence_l
+Object.absolutePosition -189.255/175.048/354.827
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_12m ***
+Object.create wirefence_12m
+Object.absolutePosition -221.923/175.048/280.000
+Object.layer 1
+
+rem *** wirefence_l2 ***
+Object.create wirefence_l2
+Object.absolutePosition -267.165/175.048/330.758
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_l ***
+Object.create wirefence_l
+Object.absolutePosition -260.745/175.048/325.173
+Object.layer 1
+
+rem *** wirefence_12m ***
+Object.create wirefence_12m
+Object.absolutePosition -191.923/175.048/280.000
+Object.layer 1
+
+rem *** wirefence_12m ***
+Object.create wirefence_12m
+Object.absolutePosition -258.000/175.048/315.923
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_l2 ***
+Object.create wirefence_l2
+Object.absolutePosition -255.165/175.048/306.758
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_12m ***
+Object.create wirefence_12m
+Object.absolutePosition -245.923/175.048/304.000
+Object.layer 1
+
+rem *** wirefence_end ***
+Object.create wirefence_end
+Object.absolutePosition -198.000/175.048/280.016
+Object.layer 1
+
+rem *** wirefence_end ***
+Object.create wirefence_end
+Object.absolutePosition -179.984/175.048/298.000
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+
+rem *** floodlight ***
+Object.create floodlight
+Object.absolutePosition -267.391/179.321/331.263
+Object.layer 1
+
+rem *** floodlight ***
+Object.create floodlight
+Object.absolutePosition -255.391/179.321/306.263
+Object.rotation 28.4/0.0/0.0
+Object.layer 1
+
+rem *** floodlight ***
+Object.create floodlight
+Object.absolutePosition -231.815/179.321/282.062
+Object.rotation 102.8/0.0/0.0
+Object.layer 1
+
+rem *** floodlight ***
+Object.create floodlight
+Object.absolutePosition -182.854/179.321/282.569
+Object.rotation 102.8/0.0/0.0
+Object.layer 1
+
+rem *** floodlight ***
+Object.create floodlight
+Object.absolutePosition -183.854/179.321/349.569
+Object.rotation 102.8/0.0/0.0
+Object.layer 1
+
+rem *** floodlight ***
+Object.create floodlight
+Object.absolutePosition -194.854/179.321/408.569
+Object.rotation 102.8/0.0/0.0
+Object.layer 1
+
+rem *** floodlight ***
+Object.create floodlight
+Object.absolutePosition -241.854/179.321/409.569
+Object.rotation 102.8/0.0/0.0
+Object.layer 1
+
+rem *** mi_guard_tower_mech ***
+Object.create mi_guard_tower_mech
+Object.absolutePosition -192.000/176.474/274.000
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_high_end ***
+Object.create ch_wall_high_end
+Object.absolutePosition 52.762/154.164/234.605
+Object.rotation -71.7/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_high_l ***
+Object.create ch_wall_high_l
+Object.absolutePosition 112.582/153.996/229.492
+Object.rotation -43.3/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_high_6m_window ***
+Object.create ch_wall_high_6m_window
+Object.absolutePosition 115.340/153.996/227.096
+Object.rotation 46.7/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_high_6m_door ***
+Object.create ch_wall_high_6m_door
+Object.absolutePosition 100.777/153.996/213.388
+Object.rotation 46.7/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_high_6m_door ***
+Object.create ch_wall_high_6m_door
+Object.absolutePosition 119.452/153.996/222.727
+Object.rotation -133.3/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_high_l ***
+Object.create ch_wall_high_l
+Object.absolutePosition 98.553/153.996/216.286
+Object.rotation -133.3/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_farm_03_v3 ***
+Object.create ch_farm_03_v3
+Object.absolutePosition 261.797/138.290/-424.286
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_high_l ***
+Object.create ch_wall_high_l
+Object.absolutePosition 50.584/153.996/233.218
+Object.rotation -71.7/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_high_6m_window ***
+Object.create ch_wall_high_6m_window
+Object.absolutePosition 109.686/153.996/227.267
+Object.rotation 136.7/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_high_l ***
+Object.create ch_wall_high_l
+Object.absolutePosition 52.017/153.996/233.515
+Object.rotation 108.3/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_high_12m ***
+Object.create ch_wall_high_12m
+Object.absolutePosition 103.132/153.996/221.098
+Object.rotation 136.7/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_high_6m_door ***
+Object.create ch_wall_high_6m_door
+Object.absolutePosition 42.686/153.996/261.488
+Object.rotation 18.3/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_high_l ***
+Object.create ch_wall_high_l
+Object.absolutePosition 49.491/153.996/232.244
+Object.rotation 108.3/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_house_01 ***
+Object.create ch_house_01
+Object.absolutePosition 96.183/153.808/192.747
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_farm_02 ***
+Object.create ch_farm_02
+Object.absolutePosition 143.689/148.553/174.876
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_farm_01_v3 ***
+Object.create ch_farm_01_v3
+Object.absolutePosition 167.000/159.559/286.000
+Object.rotation -159.2/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_farm_01_v2 ***
+Object.create ch_farm_01_v2
+Object.absolutePosition 71.985/154.917/225.240
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_farm_01 ***
+Object.create ch_farm_01
+Object.absolutePosition 48.734/148.228/166.860
+Object.rotation 28.4/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_farm_01_v2 ***
+Object.create ch_farm_01_v2
+Object.absolutePosition 43.477/147.318/146.134
+Object.rotation 15.4/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_farm_01_v2 ***
+Object.create ch_farm_01_v2
+Object.absolutePosition 81.089/148.218/168.829
+Object.rotation -2.2/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_house_02 ***
+Object.create ch_house_02
+Object.absolutePosition 35.890/156.779/244.766
+Object.rotation 108.3/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_farm_02 ***
+Object.create ch_farm_02
+Object.absolutePosition 34.257/152.650/223.371
+Object.rotation -74.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_house_02_v2 ***
+Object.create ch_house_02_v2
+Object.absolutePosition 143.076/150.421/155.058
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_high_12m ***
+Object.create ch_wall_high_12m
+Object.absolutePosition 43.077/153.996/233.977
+Object.rotation 18.3/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_high_l ***
+Object.create ch_wall_high_l
+Object.absolutePosition 46.022/153.996/260.000
+Object.rotation 18.3/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_high_l ***
+Object.create ch_wall_high_l
+Object.absolutePosition 33.423/153.996/264.162
+Object.rotation -71.7/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_high_end ***
+Object.create ch_wall_high_end
+Object.absolutePosition 54.874/154.164/240.997
+Object.rotation 108.3/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_farm_02 ***
+Object.create ch_farm_02
+Object.absolutePosition 90.311/145.051/149.124
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_farm_01_v2 ***
+Object.create ch_farm_01_v2
+Object.absolutePosition 79.148/154.917/249.503
+Object.rotation 105.6/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_farm_01_v3 ***
+Object.create ch_farm_01_v3
+Object.absolutePosition 142.000/153.745/267.674
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** lrg_stonebridge ***
+Object.create lrg_stonebridge
+Object.absolutePosition 275.000/130.228/-522.000
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** lrg_stonebridge_head ***
+Object.create lrg_stonebridge_head
+Object.absolutePosition 265.173/130.228/-522.000
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** lrg_stonebridge_head ***
+Object.create lrg_stonebridge_head
+Object.absolutePosition 284.827/130.228/-522.000
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** lrg_stonebridge_head ***
+Object.create lrg_stonebridge_head
+Object.absolutePosition 330.000/130.228/-506.827
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** lrg_stonebridge ***
+Object.create lrg_stonebridge
+Object.absolutePosition 330.000/130.228/-497.000
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** lrg_stonebridge_head ***
+Object.create lrg_stonebridge_head
+Object.absolutePosition 330.000/130.228/-487.173
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** lrg_stonebridge_head ***
+Object.create lrg_stonebridge_head
+Object.absolutePosition 284.827/130.228/-522.000
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+
+rem *** ch_house_modern_03 ***
+Object.create ch_house_modern_03
+Object.absolutePosition 340.757/140.088/-473.136
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_house_modern_02_v2_signs ***
+Object.create ch_house_modern_02_v2_signs
+Object.absolutePosition 286.096/137.737/-472.369
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_low_end ***
+Object.create ch_wall_low_end
+Object.absolutePosition 380.485/140.636/-586.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_low_12m ***
+Object.create ch_wall_low_12m
+Object.absolutePosition 374.545/140.343/-605.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_low_end ***
+Object.create ch_wall_low_end
+Object.absolutePosition 380.545/140.636/-605.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_low_12m ***
+Object.create ch_wall_low_12m
+Object.absolutePosition 318.000/140.343/-568.000
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_low_12m ***
+Object.create ch_wall_low_12m
+Object.absolutePosition 380.545/140.343/-599.000
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_low_12m ***
+Object.create ch_wall_low_12m
+Object.absolutePosition 318.000/140.343/-599.000
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_low_end ***
+Object.create ch_wall_low_end
+Object.absolutePosition 330.000/140.636/-605.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** air_repairstation ***
+Object.create air_repairstation
+Object.absolutePosition 327.994/145.007/-672.639
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_farm_03_v2 ***
+Object.create ch_farm_03_v2
+Object.absolutePosition 285.646/144.037/-62.286
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_house_modern_02_v2 ***
+Object.create ch_house_modern_02_v2
+Object.absolutePosition 284.137/140.456/-477.472
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_farm_03 ***
+Object.create ch_farm_03
+Object.absolutePosition 300.507/138.352/-422.272
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_high_12m ***
+Object.create ch_wall_high_12m
+Object.absolutePosition 331.000/136.494/-415.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_high_end ***
+Object.create ch_wall_high_end
+Object.absolutePosition 318.366/136.494/-415.000
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_high_end ***
+Object.create ch_wall_high_end
+Object.absolutePosition 293.366/136.494/-415.000
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_high_end ***
+Object.create ch_wall_high_end
+Object.absolutePosition 274.634/136.495/-415.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_high_6m_window ***
+Object.create ch_wall_high_6m_window
+Object.absolutePosition 322.000/136.494/-415.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_high_6m_window ***
+Object.create ch_wall_high_6m_window
+Object.absolutePosition 253.000/136.494/-415.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_high_6m_window ***
+Object.create ch_wall_high_6m_window
+Object.absolutePosition 271.000/136.494/-415.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_high_end ***
+Object.create ch_wall_high_end
+Object.absolutePosition 233.634/136.494/-415.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_farm_03_v4 ***
+Object.create ch_farm_03_v4
+Object.absolutePosition 260.581/135.538/-484.801
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_house_modern_01_v2 ***
+Object.create ch_house_modern_01_v2
+Object.absolutePosition 302.942/138.242/-458.158
+Object.rotation 143.2/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_farm_02 ***
+Object.create ch_farm_02
+Object.absolutePosition 292.660/140.138/-217.448
+Object.rotation 21.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_farm_01_v2 ***
+Object.create ch_farm_01_v2
+Object.absolutePosition 152.914/134.813/-360.964
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_farm_01_v3 ***
+Object.create ch_farm_01_v3
+Object.absolutePosition 152.542/133.642/-372.844
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** nc_birch01 ***
+Object.create nc_birch01
+Object.absolutePosition 218.382/143.307/-470.789
+Object.rotation -49.0/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_birch01 ***
+Object.create nc_birch01
+Object.absolutePosition 383.782/142.336/-555.111
+Object.rotation 75.0/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_birch01 ***
+Object.create nc_birch01
+Object.absolutePosition 338.756/142.336/-483.982
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_birch01 ***
+Object.create nc_birch01
+Object.absolutePosition 337.756/142.336/-509.982
+Object.rotation 87.1/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_birch01 ***
+Object.create nc_birch01
+Object.absolutePosition 322.006/141.300/-510.756
+Object.rotation 149.9/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_birch01 ***
+Object.create nc_birch01
+Object.absolutePosition 332.220/142.336/-545.894
+Object.rotation 149.9/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_birch01 ***
+Object.create nc_birch01
+Object.absolutePosition 355.220/142.336/-544.894
+Object.rotation -31.2/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_birch01 ***
+Object.create nc_birch01
+Object.absolutePosition 401.782/142.336/-549.111
+Object.rotation -31.2/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_birch01 ***
+Object.create nc_birch01
+Object.absolutePosition 320.756/141.303/-482.982
+Object.rotation 51.2/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_birch01 ***
+Object.create nc_birch01
+Object.absolutePosition 304.156/143.307/-482.236
+Object.rotation 51.2/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_birch01 ***
+Object.create nc_birch01
+Object.absolutePosition 355.156/143.307/-482.236
+Object.rotation 51.2/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_birch01 ***
+Object.create nc_birch01
+Object.absolutePosition 372.343/143.307/-481.420
+Object.rotation 108.3/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_birch01 ***
+Object.create nc_birch01
+Object.absolutePosition 275.076/142.336/-418.232
+Object.rotation -112.5/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_oak01 ***
+Object.create nc_oak01
+Object.absolutePosition 260.419/142.525/-365.435
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_oak01 ***
+Object.create nc_oak01
+Object.absolutePosition 376.964/147.530/-598.435
+Object.rotation 50.0/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_oak01 ***
+Object.create nc_oak01
+Object.absolutePosition 379.310/147.530/-563.550
+Object.rotation 50.0/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** ch_farm_02 ***
+Object.create ch_farm_02
+Object.absolutePosition 106.124/145.051/143.689
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** bus_stop ***
+Object.create bus_stop
+Object.absolutePosition 234.777/141.013/-134.548
+Object.rotation -103.1/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** brickwall ***
+Object.create brickwall
+Object.absolutePosition 311.500/141.247/-74.023
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** brick_pillar ***
+Object.create brick_pillar
+Object.absolutePosition 336.000/141.299/-118.800
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** brickwall ***
+Object.create brickwall
+Object.absolutePosition 336.000/141.049/-116.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** brick_pillar ***
+Object.create brick_pillar
+Object.absolutePosition 325.836/141.300/-73.975
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** brick_pillar ***
+Object.create brick_pillar
+Object.absolutePosition 253.836/141.499/-54.049
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** brick_pillar ***
+Object.create brick_pillar
+Object.absolutePosition 253.836/141.293/-90.300
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** brick_pillar ***
+Object.create brick_pillar
+Object.absolutePosition 313.974/141.499/-74.023
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m_corner_02 ***
+Object.create fence_corrugated_3x12m_corner_02
+Object.absolutePosition -369.000/145.402/-93.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m_broken_parts ***
+Object.create fence_corrugated_3x12m_broken_parts
+Object.absolutePosition -379.819/145.337/-93.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m_broken ***
+Object.create fence_corrugated_3x12m_broken
+Object.absolutePosition -375.009/145.402/-93.168
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m ***
+Object.create fence_corrugated_3x12m
+Object.absolutePosition -302.168/145.402/-115.991
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m_corner_01 ***
+Object.create fence_corrugated_3x12m_corner_01
+Object.absolutePosition -381.081/145.402/-93.168
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** lrg_trash_dumpster ***
+Object.create lrg_trash_dumpster
+Object.absolutePosition 47.000/145.522/-242.000
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** office_building ***
+Object.create office_building
+Object.absolutePosition -351.098/146.252/-91.078
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** storage_shed ***
+Object.create storage_shed
+Object.absolutePosition -376.881/147.623/-111.102
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m ***
+Object.create fence_corrugated_3x12m
+Object.absolutePosition -374.832/145.402/-141.009
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m_corner_01 ***
+Object.create fence_corrugated_3x12m_corner_01
+Object.absolutePosition -357.081/145.402/-81.168
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m ***
+Object.create fence_corrugated_3x12m
+Object.absolutePosition -302.168/145.402/-140.991
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m_corner_01 ***
+Object.create fence_corrugated_3x12m_corner_01
+Object.absolutePosition -307.919/145.402/-152.832
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m ***
+Object.create fence_corrugated_3x12m
+Object.absolutePosition -302.168/145.402/-92.991
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m_corner_01 ***
+Object.create fence_corrugated_3x12m_corner_01
+Object.absolutePosition -302.168/145.402/-86.919
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m ***
+Object.create fence_corrugated_3x12m
+Object.absolutePosition -314.009/145.402/-81.168
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_pole_3m ***
+Object.create fence_corrugated_pole_3m
+Object.absolutePosition -394.000/145.416/-92.000
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_pole_3m ***
+Object.create fence_corrugated_pole_3m
+Object.absolutePosition -333.000/145.416/-81.000
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** woodencrate_4m ***
+Object.create woodencrate_4m
+Object.absolutePosition -212.738/156.767/13.628
+Object.rotation 94.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** woodencrate_4m ***
+Object.create woodencrate_4m
+Object.absolutePosition 54.845/145.765/-77.256
+Object.rotation 92.9/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipestack_01 ***
+Object.create pipestack_01
+Object.absolutePosition -326.295/144.624/-116.802
+Object.rotation -86.5/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipestack_01 ***
+Object.create pipestack_01
+Object.absolutePosition -382.071/144.624/-126.444
+Object.rotation 179.7/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipestack_01 ***
+Object.create pipestack_01
+Object.absolutePosition -56.066/145.112/-231.044
+Object.rotation -1.5/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** barracksngl_01 ***
+Object.create barracksngl_01
+Object.absolutePosition -316.000/145.692/-120.000
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** concretebags_01 ***
+Object.create concretebags_01
+Object.absolutePosition -378.000/144.745/-121.000
+Object.layer 1
+Object.setLightSourceMask 4
+
+rem *** woodencrate_destructible ***
+Object.create woodencrate_destructible
+Object.absolutePosition -337.000/144.397/-138.000
+Object.rotation -12.1/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipestack_01 ***
+Object.create pipestack_01
+Object.absolutePosition -372.000/144.624/-131.000
+Object.rotation -17.8/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** mi_sandbags_end ***
+Object.create mi_sandbags_end
+Object.absolutePosition 230.000/135.565/-413.049
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** mi_sandbags_circle_half ***
+Object.create mi_sandbags_circle_half
+Object.absolutePosition 450.972/137.955/205.718
+Object.rotation -133.7/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** mi_sandbags_circle_half ***
+Object.create mi_sandbags_circle_half
+Object.absolutePosition 292.000/135.552/-514.000
+Object.rotation -53.6/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** mi_sandbags_circle_half ***
+Object.create mi_sandbags_circle_half
+Object.absolutePosition 227.824/135.552/-402.450
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** mi_sandbags_circle_half ***
+Object.create mi_sandbags_circle_half
+Object.absolutePosition 208.000/135.552/-445.000
+Object.rotation -53.6/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** mi_antenna ***
+Object.create mi_antenna
+Object.absolutePosition 374.390/158.160/-672.519
+Object.layer 1
+
+rem *** concretebarrier ***
+Object.create concretebarrier
+Object.absolutePosition 480.049/143.026/-677.041
+Object.rotation 43.2/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** concretebarrier ***
+Object.create concretebarrier
+Object.absolutePosition 480.206/142.844/-674.112
+Object.rotation 41.6/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** concretebarrier ***
+Object.create concretebarrier
+Object.absolutePosition 476.805/142.928/-677.002
+Object.rotation 47.1/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** concretebarrier ***
+Object.create concretebarrier
+Object.absolutePosition 476.417/143.085/-680.199
+Object.rotation 52.6/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_pole_3m ***
+Object.create fence_corrugated_pole_3m
+Object.absolutePosition 103.000/145.813/-26.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m_corner_01 ***
+Object.create fence_corrugated_3x12m_corner_01
+Object.absolutePosition 32.168/145.799/-70.081
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m_corner_01 ***
+Object.create fence_corrugated_3x12m_corner_01
+Object.absolutePosition 37.919/145.799/-8.168
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m_corner_01 ***
+Object.create fence_corrugated_3x12m_corner_01
+Object.absolutePosition 102.832/145.799/-13.919
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m ***
+Object.create fence_corrugated_3x12m
+Object.absolutePosition 102.832/145.799/-19.991
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m ***
+Object.create fence_corrugated_3x12m
+Object.absolutePosition 102.832/145.799/-39.991
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_pole_3m ***
+Object.create fence_corrugated_pole_3m
+Object.absolutePosition 32.000/145.813/-22.000
+Object.layer 1
+Object.setLightSourceMask 4
+
+rem *** fence_corrugated_pole_3m ***
+Object.create fence_corrugated_pole_3m
+Object.absolutePosition 49.000/145.813/-76.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** storage_shed ***
+Object.create storage_shed
+Object.absolutePosition 511.881/141.023/167.102
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m_corner_02 ***
+Object.create fence_corrugated_3x12m_corner_02
+Object.absolutePosition 494.000/138.803/200.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m ***
+Object.create fence_corrugated_3x12m
+Object.absolutePosition 449.168/138.826/163.991
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m_broken_parts ***
+Object.create fence_corrugated_3x12m_broken_parts
+Object.absolutePosition 524.000/138.653/180.819
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m_broken ***
+Object.create fence_corrugated_3x12m_broken
+Object.absolutePosition 523.832/138.803/176.009
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m ***
+Object.create fence_corrugated_3x12m
+Object.absolutePosition 475.991/138.803/199.832
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m_corner_01 ***
+Object.create fence_corrugated_3x12m_corner_01
+Object.absolutePosition 454.919/138.803/199.832
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m ***
+Object.create fence_corrugated_3x12m
+Object.absolutePosition 449.168/138.795/187.991
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m ***
+Object.create fence_corrugated_3x12m
+Object.absolutePosition 461.009/138.887/152.168
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m ***
+Object.create fence_corrugated_3x12m
+Object.absolutePosition 473.009/138.963/152.168
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** woodencrate_4m ***
+Object.create woodencrate_4m
+Object.absolutePosition 508.763/138.769/158.806
+Object.rotation 89.8/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pallet ***
+Object.create pallet
+Object.absolutePosition 482.586/137.538/195.342
+Object.layer 1
+Object.setLightSourceMask 4
+
+rem *** lrg_trash_dumpster ***
+Object.create lrg_trash_dumpster
+Object.absolutePosition 492.000/138.434/185.000
+Object.rotation 177.6/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** office_building ***
+Object.create office_building
+Object.absolutePosition 487.101/139.653/190.524
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** storage_shed ***
+Object.create storage_shed
+Object.absolutePosition 462.119/141.023/167.898
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m ***
+Object.create fence_corrugated_3x12m
+Object.absolutePosition 500.009/138.803/152.168
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m_corner_01 ***
+Object.create fence_corrugated_3x12m_corner_01
+Object.absolutePosition 449.168/138.826/157.919
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m ***
+Object.create fence_corrugated_3x12m
+Object.absolutePosition 512.009/138.803/152.168
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m ***
+Object.create fence_corrugated_3x12m
+Object.absolutePosition 523.832/138.803/164.009
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m_broken_parts ***
+Object.create fence_corrugated_3x12m_broken_parts
+Object.absolutePosition 449.000/138.662/171.119
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m_broken ***
+Object.create fence_corrugated_3x12m_broken
+Object.absolutePosition 449.168/138.639/175.991
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m_corner_01 ***
+Object.create fence_corrugated_3x12m_corner_01
+Object.absolutePosition 518.081/138.803/152.168
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m ***
+Object.create fence_corrugated_3x12m
+Object.absolutePosition 523.832/138.803/188.009
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m_corner_01 ***
+Object.create fence_corrugated_3x12m_corner_01
+Object.absolutePosition 523.832/138.803/206.081
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m_corner_01 ***
+Object.create fence_corrugated_3x12m_corner_01
+Object.absolutePosition 505.919/138.803/211.832
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m ***
+Object.create fence_corrugated_3x12m
+Object.absolutePosition 511.991/138.803/211.832
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m ***
+Object.create fence_corrugated_3x12m
+Object.absolutePosition 487.991/138.803/199.832
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_pole_3m ***
+Object.create fence_corrugated_pole_3m
+Object.absolutePosition 494.000/138.817/152.000
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_pole_3m ***
+Object.create fence_corrugated_pole_3m
+Object.absolutePosition 455.000/138.817/200.000
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_pole_3m ***
+Object.create fence_corrugated_pole_3m
+Object.absolutePosition 524.000/138.817/206.000
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** woodencrate_4m ***
+Object.create woodencrate_4m
+Object.absolutePosition 503.000/138.769/200.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** woodencrate_4m ***
+Object.create woodencrate_4m
+Object.absolutePosition 505.000/138.769/200.000
+Object.rotation -4.7/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** woodencrate_4m ***
+Object.create woodencrate_4m
+Object.absolutePosition 508.000/138.769/200.000
+Object.rotation 7.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** convbelt ***
+Object.create convbelt
+Object.absolutePosition 474.597/141.564/206.610
+Object.rotation -33.2/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipestack_01 ***
+Object.create pipestack_01
+Object.absolutePosition 513.019/138.025/205.006
+Object.rotation -10.4/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipestack_01 ***
+Object.create pipestack_01
+Object.absolutePosition 466.000/138.048/159.980
+Object.rotation 128.1/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 4
+
+rem *** barracksngl_01 ***
+Object.create barracksngl_01
+Object.absolutePosition 516.000/139.092/189.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** concretebags_01 ***
+Object.create concretebags_01
+Object.absolutePosition 463.477/138.146/164.966
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 4
+
+rem *** woodencrate_destructible ***
+Object.create woodencrate_destructible
+Object.absolutePosition 504.000/137.798/158.000
+Object.rotation -12.1/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipestack_01 ***
+Object.create pipestack_01
+Object.absolutePosition 486.020/138.025/160.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** office_building ***
+Object.create office_building
+Object.absolutePosition -363.922/146.252/-143.098
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m ***
+Object.create fence_corrugated_3x12m
+Object.absolutePosition -337.991/145.402/-152.832
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m ***
+Object.create fence_corrugated_3x12m
+Object.absolutePosition -362.991/145.402/-152.832
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m_corner_01 ***
+Object.create fence_corrugated_3x12m_corner_01
+Object.absolutePosition -374.832/145.402/-147.081
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m_corner_01 ***
+Object.create fence_corrugated_3x12m_corner_01
+Object.absolutePosition -386.832/145.402/-123.081
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m_corner_02 ***
+Object.create fence_corrugated_3x12m_corner_02
+Object.absolutePosition -375.000/145.402/-135.000
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** container_cargo_red ***
+Object.create container_cargo_red
+Object.absolutePosition -310.080/145.297/-85.201
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** barracksngl_01 ***
+Object.create barracksngl_01
+Object.absolutePosition -316.000/145.692/-113.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_pole_3m ***
+Object.create fence_corrugated_pole_3m
+Object.absolutePosition -344.000/145.416/-153.000
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_pole_3m ***
+Object.create fence_corrugated_pole_3m
+Object.absolutePosition -302.000/145.416/-122.000
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_pole_3m ***
+Object.create fence_corrugated_pole_3m
+Object.absolutePosition -302.000/145.416/-99.000
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipestack_01 ***
+Object.create pipestack_01
+Object.absolutePosition 53.894/145.021/-73.424
+Object.rotation -10.4/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** mi_sandbags_circle_half ***
+Object.create mi_sandbags_circle_half
+Object.absolutePosition -263.000/174.355/400.000
+Object.rotation 135.7/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** mi_hangar_mec ***
+Object.create mi_hangar_mec
+Object.absolutePosition -115.125/161.646/497.952
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** mi_sandbags_circle_half ***
+Object.create mi_sandbags_circle_half
+Object.absolutePosition -53.020/145.043/-242.635
+Object.rotation 60.3/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** mi_sandbags_circle_half ***
+Object.create mi_sandbags_circle_half
+Object.absolutePosition -229.366/157.357/502.835
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** mi_sandbags_circle_half ***
+Object.create mi_sandbags_circle_half
+Object.absolutePosition -215.000/174.355/272.000
+Object.rotation 166.5/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_farm_01_v3 ***
+Object.create ch_farm_01_v3
+Object.absolutePosition 79.000/146.146/151.000
+Object.rotation -173.5/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** marketstand_1 ***
+Object.create marketstand_1
+Object.absolutePosition 138.667/154.433/256.149
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** marketstand_1 ***
+Object.create marketstand_1
+Object.absolutePosition 51.323/154.433/255.436
+Object.rotation 111.9/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** woodencrate_4m ***
+Object.create woodencrate_4m
+Object.absolutePosition -91.436/145.864/-52.090
+Object.rotation 77.5/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 4
+
+rem *** woodsteel_bridge_head ***
+Object.create woodsteel_bridge_head
+Object.absolutePosition -3.000/148.196/278.000
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** woodsteel_bridge_segment ***
+Object.create woodsteel_bridge_segment
+Object.absolutePosition 2.000/153.159/278.000
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** oil_pump_static_01 ***
+Object.create oil_pump_static_01
+Object.absolutePosition -459.000/147.291/-121.000
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** oil_pump_static_02 ***
+Object.create oil_pump_static_02
+Object.absolutePosition -429.000/147.124/-148.000
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** oil_pump_static_02 ***
+Object.create oil_pump_static_02
+Object.absolutePosition -328.000/147.124/-197.000
+Object.rotation 88.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** oil_pump_static_02 ***
+Object.create oil_pump_static_02
+Object.absolutePosition -281.075/147.124/-138.599
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** oil_pump_static_02 ***
+Object.create oil_pump_static_02
+Object.absolutePosition -146.184/147.620/-127.823
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** oil_pump_static_02 ***
+Object.create oil_pump_static_02
+Object.absolutePosition -406.000/147.124/-125.000
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** oil_pump_static_02 ***
+Object.create oil_pump_static_02
+Object.absolutePosition -273.000/147.124/-94.000
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** oil_pump_static_01 ***
+Object.create oil_pump_static_01
+Object.absolutePosition 523.000/140.733/104.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** oil_pump_static_01 ***
+Object.create oil_pump_static_01
+Object.absolutePosition -462.000/155.943/-243.000
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** oil_pump_static_01 ***
+Object.create oil_pump_static_01
+Object.absolutePosition -471.643/155.943/-224.214
+Object.rotation 88.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** oil_pump_static_02 ***
+Object.create oil_pump_static_02
+Object.absolutePosition -236.000/147.124/-94.000
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** oil_pump_static_02 ***
+Object.create oil_pump_static_02
+Object.absolutePosition 695.389/140.324/127.000
+Object.rotation 0.0/0.0/-5.1
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** oil_pump_static_01 ***
+Object.create oil_pump_static_01
+Object.absolutePosition 440.000/140.111/99.000
+Object.rotation -88.5/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** oil_pump_static_01 ***
+Object.create oil_pump_static_01
+Object.absolutePosition 749.344/142.096/186.433
+Object.rotation -83.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** oil_pump_static_01 ***
+Object.create oil_pump_static_01
+Object.absolutePosition 573.000/140.303/190.000
+Object.rotation -79.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** oil_pump_static_01 ***
+Object.create oil_pump_static_01
+Object.absolutePosition 651.028/140.692/162.986
+Object.rotation -79.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** oil_pump_static_01 ***
+Object.create oil_pump_static_01
+Object.absolutePosition 685.024/140.494/180.818
+Object.rotation 80.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** oil_pump_static_02 ***
+Object.create oil_pump_static_02
+Object.absolutePosition 635.000/140.525/148.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** oil_pump_static_01 ***
+Object.create oil_pump_static_01
+Object.absolutePosition 654.000/140.715/227.000
+Object.rotation -79.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** wirefence_48m ***
+Object.create wirefence_48m
+Object.absolutePosition -269.984/175.048/381.923
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_48m ***
+Object.create wirefence_48m
+Object.absolutePosition -180.016/175.048/322.077
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_48m ***
+Object.create wirefence_48m
+Object.absolutePosition -192.016/175.048/382.077
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_48m ***
+Object.create wirefence_48m
+Object.absolutePosition -222.077/175.048/411.984
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_24m_hole ***
+Object.create wirefence_24m_hole
+Object.absolutePosition -269.984/175.048/345.923
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_12m ***
+Object.create wirefence_12m
+Object.absolutePosition -256.077/156.645/60.000
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+
+rem *** oilscistern_01 ***
+Object.create oilscistern_01
+Object.absolutePosition 88.000/159.438/-118.000
+Object.rotation -82.0/0.0/0.0
+Object.layer 1
+Object.disableChildren 1
+Object.setLightSourceMask 6
+
+rem *** oil_pump_static_01 ***
+Object.create oil_pump_static_01
+Object.absolutePosition -403.000/147.291/-195.000
+Object.rotation -116.1/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x24m ***
+Object.create fence_corrugated_3x24m
+Object.absolutePosition -49.991/145.837/-325.832
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m ***
+Object.create fence_corrugated_3x12m
+Object.absolutePosition -20.168/145.837/-313.991
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x24m ***
+Object.create fence_corrugated_3x24m
+Object.absolutePosition -86.009/145.898/-215.168
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x72m ***
+Object.create fence_corrugated_3x72m
+Object.absolutePosition 63.832/145.807/-219.991
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x24m ***
+Object.create fence_corrugated_3x24m
+Object.absolutePosition -26.009/145.898/-179.168
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x24m ***
+Object.create fence_corrugated_3x24m
+Object.absolutePosition -85.991/145.898/-298.832
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x24m ***
+Object.create fence_corrugated_3x24m
+Object.absolutePosition -67.832/145.837/-197.009
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x24m ***
+Object.create fence_corrugated_3x24m
+Object.absolutePosition -386.832/145.402/-111.009
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x24m ***
+Object.create fence_corrugated_3x24m
+Object.absolutePosition -319.991/145.402/-152.832
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x24m ***
+Object.create fence_corrugated_3x24m
+Object.absolutePosition -345.009/145.402/-81.168
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** billboard_highway_03 ***
+Object.create billboard_highway_03
+Object.absolutePosition 270.000/138.725/-316.000
+Object.rotation -4.2/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** floodlight ***
+Object.create floodlight
+Object.absolutePosition 231.090/140.518/-416.952
+Object.rotation 34.2/0.0/0.0
+Object.layer 1
+
+rem *** parkbench1 ***
+Object.create parkbench1
+Object.absolutePosition 309.802/135.371/-463.895
+Object.rotation 140.7/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 4
+
+rem *** parkbench ***
+Object.create parkbench
+Object.absolutePosition 131.000/152.853/270.497
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** parkbench ***
+Object.create parkbench
+Object.absolutePosition 124.000/152.853/270.497
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** marketstand_1 ***
+Object.create marketstand_1
+Object.absolutePosition 234.333/136.931/-423.149
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** woodencrate_destructible_medical ***
+Object.create woodencrate_destructible_medical
+Object.absolutePosition -38.000/144.885/-223.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** woodencrate_destructible_medical ***
+Object.create woodencrate_destructible_medical
+Object.absolutePosition 266.000/140.193/-91.455
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** oil_pump_static_01 ***
+Object.create oil_pump_static_01
+Object.absolutePosition -62.652/147.782/-119.655
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** oil_pump_foundation ***
+Object.create oil_pump_foundation
+Object.absolutePosition 591.518/144.227/43.274
+Object.rotation -93.6/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** oil_pump_static_01 ***
+Object.create oil_pump_static_01
+Object.absolutePosition 239.025/142.892/-95.175
+Object.rotation 4.5/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** oil_pump_foundation ***
+Object.create oil_pump_foundation
+Object.absolutePosition -237.471/147.121/-137.858
+Object.rotation -88.8/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** oil_pump_foundation ***
+Object.create oil_pump_foundation
+Object.absolutePosition -237.471/147.124/-137.858
+Object.rotation -88.8/0.0/0.0
+Object.layer 1
+
+rem *** fishingbox ***
+Object.create fishingbox
+Object.absolutePosition 307.000/135.244/-453.000
+Object.rotation 45.5/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** container_cargo_red ***
+Object.create container_cargo_red
+Object.absolutePosition -147.064/145.793/-195.373
+Object.rotation -170.2/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** container_cargo_red ***
+Object.create container_cargo_red
+Object.absolutePosition -145.969/145.793/-191.008
+Object.rotation -165.2/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** container_cargo_red ***
+Object.create container_cargo_red
+Object.absolutePosition -81.374/145.785/-222.501
+Object.rotation -170.8/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** container_cargo_red ***
+Object.create container_cargo_red
+Object.absolutePosition -23.640/145.785/-207.094
+Object.rotation -137.3/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** train_rail_bar_des ***
+Object.create train_rail_bar_des
+Object.absolutePosition -80.594/146.232/-148.171
+Object.rotation -171.9/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** train_rail_bar_des ***
+Object.create train_rail_bar_des
+Object.absolutePosition -86.578/146.200/-145.866
+Object.rotation -171.9/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_phone_booth ***
+Object.create ch_phone_booth
+Object.absolutePosition 299.699/136.022/-449.202
+Object.rotation -37.8/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_phone_booth ***
+Object.create ch_phone_booth
+Object.absolutePosition 320.845/140.821/-101.261
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** chair01_dest ***
+Object.create chair01_dest
+Object.absolutePosition 138.000/152.792/259.000
+Object.rotation -98.6/0.0/0.0
+Object.layer 1
+
+rem *** lrg_trash_dumpster ***
+Object.create lrg_trash_dumpster
+Object.absolutePosition 120.616/153.532/213.406
+Object.rotation 47.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** lrg_trash_dumpster ***
+Object.create lrg_trash_dumpster
+Object.absolutePosition 324.474/140.829/-93.384
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** lrg_trash_dumpster ***
+Object.create lrg_trash_dumpster
+Object.absolutePosition 277.000/140.829/-107.000
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 4
+
+rem *** lrg_trash_dumpster ***
+Object.create lrg_trash_dumpster
+Object.absolutePosition 120.000/153.532/266.000
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** cart_dest ***
+Object.create cart_dest
+Object.absolutePosition 76.155/146.217/173.882
+Object.rotation 0.0/0.0/-0.6
+Object.layer 1
+
+rem *** sign_yieldright_dest ***
+Object.create sign_yieldright_dest
+Object.absolutePosition -48.313/145.899/-144.550
+Object.layer 1
+
+rem *** sign_yieldright_dest ***
+Object.create sign_yieldright_dest
+Object.absolutePosition 262.000/140.978/-146.000
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+
+rem *** trestle01_dest ***
+Object.create trestle01_dest
+Object.absolutePosition 61.373/144.958/-264.147
+Object.rotation 107.8/0.0/0.0
+Object.layer 1
+
+rem *** trestle01_dest ***
+Object.create trestle01_dest
+Object.absolutePosition 60.899/144.990/-259.035
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+
+rem *** trestle01_dest ***
+Object.create trestle01_dest
+Object.absolutePosition 59.903/144.990/-268.147
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+
+rem *** roadmarker_dest ***
+Object.create roadmarker_dest
+Object.absolutePosition 135.733/142.794/-167.153
+Object.rotation -11.0/0.0/0.0
+Object.layer 1
+
+rem *** roadmarker_dest ***
+Object.create roadmarker_dest
+Object.absolutePosition 295.734/141.363/-145.547
+Object.layer 1
+
+rem *** roadmarker_dest ***
+Object.create roadmarker_dest
+Object.absolutePosition 215.764/140.697/-150.508
+Object.rotation -11.0/0.0/0.0
+Object.layer 1
+
+rem *** roadmarker_dest ***
+Object.create roadmarker_dest
+Object.absolutePosition 193.356/141.408/-155.052
+Object.rotation -11.0/0.0/0.0
+Object.layer 1
+
+rem *** roadmarker_dest ***
+Object.create roadmarker_dest
+Object.absolutePosition 165.741/141.802/-160.865
+Object.rotation -11.0/0.0/0.0
+Object.layer 1
+
+rem *** roadmarker_dest ***
+Object.create roadmarker_dest
+Object.absolutePosition 231.832/140.480/-147.709
+Object.layer 1
+
+rem *** roadmarker_dest ***
+Object.create roadmarker_dest
+Object.absolutePosition 278.131/140.603/-145.991
+Object.layer 1
+
+rem *** traffic_oversign_post ***
+Object.create traffic_oversign_post
+Object.absolutePosition 221.921/143.410/-142.692
+Object.rotation -100.1/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** traffic_oversign_02 ***
+Object.create traffic_oversign_02
+Object.absolutePosition 221.784/146.120/-140.413
+Object.rotation 79.9/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** traffic_oversign_02 ***
+Object.create traffic_oversign_02
+Object.absolutePosition 222.056/146.120/-144.971
+Object.rotation -100.1/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** woodencrate_group4 ***
+Object.create woodencrate_group4
+Object.absolutePosition 268.713/140.815/-91.743
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** woodencrate_group2 ***
+Object.create woodencrate_group2
+Object.absolutePosition 277.372/140.315/-117.319
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** woodencrate_group1 ***
+Object.create woodencrate_group1
+Object.absolutePosition 62.635/148.915/-36.237
+Object.rotation -179.8/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** woodencrate_4m ***
+Object.create woodencrate_4m
+Object.absolutePosition -208.487/156.767/13.549
+Object.rotation 89.3/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipestack_01 ***
+Object.create pipestack_01
+Object.absolutePosition -337.981/144.624/-93.996
+Object.rotation -10.4/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** woodencrate_4m ***
+Object.create woodencrate_4m
+Object.absolutePosition 55.000/145.765/-11.000
+Object.rotation 2.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** woodencrate_group1 ***
+Object.create woodencrate_group1
+Object.absolutePosition 101.000/144.916/-56.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** woodencrate_group2 ***
+Object.create woodencrate_group2
+Object.absolutePosition 264.000/140.315/-95.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** woodencrate_group3 ***
+Object.create woodencrate_group3
+Object.absolutePosition 320.000/140.315/-110.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** rock10m ***
+Object.create rock10m
+Object.absolutePosition 121.533/137.744/-279.512
+Object.rotation -41.7/24.8/-64.8
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** rock20m ***
+Object.create rock20m
+Object.absolutePosition 174.006/140.884/-140.947
+Object.rotation 0.0/0.0/90.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** rock2m ***
+Object.create rock2m
+Object.absolutePosition 69.030/149.950/200.716
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** rock5m ***
+Object.create rock5m
+Object.absolutePosition 68.542/142.508/147.260
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** rockpile_small ***
+Object.create rockpile_small
+Object.absolutePosition -12.087/152.782/272.290
+Object.rotation 0.0/-11.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** rockpile_medium_02 ***
+Object.create rockpile_medium_02
+Object.absolutePosition 36.645/143.936/100.666
+Object.rotation 116.3/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** rockpile_medium ***
+Object.create rockpile_medium
+Object.absolutePosition 215.513/143.802/-52.606
+Object.rotation 129.3/0.2/0.4
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** rockpile_medium ***
+Object.create rockpile_medium
+Object.absolutePosition 163.000/158.631/266.000
+Object.rotation 80.1/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** oil_pump_static_02 ***
+Object.create oil_pump_static_02
+Object.absolutePosition 557.000/140.548/208.000
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** oil_pump_static_01 ***
+Object.create oil_pump_static_01
+Object.absolutePosition 614.770/144.456/49.404
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** oil_pump_static_01 ***
+Object.create oil_pump_static_01
+Object.absolutePosition 624.000/140.692/109.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** rock10m ***
+Object.create rock10m
+Object.absolutePosition -159.060/165.855/152.963
+Object.rotation -71.7/16.5/-63.3
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipeline_curvedown_combi ***
+Object.create pipeline_curvedown_combi
+Object.absolutePosition 611.105/140.899/169.349
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipeline_curvedown_combi ***
+Object.create pipeline_curvedown_combi
+Object.absolutePosition 540.234/138.843/169.489
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipeline_30m ***
+Object.create pipeline_30m
+Object.absolutePosition 540.230/142.901/140.561
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+
+rem *** pipeline_60m_combi ***
+Object.create pipeline_60m_combi
+Object.absolutePosition 540.234/140.606/95.401
+Object.rotation 90.0/0.0/2.2
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipeline_60m_combi ***
+Object.create pipeline_60m_combi
+Object.absolutePosition 540.234/146.992/-24.078
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipeline_60m_combi ***
+Object.create pipeline_60m_combi
+Object.absolutePosition 547.370/144.230/32.190
+Object.rotation 90.0/0.0/5.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipeline_60m_combi ***
+Object.create pipeline_60m_combi
+Object.absolutePosition 547.369/146.876/-27.324
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipeline_60m_combi ***
+Object.create pipeline_60m_combi
+Object.absolutePosition 540.234/149.527/-83.773
+Object.rotation 90.0/0.0/5.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipeline_60m_combi ***
+Object.create pipeline_60m_combi
+Object.absolutePosition 547.373/149.469/-87.541
+Object.rotation 90.0/0.0/5.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipeline_60m_combi ***
+Object.create pipeline_60m_combi
+Object.absolutePosition 495.241/153.811/-137.578
+Object.rotation -7.1/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipeline_60m_combi ***
+Object.create pipeline_60m_combi
+Object.absolutePosition 502.397/153.811/-141.347
+Object.rotation -7.1/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipeline_60m_combi ***
+Object.create pipeline_60m_combi
+Object.absolutePosition 436.167/151.227/-144.940
+Object.rotation -7.1/0.0/5.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipeline_60m_combi ***
+Object.create pipeline_60m_combi
+Object.absolutePosition 443.327/151.211/-148.710
+Object.rotation -7.1/0.0/5.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipeline_60m_combi ***
+Object.create pipeline_60m_combi
+Object.absolutePosition 376.983/148.660/-152.295
+Object.rotation -7.1/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipeline_60m_combi ***
+Object.create pipeline_60m_combi
+Object.absolutePosition 383.644/148.660/-156.126
+Object.rotation -7.1/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipeline_60m_combi ***
+Object.create pipeline_60m_combi
+Object.absolutePosition 317.869/146.072/-159.662
+Object.rotation -7.1/0.0/5.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipeline_60m_combi ***
+Object.create pipeline_60m_combi
+Object.absolutePosition 324.804/146.036/-163.460
+Object.rotation -7.1/0.0/5.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipeline_60m_combi ***
+Object.create pipeline_60m_combi
+Object.absolutePosition 258.584/141.356/-167.052
+Object.rotation -7.1/0.0/4.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipeline_60m_combi ***
+Object.create pipeline_60m_combi
+Object.absolutePosition 265.441/141.341/-170.859
+Object.rotation -7.1/0.0/4.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipeline_60m_combi ***
+Object.create pipeline_60m_combi
+Object.absolutePosition 199.223/139.307/-174.451
+Object.rotation -7.1/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipeline_60m_combi ***
+Object.create pipeline_60m_combi
+Object.absolutePosition 206.131/139.230/-178.250
+Object.rotation -7.1/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipeline_60m_combi ***
+Object.create pipeline_60m_combi
+Object.absolutePosition -421.727/146.595/-231.253
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipeline_60m_combi ***
+Object.create pipeline_60m_combi
+Object.absolutePosition -361.727/146.595/-231.253
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipeline_60m_combi ***
+Object.create pipeline_60m_combi
+Object.absolutePosition -303.449/146.033/-231.253
+Object.rotation 0.0/0.0/-1.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipeline_60m_combi ***
+Object.create pipeline_60m_combi
+Object.absolutePosition -243.550/144.477/-231.253
+Object.rotation 0.0/0.0/-2.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipeline_60m_combi ***
+Object.create pipeline_60m_combi
+Object.absolutePosition -183.541/143.440/-231.253
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipeline_60m_combi ***
+Object.create pipeline_60m_combi
+Object.absolutePosition -123.597/145.044/-231.253
+Object.rotation 0.0/0.0/3.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipeline_curvedown_combi ***
+Object.create pipeline_curvedown_combi
+Object.absolutePosition -79.234/145.903/-231.253
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** cable60m ***
+Object.create cable60m
+Object.absolutePosition -37.405/153.394/-115.815
+Object.rotation 82.3/2.1/0.4
+Object.layer 1
+
+rem *** cable30m ***
+Object.create cable30m
+Object.absolutePosition -45.237/152.461/-12.001
+Object.rotation 106.8/1.8/1.2
+Object.layer 1
+
+rem *** cable30m ***
+Object.create cable30m
+Object.absolutePosition -31.369/151.656/13.890
+Object.rotation 129.5/1.2/1.8
+Object.layer 1
+
+rem *** cable60m ***
+Object.create cable60m
+Object.absolutePosition -45.503/152.988/-56.199
+Object.rotation 82.3/2.1/0.4
+Object.layer 1
+
+rem *** cable30m ***
+Object.create cable30m
+Object.absolutePosition 34.055/151.726/76.001
+Object.rotation 141.4/0.9/-0.3
+Object.layer 1
+
+rem *** cable60m ***
+Object.create cable60m
+Object.absolutePosition 0.229/151.431/46.051
+Object.rotation 137.0/0.9/-0.4
+Object.layer 1
+
+rem *** cablepole ***
+Object.create cablepole
+Object.absolutePosition 45.979/147.610/84.914
+Object.rotation -111.0/0.0/0.0
+Object.layer 1
+
+rem *** cable60m ***
+Object.create cable60m
+Object.absolutePosition 55.296/151.887/113.811
+Object.rotation 108.3/0.6/-0.2
+Object.layer 1
+
+rem *** cablepole ***
+Object.create cablepole
+Object.absolutePosition 65.174/147.794/142.272
+Object.rotation -159.0/0.0/0.0
+Object.layer 1
+
+rem *** cable60m ***
+Object.create cable60m
+Object.absolutePosition 74.251/155.624/170.987
+Object.rotation 108.3/0.6/-7.0
+Object.layer 1
+
+rem *** cablepole ***
+Object.create cablepole
+Object.absolutePosition 84.109/155.116/199.439
+Object.rotation 161.8/0.0/0.0
+Object.layer 1
+
+rem *** cable30m ***
+Object.create cable30m
+Object.absolutePosition 88.474/159.993/213.429
+Object.rotation 108.7/2.4/-2.9
+Object.layer 1
+
+rem *** cable12m ***
+Object.create cable12m
+Object.absolutePosition 95.521/157.875/232.279
+Object.rotation 112.6/-2.7/28.7
+Object.layer 1
+
+rem *** cable12m ***
+Object.create cable12m
+Object.absolutePosition 87.461/157.266/195.239
+Object.rotation -134.9/-6.6/19.5
+Object.layer 1
+
+rem *** cable60m ***
+Object.create cable60m
+Object.absolutePosition -20.157/159.823/-172.023
+Object.rotation -116.8/0.9/-11.9
+Object.layer 1
+
+rem *** cablepole ***
+Object.create cablepole
+Object.absolutePosition -33.117/149.484/-145.675
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+
+rem *** cable60m ***
+Object.create cable60m
+Object.absolutePosition 35.533/162.655/-245.165
+Object.rotation -158.2/-2.0/17.6
+Object.layer 1
+
+rem *** cablepole ***
+Object.create cablepole
+Object.absolutePosition 62.169/149.292/-255.643
+Object.rotation 101.5/0.0/0.0
+Object.layer 1
+
+rem *** cable60m ***
+Object.create cable60m
+Object.absolutePosition 91.563/150.126/-261.348
+Object.rotation -169.9/0.6/6.6
+Object.layer 1
+
+rem *** cablepole ***
+Object.create cablepole
+Object.absolutePosition 121.063/142.484/-266.066
+Object.rotation 101.5/0.0/0.0
+Object.layer 1
+
+rem *** cable60m ***
+Object.create cable60m
+Object.absolutePosition 149.572/144.586/-275.458
+Object.rotation -162.7/-0.2/4.0
+Object.layer 1
+
+rem *** cablepole ***
+Object.create cablepole
+Object.absolutePosition 178.256/138.250/-283.900
+Object.rotation 101.5/0.0/0.0
+Object.layer 1
+
+rem *** cable30m ***
+Object.create cable30m
+Object.absolutePosition 242.124/144.057/-323.545
+Object.rotation -148.5/-1.1/0.1
+Object.layer 1
+
+rem *** cablepole ***
+Object.create cablepole
+Object.absolutePosition 229.514/139.920/-315.295
+Object.rotation 114.5/0.0/0.0
+Object.layer 1
+
+rem *** cable60m ***
+Object.create cable60m
+Object.absolutePosition 203.773/143.258/-300.037
+Object.rotation -148.5/-1.1/-1.5
+Object.layer 1
+
+rem *** cablepole ***
+Object.create cablepole
+Object.absolutePosition 309.000/145.830/-144.133
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+
+rem *** cable30m ***
+Object.create cable30m
+Object.absolutePosition 286.546/143.948/-430.538
+Object.rotation 57.7/0.0/0.0
+Object.layer 1
+
+rem *** cablepole ***
+Object.create cablepole
+Object.absolutePosition 274.656/139.830/-388.137
+Object.rotation -4.5/0.0/0.0
+Object.layer 1
+
+rem *** cable30m ***
+Object.create cable30m
+Object.absolutePosition 276.786/143.942/-402.938
+Object.rotation 83.4/0.0/0.0
+Object.layer 1
+
+rem *** cablepole ***
+Object.create cablepole
+Object.absolutePosition 278.135/139.830/-417.914
+Object.rotation -14.0/0.0/0.0
+Object.layer 1
+
+rem *** cable12m ***
+Object.create cable12m
+Object.absolutePosition 298.268/140.693/-446.386
+Object.rotation -137.9/2.7/33.2
+Object.layer 1
+
+rem *** lrg_trash_dumpster ***
+Object.create lrg_trash_dumpster
+Object.absolutePosition 88.331/153.532/246.263
+Object.rotation -28.1/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** flower_pot ***
+Object.create flower_pot
+Object.absolutePosition 94.598/152.595/250.134
+Object.rotation -25.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_house_01_signs ***
+Object.create ch_house_01_signs
+Object.absolutePosition 110.059/161.138/289.645
+Object.rotation -99.2/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_house_01_signs ***
+Object.create ch_house_01_signs
+Object.absolutePosition 99.425/155.141/245.919
+Object.rotation 159.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 4
+
+rem *** chair01_dest ***
+Object.create chair01_dest
+Object.absolutePosition 101.624/152.792/237.644
+Object.rotation 144.1/0.0/0.0
+Object.layer 1
+
+rem *** cart_dest ***
+Object.create cart_dest
+Object.absolutePosition 146.907/148.776/169.303
+Object.rotation 0.0/0.0/-0.6
+Object.layer 1
+
+rem *** sign_yieldright_dest ***
+Object.create sign_yieldright_dest
+Object.absolutePosition 152.105/144.182/132.628
+Object.layer 1
+
+rem *** cafechair_dest ***
+Object.create cafechair_dest
+Object.absolutePosition 109.625/158.839/288.647
+Object.rotation 168.3/0.0/0.0
+Object.layer 1
+
+rem *** cone_dest ***
+Object.create cone_dest
+Object.absolutePosition 258.000/135.381/-339.000
+Object.rotation 60.5/0.0/0.0
+Object.layer 1
+
+rem *** sign_streetcrossing_dest ***
+Object.create sign_streetcrossing_dest
+Object.absolutePosition 319.993/136.420/-471.677
+Object.rotation -18.5/0.0/0.0
+Object.layer 1
+
+rem *** cone_dest ***
+Object.create cone_dest
+Object.absolutePosition 259.000/135.381/-343.000
+Object.layer 1
+
+rem *** sign_yieldright_dest ***
+Object.create sign_yieldright_dest
+Object.absolutePosition 42.020/144.022/99.844
+Object.layer 1
+
+rem *** sign_streetcrossing_dest ***
+Object.create sign_streetcrossing_dest
+Object.absolutePosition 327.185/136.420/-461.011
+Object.rotation -18.5/0.0/0.0
+Object.layer 1
+
+rem *** cafechair_dest ***
+Object.create cafechair_dest
+Object.absolutePosition 111.044/158.839/288.796
+Object.rotation -156.1/0.0/0.0
+Object.layer 1
+
+rem *** plankstack_big_01 ***
+Object.create plankstack_big_01
+Object.absolutePosition -32.769/145.067/-183.310
+Object.rotation -9.4/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pallet ***
+Object.create pallet
+Object.absolutePosition -28.125/146.987/-223.064
+Object.rotation -2.4/69.7/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pallet ***
+Object.create pallet
+Object.absolutePosition -10.065/145.467/-208.471
+Object.rotation 5.0/0.0/0.0
+Object.layer 1
+
+rem *** plankstack_big_01 ***
+Object.create plankstack_big_01
+Object.absolutePosition 11.340/145.060/-196.690
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** woodencrate_1m ***
+Object.create woodencrate_1m
+Object.absolutePosition -68.656/146.062/-43.946
+Object.rotation -123.2/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 4
+
+rem *** boxesonpallet_01 ***
+Object.create boxesonpallet_01
+Object.absolutePosition -74.012/145.742/-49.019
+Object.rotation 32.8/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 4
+
+rem *** container_cargo_red ***
+Object.create container_cargo_red
+Object.absolutePosition -57.620/148.400/-225.012
+Object.rotation -163.5/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** container_cargo_red ***
+Object.create container_cargo_red
+Object.absolutePosition -64.006/145.785/-247.969
+Object.rotation 80.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** boxesonpallet_01 ***
+Object.create boxesonpallet_01
+Object.absolutePosition -38.490/145.735/-238.587
+Object.rotation -0.1/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** woodencrate_1m ***
+Object.create woodencrate_1m
+Object.absolutePosition -28.492/144.982/-205.378
+Object.rotation -123.2/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** woodencrate_1m ***
+Object.create woodencrate_1m
+Object.absolutePosition -27.251/144.982/-206.506
+Object.rotation -145.6/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** woodencrate_group1 ***
+Object.create woodencrate_group1
+Object.absolutePosition -48.817/145.007/-256.949
+Object.rotation 87.9/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fueltank_01 ***
+Object.create fueltank_01
+Object.absolutePosition -27.033/147.808/-183.742
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fueltank_01 ***
+Object.create fueltank_01
+Object.absolutePosition -28.949/145.601/-184.188
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fueltank_01 ***
+Object.create fueltank_01
+Object.absolutePosition -25.010/145.601/-183.742
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** woodencrate_group3 ***
+Object.create woodencrate_group3
+Object.absolutePosition -51.000/145.007/-255.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** woodencrate_4m ***
+Object.create woodencrate_4m
+Object.absolutePosition 52.000/145.765/-11.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_stnwalls_10m_up ***
+Object.create ch_stnwalls_10m_up
+Object.absolutePosition 297.000/132.555/-508.050
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_stnwalls_10m_up ***
+Object.create ch_stnwalls_10m_up
+Object.absolutePosition 150.050/156.046/261.000
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_stnwalls_10m_up ***
+Object.create ch_stnwalls_10m_up
+Object.absolutePosition 287.000/132.555/-485.950
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_stnwalls_10m_up ***
+Object.create ch_stnwalls_10m_up
+Object.absolutePosition 343.000/132.555/-508.000
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_stnwalls_10m_up ***
+Object.create ch_stnwalls_10m_up
+Object.absolutePosition 353.000/132.555/-508.000
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_stnwalls_10m_up ***
+Object.create ch_stnwalls_10m_up
+Object.absolutePosition 369.950/132.555/-441.000
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_stnwalls_10m_up ***
+Object.create ch_stnwalls_10m_up
+Object.absolutePosition 383.000/132.555/-508.050
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_stnwalls_10m_up ***
+Object.create ch_stnwalls_10m_up
+Object.absolutePosition 343.000/132.555/-485.950
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_stnwalls_10m_up ***
+Object.create ch_stnwalls_10m_up
+Object.absolutePosition 263.950/132.555/-499.000
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_stnwalls_10m_up ***
+Object.create ch_stnwalls_10m_up
+Object.absolutePosition 286.050/132.555/-535.000
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_stnwalls_10m_up ***
+Object.create ch_stnwalls_10m_up
+Object.absolutePosition 317.000/132.555/-508.050
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_stnwalls_10m_up ***
+Object.create ch_stnwalls_10m_up
+Object.absolutePosition 363.000/132.555/-508.000
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_stnwalls_10m_up ***
+Object.create ch_stnwalls_10m_up
+Object.absolutePosition 383.950/132.555/-475.000
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_stnwalls_10m_up ***
+Object.create ch_stnwalls_10m_up
+Object.absolutePosition 369.950/132.555/-451.000
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_stnwalls_10m_up ***
+Object.create ch_stnwalls_10m_up
+Object.absolutePosition 373.000/132.555/-508.000
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_stnwalls_corner_10m_up ***
+Object.create ch_stnwalls_corner_10m_up
+Object.absolutePosition 288.000/132.555/-510.000
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_stnwalls_invert_corner_10m_up ***
+Object.create ch_stnwalls_invert_corner_10m_up
+Object.absolutePosition 358.950/132.555/-427.050
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+
+rem *** ch_stnwalls_invert_corner_10m_up ***
+Object.create ch_stnwalls_invert_corner_10m_up
+Object.absolutePosition 147.050/156.046/271.050
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+
+rem *** ch_stnwalls_invert_corner_10m_up ***
+Object.create ch_stnwalls_invert_corner_10m_up
+Object.absolutePosition 372.950/132.555/-461.050
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+
+rem *** ch_stnwalls_invert_corner_10m_up ***
+Object.create ch_stnwalls_invert_corner_10m_up
+Object.absolutePosition 266.950/132.555/-488.950
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+
+rem *** ch_stnwalls_corner_10m_up ***
+Object.create ch_stnwalls_corner_10m_up
+Object.absolutePosition 354.000/132.555/-418.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_stnwalls_corner_10m_up ***
+Object.create ch_stnwalls_corner_10m_up
+Object.absolutePosition 382.000/132.555/-484.000
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_stnwalls_corner_10m_up ***
+Object.create ch_stnwalls_corner_10m_up
+Object.absolutePosition 368.000/132.555/-432.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_stnwalls_corner_10m_up ***
+Object.create ch_stnwalls_corner_10m_up
+Object.absolutePosition 382.000/132.555/-466.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_gas_station ***
+Object.create ch_gas_station
+Object.absolutePosition 326.829/143.037/-103.342
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** civiliancar2wreck ***
+Object.create civiliancar2wreck
+Object.absolutePosition 275.000/140.551/-114.000
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 4
+
+rem *** nc_pinebig01 ***
+Object.create nc_pinebig01
+Object.absolutePosition 211.790/159.444/228.389
+Object.rotation 0.0/35.6/-21.6
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** ch_wall_high_l_12m ***
+Object.create ch_wall_high_l_12m
+Object.absolutePosition 33.077/153.996/243.984
+Object.rotation -161.7/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_high_l_6m ***
+Object.create ch_wall_high_l_6m
+Object.absolutePosition 48.227/153.996/254.777
+Object.rotation -161.7/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_high_l_6m ***
+Object.create ch_wall_high_l_6m
+Object.absolutePosition 53.017/153.996/246.105
+Object.rotation 18.3/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** cable60m ***
+Object.create cable60m
+Object.absolutePosition 265.003/144.015/-359.722
+Object.rotation -109.5/-0.9/0.1
+Object.layer 1
+
+rem *** cablepole ***
+Object.create cablepole
+Object.absolutePosition 255.159/139.830/-330.985
+Object.rotation 114.5/0.0/0.0
+Object.layer 1
+
+rem *** cable60m ***
+Object.create cable60m
+Object.absolutePosition 250.335/144.032/-301.633
+Object.rotation 81.2/0.9/0.1
+Object.layer 1
+
+rem *** cablepole ***
+Object.create cablepole
+Object.absolutePosition 245.316/139.830/-272.011
+Object.layer 1
+
+rem *** cable60m ***
+Object.create cable60m
+Object.absolutePosition 247.044/144.133/-241.966
+Object.rotation 92.5/0.9/-0.3
+Object.layer 1
+
+rem *** cablepole ***
+Object.create cablepole
+Object.absolutePosition 247.743/140.019/-212.571
+Object.layer 1
+
+rem *** cable60m ***
+Object.create cable60m
+Object.absolutePosition 249.161/146.156/-182.133
+Object.rotation 91.5/0.8/-3.7
+Object.layer 1
+
+rem *** cablepole ***
+Object.create cablepole
+Object.absolutePosition 249.447/143.906/-152.256
+Object.layer 1
+
+rem *** cable60m ***
+Object.create cable60m
+Object.absolutePosition 279.298/149.042/-148.124
+Object.rotation 171.5/3.2/-1.9
+Object.layer 1
+
+rem *** cable40m ***
+Object.create cable40m
+Object.absolutePosition 319.741/146.182/-127.379
+Object.rotation 122.9/-1.7/11.1
+Object.layer 1
+
+rem *** ch_stnwalls_10m_stairs ***
+Object.create ch_stnwalls_10m_stairs
+Object.absolutePosition 307.000/132.555/-507.050
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_stnwalls_10m_stairs ***
+Object.create ch_stnwalls_10m_stairs
+Object.absolutePosition 277.000/132.555/-487.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x48m ***
+Object.create fence_corrugated_3x48m
+Object.absolutePosition 72.976/145.799/-8.168
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x48m ***
+Object.create fence_corrugated_3x48m
+Object.absolutePosition 32.168/145.799/-46.024
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_house_modern_01_v2 ***
+Object.create ch_house_modern_01_v2
+Object.absolutePosition 129.933/155.743/238.476
+Object.rotation 89.6/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_house_modern_01_v2_signs ***
+Object.create ch_house_modern_01_v2_signs
+Object.absolutePosition 129.900/156.411/243.651
+Object.rotation 89.6/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x48m ***
+Object.create fence_corrugated_3x48m
+Object.absolutePosition 73.024/145.799/-75.832
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_pole_3m ***
+Object.create fence_corrugated_pole_3m
+Object.absolutePosition 103.000/145.813/-58.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x12m ***
+Object.create fence_corrugated_3x12m
+Object.absolutePosition 102.832/145.799/-51.991
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_pole_3m ***
+Object.create fence_corrugated_pole_3m
+Object.absolutePosition 38.000/145.813/-8.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** barracksngl_02 ***
+Object.create barracksngl_02
+Object.absolutePosition 99.115/146.088/-43.150
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** barrackdbl_03 ***
+Object.create barrackdbl_03
+Object.absolutePosition 67.000/144.402/-72.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** barrackdbl_02 ***
+Object.create barrackdbl_02
+Object.absolutePosition 36.000/144.387/-33.000
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** barrackdbl_01 ***
+Object.create barrackdbl_01
+Object.absolutePosition 67.000/144.387/-14.000
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** barracksngl_01 ***
+Object.create barracksngl_01
+Object.absolutePosition 37.000/146.088/-47.000
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** barrackdbl_03 ***
+Object.create barrackdbl_03
+Object.absolutePosition 80.000/144.387/-14.000
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** oil_pump_static_02 ***
+Object.create oil_pump_static_02
+Object.absolutePosition 490.000/140.181/68.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** oil_pump_static_02 ***
+Object.create oil_pump_static_02
+Object.absolutePosition 234.413/143.126/-122.070
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** oil_pump_static_01 ***
+Object.create oil_pump_static_01
+Object.absolutePosition 772.476/145.460/193.116
+Object.rotation 80.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** oil_pump_static_01 ***
+Object.create oil_pump_static_01
+Object.absolutePosition 209.000/143.294/-124.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** oil_pump_foundation ***
+Object.create oil_pump_foundation
+Object.absolutePosition -100.890/147.514/-115.420
+Object.rotation -0.1/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** oil_pump_static_01 ***
+Object.create oil_pump_static_01
+Object.absolutePosition 240.958/143.294/-65.264
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_high_l_12m ***
+Object.create ch_wall_high_l_12m
+Object.absolutePosition 112.015/153.996/210.738
+Object.rotation 136.7/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_high_l_6m ***
+Object.create ch_wall_high_l_6m
+Object.absolutePosition 121.548/153.996/215.590
+Object.rotation 46.7/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_high_12m ***
+Object.create ch_wall_high_12m
+Object.absolutePosition 30.995/153.996/257.977
+Object.rotation 108.3/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_6x12m_corner_01 ***
+Object.create fence_corrugated_6x12m_corner_01
+Object.absolutePosition 324.000/140.363/182.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_6x12m_corner_01 ***
+Object.create fence_corrugated_6x12m_corner_01
+Object.absolutePosition 354.000/140.363/176.000
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_6x12m ***
+Object.create fence_corrugated_6x12m
+Object.absolutePosition 329.984/140.363/157.983
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_6x12m_corner_01 ***
+Object.create fence_corrugated_6x12m_corner_01
+Object.absolutePosition 348.000/140.363/158.000
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_6x12m ***
+Object.create fence_corrugated_6x12m
+Object.absolutePosition 354.017/140.363/169.984
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_6x12m_corner_01 ***
+Object.create fence_corrugated_6x12m_corner_01
+Object.absolutePosition 318.000/140.363/164.000
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_6x12m ***
+Object.create fence_corrugated_6x12m
+Object.absolutePosition 330.016/140.363/182.017
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_pole_6m ***
+Object.create fence_corrugated_pole_6m
+Object.absolutePosition 589.789/140.588/-12.961
+Object.rotation -90.1/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** oil_pump_foundation ***
+Object.create oil_pump_foundation
+Object.absolutePosition 589.789/140.591/-12.961
+Object.rotation -90.1/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** oil_pump_static_02 ***
+Object.create oil_pump_static_02
+Object.absolutePosition -178.099/147.620/-109.506
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** oil_pump_static_02 ***
+Object.create oil_pump_static_02
+Object.absolutePosition -105.000/147.620/-93.000
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** oil_pump_static_01 ***
+Object.create oil_pump_static_01
+Object.absolutePosition -111.000/147.787/-73.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_boathouse_01 ***
+Object.create ch_boathouse_01
+Object.absolutePosition 469.056/133.350/-272.738
+Object.rotation 156.4/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** wirefence_end ***
+Object.create wirefence_end
+Object.absolutePosition -154.000/156.645/12.000
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+
+rem *** ch_gas_pumps ***
+Object.create ch_gas_pumps
+Object.absolutePosition 303.000/140.755/-102.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_gas_pumps ***
+Object.create ch_gas_pumps
+Object.absolutePosition 315.798/140.755/-102.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_high_6m_win_hole ***
+Object.create ch_wall_high_6m_win_hole
+Object.absolutePosition 36.989/153.996/263.370
+Object.rotation 18.3/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** concretebarrier ***
+Object.create concretebarrier
+Object.absolutePosition -173.714/155.902/-11.667
+Object.rotation 4.6/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_high_end_12m ***
+Object.create ch_wall_high_end_12m
+Object.absolutePosition 343.634/136.494/-415.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_high_end_12m ***
+Object.create ch_wall_high_end_12m
+Object.absolutePosition 226.000/136.494/-476.634
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_high_l_6m ***
+Object.create ch_wall_high_l_6m
+Object.absolutePosition 229.366/136.494/-418.366
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_house_05_v3 ***
+Object.create ch_house_05_v3
+Object.absolutePosition 343.196/137.837/-427.473
+Object.rotation -42.1/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_house_05 ***
+Object.create ch_house_05
+Object.absolutePosition 362.182/137.822/-454.833
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** wirefence_end ***
+Object.create wirefence_end
+Object.absolutePosition -250.000/156.645/60.016
+Object.layer 1
+
+rem *** mi_sandbags_circle_half ***
+Object.create mi_sandbags_circle_half
+Object.absolutePosition 330.162/140.351/-80.000
+Object.rotation -130.9/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** concreteblock_helipad ***
+Object.create concreteblock_helipad
+Object.absolutePosition -173.000/156.814/505.000
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+
+rem *** concreteblock_helipad ***
+Object.create concreteblock_helipad
+Object.absolutePosition 329.000/139.808/-580.000
+Object.layer 1
+
+rem *** concreteblock_helipad ***
+Object.create concreteblock_helipad
+Object.absolutePosition 366.000/139.808/-577.000
+Object.layer 1
+
+rem *** concreteblock_helipad ***
+Object.create concreteblock_helipad
+Object.absolutePosition -228.000/173.813/343.000
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_shelter_mirror ***
+Object.create mi_sandbags_shelter_mirror
+Object.absolutePosition 292.000/136.167/-410.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** mi_hangar_us_v2 ***
+Object.create mi_hangar_us_v2
+Object.absolutePosition 394.205/146.385/-658.476
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** mi_hangar_us_v2 ***
+Object.create mi_hangar_us_v2
+Object.absolutePosition 394.205/146.385/-687.878
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** mi_guard_tower_mech ***
+Object.create mi_guard_tower_mech
+Object.absolutePosition -241.000/176.474/416.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** train_rail_48 ***
+Object.create train_rail_48
+Object.absolutePosition -112.693/146.973/26.815
+Object.rotation 149.0/5.3/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** train_rail_48 ***
+Object.create train_rail_48
+Object.absolutePosition -137.308/151.407/67.781
+Object.rotation 149.0/5.3/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** train_rail_48 ***
+Object.create train_rail_48
+Object.absolutePosition -161.923/155.841/108.747
+Object.rotation 149.0/5.3/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** train_rail_48 ***
+Object.create train_rail_48
+Object.absolutePosition -186.538/160.274/149.714
+Object.rotation 149.0/5.3/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** train_rail_48 ***
+Object.create train_rail_48
+Object.absolutePosition -211.154/164.708/190.682
+Object.rotation 149.0/5.3/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** train_rail_48 ***
+Object.create train_rail_48
+Object.absolutePosition -235.769/169.141/231.648
+Object.rotation 149.0/5.3/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** train_rail_48 ***
+Object.create train_rail_48
+Object.absolutePosition -260.383/173.575/272.613
+Object.rotation 149.0/5.3/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** train_rail_48 ***
+Object.create train_rail_48
+Object.absolutePosition -284.998/178.008/313.579
+Object.rotation 149.0/5.3/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** train_rail_48 ***
+Object.create train_rail_48
+Object.absolutePosition -309.611/182.442/354.543
+Object.rotation 149.0/5.3/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** train_rail_48 ***
+Object.create train_rail_48
+Object.absolutePosition -334.227/186.875/395.510
+Object.rotation 149.0/5.3/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** train_rail_48 ***
+Object.create train_rail_48
+Object.absolutePosition -358.842/191.309/436.477
+Object.rotation 149.0/5.3/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** train_rail_48 ***
+Object.create train_rail_48
+Object.absolutePosition -383.458/195.742/477.445
+Object.rotation 149.0/5.3/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** truck1wreck ***
+Object.create truck1wreck
+Object.absolutePosition 300.000/141.211/-102.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ambstat_OnlySmoke ***
+Object.create ambstat_OnlySmoke
+Object.absolutePosition 206.322/154.865/228.834
+Object.layer 1
+
+rem *** mi_sandbags_end ***
+Object.create mi_sandbags_end
+Object.absolutePosition 235.049/135.565/-408.000
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** mi_sandbags_corner_4m ***
+Object.create mi_sandbags_corner_4m
+Object.absolutePosition 231.797/135.573/-409.797
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** mi_sandbags_circle_half ***
+Object.create mi_sandbags_circle_half
+Object.absolutePosition 262.000/135.552/-410.000
+Object.rotation 6.5/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** mi_sandbags_end ***
+Object.create mi_sandbags_end
+Object.absolutePosition 0.000/144.964/0.000
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 4
+
+rem *** mi_sandbags_corner_4m ***
+Object.create mi_sandbags_corner_4m
+Object.absolutePosition 0.000/144.973/0.000
+Object.layer 1
+Object.setLightSourceMask 4
+
+rem *** mi_sandbags_corner_4m ***
+Object.create mi_sandbags_corner_4m
+Object.absolutePosition 0.000/144.973/0.000
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_end ***
+Object.create mi_sandbags_end
+Object.absolutePosition 0.000/144.964/0.000
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+
+rem *** lamppost_highway_01 ***
+Object.create lamppost_highway_01
+Object.absolutePosition 478.089/140.311/153.000
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** lamppost_highway_01 ***
+Object.create lamppost_highway_01
+Object.absolutePosition 314.709/142.737/-108.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** lamppost_highway_01 ***
+Object.create lamppost_highway_01
+Object.absolutePosition 314.709/142.737/-97.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** lamppost_highway_01 ***
+Object.create lamppost_highway_01
+Object.absolutePosition 304.089/142.946/-97.000
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_low_12m ***
+Object.create ch_wall_low_12m
+Object.absolutePosition 324.000/140.343/-605.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ind_powerstation_01 ***
+Object.create ind_powerstation_01
+Object.absolutePosition -245.801/176.925/316.049
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ind_powerstation_02 ***
+Object.create ind_powerstation_02
+Object.absolutePosition 39.980/146.468/-288.638
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ind_powerstation_02 ***
+Object.create ind_powerstation_02
+Object.absolutePosition 325.129/139.456/169.913
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** nc_medbush01 ***
+Object.create nc_medbush01
+Object.absolutePosition 33.837/153.381/267.591
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_leafybush01 ***
+Object.create nc_leafybush01
+Object.absolutePosition 74.302/156.622/277.254
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_leafybush01 ***
+Object.create nc_leafybush01
+Object.absolutePosition -9.790/153.410/273.795
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_leafybush01 ***
+Object.create nc_leafybush01
+Object.absolutePosition -156.038/167.612/167.991
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_medbush01 ***
+Object.create nc_medbush01
+Object.absolutePosition -11.286/153.374/283.457
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_leafybush01 ***
+Object.create nc_leafybush01
+Object.absolutePosition 147.432/153.318/256.005
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_leafybush01 ***
+Object.create nc_leafybush01
+Object.absolutePosition -12.785/153.410/285.053
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_leafybush01 ***
+Object.create nc_leafybush01
+Object.absolutePosition -202.916/167.987/122.247
+Object.rotation 45.0/9.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_pinebig01 ***
+Object.create nc_pinebig01
+Object.absolutePosition -12.811/157.857/287.045
+Object.rotation 90.0/2.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_pinebig01 ***
+Object.create nc_pinebig01
+Object.absolutePosition -159.718/172.241/158.177
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_leafybush01 ***
+Object.create nc_leafybush01
+Object.absolutePosition -163.295/167.985/153.825
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_leafybush01 ***
+Object.create nc_leafybush01
+Object.absolutePosition -208.201/168.119/131.707
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_pinebig01 ***
+Object.create nc_pinebig01
+Object.absolutePosition -208.576/172.495/132.189
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_pinebig01 ***
+Object.create nc_pinebig01
+Object.absolutePosition -209.908/171.540/131.350
+Object.rotation 90.0/2.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_leafybush01 ***
+Object.create nc_leafybush01
+Object.absolutePosition 30.391/153.472/280.899
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_leafybush01 ***
+Object.create nc_leafybush01
+Object.absolutePosition 49.657/153.318/251.150
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_leafybush01 ***
+Object.create nc_leafybush01
+Object.absolutePosition 98.824/153.318/236.249
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_leafybush01 ***
+Object.create nc_leafybush01
+Object.absolutePosition 112.664/159.353/276.090
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_birch01 ***
+Object.create nc_birch01
+Object.absolutePosition 113.655/166.805/299.194
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_birch01 ***
+Object.create nc_birch01
+Object.absolutePosition 134.655/160.809/233.194
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_birch01 ***
+Object.create nc_birch01
+Object.absolutePosition 99.886/160.194/236.005
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_oak01 ***
+Object.create nc_oak01
+Object.absolutePosition 36.624/150.722/103.134
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_leafybush01 ***
+Object.create nc_leafybush01
+Object.absolutePosition 111.568/153.876/271.268
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_leafybush01 ***
+Object.create nc_leafybush01
+Object.absolutePosition 111.866/158.773/275.247
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** concreteblock_helipad ***
+Object.create concreteblock_helipad
+Object.absolutePosition 17.000/144.432/-289.000
+Object.layer 1
+
+rem *** concreteblock_helipad ***
+Object.create concreteblock_helipad
+Object.absolutePosition 186.000/158.012/296.000
+Object.layer 1
+
+rem *** container_op_blue ***
+Object.create container_op_blue
+Object.absolutePosition -350.609/144.947/-116.232
+Object.rotation 45.2/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** daqing_t_intersection ***
+Object.create daqing_t_intersection
+Object.absolutePosition 256.000/139.603/-140.000
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+
+rem *** daqing_t_intersection ***
+Object.create daqing_t_intersection
+Object.absolutePosition -42.580/144.333/-152.615
+Object.rotation 97.7/0.0/0.0
+Object.layer 1
+
+rem *** daqing_t_intersection ***
+Object.create daqing_t_intersection
+Object.absolutePosition 574.838/137.299/-86.000
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+
+rem *** ind_powerstation_01 ***
+Object.create ind_powerstation_01
+Object.absolutePosition -202.024/158.523/44.708
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** concretebags_01 ***
+Object.create concretebags_01
+Object.absolutePosition 469.992/138.146/165.258
+Object.layer 1
+Object.setLightSourceMask 4
+
+rem *** nc_birch01 ***
+Object.create nc_birch01
+Object.absolutePosition 293.076/142.336/-418.232
+Object.rotation -112.5/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_birch01 ***
+Object.create nc_birch01
+Object.absolutePosition 218.876/143.307/-458.010
+Object.rotation -112.5/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** nc_birch01 ***
+Object.create nc_birch01
+Object.absolutePosition 232.593/142.693/-482.176
+Object.rotation -49.0/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** lrg_trash_dumpster ***
+Object.create lrg_trash_dumpster
+Object.absolutePosition -361.358/145.033/-133.027
+Object.rotation 74.2/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ind_powerstation_01 ***
+Object.create ind_powerstation_01
+Object.absolutePosition 339.732/140.548/169.116
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ind_powerstation_01 ***
+Object.create ind_powerstation_01
+Object.absolutePosition -177.801/158.523/45.049
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** chpowerstation ***
+Object.create chpowerstation
+Object.absolutePosition -186.000/165.409/20.000
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pagoda_02 ***
+Object.create pagoda_02
+Object.absolutePosition 342.720/134.804/-515.948
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pagoda_04 ***
+Object.create pagoda_04
+Object.absolutePosition 316.706/134.994/-515.819
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** wirefence_48m ***
+Object.create wirefence_48m
+Object.absolutePosition -268.000/156.645/29.923
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_l2 ***
+Object.create wirefence_l2
+Object.absolutePosition -265.242/156.645/57.165
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_48m ***
+Object.create wirefence_48m
+Object.absolutePosition -206.077/156.478/60.000
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+
+rem *** wirefence_24m ***
+Object.create wirefence_24m
+Object.absolutePosition -189.923/156.645/-14.000
+Object.layer 1
+
+rem *** wirefence_end ***
+Object.create wirefence_end
+Object.absolutePosition -182.000/156.478/60.000
+Object.layer 1
+
+rem *** mi_sandbags_circle_half ***
+Object.create mi_sandbags_circle_half
+Object.absolutePosition -212.000/155.953/21.000
+Object.rotation -95.5/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** concreteblock_helipad ***
+Object.create concreteblock_helipad
+Object.absolutePosition 498.000/137.413/223.000
+Object.rotation 90.0/0.0/0.0
+Object.layer 18
+
+rem *** ambstat_OnlySmoke ***
+Object.create ambstat_OnlySmoke
+Object.absolutePosition -42.834/242.368/-308.290
+Object.layer 1
+
+rem *** brickwall_20m ***
+Object.create brickwall_20m
+Object.absolutePosition 253.847/141.224/-95.203
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** brickwall_20m ***
+Object.create brickwall_20m
+Object.absolutePosition 331.000/141.232/-74.000
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** brickwall_20m ***
+Object.create brickwall_20m
+Object.absolutePosition 259.203/141.224/-125.031
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** brickwall_40m ***
+Object.create brickwall_40m
+Object.absolutePosition 336.000/141.240/-104.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** brickwall_40m ***
+Object.create brickwall_40m
+Object.absolutePosition 253.847/141.439/-64.202
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** brickwall_broken_30m ***
+Object.create brickwall_broken_30m
+Object.absolutePosition 253.847/141.224/-107.702
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** brickwall_broken_30m ***
+Object.create brickwall_broken_30m
+Object.absolutePosition 281.703/141.430/-54.004
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** brickwall_40m ***
+Object.create brickwall_40m
+Object.absolutePosition 264.202/141.439/-54.004
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** brickwall_40m ***
+Object.create brickwall_40m
+Object.absolutePosition 299.202/141.439/-54.004
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** brickwall_20m ***
+Object.create brickwall_20m
+Object.absolutePosition 253.847/141.224/-120.203
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** brickwall_40m ***
+Object.create brickwall_40m
+Object.absolutePosition 309.018/141.439/-64.202
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** brickwall_40m ***
+Object.create brickwall_40m
+Object.absolutePosition 335.847/141.240/-84.202
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** construct_metal_plate_ramp ***
+Object.create construct_metal_plate_ramp
+Object.absolutePosition -23.017/145.658/-200.495
+Object.rotation 40.7/12.7/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** construct_metal_plate_ramp ***
+Object.create construct_metal_plate_ramp
+Object.absolutePosition 54.804/145.900/-80.549
+Object.rotation 180.0/15.3/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** mi_hangar_us_v2 ***
+Object.create mi_hangar_us_v2
+Object.absolutePosition -56.000/161.788/526.000
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** mi_hangar_us_v2 ***
+Object.create mi_hangar_us_v2
+Object.absolutePosition -56.000/161.788/556.000
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** concreteblock_generic ***
+Object.create concreteblock_generic
+Object.absolutePosition -46.000/156.799/568.000
+Object.layer 1
+
+rem *** concreteblock_generic ***
+Object.create concreteblock_generic
+Object.absolutePosition -46.000/156.799/550.000
+Object.layer 1
+
+rem *** concreteblock_generic ***
+Object.create concreteblock_generic
+Object.absolutePosition -64.000/156.799/550.000
+Object.layer 1
+
+rem *** concreteblock_generic ***
+Object.create concreteblock_generic
+Object.absolutePosition -46.000/156.799/514.000
+Object.layer 1
+
+rem *** concreteblock_generic ***
+Object.create concreteblock_generic
+Object.absolutePosition -64.000/156.799/514.000
+Object.layer 1
+
+rem *** concreteblock_generic ***
+Object.create concreteblock_generic
+Object.absolutePosition -46.000/156.799/532.000
+Object.layer 1
+
+rem *** concreteblock_generic ***
+Object.create concreteblock_generic
+Object.absolutePosition -64.000/156.799/568.000
+Object.layer 1
+
+rem *** concreteblock_generic ***
+Object.create concreteblock_generic
+Object.absolutePosition -64.000/156.799/532.000
+Object.layer 1
+
+rem *** ch_stnwalls_30m_up ***
+Object.create ch_stnwalls_30m_up
+Object.absolutePosition 373.000/132.555/-485.950
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_stnwalls_30m_up ***
+Object.create ch_stnwalls_30m_up
+Object.absolutePosition 317.000/132.555/-485.950
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** mi_sandbags_quad ***
+Object.create mi_sandbags_quad
+Object.absolutePosition 211.000/135.567/-480.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** mi_sandbags_quad ***
+Object.create mi_sandbags_quad
+Object.absolutePosition 219.000/135.567/-421.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** mi_sandbags_quad ***
+Object.create mi_sandbags_quad
+Object.absolutePosition 202.000/135.567/-463.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** mi_sandbags_quad ***
+Object.create mi_sandbags_quad
+Object.absolutePosition 328.000/135.567/-410.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** mi_sandbags_quad ***
+Object.create mi_sandbags_quad
+Object.absolutePosition -213.304/167.672/228.603
+Object.rotation -180.0/0.0/0.0
+Object.layer 18
+Object.setLightSourceMask 6
+
+rem *** ch_wall_low_24m ***
+Object.create ch_wall_low_24m
+Object.absolutePosition 380.485/140.343/-574.000
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_low_24m ***
+Object.create ch_wall_low_24m
+Object.absolutePosition 330.000/140.343/-562.000
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_low_12m ***
+Object.create ch_wall_low_12m
+Object.absolutePosition 318.000/140.343/-580.000
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** container_op_red_cluster ***
+Object.create container_op_red_cluster
+Object.absolutePosition -353.750/144.947/-121.566
+Object.rotation 57.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_stnwalls_30m_up ***
+Object.create ch_stnwalls_30m_up
+Object.absolutePosition 137.000/156.046/274.050
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_high_48m ***
+Object.create ch_wall_high_48m
+Object.absolutePosition 226.000/136.494/-452.000
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** nc_oak01 ***
+Object.create nc_oak01
+Object.absolutePosition 320.419/147.530/-599.435
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** ch_house_modern_02_v2 ***
+Object.create ch_house_modern_02_v2
+Object.absolutePosition 332.528/140.456/-451.154
+Object.rotation -40.5/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_stnwalls_10m_up ***
+Object.create ch_stnwalls_10m_up
+Object.absolutePosition 263.950/132.555/-509.000
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_stnwalls_10m_up ***
+Object.create ch_stnwalls_10m_up
+Object.absolutePosition 263.950/132.555/-535.000
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_high_12m ***
+Object.create ch_wall_high_12m
+Object.absolutePosition 262.000/136.494/-415.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_high_end_12m ***
+Object.create ch_wall_high_end_12m
+Object.absolutePosition 300.634/136.494/-415.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** marketstand_1 ***
+Object.create marketstand_1
+Object.absolutePosition 262.174/136.931/-457.486
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** nc_birch01 ***
+Object.create nc_birch01
+Object.absolutePosition 359.156/143.307/-441.236
+Object.rotation 51.2/0.0/0.0
+Object.layer 1
+Object.isOvergrowth 1
+
+rem *** billboard_highway_02 ***
+Object.create billboard_highway_02
+Object.absolutePosition 46.000/148.399/-154.000
+Object.rotation 109.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_farm_03_v2 ***
+Object.create ch_farm_03_v2
+Object.absolutePosition 266.646/144.037/-62.286
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_pole_6m ***
+Object.create fence_corrugated_pole_6m
+Object.absolutePosition 459.976/138.710/104.359
+Object.rotation -177.8/0.0/-0.5
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** oil_pump_foundation ***
+Object.create oil_pump_foundation
+Object.absolutePosition 459.976/138.713/104.359
+Object.rotation -177.8/0.0/-0.5
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** container_cl_blue_trash ***
+Object.create container_cl_blue_trash
+Object.absolutePosition 486.084/138.347/164.315
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** lamppost_highway_01 ***
+Object.create lamppost_highway_01
+Object.absolutePosition 304.089/142.946/-108.000
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** lamppost_highway_01 ***
+Object.create lamppost_highway_01
+Object.absolutePosition 493.911/140.242/153.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x48m ***
+Object.create fence_corrugated_3x48m
+Object.absolutePosition 21.976/145.898/-180.168
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipeline_60m_combi ***
+Object.create pipeline_60m_combi
+Object.absolutePosition 139.706/141.414/-181.867
+Object.rotation -7.1/0.0/-4.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipeline_60m_combi ***
+Object.create pipeline_60m_combi
+Object.absolutePosition 146.716/141.326/-185.656
+Object.rotation -7.1/0.0/-4.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipeline_30m ***
+Object.create pipeline_30m
+Object.absolutePosition 95.346/146.878/-187.392
+Object.rotation -7.1/0.0/0.0
+Object.layer 1
+
+rem *** pipeline_30m ***
+Object.create pipeline_30m
+Object.absolutePosition 102.509/146.784/-191.162
+Object.rotation -7.1/0.0/0.0
+Object.layer 1
+
+rem *** pipeline_curvedown_combi ***
+Object.create pipeline_curvedown_combi
+Object.absolutePosition 73.209/142.736/-194.805
+Object.rotation -7.1/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipeline_curvedown_combi ***
+Object.create pipeline_curvedown_combi
+Object.absolutePosition 66.113/142.796/-191.026
+Object.rotation -7.1/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** pipeline_rig ***
+Object.create pipeline_rig
+Object.absolutePosition 115.702/143.285/-189.573
+Object.rotation -96.6/0.0/0.0
+Object.layer 1
+
+rem *** pipeline_rig ***
+Object.create pipeline_rig
+Object.absolutePosition 108.448/143.484/-185.698
+Object.rotation -96.6/0.0/0.0
+Object.layer 1
+
+rem *** fence_corrugated_3x72m ***
+Object.create fence_corrugated_3x72m
+Object.absolutePosition 22.009/145.837/-301.832
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x24m ***
+Object.create fence_corrugated_3x24m
+Object.absolutePosition 63.832/145.837/-283.991
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ind_powerstation_01 ***
+Object.create ind_powerstation_01
+Object.absolutePosition 52.199/147.559/-288.951
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_pole_3m ***
+Object.create fence_corrugated_pole_3m
+Object.absolutePosition 46.000/145.912/-180.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** container_cargo_red ***
+Object.create container_cargo_red
+Object.absolutePosition 28.968/145.785/-245.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ind_powerstation_02 ***
+Object.create ind_powerstation_02
+Object.absolutePosition -159.020/157.431/45.362
+Object.rotation 180.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** palletstack ***
+Object.create palletstack
+Object.absolutePosition -27.227/145.546/-240.746
+Object.rotation 90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** fence_corrugated_3x48m ***
+Object.create fence_corrugated_3x48m
+Object.absolutePosition -103.832/145.898/-269.024
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** container_cargo_red ***
+Object.create container_cargo_red
+Object.absolutePosition -56.220/145.785/-227.078
+Object.rotation 169.1/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** rockpile_small ***
+Object.create rockpile_small
+Object.absolutePosition -3.490/147.987/129.582
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_house_01 ***
+Object.create ch_house_01
+Object.absolutePosition 154.489/162.208/289.926
+Object.rotation 105.1/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_house_02 ***
+Object.create ch_house_02
+Object.absolutePosition 132.226/162.776/294.278
+Object.rotation -87.2/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ambstat_OnlySmoke ***
+Object.create ambstat_OnlySmoke
+Object.absolutePosition -11.722/243.380/-279.751
+Object.layer 1
+
+rem *** temple_01 ***
+Object.create temple_01
+Object.absolutePosition 349.102/142.527/-605.245
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_low_end ***
+Object.create ch_wall_low_end
+Object.absolutePosition 318.000/140.636/-586.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_wall_low_24m ***
+Object.create ch_wall_low_24m
+Object.absolutePosition 368.485/140.343/-562.000
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** woodencrate_4m ***
+Object.create woodencrate_4m
+Object.absolutePosition -338.863/145.368/-85.005
+Object.rotation 94.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** woodencrate_4m ***
+Object.create woodencrate_4m
+Object.absolutePosition -339.000/145.368/-87.000
+Object.rotation 89.3/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** container_cargo_red ***
+Object.create container_cargo_red
+Object.absolutePosition -310.081/147.884/-87.209
+Object.rotation -165.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** concretebarrier_3 ***
+Object.create concretebarrier_3
+Object.absolutePosition 117.267/152.996/258.211
+Object.rotation 1.0/0.1/0.5
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** concretebarrier_3 ***
+Object.create concretebarrier_3
+Object.absolutePosition 588.599/137.947/-85.706
+Object.rotation 1.0/0.1/0.5
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** container_cargo_red ***
+Object.create container_cargo_red
+Object.absolutePosition -54.000/145.759/-261.000
+Object.rotation 173.4/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** woodencrate_1m ***
+Object.create woodencrate_1m
+Object.absolutePosition -73.782/144.941/-253.570
+Object.layer 1
+Object.setLightSourceMask 4
+
+rem *** ch_gasstation_cistern ***
+Object.create ch_gasstation_cistern
+Object.absolutePosition 305.129/144.434/-67.895
+Object.rotation 25.4/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_gasstation_cistern ***
+Object.create ch_gasstation_cistern
+Object.absolutePosition -183.845/178.232/337.027
+Object.rotation 62.9/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_gasstation_cistern ***
+Object.create ch_gasstation_cistern
+Object.absolutePosition -183.974/178.232/344.914
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_gasstation_cistern ***
+Object.create ch_gasstation_cistern
+Object.absolutePosition -184.067/178.232/328.905
+Object.rotation 136.1/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_gasstation_cistern ***
+Object.create ch_gasstation_cistern
+Object.absolutePosition 98.129/148.828/-12.895
+Object.rotation 25.4/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_gasstation_cistern ***
+Object.create ch_gasstation_cistern
+Object.absolutePosition 304.565/144.434/-61.008
+Object.rotation -15.0/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_gasstation_cistern ***
+Object.create ch_gasstation_cistern
+Object.absolutePosition 98.885/148.828/-20.888
+Object.rotation -24.4/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_gasstation_cistern ***
+Object.create ch_gasstation_cistern
+Object.absolutePosition 297.885/144.434/-60.888
+Object.rotation -24.4/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ch_gasstation_cistern ***
+Object.create ch_gasstation_cistern
+Object.absolutePosition 90.885/148.828/-12.888
+Object.rotation -24.4/0.0/0.0
+Object.layer 1
+Object.setLightSourceMask 6
+
+rem *** ladder_10m_rak ***
+Object.create ladder_10m_rak
+Object.absolutePosition 73.537/146.596/-29.769
+Object.rotation -180.0/0.0/0.0
+Object.layer 1
+
+rem *** concreteblock_airstrip_long_endstr ***
+Object.create concreteblock_airstrip_long_endstr
+Object.absolutePosition 281.000/141.395/-658.000
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+
+rem *** concreteblock_airstrip_long_endstr ***
+Object.create concreteblock_airstrip_long_endstr
+Object.absolutePosition -172.000/156.799/556.000
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+
+rem *** concreteblock_airstrip_long_endstr ***
+Object.create concreteblock_airstrip_long_endstr
+Object.absolutePosition -172.000/156.799/526.000
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+
+rem *** concreteblock_airstrip_long_endstr ***
+Object.create concreteblock_airstrip_long_endstr
+Object.absolutePosition 281.000/141.395/-688.000
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+
+rem *** mi_sandbags_quad ***
+Object.create mi_sandbags_quad
+Object.absolutePosition -180.920/167.572/231.362
+Object.rotation -180.0/0.0/0.0
+Object.layer 18
+

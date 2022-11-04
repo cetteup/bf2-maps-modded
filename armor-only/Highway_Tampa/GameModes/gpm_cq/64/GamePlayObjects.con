@@ -1,0 +1,2314 @@
+rem ********** Object Spawner **********
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_ShahrUrmia_TransportHeli_US]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_ShahrUrmia_TransportHeli_US
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_ShahrUrmia_TransportHeli_US
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 usthe_uh60
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_ShahrUrmia_TransportHeli_US_0]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_ShahrUrmia_TransportHeli_US_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_ShahrUrmia_TransportHeli_US_0
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 USTHE_UH60
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_ShahrUrmia_LightJeep]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_ShahrUrmia_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_ShahrUrmia_LightJeep
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_MEC_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_ShahrUrmia_HeavyTank_US]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_ShahrUrmia_HeavyTank_US
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_ShahrUrmia_HeavyTank_US
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_ShahrUrmia_HeavyJeep]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_ShahrUrmia_HeavyJeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_ShahrUrmia_HeavyJeep
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_vodnik
+ObjectTemplate.setObjectTemplate 2 usjep_hmmwv
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_ShahrUrmia_LightJeep_0]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_ShahrUrmia_LightJeep_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_ShahrUrmia_LightJeep_0
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_MEC_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_Airfield_TransportHeli_MEC]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_Airfield_TransportHeli_MEC
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_Airfield_TransportHeli_MEC
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 THE_MI17
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_Airfield_TransportHeli_MEC_0]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_Airfield_TransportHeli_MEC_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_Airfield_TransportHeli_MEC_0
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 the_mi17
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_Airfield_HeavyTank_MEC]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_Airfield_HeavyTank_MEC
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_Airfield_HeavyTank_MEC
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 RUTNK_T90
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_Airfield_HeavyTank_MEC_0]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_Airfield_HeavyTank_MEC_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_Airfield_HeavyTank_MEC_0
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 RUTNK_T90
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_Airfield_HeavyTank_MEC_1]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_Airfield_HeavyTank_MEC_1
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_Airfield_HeavyTank_MEC_1
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 RUTNK_T90
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_Airfield_HeavyJeep]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_Airfield_HeavyJeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_Airfield_HeavyJeep
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_vodnik
+ObjectTemplate.setObjectTemplate 2 usjep_hmmwv
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_Airfield_LightJeep]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_Airfield_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_Airfield_LightJeep
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_MEC_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_Airfield_LightJeep_0]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_Airfield_LightJeep_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_Airfield_LightJeep_0
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_MEC_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_GasStation_LightJeep]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_GasStation_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_GasStation_LightJeep
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_MEC_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_VillageOfKuhlaz_HeavyJeep_0]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_VillageOfKuhlaz_HeavyJeep_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_VillageOfKuhlaz_HeavyJeep_0
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_vodnik
+ObjectTemplate.setObjectTemplate 2 usjep_hmmwv
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_VillageOfKuhlaz_LightJeep]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_VillageOfKuhlaz_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_VillageOfKuhlaz_LightJeep
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_MEC_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_VillageOfBuhifum_HeavyJeep]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_VillageOfBuhifum_HeavyJeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_VillageOfBuhifum_HeavyJeep
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_vodnik
+ObjectTemplate.setObjectTemplate 2 usjep_hmmwv
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_VillageOfBuhifum_LightJeep]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_VillageOfBuhifum_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_VillageOfBuhifum_LightJeep
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_MEC_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_CheckpointSouth_LightJeep]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_CheckpointSouth_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_CheckpointSouth_LightJeep
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_MEC_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_CheckpointSouth_APC]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_CheckpointSouth_APC
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_CheckpointSouth_APC
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 apc_btr90
+ObjectTemplate.setObjectTemplate 2 usapc_lav25
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_EastFishCamp_SpeedBoat]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_EastFishCamp_SpeedBoat
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_EastFishCamp_SpeedBoat
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 BOAT_RIB
+ObjectTemplate.setObjectTemplate 2 BOAT_RIB
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_EastFishCamp_SpeedBoat_0]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_EastFishCamp_SpeedBoat_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_EastFishCamp_SpeedBoat_0
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 BOAT_RIB
+ObjectTemplate.setObjectTemplate 2 BOAT_RIB
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_NorthFishCamp_SpeedBoat]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_NorthFishCamp_SpeedBoat
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_NorthFishCamp_SpeedBoat
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 BOAT_RIB
+ObjectTemplate.setObjectTemplate 2 BOAT_RIB
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_NorthFishCamp_SpeedBoat_0]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_NorthFishCamp_SpeedBoat_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_NorthFishCamp_SpeedBoat_0
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 BOAT_RIB
+ObjectTemplate.setObjectTemplate 2 BOAT_RIB
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_CheckpointWest_LightJeep]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_CheckpointWest_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_CheckpointWest_LightJeep
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_MEC_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_CheckpointWest_APC]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_CheckpointWest_APC
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_CheckpointWest_APC
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 apc_btr90
+ObjectTemplate.setObjectTemplate 2 usapc_lav25
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_CheckpointSouth_SpeedBoat]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_CheckpointSouth_SpeedBoat
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_CheckpointSouth_SpeedBoat
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 BOAT_RIB
+ObjectTemplate.setObjectTemplate 2 BOAT_RIB
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_CheckpointSouth_SpeedBoat_0]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_CheckpointSouth_SpeedBoat_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_CheckpointSouth_SpeedBoat_0
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 BOAT_RIB
+ObjectTemplate.setObjectTemplate 2 BOAT_RIB
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_Airfield_AA]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_Airfield_AA
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_Airfield_AA
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
+ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_ShahrUrmia_AA]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_ShahrUrmia_AA
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_ShahrUrmia_AA
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
+ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_Refinery_LightJeep]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_Refinery_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_Refinery_LightJeep
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_MEC_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_Airfield_APC_MEC]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_Airfield_APC_MEC
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_Airfield_APC_MEC
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 apc_btr90
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_ShahrUrmia_APC_US]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_ShahrUrmia_APC_US
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_ShahrUrmia_APC_US
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 usapc_lav25
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_ShahrUrmia_HeavyTank_US_0]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_ShahrUrmia_HeavyTank_US_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_ShahrUrmia_HeavyTank_US_0
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 ustnk_m1a2
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_ShahrUrmia_HeavyTank_US_1]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_ShahrUrmia_HeavyTank_US_1
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_ShahrUrmia_HeavyTank_US_1
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_VillageOfKuhlaz_HeavyTank_US]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_VillageOfKuhlaz_HeavyTank_US
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_VillageOfKuhlaz_HeavyTank_US
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_Airfield_AT]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_Airfield_AT
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_Airfield_AT
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ats_hj8
+ObjectTemplate.setObjectTemplate 2 ats_tow
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_VillageOfBuhifum_AT]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_VillageOfBuhifum_AT
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_VillageOfBuhifum_AT
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ATS_HJ8
+ObjectTemplate.setObjectTemplate 2 ATS_TOW
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_VillageOfBuhifum_AA]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_VillageOfBuhifum_AA
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_VillageOfBuhifum_AA
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
+ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_GasStation_AA]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_GasStation_AA
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_GasStation_AA
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
+ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_ShahrUrmia_AA_0]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_ShahrUrmia_AA_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_ShahrUrmia_AA_0
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
+ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_ShahrUrmia_UAV_US]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_ShahrUrmia_UAV_US
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_ShahrUrmia_UAV_US
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 aircontroltower
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_ShahrUrmia_RADAR_US]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_ShahrUrmia_RADAR_US
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_ShahrUrmia_RADAR_US
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 mobileradar_us_dest
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_ShahrUrmia_ART_US]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_ShahrUrmia_ART_US
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_ShahrUrmia_ART_US
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 USART_LW155
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_ShahrUrmia_ART_US_0]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_ShahrUrmia_ART_US_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_ShahrUrmia_ART_US_0
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 USART_LW155
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_ShahrUrmia_ART_US_1]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_ShahrUrmia_ART_US_1
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_ShahrUrmia_ART_US_1
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 USART_LW155
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_Airfield_UAV_MEC]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_Airfield_UAV_MEC
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_Airfield_UAV_MEC
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 aircontroltower_mec
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_Airfield_RADAR_MEC]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_Airfield_RADAR_MEC
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_Airfield_RADAR_MEC
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 mobileradar_mech_dest
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_Airfield_ART_MEC]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_Airfield_ART_MEC
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_Airfield_ART_MEC
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ARS_D30
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_Airfield_ART_MEC_0]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_Airfield_ART_MEC_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_Airfield_ART_MEC_0
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ARS_D30
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_Airfield_ART_MEC_1]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_Airfield_ART_MEC_1
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_Airfield_ART_MEC_1
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ARS_D30
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_EastFishCamp_AA]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_EastFishCamp_AA
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_EastFishCamp_AA
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
+ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_NorthFishCamp_AA]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_NorthFishCamp_AA
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_NorthFishCamp_AA
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
+ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_GasStation_HeavyTank_1]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_GasStation_HeavyTank_1
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_GasStation_HeavyTank_1
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 RUTNK_T90
+ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_VillageOfKuhlaz_HeavyTank]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_VillageOfKuhlaz_HeavyTank
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_VillageOfKuhlaz_HeavyTank
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 rutnk_t90
+ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_VillageOfBuhifum_HeavyTank]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_VillageOfBuhifum_HeavyTank
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_VillageOfBuhifum_HeavyTank
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 RUTNK_T90
+ObjectTemplate.setObjectTemplate 2 ustnk_m1a2
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_Refinery_HeavyTank]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_Refinery_HeavyTank
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_Refinery_HeavyTank
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 RUTNK_T90
+ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_GasStation_AT]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_GasStation_AT
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_GasStation_AT
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ATS_HJ8
+ObjectTemplate.setObjectTemplate 2 ATS_TOW
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_ShahrUrmia_AT]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_ShahrUrmia_AT
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_ShahrUrmia_AT
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ATS_HJ8
+ObjectTemplate.setObjectTemplate 2 ATS_TOW
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_ShahrUrmia_AT_0]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_ShahrUrmia_AT_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_ShahrUrmia_AT_0
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ATS_HJ8
+ObjectTemplate.setObjectTemplate 2 ATS_TOW
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_VillageOfBuhifum_HeavyTank_MEC]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_VillageOfBuhifum_HeavyTank_MEC
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_VillageOfBuhifum_HeavyTank_MEC
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 RUTNK_T90
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_ShahrUrmia_FighterBomber_US]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_ShahrUrmia_FighterBomber_US
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_ShahrUrmia_FighterBomber_US
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 usair_f18
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_Airfield_FighterBomber_MEC]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_Airfield_FighterBomber_MEC
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_Airfield_FighterBomber_MEC
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ruair_mig29
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_Refinery_AAVehicle]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_Refinery_AAVehicle
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_Refinery_AAVehicle
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 AAV_TUNGUSKA
+ObjectTemplate.setObjectTemplate 2 USAAV_M6
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_GasStation_AAVehicle]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_GasStation_AAVehicle
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_GasStation_AAVehicle
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 AAV_TUNGUSKA
+ObjectTemplate.setObjectTemplate 2 USAAV_M6
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_VillageOfKuhlaz_AA]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_VillageOfKuhlaz_AA
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_VillageOfKuhlaz_AA
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
+ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_Refinery_AT]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_Refinery_AT
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_Refinery_AT
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ATS_HJ8
+ObjectTemplate.setObjectTemplate 2 ATS_TOW
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_Refinery_AA]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_Refinery_AA
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_Refinery_AA
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
+ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_CheckpointWest_AA]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_CheckpointWest_AA
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_CheckpointWest_AA
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
+ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_CheckpointSouth_AA]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_CheckpointSouth_AA
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_CheckpointSouth_AA
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
+ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_CheckpointSouth_AT]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_CheckpointSouth_AT
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_CheckpointSouth_AT
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ATS_HJ8
+ObjectTemplate.setObjectTemplate 2 ATS_TOW
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_ShahrUrmia_HeavyTank_US_2]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_ShahrUrmia_HeavyTank_US_2
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_ShahrUrmia_HeavyTank_US_2
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_Airfield_HeavyTank_MEC_2]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_Airfield_HeavyTank_MEC_2
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_Airfield_HeavyTank_MEC_2
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 RUTNK_T90
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_ShahrUrmia_SpeedBoat]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_ShahrUrmia_SpeedBoat
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_ShahrUrmia_SpeedBoat
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 BOAT_RIB
+ObjectTemplate.setObjectTemplate 2 BOAT_RIB
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_Airfield_SpeedBoat]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_Airfield_SpeedBoat
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_Airfield_SpeedBoat
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 BOAT_RIB
+ObjectTemplate.setObjectTemplate 2 BOAT_RIB
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_GasStation_HeavyJeep]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_GasStation_HeavyJeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_GasStation_HeavyJeep
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_VODNIK
+ObjectTemplate.setObjectTemplate 2 USJEP_HMMWV
+
+rem [ObjectSpawnerTemplate: CPNAME_HT_64_Refinery_HeavyJeep]
+ObjectTemplate.create ObjectSpawner CPNAME_HT_64_Refinery_HeavyJeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_HT_64_Refinery_HeavyJeep
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_VODNIK
+ObjectTemplate.setObjectTemplate 2 USJEP_HMMWV
+
+if v_arg1 == host
+
+   rem [ObjectSpawner: CPNAME_HT_64_ShahrUrmia_TransportHeli_US]
+   Object.create CPNAME_HT_64_ShahrUrmia_TransportHeli_US
+   Object.absolutePosition 689.554/27.000/-452.067
+   Object.rotation -83.697/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_ShahrUrmia_TransportHeli_US_0]
+   Object.create CPNAME_HT_64_ShahrUrmia_TransportHeli_US_0
+   Object.absolutePosition 688.898/27.000/-424.570
+   Object.rotation -91.317/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_ShahrUrmia_LightJeep]
+   Object.create CPNAME_HT_64_ShahrUrmia_LightJeep
+   Object.absolutePosition 685.000/27.000/-382.000
+   Object.rotation -107.083/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_ShahrUrmia_HeavyTank_US]
+   Object.create CPNAME_HT_64_ShahrUrmia_HeavyTank_US
+   Object.absolutePosition 643.531/27.000/-504.670
+   Object.rotation -77.222/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_ShahrUrmia_HeavyJeep]
+   Object.create CPNAME_HT_64_ShahrUrmia_HeavyJeep
+   Object.absolutePosition 591.478/27.000/-542.934
+   Object.rotation 88.007/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_ShahrUrmia_LightJeep_0]
+   Object.create CPNAME_HT_64_ShahrUrmia_LightJeep_0
+   Object.absolutePosition 629.225/27.000/-553.301
+   Object.rotation -110.690/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_Airfield_TransportHeli_MEC]
+   Object.create CPNAME_HT_64_Airfield_TransportHeli_MEC
+   Object.absolutePosition -480.569/27.000/576.730
+   Object.rotation 124.366/0.000/0.000
+   Object.setControlPointId 302
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_Airfield_TransportHeli_MEC_0]
+   Object.create CPNAME_HT_64_Airfield_TransportHeli_MEC_0
+   Object.absolutePosition -479.620/27.000/539.610
+   Object.rotation 126.155/0.000/0.000
+   Object.setControlPointId 302
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_Airfield_HeavyTank_MEC]
+   Object.create CPNAME_HT_64_Airfield_HeavyTank_MEC
+   Object.absolutePosition -485.625/27.000/672.270
+   Object.rotation -180.000/0.000/0.000
+   Object.setControlPointId 302
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_Airfield_HeavyTank_MEC_0]
+   Object.create CPNAME_HT_64_Airfield_HeavyTank_MEC_0
+   Object.absolutePosition -478.017/27.000/672.077
+   Object.rotation -180.000/0.000/0.000
+   Object.setControlPointId 302
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_Airfield_HeavyTank_MEC_1]
+   Object.create CPNAME_HT_64_Airfield_HeavyTank_MEC_1
+   Object.absolutePosition -487.029/27.000/503.410
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 302
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_Airfield_HeavyJeep]
+   Object.create CPNAME_HT_64_Airfield_HeavyJeep
+   Object.absolutePosition -488.000/27.000/518.000
+   Object.rotation 118.397/0.000/0.000
+   Object.setControlPointId 302
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_Airfield_LightJeep]
+   Object.create CPNAME_HT_64_Airfield_LightJeep
+   Object.absolutePosition -500.679/27.000/650.696
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 302
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_Airfield_LightJeep_0]
+   Object.create CPNAME_HT_64_Airfield_LightJeep_0
+   Object.absolutePosition -388.176/27.000/664.792
+   Object.rotation 143.478/0.000/0.000
+   Object.setControlPointId 302
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_GasStation_LightJeep]
+   Object.create CPNAME_HT_64_GasStation_LightJeep
+   Object.absolutePosition -203.716/27.000/-503.351
+   Object.rotation -180.000/0.000/0.000
+   Object.setControlPointId 303
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_VillageOfKuhlaz_HeavyJeep_0]
+   Object.create CPNAME_HT_64_VillageOfKuhlaz_HeavyJeep_0
+   Object.absolutePosition 173.112/27.000/-624.177
+   Object.rotation -17.127/0.000/0.000
+   Object.setControlPointId 304
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_VillageOfKuhlaz_LightJeep]
+   Object.create CPNAME_HT_64_VillageOfKuhlaz_LightJeep
+   Object.absolutePosition 196.915/27.000/-602.633
+   Object.rotation -2.770/0.000/0.000
+   Object.setControlPointId 304
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_VillageOfBuhifum_HeavyJeep]
+   Object.create CPNAME_HT_64_VillageOfBuhifum_HeavyJeep
+   Object.absolutePosition -279.906/27.000/-4.562
+   Object.rotation -100.990/0.000/0.000
+   Object.setControlPointId 305
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_VillageOfBuhifum_LightJeep]
+   Object.create CPNAME_HT_64_VillageOfBuhifum_LightJeep
+   Object.absolutePosition -352.882/27.000/-10.487
+   Object.rotation 89.227/0.000/0.000
+   Object.setControlPointId 305
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_CheckpointSouth_LightJeep]
+   Object.create CPNAME_HT_64_CheckpointSouth_LightJeep
+   Object.absolutePosition -282.124/27.000/-774.660
+   Object.rotation -38.595/0.000/0.000
+   Object.setControlPointId 306
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_CheckpointSouth_APC]
+   Object.create CPNAME_HT_64_CheckpointSouth_APC
+   Object.absolutePosition -307.886/27.000/-772.437
+   Object.rotation -0.946/0.000/0.000
+   Object.setControlPointId 306
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_EastFishCamp_SpeedBoat]
+   Object.create CPNAME_HT_64_EastFishCamp_SpeedBoat
+   Object.absolutePosition 694.727/25.000/-54.342
+   Object.rotation 27.362/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_EastFishCamp_SpeedBoat_0]
+   Object.create CPNAME_HT_64_EastFishCamp_SpeedBoat_0
+   Object.absolutePosition 719.948/25.000/-70.480
+   Object.rotation 38.954/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_NorthFishCamp_SpeedBoat]
+   Object.create CPNAME_HT_64_NorthFishCamp_SpeedBoat
+   Object.absolutePosition -34.305/25.000/712.579
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 302
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_NorthFishCamp_SpeedBoat_0]
+   Object.create CPNAME_HT_64_NorthFishCamp_SpeedBoat_0
+   Object.absolutePosition -68.693/25.000/746.148
+   Object.rotation 17.274/0.000/0.000
+   Object.setControlPointId 302
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_CheckpointWest_LightJeep]
+   Object.create CPNAME_HT_64_CheckpointWest_LightJeep
+   Object.absolutePosition -737.000/27.000/-504.000
+   Object.rotation 92.694/0.000/0.000
+   Object.setControlPointId 309
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_CheckpointWest_APC]
+   Object.create CPNAME_HT_64_CheckpointWest_APC
+   Object.absolutePosition -724.000/27.000/-487.000
+   Object.rotation 170.676/0.000/0.000
+   Object.setControlPointId 309
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_CheckpointSouth_SpeedBoat]
+   Object.create CPNAME_HT_64_CheckpointSouth_SpeedBoat
+   Object.absolutePosition -366.218/25.000/-788.880
+   Object.rotation -91.202/0.000/0.000
+   Object.setControlPointId 306
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_CheckpointSouth_SpeedBoat_0]
+   Object.create CPNAME_HT_64_CheckpointSouth_SpeedBoat_0
+   Object.absolutePosition -366.362/25.000/-796.935
+   Object.rotation -91.299/0.000/0.000
+   Object.setControlPointId 306
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_Airfield_AA]
+   Object.create CPNAME_HT_64_Airfield_AA
+   Object.absolutePosition -427.000/27.000/638.000
+   Object.rotation 180.000/0.000/0.000
+   Object.setControlPointId 302
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_ShahrUrmia_AA]
+   Object.create CPNAME_HT_64_ShahrUrmia_AA
+   Object.absolutePosition 688.000/27.000/-410.000
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_Refinery_LightJeep]
+   Object.create CPNAME_HT_64_Refinery_LightJeep
+   Object.absolutePosition 111.143/27.000/-343.170
+   Object.rotation 0.141/0.000/0.000
+   Object.setControlPointId 310
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_Airfield_APC_MEC]
+   Object.create CPNAME_HT_64_Airfield_APC_MEC
+   Object.absolutePosition -497.000/27.000/511.000
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 302
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_ShahrUrmia_APC_US]
+   Object.create CPNAME_HT_64_ShahrUrmia_APC_US
+   Object.absolutePosition 596.000/27.000/-510.000
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_ShahrUrmia_HeavyTank_US_0]
+   Object.create CPNAME_HT_64_ShahrUrmia_HeavyTank_US_0
+   Object.absolutePosition 619.887/27.000/-444.906
+   Object.rotation -55.139/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_ShahrUrmia_HeavyTank_US_1]
+   Object.create CPNAME_HT_64_ShahrUrmia_HeavyTank_US_1
+   Object.absolutePosition 656.351/27.000/-485.641
+   Object.rotation -180.000/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_VillageOfKuhlaz_HeavyTank_US]
+   Object.create CPNAME_HT_64_VillageOfKuhlaz_HeavyTank_US
+   Object.absolutePosition 225.554/29.000/-607.190
+   Object.rotation -41.657/0.000/0.000
+   Object.setControlPointId 304
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_Airfield_AT]
+   Object.create CPNAME_HT_64_Airfield_AT
+   Object.absolutePosition -469.178/27.000/482.546
+   Object.rotation 137.333/0.000/0.000
+   Object.setControlPointId 302
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_VillageOfBuhifum_AT]
+   Object.create CPNAME_HT_64_VillageOfBuhifum_AT
+   Object.absolutePosition -327.753/27.000/24.752
+   Object.rotation 180.000/0.000/0.000
+   Object.setControlPointId 305
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_VillageOfBuhifum_AA]
+   Object.create CPNAME_HT_64_VillageOfBuhifum_AA
+   Object.absolutePosition -351.568/30.813/-2.351
+   Object.rotation 180.000/0.000/0.000
+   Object.setControlPointId 305
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_GasStation_AA]
+   Object.create CPNAME_HT_64_GasStation_AA
+   Object.absolutePosition -219.087/32.902/-492.064
+   Object.rotation 56.112/0.000/0.000
+   Object.setControlPointId 303
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_ShahrUrmia_AA_0]
+   Object.create CPNAME_HT_64_ShahrUrmia_AA_0
+   Object.absolutePosition 594.857/33.984/-460.272
+   Object.rotation -52.320/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_ShahrUrmia_UAV_US]
+   Object.create CPNAME_HT_64_ShahrUrmia_UAV_US
+   Object.absolutePosition 707.369/27.000/-373.054
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_ShahrUrmia_RADAR_US]
+   Object.create CPNAME_HT_64_ShahrUrmia_RADAR_US
+   Object.absolutePosition 633.866/27.928/-512.470
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_ShahrUrmia_ART_US]
+   Object.create CPNAME_HT_64_ShahrUrmia_ART_US
+   Object.absolutePosition 711.001/27.000/-467.735
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_ShahrUrmia_ART_US_0]
+   Object.create CPNAME_HT_64_ShahrUrmia_ART_US_0
+   Object.absolutePosition 642.528/27.000/-469.824
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_ShahrUrmia_ART_US_1]
+   Object.create CPNAME_HT_64_ShahrUrmia_ART_US_1
+   Object.absolutePosition 679.163/27.000/-489.593
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_Airfield_UAV_MEC]
+   Object.create CPNAME_HT_64_Airfield_UAV_MEC
+   Object.absolutePosition -502.867/27.000/615.721
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 302
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_Airfield_RADAR_MEC]
+   Object.create CPNAME_HT_64_Airfield_RADAR_MEC
+   Object.absolutePosition -504.054/27.948/495.331
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 302
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_Airfield_ART_MEC]
+   Object.create CPNAME_HT_64_Airfield_ART_MEC
+   Object.absolutePosition -373.736/27.000/683.906
+   Object.rotation 165.386/0.000/0.000
+   Object.setControlPointId 302
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_Airfield_ART_MEC_0]
+   Object.create CPNAME_HT_64_Airfield_ART_MEC_0
+   Object.absolutePosition -405.074/27.000/710.983
+   Object.rotation 111.194/0.000/0.000
+   Object.setControlPointId 302
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_Airfield_ART_MEC_1]
+   Object.create CPNAME_HT_64_Airfield_ART_MEC_1
+   Object.absolutePosition -365.867/27.000/713.631
+   Object.rotation 150.541/0.000/0.000
+   Object.setControlPointId 302
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_EastFishCamp_AA]
+   Object.create CPNAME_HT_64_EastFishCamp_AA
+   Object.absolutePosition 724.234/26.154/-73.427
+   Object.rotation -140.410/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_NorthFishCamp_AA]
+   Object.create CPNAME_HT_64_NorthFishCamp_AA
+   Object.absolutePosition -18.629/26.304/707.084
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 302
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_GasStation_HeavyTank_1]
+   Object.create CPNAME_HT_64_GasStation_HeavyTank_1
+   Object.absolutePosition -189.394/27.000/-497.222
+   Object.rotation -156.631/0.000/0.000
+   Object.setControlPointId 303
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_VillageOfKuhlaz_HeavyTank]
+   Object.create CPNAME_HT_64_VillageOfKuhlaz_HeavyTank
+   Object.absolutePosition 136.091/27.499/-642.651
+   Object.rotation -13.860/0.000/0.000
+   Object.setControlPointId 304
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_VillageOfBuhifum_HeavyTank]
+   Object.create CPNAME_HT_64_VillageOfBuhifum_HeavyTank
+   Object.absolutePosition -346.380/27.000/-38.013
+   Object.rotation 162.845/0.000/0.000
+   Object.setControlPointId 305
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_Refinery_HeavyTank]
+   Object.create CPNAME_HT_64_Refinery_HeavyTank
+   Object.absolutePosition 115.997/27.000/-322.069
+   Object.rotation -89.458/0.000/0.000
+   Object.setControlPointId 310
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_GasStation_AT]
+   Object.create CPNAME_HT_64_GasStation_AT
+   Object.absolutePosition -240.341/27.005/-524.000
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 303
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_ShahrUrmia_AT]
+   Object.create CPNAME_HT_64_ShahrUrmia_AT
+   Object.absolutePosition 598.030/26.992/-440.338
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_ShahrUrmia_AT_0]
+   Object.create CPNAME_HT_64_ShahrUrmia_AT_0
+   Object.absolutePosition 579.292/26.976/-487.966
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_VillageOfBuhifum_HeavyTank_MEC]
+   Object.create CPNAME_HT_64_VillageOfBuhifum_HeavyTank_MEC
+   Object.absolutePosition -351.079/27.000/23.122
+   Object.rotation 122.774/0.000/0.000
+   Object.setControlPointId 305
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_ShahrUrmia_FighterBomber_US]
+   Object.create CPNAME_HT_64_ShahrUrmia_FighterBomber_US
+   Object.absolutePosition 725.481/27.000/-504.664
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_Airfield_FighterBomber_MEC]
+   Object.create CPNAME_HT_64_Airfield_FighterBomber_MEC
+   Object.absolutePosition -444.822/27.000/676.441
+   Object.rotation -180.000/0.000/0.000
+   Object.setControlPointId 302
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_Refinery_AAVehicle]
+   Object.create CPNAME_HT_64_Refinery_AAVehicle
+   Object.absolutePosition 77.833/27.000/-328.446
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 310
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_GasStation_AAVehicle]
+   Object.create CPNAME_HT_64_GasStation_AAVehicle
+   Object.absolutePosition -236.691/27.000/-498.648
+   Object.rotation 180.000/0.000/0.000
+   Object.setControlPointId 303
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_VillageOfKuhlaz_AA]
+   Object.create CPNAME_HT_64_VillageOfKuhlaz_AA
+   Object.absolutePosition 186.131/30.776/-629.185
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 304
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_Refinery_AT]
+   Object.create CPNAME_HT_64_Refinery_AT
+   Object.absolutePosition 104.016/27.000/-310.029
+   Object.rotation -76.930/0.000/0.000
+   Object.setControlPointId 310
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_Refinery_AA]
+   Object.create CPNAME_HT_64_Refinery_AA
+   Object.absolutePosition 100.175/26.993/-294.008
+   Object.rotation -132.598/0.000/0.000
+   Object.setControlPointId 310
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_CheckpointWest_AA]
+   Object.create CPNAME_HT_64_CheckpointWest_AA
+   Object.absolutePosition -742.002/26.997/-553.853
+   Object.rotation 92.065/0.000/0.000
+   Object.setControlPointId 309
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_CheckpointSouth_AA]
+   Object.create CPNAME_HT_64_CheckpointSouth_AA
+   Object.absolutePosition -318.498/27.000/-760.649
+   Object.rotation 53.558/0.000/0.000
+   Object.setControlPointId 306
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_CheckpointSouth_AT]
+   Object.create CPNAME_HT_64_CheckpointSouth_AT
+   Object.absolutePosition -286.757/27.000/-744.559
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 306
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_ShahrUrmia_HeavyTank_US_2]
+   Object.create CPNAME_HT_64_ShahrUrmia_HeavyTank_US_2
+   Object.absolutePosition 622.188/27.000/-457.891
+   Object.rotation 180.000/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_Airfield_HeavyTank_MEC_2]
+   Object.create CPNAME_HT_64_Airfield_HeavyTank_MEC_2
+   Object.absolutePosition -391.934/27.000/617.566
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 302
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_ShahrUrmia_SpeedBoat]
+   Object.create CPNAME_HT_64_ShahrUrmia_SpeedBoat
+   Object.absolutePosition 686.006/25.000/-51.168
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_Airfield_SpeedBoat]
+   Object.create CPNAME_HT_64_Airfield_SpeedBoat
+   Object.absolutePosition -76.915/25.000/745.536
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 302
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_GasStation_HeavyJeep]
+   Object.create CPNAME_HT_64_GasStation_HeavyJeep
+   Object.absolutePosition -186.872/27.000/-514.935
+   Object.rotation -151.329/0.000/0.000
+   Object.setControlPointId 303
+   Object.layer 4
+
+   rem [ObjectSpawner: CPNAME_HT_64_Refinery_HeavyJeep]
+   Object.create CPNAME_HT_64_Refinery_HeavyJeep
+   Object.absolutePosition 103.432/27.000/-302.064
+   Object.rotation -117.694/0.000/0.000
+   Object.setControlPointId 310
+   Object.layer 4
+
+endIf
+
+rem ********** Spawn Points **********
+rem [SpawnPointTemplate: CPNAME_HT_64_ShahrUrmia_1]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_ShahrUrmia_1
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_ShahrUrmia_1
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 1
+ObjectTemplate.setControlPointId 301
+
+rem [SpawnPoint: CPNAME_HT_64_ShahrUrmia_1]
+Object.create CPNAME_HT_64_ShahrUrmia_1
+Object.absolutePosition 674.897/27.000/-378.968
+Object.rotation 150.242/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_ShahrUrmia_2]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_ShahrUrmia_2
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_ShahrUrmia_2
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 1
+ObjectTemplate.setControlPointId 301
+
+rem [SpawnPoint: CPNAME_HT_64_ShahrUrmia_2]
+Object.create CPNAME_HT_64_ShahrUrmia_2
+Object.absolutePosition 700.366/27.000/-378.220
+Object.rotation 100.359/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_ShahrUrmia_3]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_ShahrUrmia_3
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_ShahrUrmia_3
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 1
+ObjectTemplate.setControlPointId 301
+
+rem [SpawnPoint: CPNAME_HT_64_ShahrUrmia_3]
+Object.create CPNAME_HT_64_ShahrUrmia_3
+Object.absolutePosition 671.961/27.000/-422.255
+Object.rotation 88.618/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_ShahrUrmia_4]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_ShahrUrmia_4
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_ShahrUrmia_4
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 301
+
+rem [SpawnPoint: CPNAME_HT_64_ShahrUrmia_4]
+Object.create CPNAME_HT_64_ShahrUrmia_4
+Object.absolutePosition 636.528/27.000/-550.106
+Object.rotation -85.606/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_ShahrUrmia_5]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_ShahrUrmia_5
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_ShahrUrmia_5
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 301
+
+rem [SpawnPoint: CPNAME_HT_64_ShahrUrmia_5]
+Object.create CPNAME_HT_64_ShahrUrmia_5
+Object.absolutePosition 592.140/27.000/-555.330
+Object.rotation 87.535/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_ShahrUrmia_6]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_ShahrUrmia_6
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_ShahrUrmia_6
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 301
+
+rem [SpawnPoint: CPNAME_HT_64_ShahrUrmia_6]
+Object.create CPNAME_HT_64_ShahrUrmia_6
+Object.absolutePosition 587.715/27.000/-535.887
+Object.rotation 100.785/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_ShahrUrmia_7]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_ShahrUrmia_7
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_ShahrUrmia_7
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 301
+
+rem [SpawnPoint: CPNAME_HT_64_ShahrUrmia_7]
+Object.create CPNAME_HT_64_ShahrUrmia_7
+Object.absolutePosition 648.739/27.000/-518.233
+Object.rotation -6.106/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_ShahrUrmia_8]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_ShahrUrmia_8
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_ShahrUrmia_8
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 301
+
+rem [SpawnPoint: CPNAME_HT_64_ShahrUrmia_8]
+Object.create CPNAME_HT_64_ShahrUrmia_8
+Object.absolutePosition 598.962/27.000/-454.874
+Object.rotation 61.626/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_ShahrUrmia_9]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_ShahrUrmia_9
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_ShahrUrmia_9
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 301
+
+rem [SpawnPoint: CPNAME_HT_64_ShahrUrmia_9]
+Object.create CPNAME_HT_64_ShahrUrmia_9
+Object.absolutePosition 636.827/27.000/-513.270
+Object.rotation 12.663/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_Airfield_1]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_Airfield_1
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_Airfield_1
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 302
+
+rem [SpawnPoint: CPNAME_HT_64_Airfield_1]
+Object.create CPNAME_HT_64_Airfield_1
+Object.absolutePosition -496.093/27.747/590.187
+Object.rotation 87.246/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_Airfield_2]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_Airfield_2
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_Airfield_2
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 302
+
+rem [SpawnPoint: CPNAME_HT_64_Airfield_2]
+Object.create CPNAME_HT_64_Airfield_2
+Object.absolutePosition -497.862/27.000/664.029
+Object.rotation -176.859/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_Airfield_3]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_Airfield_3
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_Airfield_3
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 1
+ObjectTemplate.setControlPointId 302
+
+rem [SpawnPoint: CPNAME_HT_64_Airfield_3]
+Object.create CPNAME_HT_64_Airfield_3
+Object.absolutePosition -469.064/27.000/666.801
+Object.rotation -151.356/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_Airfield_4]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_Airfield_4
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_Airfield_4
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 1
+ObjectTemplate.setControlPointId 302
+
+rem [SpawnPoint: CPNAME_HT_64_Airfield_4]
+Object.create CPNAME_HT_64_Airfield_4
+Object.absolutePosition -502.041/27.000/529.294
+Object.rotation 135.320/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_Airfield_5]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_Airfield_5
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_Airfield_5
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 1
+ObjectTemplate.setControlPointId 302
+
+rem [SpawnPoint: CPNAME_HT_64_Airfield_5]
+Object.create CPNAME_HT_64_Airfield_5
+Object.absolutePosition -499.409/27.186/490.653
+Object.rotation -3.049/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_GasStation_1]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_GasStation_1
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_GasStation_1
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 303
+
+rem [SpawnPoint: CPNAME_HT_64_GasStation_1]
+Object.create CPNAME_HT_64_GasStation_1
+Object.absolutePosition -259.036/27.000/-492.488
+Object.rotation 172.414/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_GasStation_2]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_GasStation_2
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_GasStation_2
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 303
+
+rem [SpawnPoint: CPNAME_HT_64_GasStation_2]
+Object.create CPNAME_HT_64_GasStation_2
+Object.absolutePosition -196.177/27.000/-491.405
+Object.rotation 179.741/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_GasStation_3]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_GasStation_3
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_GasStation_3
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 303
+
+rem [SpawnPoint: CPNAME_HT_64_GasStation_3]
+Object.create CPNAME_HT_64_GasStation_3
+Object.absolutePosition -249.524/27.000/-502.545
+Object.rotation 106.436/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_VillageOfKuhlaz_1]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_VillageOfKuhlaz_1
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_VillageOfKuhlaz_1
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 304
+
+rem [SpawnPoint: CPNAME_HT_64_VillageOfKuhlaz_1]
+Object.create CPNAME_HT_64_VillageOfKuhlaz_1
+Object.absolutePosition 171.129/27.490/-634.260
+Object.rotation -31.372/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_VillageOfKuhlaz_2]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_VillageOfKuhlaz_2
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_VillageOfKuhlaz_2
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 304
+
+rem [SpawnPoint: CPNAME_HT_64_VillageOfKuhlaz_2]
+Object.create CPNAME_HT_64_VillageOfKuhlaz_2
+Object.absolutePosition 234.545/29.000/-612.191
+Object.rotation -74.811/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_VillageOfKuhlaz_3]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_VillageOfKuhlaz_3
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_VillageOfKuhlaz_3
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 304
+
+rem [SpawnPoint: CPNAME_HT_64_VillageOfKuhlaz_3]
+Object.create CPNAME_HT_64_VillageOfKuhlaz_3
+Object.absolutePosition 146.719/27.000/-621.894
+Object.rotation 92.556/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_VillageOfKuhlaz_4]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_VillageOfKuhlaz_4
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_VillageOfKuhlaz_4
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 304
+
+rem [SpawnPoint: CPNAME_HT_64_VillageOfKuhlaz_4]
+Object.create CPNAME_HT_64_VillageOfKuhlaz_4
+Object.absolutePosition 190.685/27.000/-627.632
+Object.rotation 0.477/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_VillageOfBuhifum_1]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_VillageOfBuhifum_1
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_VillageOfBuhifum_1
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 305
+
+rem [SpawnPoint: CPNAME_HT_64_VillageOfBuhifum_1]
+Object.create CPNAME_HT_64_VillageOfBuhifum_1
+Object.absolutePosition -279.275/27.000/12.182
+Object.rotation 170.203/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_VillageOfBuhifum_2]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_VillageOfBuhifum_2
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_VillageOfBuhifum_2
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 305
+
+rem [SpawnPoint: CPNAME_HT_64_VillageOfBuhifum_2]
+Object.create CPNAME_HT_64_VillageOfBuhifum_2
+Object.absolutePosition -356.600/27.000/31.119
+Object.rotation 92.017/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_VillageOfBuhifum_3]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_VillageOfBuhifum_3
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_VillageOfBuhifum_3
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 305
+
+rem [SpawnPoint: CPNAME_HT_64_VillageOfBuhifum_3]
+Object.create CPNAME_HT_64_VillageOfBuhifum_3
+Object.absolutePosition -356.121/27.000/-6.120
+Object.rotation 159.480/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_VillageOfBuhifum_4]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_VillageOfBuhifum_4
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_VillageOfBuhifum_4
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 305
+
+rem [SpawnPoint: CPNAME_HT_64_VillageOfBuhifum_4]
+Object.create CPNAME_HT_64_VillageOfBuhifum_4
+Object.absolutePosition -340.755/27.000/-35.416
+Object.rotation 73.996/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_VillageOfBuhifum_5]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_VillageOfBuhifum_5
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_VillageOfBuhifum_5
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 305
+
+rem [SpawnPoint: CPNAME_HT_64_VillageOfBuhifum_5]
+Object.create CPNAME_HT_64_VillageOfBuhifum_5
+Object.absolutePosition -267.000/27.000/-4.000
+Object.rotation -171.098/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_CheckpointSouth_1]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_CheckpointSouth_1
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_CheckpointSouth_1
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 306
+
+rem [SpawnPoint: CPNAME_HT_64_CheckpointSouth_1]
+Object.create CPNAME_HT_64_CheckpointSouth_1
+Object.absolutePosition -313.216/27.000/-787.897
+Object.rotation 75.847/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_CheckpointSouth_2]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_CheckpointSouth_2
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_CheckpointSouth_2
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 306
+
+rem [SpawnPoint: CPNAME_HT_64_CheckpointSouth_2]
+Object.create CPNAME_HT_64_CheckpointSouth_2
+Object.absolutePosition -317.611/27.000/-766.135
+Object.rotation 94.720/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_CheckpointSouth_3]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_CheckpointSouth_3
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_CheckpointSouth_3
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 306
+
+rem [SpawnPoint: CPNAME_HT_64_CheckpointSouth_3]
+Object.create CPNAME_HT_64_CheckpointSouth_3
+Object.absolutePosition -281.957/27.000/-744.098
+Object.rotation -103.431/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_EastFishCamp_1_0]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_EastFishCamp_1_0
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_EastFishCamp_1_0
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 3
+ObjectTemplate.setControlPointId 301
+
+rem [SpawnPoint: CPNAME_HT_64_EastFishCamp_1_0]
+Object.create CPNAME_HT_64_EastFishCamp_1_0
+Object.absolutePosition 703.685/25.800/-80.522
+Object.rotation 69.296/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_EastFishCamp_2_0]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_EastFishCamp_2_0
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_EastFishCamp_2_0
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 3
+ObjectTemplate.setControlPointId 301
+
+rem [SpawnPoint: CPNAME_HT_64_EastFishCamp_2_0]
+Object.create CPNAME_HT_64_EastFishCamp_2_0
+Object.absolutePosition 713.922/25.800/-103.119
+Object.rotation -27.958/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_EastFishCamp_3_0]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_EastFishCamp_3_0
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_EastFishCamp_3_0
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 3
+ObjectTemplate.setControlPointId 301
+
+rem [SpawnPoint: CPNAME_HT_64_EastFishCamp_3_0]
+Object.create CPNAME_HT_64_EastFishCamp_3_0
+Object.absolutePosition 695.853/25.800/-77.340
+Object.rotation -24.054/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_NorthFishCamp_1]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_NorthFishCamp_1
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_NorthFishCamp_1
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 3
+ObjectTemplate.setControlPointId 302
+
+rem [SpawnPoint: CPNAME_HT_64_NorthFishCamp_1]
+Object.create CPNAME_HT_64_NorthFishCamp_1
+Object.absolutePosition -85.439/26.700/724.088
+Object.rotation 73.118/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_NorthFishCamp_3]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_NorthFishCamp_3
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_NorthFishCamp_3
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 3
+ObjectTemplate.setControlPointId 302
+
+rem [SpawnPoint: CPNAME_HT_64_NorthFishCamp_3]
+Object.create CPNAME_HT_64_NorthFishCamp_3
+Object.absolutePosition -39.665/25.800/702.449
+Object.rotation -90.742/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_NorthFishCamp_4]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_NorthFishCamp_4
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_NorthFishCamp_4
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 3
+ObjectTemplate.setControlPointId 302
+
+rem [SpawnPoint: CPNAME_HT_64_NorthFishCamp_4]
+Object.create CPNAME_HT_64_NorthFishCamp_4
+Object.absolutePosition -65.366/26.700/725.277
+Object.rotation -18.916/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_CheckpointWest_1]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_CheckpointWest_1
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_CheckpointWest_1
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 309
+
+rem [SpawnPoint: CPNAME_HT_64_CheckpointWest_1]
+Object.create CPNAME_HT_64_CheckpointWest_1
+Object.absolutePosition -750.063/27.516/-527.114
+Object.rotation 159.879/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_CheckpointWest_2]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_CheckpointWest_2
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_CheckpointWest_2
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 309
+
+rem [SpawnPoint: CPNAME_HT_64_CheckpointWest_2]
+Object.create CPNAME_HT_64_CheckpointWest_2
+Object.absolutePosition -734.939/27.000/-542.060
+Object.rotation -65.128/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_CheckpointWest_3]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_CheckpointWest_3
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_CheckpointWest_3
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 309
+
+rem [SpawnPoint: CPNAME_HT_64_CheckpointWest_3]
+Object.create CPNAME_HT_64_CheckpointWest_3
+Object.absolutePosition -715.133/27.000/-535.536
+Object.rotation -68.634/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_CheckpointWest_4]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_CheckpointWest_4
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_CheckpointWest_4
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 309
+
+rem [SpawnPoint: CPNAME_HT_64_CheckpointWest_4]
+Object.create CPNAME_HT_64_CheckpointWest_4
+Object.absolutePosition -746.269/27.000/-496.424
+Object.rotation 168.914/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_Refinery_0_4]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_Refinery_0_4
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_Refinery_0_4
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 310
+
+rem [SpawnPoint: CPNAME_HT_64_Refinery_0_4]
+Object.create CPNAME_HT_64_Refinery_0_4
+Object.absolutePosition 109.136/27.064/-278.005
+Object.rotation 178.789/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_Refinery_0_5]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_Refinery_0_5
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_Refinery_0_5
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 310
+
+rem [SpawnPoint: CPNAME_HT_64_Refinery_0_5]
+Object.create CPNAME_HT_64_Refinery_0_5
+Object.absolutePosition 119.599/27.000/-304.500
+Object.rotation -103.356/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_Refinery_1]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_Refinery_1
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_Refinery_1
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 310
+
+rem [SpawnPoint: CPNAME_HT_64_Refinery_1]
+Object.create CPNAME_HT_64_Refinery_1
+Object.absolutePosition 123.564/26.975/-314.683
+Object.rotation -170.021/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_Airfield_6]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_Airfield_6
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_Airfield_6
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 1
+ObjectTemplate.setControlPointId 302
+
+rem [SpawnPoint: CPNAME_HT_64_Airfield_6]
+Object.create CPNAME_HT_64_Airfield_6
+Object.absolutePosition -506.062/27.000/522.082
+Object.rotation 177.714/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_Airfield_7]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_Airfield_7
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_Airfield_7
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 302
+
+rem [SpawnPoint: CPNAME_HT_64_Airfield_7]
+Object.create CPNAME_HT_64_Airfield_7
+Object.absolutePosition -500.833/27.000/603.150
+Object.rotation 87.128/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_Airfield_9]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_Airfield_9
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_Airfield_9
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 1
+ObjectTemplate.setControlPointId 302
+
+rem [SpawnPoint: CPNAME_HT_64_Airfield_9]
+Object.create CPNAME_HT_64_Airfield_9
+Object.absolutePosition -428.000/27.000/652.000
+Object.rotation -80.946/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_Airfield_10]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_Airfield_10
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_Airfield_10
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 302
+
+rem [SpawnPoint: CPNAME_HT_64_Airfield_10]
+Object.create CPNAME_HT_64_Airfield_10
+Object.absolutePosition -385.934/27.000/624.574
+Object.rotation -54.620/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_Airfield_11]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_Airfield_11
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_Airfield_11
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 302
+
+rem [SpawnPoint: CPNAME_HT_64_Airfield_11]
+Object.create CPNAME_HT_64_Airfield_11
+Object.absolutePosition -387.382/27.000/675.387
+Object.rotation 166.422/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_ShahrUrmia_10]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_ShahrUrmia_10
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_ShahrUrmia_10
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 1
+ObjectTemplate.setControlPointId 301
+
+rem [SpawnPoint: CPNAME_HT_64_ShahrUrmia_10]
+Object.create CPNAME_HT_64_ShahrUrmia_10
+Object.absolutePosition 709.105/27.000/-423.760
+Object.rotation -91.691/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_ShahrUrmia_11]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_ShahrUrmia_11
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_ShahrUrmia_11
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 1
+ObjectTemplate.setControlPointId 301
+
+rem [SpawnPoint: CPNAME_HT_64_ShahrUrmia_11]
+Object.create CPNAME_HT_64_ShahrUrmia_11
+Object.absolutePosition 671.064/27.000/-458.713
+Object.rotation 57.447/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_CheckpointWest_5]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_CheckpointWest_5
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_CheckpointWest_5
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 309
+
+rem [SpawnPoint: CPNAME_HT_64_CheckpointWest_5]
+Object.create CPNAME_HT_64_CheckpointWest_5
+Object.absolutePosition -707.177/27.517/-500.637
+Object.rotation -21.531/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_ShahrUrmia_12]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_ShahrUrmia_12
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_ShahrUrmia_12
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 301
+
+rem [SpawnPoint: CPNAME_HT_64_ShahrUrmia_12]
+Object.create CPNAME_HT_64_ShahrUrmia_12
+Object.absolutePosition 644.315/27.000/-482.793
+Object.rotation 160.217/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_ShahrUrmia_13]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_ShahrUrmia_13
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_ShahrUrmia_13
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 1
+ObjectTemplate.setControlPointId 301
+
+rem [SpawnPoint: CPNAME_HT_64_ShahrUrmia_13]
+Object.create CPNAME_HT_64_ShahrUrmia_13
+Object.absolutePosition 712.087/27.000/-496.097
+Object.rotation 101.715/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_Refinery_6]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_Refinery_6
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_Refinery_6
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 310
+
+rem [SpawnPoint: CPNAME_HT_64_Refinery_6]
+Object.create CPNAME_HT_64_Refinery_6
+Object.absolutePosition 74.166/27.000/-345.709
+Object.rotation 31.849/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: CPNAME_HT_64_Refinery_7]
+ObjectTemplate.create SpawnPoint CPNAME_HT_64_Refinery_7
+ObjectTemplate.activeSafe SpawnPoint CPNAME_HT_64_Refinery_7
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 310
+
+rem [SpawnPoint: CPNAME_HT_64_Refinery_7]
+Object.create CPNAME_HT_64_Refinery_7
+Object.absolutePosition 77.429/27.000/-323.306
+Object.rotation 146.479/0.000/0.000
+Object.layer 4
+
+rem ********** Control Points **********
+rem [ControlPointTemplate: CPNAME_HT_64_ShahrUrmia]
+ObjectTemplate.create ControlPoint CPNAME_HT_64_ShahrUrmia
+ObjectTemplate.activeSafe ControlPoint CPNAME_HT_64_ShahrUrmia
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CPNAME_HT_64_ShahrUrmia
+ObjectTemplate.radius 10
+ObjectTemplate.team 2
+ObjectTemplate.controlPointId 301
+ObjectTemplate.areaValueTeam1 20
+ObjectTemplate.areaValueTeam2 20
+ObjectTemplate.timeToGetControl 40
+ObjectTemplate.timeToLoseControl 40
+ObjectTemplate.unableToChangeTeam 1
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: CPNAME_HT_64_Airfield]
+ObjectTemplate.create ControlPoint CPNAME_HT_64_Airfield
+ObjectTemplate.activeSafe ControlPoint CPNAME_HT_64_Airfield
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CPNAME_HT_64_Airfield
+ObjectTemplate.radius 15
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 302
+ObjectTemplate.areaValueTeam1 20
+ObjectTemplate.areaValueTeam2 20
+ObjectTemplate.timeToGetControl 40
+ObjectTemplate.timeToLoseControl 40
+ObjectTemplate.unableToChangeTeam 1
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: CPNAME_HT_64_GasStation]
+ObjectTemplate.create ControlPoint CPNAME_HT_64_GasStation
+ObjectTemplate.activeSafe ControlPoint CPNAME_HT_64_GasStation
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CPNAME_HT_64_GasStation
+ObjectTemplate.radius 13
+ObjectTemplate.controlPointId 303
+ObjectTemplate.areaValueTeam1 20
+ObjectTemplate.areaValueTeam2 20
+ObjectTemplate.timeToGetControl 20
+ObjectTemplate.timeToLoseControl 20
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: CPNAME_HT_64_VillageOfKuhlaz]
+ObjectTemplate.create ControlPoint CPNAME_HT_64_VillageOfKuhlaz
+ObjectTemplate.activeSafe ControlPoint CPNAME_HT_64_VillageOfKuhlaz
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CPNAME_HT_64_VillageOfKuhlaz
+ObjectTemplate.radius 13
+ObjectTemplate.controlPointId 304
+ObjectTemplate.areaValueTeam1 20
+ObjectTemplate.areaValueTeam2 20
+ObjectTemplate.timeToGetControl 20
+ObjectTemplate.timeToLoseControl 20
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: CPNAME_HT_64_VillageOfBuhifum]
+ObjectTemplate.create ControlPoint CPNAME_HT_64_VillageOfBuhifum
+ObjectTemplate.activeSafe ControlPoint CPNAME_HT_64_VillageOfBuhifum
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CPNAME_HT_64_VillageOfBuhifum
+ObjectTemplate.radius 13
+ObjectTemplate.controlPointId 305
+ObjectTemplate.areaValueTeam1 20
+ObjectTemplate.areaValueTeam2 20
+ObjectTemplate.timeToGetControl 20
+ObjectTemplate.timeToLoseControl 20
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: CPNAME_HT_64_CheckpointSouth]
+ObjectTemplate.create ControlPoint CPNAME_HT_64_CheckpointSouth
+ObjectTemplate.activeSafe ControlPoint CPNAME_HT_64_CheckpointSouth
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CPNAME_HT_64_CheckpointSouth
+ObjectTemplate.radius 10
+ObjectTemplate.controlPointId 306
+ObjectTemplate.areaValueTeam1 20
+ObjectTemplate.areaValueTeam2 20
+ObjectTemplate.timeToGetControl 20
+ObjectTemplate.timeToLoseControl 20
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: CPNAME_HT_64_CheckpointWest]
+ObjectTemplate.create ControlPoint CPNAME_HT_64_CheckpointWest
+ObjectTemplate.activeSafe ControlPoint CPNAME_HT_64_CheckpointWest
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CPNAME_HT_64_CheckpointWest
+ObjectTemplate.radius 13
+ObjectTemplate.controlPointId 309
+ObjectTemplate.areaValueTeam1 20
+ObjectTemplate.areaValueTeam2 20
+ObjectTemplate.timeToGetControl 20
+ObjectTemplate.timeToLoseControl 20
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: CPNAME_HT_64_Refinery]
+ObjectTemplate.create ControlPoint CPNAME_HT_64_Refinery
+ObjectTemplate.activeSafe ControlPoint CPNAME_HT_64_Refinery
+ObjectTemplate.modifiedByUser "bsundell"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CPNAME_HT_64_Refinery
+ObjectTemplate.radius 13
+ObjectTemplate.controlPointId 310
+ObjectTemplate.areaValueTeam1 20
+ObjectTemplate.areaValueTeam2 20
+ObjectTemplate.timeToGetControl 20
+ObjectTemplate.timeToLoseControl 20
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+if v_arg1 == host
+
+   rem [ControlPoint: CPNAME_HT_64_ShahrUrmia]
+   Object.create CPNAME_HT_64_ShahrUrmia
+   Object.absolutePosition 608.000/27.216/-526.000
+   Object.layer 4
+
+   rem [ControlPoint: CPNAME_HT_64_Airfield]
+   Object.create CPNAME_HT_64_Airfield
+   Object.absolutePosition -492.989/27.000/636.514
+   Object.layer 4
+
+   rem [ControlPoint: CPNAME_HT_64_GasStation]
+   Object.create CPNAME_HT_64_GasStation
+   Object.absolutePosition -231.735/27.000/-503.514
+   Object.layer 4
+
+   rem [ControlPoint: CPNAME_HT_64_VillageOfKuhlaz]
+   Object.create CPNAME_HT_64_VillageOfKuhlaz
+   Object.absolutePosition 176.851/27.000/-614.270
+   Object.layer 4
+
+   rem [ControlPoint: CPNAME_HT_64_VillageOfBuhifum]
+   Object.create CPNAME_HT_64_VillageOfBuhifum
+   Object.absolutePosition -290.678/27.000/-21.053
+   Object.layer 4
+
+   rem [ControlPoint: CPNAME_HT_64_CheckpointSouth]
+   Object.create CPNAME_HT_64_CheckpointSouth
+   Object.absolutePosition -284.592/27.000/-781.112
+   Object.layer 4
+
+   rem [ControlPoint: CPNAME_HT_64_CheckpointWest]
+   Object.create CPNAME_HT_64_CheckpointWest
+   Object.absolutePosition -729.000/27.000/-497.000
+   Object.layer 4
+
+   rem [ControlPoint: CPNAME_HT_64_Refinery]
+   Object.create CPNAME_HT_64_Refinery
+   Object.absolutePosition 105.940/27.000/-333.942
+   Object.layer 4
+
+endIf
+
+CombatAreaManager.use 1
+CombatAreaManager.damage 5.000000
+CombatAreaManager.timeAllowedOutside 10.000000
+CombatArea.create CombatArea_63_64
+CombatArea.min 0.000000/0.000000
+CombatArea.max 0.000000/0.000000
+CombatArea.addAreaPoint 1009.390747/-1012.152161
+CombatArea.addAreaPoint 1003.086914/1015.855713
+CombatArea.addAreaPoint -1007.255859/1011.789185
+CombatArea.addAreaPoint -1011.971985/-1007.712524
+CombatArea.team 0
+CombatArea.vehicles 2
+CombatArea.layer 4
+
+CombatArea.create CombatArea_67_64
+CombatArea.min 0.000000/0.000000
+CombatArea.max 0.000000/0.000000
+CombatArea.addAreaPoint 904.858154/-133.226135
+CombatArea.addAreaPoint 890.744263/-71.766174
+CombatArea.addAreaPoint 855.485718/8.813354
+CombatArea.addAreaPoint 773.774658/114.693115
+CombatArea.addAreaPoint 530.627197/393.047485
+CombatArea.addAreaPoint 260.620361/704.204102
+CombatArea.addAreaPoint 161.122559/796.985962
+CombatArea.addAreaPoint 55.717407/845.562622
+CombatArea.addAreaPoint -43.657654/866.223267
+CombatArea.addAreaPoint -101.880188/880.499512
+CombatArea.addAreaPoint -149.274475/880.391113
+CombatArea.addAreaPoint -310.971558/874.654541
+CombatArea.addAreaPoint -450.861145/856.838501
+CombatArea.addAreaPoint -640.789917/809.939209
+CombatArea.addAreaPoint -710.549866/772.039307
+CombatArea.addAreaPoint -762.092651/716.995239
+CombatArea.addAreaPoint -801.631653/645.392822
+CombatArea.addAreaPoint -840.252319/511.302368
+CombatArea.addAreaPoint -872.947021/286.580933
+CombatArea.addAreaPoint -922.803467/-154.406738
+CombatArea.addAreaPoint -929.534912/-379.453613
+CombatArea.addAreaPoint -904.899109/-573.534790
+CombatArea.addAreaPoint -875.959167/-675.100281
+CombatArea.addAreaPoint -818.696533/-811.620728
+CombatArea.addAreaPoint -762.479980/-871.999512
+CombatArea.addAreaPoint -687.978760/-923.522034
+CombatArea.addAreaPoint -595.707458/-959.992249
+CombatArea.addAreaPoint -517.311768/-965.607239
+CombatArea.addAreaPoint -373.793762/-967.689453
+CombatArea.addAreaPoint 262.474854/-958.800537
+CombatArea.addAreaPoint 628.423706/-939.119690
+CombatArea.addAreaPoint 712.230347/-923.999939
+CombatArea.addAreaPoint 780.943359/-895.084961
+CombatArea.addAreaPoint 830.442261/-847.488403
+CombatArea.addAreaPoint 868.111206/-772.199890
+CombatArea.addAreaPoint 895.635132/-662.901489
+CombatArea.addAreaPoint 907.404663/-491.094421
+CombatArea.team 0
+CombatArea.vehicles 4
+CombatArea.layer 4
+

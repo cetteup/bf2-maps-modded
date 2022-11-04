@@ -1,0 +1,1399 @@
+rem ********** Object Spawner **********
+rem [ObjectSpawnerTemplate: CP_16P_OH_CheckpointBarndoor_LightJeep]
+ObjectTemplate.create ObjectSpawner CP_16P_OH_CheckpointBarndoor_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_OH_CheckpointBarndoor_LightJeep
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CP_16P_OH_CheckpointBarndoor_9]
+ObjectTemplate.create ObjectSpawner CP_16P_OH_CheckpointBarndoor_9
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_OH_CheckpointBarndoor_9
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 MEC_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CP_16P_OH_CheckpointBarndoor_ATS]
+ObjectTemplate.create ObjectSpawner CP_16P_OH_CheckpointBarndoor_ATS
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_OH_CheckpointBarndoor_ATS
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ATS_HJ8
+ObjectTemplate.setObjectTemplate 2 ATS_TOW
+
+rem [ObjectSpawnerTemplate: CP_16P_OH_CheckpointBarndoor_10]
+ObjectTemplate.create ObjectSpawner CP_16P_OH_CheckpointBarndoor_10
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_OH_CheckpointBarndoor_10
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ats_hj8
+ObjectTemplate.setObjectTemplate 2 ats_tow
+
+rem [ObjectSpawnerTemplate: CP_16P_OH_CheckpointBarndoor_0]
+ObjectTemplate.create ObjectSpawner CP_16P_OH_CheckpointBarndoor_0
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_OH_CheckpointBarndoor_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 MEC_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CP_16P_OH_CheckpointBarndoor_1_1]
+ObjectTemplate.create ObjectSpawner CP_16P_OH_CheckpointBarndoor_1_1
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_OH_CheckpointBarndoor_1_1
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 MEC_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CP_16P_OH_CheckpointBarndoor_APC]
+ObjectTemplate.create ObjectSpawner CP_16P_OH_CheckpointBarndoor_APC
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_OH_CheckpointBarndoor_APC
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 rutnk_t90
+ObjectTemplate.setObjectTemplate 2 ustnk_m1a2
+
+rem [ObjectSpawnerTemplate: CP_16P_USForwardPost_ATS]
+ObjectTemplate.create ObjectSpawner CP_16P_USForwardPost_ATS
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_USForwardPost_ATS
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ATS_HJ8
+ObjectTemplate.setObjectTemplate 2 ATS_TOW
+
+rem [ObjectSpawnerTemplate: CP_16P_USForwardPost_SMG]
+ObjectTemplate.create ObjectSpawner CP_16P_USForwardPost_SMG
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_USForwardPost_SMG
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 MEC_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CP_16P_USForwardPost_0_4]
+ObjectTemplate.create ObjectSpawner CP_16P_USForwardPost_0_4
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_USForwardPost_0_4
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 MEC_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CP_16P_USForwardPost_4_1]
+ObjectTemplate.create ObjectSpawner CP_16P_USForwardPost_4_1
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_USForwardPost_4_1
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+
+rem [ObjectSpawnerTemplate: CP_16P_USForwardPost_APC]
+ObjectTemplate.create ObjectSpawner CP_16P_USForwardPost_APC
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_USForwardPost_APC
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 APC_BTR90
+ObjectTemplate.setObjectTemplate 2 USAPC_LAV25
+
+rem [ObjectSpawnerTemplate: CP_16P_OH_GrainElevator_HeavyJeep]
+ObjectTemplate.create ObjectSpawner CP_16P_OH_GrainElevator_HeavyJeep
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_OH_GrainElevator_HeavyJeep
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.setObjectTemplate 2 jeep_faav
+
+rem [ObjectSpawnerTemplate: CP_16P_OH_MECFieldBase_HeavyJeep]
+ObjectTemplate.create ObjectSpawner CP_16P_OH_MECFieldBase_HeavyJeep
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_OH_MECFieldBase_HeavyJeep
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.setObjectTemplate 2 jeep_faav
+
+rem [ObjectSpawnerTemplate: CP_16P_OH_MECFieldBase_HeavyTank]
+ObjectTemplate.create ObjectSpawner CP_16P_OH_MECFieldBase_HeavyTank
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_OH_MECFieldBase_HeavyTank
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 RUTNK_T90
+ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+
+rem [ObjectSpawnerTemplate: CP_16P_OH_MECFieldBase_9]
+ObjectTemplate.create ObjectSpawner CP_16P_OH_MECFieldBase_9
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_OH_MECFieldBase_9
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 apc_btr90
+ObjectTemplate.setObjectTemplate 2 usapc_lav25
+
+rem [ObjectSpawnerTemplate: CP_16P_OH_MECFieldBase_0]
+ObjectTemplate.create ObjectSpawner CP_16P_OH_MECFieldBase_0
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_OH_MECFieldBase_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 RUTNK_T90
+ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+
+rem [ObjectSpawnerTemplate: CP_16P_OH_MECFieldBase_LightJeep]
+ObjectTemplate.create ObjectSpawner CP_16P_OH_MECFieldBase_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_OH_MECFieldBase_LightJeep
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 mobileradar_mech_dest
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CP_16P_OH_MECFieldBase_10]
+ObjectTemplate.create ObjectSpawner CP_16P_OH_MECFieldBase_10
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_OH_MECFieldBase_10
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 aircontroltower_mec
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CP_16P_OH_MECFieldBase_0_0]
+ObjectTemplate.create ObjectSpawner CP_16P_OH_MECFieldBase_0_0
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_OH_MECFieldBase_0_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ars_d30
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CP_16P_OH_CheckpointBarndoor_SMG]
+ObjectTemplate.create ObjectSpawner CP_16P_OH_CheckpointBarndoor_SMG
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_OH_CheckpointBarndoor_SMG
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 MEC_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CP_16P_OH_MECFieldBase_0_1]
+ObjectTemplate.create ObjectSpawner CP_16P_OH_MECFieldBase_0_1
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_OH_MECFieldBase_0_1
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CP_16P_OH_MECFieldBase_0_2]
+ObjectTemplate.create ObjectSpawner CP_16P_OH_MECFieldBase_0_2
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_OH_MECFieldBase_0_2
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.setObjectTemplate 2 jeep_faav
+
+rem [ObjectSpawnerTemplate: CP_16P_OH_DairyFarm_LightJeep_0]
+ObjectTemplate.create ObjectSpawner CP_16P_OH_DairyFarm_LightJeep_0
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_OH_DairyFarm_LightJeep_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.setObjectTemplate 2 jeep_faav
+
+rem [ObjectSpawnerTemplate: CP_16P_OH_CheckpointBarndoor_AAV]
+ObjectTemplate.create ObjectSpawner CP_16P_OH_CheckpointBarndoor_AAV
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_OH_CheckpointBarndoor_AAV
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.setObjectTemplate 2 jeep_faav
+
+rem [ObjectSpawnerTemplate: CP_16P_OH_CheckpointBarndoor_HeavyTank]
+ObjectTemplate.create ObjectSpawner CP_16P_OH_CheckpointBarndoor_HeavyTank
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_OH_CheckpointBarndoor_HeavyTank
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 RUTNK_T90
+ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+
+rem [ObjectSpawnerTemplate: CP_16P_OH_CheckpointBarndoor_0_0]
+ObjectTemplate.create ObjectSpawner CP_16P_OH_CheckpointBarndoor_0_0
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_OH_CheckpointBarndoor_0_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 RUTNK_T90
+ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+
+rem [ObjectSpawnerTemplate: CP_16P_OH_CheckpointBarndoor_HeavyJeep]
+ObjectTemplate.create ObjectSpawner CP_16P_OH_CheckpointBarndoor_HeavyJeep
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_OH_CheckpointBarndoor_HeavyJeep
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.setObjectTemplate 2 jeep_faav
+
+rem [ObjectSpawnerTemplate: CP_16P_OH_CheckpointBarndoor_LightJeep_0]
+ObjectTemplate.create ObjectSpawner CP_16P_OH_CheckpointBarndoor_LightJeep_0
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_OH_CheckpointBarndoor_LightJeep_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 aircontroltower
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CP_16P_OH_CheckpointBarndoor_0_1]
+ObjectTemplate.create ObjectSpawner CP_16P_OH_CheckpointBarndoor_0_1
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_OH_CheckpointBarndoor_0_1
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 usart_lw155
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CP_16P_OH_CheckpointBarndoor_1_2]
+ObjectTemplate.create ObjectSpawner CP_16P_OH_CheckpointBarndoor_1_2
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_OH_CheckpointBarndoor_1_2
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 mobileradar_us_dest
+ObjectTemplate.minSpawnDelay 360
+ObjectTemplate.maxSpawnDelay 360
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CP_16P_USForwardPost_HeavyJeep]
+ObjectTemplate.create ObjectSpawner CP_16P_USForwardPost_HeavyJeep
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_USForwardPost_HeavyJeep
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.setObjectTemplate 2 jeep_faav
+
+rem [ObjectSpawnerTemplate: CP_16P_USForwardPost_0_5]
+ObjectTemplate.create ObjectSpawner CP_16P_USForwardPost_0_5
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_USForwardPost_0_5
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 MEC_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CP_16P_OH_DairyFarm_LightJeep]
+ObjectTemplate.create ObjectSpawner CP_16P_OH_DairyFarm_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_OH_DairyFarm_LightJeep
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+
+rem [ObjectSpawnerTemplate: CP_16P_USForwardPost_LightJeep]
+ObjectTemplate.create ObjectSpawner CP_16P_USForwardPost_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_USForwardPost_LightJeep
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_mec_paratrooper
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+
+rem [ObjectSpawnerTemplate: CP_16P_OH_GrainElevator_SMG]
+ObjectTemplate.create ObjectSpawner CP_16P_OH_GrainElevator_SMG
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_OH_GrainElevator_SMG
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 MEC_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CP_16P_OH_MECFieldBase_ATS]
+ObjectTemplate.create ObjectSpawner CP_16P_OH_MECFieldBase_ATS
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_OH_MECFieldBase_ATS
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ATS_HJ8
+ObjectTemplate.setObjectTemplate 2 ATS_TOW
+
+rem [ObjectSpawnerTemplate: CP_16P_OH_MECFieldBase_ATS_0]
+ObjectTemplate.create ObjectSpawner CP_16P_OH_MECFieldBase_ATS_0
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_OH_MECFieldBase_ATS_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ATS_HJ8
+ObjectTemplate.setObjectTemplate 2 ATS_TOW
+
+rem [ObjectSpawnerTemplate: CP_16P_OH_DairyFarm_HeavyTank]
+ObjectTemplate.create ObjectSpawner CP_16P_OH_DairyFarm_HeavyTank
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_OH_DairyFarm_HeavyTank
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 RUTNK_T90
+ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+
+rem [ObjectSpawnerTemplate: CP_16P_OH_GrainElevator_ME_US_LightJeep]
+ObjectTemplate.create ObjectSpawner CP_16P_OH_GrainElevator_ME_US_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_OH_GrainElevator_ME_US_LightJeep
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_MEC_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+
+rem [ObjectSpawnerTemplate: CP_16P_OH_MECFieldBase_ME_US_LightJeep]
+ObjectTemplate.create ObjectSpawner CP_16P_OH_MECFieldBase_ME_US_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CP_16P_OH_MECFieldBase_ME_US_LightJeep
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 xpak2_semi
+ObjectTemplate.setObjectTemplate 2 xpak2_semi
+
+if v_arg1 == host
+
+   rem [ObjectSpawner: CP_16P_OH_CheckpointBarndoor_LightJeep]
+   Object.create CP_16P_OH_CheckpointBarndoor_LightJeep
+   Object.absolutePosition -135.798/29.030/-88.797
+   Object.rotation 37.081/0.000/0.000
+   Object.setControlPointId 106
+   Object.layer 3
+
+   rem [ObjectSpawner: CP_16P_OH_CheckpointBarndoor_9]
+   Object.create CP_16P_OH_CheckpointBarndoor_9
+   Object.absolutePosition -157.800/40.698/-56.503
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 106
+   Object.layer 3
+
+   rem [ObjectSpawner: CP_16P_OH_CheckpointBarndoor_ATS]
+   Object.create CP_16P_OH_CheckpointBarndoor_ATS
+   Object.absolutePosition -126.387/34.890/-46.655
+   Object.rotation 115.676/0.000/0.000
+   Object.setControlPointId 106
+   Object.layer 3
+
+   rem [ObjectSpawner: CP_16P_OH_CheckpointBarndoor_10]
+   Object.create CP_16P_OH_CheckpointBarndoor_10
+   Object.absolutePosition -197.251/34.900/-58.244
+   Object.rotation -130.508/0.000/0.000
+   Object.setControlPointId 106
+   Object.layer 3
+
+   rem [ObjectSpawner: CP_16P_OH_CheckpointBarndoor_0]
+   Object.create CP_16P_OH_CheckpointBarndoor_0
+   Object.absolutePosition -125.285/30.123/-91.677
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 106
+   Object.layer 3
+
+   rem [ObjectSpawner: CP_16P_OH_CheckpointBarndoor_1_1]
+   Object.create CP_16P_OH_CheckpointBarndoor_1_1
+   Object.absolutePosition -187.293/35.810/-58.993
+   Object.rotation -180.000/0.000/0.000
+   Object.setControlPointId 106
+   Object.layer 3
+
+   rem [ObjectSpawner: CP_16P_OH_CheckpointBarndoor_APC]
+   Object.create CP_16P_OH_CheckpointBarndoor_APC
+   Object.absolutePosition -170.803/30.997/-76.557
+   Object.rotation 110.822/0.000/0.000
+   Object.setControlPointId 106
+   Object.layer 3
+
+   rem [ObjectSpawner: CP_16P_USForwardPost_ATS]
+   Object.create CP_16P_USForwardPost_ATS
+   Object.absolutePosition 176.597/29.791/87.235
+   Object.rotation -0.040/0.000/0.000
+   Object.setControlPointId 203
+   Object.layer 3
+
+   rem [ObjectSpawner: CP_16P_USForwardPost_SMG]
+   Object.create CP_16P_USForwardPost_SMG
+   Object.absolutePosition 181.386/30.974/84.474
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 203
+   Object.layer 3
+
+   rem [ObjectSpawner: CP_16P_USForwardPost_0_4]
+   Object.create CP_16P_USForwardPost_0_4
+   Object.absolutePosition 145.540/26.739/77.464
+   Object.rotation -89.794/0.000/0.000
+   Object.setControlPointId 203
+   Object.layer 3
+
+   rem [ObjectSpawner: CP_16P_USForwardPost_4_1]
+   Object.create CP_16P_USForwardPost_4_1
+   Object.absolutePosition 202.704/29.810/69.029
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 203
+   Object.layer 3
+
+   rem [ObjectSpawner: CP_16P_USForwardPost_APC]
+   Object.create CP_16P_USForwardPost_APC
+   Object.absolutePosition 192.316/29.810/74.490
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 203
+   Object.layer 3
+
+   rem [ObjectSpawner: CP_16P_OH_GrainElevator_HeavyJeep]
+   Object.create CP_16P_OH_GrainElevator_HeavyJeep
+   Object.absolutePosition 360.628/25.942/191.031
+   Object.rotation 66.915/0.000/0.000
+   Object.setControlPointId 204
+   Object.layer 3
+
+   rem [ObjectSpawner: CP_16P_OH_MECFieldBase_HeavyJeep]
+   Object.create CP_16P_OH_MECFieldBase_HeavyJeep
+   Object.absolutePosition 461.656/29.412/422.069
+   Object.rotation -154.083/0.000/0.000
+   Object.setControlPointId 205
+   Object.layer 3
+
+   rem [ObjectSpawner: CP_16P_OH_MECFieldBase_HeavyTank]
+   Object.create CP_16P_OH_MECFieldBase_HeavyTank
+   Object.absolutePosition 469.455/29.766/413.530
+   Object.rotation -121.779/0.000/0.000
+   Object.setControlPointId 205
+   Object.layer 3
+
+   rem [ObjectSpawner: CP_16P_OH_MECFieldBase_9]
+   Object.create CP_16P_OH_MECFieldBase_9
+   Object.absolutePosition 494.159/29.522/405.080
+   Object.rotation -93.281/0.000/0.000
+   Object.setControlPointId 205
+   Object.layer 3
+
+   rem [ObjectSpawner: CP_16P_OH_MECFieldBase_0]
+   Object.create CP_16P_OH_MECFieldBase_0
+   Object.absolutePosition 448.569/27.572/485.743
+   Object.rotation -125.277/0.000/0.000
+   Object.setControlPointId 205
+   Object.layer 3
+
+   rem [ObjectSpawner: CP_16P_OH_MECFieldBase_LightJeep]
+   Object.create CP_16P_OH_MECFieldBase_LightJeep
+   Object.absolutePosition 496.961/29.089/487.371
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 205
+   Object.layer 3
+
+   rem [ObjectSpawner: CP_16P_OH_MECFieldBase_10]
+   Object.create CP_16P_OH_MECFieldBase_10
+   Object.absolutePosition 448.766/27.609/512.622
+   Object.rotation 88.381/0.000/0.000
+   Object.setControlPointId 205
+   Object.layer 3
+
+   rem [ObjectSpawner: CP_16P_OH_MECFieldBase_0_0]
+   Object.create CP_16P_OH_MECFieldBase_0_0
+   Object.absolutePosition 516.771/27.577/436.015
+   Object.rotation -130.480/0.000/0.000
+   Object.setControlPointId 205
+   Object.layer 3
+
+   rem [ObjectSpawner: CP_16P_OH_CheckpointBarndoor_SMG]
+   Object.create CP_16P_OH_CheckpointBarndoor_SMG
+   Object.absolutePosition -132.481/32.963/-68.599
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 106
+   Object.layer 3
+
+   rem [ObjectSpawner: CP_16P_OH_MECFieldBase_0_1]
+   Object.create CP_16P_OH_MECFieldBase_0_1
+   Object.absolutePosition 452.476/28.455/442.344
+   Object.rotation -100.864/0.000/0.000
+   Object.setControlPointId 205
+   Object.layer 3
+
+   rem [ObjectSpawner: CP_16P_OH_MECFieldBase_0_2]
+   Object.create CP_16P_OH_MECFieldBase_0_2
+   Object.absolutePosition 467.189/27.635/481.530
+   Object.rotation -154.580/0.000/0.000
+   Object.setControlPointId 205
+   Object.layer 3
+
+   rem [ObjectSpawner: CP_16P_OH_DairyFarm_LightJeep_0]
+   Object.create CP_16P_OH_DairyFarm_LightJeep_0
+   Object.absolutePosition 184.830/26.109/330.547
+   Object.rotation 51.529/0.000/0.000
+   Object.setControlPointId 201
+   Object.layer 3
+
+   rem [ObjectSpawner: CP_16P_OH_CheckpointBarndoor_AAV]
+   Object.create CP_16P_OH_CheckpointBarndoor_AAV
+   Object.absolutePosition -194.094/31.731/-83.677
+   Object.rotation 89.878/0.000/0.000
+   Object.setControlPointId 106
+   Object.layer 3
+
+   rem [ObjectSpawner: CP_16P_OH_CheckpointBarndoor_HeavyTank]
+   Object.create CP_16P_OH_CheckpointBarndoor_HeavyTank
+   Object.absolutePosition -124.426/28.617/-84.456
+   Object.rotation 90.329/0.000/0.000
+   Object.setControlPointId 106
+   Object.layer 3
+
+   rem [ObjectSpawner: CP_16P_OH_CheckpointBarndoor_0_0]
+   Object.create CP_16P_OH_CheckpointBarndoor_0_0
+   Object.absolutePosition -164.482/28.963/-100.182
+   Object.rotation 103.949/0.000/0.000
+   Object.setControlPointId 106
+   Object.layer 3
+
+   rem [ObjectSpawner: CP_16P_OH_CheckpointBarndoor_HeavyJeep]
+   Object.create CP_16P_OH_CheckpointBarndoor_HeavyJeep
+   Object.absolutePosition -119.041/33.732/-35.584
+   Object.rotation 140.409/0.000/0.000
+   Object.setControlPointId 106
+   Object.layer 3
+
+   rem [ObjectSpawner: CP_16P_OH_CheckpointBarndoor_LightJeep_0]
+   Object.create CP_16P_OH_CheckpointBarndoor_LightJeep_0
+   Object.absolutePosition -241.158/32.666/-50.718
+   Object.rotation 43.901/0.000/0.000
+   Object.setControlPointId 106
+   Object.layer 3
+
+   rem [ObjectSpawner: CP_16P_OH_CheckpointBarndoor_0_1]
+   Object.create CP_16P_OH_CheckpointBarndoor_0_1
+   Object.absolutePosition -231.494/33.263/-92.499
+   Object.rotation 59.180/0.000/0.000
+   Object.setControlPointId 106
+   Object.layer 3
+
+   rem [ObjectSpawner: CP_16P_OH_CheckpointBarndoor_1_2]
+   Object.create CP_16P_OH_CheckpointBarndoor_1_2
+   Object.absolutePosition -205.355/33.204/-68.298
+   Object.rotation 39.906/0.000/0.000
+   Object.setControlPointId 106
+   Object.layer 3
+
+   rem [ObjectSpawner: CP_16P_USForwardPost_HeavyJeep]
+   Object.create CP_16P_USForwardPost_HeavyJeep
+   Object.absolutePosition 199.869/29.982/100.606
+   Object.rotation -91.271/0.000/0.000
+   Object.setControlPointId 203
+   Object.layer 3
+
+   rem [ObjectSpawner: CP_16P_USForwardPost_0_5]
+   Object.create CP_16P_USForwardPost_0_5
+   Object.absolutePosition 173.388/30.895/78.365
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 203
+   Object.layer 3
+
+   rem [ObjectSpawner: CP_16P_OH_DairyFarm_LightJeep]
+   Object.create CP_16P_OH_DairyFarm_LightJeep
+   Object.absolutePosition 179.874/26.085/308.839
+   Object.rotation 144.088/0.000/0.000
+   Object.setControlPointId 201
+   Object.layer 3
+
+   rem [ObjectSpawner: CP_16P_USForwardPost_LightJeep]
+   Object.create CP_16P_USForwardPost_LightJeep
+   Object.absolutePosition 50.650/31.207/217.980
+   Object.rotation 27.198/0.000/0.000
+   Object.setControlPointId 203
+   Object.layer 3
+
+   rem [ObjectSpawner: CP_16P_OH_GrainElevator_SMG]
+   Object.create CP_16P_OH_GrainElevator_SMG
+   Object.absolutePosition 383.701/26.898/195.197
+   Object.rotation -111.222/0.000/0.000
+   Object.setControlPointId 204
+   Object.layer 3
+
+   rem [ObjectSpawner: CP_16P_OH_MECFieldBase_ATS]
+   Object.create CP_16P_OH_MECFieldBase_ATS
+   Object.absolutePosition 451.129/30.121/415.036
+   Object.rotation -137.429/0.000/0.000
+   Object.setControlPointId 205
+   Object.layer 3
+
+   rem [ObjectSpawner: CP_16P_OH_MECFieldBase_ATS_0]
+   Object.create CP_16P_OH_MECFieldBase_ATS_0
+   Object.absolutePosition 468.705/27.635/461.499
+   Object.rotation -130.999/0.000/0.000
+   Object.setControlPointId 205
+   Object.layer 3
+
+   rem [ObjectSpawner: CP_16P_OH_DairyFarm_HeavyTank]
+   Object.create CP_16P_OH_DairyFarm_HeavyTank
+   Object.absolutePosition 142.853/26.210/282.275
+   Object.rotation 56.318/0.000/0.000
+   Object.setControlPointId 201
+   Object.layer 3
+
+   rem [ObjectSpawner: CP_16P_OH_GrainElevator_ME_US_LightJeep]
+   Object.create CP_16P_OH_GrainElevator_ME_US_LightJeep
+   Object.absolutePosition 395.724/25.870/193.774
+   Object.rotation -127.308/0.000/0.000
+   Object.setControlPointId 204
+   Object.layer 3
+
+   rem [ObjectSpawner: CP_16P_OH_MECFieldBase_ME_US_LightJeep]
+   Object.create CP_16P_OH_MECFieldBase_ME_US_LightJeep
+   Object.absolutePosition 298.785/25.575/267.986
+   Object.rotation -155.972/0.000/0.000
+   Object.setControlPointId 205
+   Object.layer 3
+
+endIf
+
+rem ********** Spawn Points **********
+rem [SpawnPointTemplate: CP_16P_OH_CheckpointBarndoor_7_0]
+ObjectTemplate.create SpawnPoint CP_16P_OH_CheckpointBarndoor_7_0
+ObjectTemplate.activeSafe SpawnPoint CP_16P_OH_CheckpointBarndoor_7_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 106
+
+rem [SpawnPoint: CP_16P_OH_CheckpointBarndoor_7_0]
+Object.create CP_16P_OH_CheckpointBarndoor_7_0
+Object.absolutePosition -174.400/30.004/-95.673
+Object.rotation 87.889/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: CP_16P_OH_CheckpointBarndoor_8_0]
+ObjectTemplate.create SpawnPoint CP_16P_OH_CheckpointBarndoor_8_0
+ObjectTemplate.activeSafe SpawnPoint CP_16P_OH_CheckpointBarndoor_8_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 106
+
+rem [SpawnPoint: CP_16P_OH_CheckpointBarndoor_8_0]
+Object.create CP_16P_OH_CheckpointBarndoor_8_0
+Object.absolutePosition -136.115/31.907/-65.290
+Object.rotation 133.376/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: CP_16P_OH_CheckpointBarndoor_1_0]
+ObjectTemplate.create SpawnPoint CP_16P_OH_CheckpointBarndoor_1_0
+ObjectTemplate.activeSafe SpawnPoint CP_16P_OH_CheckpointBarndoor_1_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 106
+
+rem [SpawnPoint: CP_16P_OH_CheckpointBarndoor_1_0]
+Object.create CP_16P_OH_CheckpointBarndoor_1_0
+Object.absolutePosition -170.303/31.597/-72.054
+Object.rotation 98.905/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: CP_16P_OH_CheckpointBarndoor_2_0]
+ObjectTemplate.create SpawnPoint CP_16P_OH_CheckpointBarndoor_2_0
+ObjectTemplate.activeSafe SpawnPoint CP_16P_OH_CheckpointBarndoor_2_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 106
+
+rem [SpawnPoint: CP_16P_OH_CheckpointBarndoor_2_0]
+Object.create CP_16P_OH_CheckpointBarndoor_2_0
+Object.absolutePosition -157.861/36.675/-51.022
+Object.rotation 96.952/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: CP_16P_OH_CheckpointBarndoor_3_0]
+ObjectTemplate.create SpawnPoint CP_16P_OH_CheckpointBarndoor_3_0
+ObjectTemplate.activeSafe SpawnPoint CP_16P_OH_CheckpointBarndoor_3_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 106
+
+rem [SpawnPoint: CP_16P_OH_CheckpointBarndoor_3_0]
+Object.create CP_16P_OH_CheckpointBarndoor_3_0
+Object.absolutePosition -137.992/35.542/-41.909
+Object.rotation 114.337/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: CP_16P_OH_CheckpointBarndoor_4_0]
+ObjectTemplate.create SpawnPoint CP_16P_OH_CheckpointBarndoor_4_0
+ObjectTemplate.activeSafe SpawnPoint CP_16P_OH_CheckpointBarndoor_4_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 106
+
+rem [SpawnPoint: CP_16P_OH_CheckpointBarndoor_4_0]
+Object.create CP_16P_OH_CheckpointBarndoor_4_0
+Object.absolutePosition -181.481/34.894/-56.098
+Object.rotation 176.841/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: CP_16P_OH_CheckpointBarndoor_5_0]
+ObjectTemplate.create SpawnPoint CP_16P_OH_CheckpointBarndoor_5_0
+ObjectTemplate.activeSafe SpawnPoint CP_16P_OH_CheckpointBarndoor_5_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 106
+
+rem [SpawnPoint: CP_16P_OH_CheckpointBarndoor_5_0]
+Object.create CP_16P_OH_CheckpointBarndoor_5_0
+Object.absolutePosition -127.107/33.757/-38.296
+Object.rotation 103.345/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: CP_16P_OH_CheckpointBarndoor_6_0]
+ObjectTemplate.create SpawnPoint CP_16P_OH_CheckpointBarndoor_6_0
+ObjectTemplate.activeSafe SpawnPoint CP_16P_OH_CheckpointBarndoor_6_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 106
+
+rem [SpawnPoint: CP_16P_OH_CheckpointBarndoor_6_0]
+Object.create CP_16P_OH_CheckpointBarndoor_6_0
+Object.absolutePosition -127.467/29.000/-92.273
+Object.rotation 75.066/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: CP_16P_USForwardPost_0_1]
+ObjectTemplate.create SpawnPoint CP_16P_USForwardPost_0_1
+ObjectTemplate.activeSafe SpawnPoint CP_16P_USForwardPost_0_1
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 203
+
+rem [SpawnPoint: CP_16P_USForwardPost_0_1]
+Object.create CP_16P_USForwardPost_0_1
+Object.absolutePosition 189.088/30.781/50.758
+Object.rotation 2.923/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: CP_16P_USForwardPost_0_2]
+ObjectTemplate.create SpawnPoint CP_16P_USForwardPost_0_2
+ObjectTemplate.activeSafe SpawnPoint CP_16P_USForwardPost_0_2
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 203
+
+rem [SpawnPoint: CP_16P_USForwardPost_0_2]
+Object.create CP_16P_USForwardPost_0_2
+Object.absolutePosition 192.099/29.267/99.710
+Object.rotation -75.463/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: CP_16P_USForwardPost_4_0]
+ObjectTemplate.create SpawnPoint CP_16P_USForwardPost_4_0
+ObjectTemplate.activeSafe SpawnPoint CP_16P_USForwardPost_4_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 203
+
+rem [SpawnPoint: CP_16P_USForwardPost_4_0]
+Object.create CP_16P_USForwardPost_4_0
+Object.absolutePosition 148.733/25.575/75.304
+Object.rotation -37.866/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: CP_16P_USForwardPost_5_0]
+ObjectTemplate.create SpawnPoint CP_16P_USForwardPost_5_0
+ObjectTemplate.activeSafe SpawnPoint CP_16P_USForwardPost_5_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 203
+
+rem [SpawnPoint: CP_16P_USForwardPost_5_0]
+Object.create CP_16P_USForwardPost_5_0
+Object.absolutePosition 178.107/29.853/83.097
+Object.rotation -30.114/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: CP_16P_USForwardPost_1_1]
+ObjectTemplate.create SpawnPoint CP_16P_USForwardPost_1_1
+ObjectTemplate.activeSafe SpawnPoint CP_16P_USForwardPost_1_1
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 203
+
+rem [SpawnPoint: CP_16P_USForwardPost_1_1]
+Object.create CP_16P_USForwardPost_1_1
+Object.absolutePosition 198.415/29.810/71.873
+Object.rotation 16.392/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: CP_16P_USForwardPost_0_3]
+ObjectTemplate.create SpawnPoint CP_16P_USForwardPost_0_3
+ObjectTemplate.activeSafe SpawnPoint CP_16P_USForwardPost_0_3
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 203
+
+rem [SpawnPoint: CP_16P_USForwardPost_0_3]
+Object.create CP_16P_USForwardPost_0_3
+Object.absolutePosition 178.019/30.577/56.189
+Object.rotation 34.645/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: CP_16P_USForwardPost_3_0]
+ObjectTemplate.create SpawnPoint CP_16P_USForwardPost_3_0
+ObjectTemplate.activeSafe SpawnPoint CP_16P_USForwardPost_3_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 203
+
+rem [SpawnPoint: CP_16P_USForwardPost_3_0]
+Object.create CP_16P_USForwardPost_3_0
+Object.absolutePosition 174.684/29.808/79.213
+Object.rotation -20.599/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: CP_16P_OH_GrainElevator_0_6]
+ObjectTemplate.create SpawnPoint CP_16P_OH_GrainElevator_0_6
+ObjectTemplate.activeSafe SpawnPoint CP_16P_OH_GrainElevator_0_6
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 204
+
+rem [SpawnPoint: CP_16P_OH_GrainElevator_0_6]
+Object.create CP_16P_OH_GrainElevator_0_6
+Object.absolutePosition 370.420/25.762/216.342
+Object.rotation -159.973/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: CP_16P_OH_GrainElevator_0_7]
+ObjectTemplate.create SpawnPoint CP_16P_OH_GrainElevator_0_7
+ObjectTemplate.activeSafe SpawnPoint CP_16P_OH_GrainElevator_0_7
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 204
+
+rem [SpawnPoint: CP_16P_OH_GrainElevator_0_7]
+Object.create CP_16P_OH_GrainElevator_0_7
+Object.absolutePosition 384.316/26.447/207.362
+Object.rotation -152.000/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: CP_16P_OH_GrainElevator_1]
+ObjectTemplate.create SpawnPoint CP_16P_OH_GrainElevator_1
+ObjectTemplate.activeSafe SpawnPoint CP_16P_OH_GrainElevator_1
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 204
+
+rem [SpawnPoint: CP_16P_OH_GrainElevator_1]
+Object.create CP_16P_OH_GrainElevator_1
+Object.absolutePosition 356.377/26.060/179.573
+Object.rotation 13.452/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: CP_16P_OH_MECFieldBase_7_0]
+ObjectTemplate.create SpawnPoint CP_16P_OH_MECFieldBase_7_0
+ObjectTemplate.activeSafe SpawnPoint CP_16P_OH_MECFieldBase_7_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 205
+
+rem [SpawnPoint: CP_16P_OH_MECFieldBase_7_0]
+Object.create CP_16P_OH_MECFieldBase_7_0
+Object.absolutePosition 459.651/27.635/487.471
+Object.rotation -116.972/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: CP_16P_OH_MECFieldBase_8_0]
+ObjectTemplate.create SpawnPoint CP_16P_OH_MECFieldBase_8_0
+ObjectTemplate.activeSafe SpawnPoint CP_16P_OH_MECFieldBase_8_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 205
+
+rem [SpawnPoint: CP_16P_OH_MECFieldBase_8_0]
+Object.create CP_16P_OH_MECFieldBase_8_0
+Object.absolutePosition 468.462/27.635/465.218
+Object.rotation -137.788/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: CP_16P_OH_MECFieldBase_1_0]
+ObjectTemplate.create SpawnPoint CP_16P_OH_MECFieldBase_1_0
+ObjectTemplate.activeSafe SpawnPoint CP_16P_OH_MECFieldBase_1_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 205
+
+rem [SpawnPoint: CP_16P_OH_MECFieldBase_1_0]
+Object.create CP_16P_OH_MECFieldBase_1_0
+Object.absolutePosition 453.759/27.602/457.626
+Object.rotation -153.512/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: CP_16P_OH_MECFieldBase_2_0]
+ObjectTemplate.create SpawnPoint CP_16P_OH_MECFieldBase_2_0
+ObjectTemplate.activeSafe SpawnPoint CP_16P_OH_MECFieldBase_2_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 205
+
+rem [SpawnPoint: CP_16P_OH_MECFieldBase_2_0]
+Object.create CP_16P_OH_MECFieldBase_2_0
+Object.absolutePosition 468.593/29.368/418.442
+Object.rotation -150.077/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: CP_16P_OH_MECFieldBase_3_0]
+ObjectTemplate.create SpawnPoint CP_16P_OH_MECFieldBase_3_0
+ObjectTemplate.activeSafe SpawnPoint CP_16P_OH_MECFieldBase_3_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 205
+
+rem [SpawnPoint: CP_16P_OH_MECFieldBase_3_0]
+Object.create CP_16P_OH_MECFieldBase_3_0
+Object.absolutePosition 490.322/29.288/399.378
+Object.rotation -36.424/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: CP_16P_OH_MECFieldBase_4_0]
+ObjectTemplate.create SpawnPoint CP_16P_OH_MECFieldBase_4_0
+ObjectTemplate.activeSafe SpawnPoint CP_16P_OH_MECFieldBase_4_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 205
+
+rem [SpawnPoint: CP_16P_OH_MECFieldBase_4_0]
+Object.create CP_16P_OH_MECFieldBase_4_0
+Object.absolutePosition 466.421/27.635/485.940
+Object.rotation -127.774/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: CP_16P_OH_MECFieldBase_5_0]
+ObjectTemplate.create SpawnPoint CP_16P_OH_MECFieldBase_5_0
+ObjectTemplate.activeSafe SpawnPoint CP_16P_OH_MECFieldBase_5_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 205
+
+rem [SpawnPoint: CP_16P_OH_MECFieldBase_5_0]
+Object.create CP_16P_OH_MECFieldBase_5_0
+Object.absolutePosition 499.947/29.556/403.244
+Object.rotation -103.925/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: CP_16P_OH_MECFieldBase_6_0]
+ObjectTemplate.create SpawnPoint CP_16P_OH_MECFieldBase_6_0
+ObjectTemplate.activeSafe SpawnPoint CP_16P_OH_MECFieldBase_6_0
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 205
+
+rem [SpawnPoint: CP_16P_OH_MECFieldBase_6_0]
+Object.create CP_16P_OH_MECFieldBase_6_0
+Object.absolutePosition 456.585/29.529/424.404
+Object.rotation 171.168/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: CP_16P_OH_GrainElevator_2]
+ObjectTemplate.create SpawnPoint CP_16P_OH_GrainElevator_2
+ObjectTemplate.activeSafe SpawnPoint CP_16P_OH_GrainElevator_2
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 204
+
+rem [SpawnPoint: CP_16P_OH_GrainElevator_2]
+Object.create CP_16P_OH_GrainElevator_2
+Object.absolutePosition 407.193/25.904/199.208
+Object.rotation -106.456/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: CP_16P_OH_GrainElevator_3]
+ObjectTemplate.create SpawnPoint CP_16P_OH_GrainElevator_3
+ObjectTemplate.activeSafe SpawnPoint CP_16P_OH_GrainElevator_3
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 204
+
+rem [SpawnPoint: CP_16P_OH_GrainElevator_3]
+Object.create CP_16P_OH_GrainElevator_3
+Object.absolutePosition 345.593/26.004/188.320
+Object.rotation -19.812/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: CP_16P_OH_GrainElevator_4]
+ObjectTemplate.create SpawnPoint CP_16P_OH_GrainElevator_4
+ObjectTemplate.activeSafe SpawnPoint CP_16P_OH_GrainElevator_4
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 204
+
+rem [SpawnPoint: CP_16P_OH_GrainElevator_4]
+Object.create CP_16P_OH_GrainElevator_4
+Object.absolutePosition 403.017/25.727/218.499
+Object.rotation -116.491/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: CP_16P_OH_GrainElevator_5]
+ObjectTemplate.create SpawnPoint CP_16P_OH_GrainElevator_5
+ObjectTemplate.activeSafe SpawnPoint CP_16P_OH_GrainElevator_5
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 204
+
+rem [SpawnPoint: CP_16P_OH_GrainElevator_5]
+Object.create CP_16P_OH_GrainElevator_5
+Object.absolutePosition 416.859/25.870/188.079
+Object.rotation -169.450/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: CP_16P_OH_DairyFarm_0_5]
+ObjectTemplate.create SpawnPoint CP_16P_OH_DairyFarm_0_5
+ObjectTemplate.activeSafe SpawnPoint CP_16P_OH_DairyFarm_0_5
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 201
+
+rem [SpawnPoint: CP_16P_OH_DairyFarm_0_5]
+Object.create CP_16P_OH_DairyFarm_0_5
+Object.absolutePosition 141.199/26.244/272.500
+Object.rotation 52.075/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: CP_16P_OH_DairyFarm_0_6]
+ObjectTemplate.create SpawnPoint CP_16P_OH_DairyFarm_0_6
+ObjectTemplate.activeSafe SpawnPoint CP_16P_OH_DairyFarm_0_6
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 201
+
+rem [SpawnPoint: CP_16P_OH_DairyFarm_0_6]
+Object.create CP_16P_OH_DairyFarm_0_6
+Object.absolutePosition 182.716/26.975/276.953
+Object.rotation 9.513/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: CP_16P_OH_DairyFarm_1]
+ObjectTemplate.create SpawnPoint CP_16P_OH_DairyFarm_1
+ObjectTemplate.activeSafe SpawnPoint CP_16P_OH_DairyFarm_1
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 201
+
+rem [SpawnPoint: CP_16P_OH_DairyFarm_1]
+Object.create CP_16P_OH_DairyFarm_1
+Object.absolutePosition 178.372/26.975/329.792
+Object.rotation 142.332/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: CP_16P_OH_DairyFarm_2]
+ObjectTemplate.create SpawnPoint CP_16P_OH_DairyFarm_2
+ObjectTemplate.activeSafe SpawnPoint CP_16P_OH_DairyFarm_2
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 201
+
+rem [SpawnPoint: CP_16P_OH_DairyFarm_2]
+Object.create CP_16P_OH_DairyFarm_2
+Object.absolutePosition 151.472/26.210/268.519
+Object.rotation 45.909/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: CP_16P_OH_DairyFarm_3]
+ObjectTemplate.create SpawnPoint CP_16P_OH_DairyFarm_3
+ObjectTemplate.activeSafe SpawnPoint CP_16P_OH_DairyFarm_3
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 201
+
+rem [SpawnPoint: CP_16P_OH_DairyFarm_3]
+Object.create CP_16P_OH_DairyFarm_3
+Object.absolutePosition 170.546/26.155/316.754
+Object.rotation 160.955/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: CP_16P_OH_DairyFarm_4]
+ObjectTemplate.create SpawnPoint CP_16P_OH_DairyFarm_4
+ObjectTemplate.activeSafe SpawnPoint CP_16P_OH_DairyFarm_4
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 201
+
+rem [SpawnPoint: CP_16P_OH_DairyFarm_4]
+Object.create CP_16P_OH_DairyFarm_4
+Object.absolutePosition 200.743/26.202/301.291
+Object.rotation -0.257/0.000/0.000
+Object.layer 3
+
+rem ********** Control Points **********
+rem [ControlPointTemplate: CP_16P_OH_CheckpointBarndoor]
+ObjectTemplate.create ControlPoint CP_16P_OH_CheckpointBarndoor
+ObjectTemplate.activeSafe ControlPoint CP_16P_OH_CheckpointBarndoor
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CP_16P_OH_CheckpointBarndoor
+ObjectTemplate.radius 15
+ObjectTemplate.radiusOffset 0/0/5
+ObjectTemplate.team 2
+ObjectTemplate.controlPointId 106
+ObjectTemplate.areaValueTeam1 34
+ObjectTemplate.areaValueTeam2 34
+ObjectTemplate.timeToGetControl 40
+ObjectTemplate.timeToLoseControl 40
+ObjectTemplate.loseControlWhenEnemyClose 0
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: CP_16P_USForwardPost]
+ObjectTemplate.create ControlPoint CP_16P_USForwardPost
+ObjectTemplate.activeSafe ControlPoint CP_16P_USForwardPost
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CP_16P_USForwardPost
+ObjectTemplate.radius 15
+ObjectTemplate.controlPointId 203
+ObjectTemplate.areaValueTeam1 34
+ObjectTemplate.areaValueTeam2 34
+ObjectTemplate.timeToGetControl 20
+ObjectTemplate.timeToLoseControl 20
+ObjectTemplate.loseControlWhenEnemyClose 0
+ObjectTemplate.isHemisphere 1
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: CP_16P_OH_GrainElevator]
+ObjectTemplate.create ControlPoint CP_16P_OH_GrainElevator
+ObjectTemplate.activeSafe ControlPoint CP_16P_OH_GrainElevator
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CP_16P_OH_GrainElevator
+ObjectTemplate.radius 17
+ObjectTemplate.radiusOffset -11/0/4
+ObjectTemplate.controlPointId 204
+ObjectTemplate.areaValueTeam1 34
+ObjectTemplate.areaValueTeam2 34
+ObjectTemplate.timeToGetControl 20
+ObjectTemplate.timeToLoseControl 20
+ObjectTemplate.loseControlWhenEnemyClose 0
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: CP_16P_OH_MECFieldBase]
+ObjectTemplate.create ControlPoint CP_16P_OH_MECFieldBase
+ObjectTemplate.activeSafe ControlPoint CP_16P_OH_MECFieldBase
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CP_16P_OH_MECFieldBase
+ObjectTemplate.radius 15
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 205
+ObjectTemplate.timeToGetControl 20
+ObjectTemplate.timeToLoseControl 20
+ObjectTemplate.loseControlWhenEnemyClose 0
+ObjectTemplate.unableToChangeTeam 1
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: CP_16P_OH_DairyFarm]
+ObjectTemplate.create ControlPoint CP_16P_OH_DairyFarm
+ObjectTemplate.activeSafe ControlPoint CP_16P_OH_DairyFarm
+ObjectTemplate.modifiedByUser "robertha"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CP_16P_OH_DairyFarm
+ObjectTemplate.radius 19
+ObjectTemplate.radiusOffset 2/-5/-8
+ObjectTemplate.controlPointId 201
+ObjectTemplate.areaValueTeam1 34
+ObjectTemplate.areaValueTeam2 34
+ObjectTemplate.timeToGetControl 20
+ObjectTemplate.timeToLoseControl 20
+ObjectTemplate.loseControlWhenEnemyClose 0
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+if v_arg1 == host
+
+   rem [ControlPoint: CP_16P_OH_CheckpointBarndoor]
+   Object.create CP_16P_OH_CheckpointBarndoor
+   Object.absolutePosition -136.480/31.895/-68.222
+   Object.layer 3
+
+   rem [ControlPoint: CP_16P_USForwardPost]
+   Object.create CP_16P_USForwardPost
+   Object.absolutePosition 180.055/29.810/79.873
+   Object.layer 3
+
+   rem [ControlPoint: CP_16P_OH_GrainElevator]
+   Object.create CP_16P_OH_GrainElevator
+   Object.absolutePosition 386.899/25.870/197.393
+   Object.layer 3
+
+   rem [ControlPoint: CP_16P_OH_MECFieldBase]
+   Object.create CP_16P_OH_MECFieldBase
+   Object.absolutePosition 472.081/28.864/435.679
+   Object.layer 3
+
+   rem [ControlPoint: CP_16P_OH_DairyFarm]
+   Object.create CP_16P_OH_DairyFarm
+   Object.absolutePosition 183.994/26.064/310.712
+   Object.layer 3
+
+endIf
+
+CombatAreaManager.use 1
+CombatAreaManager.timeAllowedOutside 10.000000
+CombatArea.create CombatArea_82_16_Player
+CombatArea.min 0.000000/0.000000
+CombatArea.max 0.000000/0.000000
+CombatArea.team 0
+CombatArea.vehicles 4
+CombatArea.layer 3
+
+CombatArea.create CombatArea_51_16_Player
+CombatArea.min 0.000000/0.000000
+CombatArea.max 0.000000/0.000000
+CombatArea.addAreaPoint -268.843933/-72.490417
+CombatArea.addAreaPoint -266.484314/-90.555298
+CombatArea.addAreaPoint -259.701416/-113.473022
+CombatArea.addAreaPoint -246.026184/-142.461426
+CombatArea.addAreaPoint -225.223511/-163.940430
+CombatArea.addAreaPoint -195.028809/-181.292053
+CombatArea.addAreaPoint -155.919312/-193.132874
+CombatArea.addAreaPoint -118.991699/-199.044983
+CombatArea.addAreaPoint -74.765259/-200.199646
+CombatArea.addAreaPoint -39.613831/-196.494202
+CombatArea.addAreaPoint -10.930908/-188.699097
+CombatArea.addAreaPoint 16.641113/-175.716980
+CombatArea.addAreaPoint 158.002075/-87.735474
+CombatArea.addAreaPoint 201.064697/-48.380310
+CombatArea.addAreaPoint 280.222046/18.260254
+CombatArea.addAreaPoint 306.811157/43.716675
+CombatArea.addAreaPoint 339.296509/62.408447
+CombatArea.addAreaPoint 368.484009/73.605957
+CombatArea.addAreaPoint 462.220337/101.803833
+CombatArea.addAreaPoint 499.272705/114.848633
+CombatArea.addAreaPoint 520.843384/126.838013
+CombatArea.addAreaPoint 536.420044/143.138184
+CombatArea.addAreaPoint 545.531250/170.100708
+CombatArea.addAreaPoint 550.308594/215.639648
+CombatArea.addAreaPoint 552.513184/374.271118
+CombatArea.addAreaPoint 550.163330/415.925293
+CombatArea.addAreaPoint 543.575195/459.343506
+CombatArea.addAreaPoint 531.603394/497.016602
+CombatArea.addAreaPoint 516.964966/516.533203
+CombatArea.addAreaPoint 498.796509/536.857300
+CombatArea.addAreaPoint 478.046509/552.047607
+CombatArea.addAreaPoint 462.447266/563.001465
+CombatArea.addAreaPoint 431.768311/564.253540
+CombatArea.addAreaPoint 398.269287/550.323853
+CombatArea.addAreaPoint 372.331909/532.654419
+CombatArea.addAreaPoint 348.626343/526.288208
+CombatArea.addAreaPoint 326.497437/530.945557
+CombatArea.addAreaPoint 284.163452/531.119629
+CombatArea.addAreaPoint 229.624878/515.134766
+CombatArea.addAreaPoint 163.804810/477.659790
+CombatArea.addAreaPoint 87.815552/384.028931
+CombatArea.addAreaPoint 44.654297/343.314453
+CombatArea.addAreaPoint 5.936523/308.815186
+CombatArea.addAreaPoint -23.562805/273.762573
+CombatArea.addAreaPoint -41.061340/235.256836
+CombatArea.addAreaPoint -40.882813/204.007324
+CombatArea.addAreaPoint -45.409058/174.151123
+CombatArea.addAreaPoint -51.319275/152.551025
+CombatArea.addAreaPoint -67.424927/128.200928
+CombatArea.addAreaPoint -91.976868/103.116211
+CombatArea.addAreaPoint -124.860840/73.230347
+CombatArea.addAreaPoint -146.381653/62.352783
+CombatArea.addAreaPoint -169.366943/62.038452
+CombatArea.addAreaPoint -189.556702/56.265869
+CombatArea.addAreaPoint -212.614197/40.027100
+CombatArea.addAreaPoint -240.765869/10.583130
+CombatArea.addAreaPoint -265.956055/-23.943298
+CombatArea.addAreaPoint -272.547485/-50.112000
+CombatArea.team 0
+CombatArea.vehicles 0
+CombatArea.layer 3
+

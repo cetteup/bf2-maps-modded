@@ -1,0 +1,28 @@
+Overgrowth.viewDistance 500
+Overgrowth.viewDistanceScale 1
+Overgrowth.closeDistPercentage 0.15
+
+Overgrowth.addMaterial Big 1
+Overgrowth.setActiveMaterial Big
+Overgrowth.addType mangrove
+Overgrowth.setActiveType mangrove
+OvergrowthType.geometry mangrove_big1
+OvergrowthType.density 15
+OvergrowthType.normalScale 1
+OvergrowthType.rotationScale 0
+OvergrowthType.minRadiusToSame 0
+OvergrowthType.minRadiusToOthers 0
+
+Overgrowth.addMaterial Small 2
+Overgrowth.setActiveMaterial Small
+Overgrowth.addType Palm
+Overgrowth.setActiveType Palm
+OvergrowthType.geometry me_palmtree03
+OvergrowthType.density 10
+OvergrowthType.normalScale 1
+OvergrowthType.rotationScale 0
+OvergrowthType.minRadiusToSame 0
+OvergrowthType.minRadiusToOthers 0
+
+Overgrowth.path levels\operationsmokescreen\overgrowth\
+Overgrowth.preLoad

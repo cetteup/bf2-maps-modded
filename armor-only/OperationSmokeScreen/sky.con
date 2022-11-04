@@ -1,0 +1,53 @@
+Lightmanager.init
+Lightmanager.skycolor 0.55098/0.481569/0.48902
+Lightmanager.ambientcolor 0.605882/0.568627/0.413726
+Lightmanager.sunColor 1/0.8/0.7
+Lightmanager.sunSpecColor 0.592157/0.54902/0.407843
+if v_arg1 == BF2Editor
+LightSettings.TerrainSunColor 1.00/0.75/0.47
+LightSettings.TerrainSkyColor 1.00/1.00/1.10
+LightmapSettings.waterSunIntensity 0.8
+else
+terrain.sunColor 1.00/0.75/0.47
+terrain.GIColor 1.00/1.00/1.10
+terrain.waterSunIntensity 0.8
+endIf
+Lightmanager.staticSunColor 0.75/0.60/0.41
+Lightmanager.staticSpecularColor 0.59/0.53/0.41
+Lightmanager.staticSkyColor 0.53/0.58/0.60
+Lightmanager.singlePointColor 0.00/0.00/0.00
+Lightmanager.sunDirection 0.947257/-0.319076/0.0299134
+Lightmanager.enableSun 1
+Lightmanager.effectSunColor 0.86/0.78/0.57
+Lightmanager.effectShadowColor 0.43/0.37/0.24
+Lightmanager.defaultEffectLightAffectionFactor 1
+Lightmanager.hemilerpbias 0.25
+hemiMapManager.setBaseHemiMap Levels/OperationSmokeScreen/groundhemi 0.000000/0.000000/0.000000 2048.000000 500.000000
+Lightmanager.treeAmbientColor 0.51/0.46/0.38
+Lightmanager.treeSunColor 0.85/0.65/0.4
+Lightmanager.treeSkyColor 0.44/0.44/0.37
+
+if v_arg1 == BF2Editor
+else
+run /Common/Sky/SkyDome/skydome.con
+run /Common/Sky/Flare/flaresprite.con
+endIf
+
+Skydome.skyTemplate skydome
+Skydome.cloudTemplate cloudlayer
+Skydome.hasCloudLayer 1
+Skydome.hasCloudLayer2 1
+Skydome.scrolldirection -0.02/0.006
+Skydome.scrolldirection2 -0.01/0.008
+Skydome.cloudTexture common\textures\cloud\Cloud_dark
+Skydome.cloudTexture2 common\textures\cloud\Cloud_dark01
+Skydome.skyTexture common\textures\sky\Smoke_screen_sky
+Skydome.domeRotation 222
+Skydome.fadeCloudsDistances 400/620
+Skydome.cloudLerpFactors 0.7/1
+Skydome.flareTexture common\textures\sunflare\Mesa_Sunglow.dds
+Skydome.flareDirection -0.95/-0.32/0.03
+
+Renderer.fogColor 102.00/106.00/102.00
+Renderer.fogStartEndAndBase 10/540.00/.5/0.70
+

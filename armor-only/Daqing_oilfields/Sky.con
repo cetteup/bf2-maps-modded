@@ -1,0 +1,48 @@
+Lightmanager.init
+Lightmanager.skycolor 0.407843/0.427451/0.482353
+Lightmanager.ambientcolor 0.7/0.7/0.7
+Lightmanager.sunColor 0.894118/0.890196/0.870588
+Lightmanager.sunSpecColor 0.501961/0.501961/0.501961
+if v_arg1 == BF2Editor
+LightSettings.TerrainSunColor 0.60/0.58/0.45
+LightSettings.TerrainSkyColor 0.22/0.24/0.29
+else
+terrain.sunColor 0.60/0.58/0.45
+terrain.GIColor 0.22/0.24/0.29
+endIf
+Lightmanager.staticSunColor 0.49/0.47/0.38
+Lightmanager.staticSpecularColor 0.62/0.65/0.66
+Lightmanager.staticSkyColor 0.37/0.42/0.39
+Lightmanager.singlePointColor 0.55/0.55/0.55
+Lightmanager.sunDirection 0.489169/-0.868525/-0.0798643
+Lightmanager.enableSun 1
+Lightmanager.effectSunColor 0.89/0.88/0.86
+Lightmanager.effectShadowColor 0.25/0.27/0.33
+Lightmanager.defaultEffectLightAffectionFactor 1
+Lightmanager.hemilerpbias 0.2
+hemiMapManager.setBaseHemiMap Levels/Daqing_oilfields/groundhemi 0.000000/0.000000/0.000000 2048.000000 500.000000
+Lightmanager.treeAmbientColor 0.29/0.25/0.17
+Lightmanager.treeSunColor 0.95/0.95/0.95
+Lightmanager.treeSkyColor 0.16/0.16/0.16
+
+if v_arg1 == BF2Editor
+else
+run /Common/Sky/SkyDome/skydome.con
+endIf
+
+Skydome.skyTemplate skydome
+Skydome.cloudTemplate cloudlayer
+Skydome.hasCloudLayer 1
+Skydome.hasCloudLayer2 1
+Skydome.scrolldirection 0/-0.01
+Skydome.scrolldirection2 0/-0.03
+Skydome.cloudTexture common\textures\cloud\Cloud10
+Skydome.cloudTexture2 common\textures\cloud\Cloud10
+Skydome.skyTexture common\textures\sky\Daqing_Sky01
+Skydome.domeRotation 330
+Skydome.fadeCloudsDistances 450/680
+Skydome.cloudLerpFactors 0.75/0.05
+
+Renderer.fogColor 148/157/145
+Renderer.fogStartEndAndBase 10/450/2/0.85
+

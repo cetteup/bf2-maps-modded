@@ -1,0 +1,35 @@
+rem *** Generated with Bf2Editor.exe [created: 2005/12/1 6:11]
+GeometryTemplate.setSubGeometryLodDistance 0 0 200
+GeometryTemplate.setSubGeometryLodDistance 0 1 225
+GeometryTemplate.setSubGeometryLodDistance 0 2 250
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+ObjectTemplate.activeSafe RotationalBundle xp2_windmill_blades_01
+ObjectTemplate.creator RYAN:RyanLo
+ObjectTemplate.modifiedByUser "RyanLo"
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.geometry xp2_windmill_blades_01
+ObjectTemplate.setCollisionMesh xp2_windmill_blades_01
+ObjectTemplate.mapMaterial 0 metal_thin 20
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+
+rem -------------------------------------
+
+ObjectTemplate.addTemplate S_xp2_windmill_blades_01_RotationRpm
+
+rem -------------------------------------
+
+ObjectTemplate.setMaxSpeed 0/100/0
+ObjectTemplate.setAcceleration 0/100/0
+ObjectTemplate.setContinousRotationSpeed 0/100/0
+ObjectTemplate.activeSafe Sound S_xp2_windmill_blades_01_RotationRpm
+ObjectTemplate.modifiedByUser "RyanLo"
+
+rem -------------------------------------
+
+ObjectTemplate.setNetworkableInfo BasicInfo
+
+rem -------------------------------------

@@ -1,0 +1,19 @@
+rem *** Generated with Bf2Editor.exe [created: 2005/9/26 7:1]
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+ObjectTemplate.activeSafe Rotor xpak2_tiger_rearrotor
+ObjectTemplate.creator JEFFO:jeffev
+ObjectTemplate.modifiedByUser "jeffev"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.geometry xpak2_tiger_rearrotor
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.changeLodAt 0.15
+ObjectTemplate.tolerance 0.000195313
+ObjectTemplate.rotationSpeedMod 2.5
+ObjectTemplate.rotationSpeedModBlur 0.1
+ObjectTemplate.rotationAxle 1
+ObjectTemplate.engineName xpak2_tiger_EngineRear
+

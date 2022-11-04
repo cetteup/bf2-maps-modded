@@ -1,0 +1,16 @@
+GeometryTemplate.create StaticMesh xp2_oilsilo_01
+CollisionManager.createTemplate xp2_oilsilo_01
+
+ObjectTemplate.create SimpleObject xp2_oilsilo_01
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator RYAN:RyanLo
+ObjectTemplate.collisionMesh xp2_oilsilo_01
+ObjectTemplate.mapMaterial 0 metal_solid 0
+ObjectTemplate.mapMaterial 1 concrete 0
+ObjectTemplate.mapMaterial 2 metal_thin 0
+ObjectTemplate.mapMaterial 3 stairs_metal 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry xp2_oilsilo_01
+
+include xp2_oilsilo_01.tweak

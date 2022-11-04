@@ -1,0 +1,22 @@
+rem *** Generated with Bf2Editor.exe [created: 2007/3/12 16:8]
+GeometryTemplate.setSubGeometryLodDistance 0 0 26
+GeometryTemplate.setSubGeometryLodDistance 0 1 51
+GeometryTemplate.setSubGeometryLodDistance 0 2 76
+GeometryTemplate.doNotGenerateLightmaps 0
+GeometryTemplate.lightmapOverride 0
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+ObjectTemplate.activeSafe SimpleObject billboard_highway_ad_02
+ObjectTemplate.creator DICE-SVUKANOVI1:svukanovic
+ObjectTemplate.modifiedByUser "svukanovic"
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.geometry billboard_highway_ad_02
+ObjectTemplate.setCollisionMesh billboard_highway_ad_02
+ObjectTemplate.mapMaterial 0 metal_solid 21
+ObjectTemplate.mapMaterial 1 concrete 78
+ObjectTemplate.mapMaterial 2 plastic 11
+ObjectTemplate.mapMaterial 3 glass 17
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+

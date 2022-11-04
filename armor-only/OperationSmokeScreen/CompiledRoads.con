@@ -1,0 +1,68 @@
+object.create OSS_road_xpack2
+object.geometry.loadMesh Levels\OperationSmokeScreen\Roads\MainroadM_compiled.mesh
+object.absoluteposition 6.17303/122.25/-48.2973
+
+object.create OSS_road_xpack2
+object.geometry.loadMesh Levels\OperationSmokeScreen\Roads\Mainroadn_compiled.mesh
+object.absoluteposition -420.773/100.485/379.765
+
+object.create OSS_road_xpack2
+object.geometry.loadMesh Levels\OperationSmokeScreen\Roads\MainroadH_compiled.mesh
+object.absoluteposition -258.983/105.118/-92.2299
+
+object.create OSS_road_xpack2
+object.geometry.loadMesh Levels\OperationSmokeScreen\Roads\MainroadG_compiled.mesh
+object.absoluteposition -215.145/105.054/-66.1409
+
+object.create OSS_road_xpack2
+object.geometry.loadMesh Levels\OperationSmokeScreen\Roads\MainroadJ_compiled.mesh
+object.absoluteposition -214.398/106.217/-126.352
+
+object.create OSS_road_xpack2
+object.geometry.loadMesh Levels\OperationSmokeScreen\Roads\MainroadI_compiled.mesh
+object.absoluteposition -243.874/106.252/-32.9141
+
+object.create OSS_road_xpack2
+object.geometry.loadMesh Levels\OperationSmokeScreen\Roads\Mainroad2_compiled.mesh
+object.absoluteposition 196.933/97.9557/-516.987
+
+object.create OSS_road_xpack2
+object.geometry.loadMesh Levels\OperationSmokeScreen\Roads\MainroadF_compiled.mesh
+object.absoluteposition 462.86/137.035/151.062
+
+object.create OSS_road_xpack2
+object.geometry.loadMesh Levels\OperationSmokeScreen\Roads\MainroadO_compiled.mesh
+object.absoluteposition 246.406/135.477/-70.221
+
+object.create OSS_road_xpack2
+object.geometry.loadMesh Levels\OperationSmokeScreen\Roads\MainroadP_compiled.mesh
+object.absoluteposition 176.292/135.541/-102.557
+
+object.create OSS_road_xpack2
+object.geometry.loadMesh Levels\OperationSmokeScreen\Roads\MainroadQ_compiled.mesh
+object.absoluteposition 188.552/135.541/-113.314
+
+object.create OSS_road_xpack2
+object.geometry.loadMesh Levels\OperationSmokeScreen\Roads\MainroadL_compiled.mesh
+object.absoluteposition 9.99219/123.008/-13.2701
+
+object.create OSS_road_xpack2
+object.geometry.loadMesh Levels\OperationSmokeScreen\Roads\MainroadK_compiled.mesh
+object.absoluteposition -563.796/98.8363/-578.4
+
+object.create OSS_road_xpack2
+object.geometry.loadMesh Levels\OperationSmokeScreen\Roads\Mainroad_compiled.mesh
+object.absoluteposition -156.798/99.6451/49.9995
+
+object.create OSS_road_xpack2
+object.geometry.loadMesh Levels\OperationSmokeScreen\Roads\MainroadC_compiled.mesh
+object.absoluteposition -178.773/93.4753/317.066
+
+object.create OSS_road_xpack2
+object.geometry.loadMesh Levels\OperationSmokeScreen\Roads\MainroadD_compiled.mesh
+object.absoluteposition -224.504/90.4953/283.662
+
+object.create OSS_road_xpack2
+object.geometry.loadMesh Levels\OperationSmokeScreen\Roads\MainroadE_compiled.mesh
+object.absoluteposition -82.4223/95.7013/260.381
+

@@ -1,0 +1,4 @@
+ObjectTemplate.create Bundle ambstat_Oiltowerburning
+ObjectTemplate.createdInEditor 1
+
+include ambstat_Oiltowerburning.tweak

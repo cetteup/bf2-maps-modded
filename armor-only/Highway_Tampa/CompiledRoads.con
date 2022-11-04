@@ -1,0 +1,152 @@
+object.create highway
+object.geometry.loadMesh Levels\Highway_Tampa\Roads\highway_3_compiled.mesh
+object.absoluteposition -315.229/27.0465/124.535
+
+object.create highway
+object.geometry.loadMesh Levels\Highway_Tampa\Roads\highway_1_compiled.mesh
+object.absoluteposition 279.426/27.0535/-561.413
+
+object.create highway
+object.geometry.loadMesh Levels\Highway_Tampa\Roads\highway_2_compiled.mesh
+object.absoluteposition -292.803/27.1364/-683.052
+
+object.create highway
+object.geometry.loadMesh Levels\Highway_Tampa\Roads\highway_4_compiled.mesh
+object.absoluteposition -440.849/27.1722/-525.354
+
+object.create highway
+object.geometry.loadMesh Levels\Highway_Tampa\Roads\highway_5_compiled.mesh
+object.absoluteposition -296.011/30.3003/-949.044
+
+object.create dirtroad
+object.geometry.loadMesh Levels\Highway_Tampa\Roads\dirtroad_1_compiled.mesh
+object.absoluteposition 657.539/26.9931/-482.348
+
+object.create dirtroad
+object.geometry.loadMesh Levels\Highway_Tampa\Roads\dirtroad_2_compiled.mesh
+object.absoluteposition 620.022/26.5938/-281.341
+
+object.create dirtroad
+object.geometry.loadMesh Levels\Highway_Tampa\Roads\dirtroad_4_compiled.mesh
+object.absoluteposition -189.611/27.7209/635.499
+
+object.create dirtroad
+object.geometry.loadMesh Levels\Highway_Tampa\Roads\dirtroad_3_compiled.mesh
+object.absoluteposition -39.4937/27.3458/-433.729
+
+object.create highway
+object.geometry.loadMesh Levels\Highway_Tampa\Roads\highway_6_compiled.mesh
+object.absoluteposition -799.33/27.2312/-519.996
+
+object.create dirtroad
+object.geometry.loadMesh Levels\Highway_Tampa\Roads\dirtroad_7_compiled.mesh
+object.absoluteposition 239.971/27.2829/-323.232
+
+object.create dirtroad
+object.geometry.loadMesh Levels\Highway_Tampa\Roads\dirtroad_6_compiled.mesh
+object.absoluteposition -32.2895/28.4485/-80.0322
+
+object.create highway
+object.geometry.loadMesh Levels\Highway_Tampa\Roads\highway_7_compiled.mesh
+object.absoluteposition -338.712/27.2235/929.136
+
+object.create highway
+object.geometry.loadMesh Levels\Highway_Tampa\Roads\highway_8_compiled.mesh
+object.absoluteposition 945.668/27.2504/-578.915
+
+object.create dirtroad
+object.geometry.loadMesh Levels\Highway_Tampa\Roads\dirtroad_8_compiled.mesh
+object.absoluteposition 425.101/27.1169/-257.545
+
+object.create dirtroad
+object.geometry.loadMesh Levels\Highway_Tampa\Roads\dirtroad_9_compiled.mesh
+object.absoluteposition 112.411/27.0158/-189.337
+
+object.create dirtroad
+object.geometry.loadMesh Levels\Highway_Tampa\Roads\dirtroad_5_compiled.mesh
+object.absoluteposition -146.992/27.0155/-277.781
+
+object.create dirtroad
+object.geometry.loadMesh Levels\Highway_Tampa\Roads\dirtroad_10_compiled.mesh
+object.absoluteposition -344.852/27/-253.266
+
+object.create dirtroad
+object.geometry.loadMesh Levels\Highway_Tampa\Roads\dirtroad_11_compiled.mesh
+object.absoluteposition -179.635/27/-229.487
+
+object.create dirtroad
+object.geometry.loadMesh Levels\Highway_Tampa\Roads\dirtroad_12_compiled.mesh
+object.absoluteposition 92.2492/27.0023/-362.188
+
+object.create dirtroad
+object.geometry.loadMesh Levels\Highway_Tampa\Roads\dirtroad_13_compiled.mesh
+object.absoluteposition 36.4608/26.8023/-593.321
+
+object.create dirtroad
+object.geometry.loadMesh Levels\Highway_Tampa\Roads\dirtroad_14_compiled.mesh
+object.absoluteposition -122.842/26.7257/-628.418
+
+object.create dirtroad
+object.geometry.loadMesh Levels\Highway_Tampa\Roads\dirtroad_15_compiled.mesh
+object.absoluteposition -307.764/27.1883/-604.299
+
+object.create dirtroad
+object.geometry.loadMesh Levels\Highway_Tampa\Roads\dirtroad_16_compiled.mesh
+object.absoluteposition 130.279/27.2271/-621.682
+
+object.create dirtroad
+object.geometry.loadMesh Levels\Highway_Tampa\Roads\dirtroad_17_compiled.mesh
+object.absoluteposition 477.718/29.5114/-342.449
+
+object.create dirtroad
+object.geometry.loadMesh Levels\Highway_Tampa\Roads\dirtroad_28_compiled.mesh
+object.absoluteposition 524.287/27.0078/-512.885
+
+object.create dirtroad
+object.geometry.loadMesh Levels\Highway_Tampa\Roads\dirtroad_29_compiled.mesh
+object.absoluteposition 86.0796/27.2928/-491.17
+
+object.create dirtroad
+object.geometry.loadMesh Levels\Highway_Tampa\Roads\dirtroad_30_compiled.mesh
+object.absoluteposition 40.4262/27.7698/-395.802
+
+object.create dirtroad
+object.geometry.loadMesh Levels\Highway_Tampa\Roads\dirtroad_24_compiled.mesh
+object.absoluteposition -246.485/27.4127/-147.546
+
+object.create dirtroad
+object.geometry.loadMesh Levels\Highway_Tampa\Roads\dirtroad_20_compiled.mesh
+object.absoluteposition -371.607/27/417.066
+
+object.create dirtroad
+object.geometry.loadMesh Levels\Highway_Tampa\Roads\dirtroad_23_compiled.mesh
+object.absoluteposition -193.504/27.6931/160.337
+
+object.create dirtroad
+object.geometry.loadMesh Levels\Highway_Tampa\Roads\dirtroad_22_compiled.mesh
+object.absoluteposition -299.847/27/390.089
+
+object.create dirtroad
+object.geometry.loadMesh Levels\Highway_Tampa\Roads\dirtroad_21_compiled.mesh
+object.absoluteposition -305.241/27/442.385
+
+object.create dirtroad
+object.geometry.loadMesh Levels\Highway_Tampa\Roads\DIRTROAD_18_compiled.mesh
+object.absoluteposition -363.273/27/654.126
+
+object.create dirtroad
+object.geometry.loadMesh Levels\Highway_Tampa\Roads\dirtroad_19_compiled.mesh
+object.absoluteposition -50.4648/27.1904/412.274
+
+object.create dirtroad
+object.geometry.loadMesh Levels\Highway_Tampa\Roads\dirtroad_25_compiled.mesh
+object.absoluteposition 0.255145/29.0623/118.697
+
+object.create dirtroad
+object.geometry.loadMesh Levels\Highway_Tampa\Roads\dirtroad_26_compiled.mesh
+object.absoluteposition -47.8931/27.5199/10.0519
+
+object.create dirtroad
+object.geometry.loadMesh Levels\Highway_Tampa\Roads\dirtroad_27_compiled.mesh
+object.absoluteposition 107.034/27.9416/-128.851
+

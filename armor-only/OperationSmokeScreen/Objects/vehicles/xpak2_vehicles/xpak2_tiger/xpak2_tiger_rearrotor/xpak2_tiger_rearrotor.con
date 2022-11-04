@@ -1,0 +1,8 @@
+GeometryTemplate.create BundledMesh xpak2_tiger_rearrotor
+
+ObjectTemplate.create Rotor xpak2_tiger_rearrotor
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator JEFFO:jeffev
+ObjectTemplate.geometry xpak2_tiger_rearrotor
+
+include xpak2_tiger_rearrotor.tweak

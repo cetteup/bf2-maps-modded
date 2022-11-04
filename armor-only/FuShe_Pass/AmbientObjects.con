@@ -1,0 +1,2427 @@
+rem *********** TriggerTrigger ***********
+
+rem [TriggerTemplate: Trigger_dust1]
+ObjectTemplate.create Trigger Trigger_dust1
+ObjectTemplate.activeSafe Trigger Trigger_dust1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.triggerId 1
+ObjectTemplate.radius 30
+ObjectTemplate.events 1
+ObjectTemplate.chance 0.66
+ObjectTemplate.minimumTimeBetweenTriggering 28
+
+rem [TriggerTemplate: Trigger_dust2]
+ObjectTemplate.create Trigger Trigger_dust2
+ObjectTemplate.activeSafe Trigger Trigger_dust2
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.triggerId 2
+ObjectTemplate.radius 30
+ObjectTemplate.events 1
+ObjectTemplate.chance 0.66
+ObjectTemplate.minimumTimeBetweenTriggering 20
+
+rem [TriggerTemplate: Trigger_dust4]
+ObjectTemplate.create Trigger Trigger_dust4
+ObjectTemplate.activeSafe Trigger Trigger_dust4
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.triggerId 4
+ObjectTemplate.radius 25
+ObjectTemplate.events 1
+ObjectTemplate.chance 0.66
+ObjectTemplate.minimumTimeBetweenTriggering 15
+
+rem [TriggerTemplate: Trigger_dust5]
+ObjectTemplate.create Trigger Trigger_dust5
+ObjectTemplate.activeSafe Trigger Trigger_dust5
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.triggerId 3
+ObjectTemplate.radius 15
+ObjectTemplate.events 5
+ObjectTemplate.chance 1
+ObjectTemplate.minimumTimeBetweenTriggering 30
+
+rem [TriggerTemplate: Birds1]
+ObjectTemplate.create Trigger Birds1
+ObjectTemplate.activeSafe Trigger Birds1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.triggerId 5
+ObjectTemplate.radius 10
+ObjectTemplate.events 15
+ObjectTemplate.chance 1
+ObjectTemplate.minimumTimeBetweenTriggering 120
+
+rem [TriggerTemplate: Birds2]
+ObjectTemplate.create Trigger Birds2
+ObjectTemplate.activeSafe Trigger Birds2
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.triggerId 6
+ObjectTemplate.radius 15
+ObjectTemplate.events 4
+ObjectTemplate.chance 1
+ObjectTemplate.minimumTimeBetweenTriggering 120
+
+rem [TriggerTemplate: Birds3]
+ObjectTemplate.create Trigger Birds3
+ObjectTemplate.activeSafe Trigger Birds3
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.triggerId 7
+ObjectTemplate.radius 12
+ObjectTemplate.events 4
+ObjectTemplate.chance 1
+ObjectTemplate.minimumTimeBetweenTriggering 120
+
+rem [TriggerTemplate: Birds4]
+ObjectTemplate.create Trigger Birds4
+ObjectTemplate.activeSafe Trigger Birds4
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.triggerId 8
+ObjectTemplate.radius 30
+ObjectTemplate.events 12
+ObjectTemplate.chance 1
+ObjectTemplate.minimumTimeBetweenTriggering 180
+
+   rem [Trigger: Trigger_dust1]
+   Object.create Trigger_dust1
+   Object.absolutePosition -112.334/79.297/22.569
+   Object.rotation 0.000/0.000/0.000
+   Object.layer 1
+
+   rem [Trigger: Trigger_dust2]
+   Object.create Trigger_dust2
+   Object.absolutePosition 28.687/73.596/167.062
+   Object.rotation 0.000/0.000/0.000
+   Object.layer 1
+
+   rem [Trigger: Trigger_dust4]
+   Object.create Trigger_dust4
+   Object.absolutePosition 105.131/93.500/-195.584
+   Object.rotation 0.000/0.000/0.000
+   Object.layer 1
+
+   rem [Trigger: Trigger_dust5]
+   Object.create Trigger_dust5
+   Object.absolutePosition -162.634/79.297/-17.494
+   Object.rotation 0.000/0.000/0.000
+   Object.layer 1
+
+   rem [Trigger: Birds1]
+   Object.create Birds1
+   Object.absolutePosition -79.092/116.860/331.688
+   Object.rotation 0.000/0.000/0.000
+   Object.layer 1
+
+   rem [Trigger: Birds2]
+   Object.create Birds2
+   Object.absolutePosition -561.237/93.720/235.377
+   Object.rotation 0.000/0.000/0.000
+   Object.layer 1
+
+   rem [Trigger: Birds3]
+   Object.create Birds3
+   Object.absolutePosition -441.730/99.978/254.793
+   Object.rotation 0.000/0.000/0.000
+   Object.layer 1
+
+   rem [Trigger: Birds4]
+   Object.create Birds4
+   Object.absolutePosition 258.548/93.625/-60.785
+   Object.rotation 0.000/0.000/0.000
+   Object.layer 1
+
+rem ********** AmbientEffectArea **********
+
+rem [AmbientEffectAreaTemplate: Trigger_dust1_AmbientEffect_1]
+ObjectTemplate.create AmbientEffectArea Trigger_dust1_AmbientEffect_1
+ObjectTemplate.activeSafe AmbientEffectArea Trigger_dust1_AmbientEffect_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.radius 10
+ObjectTemplate.triggerId 1
+ObjectTemplate.linkedEffectContainer e_damb_dustsmall
+
+rem [AmbientEffectAreaTemplate: Trigger_dust2_AmbientEffect_1]
+ObjectTemplate.create AmbientEffectArea Trigger_dust2_AmbientEffect_1
+ObjectTemplate.activeSafe AmbientEffectArea Trigger_dust2_AmbientEffect_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.radius 15
+ObjectTemplate.triggerId 2
+ObjectTemplate.linkedEffectContainer e_dAmb_dustTrail
+
+rem [AmbientEffectAreaTemplate: Trigger_dust5_AmbientEffect_1]
+ObjectTemplate.create AmbientEffectArea Trigger_dust5_AmbientEffect_1
+ObjectTemplate.activeSafe AmbientEffectArea Trigger_dust5_AmbientEffect_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.triggerId 3
+ObjectTemplate.linkedEffectContainer e_dAmb_dustCloud
+
+rem [AmbientEffectAreaTemplate: Trigger_dust5_AmbientEffect_2]
+ObjectTemplate.create AmbientEffectArea Trigger_dust5_AmbientEffect_2
+ObjectTemplate.activeSafe AmbientEffectArea Trigger_dust5_AmbientEffect_2
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.triggerId 3
+ObjectTemplate.linkedEffectContainer e_dAmb_dustTrail
+
+rem [AmbientEffectAreaTemplate: Trigger_dust2_AmbientEffect_2]
+ObjectTemplate.create AmbientEffectArea Trigger_dust2_AmbientEffect_2
+ObjectTemplate.activeSafe AmbientEffectArea Trigger_dust2_AmbientEffect_2
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.radius 10
+ObjectTemplate.triggerId 2
+ObjectTemplate.linkedEffectContainer e_dAmb_dustCloud
+
+rem [AmbientEffectAreaTemplate: Trigger_dust4_AmbientEffect_1]
+ObjectTemplate.create AmbientEffectArea Trigger_dust4_AmbientEffect_1
+ObjectTemplate.activeSafe AmbientEffectArea Trigger_dust4_AmbientEffect_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.radius 15
+ObjectTemplate.triggerId 4
+ObjectTemplate.linkedEffectContainer e_dAmb_dustCloud
+
+rem [AmbientEffectAreaTemplate: Birds1_AmbientEffect_1]
+ObjectTemplate.create AmbientEffectArea Birds1_AmbientEffect_1
+ObjectTemplate.activeSafe AmbientEffectArea Birds1_AmbientEffect_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.radius 2
+ObjectTemplate.triggerId 5
+ObjectTemplate.projectOnHeightmap 0
+ObjectTemplate.linkedEffectContainer e_dAmb_bird
+
+rem [AmbientEffectAreaTemplate: Birds2_AmbientEffect_1]
+ObjectTemplate.create AmbientEffectArea Birds2_AmbientEffect_1
+ObjectTemplate.activeSafe AmbientEffectArea Birds2_AmbientEffect_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.radius 2
+ObjectTemplate.triggerId 6
+ObjectTemplate.projectOnHeightmap 0
+ObjectTemplate.linkedEffectContainer e_damb_bird2
+
+rem [AmbientEffectAreaTemplate: Birds3_AmbientEffect_1]
+ObjectTemplate.create AmbientEffectArea Birds3_AmbientEffect_1
+ObjectTemplate.activeSafe AmbientEffectArea Birds3_AmbientEffect_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.radius 2
+ObjectTemplate.triggerId 7
+ObjectTemplate.projectOnHeightmap 0
+ObjectTemplate.linkedEffectContainer e_dAmb_bird
+
+rem [AmbientEffectAreaTemplate: Birds4_AmbientEffect_1]
+ObjectTemplate.create AmbientEffectArea Birds4_AmbientEffect_1
+ObjectTemplate.activeSafe AmbientEffectArea Birds4_AmbientEffect_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.radius 10
+ObjectTemplate.triggerId 8
+ObjectTemplate.linkedEffectContainer e_damb_bird2
+
+rem [AmbientEffectAreaTemplate: Birds4_AmbientEffect_2]
+ObjectTemplate.create AmbientEffectArea Birds4_AmbientEffect_2
+ObjectTemplate.activeSafe AmbientEffectArea Birds4_AmbientEffect_2
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.radius 10
+ObjectTemplate.triggerId 8
+ObjectTemplate.linkedEffectContainer e_dAmb_bird
+
+   rem [AmbientEffectArea: Trigger_dust1_AmbientEffect_1]
+   Object.create Trigger_dust1_AmbientEffect_1
+   Object.absolutePosition -124.527/79.297/26.421
+   Object.rotation 0.000/0.000/0.000
+   Object.layer 1
+
+   rem [AmbientEffectArea: Trigger_dust2_AmbientEffect_1]
+   Object.create Trigger_dust2_AmbientEffect_1
+   Object.absolutePosition 42.546/73.596/176.261
+   Object.rotation 0.000/0.000/0.000
+   Object.layer 1
+
+   rem [AmbientEffectArea: Trigger_dust5_AmbientEffect_1]
+   Object.create Trigger_dust5_AmbientEffect_1
+   Object.absolutePosition -171.495/79.297/-2.022
+   Object.rotation 0.000/0.000/0.000
+   Object.layer 1
+
+   rem [AmbientEffectArea: Trigger_dust5_AmbientEffect_2]
+   Object.create Trigger_dust5_AmbientEffect_2
+   Object.absolutePosition -143.476/79.297/-13.096
+   Object.rotation 0.000/0.000/0.000
+   Object.layer 1
+
+   rem [AmbientEffectArea: Trigger_dust2_AmbientEffect_2]
+   Object.create Trigger_dust2_AmbientEffect_2
+   Object.absolutePosition 10.372/73.590/163.220
+   Object.rotation 0.000/0.000/0.000
+   Object.layer 1
+
+   rem [AmbientEffectArea: Trigger_dust4_AmbientEffect_1]
+   Object.create Trigger_dust4_AmbientEffect_1
+   Object.absolutePosition 106.064/93.500/-196.781
+   Object.rotation 0.000/0.000/0.000
+   Object.layer 1
+
+   rem [AmbientEffectArea: Birds1_AmbientEffect_1]
+   Object.create Birds1_AmbientEffect_1
+   Object.absolutePosition -37.503/129.043/320.822
+   Object.rotation 0.000/0.000/0.000
+   Object.layer 1
+
+   rem [AmbientEffectArea: Birds2_AmbientEffect_1]
+   Object.create Birds2_AmbientEffect_1
+   Object.absolutePosition -544.445/108.576/237.414
+   Object.rotation 0.000/0.000/0.000
+   Object.layer 1
+
+   rem [AmbientEffectArea: Birds3_AmbientEffect_1]
+   Object.create Birds3_AmbientEffect_1
+   Object.absolutePosition -483.535/111.158/254.996
+   Object.rotation 0.000/0.000/0.000
+   Object.layer 1
+
+   rem [AmbientEffectArea: Birds4_AmbientEffect_1]
+   Object.create Birds4_AmbientEffect_1
+   Object.absolutePosition 219.662/92.297/-62.860
+   Object.rotation 0.000/0.000/0.000
+   Object.layer 1
+
+   rem [AmbientEffectArea: Birds4_AmbientEffect_2]
+   Object.create Birds4_AmbientEffect_2
+   Object.absolutePosition 324.000/89.795/-58.205
+   Object.rotation 0.000/0.000/0.000
+   Object.layer 1
+
+rem ************ AmbientSounds ************
+
+rem [SoundObjectTemplate: S_GlobalAmbient]
+ObjectTemplate.create Sound S_GlobalAmbient
+ObjectTemplate.activeSafe Sound S_GlobalAmbient
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/fushe_global_ambient.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.74
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.minDistance 300000
+
+Sound.addTrigger S_GlobalAmbient
+
+rem [SoundObjectTemplate: S_Windy_Outpost_1]
+ObjectTemplate.create Sound S_Windy_Outpost_1
+ObjectTemplate.activeSafe Sound S_Windy_Outpost_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/windy_outpost.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position -171.112/139.894/34.289
+ObjectTemplate.minDistance 6
+
+Sound.addTrigger S_Windy_Outpost_1
+
+rem [SoundObjectTemplate: S_Windy_Outpost_2]
+ObjectTemplate.create Sound S_Windy_Outpost_2
+ObjectTemplate.activeSafe Sound S_Windy_Outpost_2
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/windy_outpost.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position -193.121/115.688/-5.323
+ObjectTemplate.minDistance 8
+
+Sound.addTrigger S_Windy_Outpost_2
+
+rem [SoundObjectTemplate: S_Boat_House_1]
+ObjectTemplate.create Sound S_Boat_House_1
+ObjectTemplate.activeSafe Sound S_Boat_House_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/boathouse_by_river.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.42
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 691.456/58.931/413.117
+ObjectTemplate.minDistance 13
+
+Sound.addTrigger S_Boat_House_1
+
+rem [SoundObjectTemplate: S_Wooden_Shelter_1]
+ObjectTemplate.create Sound S_Wooden_Shelter_1
+ObjectTemplate.activeSafe Sound S_Wooden_Shelter_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/wooden_shelter_1.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position -151.738/126.624/310.361
+ObjectTemplate.minDistance 4
+
+Sound.addTrigger S_Wooden_Shelter_1
+
+rem [SoundObjectTemplate: S_Village_Ambient_1]
+ObjectTemplate.create Sound S_Village_Ambient_1
+ObjectTemplate.activeSafe Sound S_Village_Ambient_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/village_ambient.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 598.331/99.573/531.198
+ObjectTemplate.minDistance 50
+
+Sound.addTrigger S_Village_Ambient_1
+
+rem [SoundObjectTemplate: S_Village_Ambient_2]
+ObjectTemplate.create Sound S_Village_Ambient_2
+ObjectTemplate.activeSafe Sound S_Village_Ambient_2
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/village_ambient.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 616.418/96.002/597.966
+ObjectTemplate.minDistance 50
+
+Sound.addTrigger S_Village_Ambient_2
+
+rem [SoundObjectTemplate: S_Inside_House_1]
+ObjectTemplate.create Sound S_Inside_House_1
+ObjectTemplate.activeSafe Sound S_Inside_House_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/inside.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 600.061/95.996/544.22
+ObjectTemplate.minDistance 4
+
+Sound.addTrigger S_Inside_House_1
+
+rem [SoundObjectTemplate: S_Windy_Iron_Bridge]
+ObjectTemplate.create Sound S_Windy_Iron_Bridge
+ObjectTemplate.activeSafe Sound S_Windy_Iron_Bridge
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/under_metalbridge.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 663.819/73.917/412.509
+ObjectTemplate.minDistance 10
+
+Sound.addTrigger S_Windy_Iron_Bridge
+
+rem [SoundObjectTemplate: S_Windy_Iron_Bridge_2]
+ObjectTemplate.create Sound S_Windy_Iron_Bridge_2
+ObjectTemplate.activeSafe Sound S_Windy_Iron_Bridge_2
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/under_metalbridge.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 739.136/76.044/411.194
+ObjectTemplate.minDistance 12
+
+Sound.addTrigger S_Windy_Iron_Bridge_2
+
+rem [SoundObjectTemplate: S_Wooden_Shelter_2]
+ObjectTemplate.create Sound S_Wooden_Shelter_2
+ObjectTemplate.activeSafe Sound S_Wooden_Shelter_2
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/wooden_shelter_1.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position -226.253/130.597/297.286
+ObjectTemplate.minDistance 8
+
+Sound.addTrigger S_Wooden_Shelter_2
+
+rem [SoundObjectTemplate: S_Wooden_Shelter_3]
+ObjectTemplate.create Sound S_Wooden_Shelter_3
+ObjectTemplate.activeSafe Sound S_Wooden_Shelter_3
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/wooden_shelter_1.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position -226.197/130.597/286.251
+ObjectTemplate.minDistance 8
+
+Sound.addTrigger S_Wooden_Shelter_3
+
+rem [SoundObjectTemplate: S_Tunnel_Sewer_1]
+ObjectTemplate.create Sound S_Tunnel_Sewer_1
+ObjectTemplate.activeSafe Sound S_Tunnel_Sewer_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/tunnel_sewer.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 92.199/60.651/-47.178
+ObjectTemplate.minDistance 5
+ObjectTemplate.soundRadius 0.6
+
+Sound.addTrigger S_Tunnel_Sewer_1
+
+rem [SoundObjectTemplate: S_Tunnel_Sewer_2]
+ObjectTemplate.create Sound S_Tunnel_Sewer_2
+ObjectTemplate.activeSafe Sound S_Tunnel_Sewer_2
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/tunnel_sewer.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 112.918/58.871/-19.87
+ObjectTemplate.minDistance 5
+ObjectTemplate.soundRadius 0.6
+
+Sound.addTrigger S_Tunnel_Sewer_2
+
+rem [SoundObjectTemplate: S_Generators_1]
+ObjectTemplate.create Sound S_Generators_1
+ObjectTemplate.activeSafe Sound S_Generators_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/generators.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 372.932/92.395/-249.725
+ObjectTemplate.minDistance 30
+
+Sound.addTrigger S_Generators_1
+
+rem [SoundObjectTemplate: S_Hangar_1]
+ObjectTemplate.create Sound S_Hangar_1
+ObjectTemplate.activeSafe Sound S_Hangar_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/hangar.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.55
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 743.397/89.996/719.549
+ObjectTemplate.minDistance 13
+
+Sound.addTrigger S_Hangar_1
+
+rem [SoundObjectTemplate: S_Hangar_2]
+ObjectTemplate.create Sound S_Hangar_2
+ObjectTemplate.activeSafe Sound S_Hangar_2
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/hangar.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.55
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 773.743/89.996/719.423
+ObjectTemplate.minDistance 13
+
+Sound.addTrigger S_Hangar_2
+
+rem [SoundObjectTemplate: S_Hangar_3]
+ObjectTemplate.create Sound S_Hangar_3
+ObjectTemplate.activeSafe Sound S_Hangar_3
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/hangar.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position -591.097/123.901/-491.274
+ObjectTemplate.minDistance 13
+
+Sound.addTrigger S_Hangar_3
+
+rem [SoundObjectTemplate: S_Hangar_4]
+ObjectTemplate.create Sound S_Hangar_4
+ObjectTemplate.activeSafe Sound S_Hangar_4
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/hangar.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position -621.584/123.901/-472.346
+ObjectTemplate.minDistance 13
+
+Sound.addTrigger S_Hangar_4
+
+rem [SoundObjectTemplate: S_Dam_1]
+ObjectTemplate.create Sound S_Dam_1
+ObjectTemplate.activeSafe Sound S_Dam_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/dam_ambient_1.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position -555.325/93.53/108.611
+ObjectTemplate.minDistance 130
+
+Sound.addTrigger S_Dam_1
+
+rem [SoundObjectTemplate: S_Pond_1]
+ObjectTemplate.create Sound S_Pond_1
+ObjectTemplate.activeSafe Sound S_Pond_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/small_river_1.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.42
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 1.466/113.811/333.164
+ObjectTemplate.minDistance 15
+
+Sound.addTrigger S_Pond_1
+
+rem [SoundObjectTemplate: S_Industry_Ambient_1]
+ObjectTemplate.create Sound S_Industry_Ambient_1
+ObjectTemplate.activeSafe Sound S_Industry_Ambient_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/factory_ambient.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position -8.387/77.594/-38.891
+ObjectTemplate.minDistance 75
+
+Sound.addTrigger S_Industry_Ambient_1
+
+rem [SoundObjectTemplate: S_Industry_Ambient_2]
+ObjectTemplate.create Sound S_Industry_Ambient_2
+ObjectTemplate.activeSafe Sound S_Industry_Ambient_2
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/factory_ambient.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 105.947/126.18/142.474
+ObjectTemplate.minDistance 150
+
+Sound.addTrigger S_Industry_Ambient_2
+
+rem [SoundObjectTemplate: S_Industry_Ambient_3]
+ObjectTemplate.create Sound S_Industry_Ambient_3
+ObjectTemplate.activeSafe Sound S_Industry_Ambient_3
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/factory_ambient.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position -171.869/79.564/-23.057
+ObjectTemplate.minDistance 150
+
+Sound.addTrigger S_Industry_Ambient_3
+
+rem [SoundObjectTemplate: S_Pulse_Erie_1]
+ObjectTemplate.create Sound S_Pulse_Erie_1
+ObjectTemplate.activeSafe Sound S_Pulse_Erie_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/factory_pulse_erie.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position -150.484/79.297/3.315
+ObjectTemplate.minDistance 17
+
+Sound.addTrigger S_Pulse_Erie_1
+
+rem [SoundObjectTemplate: S_Factory_Interior_1]
+ObjectTemplate.create Sound S_Factory_Interior_1
+ObjectTemplate.activeSafe Sound S_Factory_Interior_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/factory_hydralic_interior.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position -243.7/79.297/-17.495
+ObjectTemplate.minDistance 18
+
+Sound.addTrigger S_Factory_Interior_1
+
+rem [SoundObjectTemplate: S_Pulse_Stone_1]
+ObjectTemplate.create Sound S_Pulse_Stone_1
+ObjectTemplate.activeSafe Sound S_Pulse_Stone_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/factory_pulse_stone.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 129.974/88.905/212.475
+ObjectTemplate.minDistance 30
+
+Sound.addTrigger S_Pulse_Stone_1
+
+rem [SoundObjectTemplate: S_Factory_Semi_Interior_1]
+ObjectTemplate.create Sound S_Factory_Semi_Interior_1
+ObjectTemplate.activeSafe Sound S_Factory_Semi_Interior_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/factory_semi_interior.ogg"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 0.16/77.594/-39.671
+ObjectTemplate.minDistance 16
+
+Sound.addTrigger S_Factory_Semi_Interior_1
+
+rem [SoundObjectTemplate: S_Alpine_Ambient_1]
+ObjectTemplate.create Sound S_Alpine_Ambient_1
+ObjectTemplate.activeSafe Sound S_Alpine_Ambient_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/fushe_alpine_ambient.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position -409.836/172.459/-129.967
+ObjectTemplate.minDistance 80
+
+Sound.addTrigger S_Alpine_Ambient_1
+
+rem [SoundObjectTemplate: S_river_1]
+ObjectTemplate.create Sound S_river_1
+ObjectTemplate.activeSafe Sound S_river_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/river_1.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.48
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 114.174/61.6/-38.159
+ObjectTemplate.minDistance 32
+
+Sound.addTrigger S_river_1
+
+rem [SoundObjectTemplate: S_Windy_Outpost_3]
+ObjectTemplate.create Sound S_Windy_Outpost_3
+ObjectTemplate.activeSafe Sound S_Windy_Outpost_3
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/windy_outpost.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position -250.099/139.473/-71.912
+ObjectTemplate.minDistance 8
+
+Sound.addTrigger S_Windy_Outpost_3
+
+rem [SoundObjectTemplate: S_River_2]
+ObjectTemplate.create Sound S_River_2
+ObjectTemplate.activeSafe Sound S_River_2
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/water_running_under_bridge.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.45
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 734.288/61.8/451.289
+ObjectTemplate.minDistance 25
+
+Sound.addTrigger S_River_2
+
+rem [SoundObjectTemplate: S_Windy_Iron_Bridge_3]
+ObjectTemplate.create Sound S_Windy_Iron_Bridge_3
+ObjectTemplate.activeSafe Sound S_Windy_Iron_Bridge_3
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/under_metalbridge.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 721.945/72.905/411.454
+ObjectTemplate.minDistance 12
+
+Sound.addTrigger S_Windy_Iron_Bridge_3
+
+rem [SoundObjectTemplate: S_Windy_Iron_Bridge_4]
+ObjectTemplate.create Sound S_Windy_Iron_Bridge_4
+ObjectTemplate.activeSafe Sound S_Windy_Iron_Bridge_4
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/under_metalbridge.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 680.896/73.167/411.788
+ObjectTemplate.minDistance 12
+
+Sound.addTrigger S_Windy_Iron_Bridge_4
+
+rem [SoundObjectTemplate: S_Windy_Iron_Bridge_5]
+ObjectTemplate.create Sound S_Windy_Iron_Bridge_5
+ObjectTemplate.activeSafe Sound S_Windy_Iron_Bridge_5
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/under_metalbridge.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 701.844/73.619/411.167
+ObjectTemplate.minDistance 12
+
+Sound.addTrigger S_Windy_Iron_Bridge_5
+
+rem [SoundObjectTemplate: S_river_3]
+ObjectTemplate.create Sound S_river_3
+ObjectTemplate.activeSafe Sound S_river_3
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/water_running_under_bridge.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.24
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 676.329/57.399/357.871
+ObjectTemplate.minDistance 25
+
+Sound.addTrigger S_river_3
+
+rem [SoundObjectTemplate: S_Wooden_Shelter_5]
+ObjectTemplate.create Sound S_Wooden_Shelter_5
+ObjectTemplate.activeSafe Sound S_Wooden_Shelter_5
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/wooden_shelter_1.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 303.906/148.895/40.486
+ObjectTemplate.minDistance 6
+
+Sound.addTrigger S_Wooden_Shelter_5
+
+rem [SoundObjectTemplate: S_Tunnel_Sewer_3]
+ObjectTemplate.create Sound S_Tunnel_Sewer_3
+ObjectTemplate.activeSafe Sound S_Tunnel_Sewer_3
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/tunnel_sewer.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 107.879/59.099/-13.495
+ObjectTemplate.minDistance 5
+ObjectTemplate.soundRadius 0.6
+
+Sound.addTrigger S_Tunnel_Sewer_3
+
+rem [SoundObjectTemplate: S_Tunnel_Sewer_4]
+ObjectTemplate.create Sound S_Tunnel_Sewer_4
+ObjectTemplate.activeSafe Sound S_Tunnel_Sewer_4
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/tunnel_sewer.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 101.924/58.497/-6.919
+ObjectTemplate.minDistance 5
+ObjectTemplate.soundRadius 0.6
+
+Sound.addTrigger S_Tunnel_Sewer_4
+
+rem [SoundObjectTemplate: S_Tunnel_Sewer_5]
+ObjectTemplate.create Sound S_Tunnel_Sewer_5
+ObjectTemplate.activeSafe Sound S_Tunnel_Sewer_5
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/tunnel_sewer.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 83.668/60.909/-42.737
+ObjectTemplate.minDistance 6
+
+Sound.addTrigger S_Tunnel_Sewer_5
+
+rem [SoundObjectTemplate: S_Tunnel_Sewer_6]
+ObjectTemplate.create Sound S_Tunnel_Sewer_6
+ObjectTemplate.activeSafe Sound S_Tunnel_Sewer_6
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/tunnel_sewer.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 77.84/61.133/-40.557
+ObjectTemplate.minDistance 6
+
+Sound.addTrigger S_Tunnel_Sewer_6
+
+rem [SoundObjectTemplate: S_Dam_2]
+ObjectTemplate.create Sound S_Dam_2
+ObjectTemplate.activeSafe Sound S_Dam_2
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/dam_ambient_1.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position -197.048/96.707/157.592
+ObjectTemplate.minDistance 130
+
+Sound.addTrigger S_Dam_2
+
+rem [SoundObjectTemplate: S_river_4]
+ObjectTemplate.create Sound S_river_4
+ObjectTemplate.activeSafe Sound S_river_4
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/water_running_under_bridge.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.45
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 718.47/61.526/417.628
+ObjectTemplate.minDistance 25
+
+Sound.addTrigger S_river_4
+
+rem [SoundObjectTemplate: S_river_5]
+ObjectTemplate.create Sound S_river_5
+ObjectTemplate.activeSafe Sound S_river_5
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/water_running_under_bridge.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.45
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 693.014/61.805/412.072
+ObjectTemplate.minDistance 40
+
+Sound.addTrigger S_river_5
+
+rem [SoundObjectTemplate: S_Industry_Ambient_6]
+ObjectTemplate.create Sound S_Industry_Ambient_6
+ObjectTemplate.activeSafe Sound S_Industry_Ambient_6
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/factory_pulse_1.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.61
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 20.866/73.59/153.148
+ObjectTemplate.minDistance 18
+
+Sound.addTrigger S_Industry_Ambient_6
+
+rem [SoundObjectTemplate: S_Industry_Ambient_7]
+ObjectTemplate.create Sound S_Industry_Ambient_7
+ObjectTemplate.activeSafe Sound S_Industry_Ambient_7
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/factory_pulse_1.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.61
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 37.72/74.736/152.866
+ObjectTemplate.minDistance 18
+
+Sound.addTrigger S_Industry_Ambient_7
+
+rem [SoundObjectTemplate: S_river_6]
+ObjectTemplate.create Sound S_river_6
+ObjectTemplate.activeSafe Sound S_river_6
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/water_running_under_bridge.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.45
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position -742.699/99.292/-165.44
+ObjectTemplate.minDistance 70
+
+Sound.addTrigger S_river_6
+
+rem [SoundObjectTemplate: S_Boat_House_2]
+ObjectTemplate.create Sound S_Boat_House_2
+ObjectTemplate.activeSafe Sound S_Boat_House_2
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/boathouse_by_river.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.42
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position -730.218/101.761/-181.639
+ObjectTemplate.minDistance 8
+
+Sound.addTrigger S_Boat_House_2
+
+rem [SoundObjectTemplate: S_Forest_1]
+ObjectTemplate.create Sound S_Forest_1
+ObjectTemplate.activeSafe Sound S_Forest_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/dragon_valley/forest_1.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 849.77/88.18/702.736
+ObjectTemplate.minDistance 60
+
+Sound.addTrigger S_Forest_1
+
+rem [SoundObjectTemplate: S_Forest_1_1]
+ObjectTemplate.create Sound S_Forest_1_1
+ObjectTemplate.activeSafe Sound S_Forest_1_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/dragon_valley/forest_1.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 828.026/69.675/597.32
+ObjectTemplate.minDistance 40
+
+Sound.addTrigger S_Forest_1_1
+
+rem [SoundObjectTemplate: S_Forest_2]
+ObjectTemplate.create Sound S_Forest_2
+ObjectTemplate.activeSafe Sound S_Forest_2
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/dragon_valley/forest_2.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 684.642/89.543/549.282
+ObjectTemplate.minDistance 40
+
+Sound.addTrigger S_Forest_2
+
+rem [SoundObjectTemplate: S_Forest_2_1]
+ObjectTemplate.create Sound S_Forest_2_1
+ObjectTemplate.activeSafe Sound S_Forest_2_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/dragon_valley/forest_2.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 571.918/105.554/372.689
+ObjectTemplate.minDistance 40
+
+Sound.addTrigger S_Forest_2_1
+
+rem [SoundObjectTemplate: S_Forest_1_2]
+ObjectTemplate.create Sound S_Forest_1_2
+ObjectTemplate.activeSafe Sound S_Forest_1_2
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/dragon_valley/forest_1.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 855.129/96.229/372.366
+ObjectTemplate.minDistance 60
+
+Sound.addTrigger S_Forest_1_2
+
+rem [SoundObjectTemplate: S_Forest_3]
+ObjectTemplate.create Sound S_Forest_3
+ObjectTemplate.activeSafe Sound S_Forest_3
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/dragon_valley/forest_3.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 667.492/122.112/92.948
+ObjectTemplate.minDistance 30
+
+Sound.addTrigger S_Forest_3
+
+rem [SoundObjectTemplate: S_Forest_3_1]
+ObjectTemplate.create Sound S_Forest_3_1
+ObjectTemplate.activeSafe Sound S_Forest_3_1
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/dragon_valley/forest_3.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 426.561/156.977/197.619
+ObjectTemplate.minDistance 40
+
+Sound.addTrigger S_Forest_3_1
+
+rem [SoundObjectTemplate: S_Windy_Outpost_3_0]
+ObjectTemplate.create Sound S_Windy_Outpost_3_0
+ObjectTemplate.activeSafe Sound S_Windy_Outpost_3_0
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/fushe_pass/windy_outpost.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position -251.278/140.579/-71.361
+ObjectTemplate.minDistance 8
+
+Sound.addTrigger S_Windy_Outpost_3_0
+
+rem [SoundObjectTemplate: S_Forest_3_2]
+ObjectTemplate.create Sound S_Forest_3_2
+ObjectTemplate.activeSafe Sound S_Forest_3_2
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/dragon_valley/forest_3.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 271.025/153.976/243.319
+ObjectTemplate.minDistance 20
+
+Sound.addTrigger S_Forest_3_2
+
+rem [SoundObjectTemplate: S_Forest_3_3]
+ObjectTemplate.create Sound S_Forest_3_3
+ObjectTemplate.activeSafe Sound S_Forest_3_3
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/dragon_valley/forest_3.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 190.738/171.498/345.805
+ObjectTemplate.minDistance 15
+
+Sound.addTrigger S_Forest_3_3
+
+rem [SoundObjectTemplate: S_Forest_3_4]
+ObjectTemplate.create Sound S_Forest_3_4
+ObjectTemplate.activeSafe Sound S_Forest_3_4
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/dragon_valley/forest_3.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 76.728/108.714/309.006
+ObjectTemplate.minDistance 15
+
+Sound.addTrigger S_Forest_3_4
+
+rem [SoundObjectTemplate: S_Forest_3_5]
+ObjectTemplate.create Sound S_Forest_3_5
+ObjectTemplate.activeSafe Sound S_Forest_3_5
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/dragon_valley/forest_3.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 51.528/105.621/305.543
+ObjectTemplate.minDistance 15
+
+Sound.addTrigger S_Forest_3_5
+
+rem [SoundObjectTemplate: S_Forest_3_6]
+ObjectTemplate.create Sound S_Forest_3_6
+ObjectTemplate.activeSafe Sound S_Forest_3_6
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/dragon_valley/forest_3.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 278.493/145.451/27.94
+ObjectTemplate.minDistance 15
+
+Sound.addTrigger S_Forest_3_6
+
+rem [SoundObjectTemplate: S_Forest_3_7]
+ObjectTemplate.create Sound S_Forest_3_7
+ObjectTemplate.activeSafe Sound S_Forest_3_7
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/dragon_valley/forest_3.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 279.328/155.574/111.889
+ObjectTemplate.minDistance 15
+
+Sound.addTrigger S_Forest_3_7
+
+rem [SoundObjectTemplate: S_Forest_1_3]
+ObjectTemplate.create Sound S_Forest_1_3
+ObjectTemplate.activeSafe Sound S_Forest_1_3
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/dragon_valley/forest_1.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 390.86/90.3/-176.26
+ObjectTemplate.minDistance 40
+
+Sound.addTrigger S_Forest_1_3
+
+rem [SoundObjectTemplate: S_Forest_1_4]
+ObjectTemplate.create Sound S_Forest_1_4
+ObjectTemplate.activeSafe Sound S_Forest_1_4
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/dragon_valley/forest_1.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 352.301/98.274/-343.443
+ObjectTemplate.minDistance 40
+
+Sound.addTrigger S_Forest_1_4
+
+rem [SoundObjectTemplate: S_Forest_1_5]
+ObjectTemplate.create Sound S_Forest_1_5
+ObjectTemplate.activeSafe Sound S_Forest_1_5
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/dragon_valley/forest_1.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 284.805/96.298/-336.058
+ObjectTemplate.minDistance 40
+
+Sound.addTrigger S_Forest_1_5
+
+rem [SoundObjectTemplate: S_Forest_1_6]
+ObjectTemplate.create Sound S_Forest_1_6
+ObjectTemplate.activeSafe Sound S_Forest_1_6
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/dragon_valley/forest_1.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position -20.762/86.926/211.632
+ObjectTemplate.minDistance 40
+
+Sound.addTrigger S_Forest_1_6
+
+rem [SoundObjectTemplate: S_Forest_1_7]
+ObjectTemplate.create Sound S_Forest_1_7
+ObjectTemplate.activeSafe Sound S_Forest_1_7
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/dragon_valley/forest_1.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 47.686/73.596/208.807
+ObjectTemplate.minDistance 25
+
+Sound.addTrigger S_Forest_1_7
+
+rem [SoundObjectTemplate: S_Forest_1_8]
+ObjectTemplate.create Sound S_Forest_1_8
+ObjectTemplate.activeSafe Sound S_Forest_1_8
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/dragon_valley/forest_1.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position -609.43/114.844/-144.431
+ObjectTemplate.minDistance 25
+
+Sound.addTrigger S_Forest_1_8
+
+rem [SoundObjectTemplate: S_Forest_1_9]
+ObjectTemplate.create Sound S_Forest_1_9
+ObjectTemplate.activeSafe Sound S_Forest_1_9
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/dragon_valley/forest_1.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position -724.134/122.281/-314.927
+ObjectTemplate.minDistance 25
+
+Sound.addTrigger S_Forest_1_9
+
+rem [SoundObjectTemplate: S_Forest_1_10]
+ObjectTemplate.create Sound S_Forest_1_10
+ObjectTemplate.activeSafe Sound S_Forest_1_10
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/dragon_valley/forest_1.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position -694.043/123.895/-276.019
+ObjectTemplate.minDistance 25
+
+Sound.addTrigger S_Forest_1_10
+
+rem [SoundObjectTemplate: S_Forest_1_11]
+ObjectTemplate.create Sound S_Forest_1_11
+ObjectTemplate.activeSafe Sound S_Forest_1_11
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/dragon_valley/forest_1.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position -751.611/123.928/-374.464
+ObjectTemplate.minDistance 40
+
+Sound.addTrigger S_Forest_1_11
+
+rem [SoundObjectTemplate: S_Forest_1_12]
+ObjectTemplate.create Sound S_Forest_1_12
+ObjectTemplate.activeSafe Sound S_Forest_1_12
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/dragon_valley/forest_1.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position -503.432/126.788/-365.144
+ObjectTemplate.minDistance 60
+
+Sound.addTrigger S_Forest_1_12
+
+rem [SoundObjectTemplate: S_Forest_1_13]
+ObjectTemplate.create Sound S_Forest_1_13
+ObjectTemplate.activeSafe Sound S_Forest_1_13
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/dragon_valley/forest_1.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position -422.092/126.629/-291.463
+ObjectTemplate.minDistance 30
+
+Sound.addTrigger S_Forest_1_13
+
+rem [SoundObjectTemplate: S_Forest_3_8]
+ObjectTemplate.create Sound S_Forest_3_8
+ObjectTemplate.activeSafe Sound S_Forest_3_8
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/dragon_valley/forest_3.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position -602.586/107.998/-65.245
+ObjectTemplate.minDistance 15
+
+Sound.addTrigger S_Forest_3_8
+
+rem [SoundObjectTemplate: S_Forest_3_9]
+ObjectTemplate.create Sound S_Forest_3_9
+ObjectTemplate.activeSafe Sound S_Forest_3_9
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/dragon_valley/forest_3.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position -559.685/113.254/-80.746
+ObjectTemplate.minDistance 15
+
+Sound.addTrigger S_Forest_3_9
+
+rem [SoundObjectTemplate: S_Forest_3_10]
+ObjectTemplate.create Sound S_Forest_3_10
+ObjectTemplate.activeSafe Sound S_Forest_3_10
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/dragon_valley/forest_3.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position -26.813/72.166/147.047
+ObjectTemplate.minDistance 15
+
+Sound.addTrigger S_Forest_3_10
+
+rem [SoundObjectTemplate: S_Forest_3_11]
+ObjectTemplate.create Sound S_Forest_3_11
+ObjectTemplate.activeSafe Sound S_Forest_3_11
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/dragon_valley/forest_2.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position -5.72/71.437/59.439
+ObjectTemplate.minDistance 16
+
+Sound.addTrigger S_Forest_3_11
+
+rem [SoundObjectTemplate: S_Forest_3_12]
+ObjectTemplate.create Sound S_Forest_3_12
+ObjectTemplate.activeSafe Sound S_Forest_3_12
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/dragon_valley/forest_3.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position -2.087/71.975/43.342
+ObjectTemplate.minDistance 15
+
+Sound.addTrigger S_Forest_3_12
+
+rem [SoundObjectTemplate: S_Forest_3_13]
+ObjectTemplate.create Sound S_Forest_3_13
+ObjectTemplate.activeSafe Sound S_Forest_3_13
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/dragon_valley/forest_3.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position -18.596/77.417/-22.204
+ObjectTemplate.minDistance 10
+
+Sound.addTrigger S_Forest_3_13
+
+rem [SoundObjectTemplate: S_Forest_3_14]
+ObjectTemplate.create Sound S_Forest_3_14
+ObjectTemplate.activeSafe Sound S_Forest_3_14
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/dragon_valley/forest_3.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 6.453/78.615/-107.64
+ObjectTemplate.minDistance 20
+
+Sound.addTrigger S_Forest_3_14
+
+rem [SoundObjectTemplate: S_Forest_3_15]
+ObjectTemplate.create Sound S_Forest_3_15
+ObjectTemplate.activeSafe Sound S_Forest_3_15
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/dragon_valley/forest_3.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 49.609/76.409/-75.397
+ObjectTemplate.minDistance 20
+
+Sound.addTrigger S_Forest_3_15
+
+rem [SoundObjectTemplate: S_Forest_3_16]
+ObjectTemplate.create Sound S_Forest_3_16
+ObjectTemplate.activeSafe Sound S_Forest_3_16
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/dragon_valley/forest_3.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 145.498/68.39/-133.403
+ObjectTemplate.minDistance 10
+
+Sound.addTrigger S_Forest_3_16
+
+rem [SoundObjectTemplate: S_Forest_3_17]
+ObjectTemplate.create Sound S_Forest_3_17
+ObjectTemplate.activeSafe Sound S_Forest_3_17
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/dragon_valley/forest_3.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 329.768/85.276/-199.616
+ObjectTemplate.minDistance 10
+
+Sound.addTrigger S_Forest_3_17
+
+rem [SoundObjectTemplate: S_Forest_3_18]
+ObjectTemplate.create Sound S_Forest_3_18
+ObjectTemplate.activeSafe Sound S_Forest_3_18
+ObjectTemplate.modifiedByUser dgo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/dragon_valley/forest_3.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 414.245/155.461/193.392
+ObjectTemplate.minDistance 30
+
+Sound.addTrigger S_Forest_3_18
+
+if v_arg1 == BF2Editor
+
+Object.create S_Windy_Outpost_1
+Object.absolutePosition -171.112/139.894/34.289
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Windy_Outpost_2
+Object.absolutePosition -193.121/115.688/-5.323
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Boat_House_1
+Object.absolutePosition 691.456/58.931/413.117
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Wooden_Shelter_1
+Object.absolutePosition -151.738/126.624/310.361
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Village_Ambient_1
+Object.absolutePosition 598.331/99.573/531.198
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Village_Ambient_2
+Object.absolutePosition 616.418/96.002/597.966
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Inside_House_1
+Object.absolutePosition 600.061/95.996/544.220
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Windy_Iron_Bridge
+Object.absolutePosition 663.819/73.917/412.509
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Windy_Iron_Bridge_2
+Object.absolutePosition 739.136/76.044/411.194
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Wooden_Shelter_2
+Object.absolutePosition -226.253/130.597/297.286
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Wooden_Shelter_3
+Object.absolutePosition -226.197/130.597/286.251
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Tunnel_Sewer_1
+Object.absolutePosition 92.199/60.651/-47.178
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Tunnel_Sewer_2
+Object.absolutePosition 112.918/58.871/-19.870
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Generators_1
+Object.absolutePosition 372.932/92.395/-249.725
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Hangar_1
+Object.absolutePosition 743.397/89.996/719.549
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Hangar_2
+Object.absolutePosition 773.743/89.996/719.423
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Hangar_3
+Object.absolutePosition -591.097/123.901/-491.274
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Hangar_4
+Object.absolutePosition -621.584/123.901/-472.346
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Dam_1
+Object.absolutePosition -555.325/93.530/108.611
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Pond_1
+Object.absolutePosition 1.466/113.811/333.164
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Industry_Ambient_1
+Object.absolutePosition -8.387/77.594/-38.891
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Industry_Ambient_2
+Object.absolutePosition 105.947/126.180/142.474
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Industry_Ambient_3
+Object.absolutePosition -171.869/79.564/-23.057
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Pulse_Erie_1
+Object.absolutePosition -150.484/79.297/3.315
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Factory_Interior_1
+Object.absolutePosition -243.700/79.297/-17.495
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Pulse_Stone_1
+Object.absolutePosition 129.974/88.905/212.475
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Factory_Semi_Interior_1
+Object.absolutePosition 0.160/77.594/-39.671
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Alpine_Ambient_1
+Object.absolutePosition -409.836/172.459/-129.967
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_river_1
+Object.absolutePosition 114.174/61.600/-38.159
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Windy_Outpost_3
+Object.absolutePosition -250.099/139.473/-71.912
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_River_2
+Object.absolutePosition 734.288/61.800/451.289
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Windy_Iron_Bridge_3
+Object.absolutePosition 721.945/72.905/411.454
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Windy_Iron_Bridge_4
+Object.absolutePosition 680.896/73.167/411.788
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Windy_Iron_Bridge_5
+Object.absolutePosition 701.844/73.619/411.167
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_river_3
+Object.absolutePosition 676.329/57.399/357.871
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Wooden_Shelter_5
+Object.absolutePosition 303.906/148.895/40.486
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Tunnel_Sewer_3
+Object.absolutePosition 107.879/59.099/-13.495
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Tunnel_Sewer_4
+Object.absolutePosition 101.924/58.497/-6.919
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Tunnel_Sewer_5
+Object.absolutePosition 83.668/60.909/-42.737
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Tunnel_Sewer_6
+Object.absolutePosition 77.840/61.133/-40.557
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Dam_2
+Object.absolutePosition -197.048/96.707/157.592
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_river_4
+Object.absolutePosition 718.470/61.526/417.628
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_river_5
+Object.absolutePosition 693.014/61.805/412.072
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Industry_Ambient_6
+Object.absolutePosition 20.866/73.590/153.148
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Industry_Ambient_7
+Object.absolutePosition 37.720/74.736/152.866
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_river_6
+Object.absolutePosition -742.699/99.292/-165.440
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Boat_House_2
+Object.absolutePosition -730.218/101.761/-181.639
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Forest_1
+Object.absolutePosition 849.770/88.180/702.736
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Forest_1_1
+Object.absolutePosition 828.026/69.675/597.320
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Forest_2
+Object.absolutePosition 684.642/89.543/549.282
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Forest_2_1
+Object.absolutePosition 571.918/105.554/372.689
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Forest_1_2
+Object.absolutePosition 855.129/96.229/372.366
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Forest_3
+Object.absolutePosition 667.492/122.112/92.948
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Forest_3_1
+Object.absolutePosition 426.561/156.977/197.619
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Windy_Outpost_3_0
+Object.absolutePosition -251.278/140.579/-71.361
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Forest_3_2
+Object.absolutePosition 271.025/153.976/243.319
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Forest_3_3
+Object.absolutePosition 190.738/171.498/345.805
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Forest_3_4
+Object.absolutePosition 76.728/108.714/309.006
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Forest_3_5
+Object.absolutePosition 51.528/105.621/305.543
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Forest_3_6
+Object.absolutePosition 278.493/145.451/27.940
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Forest_3_7
+Object.absolutePosition 279.328/155.574/111.889
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Forest_1_3
+Object.absolutePosition 390.860/90.300/-176.260
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Forest_1_4
+Object.absolutePosition 352.301/98.274/-343.443
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Forest_1_5
+Object.absolutePosition 284.805/96.298/-336.058
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Forest_1_6
+Object.absolutePosition -20.762/86.926/211.632
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Forest_1_7
+Object.absolutePosition 47.686/73.596/208.807
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Forest_1_8
+Object.absolutePosition -609.430/114.844/-144.431
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Forest_1_9
+Object.absolutePosition -724.134/122.281/-314.927
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Forest_1_10
+Object.absolutePosition -694.043/123.895/-276.019
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Forest_1_11
+Object.absolutePosition -751.611/123.928/-374.464
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Forest_1_12
+Object.absolutePosition -503.432/126.788/-365.144
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Forest_1_13
+Object.absolutePosition -422.092/126.629/-291.463
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Forest_3_8
+Object.absolutePosition -602.586/107.998/-65.245
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Forest_3_9
+Object.absolutePosition -559.685/113.254/-80.746
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Forest_3_10
+Object.absolutePosition -26.813/72.166/147.047
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Forest_3_11
+Object.absolutePosition -5.720/71.437/59.439
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Forest_3_12
+Object.absolutePosition -2.087/71.975/43.342
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Forest_3_13
+Object.absolutePosition -18.596/77.417/-22.204
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Forest_3_14
+Object.absolutePosition 6.453/78.615/-107.640
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Forest_3_15
+Object.absolutePosition 49.609/76.409/-75.397
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Forest_3_16
+Object.absolutePosition 145.498/68.390/-133.403
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Forest_3_17
+Object.absolutePosition 329.768/85.276/-199.616
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+Object.create S_Forest_3_18
+Object.absolutePosition 414.245/155.461/193.392
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+endIf
